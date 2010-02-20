@@ -294,10 +294,9 @@
   <!-- =================================================================== -->
   <target name="package_source_distribution"
       depends="init, clean, compile_java, generate_java_docs">
-    <property name="prefix" value="awapi_java_lib_${version}" />
-    <delete file="${build.dir}/awapi_java_lib_${version}-src.tar.gz" />
-    <tar destfile="${build.dir}/awapi_java_lib_${version}-src.tar.gz"
-        compression="gzip">
+    <property name="prefix" value="${jar.name}" />
+    <delete file="${build.dir}/${jar.name}-src.tar.gz" />
+    <tar destfile="${build.dir}/${jar.name}-src.tar.gz" compression="gzip">
       <tarfileset dir="${src}" prefix="${prefix}/src">
         <include name="**/*.java" />
         <include name="**/*.properties" />
