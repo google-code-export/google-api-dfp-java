@@ -28,8 +28,7 @@ import javax.xml.rpc.ServiceException;
  * way in which a service is generated is performed as:
  * <p>
  * <code>
- * DfpUser user = new DfpUser(email, password, clientId, userAgent,
- *     developerToken, applicationToken);
+ * DfpUser user = new DfpUser(email, password, networkCode, applicationName, true);
  * ServiceInterface service = user.getService(DfpService.version.serviceName);
  * </code>
  * <p>
@@ -38,7 +37,7 @@ import javax.xml.rpc.ServiceException;
  * {@code ServiceException} will be thrown. For example, if you wished to
  * get the service {@code InventoryService} and you referenced this service by
  * {@code DfpService.v201002.INVENTORY_SERVICE}, your import of
- * {@code CampaignServiceInterface} should be from the package
+ * {@code InventoryServiceInterface} should be from the package
  * {@code com.google.api.ads.dfp.v201002}.
  *
  * @author api.arogal@gmail.com (Adam Rogal)
