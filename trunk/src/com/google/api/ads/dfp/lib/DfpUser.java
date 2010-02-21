@@ -27,10 +27,8 @@ import javax.xml.rpc.ServiceException;
  * authenticate a user as well as generate a valid service for that user. The
  * way in which a service is generated is performed as:
  * <p>
- * <code>
- * DfpUser user = new DfpUser(email, password, networkCode, applicationName, true);
- * ServiceInterface service = user.getService(DfpService.version.serviceName);
- * </code>
+ * <code>DfpUser user = new DfpUser(email, password, networkCode, applicationName, true);</code><br/>
+ * <code>ServiceInterface service = user.getService(DfpService.version.serviceName);</code>
  * <p>
  * The interface {@code <Service>Interface} should match that described by
  * {@code DfpService.version.serviceName} or else a
