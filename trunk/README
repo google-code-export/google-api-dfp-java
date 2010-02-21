@@ -1,0 +1,352 @@
+
+Google's DoubleClick For Publishers API Java Client Library
+===========================================================
+
+Google's DoubleClick For Publishers API service lets developers design computer
+programs that interact directly with the DFP platform. With these applications,
+advertisers and third parties can more efficiently -- and creatively -- manage
+their large or complex Publisher Display Ads accounts.
+
+The DFP API Java Client Library makes it easy to write Java clients to
+programmatically access Publisher Display Ads accounts. The client library is
+provided in two separate distributions, both containing classes and utilities to
+aid the developer. All client library classes and utilities are in the package
+or sub-packages of "com.google.api.ads.dfp.lib".
+
+The client library is distributed in two separate jars. For developers
+who are first time users of the client library and do not have an
+enterprise environment established already, the stand-alone jar (i.e.
+dfp-api-{version}.jar) contains all external jars and
+pre-compiled Axis stub classes to get started right away. For developers which
+need to supply their own external jars, the loner jar (i.e.
+dfp-api-{version}.jar) only contains the pre-compiled Axis
+stub classes. The complete documentation for DoubleClick For Publishers API is
+supplied within the trust tested forum.
+
+
+What's in the client library?
+-----------------------------
+
+The client library provides full access to all the functionality of the
+DoubleClick For Publishers API web services plus more. It includes:
+
+  - Data classes: The client library provides all the necessary data classes.
+    For example, it provides the AdUnit data class for encapsulating ad unit
+    data. These classes are generated automatically from WSDLs.
+
+  - DfpUser class: The DfpUser class provides methods for setting credentials
+    for accessing DFP accounts as well as for creating instances of the DFP
+    Service classes.
+
+  - Helpful utilities: The utilities located under
+    com.google.api.ads.dfp.lib.utils help you manage XML and import
+    images into the client library.
+
+  - DfpServiceLogger class: This class provides simple methods
+    for logging the SOAP XML messages of all requests and responses. This class
+    also exposes the Log4J functionality of this library.
+
+  - ApiException class: The Java client library converts Axis faults into
+    ApiExceptions where possible. For an example of how to use ApiException, see
+    the ApiExceptionDemo.java sample code. The wrapping of exceptions is
+    introduced in the Axis stub classes using an around advice.
+
+    Note: You do not need to edit ApiExceptionDemo to fix the credentials since
+    the point is for it to throw an exception due to invalid credentials.
+
+  - Examples: The Java client library comes with code samples in the "examples/"
+    directory. We encourage you to use code samples to get started writing your
+    own application. All the code samples are runnable out of the box, but you
+    will have to set your credentials in "~/dfp.properties".
+
+
+Basic usage
+-----------
+
+For those of you who have already built Java clients without
+using the client library, the DfpUser class has methods for
+setting username, password, networkCode, and applicationName so that you
+don't have to write the code to set the request headers. The methods for
+creating new instances of service classes takes the place of the code
+for instantiating the stubs that connect to the web services.
+
+In the following example, for using default constructor,
+
+    DfpUser user = new DfpUser();
+
+the credentials are loaded from "~/dfp.properties" file. There
+is a sample "dfp.properties" file in the project's home
+directory. You need to customize it with your actual credentials and copy it
+into your home directory.
+
+An alternative to "dfp.properties" file is to pass in all
+credentials as parameters to DfpUser constructor.
+
+    DfpUser user = new DfpUser(email, password, networkCode, applicationName);
+
+    or
+
+    // Used if user only has one network and does not need to supply
+    // network code.
+    DfpUser user = new DfpUser(email, password, applicationName);
+
+
+How do I start?
+---------------
+If you haven't done so yet, you'll need to request sandbox access to the API as
+directed on this page:
+
+  http://code.google.com/apis/dfp/docs/signup.html
+
+Place "lib/dfp-api-{version}.jar" into your classpath (or
+"lib/dfp-api-{version}-loner.jar" if you prefer to take care of
+all the external dependencies yourself). There is no need to worry about
+accessing the WSDLs for the web services; the classes in the client library do
+it for you. Demo programs in "examples/" directory can be used to get started
+writing your own client. They should work out of the box if you provide the
+right credentials; the default behavior is to use credentials from
+"~/dfp.properties". A sample properties file is located in the
+distributions root directory. It should be copied into your home directory and
+filled with actual credentials. Again, this file will only be used the default
+constructor of the DfpUser class.
+
+To write a program that accesses Publisher Display Ads accounts using the client
+library, do the following:
+
+  1) Import the following packages or classes:
+
+     // Contains the data classes and service classes.
+     import com.google.api.ads.dfp.v201002.*;
+
+     import com.google.api.ads.dfp.lib.DfpUser;
+
+     // This package is optional, but you need it if you want to log the content
+     // of the requests and responses, which can be useful for debugging. See
+     // the Logging section for more details
+     import com.google.api.ads.dfp.lib.DfpServiceLogger;
+
+     // Axis faults get thrown as ApiExceptions. Import ApiException if you want
+     // to throw it or catch it.
+     import com.google.api.ads.dfp.v201002.ApiException;
+
+  2) Create an DfpUser instance, specifying the credentials at
+     creation time. Or, you can use the default constructor after completing
+     the properties file and copying it to your home directory.
+
+     DfpUser user = new DfpUser(email, password, networkCode, applicationName);
+
+  3) Optionally, enable logging to capture the content of the requests and
+     responses. This example sends the information to a file:
+
+     DfpServiceLogger.logToFile(DfpServiceLogger.SOAP_XML, "myFile.log");
+
+  4) Instantiate the desired service class by calling the getService method on
+     the DfpUser instance with the appropriate service constant,
+     which are defined within DfpService.
+
+     InventoryServiceInterface inventoryService =
+         user.getService(DfpService.V201002.INVENTORY_SERVICE);
+
+     Note: The interface that should be used for the type of 'service' is
+     mentioned in the JavaDoc for the service constant.
+
+  5) Create data objects and invoke methods on the service class instance. The
+     data objects and methods map directly to the data objects and requests for
+     the corresponding web service.
+
+     // Create the ad unit structure.
+     AdUnit adUnit = new AdUnit();
+     adUnit.setDescription("INSERT_DESCRIPTION HERE");
+     adUnit.setName("INSERT_NAME_HERE");
+     adUnit.setParentId("INSERT_PARENT_ID_HERE");
+     adUnit.setStatus(Status.ACTIVE);
+
+     // Set the size of possible creatives.
+     adUnit.setSizes(new Size[] {new Size(300, 250)});
+
+     // Set the AdSenseSettings belonging to the parent ad unit.
+     adUnit.setInheritedAdSenseSettings(
+         inventoryService.getAdUnit("INSERT_PARENT_ID_HERE")
+             .getInheritedAdSenseSettings());
+
+    // Create the ad unit.
+    adUnit = inventoryService.createAdUnit(adUnit);
+
+
+Running demo programs
+---------------------
+
+Demo programs can be compiled and run by executing the following on command line
+from a sub-directory of the "examples/" directory,
+
+    $ javac -classpath ../lib/dfp-api-{version}.jar *.java
+    $ java -classpath .:../lib/dfp-api-{version}.jar\
+      classname [parameters]
+
+
+How do I enable logging?
+------------------------
+
+The client library uses Log4J for all logging purposes and is exposed through
+the DfpServiceLogger class. There are four loggers within this
+class described below. To quickly begin logging, simply insert this line into
+your code:
+
+    // Enable default logging behavior.
+    DfpServiceLogger.log();
+
+This invokes the default behavior as described below:
+
+  - SOAP_XML_LOG: Logs all incoming and outgoing SOAP requests/responses. The
+    default behavior is to log this information to "logs/soap_xml.log" relative
+    to your project's home directory.
+
+  - REQUEST_INFO_LOG: Logs all requests from the client library along
+    with information such as the timestamp, email, service, method,
+    request Id, response time and whether the sandbox was used. The default
+    behavior is to log this information to "logs/request_info.log" relative to
+    your project's home directory.
+
+  - DFP_API_LIB_LOG: Logs all important messages from the client library such as
+    exceptions raised from utility classes. The default behavior is to log
+    this information to "logs/dfp_api_lib.log" relative to your project's
+    home directory.
+
+  - AXIS_LOG: Logs all messages coming from the class
+    org.apache.axis.transport.http.HTTPSender. This log may be useful for
+    debugging SOAP connection issues and is used by the ServiceAccountant
+    class to determine usage statistics. The default behavior is not to log
+    this to any file or output stream.
+
+Because the client library uses Log4J, alternatively, you can supply a
+log4j.properties file in your classpath to configure these logs before runtime.
+A sample log4j.properties that performs the default behavior is included in
+this distribution in the root directory.
+
+
+Memory issues from ServiceAccountantManager
+-------------------------------------------
+
+There a few options for developers in terms of memory management. By
+default, the ServiceAccountantManager does not retain a reference to any
+services. For those who wish to use the ServiceAccountantManger as a service
+repository, service retention must be enabled. The
+developer is then resposible for removing unused services (using
+ServiceAccountantManager.remove*() or ServiceAccountantManager.clear()) to allow
+for those retained service objects to be garbage collected.
+
+
+JVM parameters
+--------------
+
+The following are the available JVM parameters and their defaults used for
+configuration:
+
+// Instructs the service factory to use the client-config.wsdd included in the
+// the classpath. See the "What if I need to deploy a custom client..." section
+// for more information. Defaults to not using the wsdd in the classpath.
+[com.google.api.ads.dfp.lib.useclasspathclientconfig = false]
+
+// Instructs the service accountant manager to automatically create service
+// accountants, which no longer has an affect on memory consumption. Defaults
+// to automatically creating them.
+[com.google.api.ads.dfp.lib.serviceaccountantmanager.autocreateaccountant = true]
+
+// Instructs the service accountant manager to retain services when the are
+// created through the service factory. Enabling this feature allows the
+// developer to use the service accountant manager as service repository. This
+// can cause memory leaks if the service accountant manager is not regularly
+// cleaned by the developer. Defaults to not retaining services.
+[com.google.api.ads.dfp.lib.serviceaccountantmanager.retainservice = false]
+
+
+How do I ensure that the XML in my logs is pretty-printed?
+----------------------------------------------------------
+
+Although enabling pretty printed XML may degrade performance, it can be
+somewhat helpful for debugging purposes. Included in this distribution is
+a custom client-config.wsdd, which by default will mimic the original
+behavior of the library. Changing the line:
+
+    <parameter name='disablePrettyXML' value='true'/>
+to
+    <parameter name='disablePrettyXML' value='false'/>
+
+and including client-config.wsdd in your classpath will enable pretty-printed
+XML. Please see the deploying a custom client configuration section for more
+information.
+
+
+What if I am behind an HTTP Proxy server?
+----------------------------------------
+
+It is recommended that the user set JVM arguments to configure this application
+for their proxy.
+
+  http.proxyHost      Hostname of proxy server                      web-proxy
+  http.proxyPort      Port on server of proxy                       8080
+  http.proxyUser      Optional username for proxy authentication    someone
+  http.proxyPassword  Optional proxy server password                secret
+
+These properties can be set within the command line such as
+
+    $ java -Dhttp.proxyHost=web-proxy -Dhttp.proxyPort=8080\
+      -Dhttp.proxyUser=someone -Dhttp.proxyPassword=secret ...
+
+or within the code itself; see "examples/utils/ProxyDemo.java" for how to do
+this.
+
+
+What if I need to deploy a custom client configuration for the Axis engine?
+---------------------------------------------------------------------------
+
+The default behavior of the code is to load a custom client configuration
+which sets the HTTP transport to the class DfpHttpSender. This
+class allows for the logging and service accountant functionality. If a custom
+client configuration is needed, the client-config.wsdd included in this
+distribution may be edited and included in the classpath to override
+the hard-coded engine configuration. You will then need to issue the command
+
+  DfpUser.useClasspathClientConfig(true);
+
+This library will still function without including
+DfpHttpSender, however, as stated before, both the request info
+log and the soap XML log will be disabled, along with service accounting
+functionality.
+
+
+External dependencies:
+----------------------
+
+    - Activation (activation-1.0.2.jar)
+    - Apache Ant Contrib (ant-contrib-0.6.jar)
+    - Apache Axis 1.4 (axis.jar)
+    - Apache Axis Ant Plugin (axis-ant.jar)
+    - Apache Commons Codec (commons-codec-1.3.jar)
+    - Apache Commons Discovery (commons-discovery-0.2.jar)
+    - Apache Commons Logging (commons-logging-1.0.4.jar)
+    - Apache Commons Lang (commons-lang-2.4.jar)
+    - Java Mail (javamail-1.3.3_01.jar)
+    - JAX-RPC (jaxrpc.jar)
+    - Log4J (log4j-1.2.15.jar)
+    - Open CSV (opencsv-1.8.jar)
+    - SAAJ (saaj.jar)
+    - Web Services Description Language for Java Toolkit (wsdl4j-1.5.1.jar)
+
+
+Where do I submit bug reports and feature requests?
+---------------------------------------------------
+
+Bug reports and feature requests can be posted on the library page:
+
+  http://code.google.com/p/google-api-dfp-java/issues
+
+Questions can be asked on forum
+
+  http://groups.google.com/group/google-doubleclick-for-publishers-api/
+
+Author:
+    api.arogal@gmail.com (Adam Rogal)
+
+Maintainer:
+    api.arogal@gmail.com (Adam Rogal)
