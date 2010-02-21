@@ -1,0 +1,5 @@
+This directory contains jars that are used by the Publisher Display Ads
+API Java client library during the build process. They are not required for a
+distribution release.
+
+These can be downloaded from build_lib_jars.tar.gz.
