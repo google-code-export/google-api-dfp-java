@@ -133,7 +133,7 @@ library, do the following:
      creation time. Or, you can use the default constructor after completing
      the properties file and copying it to your home directory.
 
-     DfpUser user = new DfpUser(email, password, networkCode, applicationName);
+     DfpUser user = new DfpUser(email, password, applicationName);
 
   3) Optionally, enable logging to capture the content of the requests and
      responses. This example sends the information to a file:

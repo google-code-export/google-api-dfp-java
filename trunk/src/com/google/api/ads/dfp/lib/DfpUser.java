@@ -113,20 +113,8 @@ public class DfpUser {
    * @param password the password
    * @param applicationName the application name
    */
-  public DfpUser(String email, String password,
-      String applicationName) {
+  public DfpUser(String email, String password, String applicationName) {
     this(email, password, null, applicationName, true);
-  }
-
-  /**
-   * Constructor defaults to using the sandbox environment and does not supply
-   * a network. This constructor assumes the user only has one network.
-   *
-   * @param email the email address of the user
-   * @param password the password
-   */
-  public DfpUser(String email, String password) {
-    this(email, password, null, "", true);
   }
 
   /**
