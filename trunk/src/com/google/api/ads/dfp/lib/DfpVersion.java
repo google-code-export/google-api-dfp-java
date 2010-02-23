@@ -112,9 +112,7 @@ public abstract class DfpVersion {
   private static class DfpVersionV201002 extends DfpVersion {
     protected DfpVersionV201002() {
       super("v201002", "https://www.google.com/apis/ads/publisher/v201002",
-          "com.google.api.ads.dfp.",
-          "https://sandbox.google.com/apis/ads/publisher",
-          "https://www.google.com/apis/ads/publisher");
+          "com.google.api.ads.dfp.", "https://sandbox.google.com", "https://www.google.com");
     }
 
     /**
