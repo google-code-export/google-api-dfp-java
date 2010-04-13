@@ -55,8 +55,7 @@ public interface OrderServiceInterface extends java.rmi.Remote {
      *         <table>
      *         <tr>
      *         <th scope="col">PQL Property</th> <th scope="col">Object Property</th>
-     * values</th>
-     *         </tr>
+     * </tr>
      *         <tr>
      *         <td>{@code advertiserId}</td>
      *         <td>{@link Order#advertiserId}</td>

@@ -29,6 +29,9 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 length of 127 characters. */
     private java.lang.String name;
 
+    /* The name of the {@link Order}. This value is read-only. */
+    private java.lang.String orderName;
+
     /* The date and time on which the {@code LineItem} is enabled
      * to begin
      *                 serving. This attribute is required and must be in
@@ -191,6 +194,49 @@ public class LineItemSummary  implements java.io.Serializable {
      * and {@link LineItemType#STANDARD}. The default value is false. */
     private java.lang.Boolean allowOverbook;
 
+    /* Contains trafficking statistics for the line item. This attribute
+     * is
+     *                 readonly and is populated by Google. This will be
+     * {@code null} in case
+     *                 there are no statistics for a line item yet. */
+    private com.google.api.ads.dfp.v201002.Stats stats;
+
+    /* Indicates how well the line item has been performing. This
+     * attribute is
+     *                 readonly and is populated by Google. This will be
+     * {@code null} if the
+     *                 delivery indicator information is not available due
+     * to one of the following
+     *                 reasons:
+     *                 <ol>
+     *                 <li type = a>The line item is not delivering.</li>
+     * <li type = a>The line item has an unlimited goal or cap.</li>
+     *                 <li type = a>The line item has a percentage based
+     * goal or cap.</li>
+     *                 </ol> */
+    private com.google.api.ads.dfp.v201002.DeliveryIndicator deliveryIndicator;
+
+    /* Delivery data provides the number of clicks or impressions
+     * delivered for a
+     *                 {@link LineItem} in the last 7 days. This attribute
+     * is readonly and is
+     *                 populated by Google. This will be {@code null} if
+     * the delivery data
+     *                 cannot be computed due to one of the following reasons:
+     * <ol>
+     *                 <li type = a>
+     *                 The line item is not deliverable.
+     *                 </li>
+     *                 <li type = a>
+     *                 The line item has completed delivering more than 7
+     * days ago.
+     *                 </li>
+     *                 <li type = a>
+     *                 The line item has an absolute-based goal. {@link DeliveryIndicator}
+     * should be used to its track progress in this case.
+     *                 </li> */
+    private com.google.api.ads.dfp.v201002.DeliveryData deliveryData;
+
     /* The amount of money allocated to the {@code LineItem}. This
      * attribute is
      *                 readonly and is populated by Google. */
@@ -201,7 +247,7 @@ public class LineItemSummary  implements java.io.Serializable {
 
     /* Describes whether or not inventory has been reserved for the
      * {@code LineItem}. This attribute is readonly and is assigned by Google. */
-    private com.google.api.ads.dfp.v201002.LineItemInventoryStatus inventoryStatus;
+    private com.google.api.ads.dfp.v201002.LineItemSummaryReservationStatus reservationStatus;
 
     /* This field indicates the subtype of LineItemSummary of this
      * instance.  It is ignored
@@ -215,6 +261,7 @@ public class LineItemSummary  implements java.io.Serializable {
            java.lang.Long orderId,
            java.lang.Long id,
            java.lang.String name,
+           java.lang.String orderName,
            com.google.api.ads.dfp.v201002.DateTime startDateTime,
            com.google.api.ads.dfp.v201002.LineItemSummaryStartType startType,
            com.google.api.ads.dfp.v201002.DateTime endDateTime,
@@ -234,13 +281,17 @@ public class LineItemSummary  implements java.io.Serializable {
            java.lang.Double discount,
            com.google.api.ads.dfp.v201002.Size[] creativeSizes,
            java.lang.Boolean allowOverbook,
+           com.google.api.ads.dfp.v201002.Stats stats,
+           com.google.api.ads.dfp.v201002.DeliveryIndicator deliveryIndicator,
+           com.google.api.ads.dfp.v201002.DeliveryData deliveryData,
            com.google.api.ads.dfp.v201002.Money budget,
            com.google.api.ads.dfp.v201002.ComputedStatus status,
-           com.google.api.ads.dfp.v201002.LineItemInventoryStatus inventoryStatus,
+           com.google.api.ads.dfp.v201002.LineItemSummaryReservationStatus reservationStatus,
            java.lang.String lineItemSummaryType) {
            this.orderId = orderId;
            this.id = id;
            this.name = name;
+           this.orderName = orderName;
            this.startDateTime = startDateTime;
            this.startType = startType;
            this.endDateTime = endDateTime;
@@ -260,9 +311,12 @@ public class LineItemSummary  implements java.io.Serializable {
            this.discount = discount;
            this.creativeSizes = creativeSizes;
            this.allowOverbook = allowOverbook;
+           this.stats = stats;
+           this.deliveryIndicator = deliveryIndicator;
+           this.deliveryData = deliveryData;
            this.budget = budget;
            this.status = status;
-           this.inventoryStatus = inventoryStatus;
+           this.reservationStatus = reservationStatus;
            this.lineItemSummaryType = lineItemSummaryType;
     }
 
@@ -336,6 +390,26 @@ public class LineItemSummary  implements java.io.Serializable {
      */
     public void setName(java.lang.String name) {
         this.name = name;
+    }
+
+
+    /**
+     * Gets the orderName value for this LineItemSummary.
+     * 
+     * @return orderName   * The name of the {@link Order}. This value is read-only.
+     */
+    public java.lang.String getOrderName() {
+        return orderName;
+    }
+
+
+    /**
+     * Sets the orderName value for this LineItemSummary.
+     * 
+     * @param orderName   * The name of the {@link Order}. This value is read-only.
+     */
+    public void setOrderName(java.lang.String orderName) {
+        this.orderName = orderName;
     }
 
 
@@ -946,6 +1020,134 @@ public class LineItemSummary  implements java.io.Serializable {
 
 
     /**
+     * Gets the stats value for this LineItemSummary.
+     * 
+     * @return stats   * Contains trafficking statistics for the line item. This attribute
+     * is
+     *                 readonly and is populated by Google. This will be
+     * {@code null} in case
+     *                 there are no statistics for a line item yet.
+     */
+    public com.google.api.ads.dfp.v201002.Stats getStats() {
+        return stats;
+    }
+
+
+    /**
+     * Sets the stats value for this LineItemSummary.
+     * 
+     * @param stats   * Contains trafficking statistics for the line item. This attribute
+     * is
+     *                 readonly and is populated by Google. This will be
+     * {@code null} in case
+     *                 there are no statistics for a line item yet.
+     */
+    public void setStats(com.google.api.ads.dfp.v201002.Stats stats) {
+        this.stats = stats;
+    }
+
+
+    /**
+     * Gets the deliveryIndicator value for this LineItemSummary.
+     * 
+     * @return deliveryIndicator   * Indicates how well the line item has been performing. This
+     * attribute is
+     *                 readonly and is populated by Google. This will be
+     * {@code null} if the
+     *                 delivery indicator information is not available due
+     * to one of the following
+     *                 reasons:
+     *                 <ol>
+     *                 <li type = a>The line item is not delivering.</li>
+     * <li type = a>The line item has an unlimited goal or cap.</li>
+     *                 <li type = a>The line item has a percentage based
+     * goal or cap.</li>
+     *                 </ol>
+     */
+    public com.google.api.ads.dfp.v201002.DeliveryIndicator getDeliveryIndicator() {
+        return deliveryIndicator;
+    }
+
+
+    /**
+     * Sets the deliveryIndicator value for this LineItemSummary.
+     * 
+     * @param deliveryIndicator   * Indicates how well the line item has been performing. This
+     * attribute is
+     *                 readonly and is populated by Google. This will be
+     * {@code null} if the
+     *                 delivery indicator information is not available due
+     * to one of the following
+     *                 reasons:
+     *                 <ol>
+     *                 <li type = a>The line item is not delivering.</li>
+     * <li type = a>The line item has an unlimited goal or cap.</li>
+     *                 <li type = a>The line item has a percentage based
+     * goal or cap.</li>
+     *                 </ol>
+     */
+    public void setDeliveryIndicator(com.google.api.ads.dfp.v201002.DeliveryIndicator deliveryIndicator) {
+        this.deliveryIndicator = deliveryIndicator;
+    }
+
+
+    /**
+     * Gets the deliveryData value for this LineItemSummary.
+     * 
+     * @return deliveryData   * Delivery data provides the number of clicks or impressions
+     * delivered for a
+     *                 {@link LineItem} in the last 7 days. This attribute
+     * is readonly and is
+     *                 populated by Google. This will be {@code null} if
+     * the delivery data
+     *                 cannot be computed due to one of the following reasons:
+     * <ol>
+     *                 <li type = a>
+     *                 The line item is not deliverable.
+     *                 </li>
+     *                 <li type = a>
+     *                 The line item has completed delivering more than 7
+     * days ago.
+     *                 </li>
+     *                 <li type = a>
+     *                 The line item has an absolute-based goal. {@link DeliveryIndicator}
+     * should be used to its track progress in this case.
+     *                 </li>
+     */
+    public com.google.api.ads.dfp.v201002.DeliveryData getDeliveryData() {
+        return deliveryData;
+    }
+
+
+    /**
+     * Sets the deliveryData value for this LineItemSummary.
+     * 
+     * @param deliveryData   * Delivery data provides the number of clicks or impressions
+     * delivered for a
+     *                 {@link LineItem} in the last 7 days. This attribute
+     * is readonly and is
+     *                 populated by Google. This will be {@code null} if
+     * the delivery data
+     *                 cannot be computed due to one of the following reasons:
+     * <ol>
+     *                 <li type = a>
+     *                 The line item is not deliverable.
+     *                 </li>
+     *                 <li type = a>
+     *                 The line item has completed delivering more than 7
+     * days ago.
+     *                 </li>
+     *                 <li type = a>
+     *                 The line item has an absolute-based goal. {@link DeliveryIndicator}
+     * should be used to its track progress in this case.
+     *                 </li>
+     */
+    public void setDeliveryData(com.google.api.ads.dfp.v201002.DeliveryData deliveryData) {
+        this.deliveryData = deliveryData;
+    }
+
+
+    /**
      * Gets the budget value for this LineItemSummary.
      * 
      * @return budget   * The amount of money allocated to the {@code LineItem}. This
@@ -990,24 +1192,24 @@ public class LineItemSummary  implements java.io.Serializable {
 
 
     /**
-     * Gets the inventoryStatus value for this LineItemSummary.
+     * Gets the reservationStatus value for this LineItemSummary.
      * 
-     * @return inventoryStatus   * Describes whether or not inventory has been reserved for the
+     * @return reservationStatus   * Describes whether or not inventory has been reserved for the
      * {@code LineItem}. This attribute is readonly and is assigned by Google.
      */
-    public com.google.api.ads.dfp.v201002.LineItemInventoryStatus getInventoryStatus() {
-        return inventoryStatus;
+    public com.google.api.ads.dfp.v201002.LineItemSummaryReservationStatus getReservationStatus() {
+        return reservationStatus;
     }
 
 
     /**
-     * Sets the inventoryStatus value for this LineItemSummary.
+     * Sets the reservationStatus value for this LineItemSummary.
      * 
-     * @param inventoryStatus   * Describes whether or not inventory has been reserved for the
+     * @param reservationStatus   * Describes whether or not inventory has been reserved for the
      * {@code LineItem}. This attribute is readonly and is assigned by Google.
      */
-    public void setInventoryStatus(com.google.api.ads.dfp.v201002.LineItemInventoryStatus inventoryStatus) {
-        this.inventoryStatus = inventoryStatus;
+    public void setReservationStatus(com.google.api.ads.dfp.v201002.LineItemSummaryReservationStatus reservationStatus) {
+        this.reservationStatus = reservationStatus;
     }
 
 
@@ -1055,6 +1257,9 @@ public class LineItemSummary  implements java.io.Serializable {
             ((this.name==null && other.getName()==null) || 
              (this.name!=null &&
               this.name.equals(other.getName()))) &&
+            ((this.orderName==null && other.getOrderName()==null) || 
+             (this.orderName!=null &&
+              this.orderName.equals(other.getOrderName()))) &&
             ((this.startDateTime==null && other.getStartDateTime()==null) || 
              (this.startDateTime!=null &&
               this.startDateTime.equals(other.getStartDateTime()))) &&
@@ -1112,15 +1317,24 @@ public class LineItemSummary  implements java.io.Serializable {
             ((this.allowOverbook==null && other.getAllowOverbook()==null) || 
              (this.allowOverbook!=null &&
               this.allowOverbook.equals(other.getAllowOverbook()))) &&
+            ((this.stats==null && other.getStats()==null) || 
+             (this.stats!=null &&
+              this.stats.equals(other.getStats()))) &&
+            ((this.deliveryIndicator==null && other.getDeliveryIndicator()==null) || 
+             (this.deliveryIndicator!=null &&
+              this.deliveryIndicator.equals(other.getDeliveryIndicator()))) &&
+            ((this.deliveryData==null && other.getDeliveryData()==null) || 
+             (this.deliveryData!=null &&
+              this.deliveryData.equals(other.getDeliveryData()))) &&
             ((this.budget==null && other.getBudget()==null) || 
              (this.budget!=null &&
               this.budget.equals(other.getBudget()))) &&
             ((this.status==null && other.getStatus()==null) || 
              (this.status!=null &&
               this.status.equals(other.getStatus()))) &&
-            ((this.inventoryStatus==null && other.getInventoryStatus()==null) || 
-             (this.inventoryStatus!=null &&
-              this.inventoryStatus.equals(other.getInventoryStatus()))) &&
+            ((this.reservationStatus==null && other.getReservationStatus()==null) || 
+             (this.reservationStatus!=null &&
+              this.reservationStatus.equals(other.getReservationStatus()))) &&
             ((this.lineItemSummaryType==null && other.getLineItemSummaryType()==null) || 
              (this.lineItemSummaryType!=null &&
               this.lineItemSummaryType.equals(other.getLineItemSummaryType())));
@@ -1143,6 +1357,9 @@ public class LineItemSummary  implements java.io.Serializable {
         }
         if (getName() != null) {
             _hashCode += getName().hashCode();
+        }
+        if (getOrderName() != null) {
+            _hashCode += getOrderName().hashCode();
         }
         if (getStartDateTime() != null) {
             _hashCode += getStartDateTime().hashCode();
@@ -1217,14 +1434,23 @@ public class LineItemSummary  implements java.io.Serializable {
         if (getAllowOverbook() != null) {
             _hashCode += getAllowOverbook().hashCode();
         }
+        if (getStats() != null) {
+            _hashCode += getStats().hashCode();
+        }
+        if (getDeliveryIndicator() != null) {
+            _hashCode += getDeliveryIndicator().hashCode();
+        }
+        if (getDeliveryData() != null) {
+            _hashCode += getDeliveryData().hashCode();
+        }
         if (getBudget() != null) {
             _hashCode += getBudget().hashCode();
         }
         if (getStatus() != null) {
             _hashCode += getStatus().hashCode();
         }
-        if (getInventoryStatus() != null) {
-            _hashCode += getInventoryStatus().hashCode();
+        if (getReservationStatus() != null) {
+            _hashCode += getReservationStatus().hashCode();
         }
         if (getLineItemSummaryType() != null) {
             _hashCode += getLineItemSummaryType().hashCode();
@@ -1256,6 +1482,13 @@ public class LineItemSummary  implements java.io.Serializable {
         elemField = new org.apache.axis.description.ElementDesc();
         elemField.setFieldName("name");
         elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "name"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("orderName");
+        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "orderName"));
         elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
         elemField.setMinOccurs(0);
         elemField.setNillable(false);
@@ -1396,6 +1629,27 @@ public class LineItemSummary  implements java.io.Serializable {
         elemField.setNillable(false);
         typeDesc.addFieldDesc(elemField);
         elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("stats");
+        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "stats"));
+        elemField.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "Stats"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("deliveryIndicator");
+        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "deliveryIndicator"));
+        elemField.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "DeliveryIndicator"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("deliveryData");
+        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "deliveryData"));
+        elemField.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "DeliveryData"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
         elemField.setFieldName("budget");
         elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "budget"));
         elemField.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "Money"));
@@ -1410,9 +1664,9 @@ public class LineItemSummary  implements java.io.Serializable {
         elemField.setNillable(false);
         typeDesc.addFieldDesc(elemField);
         elemField = new org.apache.axis.description.ElementDesc();
-        elemField.setFieldName("inventoryStatus");
-        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "inventoryStatus"));
-        elemField.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "LineItemInventoryStatus"));
+        elemField.setFieldName("reservationStatus");
+        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "reservationStatus"));
+        elemField.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "LineItemSummary.ReservationStatus"));
         elemField.setMinOccurs(0);
         elemField.setNillable(false);
         typeDesc.addFieldDesc(elemField);

@@ -1,3 +1,13 @@
+1.1.0:
+- Fix defaults for dfp.properties to use sandbox.
+- Thread safety fix in ServiceAccountantManager.
+- Added support for CAPTCHA in AuthToken
+- Added examples:
+  - AuthTokenExample
+  - LoggingExample
+  - ProxyExample
+  - ServiceAccountantManagerExample
+
 1.0.1:
 - Fix for incorrect server address reference.
 

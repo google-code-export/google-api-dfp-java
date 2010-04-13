@@ -42,9 +42,9 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
     /* Overrides {@link LineItem#endDateTime}. This value is optional. */
     private com.google.api.ads.dfp.v201002.DateTime endDateTime;
 
-    /* Overrides the value set for
-     *                 {@link HasDestinationUrlCreative#destinationUrl}.
-     * This value is optional. */
+    /* Overrides the value set for {@link Creative#destinationUrl}.
+     * This value is
+     *                 optional. */
     private java.lang.String destinationUrl;
 
     /* Overrides the value set for {@link Creative#size}, which allows
@@ -57,6 +57,13 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
     /* The status of the association. This attribute is read-only. */
     private com.google.api.ads.dfp.v201002.LineItemCreativeAssociationStatus status;
 
+    /* Contains trafficking statistics for the association. This attribute
+     * is
+     *                 readonly and is populated by Google. This will be
+     * {@code null} in case
+     *                 there are no statistics for the association yet. */
+    private com.google.api.ads.dfp.v201002.LineItemCreativeAssociationStats stats;
+
     public LineItemCreativeAssociation() {
     }
 
@@ -68,7 +75,8 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
            com.google.api.ads.dfp.v201002.DateTime endDateTime,
            java.lang.String destinationUrl,
            com.google.api.ads.dfp.v201002.Size[] sizes,
-           com.google.api.ads.dfp.v201002.LineItemCreativeAssociationStatus status) {
+           com.google.api.ads.dfp.v201002.LineItemCreativeAssociationStatus status,
+           com.google.api.ads.dfp.v201002.LineItemCreativeAssociationStats stats) {
            this.lineItemId = lineItemId;
            this.creativeId = creativeId;
            this.manualCreativeRotationWeight = manualCreativeRotationWeight;
@@ -77,6 +85,7 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
            this.destinationUrl = destinationUrl;
            this.sizes = sizes;
            this.status = status;
+           this.stats = stats;
     }
 
 
@@ -205,9 +214,9 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
     /**
      * Gets the destinationUrl value for this LineItemCreativeAssociation.
      * 
-     * @return destinationUrl   * Overrides the value set for
-     *                 {@link HasDestinationUrlCreative#destinationUrl}.
-     * This value is optional.
+     * @return destinationUrl   * Overrides the value set for {@link Creative#destinationUrl}.
+     * This value is
+     *                 optional.
      */
     public java.lang.String getDestinationUrl() {
         return destinationUrl;
@@ -217,9 +226,9 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
     /**
      * Sets the destinationUrl value for this LineItemCreativeAssociation.
      * 
-     * @param destinationUrl   * Overrides the value set for
-     *                 {@link HasDestinationUrlCreative#destinationUrl}.
-     * This value is optional.
+     * @param destinationUrl   * Overrides the value set for {@link Creative#destinationUrl}.
+     * This value is
+     *                 optional.
      */
     public void setDestinationUrl(java.lang.String destinationUrl) {
         this.destinationUrl = destinationUrl;
@@ -281,6 +290,34 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
         this.status = status;
     }
 
+
+    /**
+     * Gets the stats value for this LineItemCreativeAssociation.
+     * 
+     * @return stats   * Contains trafficking statistics for the association. This attribute
+     * is
+     *                 readonly and is populated by Google. This will be
+     * {@code null} in case
+     *                 there are no statistics for the association yet.
+     */
+    public com.google.api.ads.dfp.v201002.LineItemCreativeAssociationStats getStats() {
+        return stats;
+    }
+
+
+    /**
+     * Sets the stats value for this LineItemCreativeAssociation.
+     * 
+     * @param stats   * Contains trafficking statistics for the association. This attribute
+     * is
+     *                 readonly and is populated by Google. This will be
+     * {@code null} in case
+     *                 there are no statistics for the association yet.
+     */
+    public void setStats(com.google.api.ads.dfp.v201002.LineItemCreativeAssociationStats stats) {
+        this.stats = stats;
+    }
+
     private java.lang.Object __equalsCalc = null;
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof LineItemCreativeAssociation)) return false;
@@ -316,7 +353,10 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
               java.util.Arrays.equals(this.sizes, other.getSizes()))) &&
             ((this.status==null && other.getStatus()==null) || 
              (this.status!=null &&
-              this.status.equals(other.getStatus())));
+              this.status.equals(other.getStatus()))) &&
+            ((this.stats==null && other.getStats()==null) || 
+             (this.stats!=null &&
+              this.stats.equals(other.getStats())));
         __equalsCalc = null;
         return _equals;
     }
@@ -359,6 +399,9 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
         }
         if (getStatus() != null) {
             _hashCode += getStatus().hashCode();
+        }
+        if (getStats() != null) {
+            _hashCode += getStats().hashCode();
         }
         __hashCodeCalc = false;
         return _hashCode;
@@ -424,6 +467,13 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
         elemField.setFieldName("status");
         elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "status"));
         elemField.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "LineItemCreativeAssociation.Status"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("stats");
+        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "stats"));
+        elemField.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "LineItemCreativeAssociationStats"));
         elemField.setMinOccurs(0);
         elemField.setNillable(false);
         typeDesc.addFieldDesc(elemField);

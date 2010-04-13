@@ -66,11 +66,11 @@ public class CreateLineItemsExample {
         lineItem.setCreativeRotationType(CreativeRotationType.EVEN);
 
         // Set the size of creatives that can be associated with this line item.
-        lineItem.setCreativeSizes(new Size[] {new Size(300, 250)});
+        lineItem.setCreativeSizes(new Size[] {new Size(300, 250, false)});
 
         // Set the length of the line item to run.
-        lineItem.setStartDateTime(new DateTime(new Date(2010, 9, 1), 0, 0, 0, "America/New_York"));
-        lineItem.setEndDateTime(new DateTime(new Date(2010, 9, 30), 0, 0, 0, "America/New_York"));
+        lineItem.setStartDateTime(new DateTime(new Date(2010, 9, 1), 0, 0, 0, null));
+        lineItem.setEndDateTime(new DateTime(new Date(2010, 9, 30), 0, 0, 0, null));
 
         // Set the cost per unit to $2.
         lineItem.setCostType(CostType.CPM);
