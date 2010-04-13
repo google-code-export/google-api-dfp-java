@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ======================================================================= -->
+<!-- See README file for build instructions                                  -->
+<!-- ======================================================================= -->
+<project basedir="." default="create_release" name="dfp-api">
+  <property name="ant.build.javac.target" value="1.5" />
+  <property name="src" value="${basedir}/src" />
+  <property name="src.examples" value="${basedir}/examples" />
+  <property name="src.test" value="${basedir}/test" />
+  <property name="data" value="${basedir}/data" />
+  <property name="test_data" value="${basedir}/test_data" />
+  <property name="lib" value="${basedir}/lib" />
+  <property name="build_lib" value="${basedir}/build_lib" />
+  <property name="logs" value="${basedir}/logs" />
+  <property name="build.dir" value="${basedir}/build" />
+  <property name="docs" value="${basedir}/docs" />
+  <property name="javadoc.dir" value="${docs}" />
+
+  <loadproperties srcFile="${basedir}/src/build.properties" />
+  <property name="version" value="${lib_version}" />
+  <property name="jar.name" value="${ant.project.name}-${version}" />
+
+  <!-- Service definitions -->
+  <property name="api.version.v201002" value="v201002" />
+  <property name="api.version.v201002.services"
+      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService" />
+
+  <!-- Classpath -->
+  <path id="project.class.path">
+    <fileset dir="${lib}">
+      <include name="*.jar" />
+    </fileset>
+    <fileset dir="${build_lib}">
+      <include name="*.jar" />
+    </fileset>
+  </path>
+
+  <taskdef resource="axis-tasks.properties" classpathref="project.class.path" />
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties"
+      classpathref="project.class.path" />
+
+  <!-- =================================================================== -->
+  <!-- Initialization target                                               -->
+  <!-- =================================================================== -->
+  <target name="init">
+    <tstamp />
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Target: clean                                                       -->
+  <!-- =================================================================== -->
+  <target name="clean">
+    <delete dir="${build.dir}/classes" />
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Target: generate all services                                       -->
+  <!-- =================================================================== -->
+  <target name="generate_java" depends="init, clean">
+    <property name="server" value="https://sandbox.google.com" />
+    <sequential>
+      <antcall target="generate_java_version" inheritAll="false">
+        <param name="services.version" value="${api.version.v201002}" />
+        <param name="services.package.prefix" value="com.google.api.ads.dfp" />
+        <param name="services.url.postfix" value="?wsdl" />
+        <param name="services.namespace.prefix"
+            value="https://www.google.com/apis/ads/publisher" />
+        <param name="services.server" value="${server}" />
+      </antcall>
+    </sequential>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Target: generate all services for a version                         -->
+  <!-- =================================================================== -->
+   <target name="generate_java_version">
+     <propertycopy property="group_services"
+         from="api.version.${services.version}.services" />
+    <foreach delimiter="," list="${group_services}"
+        target="generate_java_service" param="service.name"
+        inheritall="true" />
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Target: generate service                                      -->
+  <!-- =================================================================== -->
+  <target name="generate_java_service">
+    <axis-wsdl2java all="true"
+        url="${services.server}/apis/ads/publisher/${services.version}/${service.name}${services.url.postfix}"
+        verbose="true" output="${src}" typemappingversion="1.2" debug="false"
+        wrapArrays="true">
+      <mapping namespace="${services.namespace.prefix}/${services.version}"
+          package="${services.package.prefix}.${services.version}" />
+    </axis-wsdl2java>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Target: compile all java                                            -->
+  <!-- =================================================================== -->
+  <target name="compile_java"
+      depends="compile_src, compile_examples, compile_tests" />
+
+  <!-- =================================================================== -->
+  <!-- Target: compile all java under src                                  -->
+  <!-- =================================================================== -->
+  <target name="compile_src" depends="init">
+    <mkdir dir="${build.dir}/classes" />
+    <javac target="1.5" debug="true" deprecation="true" srcdir="${src}"
+        destDir="${build.dir}/classes">
+      <classpath refid="project.class.path" />
+      <include name="**/*.java" />
+    </javac>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Target: compile all java under examples                             -->
+  <!-- =================================================================== -->
+  <target name="compile_examples" depends="compile_src">
+    <mkdir dir="${build.dir}/classes" />
+    <javac target="1.5" debug="true" deprecation="true" srcdir="${src.examples}"
+        destdir="${build.dir}/classes">
+      <classpath>
+        <pathelement location="${build.dir}/classes" />
+      </classpath>
+      <classpath refid="project.class.path" />
+      <include name="**/*.java" />
+    </javac>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Target: compile all java under tests                                -->
+  <!-- =================================================================== -->
+  <target name="compile_tests" depends="compile_src">
+    <mkdir dir="${build.dir}/classes" />
+    <javac target="1.5" debug="true" deprecation="true" srcdir="${src.test}"
+        destdir="${build.dir}/classes">
+      <classpath>
+        <pathelement location="${build.dir}/classes" />
+      </classpath>
+      <classpath refid="project.class.path" />
+      <include name="**/*.java" />
+    </javac>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Target: build (no external dependencies)                            -->
+  <!-- =================================================================== -->
+  <target name="build_loner"
+      depends="clean, compile_src, generate_java_docs">
+    <copy todir="${build.dir}/classes/">
+      <fileset dir="${javadoc.dir}" />
+    </copy>
+    <copy todir="${build.dir}/classes/">
+      <fileset dir="${src}" />
+    </copy>
+    <copy todir="${build.dir}/classes/">
+      <fileset dir="${src}">
+        <include name="**/*.java"/>
+        <include name="**/*.properties"/>
+      </fileset>
+    </copy>
+    <jar jarfile="${build.dir}/${jar.name}-loner.jar" whenempty="skip"
+        basedir="${build.dir}/classes" includes="**" />
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Target: build                                                       -->
+  <!-- =================================================================== -->
+  <target name="build"
+      depends="clean, compile_src, generate_java_docs">
+    <unzip dest="${build.dir}/classes">
+      <fileset dir="lib">
+        <include name="*.jar" />
+      </fileset>
+      <fileset dir="build_lib">
+        <include name="activation-1.0.2.jar" />
+        <include name="javamail-1.3.3_01.jar" />
+      </fileset>
+    </unzip>
+    <copy todir="${build.dir}/classes/">
+      <fileset dir="${javadoc.dir}" />
+    </copy>
+    <copy todir="${build.dir}/classes/">
+      <fileset dir="${src}">
+        <include name="**/*.java"/>
+        <include name="**/*.properties"/>
+      </fileset>
+    </copy>
+    <jar compress="true" jarfile="${build.dir}/${jar.name}.jar" whenempty="skip"
+        basedir="${build.dir}/classes" includes="**" excludes="META-INF/*.SF">
+    </jar>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Target: package non-loner distribution                              -->
+  <!-- =================================================================== -->
+  <target name="package_non_loner_distribution" depends="build">
+    <property name="prefix" value="${jar.name}" />
+    <delete file="${build.dir}/${jar.name}.tar.gz" />
+    <tar destfile="${build.dir}/${jar.name}.tar.gz" compression="gzip">
+      <tarfileset dir="${src.examples}" prefix="${prefix}/examples">
+        <include name="**/*.java" />
+        <include name="README" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="${build.dir}" prefix="${prefix}/lib">
+        <include name="${prefix}.jar" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="${docs}" prefix="${prefix}/docs">
+        <include name="**/*" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="${data}" prefix="${prefix}/data">
+        <include name="**/*" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="${logs}" prefix="${prefix}/logs">
+        <include name="README" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="." prefix="${prefix}">
+        <include name="dfp.properties" />
+        <include name="ChangeLog" />
+        <include name="client-config.wsdd" />
+        <include name="COPYING" />
+        <include name="log4j.properties" />
+        <include name="README" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+    </tar>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Target: package loner distribution                                  -->
+  <!-- =================================================================== -->
+  <target name="package_loner_distribution" depends="build_loner">
+    <property name="prefix" value="${jar.name}" />
+    <delete file="${build.dir}/${jar.name}-loner.tar.gz" />
+    <tar destfile="${build.dir}/${jar.name}-loner.tar.gz" compression="gzip">
+      <tarfileset dir="${src.examples}" prefix="${prefix}/examples">
+        <include name="**/*.java" />
+        <include name="README" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="lib" prefix="${prefix}/lib">
+        <include name="README" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="${build.dir}" prefix="${prefix}/lib">
+        <include name="${jar.name}-loner.jar" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="${docs}" prefix="${prefix}/docs">
+        <include name="**/*" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="${data}" prefix="${prefix}/data">
+        <include name="**/*" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="${logs}" prefix="${prefix}/logs">
+        <include name="README" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="." prefix="${prefix}">
+        <include name="dfp.properties" />
+        <include name="ChangeLog" />
+        <include name="client-config.wsdd" />
+        <include name="COPYING" />
+        <include name="log4j.properties" />
+        <include name="README" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+    </tar>
+    <antcall target="package_lib_jars" />
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Target: package source distribution                                 -->
+  <!-- =================================================================== -->
+  <target name="package_source_distribution"
+      depends="init, clean, compile_java, generate_java_docs">
+    <property name="prefix" value="${jar.name}" />
+    <delete file="${build.dir}/${jar.name}-src.tar.gz" />
+    <tar destfile="${build.dir}/${jar.name}-src.tar.gz" compression="gzip">
+      <tarfileset dir="${src}" prefix="${prefix}/src">
+        <include name="**/*.java" />
+        <include name="**/*.properties" />
+        <include name="README" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="${src.examples}" prefix="${prefix}/examples">
+        <include name="**/*.java" />
+        <include name="README" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="${src.test}" prefix="${prefix}/test">
+        <include name="**/*.java" />
+        <include name="README" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="build_lib" prefix="${prefix}/build_lib">
+        <include name="README" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="lib" prefix="${prefix}/lib">
+        <include name="README" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="${docs}" prefix="${prefix}/docs">
+        <include name="**/*" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="${data}" prefix="${prefix}/data">
+        <include name="**/*" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="${test_data}" prefix="${prefix}/test_data">
+        <include name="**/*" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="${logs}" prefix="${prefix}/logs">
+        <include name="README" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+      <tarfileset dir="." prefix="${prefix}">
+        <include name="build.xml" />
+        <include name="dfp.properties" />
+        <include name="ChangeLog" />
+        <include name="client-config.wsdd" />
+        <include name="COPYING" />
+        <include name="log4j.properties" />
+        <include name="README" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+    </tar>
+    <antcall target="package_lib_jars" />
+    <antcall target="package_build_lib_jars" />
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Target: package lib jars                                            -->
+  <!-- =================================================================== -->
+  <target name="package_lib_jars">
+    <delete file="${build.dir}/lib_jars-${version}.tar.gz" />
+    <tar destfile="${build.dir}/lib_jars-${version}.tar.gz"
+        compression="gzip">
+      <tarfileset dir="${lib}">
+        <include name="**/*.jar" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+    </tar>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Target: package build lib jars                                      -->
+  <!-- =================================================================== -->
+  <target name="package_build_lib_jars">
+    <delete file="${build.dir}/build_lib_jars-${version}.tar.gz" />
+    <tar destfile="${build.dir}/build_lib_jars-${version}.tar.gz"
+        compression="gzip">
+      <tarfileset dir="${build_lib}">
+        <include name="**/*.jar" />
+        <exclude name="**/.svn" />
+        <exclude name="**/.svn/**" />
+      </tarfileset>
+    </tar>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Target: packages all distrubtions for a release                     -->
+  <!-- =================================================================== -->
+  <target name="create_release">
+    <antcall target="package_non_loner_distribution" />
+    <antcall target="package_loner_distribution" />
+    <antcall target="package_source_distribution" />
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Target: generate javadocs                                           -->
+  <!-- =================================================================== -->
+  <target name="generate_java_docs" depends="init"
+      description="Create Javadoc API documentation">
+    <mkdir dir="${javadoc.dir}" />
+    <delete dir="${javadoc.dir}">
+      <exclude name="README" />
+    </delete>
+    <javadoc sourcepath="${src}" classpathref="project.class.path"
+        destdir="${javadoc.dir}" packagenames="com.google.api.ads.dfp.*">
+      <fileset dir="${src}">
+        <include name="*.java" />
+      </fileset>
+    </javadoc>
+  </target>
+</project>
