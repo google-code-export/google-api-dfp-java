@@ -22,7 +22,7 @@ public class LineItemServiceLocator extends org.apache.axis.client.Service imple
     }
 
     // Use to get a proxy class for LineItemServiceInterfacePort
-    private java.lang.String LineItemServiceInterfacePort_address = "https://sandbox.google.com/apis/ads/publisher/v201002/LineItemService";
+    private java.lang.String LineItemServiceInterfacePort_address = "http://0.publisher-api-qa-sandbox.sandbox_qa_soap_server.ads-publisher-api.gg.borg.google.com.:26085/apis/ads/publisher/v201002/LineItemService";
 
     public java.lang.String getLineItemServiceInterfacePortAddress() {
         return LineItemServiceInterfacePort_address;

@@ -1,5 +1,5 @@
 /**
- * LineItemInventoryStatus.java
+ * LineItemSummaryReservationStatus.java
  *
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
@@ -7,29 +7,29 @@
 
 package com.google.api.ads.dfp.v201002;
 
-public class LineItemInventoryStatus implements java.io.Serializable {
+public class LineItemSummaryReservationStatus implements java.io.Serializable {
     private java.lang.String _value_;
     private static java.util.HashMap _table_ = new java.util.HashMap();
 
     // Constructor
-    protected LineItemInventoryStatus(java.lang.String value) {
+    protected LineItemSummaryReservationStatus(java.lang.String value) {
         _value_ = value;
         _table_.put(_value_,this);
     }
 
     public static final java.lang.String _RESERVED = "RESERVED";
     public static final java.lang.String _UNRESERVED = "UNRESERVED";
-    public static final LineItemInventoryStatus RESERVED = new LineItemInventoryStatus(_RESERVED);
-    public static final LineItemInventoryStatus UNRESERVED = new LineItemInventoryStatus(_UNRESERVED);
+    public static final LineItemSummaryReservationStatus RESERVED = new LineItemSummaryReservationStatus(_RESERVED);
+    public static final LineItemSummaryReservationStatus UNRESERVED = new LineItemSummaryReservationStatus(_UNRESERVED);
     public java.lang.String getValue() { return _value_;}
-    public static LineItemInventoryStatus fromValue(java.lang.String value)
+    public static LineItemSummaryReservationStatus fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {
-        LineItemInventoryStatus enumeration = (LineItemInventoryStatus)
+        LineItemSummaryReservationStatus enumeration = (LineItemSummaryReservationStatus)
             _table_.get(value);
         if (enumeration==null) throw new java.lang.IllegalArgumentException();
         return enumeration;
     }
-    public static LineItemInventoryStatus fromString(java.lang.String value)
+    public static LineItemSummaryReservationStatus fromString(java.lang.String value)
           throws java.lang.IllegalArgumentException {
         return fromValue(value);
     }
@@ -55,10 +55,10 @@ public class LineItemInventoryStatus implements java.io.Serializable {
     }
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(LineItemInventoryStatus.class);
+        new org.apache.axis.description.TypeDesc(LineItemSummaryReservationStatus.class);
 
     static {
-        typeDesc.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "LineItemInventoryStatus"));
+        typeDesc.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "LineItemSummary.ReservationStatus"));
     }
     /**
      * Return type metadata object

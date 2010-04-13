@@ -27,6 +27,7 @@ public class ReservationDetailsErrorReason implements java.io.Serializable {
     public static final java.lang.String _COST_TYPE_UNIT_TYPE_MISMATCH_NOT_ALLOWED = "COST_TYPE_UNIT_TYPE_MISMATCH_NOT_ALLOWED";
     public static final java.lang.String _LINE_ITEM_TYPE_NOT_ALLOWED = "LINE_ITEM_TYPE_NOT_ALLOWED";
     public static final java.lang.String _MIXING_DURATION_IN_ORDER_NOT_ALLOWED = "MIXING_DURATION_IN_ORDER_NOT_ALLOWED";
+    public static final java.lang.String _INVALID_SIZE_FOR_PLATFORM = "INVALID_SIZE_FOR_PLATFORM";
     public static final ReservationDetailsErrorReason UNLIMITED_UNITS_BOUGHT_NOT_ALLOWED = new ReservationDetailsErrorReason(_UNLIMITED_UNITS_BOUGHT_NOT_ALLOWED);
     public static final ReservationDetailsErrorReason UNLIMITED_END_DATE_TIME_NOT_ALLOWED = new ReservationDetailsErrorReason(_UNLIMITED_END_DATE_TIME_NOT_ALLOWED);
     public static final ReservationDetailsErrorReason PERCENTAGE_UNITS_BOUGHT_TOO_HIGH = new ReservationDetailsErrorReason(_PERCENTAGE_UNITS_BOUGHT_TOO_HIGH);
@@ -37,6 +38,7 @@ public class ReservationDetailsErrorReason implements java.io.Serializable {
     public static final ReservationDetailsErrorReason COST_TYPE_UNIT_TYPE_MISMATCH_NOT_ALLOWED = new ReservationDetailsErrorReason(_COST_TYPE_UNIT_TYPE_MISMATCH_NOT_ALLOWED);
     public static final ReservationDetailsErrorReason LINE_ITEM_TYPE_NOT_ALLOWED = new ReservationDetailsErrorReason(_LINE_ITEM_TYPE_NOT_ALLOWED);
     public static final ReservationDetailsErrorReason MIXING_DURATION_IN_ORDER_NOT_ALLOWED = new ReservationDetailsErrorReason(_MIXING_DURATION_IN_ORDER_NOT_ALLOWED);
+    public static final ReservationDetailsErrorReason INVALID_SIZE_FOR_PLATFORM = new ReservationDetailsErrorReason(_INVALID_SIZE_FOR_PLATFORM);
     public java.lang.String getValue() { return _value_;}
     public static ReservationDetailsErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

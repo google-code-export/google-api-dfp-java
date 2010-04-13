@@ -22,7 +22,7 @@ public class CompanyServiceLocator extends org.apache.axis.client.Service implem
     }
 
     // Use to get a proxy class for CompanyServiceInterfacePort
-    private java.lang.String CompanyServiceInterfacePort_address = "https://sandbox.google.com/apis/ads/publisher/v201002/CompanyService";
+    private java.lang.String CompanyServiceInterfacePort_address = "http://0.publisher-api-qa-sandbox.sandbox_qa_soap_server.ads-publisher-api.gg.borg.google.com.:26085/apis/ads/publisher/v201002/CompanyService";
 
     public java.lang.String getCompanyServiceInterfacePortAddress() {
         return CompanyServiceInterfacePort_address;

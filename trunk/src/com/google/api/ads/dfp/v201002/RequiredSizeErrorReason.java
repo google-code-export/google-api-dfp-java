@@ -21,10 +21,14 @@ public class RequiredSizeErrorReason implements java.io.Serializable {
     public static final java.lang.String _INVALID_SIZE = "INVALID_SIZE";
     public static final java.lang.String _NOT_SUPPORTED = "NOT_SUPPORTED";
     public static final java.lang.String _NOT_ALLOWED = "NOT_ALLOWED";
+    public static final java.lang.String _NOT_ASPECT_RATIO = "NOT_ASPECT_RATIO";
+    public static final java.lang.String _NOT_CORRECT_ASPECT_RATIO = "NOT_CORRECT_ASPECT_RATIO";
     public static final RequiredSizeErrorReason REQUIRED = new RequiredSizeErrorReason(_REQUIRED);
     public static final RequiredSizeErrorReason INVALID_SIZE = new RequiredSizeErrorReason(_INVALID_SIZE);
     public static final RequiredSizeErrorReason NOT_SUPPORTED = new RequiredSizeErrorReason(_NOT_SUPPORTED);
     public static final RequiredSizeErrorReason NOT_ALLOWED = new RequiredSizeErrorReason(_NOT_ALLOWED);
+    public static final RequiredSizeErrorReason NOT_ASPECT_RATIO = new RequiredSizeErrorReason(_NOT_ASPECT_RATIO);
+    public static final RequiredSizeErrorReason NOT_CORRECT_ASPECT_RATIO = new RequiredSizeErrorReason(_NOT_CORRECT_ASPECT_RATIO);
     public java.lang.String getValue() { return _value_;}
     public static RequiredSizeErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {
