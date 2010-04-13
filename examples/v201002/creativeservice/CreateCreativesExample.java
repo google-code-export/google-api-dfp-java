@@ -57,7 +57,7 @@ public class CreateCreativesExample {
         imageCreative.setImageByteArray(
             MediaUtils.getAssetDataFromUrl(
                 "http://www.google.com/intl/en/adwords/select/images/samples/inline.jpg"));
-        imageCreative.setSize(new Size(300, 250));
+        imageCreative.setSize(new Size(300, 250, false));
 
         imageCreatives[i] = imageCreative;
       }

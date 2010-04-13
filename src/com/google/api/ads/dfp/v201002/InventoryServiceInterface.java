@@ -54,8 +54,7 @@ public interface InventoryServiceInterface extends java.rmi.Remote {
      *         <table>
      *         <tr>
      *         <th scope="col">PQL Property</th> <th scope="col">Object Property</th>
-     * values</th>
-     *         </tr>
+     * </tr>
      *         <tr>
      *         <td>{@code adUnitCode}</td>
      *         <td>{@link AdUnit#adUnitCode}</td>

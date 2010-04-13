@@ -19,12 +19,22 @@ public class AuthenticationErrorReason implements java.io.Serializable {
 
     public static final java.lang.String _AMBIGUOUS_SOAP_REQUEST_HEADER = "AMBIGUOUS_SOAP_REQUEST_HEADER";
     public static final java.lang.String _INVALID_EMAIL = "INVALID_EMAIL";
+    public static final java.lang.String _INVALID_OAUTH_SIGNATURE = "INVALID_OAUTH_SIGNATURE";
     public static final java.lang.String _MISSING_SOAP_REQUEST_HEADER = "MISSING_SOAP_REQUEST_HEADER";
     public static final java.lang.String _NOT_WHITELISTED_FOR_API_ACCESS = "NOT_WHITELISTED_FOR_API_ACCESS";
+    public static final java.lang.String _NO_NETWORK_ACCESS = "NO_NETWORK_ACCESS";
+    public static final java.lang.String _NETWORK_NOT_FOUND = "NETWORK_NOT_FOUND";
+    public static final java.lang.String _NETWORK_CODE_REQUIRED = "NETWORK_CODE_REQUIRED";
+    public static final java.lang.String _CONNECTION_ERROR = "CONNECTION_ERROR";
     public static final AuthenticationErrorReason AMBIGUOUS_SOAP_REQUEST_HEADER = new AuthenticationErrorReason(_AMBIGUOUS_SOAP_REQUEST_HEADER);
     public static final AuthenticationErrorReason INVALID_EMAIL = new AuthenticationErrorReason(_INVALID_EMAIL);
+    public static final AuthenticationErrorReason INVALID_OAUTH_SIGNATURE = new AuthenticationErrorReason(_INVALID_OAUTH_SIGNATURE);
     public static final AuthenticationErrorReason MISSING_SOAP_REQUEST_HEADER = new AuthenticationErrorReason(_MISSING_SOAP_REQUEST_HEADER);
     public static final AuthenticationErrorReason NOT_WHITELISTED_FOR_API_ACCESS = new AuthenticationErrorReason(_NOT_WHITELISTED_FOR_API_ACCESS);
+    public static final AuthenticationErrorReason NO_NETWORK_ACCESS = new AuthenticationErrorReason(_NO_NETWORK_ACCESS);
+    public static final AuthenticationErrorReason NETWORK_NOT_FOUND = new AuthenticationErrorReason(_NETWORK_NOT_FOUND);
+    public static final AuthenticationErrorReason NETWORK_CODE_REQUIRED = new AuthenticationErrorReason(_NETWORK_CODE_REQUIRED);
+    public static final AuthenticationErrorReason CONNECTION_ERROR = new AuthenticationErrorReason(_CONNECTION_ERROR);
     public java.lang.String getValue() { return _value_;}
     public static AuthenticationErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

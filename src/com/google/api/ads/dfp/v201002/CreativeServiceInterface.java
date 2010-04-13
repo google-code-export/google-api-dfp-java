@@ -58,8 +58,7 @@ public interface CreativeServiceInterface extends java.rmi.Remote {
      *         <table>
      *         <tr>
      *         <th scope="col">PQL Property</th> <th scope="col">Object Property</th>
-     * values</th>
-     *         </tr>
+     * </tr>
      *         <tr>
      *         <td>{@code id}</td>
      *         <td>{@link Creative#id}</td>
