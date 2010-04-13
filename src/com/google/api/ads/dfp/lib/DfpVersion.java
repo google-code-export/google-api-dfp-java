@@ -16,7 +16,6 @@ package com.google.api.ads.dfp.lib;
 
 import org.apache.axis.client.Stub;
 
-import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 
 import javax.xml.rpc.ServiceException;
@@ -132,7 +131,7 @@ public abstract class DfpVersion {
                 .newInstance(user.getRegisteredAuthToken(), user.getNetworkCode(), user.getClientLibraryIdentifier(), null));
       } catch (IllegalStateException e) {
         throw new ServiceException("Could not get ClientLogin token for user.", e);
-      } catch (IOException e) {
+      } catch (AuthTokenException e) {
         throw new ServiceException("Could not get ClientLogin token for user.", e);
       } catch (InstantiationException e) {
         throw new ServiceException("Could not create service class. Check classpath.", e);

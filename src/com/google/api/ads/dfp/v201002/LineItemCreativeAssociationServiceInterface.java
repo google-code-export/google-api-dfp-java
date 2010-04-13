@@ -66,8 +66,7 @@ public interface LineItemCreativeAssociationServiceInterface extends java.rmi.Re
      *         <table>
      *         <tr>
      *         <th scope="col">PQL Property</th> <th scope="col">Object Property</th>
-     * values</th>
-     *         </tr>
+     * </tr>
      *         <tr>
      *         <td>{@code creativeId}</td>
      *         <td>{@link LineItemCreativeAssociation#creativeId}</td>

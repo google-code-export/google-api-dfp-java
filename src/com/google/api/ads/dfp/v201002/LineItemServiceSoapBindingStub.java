@@ -274,6 +274,20 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "DeliveryData");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201002.DeliveryData.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "DeliveryIndicator");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201002.DeliveryIndicator.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "DeliveryRateType");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201002.DeliveryRateType.class;
@@ -365,13 +379,6 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "LineItemInventoryStatus");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201002.LineItemInventoryStatus.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(enumsf);
-            cachedDeserFactories.add(enumdf);
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "LineItemOperationError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201002.LineItemOperationError.class;
@@ -403,6 +410,13 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "LineItemSummary.Duration");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201002.LineItemSummaryDuration.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "LineItemSummary.ReservationStatus");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201002.LineItemSummaryReservationStatus.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
@@ -476,6 +490,20 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "PermissionError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201002.PermissionError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "PermissionError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201002.PermissionErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "QuotaError");
             cachedSerQNames.add(qName);
@@ -620,6 +648,13 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "SoapResponseHeader");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201002.SoapResponseHeader.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "Stats");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201002.Stats.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);

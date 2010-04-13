@@ -59,7 +59,7 @@ public class UpdateAdUnitsExample {
           List<Size> sizes = (adUnit.getSizes() == null)
               ? new ArrayList<Size>()
               : new ArrayList<Size>(Arrays.asList(adUnit.getSizes()));
-          sizes.add(new Size(728, 90));
+          sizes.add(new Size(728, 90, false));
           adUnit.setSizes(sizes.toArray(new Size[] {}));
         }
 

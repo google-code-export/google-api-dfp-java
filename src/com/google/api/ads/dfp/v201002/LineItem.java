@@ -26,6 +26,7 @@ public class LineItem  extends com.google.api.ads.dfp.v201002.LineItemSummary  i
            java.lang.Long orderId,
            java.lang.Long id,
            java.lang.String name,
+           java.lang.String orderName,
            com.google.api.ads.dfp.v201002.DateTime startDateTime,
            com.google.api.ads.dfp.v201002.LineItemSummaryStartType startType,
            com.google.api.ads.dfp.v201002.DateTime endDateTime,
@@ -45,15 +46,19 @@ public class LineItem  extends com.google.api.ads.dfp.v201002.LineItemSummary  i
            java.lang.Double discount,
            com.google.api.ads.dfp.v201002.Size[] creativeSizes,
            java.lang.Boolean allowOverbook,
+           com.google.api.ads.dfp.v201002.Stats stats,
+           com.google.api.ads.dfp.v201002.DeliveryIndicator deliveryIndicator,
+           com.google.api.ads.dfp.v201002.DeliveryData deliveryData,
            com.google.api.ads.dfp.v201002.Money budget,
            com.google.api.ads.dfp.v201002.ComputedStatus status,
-           com.google.api.ads.dfp.v201002.LineItemInventoryStatus inventoryStatus,
+           com.google.api.ads.dfp.v201002.LineItemSummaryReservationStatus reservationStatus,
            java.lang.String lineItemSummaryType,
            com.google.api.ads.dfp.v201002.Targeting targeting) {
         super(
             orderId,
             id,
             name,
+            orderName,
             startDateTime,
             startType,
             endDateTime,
@@ -73,9 +78,12 @@ public class LineItem  extends com.google.api.ads.dfp.v201002.LineItemSummary  i
             discount,
             creativeSizes,
             allowOverbook,
+            stats,
+            deliveryIndicator,
+            deliveryData,
             budget,
             status,
-            inventoryStatus,
+            reservationStatus,
             lineItemSummaryType);
         this.targeting = targeting;
     }

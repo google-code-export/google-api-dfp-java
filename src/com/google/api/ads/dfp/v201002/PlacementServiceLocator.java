@@ -22,7 +22,7 @@ public class PlacementServiceLocator extends org.apache.axis.client.Service impl
     }
 
     // Use to get a proxy class for PlacementServiceInterfacePort
-    private java.lang.String PlacementServiceInterfacePort_address = "https://sandbox.google.com/apis/ads/publisher/v201002/PlacementService";
+    private java.lang.String PlacementServiceInterfacePort_address = "http://0.publisher-api-qa-sandbox.sandbox_qa_soap_server.ads-publisher-api.gg.borg.google.com.:26085/apis/ads/publisher/v201002/PlacementService";
 
     public java.lang.String getPlacementServiceInterfacePortAddress() {
         return PlacementServiceInterfacePort_address;

@@ -51,7 +51,7 @@ public class CreateAdUnitsExample {
         adUnit.setParentId(parentAdUnitId);
 
         // Set the size of possible creatives that can match this ad unit.
-        adUnit.setSizes(new Size[] {new Size(300, 250)});
+        adUnit.setSizes(new Size[] {new Size(300, 250, false)});
 
         adUnits[i] = adUnit;
       }

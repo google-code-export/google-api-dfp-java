@@ -22,7 +22,7 @@ public class OrderServiceLocator extends org.apache.axis.client.Service implemen
     }
 
     // Use to get a proxy class for OrderServiceInterfacePort
-    private java.lang.String OrderServiceInterfacePort_address = "https://sandbox.google.com/apis/ads/publisher/v201002/OrderService";
+    private java.lang.String OrderServiceInterfacePort_address = "http://0.publisher-api-qa-sandbox.sandbox_qa_soap_server.ads-publisher-api.gg.borg.google.com.:26085/apis/ads/publisher/v201002/OrderService";
 
     public java.lang.String getOrderServiceInterfacePortAddress() {
         return OrderServiceInterfacePort_address;

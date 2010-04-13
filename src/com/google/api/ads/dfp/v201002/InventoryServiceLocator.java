@@ -22,7 +22,7 @@ public class InventoryServiceLocator extends org.apache.axis.client.Service impl
     }
 
     // Use to get a proxy class for InventoryServiceInterfacePort
-    private java.lang.String InventoryServiceInterfacePort_address = "https://sandbox.google.com/apis/ads/publisher/v201002/InventoryService";
+    private java.lang.String InventoryServiceInterfacePort_address = "http://0.publisher-api-qa-sandbox.sandbox_qa_soap_server.ads-publisher-api.gg.borg.google.com.:26085/apis/ads/publisher/v201002/InventoryService";
 
     public java.lang.String getInventoryServiceInterfacePortAddress() {
         return InventoryServiceInterfacePort_address;

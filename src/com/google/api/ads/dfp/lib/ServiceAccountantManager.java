@@ -75,8 +75,7 @@ public final class ServiceAccountantManager {
   private Map<Integer, DfpUser> serviceUsers;
   private Map<Integer, Stub> retainedStubs;
 
-  private static volatile ServiceAccountantManager instance =
-      new ServiceAccountantManager(true, false);
+  private static ServiceAccountantManager instance = null;
 
   /**
    * The following properties will override the constructors parameters
@@ -110,12 +109,12 @@ public final class ServiceAccountantManager {
 
   /**
    * Gets the singleton instance of the {@code ServiceAccountantManager}, in
-   * which the service accounant will be automatically created upon the first
+   * which the service accountant will be automatically created upon the first
    * service call and services will not be retained.
    *
    * @return the singleton instance of the {@code ServiceAccountantManager}
    */
-  public static ServiceAccountantManager getInstance() {
+  public static synchronized ServiceAccountantManager getInstance() {
     if (instance == null) {
       instance = new ServiceAccountantManager(true, false);
     }
@@ -123,7 +122,7 @@ public final class ServiceAccountantManager {
   }
 
   /**
-   * Sets the serivce accountant manager to auto create the service accountant
+   * Sets the service accountant manager to auto create the service accountant
    * upon the first call.
    *
    * @param autoCreateAccountant {@code true} if a service accountant should be
@@ -143,7 +142,7 @@ public final class ServiceAccountantManager {
   }
 
   /**
-   * Sets the serivce accountant manager to retain services on a
+   * Sets the service accountant manager to retain services on a
    * {@link #putService(Stub, DfpUser)} call, instead of just the hash
    * code of the service. The services can then be pulled by calling
    * {@link #getRetainedServicesForUser(DfpUser)}.
@@ -176,7 +175,7 @@ public final class ServiceAccountantManager {
    * Creates an association between the service and the user so that the user
    * can be recalled in the future using just the service.
    *
-   * @param stub the Dfp service
+   * @param stub the DFP service
    * @param user the {@code DfpUser} to association with the service
    */
   public void putService(Stub stub, DfpUser user) {

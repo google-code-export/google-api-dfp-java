@@ -18,14 +18,19 @@ public class Size  implements java.io.Serializable {
     /* The height of the AdUnit, LineItem or Creative. */
     private java.lang.Integer height;
 
+    /* True if this size represents an aspect ratio, false otherwise. */
+    private java.lang.Boolean isAspectRatio;
+
     public Size() {
     }
 
     public Size(
            java.lang.Integer width,
-           java.lang.Integer height) {
+           java.lang.Integer height,
+           java.lang.Boolean isAspectRatio) {
            this.width = width;
            this.height = height;
+           this.isAspectRatio = isAspectRatio;
     }
 
 
@@ -68,6 +73,26 @@ public class Size  implements java.io.Serializable {
         this.height = height;
     }
 
+
+    /**
+     * Gets the isAspectRatio value for this Size.
+     * 
+     * @return isAspectRatio   * True if this size represents an aspect ratio, false otherwise.
+     */
+    public java.lang.Boolean getIsAspectRatio() {
+        return isAspectRatio;
+    }
+
+
+    /**
+     * Sets the isAspectRatio value for this Size.
+     * 
+     * @param isAspectRatio   * True if this size represents an aspect ratio, false otherwise.
+     */
+    public void setIsAspectRatio(java.lang.Boolean isAspectRatio) {
+        this.isAspectRatio = isAspectRatio;
+    }
+
     private java.lang.Object __equalsCalc = null;
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof Size)) return false;
@@ -85,7 +110,10 @@ public class Size  implements java.io.Serializable {
               this.width.equals(other.getWidth()))) &&
             ((this.height==null && other.getHeight()==null) || 
              (this.height!=null &&
-              this.height.equals(other.getHeight())));
+              this.height.equals(other.getHeight()))) &&
+            ((this.isAspectRatio==null && other.getIsAspectRatio()==null) || 
+             (this.isAspectRatio!=null &&
+              this.isAspectRatio.equals(other.getIsAspectRatio())));
         __equalsCalc = null;
         return _equals;
     }
@@ -102,6 +130,9 @@ public class Size  implements java.io.Serializable {
         }
         if (getHeight() != null) {
             _hashCode += getHeight().hashCode();
+        }
+        if (getIsAspectRatio() != null) {
+            _hashCode += getIsAspectRatio().hashCode();
         }
         __hashCodeCalc = false;
         return _hashCode;
@@ -124,6 +155,13 @@ public class Size  implements java.io.Serializable {
         elemField.setFieldName("height");
         elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "height"));
         elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "int"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("isAspectRatio");
+        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201002", "isAspectRatio"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
         elemField.setMinOccurs(0);
         elemField.setNillable(false);
         typeDesc.addFieldDesc(elemField);
