@@ -19,11 +19,11 @@ import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
 import com.google.api.ads.dfp.lib.ServiceAccountant;
 import com.google.api.ads.dfp.lib.ServiceAccountantManager;
-import com.google.api.ads.dfp.v201002.CompanyServiceInterface;
-import com.google.api.ads.dfp.v201002.CreativeServiceInterface;
-import com.google.api.ads.dfp.v201002.Filter;
-import com.google.api.ads.dfp.v201002.InventoryServiceInterface;
-import com.google.api.ads.dfp.v201002.UserServiceInterface;
+import com.google.api.ads.dfp.v201004.CompanyServiceInterface;
+import com.google.api.ads.dfp.v201004.CreativeServiceInterface;
+import com.google.api.ads.dfp.v201004.InventoryServiceInterface;
+import com.google.api.ads.dfp.v201004.Statement;
+import com.google.api.ads.dfp.v201004.UserServiceInterface;
 
 import org.apache.axis.client.Stub;
 
@@ -46,19 +46,19 @@ public class ServiceAccountantExample {
     ServiceAccountantManager serviceAccountantManager = ServiceAccountantManager.getInstance();
 
     // Get the CompanyService.
-    CompanyServiceInterface companyService = user.getService(DfpService.V201002.COMPANY_SERVICE);
+    CompanyServiceInterface companyService = user.getService(DfpService.V201004.COMPANY_SERVICE);
 
     // Get the UserService.
-    UserServiceInterface userService = user.getService(DfpService.V201002.USER_SERVICE);
+    UserServiceInterface userService = user.getService(DfpService.V201004.USER_SERVICE);
 
     // Get the InventoryService.
-    InventoryServiceInterface inventoryService = user.getService(DfpService.V201002.INVENTORY_SERVICE);
+    InventoryServiceInterface inventoryService = user.getService(DfpService.V201004.INVENTORY_SERVICE);
 
     // Turn on retain service here to just retain the creative service.
     serviceAccountantManager.setRetainServices(true);
 
     // Get the CreativeService.
-    CreativeServiceInterface creativeService = user.getService(DfpService.V201002.CREATIVE_SERVICE);
+    CreativeServiceInterface creativeService = user.getService(DfpService.V201004.CREATIVE_SERVICE);
 
     // Since autoCreateAccountant is set to true in the service accountant
     // manager, all service accountants will be created during this method call.
@@ -133,12 +133,12 @@ public class ServiceAccountantExample {
   private static void performOperations(CompanyServiceInterface companyService,
       UserServiceInterface userService, InventoryServiceInterface inventoryService,
       CreativeServiceInterface creativeService) throws RemoteException {
-    companyService.getCompaniesByFilter(new Filter("LIMIT 500"));
-    userService.getUsersByFilter(new Filter("LIMIT 500"));
-    inventoryService.getAdUnitsByFilter(new Filter("LIMIT 500"));
+    companyService.getCompaniesByStatement(new Statement("LIMIT 500", null));
+    userService.getUsersByStatement(new Statement("LIMIT 500", null));
+    inventoryService.getAdUnitsByStatement(new Statement("LIMIT 500", null));
 
     // Call twice to creative service.
-    creativeService.getCreativesByFilter(new Filter("LIMIT 500"));
-    creativeService.getCreativesByFilter(new Filter("LIMIT 500"));
+    creativeService.getCreativesByStatement(new Statement("LIMIT 500", null));
+    creativeService.getCreativesByStatement(new Statement("LIMIT 500", null));
   }
 }

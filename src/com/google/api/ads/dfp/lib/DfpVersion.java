@@ -28,9 +28,9 @@ import javax.xml.rpc.ServiceException;
  */
 public abstract class DfpVersion {
   /**
-   * The {@code DfpVersion} for v201002.
+   * The {@code DfpVersion} for v201004.
    */
-  public static final DfpVersion V201002 = new DfpVersionV201002();
+  public static final DfpVersion V201004 = new DfpVersionV201004();
 
   protected final String version;
   protected final String namespace;
@@ -39,7 +39,7 @@ public abstract class DfpVersion {
   protected final String prodUrl;
 
   /**
-   * @param version the version name i.e. v201002
+   * @param version the version name i.e. v201004
    * @param namespace the namespace
    * @param packagePrefix the package prefix such that the package
    *                      {@code packagPrefix + "." + version} contains all
@@ -106,11 +106,11 @@ public abstract class DfpVersion {
   public abstract void setHeaders(Stub stub, DfpUser user) throws ServiceException;
 
   /**
-   * The v201002 version class.
+   * The v201004 version class.
    */
-  private static class DfpVersionV201002 extends DfpVersion {
-    protected DfpVersionV201002() {
-      super("v201002", "https://www.google.com/apis/ads/publisher/v201002",
+  private static class DfpVersionV201004 extends DfpVersion {
+    protected DfpVersionV201004() {
+      super("v201004", "https://www.google.com/apis/ads/publisher/v201004",
           "com.google.api.ads.dfp.", "https://sandbox.google.com", "https://www.google.com");
     }
 
