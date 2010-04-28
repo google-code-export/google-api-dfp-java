@@ -1,3 +1,8 @@
+2.0.0:
+- Add support for v201004
+  - Filter replaced by Statement
+- Removed support for v201002
+
 1.1.0:
 - Fix defaults for dfp.properties to use sandbox.
 - Thread safety fix in ServiceAccountantManager.
