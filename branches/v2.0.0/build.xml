@@ -146,7 +146,7 @@
   <!-- Target: build (no external dependencies)                            -->
   <!-- =================================================================== -->
   <target name="build_loner"
-      depends="clean, compile_src, generate_java_docs">
+      depends="clean, compile_src">
     <copy todir="${build.dir}/classes/">
       <fileset dir="${javadoc.dir}" />
     </copy>
@@ -167,7 +167,7 @@
   <!-- Target: build                                                       -->
   <!-- =================================================================== -->
   <target name="build"
-      depends="clean, compile_src, generate_java_docs">
+      depends="clean, compile_src">
     <unzip dest="${build.dir}/classes">
       <fileset dir="lib">
         <include name="*.jar" />
@@ -293,7 +293,7 @@
   <!-- Target: package source distribution                                 -->
   <!-- =================================================================== -->
   <target name="package_source_distribution"
-      depends="init, clean, compile_java, generate_java_docs">
+      depends="init, clean, compile_java">
     <property name="prefix" value="${jar.name}" />
     <delete file="${build.dir}/${jar.name}-src.tar.gz" />
     <tar destfile="${build.dir}/${jar.name}-src.tar.gz" compression="gzip">
