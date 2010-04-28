@@ -18,12 +18,12 @@ import com.google.api.ads.dfp.lib.AuthToken;
 import com.google.api.ads.dfp.lib.AuthTokenException;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpUser;
-import com.google.api.ads.dfp.v201002.ApiError;
-import com.google.api.ads.dfp.v201002.ApiException;
-import com.google.api.ads.dfp.v201002.AuthenticationError;
-import com.google.api.ads.dfp.v201002.AuthenticationErrorReason;
-import com.google.api.ads.dfp.v201002.CompanyServiceInterface;
-import com.google.api.ads.dfp.v201002.Filter;
+import com.google.api.ads.dfp.v201004.ApiError;
+import com.google.api.ads.dfp.v201004.ApiException;
+import com.google.api.ads.dfp.v201004.AuthenticationError;
+import com.google.api.ads.dfp.v201004.AuthenticationErrorReason;
+import com.google.api.ads.dfp.v201004.CompanyServiceInterface;
+import com.google.api.ads.dfp.v201004.Statement;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -117,8 +117,8 @@ public class AuthTokenExample {
       ApiException {
     // Service will use the auth token which was set by user.setAuthToken().
     CompanyServiceInterface companyService =
-        user.getService(DfpService.V201002.COMPANY_SERVICE);
-    companyService.getCompaniesByFilter(new Filter("LIMIT 1"));
+        user.getService(DfpService.V201004.COMPANY_SERVICE);
+    companyService.getCompaniesByStatement(new Statement("LIMIT 1", null));
     System.out.println("Service call was successful.");
   }
 
