@@ -97,7 +97,7 @@ public class GetInventoryTreeExample {
       }
 
       offset += 500;
-    } while (page.getResults() != null && page.getResults().length == 500);
+    } while (offset < page.getTotalResultSetSize());
 
     return adUnits.toArray(new AdUnit[] {});
   }

@@ -17,6 +17,7 @@ package v201004.creativeservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
+import com.google.api.ads.dfp.lib.utils.StatementBuilder;
 import com.google.api.ads.dfp.v201004.Creative;
 import com.google.api.ads.dfp.v201004.CreativePage;
 import com.google.api.ads.dfp.v201004.CreativeServiceInterface;
@@ -43,7 +44,8 @@ public class UpdateCreativesExample {
 
       // Create a statement to get all image creatives.
       Statement filterStatement =
-          new Statement("WHERE creativeType = 'ImageCreative' LIMIT 500", null);
+          new StatementBuilder("WHERE creativeType = :creativeType LIMIT 500")
+              .putParam("creativeType", ImageCreative.class.getSimpleName()).toStatement();
 
       // Get creatives by statement.
       CreativePage page = creativeService.getCreativesByStatement(filterStatement);

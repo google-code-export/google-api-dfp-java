@@ -17,12 +17,11 @@ package v201004.orderservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
-import com.google.api.ads.dfp.v201004.LongParam;
-import com.google.api.ads.dfp.v201004.Statement;
+import com.google.api.ads.dfp.lib.utils.StatementBuilder;
 import com.google.api.ads.dfp.v201004.Order;
 import com.google.api.ads.dfp.v201004.OrderPage;
 import com.google.api.ads.dfp.v201004.OrderServiceInterface;
-import com.google.api.ads.dfp.v201004.String_ParamMapEntry;
+import com.google.api.ads.dfp.v201004.Statement;
 
 /**
  * This example gets all orders for a given advertiser. The statement retrieves
@@ -45,14 +44,10 @@ public class GetOrdersByStatementExample {
       // Set the ID of the advertiser to get orders for.
       Long advertiserId = Long.parseLong("INSERT_ADVERTISER_ID_HERE");
 
-      // Create bind parameters map.
-      String_ParamMapEntry[] paramMap = new String_ParamMapEntry[] {
-          new String_ParamMapEntry("advertiserId", new LongParam(null, advertiserId))
-      };
-
       // Create a statement to only select orders for a given advertiser.
       Statement filterStatement =
-          new Statement("WHERE advertiserId = :advertiserId LIMIT 500", paramMap);
+        new StatementBuilder("WHERE advertiserId = :advertiserId LIMIT 500")
+            .putParam("advertiserId", advertiserId).toStatement();
 
       // Get orders by statement.
       OrderPage page = orderService.getOrdersByStatement(filterStatement);

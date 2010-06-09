@@ -45,7 +45,7 @@ public class GetAllOrdersExample {
       int offset = 0;
 
       do {
-        // Create a filter to get all orders.
+        // Create a statement to get all orders.
         filterStatement.setQuery("LIMIT 500 OFFSET " + offset);
 
         // Get orders by statement.
