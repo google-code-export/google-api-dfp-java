@@ -17,6 +17,7 @@ package v201004.lineitemcreativeassociationservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
+import com.google.api.ads.dfp.lib.utils.StatementBuilder;
 import com.google.api.ads.dfp.v201004.LineItem;
 import com.google.api.ads.dfp.v201004.LineItemCreativeAssociation;
 import com.google.api.ads.dfp.v201004.LineItemCreativeAssociationServiceInterface;
@@ -55,8 +56,10 @@ public class CreateLicasExample {
 
       // Get first 500 line items for the given order. To get more than 500 line
       // items, see GetAllLineItemsExample.java.
-      Statement filter = new Statement("WHERE orderId = '" + orderId + "' LIMIT 500", null);
-      LineItemPage page = lineItemService.getLineItemsByStatement(filter);
+      Statement filterStatement =
+          new StatementBuilder("WHERE orderId = :orderId LIMIT 500")
+              .putParam("orderId", orderId).toStatement();
+      LineItemPage page = lineItemService.getLineItemsByStatement(filterStatement);
 
       if (page.getResults() != null) {
         LineItem[] lineItems = page.getResults();

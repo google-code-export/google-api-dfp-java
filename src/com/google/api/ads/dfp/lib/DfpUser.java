@@ -34,9 +34,9 @@ import javax.xml.rpc.ServiceException;
  * {@code DfpService.version.serviceName} or else a
  * {@code ServiceException} will be thrown. For example, if you wished to
  * get the service {@code InventoryService} and you referenced this service by
- * {@code DfpService.v201002.INVENTORY_SERVICE}, your import of
+ * {@code DfpService.v201004.INVENTORY_SERVICE}, your import of
  * {@code InventoryServiceInterface} should be from the package
- * {@code com.google.api.ads.dfp.v201002}.
+ * {@code com.google.api.ads.dfp.v201004}.
  *
  * @author api.arogal@gmail.com (Adam Rogal)
  */

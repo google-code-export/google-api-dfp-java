@@ -52,6 +52,7 @@ public class LineItem  extends com.google.api.ads.dfp.v201004.LineItemSummary  i
            com.google.api.ads.dfp.v201004.Money budget,
            com.google.api.ads.dfp.v201004.ComputedStatus status,
            com.google.api.ads.dfp.v201004.LineItemSummaryReservationStatus reservationStatus,
+           java.lang.Boolean isArchived,
            java.lang.String lineItemSummaryType,
            com.google.api.ads.dfp.v201004.Targeting targeting) {
         super(
@@ -84,6 +85,7 @@ public class LineItem  extends com.google.api.ads.dfp.v201004.LineItemSummary  i
             budget,
             status,
             reservationStatus,
+            isArchived,
             lineItemSummaryType);
         this.targeting = targeting;
     }

@@ -22,9 +22,9 @@ import com.google.api.ads.dfp.v201004.InventoryServiceInterface;
 import com.google.api.ads.dfp.v201004.Size;
 
 /**
- * This example creates new ad units under a previously
- * created ad unit. To determine which ad units exist, run
- * GetAdUnitTree.java or GetAllAdUnitsExample.java.
+ * This example creates new ad units under a previously created ad unit. To
+ * determine which ad units exist, run GetInventoryTreeExample.java or
+ * GetAllAdUnitsExample.java.
  */
 public class CreateAdUnitsExample {
   public static void main(String[] args) {

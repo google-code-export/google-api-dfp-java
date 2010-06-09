@@ -17,8 +17,8 @@ public class NullErrorReason implements java.io.Serializable {
         _table_.put(_value_,this);
     }
 
-    public static final java.lang.String _NULL_CONTENT = "NULL_CONTENT";
-    public static final NullErrorReason NULL_CONTENT = new NullErrorReason(_NULL_CONTENT);
+    public static final java.lang.String _NOT_NULL = "NOT_NULL";
+    public static final NullErrorReason NOT_NULL = new NullErrorReason(_NOT_NULL);
     public java.lang.String getValue() { return _value_;}
     public static NullErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

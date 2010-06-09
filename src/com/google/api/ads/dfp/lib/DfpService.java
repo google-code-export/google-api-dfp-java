@@ -188,5 +188,19 @@ public class DfpService {
      */
     public static final DfpService PLACEMENT_SERVICE =
         new DfpService("PlacementService", DfpVersion.V201004);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201004.ReportServiceInterface}.
+     */
+    public static final DfpService REPORT_SERVICE =
+        new DfpService("ReportService", DfpVersion.V201004);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201004.ForecastServiceInterface}.
+     */
+    public static final DfpService FORECAST_SERVICE =
+        new DfpService("ForecastService", DfpVersion.V201004);
   }
 }

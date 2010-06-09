@@ -31,8 +31,10 @@ import com.google.api.ads.dfp.v201004.Targeting;
 import com.google.api.ads.dfp.v201004.UnitType;
 
 /**
- * This example creates new line items. To determine which line items exist,
- * run GetAllLineItemsExample.java.
+ * This example creates new line items. To determine which line items exist, run
+ * GetAllLineItemsExample.java. To determine which orders exist, run
+ * GetAllOrdersExamle.java. To determine which ad units exist, run
+ * GetInventoryTreeExample.java or GetAllAdUnitsExample.java.
  */
 public class CreateLineItemsExample {
   public static void main(String[] args) {

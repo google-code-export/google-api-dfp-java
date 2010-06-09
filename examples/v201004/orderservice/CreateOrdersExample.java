@@ -21,8 +21,10 @@ import com.google.api.ads.dfp.v201004.Order;
 import com.google.api.ads.dfp.v201004.OrderServiceInterface;
 
 /**
- * This example creates new orders. To determine which orders exist,
- * run GetAllOrdersExample.java.
+ * This example creates new orders. To determine which orders exist, run
+ * GetAllOrdersExample.java. To determine which companies are advertisers, run
+ * GetCompaniesByStatementExample.java. To get salespeople and traffickers, run
+ * GetAllUsersExample.java.
  */
 public class CreateOrdersExample {
   public static void main(String[] args) {
