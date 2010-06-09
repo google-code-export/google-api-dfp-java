@@ -17,6 +17,7 @@ package v201004.lineitemservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
+import com.google.api.ads.dfp.lib.utils.StatementBuilder;
 import com.google.api.ads.dfp.v201004.DeliveryRateType;
 import com.google.api.ads.dfp.v201004.Statement;
 import com.google.api.ads.dfp.v201004.LineItem;
@@ -24,8 +25,9 @@ import com.google.api.ads.dfp.v201004.LineItemPage;
 import com.google.api.ads.dfp.v201004.LineItemServiceInterface;
 
 /**
- * This example updates the delivery rate of all line items up to the first
- * 500. To determine which line items exist, run GetAllLineItemsExample.java.
+ * This example updates the delivery rate of all line items up to the first 500.
+ * To determine which line items exist, run GetAllLineItemsExample.java. To
+ * determine which order exist, run GetAllOrdersExample.java.
  */
 public class UpdateLineItemsExample {
   public static void main(String[] args) {
@@ -44,8 +46,10 @@ public class UpdateLineItemsExample {
       Long orderId = Long.parseLong("INSERT_ORDER_ID_HERE");
 
       // Create a statement to get line items with even delivery rates.
-      Statement filterStatement = new Statement("WHERE deliveryRateType = 'EVENLY'"
-          + " and orderId = " + orderId + " LIMIT 500", null);
+      Statement filterStatement = new StatementBuilder(
+          "WHERE deliveryRateType = :deliveryRateType AND orderId = :orderId LIMIT 500")
+              .putParam("orderId", orderId)
+              .putParam("deliveryRateType", DeliveryRateType.EVENLY.toString()).toStatement();
 
       // Get line items by statement.
       LineItemPage page = lineItemService.getLineItemsByStatement(filterStatement);

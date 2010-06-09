@@ -17,12 +17,12 @@ package v201004.placementservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
+import com.google.api.ads.dfp.lib.utils.StatementBuilder;
+import com.google.api.ads.dfp.v201004.InventoryStatus;
 import com.google.api.ads.dfp.v201004.Placement;
 import com.google.api.ads.dfp.v201004.PlacementPage;
 import com.google.api.ads.dfp.v201004.PlacementServiceInterface;
 import com.google.api.ads.dfp.v201004.Statement;
-import com.google.api.ads.dfp.v201004.StringParam;
-import com.google.api.ads.dfp.v201004.String_ParamMapEntry;
 
 /**
  * This example gets all active placements. The statement retrieves up to the
@@ -42,13 +42,10 @@ public class GetPlacementsByStatementExample {
       PlacementServiceInterface placementService =
           user.getService(DfpService.V201004.PLACEMENT_SERVICE);
 
-      // Create bind parameters map.
-      String_ParamMapEntry[] paramMap = new String_ParamMapEntry[] {
-          new String_ParamMapEntry("status", new StringParam(null, "ACTIVE"))
-      };
-
       // Create a statement to only select active placements.
-      Statement filterStatement = new Statement("WHERE status = :status LIMIT 500", paramMap);
+      Statement filterStatement =
+        new StatementBuilder("WHERE status = :status LIMIT 500")
+            .putParam("status", InventoryStatus.ACTIVE.toString()).toStatement();
 
       // Get placements by statement.
       PlacementPage page = placementService.getPlacementsByStatement(filterStatement);

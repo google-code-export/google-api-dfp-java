@@ -31,7 +31,8 @@ import com.google.api.ads.dfp.v201004.UpdateResult;
  * associated with them. To approve line items, approve the order to which they
  * belong by running ApproveOrdersExample.java. To create LICAs, run
  * CreateLicasExample.java. To determine which line items exist, run
- * GetAllLineItemsExample.java.
+ * GetAllLineItemsExample.java. To determine which orders exist, run
+ * GetAllOrdersExample.java.
  */
 public class ActivateLineItemsExample {
   public static void main(String[] args) {

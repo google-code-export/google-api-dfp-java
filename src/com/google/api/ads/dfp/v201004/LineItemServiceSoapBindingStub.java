@@ -211,6 +211,13 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "ArchiveLineItems");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201004.ArchiveLineItems.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "AuthenticationError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201004.AuthenticationError.class;
@@ -301,6 +308,20 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "ForecastError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201004.ForecastError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "ForecastError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201004.ForecastErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "FrequencyCap");
             cachedSerQNames.add(qName);
@@ -610,9 +631,23 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "ReserveAndOverbookLineItems");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201004.ReserveAndOverbookLineItems.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "ReserveLineItems");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201004.ReserveLineItems.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "ResumeAndOverbookLineItems");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201004.ResumeAndOverbookLineItems.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
@@ -725,6 +760,13 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "TypeError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201004.TypeError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "UnarchiveLineItems");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201004.UnarchiveLineItems.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);

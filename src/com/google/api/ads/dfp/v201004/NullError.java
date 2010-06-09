@@ -9,7 +9,8 @@ package com.google.api.ads.dfp.v201004;
 
 
 /**
- * Errors associated with contents not null constraint.
+ * Caused by supplying a non-null value for an attribute that should
+ * be null.
  */
 public class NullError  extends com.google.api.ads.dfp.v201004.ApiError  implements java.io.Serializable {
     /* The error reason represented by an enum. */

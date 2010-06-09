@@ -17,12 +17,12 @@ package v201004.creativeservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
+import com.google.api.ads.dfp.lib.utils.StatementBuilder;
 import com.google.api.ads.dfp.v201004.Creative;
 import com.google.api.ads.dfp.v201004.CreativePage;
 import com.google.api.ads.dfp.v201004.CreativeServiceInterface;
+import com.google.api.ads.dfp.v201004.ImageCreative;
 import com.google.api.ads.dfp.v201004.Statement;
-import com.google.api.ads.dfp.v201004.StringParam;
-import com.google.api.ads.dfp.v201004.String_ParamMapEntry;
 
 /**
  * This example gets all image creatives. The statement retrieves up to the
@@ -42,14 +42,10 @@ public class GetCreativesByStatementExample {
       CreativeServiceInterface creativeService =
           user.getService(DfpService.V201004.CREATIVE_SERVICE);
 
-      // Create bind parameters map.
-      String_ParamMapEntry[] paramMap = new String_ParamMapEntry[] {
-          new String_ParamMapEntry("creativeType", new StringParam(null, "ImageCreative"))
-      };
-
       // Create a statement to only select image creatives.
       Statement filterStatement =
-          new Statement("WHERE creativeType = :creativeType LIMIT 500", paramMap);
+          new StatementBuilder("WHERE creativeType = :creativeType LIMIT 500")
+              .putParam("creativeType", ImageCreative.class.getSimpleName()).toStatement();
 
       // Get creatives by statement.
       CreativePage page = creativeService.getCreativesByStatement(filterStatement);

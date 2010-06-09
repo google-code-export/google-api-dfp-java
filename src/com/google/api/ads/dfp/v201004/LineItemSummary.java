@@ -247,6 +247,10 @@ public class LineItemSummary  implements java.io.Serializable {
      * {@code LineItem}. This attribute is readonly and is assigned by Google. */
     private com.google.api.ads.dfp.v201004.LineItemSummaryReservationStatus reservationStatus;
 
+    /* The archival status of the {@code Order}. This attribute is
+     * readonly. */
+    private java.lang.Boolean isArchived;
+
     /* This field indicates the subtype of LineItemSummary of this
      * instance.  It is ignored
      *                 on input, and instead xsi:type should be specified. */
@@ -285,6 +289,7 @@ public class LineItemSummary  implements java.io.Serializable {
            com.google.api.ads.dfp.v201004.Money budget,
            com.google.api.ads.dfp.v201004.ComputedStatus status,
            com.google.api.ads.dfp.v201004.LineItemSummaryReservationStatus reservationStatus,
+           java.lang.Boolean isArchived,
            java.lang.String lineItemSummaryType) {
            this.orderId = orderId;
            this.id = id;
@@ -315,6 +320,7 @@ public class LineItemSummary  implements java.io.Serializable {
            this.budget = budget;
            this.status = status;
            this.reservationStatus = reservationStatus;
+           this.isArchived = isArchived;
            this.lineItemSummaryType = lineItemSummaryType;
     }
 
@@ -1208,6 +1214,28 @@ public class LineItemSummary  implements java.io.Serializable {
 
 
     /**
+     * Gets the isArchived value for this LineItemSummary.
+     * 
+     * @return isArchived   * The archival status of the {@code Order}. This attribute is
+     * readonly.
+     */
+    public java.lang.Boolean getIsArchived() {
+        return isArchived;
+    }
+
+
+    /**
+     * Sets the isArchived value for this LineItemSummary.
+     * 
+     * @param isArchived   * The archival status of the {@code Order}. This attribute is
+     * readonly.
+     */
+    public void setIsArchived(java.lang.Boolean isArchived) {
+        this.isArchived = isArchived;
+    }
+
+
+    /**
      * Gets the lineItemSummaryType value for this LineItemSummary.
      * 
      * @return lineItemSummaryType   * This field indicates the subtype of LineItemSummary of this
@@ -1329,6 +1357,9 @@ public class LineItemSummary  implements java.io.Serializable {
             ((this.reservationStatus==null && other.getReservationStatus()==null) || 
              (this.reservationStatus!=null &&
               this.reservationStatus.equals(other.getReservationStatus()))) &&
+            ((this.isArchived==null && other.getIsArchived()==null) || 
+             (this.isArchived!=null &&
+              this.isArchived.equals(other.getIsArchived()))) &&
             ((this.lineItemSummaryType==null && other.getLineItemSummaryType()==null) || 
              (this.lineItemSummaryType!=null &&
               this.lineItemSummaryType.equals(other.getLineItemSummaryType())));
@@ -1445,6 +1476,9 @@ public class LineItemSummary  implements java.io.Serializable {
         }
         if (getReservationStatus() != null) {
             _hashCode += getReservationStatus().hashCode();
+        }
+        if (getIsArchived() != null) {
+            _hashCode += getIsArchived().hashCode();
         }
         if (getLineItemSummaryType() != null) {
             _hashCode += getLineItemSummaryType().hashCode();
@@ -1661,6 +1695,13 @@ public class LineItemSummary  implements java.io.Serializable {
         elemField.setFieldName("reservationStatus");
         elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "reservationStatus"));
         elemField.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "LineItemSummary.ReservationStatus"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("isArchived");
+        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "isArchived"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
         elemField.setMinOccurs(0);
         elemField.setNillable(false);
         typeDesc.addFieldDesc(elemField);

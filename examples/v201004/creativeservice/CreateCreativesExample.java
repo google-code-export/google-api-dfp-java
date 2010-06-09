@@ -24,9 +24,9 @@ import com.google.api.ads.dfp.v201004.ImageCreative;
 import com.google.api.ads.dfp.v201004.Size;
 
 /**
- * This example creates new image creatives for a given advertiser. To
- * determine which companies are advertisers, run GetCompaniesByStatementExample.java.
- * To determine which creatives already exist, run GetAllCreativesExample.java.
+ * This example creates new image creatives for a given advertiser. To determine
+ * which companies are advertisers, run GetCompaniesByStatementExample.java. To
+ * determine which creatives already exist, run GetAllCreativesExample.java.
  */
 public class CreateCreativesExample {
   public static void main(String[] args) {

@@ -211,6 +211,20 @@ public class InventoryServiceSoapBindingStub extends org.apache.axis.client.Stub
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "AdSenseSettings.FontFamily");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201004.AdSenseSettingsFontFamily.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "AdSenseSettings.FontSize");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201004.AdSenseSettingsFontSize.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "AdSenseSettingsInheritedProperty");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201004.AdSenseSettingsInheritedProperty.class;

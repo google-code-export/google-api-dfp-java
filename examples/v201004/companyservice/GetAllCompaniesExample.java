@@ -62,7 +62,7 @@ public class GetAllCompaniesExample {
         }
 
         offset += 500;
-      } while (page.getResults() != null && page.getResults().length == 500);
+      } while (offset < page.getTotalResultSetSize());
 
       System.out.println("Number of results found: " + page.getTotalResultSetSize());
     } catch (Exception e) {

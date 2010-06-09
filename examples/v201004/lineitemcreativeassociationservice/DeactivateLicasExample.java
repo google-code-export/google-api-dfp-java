@@ -27,7 +27,8 @@ import com.google.api.ads.dfp.v201004.UpdateResult;
 
 /**
  * This example deactivates all LICAs for the line item. To determine which
- * LICAs exist, run GetAllLicasExample.java.
+ * LICAs exist, run GetAllLicasExample.java. To determine which line items
+ * exist, run GetAllLineItems.java
  */
 public class DeactivateLicasExample {
   public static void main(String[] args) {
