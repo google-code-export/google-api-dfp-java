@@ -1,0 +1,4 @@
+This directory contains all data used for any tests. The images are taken
+from http://adwords.google.com/support/aw/bin/static.py?page=imagesamples.html.
+
+Configure test.properties to run the tests.
