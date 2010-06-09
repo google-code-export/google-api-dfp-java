@@ -23,7 +23,7 @@
   <!-- Service definitions -->
   <property name="api.version.v201004" value="v201004" />
   <property name="api.version.v201004.services"
-      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService" />
+      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService" />
 
   <!-- Classpath -->
   <path id="project.class.path">

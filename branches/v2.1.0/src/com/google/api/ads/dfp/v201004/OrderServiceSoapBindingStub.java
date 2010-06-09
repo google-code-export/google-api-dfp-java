@@ -204,6 +204,13 @@ public class OrderServiceSoapBindingStub extends org.apache.axis.client.Stub imp
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "ApproveAndOverbookOrders");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201004.ApproveAndOverbookOrders.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "ApproveOrders");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201004.ApproveOrders.class;
@@ -273,6 +280,20 @@ public class OrderServiceSoapBindingStub extends org.apache.axis.client.Stub imp
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "ForecastError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201004.ForecastError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "ForecastError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201004.ForecastErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "InternalApiError");
             cachedSerQNames.add(qName);
@@ -470,6 +491,13 @@ public class OrderServiceSoapBindingStub extends org.apache.axis.client.Stub imp
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "ResumeAndOverbookOrders");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201004.ResumeAndOverbookOrders.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "ResumeOrders");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201004.ResumeOrders.class;
@@ -550,6 +578,13 @@ public class OrderServiceSoapBindingStub extends org.apache.axis.client.Stub imp
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "SubmitOrdersForApproval");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201004.SubmitOrdersForApproval.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "SubmitOrdersForApprovalAndOverbook");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201004.SubmitOrdersForApprovalAndOverbook.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);

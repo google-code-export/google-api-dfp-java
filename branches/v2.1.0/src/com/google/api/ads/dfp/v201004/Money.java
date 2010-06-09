@@ -15,11 +15,10 @@ public class Money  implements java.io.Serializable {
     /* Three letter currency code in string format. */
     private java.lang.String currencyCode;
 
-    /* Throughout Publisher Display Ads, money values are always specified
-     * in
-     *                 terms of micros which are a millionth of the fundamental
-     * currency unit. So,
-     *                 for US dollars, $1 is 1,000,000 micros. */
+    /* Money values are always specified in terms of micros which
+     * are a millionth
+     *                 of the fundamental currency unit. For US dollars,
+     * $1 is 1,000,000 micros. */
     private java.lang.Long microAmount;
 
     public Money() {
@@ -56,11 +55,10 @@ public class Money  implements java.io.Serializable {
     /**
      * Gets the microAmount value for this Money.
      * 
-     * @return microAmount   * Throughout Publisher Display Ads, money values are always specified
-     * in
-     *                 terms of micros which are a millionth of the fundamental
-     * currency unit. So,
-     *                 for US dollars, $1 is 1,000,000 micros.
+     * @return microAmount   * Money values are always specified in terms of micros which
+     * are a millionth
+     *                 of the fundamental currency unit. For US dollars,
+     * $1 is 1,000,000 micros.
      */
     public java.lang.Long getMicroAmount() {
         return microAmount;
@@ -70,11 +68,10 @@ public class Money  implements java.io.Serializable {
     /**
      * Sets the microAmount value for this Money.
      * 
-     * @param microAmount   * Throughout Publisher Display Ads, money values are always specified
-     * in
-     *                 terms of micros which are a millionth of the fundamental
-     * currency unit. So,
-     *                 for US dollars, $1 is 1,000,000 micros.
+     * @param microAmount   * Money values are always specified in terms of micros which
+     * are a millionth
+     *                 of the fundamental currency unit. For US dollars,
+     * $1 is 1,000,000 micros.
      */
     public void setMicroAmount(java.lang.Long microAmount) {
         this.microAmount = microAmount;

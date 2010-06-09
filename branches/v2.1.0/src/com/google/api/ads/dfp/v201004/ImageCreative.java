@@ -37,6 +37,11 @@ public class ImageCreative  extends com.google.api.ads.dfp.v201004.HasDestinatio
      *                     by Google. */
     private com.google.api.ads.dfp.v201004.Size assetSize;
 
+    /* The URL where the actual asset resides. This attribute is read-only
+     * and
+     *                     has a maximum length of 1024 characters. */
+    private java.lang.String imageUrl;
+
     public ImageCreative() {
     }
 
@@ -51,7 +56,8 @@ public class ImageCreative  extends com.google.api.ads.dfp.v201004.HasDestinatio
            java.lang.String imageName,
            byte[] imageByteArray,
            java.lang.Boolean overrideSize,
-           com.google.api.ads.dfp.v201004.Size assetSize) {
+           com.google.api.ads.dfp.v201004.Size assetSize,
+           java.lang.String imageUrl) {
         super(
             advertiserId,
             id,
@@ -64,6 +70,7 @@ public class ImageCreative  extends com.google.api.ads.dfp.v201004.HasDestinatio
         this.imageByteArray = imageByteArray;
         this.overrideSize = overrideSize;
         this.assetSize = assetSize;
+        this.imageUrl = imageUrl;
     }
 
 
@@ -172,6 +179,30 @@ public class ImageCreative  extends com.google.api.ads.dfp.v201004.HasDestinatio
         this.assetSize = assetSize;
     }
 
+
+    /**
+     * Gets the imageUrl value for this ImageCreative.
+     * 
+     * @return imageUrl   * The URL where the actual asset resides. This attribute is read-only
+     * and
+     *                     has a maximum length of 1024 characters.
+     */
+    public java.lang.String getImageUrl() {
+        return imageUrl;
+    }
+
+
+    /**
+     * Sets the imageUrl value for this ImageCreative.
+     * 
+     * @param imageUrl   * The URL where the actual asset resides. This attribute is read-only
+     * and
+     *                     has a maximum length of 1024 characters.
+     */
+    public void setImageUrl(java.lang.String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
     private java.lang.Object __equalsCalc = null;
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof ImageCreative)) return false;
@@ -195,7 +226,10 @@ public class ImageCreative  extends com.google.api.ads.dfp.v201004.HasDestinatio
               this.overrideSize.equals(other.getOverrideSize()))) &&
             ((this.assetSize==null && other.getAssetSize()==null) || 
              (this.assetSize!=null &&
-              this.assetSize.equals(other.getAssetSize())));
+              this.assetSize.equals(other.getAssetSize()))) &&
+            ((this.imageUrl==null && other.getImageUrl()==null) || 
+             (this.imageUrl!=null &&
+              this.imageUrl.equals(other.getImageUrl())));
         __equalsCalc = null;
         return _equals;
     }
@@ -226,6 +260,9 @@ public class ImageCreative  extends com.google.api.ads.dfp.v201004.HasDestinatio
         }
         if (getAssetSize() != null) {
             _hashCode += getAssetSize().hashCode();
+        }
+        if (getImageUrl() != null) {
+            _hashCode += getImageUrl().hashCode();
         }
         __hashCodeCalc = false;
         return _hashCode;
@@ -262,6 +299,13 @@ public class ImageCreative  extends com.google.api.ads.dfp.v201004.HasDestinatio
         elemField.setFieldName("assetSize");
         elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "assetSize"));
         elemField.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "Size"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("imageUrl");
+        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "imageUrl"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
         elemField.setMinOccurs(0);
         elemField.setNillable(false);
         typeDesc.addFieldDesc(elemField);

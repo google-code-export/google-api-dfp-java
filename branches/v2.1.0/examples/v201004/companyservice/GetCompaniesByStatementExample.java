@@ -17,12 +17,12 @@ package v201004.companyservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
+import com.google.api.ads.dfp.lib.utils.StatementBuilder;
 import com.google.api.ads.dfp.v201004.Company;
 import com.google.api.ads.dfp.v201004.CompanyPage;
 import com.google.api.ads.dfp.v201004.CompanyServiceInterface;
+import com.google.api.ads.dfp.v201004.CompanyType;
 import com.google.api.ads.dfp.v201004.Statement;
-import com.google.api.ads.dfp.v201004.StringParam;
-import com.google.api.ads.dfp.v201004.String_ParamMapEntry;
 
 /**
  * This example gets all companies that are advertisers. The statement
@@ -42,15 +42,11 @@ public class GetCompaniesByStatementExample {
       CompanyServiceInterface companyService =
           user.getService(DfpService.V201004.COMPANY_SERVICE);
 
-      // Create bind parameters map.
-      String_ParamMapEntry[] paramMap = new String_ParamMapEntry[] {
-          new String_ParamMapEntry("type", new StringParam(null, "ADVERTISER"))
-      };
-
       // Create a statement to only select companies that are advertisers sorted
       // by name.
       Statement filterStatement =
-          new Statement("WHERE type = :type ORDER BY name LIMIT 500", paramMap);
+          new StatementBuilder("WHERE type = :type ORDER BY name LIMIT 500")
+              .putParam("type", CompanyType.ADVERTISER.toString()).toStatement();
 
       // Get companies by statement.
       CompanyPage page = companyService.getCompaniesByStatement(filterStatement);

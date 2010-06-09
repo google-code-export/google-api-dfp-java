@@ -20,6 +20,7 @@ public class ThirdPartyCreativeFormatStatus implements java.io.Serializable {
     public static final java.lang.String _EMPTY = "EMPTY";
     public static final java.lang.String _UNRECOGNIZED = "UNRECOGNIZED";
     public static final java.lang.String _RECOGNIZED = "RECOGNIZED";
+    public static final java.lang.String _RECOGNIZED_NO_MACROS_NECESSARY = "RECOGNIZED_NO_MACROS_NECESSARY";
     public static final java.lang.String _DISALLOWED = "DISALLOWED";
     public static final java.lang.String _ADSENSE = "ADSENSE";
     public static final java.lang.String _MAY_REQUIRE_MANUAL_MACROS = "MAY_REQUIRE_MANUAL_MACROS";
@@ -27,6 +28,7 @@ public class ThirdPartyCreativeFormatStatus implements java.io.Serializable {
     public static final ThirdPartyCreativeFormatStatus EMPTY = new ThirdPartyCreativeFormatStatus(_EMPTY);
     public static final ThirdPartyCreativeFormatStatus UNRECOGNIZED = new ThirdPartyCreativeFormatStatus(_UNRECOGNIZED);
     public static final ThirdPartyCreativeFormatStatus RECOGNIZED = new ThirdPartyCreativeFormatStatus(_RECOGNIZED);
+    public static final ThirdPartyCreativeFormatStatus RECOGNIZED_NO_MACROS_NECESSARY = new ThirdPartyCreativeFormatStatus(_RECOGNIZED_NO_MACROS_NECESSARY);
     public static final ThirdPartyCreativeFormatStatus DISALLOWED = new ThirdPartyCreativeFormatStatus(_DISALLOWED);
     public static final ThirdPartyCreativeFormatStatus ADSENSE = new ThirdPartyCreativeFormatStatus(_ADSENSE);
     public static final ThirdPartyCreativeFormatStatus MAY_REQUIRE_MANUAL_MACROS = new ThirdPartyCreativeFormatStatus(_MAY_REQUIRE_MANUAL_MACROS);

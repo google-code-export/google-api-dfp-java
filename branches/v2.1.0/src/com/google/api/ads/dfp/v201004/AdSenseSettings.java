@@ -93,9 +93,27 @@ public class AdSenseSettings  implements java.io.Serializable {
      *                 optional and defaults to the ad unit's parent or ancestor's
      * setting if one
      *                 has been set. If no ancestor of the ad unit has set
-     * {@code adType}, the
-     *                 attribute is defaulted to {@link BorderStyle#DEFAULT}. */
+     * {@code borderStyle},
+     *                 the attribute is defaulted to {@link BorderStyle#DEFAULT}. */
     private com.google.api.ads.dfp.v201004.AdSenseSettingsBorderStyle borderStyle;
+
+    /* Specifies the font family of the {@link AdUnit}. This attribute
+     * is optional
+     *                 and defaults to the ad unit's parent or ancestor's
+     * setting if one has been
+     *                 set. If no ancestor of the ad unit has set {@code
+     * fontFamily}, the
+     *                 attribute is defaulted to {@link FontFamily#DEFAULT}. */
+    private com.google.api.ads.dfp.v201004.AdSenseSettingsFontFamily fontFamily;
+
+    /* Specifies the font size of the {@link AdUnit}. This attribute
+     * is optional
+     *                 and defaults to the ad unit's parent or ancestor's
+     * setting if one has been
+     *                 set. If no ancestor of the ad unit has set {@code
+     * fontSize}, the
+     *                 attribute is defaulted to {@link FontSize#DEFAULT}. */
+    private com.google.api.ads.dfp.v201004.AdSenseSettingsFontSize fontSize;
 
     /* Maps ad unit sizes to AdSense-For-Content Size Formats. This
      * attribute is
@@ -114,6 +132,8 @@ public class AdSenseSettings  implements java.io.Serializable {
            java.lang.String urlColor,
            com.google.api.ads.dfp.v201004.AdSenseSettingsAdType adType,
            com.google.api.ads.dfp.v201004.AdSenseSettingsBorderStyle borderStyle,
+           com.google.api.ads.dfp.v201004.AdSenseSettingsFontFamily fontFamily,
+           com.google.api.ads.dfp.v201004.AdSenseSettingsFontSize fontSize,
            com.google.api.ads.dfp.v201004.Size_StringMapEntry[] afcFormats) {
            this.adSenseEnabled = adSenseEnabled;
            this.borderColor = borderColor;
@@ -123,6 +143,8 @@ public class AdSenseSettings  implements java.io.Serializable {
            this.urlColor = urlColor;
            this.adType = adType;
            this.borderStyle = borderStyle;
+           this.fontFamily = fontFamily;
+           this.fontSize = fontSize;
            this.afcFormats = afcFormats;
     }
 
@@ -385,8 +407,8 @@ public class AdSenseSettings  implements java.io.Serializable {
      *                 optional and defaults to the ad unit's parent or ancestor's
      * setting if one
      *                 has been set. If no ancestor of the ad unit has set
-     * {@code adType}, the
-     *                 attribute is defaulted to {@link BorderStyle#DEFAULT}.
+     * {@code borderStyle},
+     *                 the attribute is defaulted to {@link BorderStyle#DEFAULT}.
      */
     public com.google.api.ads.dfp.v201004.AdSenseSettingsBorderStyle getBorderStyle() {
         return borderStyle;
@@ -401,11 +423,75 @@ public class AdSenseSettings  implements java.io.Serializable {
      *                 optional and defaults to the ad unit's parent or ancestor's
      * setting if one
      *                 has been set. If no ancestor of the ad unit has set
-     * {@code adType}, the
-     *                 attribute is defaulted to {@link BorderStyle#DEFAULT}.
+     * {@code borderStyle},
+     *                 the attribute is defaulted to {@link BorderStyle#DEFAULT}.
      */
     public void setBorderStyle(com.google.api.ads.dfp.v201004.AdSenseSettingsBorderStyle borderStyle) {
         this.borderStyle = borderStyle;
+    }
+
+
+    /**
+     * Gets the fontFamily value for this AdSenseSettings.
+     * 
+     * @return fontFamily   * Specifies the font family of the {@link AdUnit}. This attribute
+     * is optional
+     *                 and defaults to the ad unit's parent or ancestor's
+     * setting if one has been
+     *                 set. If no ancestor of the ad unit has set {@code
+     * fontFamily}, the
+     *                 attribute is defaulted to {@link FontFamily#DEFAULT}.
+     */
+    public com.google.api.ads.dfp.v201004.AdSenseSettingsFontFamily getFontFamily() {
+        return fontFamily;
+    }
+
+
+    /**
+     * Sets the fontFamily value for this AdSenseSettings.
+     * 
+     * @param fontFamily   * Specifies the font family of the {@link AdUnit}. This attribute
+     * is optional
+     *                 and defaults to the ad unit's parent or ancestor's
+     * setting if one has been
+     *                 set. If no ancestor of the ad unit has set {@code
+     * fontFamily}, the
+     *                 attribute is defaulted to {@link FontFamily#DEFAULT}.
+     */
+    public void setFontFamily(com.google.api.ads.dfp.v201004.AdSenseSettingsFontFamily fontFamily) {
+        this.fontFamily = fontFamily;
+    }
+
+
+    /**
+     * Gets the fontSize value for this AdSenseSettings.
+     * 
+     * @return fontSize   * Specifies the font size of the {@link AdUnit}. This attribute
+     * is optional
+     *                 and defaults to the ad unit's parent or ancestor's
+     * setting if one has been
+     *                 set. If no ancestor of the ad unit has set {@code
+     * fontSize}, the
+     *                 attribute is defaulted to {@link FontSize#DEFAULT}.
+     */
+    public com.google.api.ads.dfp.v201004.AdSenseSettingsFontSize getFontSize() {
+        return fontSize;
+    }
+
+
+    /**
+     * Sets the fontSize value for this AdSenseSettings.
+     * 
+     * @param fontSize   * Specifies the font size of the {@link AdUnit}. This attribute
+     * is optional
+     *                 and defaults to the ad unit's parent or ancestor's
+     * setting if one has been
+     *                 set. If no ancestor of the ad unit has set {@code
+     * fontSize}, the
+     *                 attribute is defaulted to {@link FontSize#DEFAULT}.
+     */
+    public void setFontSize(com.google.api.ads.dfp.v201004.AdSenseSettingsFontSize fontSize) {
+        this.fontSize = fontSize;
     }
 
 
@@ -476,6 +562,12 @@ public class AdSenseSettings  implements java.io.Serializable {
             ((this.borderStyle==null && other.getBorderStyle()==null) || 
              (this.borderStyle!=null &&
               this.borderStyle.equals(other.getBorderStyle()))) &&
+            ((this.fontFamily==null && other.getFontFamily()==null) || 
+             (this.fontFamily!=null &&
+              this.fontFamily.equals(other.getFontFamily()))) &&
+            ((this.fontSize==null && other.getFontSize()==null) || 
+             (this.fontSize!=null &&
+              this.fontSize.equals(other.getFontSize()))) &&
             ((this.afcFormats==null && other.getAfcFormats()==null) || 
              (this.afcFormats!=null &&
               java.util.Arrays.equals(this.afcFormats, other.getAfcFormats())));
@@ -513,6 +605,12 @@ public class AdSenseSettings  implements java.io.Serializable {
         }
         if (getBorderStyle() != null) {
             _hashCode += getBorderStyle().hashCode();
+        }
+        if (getFontFamily() != null) {
+            _hashCode += getFontFamily().hashCode();
+        }
+        if (getFontSize() != null) {
+            _hashCode += getFontSize().hashCode();
         }
         if (getAfcFormats() != null) {
             for (int i=0;
@@ -588,6 +686,20 @@ public class AdSenseSettings  implements java.io.Serializable {
         elemField.setFieldName("borderStyle");
         elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "borderStyle"));
         elemField.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "AdSenseSettings.BorderStyle"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("fontFamily");
+        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "fontFamily"));
+        elemField.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "AdSenseSettings.FontFamily"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("fontSize");
+        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "fontSize"));
+        elemField.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "AdSenseSettings.FontSize"));
         elemField.setMinOccurs(0);
         elemField.setNillable(false);
         typeDesc.addFieldDesc(elemField);

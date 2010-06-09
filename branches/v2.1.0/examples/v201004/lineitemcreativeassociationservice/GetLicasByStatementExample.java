@@ -17,17 +17,17 @@ package v201004.lineitemcreativeassociationservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
+import com.google.api.ads.dfp.lib.utils.StatementBuilder;
 import com.google.api.ads.dfp.v201004.LineItemCreativeAssociation;
 import com.google.api.ads.dfp.v201004.LineItemCreativeAssociationPage;
 import com.google.api.ads.dfp.v201004.LineItemCreativeAssociationServiceInterface;
-import com.google.api.ads.dfp.v201004.LongParam;
 import com.google.api.ads.dfp.v201004.Statement;
-import com.google.api.ads.dfp.v201004.String_ParamMapEntry;
 
 /**
- * This example gets all line item creative associations for a given line
- * item ID. The statement retrieves up to the maximum page size limit of 500. To
- * create LICAs, run CreateLicasExample.java.
+ * This example gets all line item creative associations for a given line item
+ * ID. The statement retrieves up to the maximum page size limit of 500. To
+ * create LICAs, run CreateLicasExample.java. To determine which line items
+ * exist, run GetAllLineItemsExample.java.
  */
 public class GetLicasByStatementExample {
   public static void main(String[] args) {
@@ -45,14 +45,10 @@ public class GetLicasByStatementExample {
       // Set the line item to get LICAs by.
       Long lineItemId = Long.parseLong("INSERT_LINE_ITEM_ID_HERE");
 
-      // Create bind parameters map.
-      String_ParamMapEntry[] paramMap = new String_ParamMapEntry[] {
-          new String_ParamMapEntry("lineItemId", new LongParam(null, lineItemId))
-      };
-
       // Create a statement to only select LICAs for the given lineItem ID.
       Statement filterStatement =
-          new Statement("WHERE lineItemId = :lineItemId LIMIT 500", paramMap);
+          new StatementBuilder("WHERE lineItemId = :lineItemId LIMIT 500")
+              .putParam("lineItemId", lineItemId).toStatement();
 
       // Get LICAs by statement.
       LineItemCreativeAssociationPage page =

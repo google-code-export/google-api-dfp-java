@@ -17,9 +17,11 @@ package v201004.companyservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
+import com.google.api.ads.dfp.lib.utils.StatementBuilder;
 import com.google.api.ads.dfp.v201004.Company;
 import com.google.api.ads.dfp.v201004.CompanyPage;
 import com.google.api.ads.dfp.v201004.CompanyServiceInterface;
+import com.google.api.ads.dfp.v201004.CompanyType;
 import com.google.api.ads.dfp.v201004.Statement;
 
 /**
@@ -42,7 +44,8 @@ public class UpdateCompaniesExample {
 
       // Create a statement to only select companies that are advertisers.
       Statement filterStatement =
-          new Statement("WHERE type = 'ADVERTISER' LIMIT 500", null);
+          new StatementBuilder("WHERE type = :type LIMIT 500")
+              .putParam("type", CompanyType.ADVERTISER.toString()).toStatement();
 
       // Get the companies by statement.
       CompanyPage page =
