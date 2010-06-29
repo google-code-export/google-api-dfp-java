@@ -77,21 +77,28 @@ SoapHeader soapHeader = new SoapHeader(...);
 
 Using the service stub with the headers set, a call to the API can be made. Below is a snippet on how this might be done:
 {{{
-// Create selector.
-CampaignSelector selector = new CampaignSelector();
+// Set the ID of the advertiser to get orders for.
+Long advertiserId = Long.parseLong("INSERT_ADVERTISER_ID_HERE");
 
-// Get all campaigns.
-CampaignPage page = campaignService.get(selector);
+// Create a statement to only select orders for a given advertiser.
+Statement filterStatement =
+    new Statement("WHERE advertiserId = " + advertiserId + "LIMIT 500", null);
 
-// Display campaigns.
-if (page.getEntries() != null) {
-  for (Campaign campaign : page.getEntries()) {
-    System.out.println("Campaign with name \"" + campaign.getName() + "\" and id \""
-        + campaign.getId() + "\" was found.");
+// Get orders by statement.
+OrderPage page = orderService.getOrdersByStatement(filterStatement);
+
+if (page.getResults() != null) {
+  int i = page.getStartIndex();
+  for (Order order : page.getResults()) {
+    System.out.println(i + ") Order with ID \""
+        + order.getId() + "\", name \"" + order.getName()
+        + "\", and advertiser ID \"" + order.getAdvertiserId()
+        + "\" was found.");
+    i++;
   }
-} else {
-  System.out.println("No campaigns were found.");
 }
+
+System.out.println("Number of results found: " + page.getTotalResultSetSize());
 }}}
 
 ==Complete Example==
