@@ -69,7 +69,8 @@ The API uses one SOAP header, called "RequestHeader", to hold the various header
 
 {{{
 // Set the header.
-SoapHeader soapHeader = new SoapHeader(...);
+SoapRequestHeader soapHeader =
+    new SoapRequestHeader(authToken, networkCode, applicationName, null);
 ((Stub) orderService).setHeader(namespace, "RequestHeader", soapHeader);
 }}}
 
@@ -82,7 +83,7 @@ Long advertiserId = Long.parseLong("INSERT_ADVERTISER_ID_HERE");
 
 // Create a statement to only select orders for a given advertiser.
 Statement filterStatement =
-    new Statement("WHERE advertiserId = " + advertiserId + "LIMIT 500", null);
+    new Statement("WHERE advertiserId = " + advertiserId + " LIMIT 500", null);
 
 // Get orders by statement.
 OrderPage page = orderService.getOrdersByStatement(filterStatement);
@@ -156,7 +157,7 @@ public class GetOrdersByStatementExample {
 
       // Create a statement to only select orders for a given advertiser.
       Statement filterStatement =
-          new Statement("WHERE advertiserId = " + advertiserId + "LIMIT 500", null);
+          new Statement("WHERE advertiserId = " + advertiserId + " LIMIT 500", null);
 
       // Get orders by statement.
       OrderPage page = orderService.getOrdersByStatement(filterStatement);
