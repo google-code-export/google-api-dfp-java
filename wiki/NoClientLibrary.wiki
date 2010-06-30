@@ -6,7 +6,7 @@ If you plan to make requests to the DFP API with Java, we recommend you use the 
 
 ==Authentication==
 
-In the the API, authentication is handled using the [http://code.google.com/apis/accounts/docs/AuthForInstalledApps.html ClientLogin API]. It is a REST based API that takes the email and password of a Google account and returns an authentication token that must be included with all requests to the AdWords API. The required parameters are:
+In the the API, authentication is handled using the [http://code.google.com/apis/accounts/docs/AuthForInstalledApps.html ClientLogin API]. It is a REST based API that takes the email and password of a Google account and returns an authentication token that must be included with all requests to the API. The required parameters are:
 
 || accountType || Should always be "GOOGLE" ||
 || Email || The email address of the DFP Google account ||
