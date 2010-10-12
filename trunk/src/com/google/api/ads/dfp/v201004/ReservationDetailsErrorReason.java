@@ -20,23 +20,21 @@ public class ReservationDetailsErrorReason implements java.io.Serializable {
     public static final java.lang.String _UNLIMITED_UNITS_BOUGHT_NOT_ALLOWED = "UNLIMITED_UNITS_BOUGHT_NOT_ALLOWED";
     public static final java.lang.String _UNLIMITED_END_DATE_TIME_NOT_ALLOWED = "UNLIMITED_END_DATE_TIME_NOT_ALLOWED";
     public static final java.lang.String _PERCENTAGE_UNITS_BOUGHT_TOO_HIGH = "PERCENTAGE_UNITS_BOUGHT_TOO_HIGH";
-    public static final java.lang.String _PERCENTAGE_UNITS_BOUGHT_NOT_ALLOWED = "PERCENTAGE_UNITS_BOUGHT_NOT_ALLOWED";
     public static final java.lang.String _DURATION_NOT_ALLOWED = "DURATION_NOT_ALLOWED";
     public static final java.lang.String _UNIT_TYPE_NOT_ALLOWED = "UNIT_TYPE_NOT_ALLOWED";
     public static final java.lang.String _COST_TYPE_NOT_ALLOWED = "COST_TYPE_NOT_ALLOWED";
     public static final java.lang.String _COST_TYPE_UNIT_TYPE_MISMATCH_NOT_ALLOWED = "COST_TYPE_UNIT_TYPE_MISMATCH_NOT_ALLOWED";
     public static final java.lang.String _LINE_ITEM_TYPE_NOT_ALLOWED = "LINE_ITEM_TYPE_NOT_ALLOWED";
-    public static final java.lang.String _MIXING_DURATION_IN_ORDER_NOT_ALLOWED = "MIXING_DURATION_IN_ORDER_NOT_ALLOWED";
+    public static final java.lang.String _NETWORK_REMNANT_ORDER_CANNOT_UPDATE_LINEITEM_TYPE = "NETWORK_REMNANT_ORDER_CANNOT_UPDATE_LINEITEM_TYPE";
     public static final ReservationDetailsErrorReason UNLIMITED_UNITS_BOUGHT_NOT_ALLOWED = new ReservationDetailsErrorReason(_UNLIMITED_UNITS_BOUGHT_NOT_ALLOWED);
     public static final ReservationDetailsErrorReason UNLIMITED_END_DATE_TIME_NOT_ALLOWED = new ReservationDetailsErrorReason(_UNLIMITED_END_DATE_TIME_NOT_ALLOWED);
     public static final ReservationDetailsErrorReason PERCENTAGE_UNITS_BOUGHT_TOO_HIGH = new ReservationDetailsErrorReason(_PERCENTAGE_UNITS_BOUGHT_TOO_HIGH);
-    public static final ReservationDetailsErrorReason PERCENTAGE_UNITS_BOUGHT_NOT_ALLOWED = new ReservationDetailsErrorReason(_PERCENTAGE_UNITS_BOUGHT_NOT_ALLOWED);
     public static final ReservationDetailsErrorReason DURATION_NOT_ALLOWED = new ReservationDetailsErrorReason(_DURATION_NOT_ALLOWED);
     public static final ReservationDetailsErrorReason UNIT_TYPE_NOT_ALLOWED = new ReservationDetailsErrorReason(_UNIT_TYPE_NOT_ALLOWED);
     public static final ReservationDetailsErrorReason COST_TYPE_NOT_ALLOWED = new ReservationDetailsErrorReason(_COST_TYPE_NOT_ALLOWED);
     public static final ReservationDetailsErrorReason COST_TYPE_UNIT_TYPE_MISMATCH_NOT_ALLOWED = new ReservationDetailsErrorReason(_COST_TYPE_UNIT_TYPE_MISMATCH_NOT_ALLOWED);
     public static final ReservationDetailsErrorReason LINE_ITEM_TYPE_NOT_ALLOWED = new ReservationDetailsErrorReason(_LINE_ITEM_TYPE_NOT_ALLOWED);
-    public static final ReservationDetailsErrorReason MIXING_DURATION_IN_ORDER_NOT_ALLOWED = new ReservationDetailsErrorReason(_MIXING_DURATION_IN_ORDER_NOT_ALLOWED);
+    public static final ReservationDetailsErrorReason NETWORK_REMNANT_ORDER_CANNOT_UPDATE_LINEITEM_TYPE = new ReservationDetailsErrorReason(_NETWORK_REMNANT_ORDER_CANNOT_UPDATE_LINEITEM_TYPE);
     public java.lang.String getValue() { return _value_;}
     public static ReservationDetailsErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

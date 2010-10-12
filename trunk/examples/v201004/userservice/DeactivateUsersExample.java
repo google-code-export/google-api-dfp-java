@@ -17,12 +17,18 @@ package v201004.userservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
+import com.google.api.ads.dfp.lib.utils.v201004.StatementBuilder;
 import com.google.api.ads.dfp.v201004.DeactivateUsers;
 import com.google.api.ads.dfp.v201004.Statement;
 import com.google.api.ads.dfp.v201004.UpdateResult;
 import com.google.api.ads.dfp.v201004.User;
 import com.google.api.ads.dfp.v201004.UserPage;
 import com.google.api.ads.dfp.v201004.UserServiceInterface;
+
+import org.apache.commons.lang.StringUtils;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * This example deactivates a user. Deactivated users can no longer make
@@ -46,16 +52,20 @@ public class DeactivateUsersExample {
       Long userId = Long.parseLong("INSERT_USER_ID_HERE");
 
       // Create filter text to select user by id.
-      String filterText = "WHERE id = " + userId;
+      String statementText = "WHERE id = :userId LIMIT 500";
+      Statement filterStatement =
+        new StatementBuilder("")
+            .putParam("userId", userId)
+            .toStatement();
 
-      // Set defaults for page and filterStatement.
+      // Set defaults for page and offset.
       UserPage page = new UserPage();
-      Statement filterStatement = new Statement();
       int offset = 0;
+      List<Long> userIds = new ArrayList<Long>();
 
       do {
         // Create a statement to page through users.
-        filterStatement.setQuery(filterText + " LIMIT 500 OFFSET " + offset);
+        filterStatement.setQuery(statementText + " OFFSET " + offset);
 
         // Get users by statement.
         page = userService.getUsersByStatement(filterStatement);
@@ -67,30 +77,32 @@ public class DeactivateUsersExample {
                 + "\", email \"" + userResult.getEmail()
                 + "\", and status \"" + (userResult.getIsActive() ? "ACTIVE" : "INACTIVE")
                 + "\" will be deactivated.");
+            userIds.add(userResult.getId());
             i++;
           }
         }
 
         offset += 500;
-      } while (page.getResults() != null && page.getResults().length == 500);
+      } while (offset < page.getTotalResultSetSize());
 
+      System.out.println("Number of users to be deactivated: " + userIds.size());
 
-      System.out.println("Number of users to be deactivated: " + page.getTotalResultSetSize());
+      if (userIds.size() > 0) {
+        // Modify statement for action.
+        filterStatement.setQuery("WHERE id IN (" + StringUtils.join(userIds, ",") + ")");
 
-      // Modify statement for action.
-      filterStatement.setQuery(filterText);
+        // Create action.
+        DeactivateUsers action = new DeactivateUsers();
 
-      // Create action.
-      DeactivateUsers action = new DeactivateUsers();
+        // Perform action.
+        UpdateResult result = userService.performUserAction(action, filterStatement);
 
-      // Perform action.
-      UpdateResult result = userService.performUserAction(action, filterStatement);
-
-      // Display results.
-      if (result != null && result.getNumChanges() > 0) {
-        System.out.println("Number of users deactivated: " + result.getNumChanges());
-      } else {
-        System.out.println("No users were deactivated.");
+        // Display results.
+        if (result != null && result.getNumChanges() > 0) {
+          System.out.println("Number of users deactivated: " + result.getNumChanges());
+        } else {
+          System.out.println("No users were deactivated.");
+        }
       }
     } catch (Exception e) {
       e.printStackTrace();

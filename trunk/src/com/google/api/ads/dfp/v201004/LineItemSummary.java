@@ -55,7 +55,12 @@ public class LineItemSummary  implements java.io.Serializable {
 
     /* Specifies whether or not the {@code LineItem} has an end time.
      * This
-     *                 attribute is optional and defaults to false. */
+     *                 attribute is optional and defaults to false. It can
+     * be be set to {@code
+     *                 true} for only line items of type {@link LineItemType#SPONSORSHIP},
+     * {@link LineItemType#NETWORK}, {@link LineItemType#PRICE_PRIORITY}
+     * and
+     *                 {@link LineItemType#HOUSE}. */
     private java.lang.Boolean unlimitedEndDateTime;
 
     /* The strategy used for displaying multiple {@link Creative}
@@ -100,39 +105,45 @@ public class LineItemSummary  implements java.io.Serializable {
 
     /* The period over which the goal or cap for {@code LineItem}
      * should be
-     *                 reached. This attribute is optional. The following
-     * durations are allowed
-     *                 for each line item type:
+     *                 reached. This attribute is optional. For each line
+     * item type, the
+     *                 following are the valid and default values:
      *                 <table>
      *                 <tr>
      *                 <th scope="col">LineItemType</th> <th scope="col">Valid
      * duration
-     *                 values</th>
+     *                 values</th> <th scope="col">Default duration value</th>
+     * </tr>
+     *                 <tr>
+     *                 <td>{@link LineItemType#SPONSORSHIP SPONSORSHIP}</td>
+     * <td>{@link Duration#DAILY DAILY}</td>
+     *                 <td>{@link Duration#DAILY DAILY}</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#SPONSORSHIP}</td>
-     *                 <td>{@link Duration#DAILY}</td>
+     *                 <td>{@link LineItemType#STANDARD STANDARD}</td>
+     *                 <td>{@link Duration#LIFETIME LIFETIME}</td>
+     *                 <td>{@link Duration#LIFETIME LIFETIME}</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#STANDARD}</td>
-     *                 <td>{@link Duration#LIFETIME}</td>
+     *                 <td>{@link LineItemType#NETWORK NETWORK}</td>
+     *                 <td>{@link Duration#DAILY DAILY}</td>
+     *                 <td>{@link Duration#DAILY DAILY}</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#NETWORK}</td>
-     *                 <td>{@link Duration#DAILY}</td>
+     *                 <td>{@link LineItemType#BULK BULK}</td>
+     *                 <td>{@link Duration#LIFETIME LIFETIME}</td>
+     *                 <td>{@link Duration#LIFETIME LIFETIME}</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#BULK}</td>
-     *                 <td>{@link Duration#LIFETIME}</td>
+     *                 <td>{@link LineItemType#PRICE_PRIORITY PRICE_PRIORITY}</td>
+     * <td>{@link Duration#DAILY DAILY},
+     *                 {@link Duration#LIFETIME LIFETIME}</td>
+     *                 <td>{@link Duration#LIFETIME LIFETIME}</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#PRICE_PRIORITY}</td>
-     *                 <td>{@link Duration#DAILY},
-     *                 {@link Duration#LIFETIME}</td>
-     *                 </tr>
-     *                 <tr>
-     *                 <td>{@link LineItemType#HOUSE}</td>
-     *                 <td>{@link Duration#DAILY}</td>
+     *                 <td>{@link LineItemType#HOUSE HOUSE}</td>
+     *                 <td>{@link Duration#DAILY DAILY}</td>
+     *                 <td>{@link Duration#DAILY DAILY}</td>
      *                 </tr>
      *                 </table> */
     private com.google.api.ads.dfp.v201004.LineItemSummaryDuration duration;
@@ -183,9 +194,7 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 are supported. */
     private java.lang.Double discount;
 
-    /* All sizes of creatives that the {@code LineItem} contains or
-     * might contain
-     *                 in the future. This attribute is required. */
+    /* The set of sizes this creative uses. */
     private com.google.api.ads.dfp.v201004.Size[] creativeSizes;
 
     /* The flag indicates whether overbooking should be allowed when
@@ -506,7 +515,12 @@ public class LineItemSummary  implements java.io.Serializable {
      * 
      * @return unlimitedEndDateTime   * Specifies whether or not the {@code LineItem} has an end time.
      * This
-     *                 attribute is optional and defaults to false.
+     *                 attribute is optional and defaults to false. It can
+     * be be set to {@code
+     *                 true} for only line items of type {@link LineItemType#SPONSORSHIP},
+     * {@link LineItemType#NETWORK}, {@link LineItemType#PRICE_PRIORITY}
+     * and
+     *                 {@link LineItemType#HOUSE}.
      */
     public java.lang.Boolean getUnlimitedEndDateTime() {
         return unlimitedEndDateTime;
@@ -518,7 +532,12 @@ public class LineItemSummary  implements java.io.Serializable {
      * 
      * @param unlimitedEndDateTime   * Specifies whether or not the {@code LineItem} has an end time.
      * This
-     *                 attribute is optional and defaults to false.
+     *                 attribute is optional and defaults to false. It can
+     * be be set to {@code
+     *                 true} for only line items of type {@link LineItemType#SPONSORSHIP},
+     * {@link LineItemType#NETWORK}, {@link LineItemType#PRICE_PRIORITY}
+     * and
+     *                 {@link LineItemType#HOUSE}.
      */
     public void setUnlimitedEndDateTime(java.lang.Boolean unlimitedEndDateTime) {
         this.unlimitedEndDateTime = unlimitedEndDateTime;
@@ -702,39 +721,45 @@ public class LineItemSummary  implements java.io.Serializable {
      * 
      * @return duration   * The period over which the goal or cap for {@code LineItem}
      * should be
-     *                 reached. This attribute is optional. The following
-     * durations are allowed
-     *                 for each line item type:
+     *                 reached. This attribute is optional. For each line
+     * item type, the
+     *                 following are the valid and default values:
      *                 <table>
      *                 <tr>
      *                 <th scope="col">LineItemType</th> <th scope="col">Valid
      * duration
-     *                 values</th>
+     *                 values</th> <th scope="col">Default duration value</th>
+     * </tr>
+     *                 <tr>
+     *                 <td>{@link LineItemType#SPONSORSHIP SPONSORSHIP}</td>
+     * <td>{@link Duration#DAILY DAILY}</td>
+     *                 <td>{@link Duration#DAILY DAILY}</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#SPONSORSHIP}</td>
-     *                 <td>{@link Duration#DAILY}</td>
+     *                 <td>{@link LineItemType#STANDARD STANDARD}</td>
+     *                 <td>{@link Duration#LIFETIME LIFETIME}</td>
+     *                 <td>{@link Duration#LIFETIME LIFETIME}</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#STANDARD}</td>
-     *                 <td>{@link Duration#LIFETIME}</td>
+     *                 <td>{@link LineItemType#NETWORK NETWORK}</td>
+     *                 <td>{@link Duration#DAILY DAILY}</td>
+     *                 <td>{@link Duration#DAILY DAILY}</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#NETWORK}</td>
-     *                 <td>{@link Duration#DAILY}</td>
+     *                 <td>{@link LineItemType#BULK BULK}</td>
+     *                 <td>{@link Duration#LIFETIME LIFETIME}</td>
+     *                 <td>{@link Duration#LIFETIME LIFETIME}</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#BULK}</td>
-     *                 <td>{@link Duration#LIFETIME}</td>
+     *                 <td>{@link LineItemType#PRICE_PRIORITY PRICE_PRIORITY}</td>
+     * <td>{@link Duration#DAILY DAILY},
+     *                 {@link Duration#LIFETIME LIFETIME}</td>
+     *                 <td>{@link Duration#LIFETIME LIFETIME}</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#PRICE_PRIORITY}</td>
-     *                 <td>{@link Duration#DAILY},
-     *                 {@link Duration#LIFETIME}</td>
-     *                 </tr>
-     *                 <tr>
-     *                 <td>{@link LineItemType#HOUSE}</td>
-     *                 <td>{@link Duration#DAILY}</td>
+     *                 <td>{@link LineItemType#HOUSE HOUSE}</td>
+     *                 <td>{@link Duration#DAILY DAILY}</td>
+     *                 <td>{@link Duration#DAILY DAILY}</td>
      *                 </tr>
      *                 </table>
      */
@@ -748,39 +773,45 @@ public class LineItemSummary  implements java.io.Serializable {
      * 
      * @param duration   * The period over which the goal or cap for {@code LineItem}
      * should be
-     *                 reached. This attribute is optional. The following
-     * durations are allowed
-     *                 for each line item type:
+     *                 reached. This attribute is optional. For each line
+     * item type, the
+     *                 following are the valid and default values:
      *                 <table>
      *                 <tr>
      *                 <th scope="col">LineItemType</th> <th scope="col">Valid
      * duration
-     *                 values</th>
+     *                 values</th> <th scope="col">Default duration value</th>
+     * </tr>
+     *                 <tr>
+     *                 <td>{@link LineItemType#SPONSORSHIP SPONSORSHIP}</td>
+     * <td>{@link Duration#DAILY DAILY}</td>
+     *                 <td>{@link Duration#DAILY DAILY}</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#SPONSORSHIP}</td>
-     *                 <td>{@link Duration#DAILY}</td>
+     *                 <td>{@link LineItemType#STANDARD STANDARD}</td>
+     *                 <td>{@link Duration#LIFETIME LIFETIME}</td>
+     *                 <td>{@link Duration#LIFETIME LIFETIME}</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#STANDARD}</td>
-     *                 <td>{@link Duration#LIFETIME}</td>
+     *                 <td>{@link LineItemType#NETWORK NETWORK}</td>
+     *                 <td>{@link Duration#DAILY DAILY}</td>
+     *                 <td>{@link Duration#DAILY DAILY}</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#NETWORK}</td>
-     *                 <td>{@link Duration#DAILY}</td>
+     *                 <td>{@link LineItemType#BULK BULK}</td>
+     *                 <td>{@link Duration#LIFETIME LIFETIME}</td>
+     *                 <td>{@link Duration#LIFETIME LIFETIME}</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#BULK}</td>
-     *                 <td>{@link Duration#LIFETIME}</td>
+     *                 <td>{@link LineItemType#PRICE_PRIORITY PRICE_PRIORITY}</td>
+     * <td>{@link Duration#DAILY DAILY},
+     *                 {@link Duration#LIFETIME LIFETIME}</td>
+     *                 <td>{@link Duration#LIFETIME LIFETIME}</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#PRICE_PRIORITY}</td>
-     *                 <td>{@link Duration#DAILY},
-     *                 {@link Duration#LIFETIME}</td>
-     *                 </tr>
-     *                 <tr>
-     *                 <td>{@link LineItemType#HOUSE}</td>
-     *                 <td>{@link Duration#DAILY}</td>
+     *                 <td>{@link LineItemType#HOUSE HOUSE}</td>
+     *                 <td>{@link Duration#DAILY DAILY}</td>
+     *                 <td>{@link Duration#DAILY DAILY}</td>
      *                 </tr>
      *                 </table>
      */
@@ -968,9 +999,7 @@ public class LineItemSummary  implements java.io.Serializable {
     /**
      * Gets the creativeSizes value for this LineItemSummary.
      * 
-     * @return creativeSizes   * All sizes of creatives that the {@code LineItem} contains or
-     * might contain
-     *                 in the future. This attribute is required.
+     * @return creativeSizes   * The set of sizes this creative uses.
      */
     public com.google.api.ads.dfp.v201004.Size[] getCreativeSizes() {
         return creativeSizes;
@@ -980,9 +1009,7 @@ public class LineItemSummary  implements java.io.Serializable {
     /**
      * Sets the creativeSizes value for this LineItemSummary.
      * 
-     * @param creativeSizes   * All sizes of creatives that the {@code LineItem} contains or
-     * might contain
-     *                 in the future. This attribute is required.
+     * @param creativeSizes   * The set of sizes this creative uses.
      */
     public void setCreativeSizes(com.google.api.ads.dfp.v201004.Size[] creativeSizes) {
         this.creativeSizes = creativeSizes;

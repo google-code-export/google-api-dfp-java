@@ -80,7 +80,7 @@ public class CreatePlacementsExample {
       // Separate the ad units by size.
       if (page.getResults() != null) {
         for (AdUnit adUnit : page.getResults()) {
-          if (adUnit.getSizes() != null) {
+          if (adUnit.getParentId() != null && adUnit.getSizes() != null) {
             for (Size size : adUnit.getSizes()) {
               if (size.getWidth() == 300 && size.getHeight() == 250) {
                 Set<String> adUnitIds =

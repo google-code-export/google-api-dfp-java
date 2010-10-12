@@ -17,6 +17,7 @@ package v201004.placementservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
+import com.google.api.ads.dfp.lib.utils.v201004.StatementBuilder;
 import com.google.api.ads.dfp.v201004.DeactivatePlacements;
 import com.google.api.ads.dfp.v201004.InventoryStatus;
 import com.google.api.ads.dfp.v201004.Placement;
@@ -24,6 +25,11 @@ import com.google.api.ads.dfp.v201004.PlacementPage;
 import com.google.api.ads.dfp.v201004.PlacementServiceInterface;
 import com.google.api.ads.dfp.v201004.Statement;
 import com.google.api.ads.dfp.v201004.UpdateResult;
+
+import org.apache.commons.lang.StringUtils;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * This example deactivates all active placements. To determine which placements
@@ -43,16 +49,20 @@ public class DeactivatePlacementsExample {
           user.getService(DfpService.V201004.PLACEMENT_SERVICE);
 
       // Create statement text to select active placements.
-      String statementText = "WHERE status = '" + InventoryStatus.ACTIVE + "'";
+      String statementText = "WHERE status = :status LIMIT 500";
+      Statement filterStatement =
+          new StatementBuilder("")
+              .putParam("status", InventoryStatus.ACTIVE.toString())
+              .toStatement();
 
-      // Set defaults for page and filterStatement.
+      // Set defaults for page and offset.
       PlacementPage page = new PlacementPage();
-      Statement filterStatement = new Statement();
       int offset = 0;
+      List<Long> placementIds = new ArrayList<Long>();
 
       do {
         // Create a statement to page through active placements.
-        filterStatement.setQuery(statementText + " LIMIT 500 OFFSET " + offset);
+        filterStatement.setQuery(statementText + " OFFSET " + offset);
 
         // Get placements by statement.
         page = placementService.getPlacementsByStatement(filterStatement);
@@ -63,18 +73,19 @@ public class DeactivatePlacementsExample {
             System.out.println(i + ") Placement with ID \"" + placement.getId()
                 + "\", name \"" + placement.getName()
                 + "\", and status \"" + placement.getStatus() + "\" will be deactivated.");
+            placementIds.add(placement.getId());
             i++;
           }
         }
 
         offset += 500;
-      } while (page.getResults() != null && page.getResults().length == 500);
+      } while (offset < page.getTotalResultSetSize());
 
 
-      System.out.println("Number of placements to be deactivated: " + page.getTotalResultSetSize());
+      System.out.println("Number of placements to be deactivated: " + placementIds.size());
 
       // Modify statement for action.
-      filterStatement.setQuery(statementText);
+      filterStatement.setQuery("WHERE id IN (" + StringUtils.join(placementIds, ",") + ")");
 
       // Create action.
       DeactivatePlacements action = new DeactivatePlacements();

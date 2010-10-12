@@ -49,8 +49,15 @@ public class UpdateOrdersExample {
         Order[] orders = page.getResults();
 
         // Update each local order object by changing its notes.
+        int i = 0;
         for (Order order : orders) {
-          order.setNotes("Spoke to advertiser. All is well.");
+          // Archived orders cannot be updated.
+          if (order.getIsArchived()) {
+            orders[i] = null;
+          } else {
+            order.setNotes("Spoke to advertiser. All is well.");
+          }
+          i++;
         }
 
         // Update the orders on the server.

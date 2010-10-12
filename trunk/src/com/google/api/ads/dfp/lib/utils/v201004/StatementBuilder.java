@@ -12,8 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.google.api.ads.dfp.lib.utils;
+package com.google.api.ads.dfp.lib.utils.v201004;
 
+import com.google.api.ads.dfp.lib.utils.MapUtils;
 import com.google.api.ads.dfp.v201004.DoubleParam;
 import com.google.api.ads.dfp.v201004.LongParam;
 import com.google.api.ads.dfp.v201004.Param;
@@ -94,6 +95,17 @@ public class StatementBuilder {
    */
   public StatementBuilder putParam(String key, Double value) {
     return putParam(key, createParam(value));
+  }
+
+  /**
+   * Adds a parameter to the statement in the form of a {@link LongParam}.
+   *
+   * @param key the parameter key
+   * @param value the paramenter {@code Integer} value
+   * @return a reference to this object
+   */
+  public StatementBuilder putParam(String key, Integer value) {
+    return putParam(key, value.longValue());
   }
 
   /**

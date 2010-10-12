@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package utils;
+package v201004.utils;
 
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
-import com.google.api.ads.dfp.lib.utils.DateTimeUtils;
 import com.google.api.ads.dfp.lib.utils.ReportCallback;
-import com.google.api.ads.dfp.lib.utils.ReportUtils;
+import com.google.api.ads.dfp.lib.utils.v201004.DateTimeUtils;
+import com.google.api.ads.dfp.lib.utils.v201004.ReportUtils;
 import com.google.api.ads.dfp.v201004.Column;
 import com.google.api.ads.dfp.v201004.DateRangeType;
 import com.google.api.ads.dfp.v201004.Dimension;

@@ -202,5 +202,12 @@ public class DfpService {
      */
     public static final DfpService FORECAST_SERVICE =
         new DfpService("ForecastService", DfpVersion.V201004);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201004.NetworkServiceInterface}.
+     */
+    public static final DfpService NETWORK_SERVICE =
+        new DfpService("NetworkService", DfpVersion.V201004);
   }
 }

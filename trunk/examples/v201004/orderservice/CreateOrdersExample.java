@@ -39,9 +39,9 @@ public class CreateOrdersExample {
       OrderServiceInterface orderService =
           user.getService(DfpService.V201004.ORDER_SERVICE);
 
-      // Set the advertiser, salesperson, and trafficker to assign to each
-      // order.
-      Long advertiserId = Long.parseLong("INSERT_ADVERTISER_ID_HERE");
+      // Set the advertiser (company), salesperson, and trafficker to assign to
+      // each order.
+      Long advertiserId = Long.parseLong("INSERT_ADVERTISER_COMPANY_ID_HERE");
       Long salespersonId = Long.parseLong("INSERT_SALESPERSON_ID_HERE");
       Long traffickerId = Long.parseLong("INSERT_TRAFFICKER_ID_HERE");
 

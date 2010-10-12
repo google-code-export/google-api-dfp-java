@@ -36,15 +36,18 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
 
     /* Overrides the value set for {@link LineItem#startDateTime}.
      * This value is
-     *                 optional. */
+     *                 optional and is only valid for DFP premium networks. */
     private com.google.api.ads.dfp.v201004.DateTime startDateTime;
 
-    /* Overrides {@link LineItem#endDateTime}. This value is optional. */
+    /* Overrides {@link LineItem#endDateTime}. This value is optional
+     * and is only
+     *                 valid for DFP premium networks. */
     private com.google.api.ads.dfp.v201004.DateTime endDateTime;
 
-    /* Overrides the value set for {@link Creative#destinationUrl}.
-     * This value is
-     *                 optional. */
+    /* Overrides the value set for
+     *                 {@link HasDestinationUrlCreative#destinationUrl}.
+     * This value is optional
+     *                 and is only valid for DFP premium networks. */
     private java.lang.String destinationUrl;
 
     /* Overrides the value set for {@link Creative#size}, which allows
@@ -172,7 +175,7 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
      * 
      * @return startDateTime   * Overrides the value set for {@link LineItem#startDateTime}.
      * This value is
-     *                 optional.
+     *                 optional and is only valid for DFP premium networks.
      */
     public com.google.api.ads.dfp.v201004.DateTime getStartDateTime() {
         return startDateTime;
@@ -184,7 +187,7 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
      * 
      * @param startDateTime   * Overrides the value set for {@link LineItem#startDateTime}.
      * This value is
-     *                 optional.
+     *                 optional and is only valid for DFP premium networks.
      */
     public void setStartDateTime(com.google.api.ads.dfp.v201004.DateTime startDateTime) {
         this.startDateTime = startDateTime;
@@ -194,7 +197,9 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
     /**
      * Gets the endDateTime value for this LineItemCreativeAssociation.
      * 
-     * @return endDateTime   * Overrides {@link LineItem#endDateTime}. This value is optional.
+     * @return endDateTime   * Overrides {@link LineItem#endDateTime}. This value is optional
+     * and is only
+     *                 valid for DFP premium networks.
      */
     public com.google.api.ads.dfp.v201004.DateTime getEndDateTime() {
         return endDateTime;
@@ -204,7 +209,9 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
     /**
      * Sets the endDateTime value for this LineItemCreativeAssociation.
      * 
-     * @param endDateTime   * Overrides {@link LineItem#endDateTime}. This value is optional.
+     * @param endDateTime   * Overrides {@link LineItem#endDateTime}. This value is optional
+     * and is only
+     *                 valid for DFP premium networks.
      */
     public void setEndDateTime(com.google.api.ads.dfp.v201004.DateTime endDateTime) {
         this.endDateTime = endDateTime;
@@ -214,9 +221,10 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
     /**
      * Gets the destinationUrl value for this LineItemCreativeAssociation.
      * 
-     * @return destinationUrl   * Overrides the value set for {@link Creative#destinationUrl}.
-     * This value is
-     *                 optional.
+     * @return destinationUrl   * Overrides the value set for
+     *                 {@link HasDestinationUrlCreative#destinationUrl}.
+     * This value is optional
+     *                 and is only valid for DFP premium networks.
      */
     public java.lang.String getDestinationUrl() {
         return destinationUrl;
@@ -226,9 +234,10 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
     /**
      * Sets the destinationUrl value for this LineItemCreativeAssociation.
      * 
-     * @param destinationUrl   * Overrides the value set for {@link Creative#destinationUrl}.
-     * This value is
-     *                 optional.
+     * @param destinationUrl   * Overrides the value set for
+     *                 {@link HasDestinationUrlCreative#destinationUrl}.
+     * This value is optional
+     *                 and is only valid for DFP premium networks.
      */
     public void setDestinationUrl(java.lang.String destinationUrl) {
         this.destinationUrl = destinationUrl;

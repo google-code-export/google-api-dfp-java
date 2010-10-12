@@ -17,7 +17,7 @@ package v201004.companyservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
-import com.google.api.ads.dfp.lib.utils.StatementBuilder;
+import com.google.api.ads.dfp.lib.utils.v201004.StatementBuilder;
 import com.google.api.ads.dfp.v201004.Company;
 import com.google.api.ads.dfp.v201004.CompanyPage;
 import com.google.api.ads.dfp.v201004.CompanyServiceInterface;

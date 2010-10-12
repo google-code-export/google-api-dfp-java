@@ -4,7 +4,7 @@
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 //
-//     http://www.apache.org/licenses/LICENSE-2.0
+// http://www.apache.org/licenses/LICENSE-2.0
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
@@ -19,16 +19,11 @@ import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
 import com.google.api.ads.dfp.v201004.AdUnit;
 import com.google.api.ads.dfp.v201004.AdUnitPage;
-import com.google.api.ads.dfp.v201004.Statement;
 import com.google.api.ads.dfp.v201004.InventoryServiceInterface;
-import com.google.api.ads.dfp.v201004.Size;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import com.google.api.ads.dfp.v201004.Statement;
 
 /**
- * This example updates an ad unit by adding a new size to the first 500. To
+ * This example updates an ad unit by enabling AdSense to the first 500. To
  * determine which ad units exist, run GetAllAdUnitsExample.java or
  * GetInventoryTreeExample.java.
  */
@@ -52,37 +47,20 @@ public class UpdateAdUnitsExample {
       AdUnitPage page = inventoryService.getAdUnitsByStatement(filterStatement);
 
       if (page.getResults() != null) {
-        AdUnit[] adUnits = page.getResults();
-
-        // Update each local ad unit object by adding a new size.
-        for (AdUnit adUnit : adUnits) {
-          List<Size> sizes = (adUnit.getSizes() == null)
-              ? new ArrayList<Size>()
-              : new ArrayList<Size>(Arrays.asList(adUnit.getSizes()));
-          sizes.add(new Size(728, 90, false));
-          adUnit.setSizes(sizes.toArray(new Size[] {}));
+        // Update each local ad unit object by enabling AdSense.
+        for (AdUnit adUnit : page.getResults()) {
+          adUnit.getInheritedAdSenseSettings().getValue().setAdSenseEnabled(true);
         }
 
         // Update the ad units on the server.
-        adUnits = inventoryService.updateAdUnits(adUnits);
+        AdUnit[] updatedAdUnits = inventoryService.updateAdUnits(page.getResults());
 
-        if (adUnits != null) {
-          for (AdUnit adUnit : adUnits) {
-            System.out.print("Ad unit with ID \""
-                + adUnit.getId() + "\", name \""
-                + adUnit.getName() + "\", and sizes {");
-
-            if (adUnit.getSizes() != null) {
-              for (int i = 0; i < adUnit.getSizes().length; i++) {
-                System.out.print("(" + adUnit.getSizes()[i].getWidth() + "x"
-                    + adUnit.getSizes()[i].getHeight() + ")");
-                if (i != (adUnit.getSizes().length - 1)) {
-                  System.out.print(", ");
-                }
-              }
-            }
-
-            System.out.println("} was updated.");
+        if (updatedAdUnits != null) {
+          for (AdUnit adUnit : updatedAdUnits) {
+            System.out.println("Ad unit with ID \"" + adUnit.getId() + "\", name \""
+                + adUnit.getName() + "\", and is AdSense enabled \""
+                + adUnit.getInheritedAdSenseSettings().getValue().getAdSenseEnabled()
+                + "\" was updated.");
           }
         } else {
           System.out.println("No ad units updated.");

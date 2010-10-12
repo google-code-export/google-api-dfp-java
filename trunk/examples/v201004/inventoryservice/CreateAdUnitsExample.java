@@ -18,11 +18,13 @@ import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
 import com.google.api.ads.dfp.v201004.AdUnit;
+import com.google.api.ads.dfp.v201004.AdUnitTargetWindow;
 import com.google.api.ads.dfp.v201004.InventoryServiceInterface;
+import com.google.api.ads.dfp.v201004.NetworkServiceInterface;
 import com.google.api.ads.dfp.v201004.Size;
 
 /**
- * This example creates new ad units under a previously created ad unit. To
+ * This example creates new ad units under a the effective root ad unit. To
  * determine which ad units exist, run GetInventoryTreeExample.java or
  * GetAllAdUnitsExample.java.
  */
@@ -39,8 +41,12 @@ public class CreateAdUnitsExample {
       InventoryServiceInterface inventoryService =
           user.getService(DfpService.V201004.INVENTORY_SERVICE);
 
+      // Get the NetworkService.
+      NetworkServiceInterface networkService =
+          user.getService(DfpService.V201004.NETWORK_SERVICE);
+
       // Set the parent ad unit's ID for all ad units to be created under.
-      String parentAdUnitId = "INSERT_AD_UNIT_ID_HERE";
+      String effectiveRootAdUnitId = networkService.getCurrentNetwork().getEffectiveRootAdUnitId();
 
       // Create an array to store local ad unit objects.
       AdUnit[] adUnits = new AdUnit[5];
@@ -48,7 +54,9 @@ public class CreateAdUnitsExample {
       for (int i = 0; i < 5; i++) {
         AdUnit adUnit = new AdUnit();
         adUnit.setName("Ad_Unit_" + i);
-        adUnit.setParentId(parentAdUnitId);
+        adUnit.setParentId(effectiveRootAdUnitId);
+        adUnit.setDescription("Ad unit description.");
+        adUnit.setTargetWindow(AdUnitTargetWindow.BLANK);
 
         // Set the size of possible creatives that can match this ad unit.
         adUnit.setSizes(new Size[] {new Size(300, 250, false)});
