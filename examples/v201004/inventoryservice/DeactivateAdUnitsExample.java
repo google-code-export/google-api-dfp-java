@@ -17,6 +17,7 @@ package v201004.inventoryservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
+import com.google.api.ads.dfp.lib.utils.v201004.StatementBuilder;
 import com.google.api.ads.dfp.v201004.AdUnit;
 import com.google.api.ads.dfp.v201004.AdUnitPage;
 import com.google.api.ads.dfp.v201004.DeactivateAdUnits;
@@ -24,6 +25,11 @@ import com.google.api.ads.dfp.v201004.InventoryServiceInterface;
 import com.google.api.ads.dfp.v201004.InventoryStatus;
 import com.google.api.ads.dfp.v201004.Statement;
 import com.google.api.ads.dfp.v201004.UpdateResult;
+
+import org.apache.commons.lang.StringUtils;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * This example deactivates all active ad units. To determine which ad units
@@ -43,16 +49,20 @@ public class DeactivateAdUnitsExample {
           user.getService(DfpService.V201004.INVENTORY_SERVICE);
 
       // Create statement text to select active ad units.
-      String statementText = "WHERE status = '" + InventoryStatus.ACTIVE + "'";
+      String statementText = "WHERE status = :status LIMIT 500";
+      Statement filterStatement =
+          new StatementBuilder("")
+              .putParam("status", InventoryStatus.ACTIVE.toString())
+              .toStatement();
 
-      // Set defaults for page and filterStatement.
+      // Set defaults for page and offset.
       AdUnitPage page = new AdUnitPage();
-      Statement filterStatement = new Statement();
       int offset = 0;
+      List<String> adUnitIds = new ArrayList<String>();
 
       do {
         // Create a statement to page through active ad units.
-        filterStatement.setQuery(statementText + " LIMIT 500 OFFSET " + offset);
+        filterStatement.setQuery(statementText + " OFFSET " + offset);
 
         // Get ad units by statement.
         page = inventoryService.getAdUnitsByStatement(filterStatement);
@@ -63,30 +73,32 @@ public class DeactivateAdUnitsExample {
             System.out.println(i + ") Ad unit with ID \"" + adUnit.getId()
                 + "\", name \"" + adUnit.getName()
                 + "\", and status \"" + adUnit.getStatus() + "\" will be deactivated.");
+            adUnitIds.add(adUnit.getId());
             i++;
           }
         }
 
         offset += 500;
-      } while (page.getResults() != null && page.getResults().length == 500);
+      } while (offset < page.getTotalResultSetSize());
 
+      System.out.println("Number of ad units to be deactivated: " + adUnitIds.size());
 
-      System.out.println("Number of ad units to be deactivated: " + page.getTotalResultSetSize());
+      if (adUnitIds.size() > 0) {
+        // Modify statement for action.
+        filterStatement.setQuery("WHERE id IN (" + StringUtils.join(adUnitIds, ",") + ")");
 
-      // Modify statement for action.
-      filterStatement.setQuery(statementText);
+        // Create action.
+        DeactivateAdUnits action = new DeactivateAdUnits();
 
-      // Create action.
-      DeactivateAdUnits action = new DeactivateAdUnits();
+        // Perform action.
+        UpdateResult result = inventoryService.performAdUnitAction(action, filterStatement);
 
-      // Perform action.
-      UpdateResult result = inventoryService.performAdUnitAction(action, filterStatement);
-
-      // Display results.
-      if (result != null && result.getNumChanges() > 0) {
-        System.out.println("Number of ad units deactivated: " + result.getNumChanges());
-      } else {
-        System.out.println("No ad units were deactivated.");
+        // Display results.
+        if (result != null && result.getNumChanges() > 0) {
+          System.out.println("Number of ad units deactivated: " + result.getNumChanges());
+        } else {
+          System.out.println("No ad units were deactivated.");
+        }
       }
     } catch (Exception e) {
       e.printStackTrace();

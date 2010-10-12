@@ -17,7 +17,7 @@ package v201004.orderservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
-import com.google.api.ads.dfp.lib.utils.StatementBuilder;
+import com.google.api.ads.dfp.lib.utils.v201004.StatementBuilder;
 import com.google.api.ads.dfp.v201004.Order;
 import com.google.api.ads.dfp.v201004.OrderPage;
 import com.google.api.ads.dfp.v201004.OrderServiceInterface;
@@ -26,7 +26,8 @@ import com.google.api.ads.dfp.v201004.Statement;
 /**
  * This example gets all orders for a given advertiser. The statement retrieves
  * up to the maximum page size limit of 500. To create orders, run
- * CreateOrdersExample.java.
+ * CreateOrdersExample.java. To determine which companies are advertisers,
+ * run GetCompaniesByStatementExample.java
  */
 public class GetOrdersByStatementExample {
   public static void main(String[] args) {
@@ -41,8 +42,8 @@ public class GetOrdersByStatementExample {
       OrderServiceInterface orderService =
           user.getService(DfpService.V201004.ORDER_SERVICE);
 
-      // Set the ID of the advertiser to get orders for.
-      Long advertiserId = Long.parseLong("INSERT_ADVERTISER_ID_HERE");
+      // Set the ID of the advertiser (company) to get orders for.
+      Long advertiserId = Long.parseLong("INSERT_ADVERTISER_COMPANY_ID_HERE");
 
       // Create a statement to only select orders for a given advertiser.
       Statement filterStatement =

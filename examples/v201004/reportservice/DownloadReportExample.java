@@ -17,7 +17,7 @@ package v201004.reportservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
-import com.google.api.ads.dfp.lib.utils.ReportUtils;
+import com.google.api.ads.dfp.lib.utils.v201004.ReportUtils;
 import com.google.api.ads.dfp.v201004.ExportFormat;
 import com.google.api.ads.dfp.v201004.ReportServiceInterface;
 

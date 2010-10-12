@@ -9,8 +9,38 @@ package com.google.api.ads.dfp.v201004;
 
 
 /**
- * Contains the forecasted traffic estimates for a {@link LineItem}
- * object.
+ * Describes predicted inventory availability for a line item with
+ * the specified
+ *             properties.
+ *             
+ *             <p>Inventory has three threshold values along a line of
+ * possible inventory.
+ *             From least to most, these are:
+ *             
+ *             <ul>
+ *             <li>Available units -- How many units can be booked without
+ * affecting any
+ *             other line items. Booking more than this number can overbook
+ * lower or equal
+ *             priority line items.
+ *             <li>Possible units -- How many units can be booked without
+ * affecting any
+ *             higher priority line items. Booking more than this number
+ * can overbook
+ *             higher priority line items.
+ *             <li>Matched (forecast) units -- How many units satisfy
+ * all specified
+ *             criteria.
+ *             </ul>
+ *             
+ *             <p>The term "<em>can</em> overbook" is used, because if
+ * more impressions are
+ *             served than are predicted, the extra available inventory
+ * might enable all
+ *             inventory guarantees to be met without overbooking.
+ *             
+ *             <p><img src="http://chart.apis.google.com/chart?chxl=0:|Available|Possible|Matched
+ * (forecast)&chxp=0,20,60,100&chxs=0,000000,11.5,0,t,676767&chxtc=0,10&chxt=x&chs=440x75&cht=bhs&chco=D4F8AD,FFF15C,FC5D5D&chd=t:20|40|40&chp=0,0.05&chm=tNo+overbooking,000000,0,0,10,1,:-75|tOverbook+lower+priority,000000,0,0,10,1,:20|tOverbook+higher+priority,000000,0,0,10,1,:175"/>
  */
 public class Forecast  implements java.io.Serializable {
     /* Uniquely identifies the {@code Forecast}. This value is read-only
@@ -19,14 +49,14 @@ public class Forecast  implements java.io.Serializable {
      * object it
      *                 represents, or {@code null} if the forecast represents
      * a
-     *                 hypothetical line item. */
+     *                 prospective line item. */
     private java.lang.Long id;
 
     /* The unique ID for the {@link Order} object that counts this
      * reservation as
      *                 a member, or {@code null} if the forecast represents
      * a
-     *                 hypothetical line item without an {@link LineItem#orderId}
+     *                 prospective line item without an {@link LineItem#orderId}
      * set. */
     private java.lang.Long orderId;
 
@@ -34,18 +64,16 @@ public class Forecast  implements java.io.Serializable {
      * is defined.
      *                 Will be the same value as {@link LineItem#unitType}
      * for both a set line
-     *                 item or a hypothetical one. */
+     *                 item or a prospective one. */
     private com.google.api.ads.dfp.v201004.UnitType unitType;
 
-    /* The maximum number of units, defined by {@link Forecast#unitType},
-     * that can be assigned to the reservation without over-booking. If the
-     * hypothetical or referenced line item has a lower (more important)
-     * priority
-     *                 than all other line items within the order, the number
-     * of
-     *                 {@link Forecast#availableUnits} will be equal to the
-     * number of
-     *                 {@link Forecast#possibleUnits}. */
+    /* The number of units, defined by {@link Forecast#unitType},
+     * that can be
+     *                 booked without affecting the delivery of any reserved
+     * line items. Exceeding
+     *                 this value will not cause an overbook, but lower-priority
+     * line items may
+     *                 not run. */
     private java.lang.Long availableUnits;
 
     /* The number of units, defined by {@link Forecast#unitType},
@@ -54,14 +82,18 @@ public class Forecast  implements java.io.Serializable {
      * running. */
     private java.lang.Long deliveredUnits;
 
-    /* The number of forecasted units, defined by
-     *                 {@link Forecast#unitType}, that are predicted to match
-     * the
-     *                 reservation. */
+    /* The number of units, defined by {@link Forecast#unitType},
+     * that match the
+     *                 specified targeting and delivery settings. */
     private java.lang.Long forecastUnits;
 
     /* The maximum number of units, defined by {@link Forecast#unitType},
-     * which can be assigned to the reservation, without over-booking. */
+     * that
+     *                 could be booked by taking inventory away from lower-priority
+     * line items.
+     *                 (Please note: booking this number may cause lower-priority
+     * line items to
+     *                 under deliver.) */
     private java.lang.Long possibleUnits;
 
     /* The number of reserved units, defined by
@@ -102,7 +134,7 @@ public class Forecast  implements java.io.Serializable {
      * object it
      *                 represents, or {@code null} if the forecast represents
      * a
-     *                 hypothetical line item.
+     *                 prospective line item.
      */
     public java.lang.Long getId() {
         return id;
@@ -118,7 +150,7 @@ public class Forecast  implements java.io.Serializable {
      * object it
      *                 represents, or {@code null} if the forecast represents
      * a
-     *                 hypothetical line item.
+     *                 prospective line item.
      */
     public void setId(java.lang.Long id) {
         this.id = id;
@@ -132,7 +164,7 @@ public class Forecast  implements java.io.Serializable {
      * reservation as
      *                 a member, or {@code null} if the forecast represents
      * a
-     *                 hypothetical line item without an {@link LineItem#orderId}
+     *                 prospective line item without an {@link LineItem#orderId}
      * set.
      */
     public java.lang.Long getOrderId() {
@@ -147,7 +179,7 @@ public class Forecast  implements java.io.Serializable {
      * reservation as
      *                 a member, or {@code null} if the forecast represents
      * a
-     *                 hypothetical line item without an {@link LineItem#orderId}
+     *                 prospective line item without an {@link LineItem#orderId}
      * set.
      */
     public void setOrderId(java.lang.Long orderId) {
@@ -162,7 +194,7 @@ public class Forecast  implements java.io.Serializable {
      * is defined.
      *                 Will be the same value as {@link LineItem#unitType}
      * for both a set line
-     *                 item or a hypothetical one.
+     *                 item or a prospective one.
      */
     public com.google.api.ads.dfp.v201004.UnitType getUnitType() {
         return unitType;
@@ -176,7 +208,7 @@ public class Forecast  implements java.io.Serializable {
      * is defined.
      *                 Will be the same value as {@link LineItem#unitType}
      * for both a set line
-     *                 item or a hypothetical one.
+     *                 item or a prospective one.
      */
     public void setUnitType(com.google.api.ads.dfp.v201004.UnitType unitType) {
         this.unitType = unitType;
@@ -186,15 +218,13 @@ public class Forecast  implements java.io.Serializable {
     /**
      * Gets the availableUnits value for this Forecast.
      * 
-     * @return availableUnits   * The maximum number of units, defined by {@link Forecast#unitType},
-     * that can be assigned to the reservation without over-booking. If the
-     * hypothetical or referenced line item has a lower (more important)
-     * priority
-     *                 than all other line items within the order, the number
-     * of
-     *                 {@link Forecast#availableUnits} will be equal to the
-     * number of
-     *                 {@link Forecast#possibleUnits}.
+     * @return availableUnits   * The number of units, defined by {@link Forecast#unitType},
+     * that can be
+     *                 booked without affecting the delivery of any reserved
+     * line items. Exceeding
+     *                 this value will not cause an overbook, but lower-priority
+     * line items may
+     *                 not run.
      */
     public java.lang.Long getAvailableUnits() {
         return availableUnits;
@@ -204,15 +234,13 @@ public class Forecast  implements java.io.Serializable {
     /**
      * Sets the availableUnits value for this Forecast.
      * 
-     * @param availableUnits   * The maximum number of units, defined by {@link Forecast#unitType},
-     * that can be assigned to the reservation without over-booking. If the
-     * hypothetical or referenced line item has a lower (more important)
-     * priority
-     *                 than all other line items within the order, the number
-     * of
-     *                 {@link Forecast#availableUnits} will be equal to the
-     * number of
-     *                 {@link Forecast#possibleUnits}.
+     * @param availableUnits   * The number of units, defined by {@link Forecast#unitType},
+     * that can be
+     *                 booked without affecting the delivery of any reserved
+     * line items. Exceeding
+     *                 this value will not cause an overbook, but lower-priority
+     * line items may
+     *                 not run.
      */
     public void setAvailableUnits(java.lang.Long availableUnits) {
         this.availableUnits = availableUnits;
@@ -248,10 +276,9 @@ public class Forecast  implements java.io.Serializable {
     /**
      * Gets the forecastUnits value for this Forecast.
      * 
-     * @return forecastUnits   * The number of forecasted units, defined by
-     *                 {@link Forecast#unitType}, that are predicted to match
-     * the
-     *                 reservation.
+     * @return forecastUnits   * The number of units, defined by {@link Forecast#unitType},
+     * that match the
+     *                 specified targeting and delivery settings.
      */
     public java.lang.Long getForecastUnits() {
         return forecastUnits;
@@ -261,10 +288,9 @@ public class Forecast  implements java.io.Serializable {
     /**
      * Sets the forecastUnits value for this Forecast.
      * 
-     * @param forecastUnits   * The number of forecasted units, defined by
-     *                 {@link Forecast#unitType}, that are predicted to match
-     * the
-     *                 reservation.
+     * @param forecastUnits   * The number of units, defined by {@link Forecast#unitType},
+     * that match the
+     *                 specified targeting and delivery settings.
      */
     public void setForecastUnits(java.lang.Long forecastUnits) {
         this.forecastUnits = forecastUnits;
@@ -275,7 +301,12 @@ public class Forecast  implements java.io.Serializable {
      * Gets the possibleUnits value for this Forecast.
      * 
      * @return possibleUnits   * The maximum number of units, defined by {@link Forecast#unitType},
-     * which can be assigned to the reservation, without over-booking.
+     * that
+     *                 could be booked by taking inventory away from lower-priority
+     * line items.
+     *                 (Please note: booking this number may cause lower-priority
+     * line items to
+     *                 under deliver.)
      */
     public java.lang.Long getPossibleUnits() {
         return possibleUnits;
@@ -286,7 +317,12 @@ public class Forecast  implements java.io.Serializable {
      * Sets the possibleUnits value for this Forecast.
      * 
      * @param possibleUnits   * The maximum number of units, defined by {@link Forecast#unitType},
-     * which can be assigned to the reservation, without over-booking.
+     * that
+     *                 could be booked by taking inventory away from lower-priority
+     * line items.
+     *                 (Please note: booking this number may cause lower-priority
+     * line items to
+     *                 under deliver.)
      */
     public void setPossibleUnits(java.lang.Long possibleUnits) {
         this.possibleUnits = possibleUnits;

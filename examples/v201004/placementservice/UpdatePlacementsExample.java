@@ -17,19 +17,14 @@ package v201004.placementservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
-import com.google.api.ads.dfp.v201004.AdUnitPage;
-import com.google.api.ads.dfp.v201004.Statement;
 import com.google.api.ads.dfp.v201004.InventoryServiceInterface;
 import com.google.api.ads.dfp.v201004.Placement;
 import com.google.api.ads.dfp.v201004.PlacementPage;
 import com.google.api.ads.dfp.v201004.PlacementServiceInterface;
-
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import com.google.api.ads.dfp.v201004.Statement;
 
 /**
- * This example updates all placements to include the root ad unit up to the
+ * This example updates all placements to allow for AdSense targeting up to the
  * first 500. To determine which placements exist, run
  * GetAllPlacementsExample.java.
  */
@@ -50,12 +45,6 @@ public class UpdatePlacementsExample {
       InventoryServiceInterface inventoryService =
           user.getService(DfpService.V201004.INVENTORY_SERVICE);
 
-      // Get the root ad unit by statement.
-      AdUnitPage adUnitPage = inventoryService.getAdUnitsByStatement(
-          new Statement("WHERE parentId IS NULL LIMIT 500", null));
-      String rootAdUnitId = (adUnitPage.getResults() != null)
-          ? adUnitPage.getResults()[0].getId() : null;
-
       // Create a statement to select first 500 placements.
       Statement filterStatement = new Statement("LIMIT 500", null);
 
@@ -65,13 +54,14 @@ public class UpdatePlacementsExample {
       if (page.getResults() != null) {
         Placement[] placements = page.getResults();
 
-        // Update each local placement object by adding the root ad unit.
+        // Update each local placement object by enabling AdSense targeting.
         for (Placement placement : placements) {
-          Set<String> targetedAdUnitIds = (placement.getTargetedAdUnitIds() == null)
-              ? new HashSet<String>()
-              : new HashSet<String>(Arrays.asList(placement.getTargetedAdUnitIds()));
-          targetedAdUnitIds.add(rootAdUnitId);
-          placement.setTargetedAdUnitIds(targetedAdUnitIds.toArray(new String[] {}));
+          placement.setTargetingDescription(
+              (placement.getDescription() == null || placement.getDescription().isEmpty())
+              ? "Generic description" : placement.getDescription());
+          placement.setTargetingAdLocation("All images on sports pages.");
+          placement.setTargetingSiteName("http://code.google.com");
+          placement.setIsAdSenseTargetingEnabled(true);
         }
 
         // Update the placements on the server.
@@ -80,17 +70,10 @@ public class UpdatePlacementsExample {
         // Display results.
         if (placements != null) {
           for (Placement placement : placements) {
-            System.out.print("A placement with ID \""
+            System.out.println("A placement with ID \""
                 + placement.getId() + "\", name \""
-                + placement.getName() + "\", and containing ad units {");
-
-            if (placement.getTargetedAdUnitIds() != null) {
-              for (String adUnitId : placement.getTargetedAdUnitIds()) {
-                System.out.print(adUnitId + ", ");
-              }
-            }
-
-            System.out.println("} was updated.");
+                + placement.getName() + "\", and AdSense targeting enabled \""
+                + placement.getIsAdSenseTargetingEnabled() + "\" was updated.");
           }
         } else {
           System.out.println("No placements updated.");

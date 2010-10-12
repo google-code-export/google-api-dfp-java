@@ -44,12 +44,15 @@ public class GetForecastByIdExample {
 
     // Display results.
     long matched = forecast.getForecastUnits();
-    double possiblePercent = (forecast.getPossibleUnits() / (matched * 1.0)) * 100;
     double availablePercent = (forecast.getAvailableUnits() / (matched * 1.0)) * 100;
     String unitType = forecast.getUnitType().toString().toLowerCase();
 
     System.out.println(matched + " " + unitType + " matched.\n"
-        + possiblePercent + "% " + unitType + " possible.\n"
         + availablePercent + "% " + unitType + " available.");
+
+    if (forecast.getPossibleUnits() != null) {
+      double possiblePercent = (forecast.getPossibleUnits() / (matched * 1.0)) * 100;
+      System.out.println(possiblePercent + "% " + unitType + " possible.\n");
+    }
   }
 }

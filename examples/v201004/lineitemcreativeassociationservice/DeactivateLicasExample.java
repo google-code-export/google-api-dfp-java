@@ -17,6 +17,7 @@ package v201004.lineitemcreativeassociationservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
+import com.google.api.ads.dfp.lib.utils.v201004.StatementBuilder;
 import com.google.api.ads.dfp.v201004.DeactivateLineItemCreativeAssociations;
 import com.google.api.ads.dfp.v201004.LineItemCreativeAssociation;
 import com.google.api.ads.dfp.v201004.LineItemCreativeAssociationPage;
@@ -24,6 +25,11 @@ import com.google.api.ads.dfp.v201004.LineItemCreativeAssociationServiceInterfac
 import com.google.api.ads.dfp.v201004.LineItemCreativeAssociationStatus;
 import com.google.api.ads.dfp.v201004.Statement;
 import com.google.api.ads.dfp.v201004.UpdateResult;
+
+import org.apache.commons.lang.StringUtils;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * This example deactivates all LICAs for the line item. To determine which
@@ -47,17 +53,19 @@ public class DeactivateLicasExample {
       Long lineItemId = Long.parseLong("INSERT_LINE_ITEM_ID_HERE");
 
       // Create statement text to select active LICAs for a given line item.
-      String statementText = "WHERE lineItemId = '" + lineItemId + "' and status = '"
-          + LineItemCreativeAssociationStatus.ACTIVE + "'";
+      String statementText = "WHERE lineItemId = :lineItemId and status = :status LIMIT 500";
+      Statement filterStatement =
+          new StatementBuilder("").putParam("lineItemId", lineItemId).putParam("status",
+              LineItemCreativeAssociationStatus.ACTIVE.toString()).toStatement();
 
-      // Set defaults for page and filterStatement.
+      // Set defaults for page and offset.
       LineItemCreativeAssociationPage page = new LineItemCreativeAssociationPage();
-      Statement filterStatement = new Statement();
       int offset = 0;
+      List<Long> creativeIds = new ArrayList<Long>();
 
       do {
         // Create a statement to page through active LICAs.
-        filterStatement.setQuery(statementText + " LIMIT 500 OFFSET " + offset);
+        filterStatement.setQuery(statementText + " OFFSET " + offset);
 
         // Get LICAs by statement.
         page = licaService.getLineItemCreativeAssociationsByStatement(filterStatement);
@@ -66,34 +74,37 @@ public class DeactivateLicasExample {
           int i = page.getStartIndex();
           for (LineItemCreativeAssociation lica : page.getResults()) {
             System.out.println(i + ") LICA with line item ID \"" + lica.getLineItemId()
-                + "\", creative ID \"" + lica.getCreativeId()
-                + "\", and status \"" + lica.getStatus()
-                + "\" will be deactivated.");
+                + "\", creative ID \"" + lica.getCreativeId() + "\", and status \""
+                + lica.getStatus() + "\" will be deactivated.");
+            creativeIds.add(lica.getCreativeId());
             i++;
           }
         }
 
         offset += 500;
-      } while (page.getResults() != null && page.getResults().length == 500);
+      } while (offset < page.getTotalResultSetSize());
 
+      System.out.println("Number of LICAs to be deactivated: " + creativeIds.size());
 
-      System.out.println("Number of LICAs to be deactivated: " + page.getTotalResultSetSize());
+      if (creativeIds.size() > 0) {
+        // Modify statement for action.
+        filterStatement.setQuery("WHERE lineItemId = :lineItemId and creativeId IN ("
+            + StringUtils.join(creativeIds, ",") + ")");
 
-      // Modify statement for action.
-      filterStatement.setQuery(statementText);
+        // Create action.
+        DeactivateLineItemCreativeAssociations action =
+            new DeactivateLineItemCreativeAssociations();
 
-      // Create action.
-      DeactivateLineItemCreativeAssociations action = new DeactivateLineItemCreativeAssociations();
+        // Perform action.
+        UpdateResult result =
+            licaService.performLineItemCreativeAssociationAction(action, filterStatement);
 
-      // Perform action.
-      UpdateResult result =
-          licaService.performLineItemCreativeAssociationAction(action, filterStatement);
-
-      // Display results.
-      if (result != null && result.getNumChanges() > 0) {
-        System.out.println("Number of LICAs deactivated: " + result.getNumChanges());
-      } else {
-        System.out.println("No LICAs were deactivated.");
+        // Display results.
+        if (result != null && result.getNumChanges() > 0) {
+          System.out.println("Number of LICAs deactivated: " + result.getNumChanges());
+        } else {
+          System.out.println("No LICAs were deactivated.");
+        }
       }
     } catch (Exception e) {
       e.printStackTrace();

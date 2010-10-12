@@ -17,14 +17,16 @@ package v201004.inventoryservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
+import com.google.api.ads.dfp.lib.utils.v201004.StatementBuilder;
 import com.google.api.ads.dfp.v201004.AdUnit;
 import com.google.api.ads.dfp.v201004.AdUnitPage;
-import com.google.api.ads.dfp.v201004.Statement;
 import com.google.api.ads.dfp.v201004.InventoryServiceInterface;
+import com.google.api.ads.dfp.v201004.NetworkServiceInterface;
+import com.google.api.ads.dfp.v201004.Statement;
 
 /**
- * This example gets the root ad unit. To create an ad unit, run
- * CreateAdUnitsExample.java.
+ * This example gets all children below the effective root ad unit. To create ad
+ * units, run CreateAdUnitsExample.java.
  */
 public class GetAdUnitsByStatementExample {
   public static void main(String[] args) {
@@ -39,8 +41,17 @@ public class GetAdUnitsByStatementExample {
       InventoryServiceInterface inventoryService =
           user.getService(DfpService.V201004.INVENTORY_SERVICE);
 
-      // Create a statement to only select the root ad unit.
-      Statement filterStatement = new Statement("WHERE parentId IS NULL LIMIT 500", null);
+      // Get the NetworkService.
+      NetworkServiceInterface networkService =
+          user.getService(DfpService.V201004.NETWORK_SERVICE);
+
+      // Get the effective root ad unit ID of the network.
+      String effectiveRootAdUnitId = networkService.getCurrentNetwork().getEffectiveRootAdUnitId();
+
+      // Create a statement to select the children of the effective root ad
+      // unit.
+      Statement filterStatement = new StatementBuilder("WHERE parentId = :id LIMIT 1")
+          .putParam("id", effectiveRootAdUnitId).toStatement();
 
       // Get ad units by statement.
       AdUnitPage page = inventoryService.getAdUnitsByStatement(filterStatement);
@@ -55,7 +66,6 @@ public class GetAdUnitsByStatementExample {
         }
       }
 
-      // The number of results should always be 1 for this example.
       System.out.println("Number of results found: " + page.getTotalResultSetSize());
     } catch (Exception e) {
       e.printStackTrace();

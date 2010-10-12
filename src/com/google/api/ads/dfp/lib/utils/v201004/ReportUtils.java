@@ -12,10 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.google.api.ads.dfp.lib.utils;
+package com.google.api.ads.dfp.lib.utils.v201004;
 
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpUser;
+import com.google.api.ads.dfp.lib.utils.ReportCallback;
 import com.google.api.ads.dfp.v201004.ExportFormat;
 import com.google.api.ads.dfp.v201004.ReportJobStatus;
 import com.google.api.ads.dfp.v201004.ReportService;

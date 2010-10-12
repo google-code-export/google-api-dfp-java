@@ -41,9 +41,9 @@ public class CreateCreativesExample {
       CreativeServiceInterface creativeService =
           user.getService(DfpService.V201004.CREATIVE_SERVICE);
 
-      // Set the ID of the advertiser that all creatives will be
+      // Set the ID of the advertiser (company) that all creatives will be
       // assigned to.
-      Long advertiserId = Long.parseLong("INSERT_ADVERTISER_ID_HERE");
+      Long advertiserId = Long.parseLong("INSERT_ADVERTISER_COMPANY_ID_HERE");
 
       // Create an array to store local image creative objects.
       Creative[] imageCreatives = new ImageCreative[5];

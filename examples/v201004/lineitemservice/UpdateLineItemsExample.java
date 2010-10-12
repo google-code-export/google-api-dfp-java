@@ -17,12 +17,12 @@ package v201004.lineitemservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
-import com.google.api.ads.dfp.lib.utils.StatementBuilder;
+import com.google.api.ads.dfp.lib.utils.v201004.StatementBuilder;
 import com.google.api.ads.dfp.v201004.DeliveryRateType;
-import com.google.api.ads.dfp.v201004.Statement;
 import com.google.api.ads.dfp.v201004.LineItem;
 import com.google.api.ads.dfp.v201004.LineItemPage;
 import com.google.api.ads.dfp.v201004.LineItemServiceInterface;
+import com.google.api.ads.dfp.v201004.Statement;
 
 /**
  * This example updates the delivery rate of all line items up to the first 500.
@@ -58,8 +58,13 @@ public class UpdateLineItemsExample {
         LineItem[] lineItems = page.getResults();
 
         // Update each local line item object by changing its delivery rate.
-        for (LineItem lineItem : lineItems) {
-          lineItem.setDeliveryRateType(DeliveryRateType.AS_FAST_AS_POSSIBLE);
+        for (int i = 0; i < lineItems.length; i++) {
+          // Archived line items cannot be updated.
+          if (lineItems[i].getIsArchived()) {
+            lineItems[i] = null;
+          } else {
+            lineItems[i].setDeliveryRateType(DeliveryRateType.AS_FAST_AS_POSSIBLE);
+          }
         }
 
         // Update the line items on the server.
