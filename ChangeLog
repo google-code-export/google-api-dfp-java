@@ -1,3 +1,6 @@
+2.2.1:
+- Fixed root logger issue.
+
 2.2.0:
 - Added NetworkService support and examples.
 - Modified inventory examples to use NetworkService information.
