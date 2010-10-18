@@ -88,8 +88,6 @@ public class DfpUser {
     this.networkCode = networkCode;
     this.applicationName = applicationName;
     this.useSandbox = useSandbox;
-
-    DfpServiceLogger.initRootLogger();
   }
 
   /**
