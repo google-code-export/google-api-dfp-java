@@ -1,0 +1,6913 @@
+Country,CityName,RegionCode,CountryCode
+Australia,Adelaide,AU-SA,AU
+Australia,Albany,AU-WA,AU
+Australia,Albury,AU-NSW,AU
+Australia,Alice Springs,AU-NT,AU
+Australia,Armidale,AU-NSW,AU
+Australia,Bacchus Marsh,AU-VIC,AU
+Australia,Bairnsdale,AU-VIC,AU
+Australia,Ballarat,AU-VIC,AU
+Australia,Ballina,AU-NSW,AU
+Australia,Barwon,AU-VIC,AU
+Australia,Batemans Bay,AU-NSW,AU
+Australia,Bathurst,AU-NSW,AU
+Australia,Bendigo,AU-VIC,AU
+Australia,Bongaree,AU-QLD,AU
+Australia,Brisbane,AU-QLD,AU
+Australia,Broken Hill,AU-NSW,AU
+Australia,Broome,AU-WA,AU
+Australia,Buderim,AU-QLD,AU
+Australia,Bunbury,AU-WA,AU
+Australia,Bundaberg,AU-QLD,AU
+Australia,Burnie,AU-TAS,AU
+Australia,Busselton,AU-WA,AU
+Australia,Caboolture,AU-QLD,AU
+Australia,Cairns,AU-QLD,AU
+Australia,Caloundra,AU-QLD,AU
+Australia,Canberra,AU-ACT,AU
+Australia,Casino,AU-NSW,AU
+Australia,Central Coast,AU-NSW,AU
+Australia,Cessnock,AU-NSW,AU
+Australia,Coffs Harbour,AU-NSW,AU
+Australia,Colac,AU-VIC,AU
+Australia,Craigieburn,AU-VIC,AU
+Australia,Cranbourne,AU-VIC,AU
+Australia,Dalby,AU-QLD,AU
+Australia,Darwin,AU-NT,AU
+Australia,Devonport,AU-TAS,AU
+Australia,Dubbo,AU-NSW,AU
+Australia,Echuca,AU-VIC,AU
+Australia,Gawler,AU-SA,AU
+Australia,Geelong,AU-VIC,AU
+Australia,Geraldton,AU-WA,AU
+Australia,Gladstone,AU-QLD,AU
+Australia,Gold Coast,AU-QLD,AU
+Australia,Goulburn,AU-NSW,AU
+Australia,Grafton,AU-NSW,AU
+Australia,Griffith,AU-NSW,AU
+Australia,Gympie,AU-QLD,AU
+Australia,Hervey Bay,AU-QLD,AU
+Australia,Hobart,AU-TAS,AU
+Australia,Horsham,AU-VIC,AU
+Australia,Kalgoorlie,AU-WA,AU
+Australia,Karratha,AU-WA,AU
+Australia,Katoomba,AU-NSW,AU
+Australia,Kawana Waters,AU-QLD,AU
+Australia,Kiama,AU-NSW,AU
+Australia,Kingston,AU-TAS,AU
+Australia,Kwinana,AU-WA,AU
+Australia,Launceston,AU-TAS,AU
+Australia,Lismore,AU-NSW,AU
+Australia,Lithgow,AU-NSW,AU
+Australia,Mackay,AU-QLD,AU
+Australia,Maitland,AU-NSW,AU
+Australia,Mandurah,AU-WA,AU
+Australia,Maroochydore,AU-QLD,AU
+Australia,Maryborough,AU-QLD,AU
+Australia,Melbourne,AU-VIC,AU
+Australia,Melton,AU-VIC,AU
+Australia,Mildura,AU-VIC,AU
+Australia,Moe,AU-VIC,AU
+Australia,Morwell,AU-VIC,AU
+Australia,Mount Gambier,AU-SA,AU
+Australia,Mount Isa,AU-QLD,AU
+Australia,Murray Bridge,AU-SA,AU
+Australia,Muswellbrook,AU-NSW,AU
+Australia,Nambour,AU-QLD,AU
+Australia,Nerang,AU-QLD,AU
+Australia,Newcastle,AU-NSW,AU
+Australia,Nowra,AU-NSW,AU
+Australia,Orange,AU-NSW,AU
+Australia,Pakenham,AU-VIC,AU
+Australia,Palmerston,AU-NT,AU
+Australia,Parkes,AU-NSW,AU
+Australia,Perth,AU-WA,AU
+Australia,Port Augusta,AU-SA,AU
+Australia,Port Hedland,AU-WA,AU
+Australia,Port Lincoln,AU-SA,AU
+Australia,Port Macquarie,AU-NSW,AU
+Australia,Port Pirie,AU-SA,AU
+Australia,Portland,AU-VIC,AU
+Australia,Raymond Terrace,AU-NSW,AU
+Australia,Redcliffe,AU-QLD,AU
+Australia,Richmond,AU-NSW,AU
+Australia,Rockhampton,AU-QLD,AU
+Australia,Rockingham,AU-WA,AU
+Australia,Sale,AU-VIC,AU
+Australia,Sawtell,AU-NSW,AU
+Australia,Shepparton,AU-VIC,AU
+Australia,Singleton,AU-NSW,AU
+Australia,Sunbury,AU-VIC,AU
+Australia,Sydney,AU-NSW,AU
+Australia,Tamworth,AU-NSW,AU
+Australia,Taree,AU-NSW,AU
+Australia,Toowoomba,AU-QLD,AU
+Australia,Townsville,AU-QLD,AU
+Australia,Traralgon,AU-VIC,AU
+Australia,Ulverstone,AU-TAS,AU
+Australia,Victoria Point,AU-QLD,AU
+Australia,Wagga Wagga,AU-NSW,AU
+Australia,Wangaratta,AU-VIC,AU
+Australia,Warrnambool,AU-VIC,AU
+Australia,Warwick,AU-QLD,AU
+Australia,Whyalla,AU-SA,AU
+Australia,Wollongong,AU-NSW,AU
+Canada,100 Mile House,CA-BC,CA
+Canada,Abbotsford,CA-BC,CA
+Canada,Aberdeen,CA-SK,CA
+Canada,Acme,CA-AB,CA
+Canada,Acton,CA-ON,CA
+Canada,Acton Vale,CA-QC,CA
+Canada,Agincourt,CA-ON,CA
+Canada,Airdrie,CA-AB,CA
+Canada,Ajax,CA-ON,CA
+Canada,Aldergrove,CA-BC,CA
+Canada,Alert Bay,CA-BC,CA
+Canada,Alexandria,CA-BC,CA
+Canada,Alexandria,CA-ON,CA
+Canada,Allan,CA-SK,CA
+Canada,Alliston,CA-ON,CA
+Canada,Alma,CA-QC,CA
+Canada,Almonte,CA-ON,CA
+Canada,Altona,CA-MB,CA
+Canada,Amherst,CA-NS,CA
+Canada,Amherstburg,CA-ON,CA
+Canada,Amos,CA-QC,CA
+Canada,Ancaster,CA-ON,CA
+Canada,Ancienne-Lorette,CA-QC,CA
+Canada,Angling Lake,CA-ON,CA
+Canada,Angus,CA-ON,CA
+Canada,Anjou,CA-QC,CA
+Canada,Annaheim,CA-SK,CA
+Canada,Antigonish,CA-NS,CA
+Canada,Apsley,CA-ON,CA
+Canada,Arborg,CA-MB,CA
+Canada,Armstrong,CA-BC,CA
+Canada,Arnprior,CA-ON,CA
+Canada,Arva,CA-ON,CA
+Canada,Arviat,CA-NU,CA
+Canada,Asbestos,CA-QC,CA
+Canada,Ashcroft,CA-BC,CA
+Canada,Ashern,CA-MB,CA
+Canada,Assiniboia,CA-SK,CA
+Canada,Athabasca,CA-AB,CA
+Canada,Atholville,CA-NB,CA
+Canada,Atikokan,CA-ON,CA
+Canada,Aurora,CA-ON,CA
+Canada,Austin,CA-MB,CA
+Canada,Aylmer,CA-ON,CA
+Canada,Aylmer,CA-QC,CA
+Canada,Ayr,CA-ON,CA
+Canada,Baden,CA-ON,CA
+Canada,Baie Verte,CA-NF,CA
+Canada,Baie-Comeau,CA-QC,CA
+Canada,Baie-d'Urfe,CA-QC,CA
+Canada,Baie-Saint-Paul,CA-QC,CA
+Canada,Baker Lake,CA-NU,CA
+Canada,Balcarres,CA-SK,CA
+Canada,Balmertown,CA-ON,CA
+Canada,Bamfield,CA-BC,CA
+Canada,Bancroft,CA-ON,CA
+Canada,Banff,CA-AB,CA
+Canada,Bannockburn,CA-ON,CA
+Canada,Barrhead,CA-AB,CA
+Canada,Barrie,CA-ON,CA
+Canada,Barriere,CA-BC,CA
+Canada,Barrington,CA-NS,CA
+Canada,Barrys Bay,CA-ON,CA
+Canada,Barwick,CA-ON,CA
+Canada,Bathurst,CA-NB,CA
+Canada,Beaconsfield,CA-QC,CA
+Canada,Beamsville,CA-ON,CA
+Canada,Beaumont,CA-NF,CA
+Canada,Beauport,CA-QC,CA
+Canada,Beaupre,CA-QC,CA
+Canada,Beausejour,CA-MB,CA
+Canada,Beauval,CA-SK,CA
+Canada,Beaverton,CA-ON,CA
+Canada,Becancour,CA-QC,CA
+Canada,Bedford,CA-NS,CA
+Canada,Bedford,CA-QC,CA
+Canada,Bella Bella,CA-BC,CA
+Canada,Bellefeuille,CA-QC,CA
+Canada,Belleville,CA-ON,CA
+Canada,Beresford,CA-NB,CA
+Canada,Berthierville,CA-QC,CA
+Canada,Bethany,CA-ON,CA
+Canada,Big River,CA-SK,CA
+Canada,Big Trout Lake,CA-ON,CA
+Canada,Biggar,CA-SK,CA
+Canada,Blainville,CA-QC,CA
+Canada,Blenheim,CA-ON,CA
+Canada,Blind River,CA-ON,CA
+Canada,Bloomfield,CA-ON,CA
+Canada,Bloomfield Ridge,CA-NB,CA
+Canada,Blue River,CA-BC,CA
+Canada,Bois-des-Filion,CA-QC,CA
+Canada,Boisbriand,CA-QC,CA
+Canada,Boischatel,CA-QC,CA
+Canada,Boissevain,CA-MB,CA
+Canada,Bolton,CA-ON,CA
+Canada,Bonaventure,CA-QC,CA
+Canada,Bonfield,CA-ON,CA
+Canada,Bonnyville,CA-AB,CA
+Canada,Bonshaw,CA-PE,CA
+Canada,Boucherville,CA-QC,CA
+Canada,Bow Island,CA-AB,CA
+Canada,Bowmanville,CA-ON,CA
+Canada,Bracebridge,CA-ON,CA
+Canada,Brackendale,CA-BC,CA
+Canada,Bramalea,CA-ON,CA
+Canada,Brampton,CA-ON,CA
+Canada,Brandon,CA-MB,CA
+Canada,Brantford,CA-ON,CA
+Canada,Brentwood Bay,CA-BC,CA
+Canada,Breton,CA-AB,CA
+Canada,Bridgenorth,CA-ON,CA
+Canada,Bridgewater,CA-NS,CA
+Canada,Brockville,CA-ON,CA
+Canada,Brome,CA-QC,CA
+Canada,Bromont,CA-QC,CA
+Canada,Bromptonville,CA-QC,CA
+Canada,Brooks,CA-AB,CA
+Canada,Brossard,CA-QC,CA
+Canada,Bruno,CA-SK,CA
+Canada,Buckingham,CA-QC,CA
+Canada,Buctouche,CA-NB,CA
+Canada,Buffalo Narrows,CA-SK,CA
+Canada,Burgessville,CA-ON,CA
+Canada,Burks Falls,CA-ON,CA
+Canada,Burlington,CA-ON,CA
+Canada,Burnaby,CA-BC,CA
+Canada,Burns Lake,CA-BC,CA
+Canada,Cabano,CA-QC,CA
+Canada,Cabri,CA-SK,CA
+Canada,Cache Bay,CA-ON,CA
+Canada,Caledon,CA-ON,CA
+Canada,Calgary,CA-AB,CA
+Canada,Cambridge,CA-ON,CA
+Canada,Cambridge Bay,CA-NU,CA
+Canada,Campbell River,CA-BC,CA
+Canada,Campbellford,CA-ON,CA
+Canada,Campbellville,CA-ON,CA
+Canada,Camrose,CA-AB,CA
+Canada,Candiac,CA-QC,CA
+Canada,Canmore,CA-AB,CA
+Canada,Canwood,CA-SK,CA
+Canada,Canyon,CA-BC,CA
+Canada,Cap-de-la-Madeleine,CA-QC,CA
+Canada,Cape Dorset,CA-NU,CA
+Canada,Caplan,CA-QC,CA
+Canada,Capreol,CA-ON,CA
+Canada,Carberry,CA-MB,CA
+Canada,Carignan,CA-QC,CA
+Canada,Carleton Centre,CA-QC,CA
+Canada,Carleton Place,CA-ON,CA
+Canada,Carlisle,CA-ON,CA
+Canada,Carlyle,CA-SK,CA
+Canada,Carman,CA-MB,CA
+Canada,Caronport,CA-SK,CA
+Canada,Carp,CA-ON,CA
+Canada,Cartier,CA-MB,CA
+Canada,Casselman,CA-ON,CA
+Canada,Castlegar,CA-BC,CA
+Canada,Catalina,CA-NF,CA
+Canada,Cayuga,CA-ON,CA
+Canada,Chalk River,CA-ON,CA
+Canada,Chambly,CA-QC,CA
+Canada,Chapleau,CA-ON,CA
+Canada,Charlesbourg,CA-QC,CA
+Canada,Charlottetown,CA-PE,CA
+Canada,Charny,CA-QC,CA
+Canada,Chase,CA-BC,CA
+Canada,Chateauguay,CA-QC,CA
+Canada,Chatham,CA-ON,CA
+Canada,Chatsworth,CA-ON,CA
+Canada,Chelmsford,CA-ON,CA
+Canada,Chelsea,CA-QC,CA
+Canada,Chesley,CA-ON,CA
+Canada,Chesterville,CA-ON,CA
+Canada,Chibougamau,CA-QC,CA
+Canada,Chicoutimi,CA-QC,CA
+Canada,Chilliwack,CA-BC,CA
+Canada,Churchville,CA-ON,CA
+Canada,Clair,CA-NB,CA
+Canada,Clarence Creek,CA-ON,CA
+Canada,Clarenville,CA-NF,CA
+Canada,Clarkson,CA-ON,CA
+Canada,Clavet,CA-SK,CA
+Canada,Clearbrook,CA-BC,CA
+Canada,Clearwater,CA-BC,CA
+Canada,Clifford,CA-ON,CA
+Canada,Clinton,CA-ON,CA
+Canada,Clinton,CA-BC,CA
+Canada,Cloverdale,CA-BC,CA
+Canada,Clyde River,CA-NU,CA
+Canada,Coaticook,CA-QC,CA
+Canada,Cobden,CA-ON,CA
+Canada,Cobourg,CA-ON,CA
+Canada,Cochrane,CA-ON,CA
+Canada,Colborne,CA-ON,CA
+Canada,Cold Lake,CA-AB,CA
+Canada,Coldwater,CA-ON,CA
+Canada,Collingwood,CA-ON,CA
+Canada,Colonsay,CA-SK,CA
+Canada,Comber,CA-ON,CA
+Canada,Comox,CA-BC,CA
+Canada,Concord,CA-ON,CA
+Canada,Consul,CA-SK,CA
+Canada,Cookshire,CA-QC,CA
+Canada,Cookstown,CA-ON,CA
+Canada,Cooksville,CA-ON,CA
+Canada,Copper Cliff,CA-ON,CA
+Canada,Coquitlam,CA-BC,CA
+Canada,Cordova Bay,CA-BC,CA
+Canada,Corner Brook,CA-NF,CA
+Canada,Cornwall,CA-ON,CA
+Canada,Cote,CA-SK,CA
+Canada,Cote-Saint-Luc,CA-QC,CA
+Canada,Cottam,CA-ON,CA
+Canada,Courtenay,CA-BC,CA
+Canada,Courtice,CA-ON,CA
+Canada,Cowansville,CA-QC,CA
+Canada,Craik,CA-SK,CA
+Canada,Cranberry Portage,CA-MB,CA
+Canada,Cranbrook,CA-BC,CA
+Canada,Creemore,CA-ON,CA
+Canada,Creighton,CA-SK,CA
+Canada,Creston,CA-BC,CA
+Canada,Cumberland,CA-BC,CA
+Canada,Dartmouth,CA-NS,CA
+Canada,Dauphin,CA-MB,CA
+Canada,Dawson Creek,CA-BC,CA
+Canada,Debden,CA-SK,CA
+Canada,Deep River,CA-ON,CA
+Canada,Deer Island,CA-NB,CA
+Canada,Deer Lake,CA-ON,CA
+Canada,Degelis,CA-QC,CA
+Canada,Deloraine,CA-MB,CA
+Canada,Delson,CA-QC,CA
+Canada,Delta,CA-ON,CA
+Canada,Delta,CA-BC,CA
+Canada,Deschambault,CA-QC,CA
+Canada,Deseronto,CA-ON,CA
+Canada,Deux-Montagnes,CA-QC,CA
+Canada,Didsbury,CA-AB,CA
+Canada,Dieppe,CA-NB,CA
+Canada,Digby,CA-NS,CA
+Canada,Dillon,CA-SK,CA
+Canada,Doaktown,CA-NB,CA
+Canada,Dolbeau,CA-QC,CA
+Canada,Dolbeau-Mistassini,CA-QC,CA
+Canada,Dollard-des-Ormeaux,CA-QC,CA
+Canada,Don Mills,CA-ON,CA
+Canada,Donnacona,CA-QC,CA
+Canada,Dorion,CA-QC,CA
+Canada,Dorset,CA-ON,CA
+Canada,Dorval,CA-QC,CA
+Canada,Drayton Valley,CA-AB,CA
+Canada,Drumheller,CA-AB,CA
+Canada,Drummondville,CA-QC,CA
+Canada,Dryden,CA-ON,CA
+Canada,Dublin,CA-ON,CA
+Canada,Dubreilville,CA-ON,CA
+Canada,Dugald,CA-MB,CA
+Canada,Duncan,CA-BC,CA
+Canada,Dunchurch,CA-ON,CA
+Canada,Dundas,CA-ON,CA
+Canada,Dundurn,CA-SK,CA
+Canada,Durham,CA-ON,CA
+Canada,Duvernay,CA-QC,CA
+Canada,Earlton,CA-ON,CA
+Canada,East York,CA-ON,CA
+Canada,Edam,CA-SK,CA
+Canada,Edmonton,CA-AB,CA
+Canada,Edmundston,CA-NB,CA
+Canada,Edson,CA-AB,CA
+Canada,Eganville,CA-ON,CA
+Canada,Elfros,CA-SK,CA
+Canada,Elgin,CA-ON,CA
+Canada,Elie,CA-MB,CA
+Canada,Elliot Lake,CA-ON,CA
+Canada,Elmira,CA-ON,CA
+Canada,Elora,CA-ON,CA
+Canada,Elphinstone,CA-MB,CA
+Canada,Embrun,CA-ON,CA
+Canada,Enfield,CA-NS,CA
+Canada,Englehart,CA-ON,CA
+Canada,Eriksdale,CA-MB,CA
+Canada,Erin,CA-ON,CA
+Canada,Espanola,CA-ON,CA
+Canada,Essex,CA-ON,CA
+Canada,Esterhazy,CA-SK,CA
+Canada,Estevan,CA-SK,CA
+Canada,Eston,CA-SK,CA
+Canada,Etobicoke,CA-ON,CA
+Canada,Exeter,CA-ON,CA
+Canada,Fabreville,CA-QC,CA
+Canada,Fairview,CA-AB,CA
+Canada,Farnham,CA-QC,CA
+Canada,Fatima,CA-QC,CA
+Canada,Fenelon Falls,CA-ON,CA
+Canada,Fenwick,CA-ON,CA
+Canada,Fergus,CA-ON,CA
+Canada,Fernie,CA-BC,CA
+Canada,Fillmore,CA-SK,CA
+Canada,Fisher Branch,CA-MB,CA
+Canada,Flamborough,CA-ON,CA
+Canada,Fleurimont,CA-QC,CA
+Canada,Flin Flon,CA-MB,CA
+Canada,Florenceville,CA-NB,CA
+Canada,Fonthill,CA-ON,CA
+Canada,Forest,CA-ON,CA
+Canada,Francois,CA-NF,CA
+Canada,Frankford,CA-ON,CA
+Canada,Fredericton,CA-NB,CA
+Canada,Frontier,CA-SK,CA
+Canada,Ft Erie,CA-ON,CA
+Canada,Ft Frances,CA-ON,CA
+Canada,Ft Macleod,CA-AB,CA
+Canada,Ft Mcmurray,CA-AB,CA
+Canada,Ft Providence,CA-NT,CA
+Canada,Ft Saint James,CA-BC,CA
+Canada,Ft Saint John,CA-BC,CA
+Canada,Ft Saskatchewan,CA-AB,CA
+Canada,Ft Severn,CA-ON,CA
+Canada,Ft Simpson,CA-NT,CA
+Canada,Gananoque,CA-ON,CA
+Canada,Gander,CA-NF,CA
+Canada,Ganges,CA-BC,CA
+Canada,Gaspe,CA-QC,CA
+Canada,Gatineau,CA-QC,CA
+Canada,Georgetown,CA-PE,CA
+Canada,Georgetown,CA-ON,CA
+Canada,Geraldton,CA-ON,CA
+Canada,Gibsons,CA-BC,CA
+Canada,Gillam,CA-MB,CA
+Canada,Gimli,CA-MB,CA
+Canada,Gjoa Haven,CA-NU,CA
+Canada,Glenboro,CA-MB,CA
+Canada,Glencoe,CA-ON,CA
+Canada,Gloucester,CA-ON,CA
+Canada,Goderich,CA-ON,CA
+Canada,Gold River,CA-BC,CA
+Canada,Golden,CA-BC,CA
+Canada,Goose Bay,CA-NF,CA
+Canada,Gormley,CA-ON,CA
+Canada,Granby,CA-QC,CA
+Canada,Grand Centre,CA-AB,CA
+Canada,Grand Falls,CA-NF,CA
+Canada,Grand Forks,CA-BC,CA
+Canada,Grand Valley,CA-ON,CA
+Canada,Grande Cache,CA-AB,CA
+Canada,Grande Prairie,CA-AB,CA
+Canada,Grande-Riviere,CA-QC,CA
+Canada,Gravelbourg,CA-SK,CA
+Canada,Gravenhurst,CA-ON,CA
+Canada,Green Valley,CA-ON,CA
+Canada,Greenfield-Park,CA-QC,CA
+Canada,Griffin,CA-SK,CA
+Canada,Grimsby,CA-ON,CA
+Canada,Grosse Isle,CA-MB,CA
+Canada,Guelph,CA-ON,CA
+Canada,Gull Lake,CA-SK,CA
+Canada,Gypsumville,CA-MB,CA
+Canada,Hagersville,CA-ON,CA
+Canada,Haley Station,CA-ON,CA
+Canada,Haliburton,CA-ON,CA
+Canada,Halifax,CA-NS,CA
+Canada,Hamilton,CA-ON,CA
+Canada,Haney,CA-BC,CA
+Canada,Hanley,CA-SK,CA
+Canada,Hanmer,CA-ON,CA
+Canada,Hanover,CA-ON,CA
+Canada,Harrow,CA-ON,CA
+Canada,Hawkesbury,CA-ON,CA
+Canada,Hearst,CA-ON,CA
+Canada,Heron Bay,CA-ON,CA
+Canada,High Level,CA-AB,CA
+Canada,High Prairie,CA-AB,CA
+Canada,High River,CA-AB,CA
+Canada,Hinton,CA-AB,CA
+Canada,Holland Landing,CA-ON,CA
+Canada,Hope,CA-BC,CA
+Canada,Houston,CA-BC,CA
+Canada,Hubbards,CA-NS,CA
+Canada,Hudson,CA-QC,CA
+Canada,Hudson Bay,CA-SK,CA
+Canada,Hull,CA-QC,CA
+Canada,Humboldt,CA-SK,CA
+Canada,Huntingdon,CA-BC,CA
+Canada,Huntsville,CA-ON,CA
+Canada,Iberville,CA-QC,CA
+Canada,Igloolik,CA-NU,CA
+Canada,Ile-a-la-Crosse,CA-SK,CA
+Canada,Indian Head,CA-SK,CA
+Canada,Ingersoll,CA-ON,CA
+Canada,Inglewood,CA-ON,CA
+Canada,Innisfil,CA-ON,CA
+Canada,Inuvik,CA-NT,CA
+Canada,Invermere,CA-BC,CA
+Canada,Iqaluit,CA-NU,CA
+Canada,Iroquois Falls,CA-ON,CA
+Canada,Islington,CA-ON,CA
+Canada,Jasper,CA-AB,CA
+Canada,Joliette,CA-QC,CA
+Canada,Jonquiere,CA-QC,CA
+Canada,Juniper Station,CA-NB,CA
+Canada,Kahnawake,CA-QC,CA
+Canada,Kamloops,CA-BC,CA
+Canada,Kamsack,CA-SK,CA
+Canada,Kanata,CA-ON,CA
+Canada,Kapuskasing,CA-ON,CA
+Canada,Kaslo,CA-BC,CA
+Canada,Keewatin,CA-ON,CA
+Canada,Kelowna,CA-BC,CA
+Canada,Kemptville,CA-ON,CA
+Canada,Kenora,CA-ON,CA
+Canada,Kentville,CA-NS,CA
+Canada,Keswick,CA-ON,CA
+Canada,Killarney,CA-MB,CA
+Canada,Kimberly,CA-BC,CA
+Canada,Kincardine,CA-ON,CA
+Canada,Kindersley,CA-SK,CA
+Canada,King City,CA-ON,CA
+Canada,Kingfisher Lake,CA-ON,CA
+Canada,Kingston,CA-ON,CA
+Canada,Kirkland,CA-QC,CA
+Canada,Kirkland Lake,CA-ON,CA
+Canada,Kitchener,CA-ON,CA
+Canada,Kitimat,CA-BC,CA
+Canada,Komoka,CA-ON,CA
+Canada,Kuujjuaq,CA-QC,CA
+Canada,l'Annonciation,CA-QC,CA
+Canada,l'Assomption,CA-QC,CA
+Canada,l'Orignal,CA-ON,CA
+Canada,La Baie,CA-QC,CA
+Canada,La Loche,CA-SK,CA
+Canada,La Malbaie,CA-QC,CA
+Canada,La Prairie,CA-QC,CA
+Canada,La Romaine,CA-QC,CA
+Canada,La Ronge,CA-SK,CA
+Canada,La Sarre,CA-QC,CA
+Canada,La Tuque,CA-QC,CA
+Canada,Labrador City,CA-NF,CA
+Canada,Lac du Bonnet,CA-MB,CA
+Canada,Lac la Biche,CA-AB,CA
+Canada,Lac-Etchemin,CA-QC,CA
+Canada,Lac-Megantic,CA-QC,CA
+Canada,Lachine,CA-QC,CA
+Canada,Lachute,CA-QC,CA
+Canada,Lacombe,CA-AB,CA
+Canada,Ladner,CA-BC,CA
+Canada,Ladysmith,CA-BC,CA
+Canada,Lake Cowichan,CA-BC,CA
+Canada,Lakefield,CA-ON,CA
+Canada,Lambton,CA-QC,CA
+Canada,Lampman,CA-SK,CA
+Canada,Lanark,CA-ON,CA
+Canada,Langdon,CA-AB,CA
+Canada,Langley,CA-BC,CA
+Canada,Lantzville,CA-BC,CA
+Canada,Larochelle,CA-QC,CA
+Canada,Lasalle,CA-QC,CA
+Canada,Laterriere,CA-QC,CA
+Canada,Laurentides,CA-QC,CA
+Canada,Laurier-Station,CA-QC,CA
+Canada,Laval,CA-QC,CA
+Canada,Lawrencetown,CA-NS,CA
+Canada,Le Gardeur,CA-QC,CA
+Canada,Leamington,CA-ON,CA
+Canada,Leduc,CA-AB,CA
+Canada,Lemberg,CA-SK,CA
+Canada,Lennoxville,CA-QC,CA
+Canada,Les Cedres,CA-QC,CA
+Canada,Lethbridge,CA-AB,CA
+Canada,Levis,CA-QC,CA
+Canada,Lillooet,CA-BC,CA
+Canada,Lindsay,CA-ON,CA
+Canada,Listowel,CA-ON,CA
+Canada,Listuguj,CA-QC,CA
+Canada,Little Current,CA-ON,CA
+Canada,Lively,CA-ON,CA
+Canada,Lloydminster,CA-SK,CA
+Canada,Lloydminster,CA-AB,CA
+Canada,Logan Lake,CA-ON,CA
+Canada,Lombardy,CA-ON,CA
+Canada,London,CA-ON,CA
+Canada,Longueuil,CA-QC,CA
+Canada,Lorette,CA-MB,CA
+Canada,Loretteville,CA-QC,CA
+Canada,Lorraine,CA-QC,CA
+Canada,Luceville,CA-QC,CA
+Canada,Lumby,CA-BC,CA
+Canada,Lundar,CA-MB,CA
+Canada,Lutselk'e,CA-NT,CA
+Canada,Macgregor,CA-MB,CA
+Canada,Mackenzie,CA-BC,CA
+Canada,Madoc,CA-ON,CA
+Canada,Magog,CA-QC,CA
+Canada,Mahone Bay,CA-NS,CA
+Canada,Malton,CA-ON,CA
+Canada,Manitou,CA-MB,CA
+Canada,Manitouwadge,CA-ON,CA
+Canada,Maniwaki,CA-QC,CA
+Canada,Manotick,CA-ON,CA
+Canada,Maple,CA-ON,CA
+Canada,Maple Creek,CA-SK,CA
+Canada,Maple Ridge,CA-BC,CA
+Canada,Mar,CA-ON,CA
+Canada,Marathon,CA-ON,CA
+Canada,Maria,CA-QC,CA
+Canada,Markdale,CA-ON,CA
+Canada,Markham,CA-ON,CA
+Canada,Marysville,CA-BC,CA
+Canada,Mascouche,CA-QC,CA
+Canada,Masset,CA-BC,CA
+Canada,Masson,CA-QC,CA
+Canada,Matachewan,CA-ON,CA
+Canada,Matane,CA-QC,CA
+Canada,Mattagami Heights,CA-ON,CA
+Canada,Mattawa,CA-ON,CA
+Canada,Mattice,CA-ON,CA
+Canada,Maymont,CA-SK,CA
+Canada,Maynooth,CA-ON,CA
+Canada,Mcbride,CA-BC,CA
+Canada,Mccreary,CA-MB,CA
+Canada,Mckellar,CA-ON,CA
+Canada,Meadow Lake,CA-SK,CA
+Canada,Medicine Hat,CA-AB,CA
+Canada,Melfort,CA-SK,CA
+Canada,Melville,CA-SK,CA
+Canada,Memramcook,CA-NB,CA
+Canada,Mercier,CA-QC,CA
+Canada,Merrickville,CA-ON,CA
+Canada,Merritt,CA-BC,CA
+Canada,Metcalfe,CA-ON,CA
+Canada,Miami,CA-MB,CA
+Canada,Midhurst,CA-ON,CA
+Canada,Midland,CA-ON,CA
+Canada,Mill Bay,CA-BC,CA
+Canada,Millbrook,CA-ON,CA
+Canada,Millhaven,CA-ON,CA
+Canada,Milton,CA-ON,CA
+Canada,Milverton,CA-ON,CA
+Canada,Minnedosa,CA-MB,CA
+Canada,Minnitaki,CA-ON,CA
+Canada,Mirabel,CA-QC,CA
+Canada,Miramichi,CA-NB,CA
+Canada,Mission,CA-BC,CA
+Canada,Mississauga,CA-ON,CA
+Canada,Moncton,CA-NB,CA
+Canada,Monkland,CA-ON,CA
+Canada,Mont-Joli,CA-QC,CA
+Canada,Mont-Laurier,CA-QC,CA
+Canada,Mont-Royal,CA-QC,CA
+Canada,Mont-Saint-Hilaire,CA-QC,CA
+Canada,Mont-Tremblant,CA-QC,CA
+Canada,Montebello,CA-QC,CA
+Canada,Montmagny,CA-QC,CA
+Canada,Montreal,CA-QC,CA
+Canada,Moose Creek,CA-ON,CA
+Canada,Moose Jaw,CA-SK,CA
+Canada,Moosehorn,CA-MB,CA
+Canada,Moosomin,CA-SK,CA
+Canada,Morden,CA-MB,CA
+Canada,Morinville,CA-AB,CA
+Canada,Morris,CA-MB,CA
+Canada,Morrisburg,CA-ON,CA
+Canada,Mount Albert,CA-ON,CA
+Canada,Mount Hope,CA-ON,CA
+Canada,Mount Pearl,CA-NF,CA
+Canada,Mount Pisgah,CA-NB,CA
+Canada,Muenster,CA-SK,CA
+Canada,Munson,CA-AB,CA
+Canada,Nanaimo,CA-BC,CA
+Canada,Napanee,CA-ON,CA
+Canada,Napierville,CA-QC,CA
+Canada,Neepawa,CA-MB,CA
+Canada,Nelson,CA-BC,CA
+Canada,Nelson House,CA-MB,CA
+Canada,Nepean,CA-ON,CA
+Canada,Neufchatel,CA-QC,CA
+Canada,New Carlisle,CA-QC,CA
+Canada,New Dundee,CA-ON,CA
+Canada,New Glasgow,CA-NS,CA
+Canada,New Hamburg,CA-ON,CA
+Canada,New Liskeard,CA-ON,CA
+Canada,New Minas,CA-NS,CA
+Canada,New Richmond,CA-QC,CA
+Canada,New Westminster,CA-BC,CA
+Canada,Newcastle,CA-ON,CA
+Canada,Newcastle,CA-NB,CA
+Canada,Newmarket,CA-ON,CA
+Canada,Newton,CA-MB,CA
+Canada,Niagara Falls,CA-ON,CA
+Canada,Nicolet,CA-QC,CA
+Canada,Nigadoo,CA-NB,CA
+Canada,Nipawin,CA-SK,CA
+Canada,Nipigon,CA-ON,CA
+Canada,Nisku,CA-AB,CA
+Canada,Niverville,CA-MB,CA
+Canada,Nobleton,CA-ON,CA
+Canada,Noelville,CA-ON,CA
+Canada,Noranda,CA-QC,CA
+Canada,Norman Wells,CA-NT,CA
+Canada,Norquay,CA-SK,CA
+Canada,North Battleford,CA-SK,CA
+Canada,North Bay,CA-ON,CA
+Canada,North Portal,CA-SK,CA
+Canada,North Saanich,CA-BC,CA
+Canada,North Sydney,CA-NS,CA
+Canada,North Vancouver,CA-BC,CA
+Canada,North York,CA-ON,CA
+Canada,Norval,CA-ON,CA
+Canada,Norwich,CA-ON,CA
+Canada,Oak Bluff,CA-MB,CA
+Canada,Oakville,CA-ON,CA
+Canada,Okotoks,CA-AB,CA
+Canada,Olds,CA-AB,CA
+Canada,Oliver,CA-BC,CA
+Canada,Omerville,CA-QC,CA
+Canada,Onanole,CA-MB,CA
+Canada,Orangeville,CA-ON,CA
+Canada,Orillia,CA-ON,CA
+Canada,Orleans,CA-ON,CA
+Canada,Oromocto,CA-NB,CA
+Canada,Oshawa,CA-ON,CA
+Canada,Osoyoos,CA-BC,CA
+Canada,Ottawa,CA-ON,CA
+Canada,Otterburne,CA-MB,CA
+Canada,Outlook,CA-SK,CA
+Canada,Outremont,CA-QC,CA
+Canada,Owen Sound,CA-ON,CA
+Canada,Pangnirtung,CA-NU,CA
+Canada,Papineauville,CA-QC,CA
+Canada,Paquetville,CA-NB,CA
+Canada,Paris,CA-ON,CA
+Canada,Parksville,CA-BC,CA
+Canada,Parry Sound,CA-ON,CA
+Canada,Pawitik,CA-ON,CA
+Canada,Peace River,CA-AB,CA
+Canada,Pembroke,CA-ON,CA
+Canada,Penetanguishene,CA-ON,CA
+Canada,Penticton,CA-BC,CA
+Canada,Perth,CA-ON,CA
+Canada,Peterborough,CA-ON,CA
+Canada,Pickering,CA-ON,CA
+Canada,Picton,CA-ON,CA
+Canada,Piedmont,CA-QC,CA
+Canada,Pierrefonds,CA-QC,CA
+Canada,Pinawa,CA-MB,CA
+Canada,Pine Falls,CA-MB,CA
+Canada,Pitt Meadows,CA-BC,CA
+Canada,Pohenegamook,CA-QC,CA
+Canada,Point Edward,CA-ON,CA
+Canada,Pointe-a-la-Croix,CA-QC,CA
+Canada,Pointe-aux-Outardes,CA-QC,CA
+Canada,Pointe-aux-Trembles,CA-QC,CA
+Canada,Pointe-Claire,CA-QC,CA
+Canada,Pond Inlet,CA-NU,CA
+Canada,Ponoka,CA-AB,CA
+Canada,Pont-Rouge,CA-QC,CA
+Canada,Pontypool,CA-ON,CA
+Canada,Poplar Hill,CA-ON,CA
+Canada,Port Alberni,CA-BC,CA
+Canada,Port Colborne,CA-ON,CA
+Canada,Port Coquitlam,CA-BC,CA
+Canada,Port Credit,CA-ON,CA
+Canada,Port Elgin,CA-ON,CA
+Canada,Port Hardy,CA-BC,CA
+Canada,Port Hawkesbury,CA-NS,CA
+Canada,Port Hope,CA-ON,CA
+Canada,Port Mcnicoll,CA-ON,CA
+Canada,Port Mellon,CA-BC,CA
+Canada,Port Moody,CA-BC,CA
+Canada,Port Perry,CA-ON,CA
+Canada,Port-Cartier,CA-QC,CA
+Canada,Portage la Prairie,CA-MB,CA
+Canada,Portneuf,CA-QC,CA
+Canada,Postville,CA-NF,CA
+Canada,Powassan,CA-ON,CA
+Canada,Powell River,CA-BC,CA
+Canada,Prescott,CA-ON,CA
+Canada,Prince Albert,CA-SK,CA
+Canada,Prince George,CA-BC,CA
+Canada,Prince Rupert,CA-BC,CA
+Canada,Princeton,CA-BC,CA
+Canada,Provost,CA-AB,CA
+Canada,Quebec,CA-QC,CA
+Canada,Queen Charlotte,CA-BC,CA
+Canada,Quesnel,CA-BC,CA
+Canada,Quispamsis,CA-NB,CA
+Canada,Radville,CA-SK,CA
+Canada,Rae,CA-NT,CA
+Canada,Rainy River,CA-ON,CA
+Canada,Raith,CA-ON,CA
+Canada,Rama,CA-ON,CA
+Canada,Rankin Inlet,CA-NU,CA
+Canada,Red Deer,CA-AB,CA
+Canada,Red Lake,CA-ON,CA
+Canada,Redcliff,CA-AB,CA
+Canada,Redwood Meadows,CA-AB,CA
+Canada,Regina,CA-SK,CA
+Canada,Renfrew,CA-ON,CA
+Canada,Repentigny,CA-QC,CA
+Canada,Revelstoke,CA-BC,CA
+Canada,Rexdale,CA-ON,CA
+Canada,Rexton,CA-NB,CA
+Canada,Richelieu,CA-QC,CA
+Canada,Richibucto,CA-NB,CA
+Canada,Richibucto Road,CA-NB,CA
+Canada,Richmond,CA-ON,CA
+Canada,Richmond,CA-QC,CA
+Canada,Richmond,CA-BC,CA
+Canada,Richmond Hill,CA-ON,CA
+Canada,Ridgetown,CA-ON,CA
+Canada,Rimouski,CA-QC,CA
+Canada,Ripley,CA-ON,CA
+Canada,Rivers,CA-MB,CA
+Canada,Riviere-du-Loup,CA-QC,CA
+Canada,Roberts Creek,CA-BC,CA
+Canada,Robertsonville,CA-QC,CA
+Canada,Roberval,CA-QC,CA
+Canada,Rocanville,CA-SK,CA
+Canada,Rock Forest,CA-QC,CA
+Canada,Rockcliffe,CA-ON,CA
+Canada,Rockglen,CA-SK,CA
+Canada,Rockland,CA-ON,CA
+Canada,Rocky Mountain House,CA-AB,CA
+Canada,Rosedale,CA-BC,CA
+Canada,Rosemere,CA-QC,CA
+Canada,Rosetown,CA-SK,CA
+Canada,Rossport,CA-ON,CA
+Canada,Rothesay,CA-NB,CA
+Canada,Rouyn-Noranda,CA-QC,CA
+Canada,Roxboro,CA-QC,CA
+Canada,Russell,CA-ON,CA
+Canada,Russell,CA-MB,CA
+Canada,Sackville,CA-NB,CA
+Canada,Sainte-Agathe-de-Lotbiniere,CA-QC,CA
+Canada,Sainte-Agathe-des-Monts,CA-QC,CA
+Canada,Salaberry-de-Valleyfield,CA-QC,CA
+Canada,Salmon Arm,CA-BC,CA
+Canada,Salt Spring Island,CA-BC,CA
+Canada,Sandy Lake,CA-ON,CA
+Canada,Sardis,CA-BC,CA
+Canada,Sarnia,CA-ON,CA
+Canada,Saskatoon,CA-SK,CA
+Canada,Sault Sainte Marie,CA-ON,CA
+Canada,Sault Ste Marie,CA-ON,CA
+Canada,Sault-Au-Mouton,CA-QC,CA
+Canada,Scarborough,CA-ON,CA
+Canada,Schomberg,CA-ON,CA
+Canada,Schumacher,CA-ON,CA
+Canada,Scott,CA-QC,CA
+Canada,Selkirk,CA-MB,CA
+Canada,Sept-Iles,CA-QC,CA
+Canada,Shaunavon,CA-SK,CA
+Canada,Shawinigan,CA-QC,CA
+Canada,Shawnigan Lake,CA-BC,CA
+Canada,Shediac,CA-NB,CA
+Canada,Sheet Harbour,CA-NS,CA
+Canada,Shelburne,CA-ON,CA
+Canada,Shellbrook,CA-SK,CA
+Canada,Sherbrooke,CA-QC,CA
+Canada,Sherwood Park,CA-AB,CA
+Canada,Shippegan,CA-NB,CA
+Canada,Shoal Harbour,CA-NF,CA
+Canada,Shoal Lake,CA-MB,CA
+Canada,Sicamous,CA-BC,CA
+Canada,Sidney,CA-BC,CA
+Canada,Sillery,CA-QC,CA
+Canada,Simcoe,CA-ON,CA
+Canada,Sioux Lookout,CA-ON,CA
+Canada,Slave Lake,CA-AB,CA
+Canada,Smithers,CA-BC,CA
+Canada,Smiths Falls,CA-ON,CA
+Canada,Smithville,CA-ON,CA
+Canada,Smooth Rock Falls,CA-ON,CA
+Canada,Snare Lake,CA-NT,CA
+Canada,Snow Lake,CA-MB,CA
+Canada,Sorel,CA-QC,CA
+Canada,Souris,CA-MB,CA
+Canada,South Lancaster,CA-ON,CA
+Canada,South Porcupine,CA-ON,CA
+Canada,South River,CA-ON,CA
+Canada,South Slocan,CA-BC,CA
+Canada,Sparwood,CA-BC,CA
+Canada,Spruce Grove,CA-AB,CA
+Canada,Squamish,CA-BC,CA
+Canada,St Albert,CA-AB,CA
+Canada,St Basile,CA-NB,CA
+Canada,St Bruno,CA-QC,CA
+Canada,St Catharines,CA-ON,CA
+Canada,St George,CA-NB,CA
+Canada,St Georges,CA-QC,CA
+Canada,St Jacobs,CA-ON,CA
+Canada,St John,CA-NB,CA
+Canada,St John's,CA-NF,CA
+Canada,St Lazare,CA-MB,CA
+Canada,St Louis de Kent,CA-NB,CA
+Canada,St Marys,CA-ON,CA
+Canada,St Paul,CA-AB,CA
+Canada,St Stephen,CA-NB,CA
+Canada,St Thomas,CA-ON,CA
+Canada,St-Alphonse-de-Granby,CA-QC,CA
+Canada,St-Anne-des-Monts,CA-QC,CA
+Canada,St-Anselme,CA-QC,CA
+Canada,St-Augustin,CA-QC,CA
+Canada,St-Basile-le-Grand,CA-QC,CA
+Canada,St-Bruno-de-Montarville,CA-QC,CA
+Canada,St-Constant,CA-QC,CA
+Canada,St-Cyrille,CA-QC,CA
+Canada,St-Elzear,CA-QC,CA
+Canada,St-Eustache,CA-QC,CA
+Canada,St-Felicien,CA-QC,CA
+Canada,St-Felix-de-Valois,CA-QC,CA
+Canada,St-Georges,CA-QC,CA
+Canada,St-Hubert,CA-QC,CA
+Canada,St-Hyacinthe,CA-QC,CA
+Canada,St-Janvier,CA-QC,CA
+Canada,St-Jean,CA-QC,CA
+Canada,St-Jean Chrysostome,CA-QC,CA
+Canada,St-Jean-sur-Richelieu,CA-QC,CA
+Canada,St-Jerome,CA-QC,CA
+Canada,St-Jovite,CA-QC,CA
+Canada,St-Justin,CA-QC,CA
+Canada,St-Lambert,CA-QC,CA
+Canada,St-Laurent,CA-QC,CA
+Canada,St-Leonard,CA-QC,CA
+Canada,St-Louis-de-Champlain,CA-QC,CA
+Canada,St-Malo,CA-QC,CA
+Canada,St-Mathieu-de-Beloeil,CA-QC,CA
+Canada,St-Nicolas,CA-QC,CA
+Canada,St-Pascal,CA-QC,CA
+Canada,St-Paul,CA-NB,CA
+Canada,St-Pie,CA-QC,CA
+Canada,St-Pierre,CA-QC,CA
+Canada,St-Pierre Ile d' Orleans,CA-QC,CA
+Canada,St-Quentin,CA-NB,CA
+Canada,St-Raymond,CA-QC,CA
+Canada,St-Remi,CA-QC,CA
+Canada,St-Romuald,CA-QC,CA
+Canada,St-Sauveur-des-Monts,CA-QC,CA
+Canada,St-Sylvestre,CA-QC,CA
+Canada,St-Timothee,CA-QC,CA
+Canada,St-Tite,CA-QC,CA
+Canada,St-Victor,CA-QC,CA
+Canada,Stanstead,CA-QC,CA
+Canada,Ste Agathe,CA-MB,CA
+Canada,Ste Catherine,CA-QC,CA
+Canada,Ste-Adele,CA-QC,CA
+Canada,Ste-Anne,CA-MB,CA
+Canada,Ste-Anne-de-Bellevue,CA-QC,CA
+Canada,Ste-Claire,CA-QC,CA
+Canada,Ste-Croix,CA-QC,CA
+Canada,Ste-Dorothee,CA-QC,CA
+Canada,Ste-Foy,CA-QC,CA
+Canada,Ste-Genevieve,CA-QC,CA
+Canada,Ste-Julie,CA-QC,CA
+Canada,Ste-Marguerite-du-Lac-Masson,CA-QC,CA
+Canada,Ste-Marie,CA-QC,CA
+Canada,Ste-Rosalie,CA-QC,CA
+Canada,Ste-Therese,CA-QC,CA
+Canada,Steinbach,CA-MB,CA
+Canada,Stellarton,CA-NS,CA
+Canada,Stephenville,CA-NF,CA
+Canada,Stettler,CA-AB,CA
+Canada,Stevensville,CA-ON,CA
+Canada,Steveston,CA-BC,CA
+Canada,Stirling,CA-ON,CA
+Canada,Stittsville,CA-ON,CA
+Canada,Stonewall,CA-MB,CA
+Canada,Stoney Creek,CA-ON,CA
+Canada,Stony Mountain,CA-MB,CA
+Canada,Stony Plain,CA-AB,CA
+Canada,Stouffville,CA-ON,CA
+Canada,Stratford,CA-ON,CA
+Canada,Strathroy,CA-ON,CA
+Canada,Streetsville,CA-ON,CA
+Canada,Sturgeon Falls,CA-ON,CA
+Canada,Sudbury,CA-ON,CA
+Canada,Summerland,CA-BC,CA
+Canada,Summerside,CA-PE,CA
+Canada,Surrey,CA-BC,CA
+Canada,Sussex,CA-NB,CA
+Canada,Sutton,CA-QC,CA
+Canada,Swan Hills,CA-AB,CA
+Canada,Swan Lake,CA-MB,CA
+Canada,Swan River,CA-MB,CA
+Canada,Swift Current,CA-SK,CA
+Canada,Sydney,CA-NS,CA
+Canada,Taber,CA-AB,CA
+Canada,Tecumseh,CA-ON,CA
+Canada,Tees,CA-AB,CA
+Canada,Temiscaming,CA-QC,CA
+Canada,Terence Bay,CA-NF,CA
+Canada,Terence Bay,CA-NS,CA
+Canada,Terrace,CA-BC,CA
+Canada,Terrace Bay,CA-ON,CA
+Canada,Terrebonne,CA-QC,CA
+Canada,Teulon,CA-MB,CA
+Canada,The Pas,CA-MB,CA
+Canada,Thessalon,CA-ON,CA
+Canada,Thetford-Mines,CA-QC,CA
+Canada,Thompson,CA-MB,CA
+Canada,Thornbury,CA-ON,CA
+Canada,Thornhill,CA-ON,CA
+Canada,Thorold,CA-ON,CA
+Canada,Three Hills,CA-AB,CA
+Canada,Thunder Bay,CA-ON,CA
+Canada,Tignish,CA-PE,CA
+Canada,Tillsonburg,CA-ON,CA
+Canada,Timmins,CA-ON,CA
+Canada,Tisdale,CA-SK,CA
+Canada,Toronto,CA-ON,CA
+Canada,Tottenham,CA-ON,CA
+Canada,Tracadie,CA-NB,CA
+Canada,Tracy,CA-QC,CA
+Canada,Trail,CA-BC,CA
+Canada,Treherne,CA-MB,CA
+Canada,Trenton,CA-ON,CA
+Canada,Trois-Rivieres,CA-QC,CA
+Canada,Trout Lake,CA-NT,CA
+Canada,Troy,CA-NS,CA
+Canada,Truro,CA-NS,CA
+Canada,Tsawwassen,CA-BC,CA
+Canada,Ucluelet,CA-BC,CA
+Canada,Unionville,CA-ON,CA
+Canada,Unity,CA-SK,CA
+Canada,Utica,CA-ON,CA
+Canada,Val Caron,CA-ON,CA
+Canada,Val-Belair,CA-QC,CA
+Canada,Val-d'Or,CA-QC,CA
+Canada,Val-Morin,CA-QC,CA
+Canada,Valcourt,CA-QC,CA
+Canada,Valemount,CA-BC,CA
+Canada,Vallee-Jonction,CA-QC,CA
+Canada,Valleyfield,CA-NF,CA
+Canada,Valleyfield,CA-QC,CA
+Canada,Valleyview,CA-AB,CA
+Canada,Vancouver,CA-BC,CA
+Canada,Vanderhoof,CA-BC,CA
+Canada,Vanier,CA-QC,CA
+Canada,Vanier,CA-ON,CA
+Canada,Vankleek Hill,CA-ON,CA
+Canada,Varennes,CA-QC,CA
+Canada,Vaudreuil,CA-QC,CA
+Canada,Vaughan,CA-ON,CA
+Canada,Vegreville,CA-AB,CA
+Canada,Verdun,CA-QC,CA
+Canada,Vermilion River,CA-AB,CA
+Canada,Vernon,CA-BC,CA
+Canada,Victoria,CA-BC,CA
+Canada,Victoriaville,CA-QC,CA
+Canada,Virden,CA-MB,CA
+Canada,Wabush,CA-NF,CA
+Canada,Wadena,CA-SK,CA
+Canada,Wainfleet,CA-ON,CA
+Canada,Wainwright,CA-AB,CA
+Canada,Wallaceburg,CA-ON,CA
+Canada,Warman,CA-SK,CA
+Canada,Warwick,CA-QC,CA
+Canada,Waswanipi,CA-QC,CA
+Canada,Waterdown,CA-ON,CA
+Canada,Waterford,CA-ON,CA
+Canada,Waterloo,CA-ON,CA
+Canada,Waterloo,CA-QC,CA
+Canada,Waterville,CA-QC,CA
+Canada,Wawa,CA-ON,CA
+Canada,Wawanesa,CA-MB,CA
+Canada,Webequie,CA-ON,CA
+Canada,Weekes,CA-SK,CA
+Canada,Welland,CA-ON,CA
+Canada,Wellington,CA-BC,CA
+Canada,Welshpool,CA-NB,CA
+Canada,West Bay,CA-NS,CA
+Canada,West Hill,CA-ON,CA
+Canada,West Vancouver,CA-BC,CA
+Canada,Westlock,CA-AB,CA
+Canada,Westmount,CA-QC,CA
+Canada,Weston,CA-ON,CA
+Canada,Wetaskiwin,CA-AB,CA
+Canada,Weyburn,CA-SK,CA
+Canada,Weymouth,CA-NS,CA
+Canada,Whistler,CA-BC,CA
+Canada,Whitby,CA-ON,CA
+Canada,Whitchurch-Stouffville,CA-ON,CA
+Canada,White Rock,CA-BC,CA
+Canada,Whitecourt,CA-AB,CA
+Canada,Whitehorse,CA-YT,CA
+Canada,Whitewood,CA-SK,CA
+Canada,Wilcox,CA-SK,CA
+Canada,Wilkie,CA-SK,CA
+Canada,Williams Lake,CA-BC,CA
+Canada,Willowdale,CA-ON,CA
+Canada,Windsor,CA-NS,CA
+Canada,Windsor,CA-NF,CA
+Canada,Windsor,CA-ON,CA
+Canada,Windsor,CA-QC,CA
+Canada,Wingham,CA-ON,CA
+Canada,Winkler,CA-MB,CA
+Canada,Winnipeg,CA-MB,CA
+Canada,Winona,CA-ON,CA
+Canada,Wolfe Island,CA-ON,CA
+Canada,Wolfville,CA-NS,CA
+Canada,Woodbridge,CA-ON,CA
+Canada,Woodstock,CA-ON,CA
+Canada,Woodstock,CA-NB,CA
+Canada,Wrigley,CA-NT,CA
+Canada,Wunnummin Lake,CA-ON,CA
+Canada,Wynyard,CA-SK,CA
+Canada,Wyoming,CA-ON,CA
+Canada,Yamachiche,CA-QC,CA
+Canada,Yarmouth,CA-NS,CA
+Canada,Yellowknife,CA-NT,CA
+Canada,York,CA-ON,CA
+Canada,Yorkton,CA-SK,CA
+Chile,Algarrobo,CL-CO,CL
+Chile,Antofagasta,CL-AN,CL
+Chile,Chuquicamata,CL-AN,CL
+Chile,Concepcion,CL-BI,CL
+Chile,Conchali,CL-RM,CL
+Chile,Curico,CL-ML,CL
+Chile,Iquique,CL-TA,CL
+Chile,La Cisterna,CL-RM,CL
+Chile,La Florida,CL-RM,CL
+Chile,La Serena,CL-CO,CL
+Chile,Las Condes,CL-RM,CL
+Chile,Los Andes,CL-VS,CL
+Chile,Los Angeles,CL-BI,CL
+Chile,Macul,CL-RM,CL
+Chile,Maipu,CL-RM,CL
+Chile,Nunoa,CL-RM,CL
+Chile,Osorno,CL-LL,CL
+Chile,Providencia,CL-RM,CL
+Chile,Puerto Varas,CL-LL,CL
+Chile,Punta Arenas,CL-MA,CL
+Chile,Quilicura,CL-RM,CL
+Chile,Quillota,CL-VS,CL
+Chile,Quinta Normal,CL-RM,CL
+Chile,Rancagua,CL-LI,CL
+Chile,San Antonio,CL-VS,CL
+Chile,San Fernando,CL-VS,CL
+Chile,San Miguel,CL-RM,CL
+Chile,Santiago,CL-RM,CL
+Chile,Talca,CL-ML,CL
+Chile,Talcahuano,CL-BI,CL
+Chile,Temuco,CL-AR,CL
+Chile,Valdivia,CL-LL,CL
+Chile,Valparaiso,CL-VS,CL
+Chile,Victoria,CL-AR,CL
+Chile,Vina Del Mar,CL-VS,CL
+Chile,Vitacura,CL-RM,CL
+Croatia,Bjelovar,HR-07,HR
+Croatia,Dubrovnik,HR-19,HR
+Croatia,Karlovac,HR-04,HR
+Croatia,Koprivnica,HR-06,HR
+Croatia,Mali Losinj,HR-13,HR
+Croatia,Osijek,HR-14,HR
+Croatia,Požega,HR-11,HR
+Croatia,Pula,HR-18,HR
+Croatia,Rijeka,HR-08,HR
+Croatia,Samobor,HR-01,HR
+Croatia,Sesvete,HR-01,HR
+Croatia,Sisak,HR-03,HR
+Croatia,Slavonski Brod,HR-12,HR
+Croatia,Split,HR-17,HR
+Croatia,Varaždin,HR-05,HR
+Croatia,Velika Gorica,HR-01,HR
+Croatia,Vinkovci,HR-16,HR
+Croatia,Vukovar,HR-16,HR
+Croatia,Zadar,HR-13,HR
+Croatia,Zagreb,HR-01,HR
+Croatia,Šibenik,HR-15,HR
+Egypt,Ad Duqqi,EG-GZ,EG
+Egypt,Al Fayyum,EG-FYM,EG
+Egypt,Al-Ghurdaqah,EG-BA,EG
+Egypt,Al-Jizah,EG-GZ,EG
+Egypt,Al-Uqsur,EG-KN,EG
+Egypt,Alexandria,EG-ALX,EG
+Egypt,Arish,EG-SIN,EG
+Egypt,Aswan,EG-ASN,EG
+Egypt,Asyut,EG-AST,EG
+Egypt,Az Zagazig,EG-SHR,EG
+Egypt,Banha,EG-KB,EG
+Egypt,Beni Suef,EG-BNS,EG
+Egypt,Cairo,EG-C,EG
+Egypt,Dahab,EG-JS,EG
+Egypt,Damanhur,EG-C,EG
+Egypt,Desouk,EG-KFS,EG
+Egypt,Dumyat,EG-DT,EG
+Egypt,E-Kharga,EG-WAD,EG
+Egypt,El Mansura,EG-DK,EG
+Egypt,El-Minya,EG-MN,EG
+Egypt,El-Tor,EG-JS,EG
+Egypt,Giza,EG-GZ,EG
+Egypt,Idfa,EG-ASN,EG
+Egypt,Ismailia,EG-IS,EG
+Egypt,Marsa Matrouh,EG-MT,EG
+Egypt,Nuweiba,EG-JS,EG
+Egypt,Port Said,EG-PTS,EG
+Egypt,Qina,EG-KN,EG
+Egypt,Rafah,EG-SIN,EG
+Egypt,Sharm El-Sheikh,EG-JS,EG
+Egypt,Shibin Elkom,EG-MNF,EG
+Egypt,Siwa,EG-MT,EG
+Egypt,Sohag,EG-SHG,EG
+Egypt,Suez,EG-SUZ,EG
+Egypt,Talkha,EG-DK,EG
+Egypt,Tanta,EG-GH,EG
+France,Acheres,FR-J,FR
+France,Agen,FR-B,FR
+France,Aix-en-Provence,FR-U,FR
+France,Ajaccio,FR-H,FR
+France,Albert,FR-S,FR
+France,Albi,FR-N,FR
+France,Alencon,FR-P,FR
+France,Ales,FR-K,FR
+France,Alfortville,FR-J,FR
+France,Algolsheim,FR-A,FR
+France,Amance,FR-I,FR
+France,Amiens,FR-S,FR
+France,Amneville,FR-M,FR
+France,Angers,FR-R,FR
+France,Anglet,FR-B,FR
+France,Angouleme,FR-T,FR
+France,Annecy,FR-V,FR
+France,Annecy-le-Vieux,FR-V,FR
+France,Antibes,FR-U,FR
+France,Antony,FR-J,FR
+France,Archamps,FR-V,FR
+France,Arches,FR-M,FR
+France,Arcueil,FR-J,FR
+France,Ares,FR-B,FR
+France,Argentan,FR-P,FR
+France,Argenteuil,FR-J,FR
+France,Arles,FR-U,FR
+France,Armentieres,FR-O,FR
+France,Armes,FR-D,FR
+France,Arnay-le-Duc,FR-D,FR
+France,Arques,FR-O,FR
+France,Arras,FR-O,FR
+France,Arthon,FR-F,FR
+France,Asnieres-sur-Seine,FR-J,FR
+France,Athis-Mons,FR-J,FR
+France,Aubagne,FR-U,FR
+France,Aubergenville,FR-J,FR
+France,Aubervilliers,FR-J,FR
+France,Aubiere,FR-C,FR
+France,Aubrives,FR-G,FR
+France,Auch,FR-N,FR
+France,Autun,FR-D,FR
+France,Auvers sur Oise,FR-J,FR
+France,Auxerre,FR-D,FR
+France,Avignon,FR-U,FR
+France,Avion,FR-O,FR
+France,Avon,FR-J,FR
+France,Bagneux,FR-J,FR
+France,Bagnolet,FR-J,FR
+France,Bagnols-en-Foret,FR-U,FR
+France,Bagnols-sur-Ceze,FR-K,FR
+France,Balaives et Butz,FR-G,FR
+France,Barberaz,FR-V,FR
+France,Bard,FR-V,FR
+France,Basse-Yutz,FR-M,FR
+France,Bastia,FR-H,FR
+France,Bauge,FR-R,FR
+France,Baume-les-Dames,FR-I,FR
+France,Bayonne,FR-B,FR
+France,Beaujeu,FR-V,FR
+France,Beautiran,FR-B,FR
+France,Beauvais,FR-S,FR
+France,Belfort,FR-I,FR
+France,Bellegarde,FR-K,FR
+France,Belley,FR-V,FR
+France,Bercenay-en-Othe,FR-G,FR
+France,Berck,FR-O,FR
+France,Bernin,FR-V,FR
+France,Besancon,FR-I,FR
+France,Beynes,FR-J,FR
+France,Bezons,FR-J,FR
+France,Biarritz,FR-B,FR
+France,Bidart,FR-B,FR
+France,Bievres,FR-J,FR
+France,Biot,FR-U,FR
+France,Bitche,FR-M,FR
+France,Blagnac,FR-N,FR
+France,Blois,FR-F,FR
+France,Bobigny,FR-J,FR
+France,Bois d'Arcy,FR-J,FR
+France,Bois-Colombes,FR-J,FR
+France,Bois-Guillaume,FR-Q,FR
+France,Bondoufle,FR-J,FR
+France,Bondy,FR-J,FR
+France,Bonneuil sur Marne,FR-J,FR
+France,Bordeaux,FR-B,FR
+France,Bouiscommun,FR-F,FR
+France,Boullay-les-Troux,FR-J,FR
+France,Boulogne-Billancourt,FR-J,FR
+France,Boulogne-sur-Mer,FR-O,FR
+France,Bourdeaux,FR-V,FR
+France,Bourg-en-Bresse,FR-V,FR
+France,Bourg-la-Reine,FR-J,FR
+France,Bourges,FR-F,FR
+France,Bourgoin-Jallieu,FR-V,FR
+France,Bras,FR-U,FR
+France,Brebieres,FR-O,FR
+France,Bresson,FR-V,FR
+France,Bressuire,FR-T,FR
+France,Brest,FR-E,FR
+France,Bretigny,FR-J,FR
+France,Briare,FR-F,FR
+France,Brie-Comte-Robert,FR-J,FR
+France,Brioude,FR-C,FR
+France,Brive-la-Gaillarde,FR-L,FR
+France,Bron,FR-V,FR
+France,Bruges,FR-B,FR
+France,Bruyeres,FR-M,FR
+France,Bruz,FR-E,FR
+France,Buc,FR-J,FR
+France,Bures-sur-Yvette,FR-J,FR
+France,Cachan,FR-J,FR
+France,Caen,FR-P,FR
+France,Cahors,FR-N,FR
+France,Caissargues,FR-K,FR
+France,Calais,FR-O,FR
+France,Calvi,FR-H,FR
+France,Cambrai,FR-O,FR
+France,Canet-Plage,FR-K,FR
+France,Cannes,FR-U,FR
+France,Carcassonne,FR-K,FR
+France,Carquefou,FR-R,FR
+France,Carvin,FR-O,FR
+France,Castelnau-le-Lez,FR-K,FR
+France,Castres,FR-N,FR
+France,Caumont-sur-Durance,FR-U,FR
+France,Cavaillon,FR-U,FR
+France,Cazeres,FR-N,FR
+France,Cergy-Pontoise,FR-J,FR
+France,Cernay,FR-A,FR
+France,Cesson,FR-J,FR
+France,Cesson-Sevigne,FR-E,FR
+France,Chabeuil,FR-V,FR
+France,Chailly-en-Biere,FR-J,FR
+France,Chalon-sur-Saone,FR-D,FR
+France,Chalons-en-Champagne,FR-G,FR
+France,Chalons-sur-Marne,FR-G,FR
+France,Chamalieres,FR-C,FR
+France,Chambery,FR-V,FR
+France,Chambourcy,FR-J,FR
+France,Chambray les Tours,FR-F,FR
+France,Chamonix-Mont-Blanc,FR-V,FR
+France,Champlan,FR-J,FR
+France,Champs-sur-Marne,FR-J,FR
+France,Chantilly,FR-S,FR
+France,Chapareillan,FR-V,FR
+France,Charbonnieres-les-Bains,FR-V,FR
+France,Charenton-le-Pont,FR-J,FR
+France,Charleville-Mezieres,FR-G,FR
+France,Chartres,FR-F,FR
+France,Chasseneuil-du-Poitou,FR-T,FR
+France,Chateau-Gontier,FR-R,FR
+France,Chateau-Thierry,FR-S,FR
+France,Chateaudun,FR-F,FR
+France,Chateaugiron,FR-E,FR
+France,Chateauroux,FR-F,FR
+France,Chatenay-Malabry,FR-J,FR
+France,Chatillon,FR-J,FR
+France,Chatillon-sur-Seine,FR-D,FR
+France,Chatou,FR-J,FR
+France,Chaumont,FR-G,FR
+France,Chavenay,FR-J,FR
+France,Chemin,FR-I,FR
+France,Cherbourg,FR-P,FR
+France,Chevilly,FR-F,FR
+France,Chevilly Larue,FR-J,FR
+France,Chilly-Mazarin,FR-J,FR
+France,Chinon,FR-F,FR
+France,Choisy-le-Roi,FR-J,FR
+France,Cholet,FR-R,FR
+France,Clamart,FR-J,FR
+France,Claye-Souilly,FR-J,FR
+France,Clermont,FR-S,FR
+France,Clermont-d'Excideuil,FR-B,FR
+France,Clermont-Ferrand,FR-C,FR
+France,Clichy,FR-J,FR
+France,Cluny,FR-D,FR
+France,Coignieres,FR-J,FR
+France,Colmar,FR-A,FR
+France,Colombes,FR-J,FR
+France,Colomiers,FR-N,FR
+France,Compiegne,FR-S,FR
+France,Contres,FR-F,FR
+France,Corbeil,FR-G,FR
+France,Corbeil Essonnes,FR-J,FR
+France,Corenc,FR-V,FR
+France,Corte,FR-H,FR
+France,Coubron,FR-J,FR
+France,Coulommiers,FR-J,FR
+France,Courbevoie,FR-J,FR
+France,Courcouronnes,FR-J,FR
+France,Courdimanche,FR-J,FR
+France,Cournon,FR-E,FR
+France,Cran-Gevrier,FR-V,FR
+France,Craon,FR-R,FR
+France,Creney-Pres-Troyes,FR-G,FR
+France,Creteil,FR-J,FR
+France,Croissy-Beaubourg,FR-J,FR
+France,Crosne,FR-J,FR
+France,Cusset,FR-C,FR
+France,Dammarie-les-Lys,FR-J,FR
+France,Dampmart,FR-J,FR
+France,Darnetal,FR-Q,FR
+France,Deuil-la-Barre,FR-J,FR
+France,Digne,FR-U,FR
+France,Dijon,FR-D,FR
+France,Dinan,FR-E,FR
+France,Dortan,FR-V,FR
+France,Douai,FR-O,FR
+France,Dourdan,FR-J,FR
+France,Draguignan,FR-U,FR
+France,Draveil,FR-J,FR
+France,Dreux,FR-F,FR
+France,Dunkerque,FR-O,FR
+France,Echirolles,FR-V,FR
+France,Ecully,FR-V,FR
+France,Eguilles,FR-U,FR
+France,Elancourt,FR-J,FR
+France,Eloyes,FR-M,FR
+France,Emerainville,FR-J,FR
+France,Ensisheim,FR-A,FR
+France,Epernay,FR-G,FR
+France,Epinay sur Orge,FR-J,FR
+France,Epinay sur Seine,FR-J,FR
+France,Eragny,FR-J,FR
+France,Ermont,FR-J,FR
+France,Erstein,FR-A,FR
+France,Esvres,FR-F,FR
+France,Etampes,FR-J,FR
+France,Etival Clairefontaine,FR-M,FR
+France,Evreux,FR-Q,FR
+France,Evry,FR-J,FR
+France,Eybens,FR-V,FR
+France,Fecamp,FR-Q,FR
+France,Fenouillet-du-Razes,FR-K,FR
+France,Ferrette,FR-A,FR
+France,Feucherolles,FR-J,FR
+France,Florange,FR-M,FR
+France,Foix,FR-N,FR
+France,Fondettes,FR-F,FR
+France,Font-Romeu,FR-K,FR
+France,Fontainebleau,FR-J,FR
+France,Fontenay-aux-Roses,FR-J,FR
+France,Fontenay-le-Fleury,FR-J,FR
+France,Fontenay-sous-Bois,FR-J,FR
+France,Forbach,FR-M,FR
+France,Fos-sur-Mer,FR-U,FR
+France,Fougeres,FR-E,FR
+France,Fougerolles,FR-I,FR
+France,Francheville,FR-V,FR
+France,Franconville,FR-J,FR
+France,Franqueville,FR-Q,FR
+France,Freyming,FR-M,FR
+France,Gaillon,FR-J,FR
+France,Gap,FR-U,FR
+France,Garches,FR-J,FR
+France,Gardanne,FR-U,FR
+France,Geispolsheim,FR-A,FR
+France,Genlis,FR-D,FR
+France,Gennevilliers,FR-J,FR
+France,Gensac-la-Pallue,FR-T,FR
+France,Gentilly,FR-J,FR
+France,Gex,FR-V,FR
+France,Gien,FR-F,FR
+France,Gif-sur-Yvette,FR-J,FR
+France,Gimont,FR-N,FR
+France,Goussainville,FR-J,FR
+France,Gouvieux,FR-S,FR
+France,Gradignan,FR-B,FR
+France,Gramat,FR-N,FR
+France,Grandvilliers,FR-S,FR
+France,Granville,FR-P,FR
+France,Grasse,FR-U,FR
+France,Gregy-sur-Yerre,FR-J,FR
+France,Grenoble,FR-V,FR
+France,Grignon,FR-J,FR
+France,Guer,FR-E,FR
+France,Guerville,FR-J,FR
+France,Guyancourt,FR-J,FR
+France,Hadol,FR-M,FR
+France,Haguenau,FR-A,FR
+France,Hambach,FR-M,FR
+France,Heillecourt,FR-M,FR
+France,Hem,FR-O,FR
+France,Herimoncourt,FR-I,FR
+France,Herouville-St-Clair,FR-P,FR
+France,Horbourg,FR-A,FR
+France,Hossegor,FR-B,FR
+France,Hyeres,FR-U,FR
+France,Igny,FR-J,FR
+France,Illkirch,FR-A,FR
+France,Ingersheim,FR-A,FR
+France,Issoudun,FR-F,FR
+France,Issy-les-Moulineaux,FR-J,FR
+France,Istres,FR-U,FR
+France,Ivry-sur-Seine,FR-J,FR
+France,Joinville,FR-G,FR
+France,Joue-les-Tours,FR-F,FR
+France,Jouy,FR-F,FR
+France,Jouy-en-Josas,FR-J,FR
+France,l'Etang-la-Ville,FR-J,FR
+France,La Courneuve,FR-J,FR
+France,La Couronne,FR-U,FR
+France,La Couronne,FR-T,FR
+France,La Defense,FR-J,FR
+France,La Fleche,FR-R,FR
+France,La Gacilly,FR-E,FR
+France,La Garde,FR-U,FR
+France,La Gaude,FR-U,FR
+France,La Madeleine,FR-O,FR
+France,La Membrolle sur Choisille,FR-F,FR
+France,La Penne-sur-Huveaune,FR-U,FR
+France,La Reunion,FR-B,FR
+France,La Ricamarie,FR-V,FR
+France,La Roche sur Foron,FR-V,FR
+France,La Roche sur Yon,FR-R,FR
+France,La Rochelle,FR-T,FR
+France,La Seyne-sur-Mer,FR-U,FR
+France,La Teste-de-Buch,FR-B,FR
+France,La Tour,FR-U,FR
+France,La Tronche,FR-V,FR
+France,La Valette du Var,FR-U,FR
+France,La Wantzenau,FR-A,FR
+France,Labege,FR-N,FR
+France,Lagny,FR-J,FR
+France,Lannion,FR-E,FR
+France,Laon,FR-S,FR
+France,Latresne,FR-B,FR
+France,Laval,FR-R,FR
+France,Laxou,FR-M,FR
+France,Le Blanc-Mesnil,FR-J,FR
+France,Le Bourget-du-Lac,FR-V,FR
+France,Le Cannet,FR-U,FR
+France,Le Chesnay,FR-J,FR
+France,Le Creusot,FR-D,FR
+France,Le Haillan,FR-B,FR
+France,Le Havre,FR-Q,FR
+France,Le Kremlin-Bicetre,FR-J,FR
+France,Le Mans,FR-R,FR
+France,Le Mee sur Seine,FR-J,FR
+France,Le Montat,FR-N,FR
+France,Le Pecq,FR-J,FR
+France,Le Petit-Quevilly,FR-Q,FR
+France,Le Plessis Robinson,FR-J,FR
+France,Le Plessis-Bouchard,FR-J,FR
+France,Le Plessis-Pate,FR-J,FR
+France,Le Plessis-Trevise,FR-J,FR
+France,Le Port,FR-N,FR
+France,Le Puy,FR-C,FR
+France,Le Raincy,FR-J,FR
+France,Le Rheu,FR-E,FR
+France,Le Thoronet,FR-U,FR
+France,Le Vaudreuil,FR-Q,FR
+France,Le Versoud,FR-V,FR
+France,Le Vesinet,FR-J,FR
+France,Lens,FR-O,FR
+France,Les Abrets,FR-V,FR
+France,Les Clayes-sous-Bois,FR-J,FR
+France,Les Ulis,FR-J,FR
+France,Les-Loges-en-Josas,FR-J,FR
+France,Levallois-Perret,FR-J,FR
+France,Lezigne,FR-R,FR
+France,Libourne,FR-B,FR
+France,Lille,FR-O,FR
+France,Limoges,FR-L,FR
+France,Limonest,FR-V,FR
+France,Lingolsheim,FR-A,FR
+France,Lisses,FR-J,FR
+France,Livron-sur-Drome,FR-V,FR
+France,Lognes,FR-J,FR
+France,Longvic,FR-D,FR
+France,Lons,FR-B,FR
+France,Lorgues,FR-U,FR
+France,Lorient,FR-E,FR
+France,Loriol sur Drome,FR-V,FR
+France,Lormont,FR-B,FR
+France,Louveciennes,FR-J,FR
+France,Louverne,FR-R,FR
+France,Ludres,FR-M,FR
+France,Lunel,FR-K,FR
+France,Lusignan,FR-T,FR
+France,Lyon,FR-V,FR
+France,Magny-les-Hameaux,FR-J,FR
+France,Maisons-Alfort,FR-J,FR
+France,Maisons-Laffitte,FR-J,FR
+France,Malakoff,FR-J,FR
+France,Malzeville,FR-M,FR
+France,Mandeure,FR-I,FR
+France,Mantes la Jolie,FR-J,FR
+France,Marcoussis,FR-J,FR
+France,Marcq en Baroeul,FR-O,FR
+France,Marly-le-Roi,FR-J,FR
+France,Marne-la-Vallee,FR-J,FR
+France,Marseille,FR-U,FR
+France,Massy,FR-J,FR
+France,Maubeuge,FR-O,FR
+France,Maurepas,FR-J,FR
+France,Maxeville,FR-M,FR
+France,Mazeuil,FR-R,FR
+France,Meaux,FR-J,FR
+France,Medan,FR-J,FR
+France,Melun,FR-J,FR
+France,Mende,FR-K,FR
+France,Mennecy,FR-J,FR
+France,Merignac,FR-B,FR
+France,Metz,FR-M,FR
+France,Meudon,FR-J,FR
+France,Meudon-la-Foret,FR-J,FR
+France,Meylan,FR-V,FR
+France,Mirecourt,FR-M,FR
+France,Mondeville,FR-P,FR
+France,Mont-Saint-Aignan,FR-Q,FR
+France,Montataire,FR-S,FR
+France,Montauban,FR-N,FR
+France,Montbeliard,FR-I,FR
+France,Montbrison,FR-V,FR
+France,Montchanin,FR-D,FR
+France,Montelimar,FR-V,FR
+France,Montereau,FR-F,FR
+France,Montesson,FR-J,FR
+France,Montfavet,FR-U,FR
+France,Montferrier-sur-Lez,FR-K,FR
+France,Montgeron,FR-J,FR
+France,Montigny-le-Bretonneux,FR-J,FR
+France,Montlhery,FR-J,FR
+France,Montpellier,FR-K,FR
+France,Montreuil,FR-J,FR
+France,Montrouge,FR-J,FR
+France,Montsurs,FR-R,FR
+France,Morigny Champigny,FR-J,FR
+France,Morlaix,FR-E,FR
+France,Mougins,FR-U,FR
+France,Moulins,FR-C,FR
+France,Mulhouse,FR-A,FR
+France,Nancy,FR-M,FR
+France,Nanterre,FR-J,FR
+France,Nantes,FR-R,FR
+France,Narbonne,FR-K,FR
+France,Nebias,FR-K,FR
+France,Nemours,FR-J,FR
+France,Neris-les-Bains,FR-C,FR
+France,Neuilly-sur-Marne,FR-J,FR
+France,Neuilly-sur-Seine,FR-J,FR
+France,Nice,FR-U,FR
+France,Nimes,FR-K,FR
+France,Niort,FR-T,FR
+France,Nogent le Rotrou,FR-F,FR
+France,Noisy-le-Grand,FR-J,FR
+France,Noisy-le-Sec,FR-J,FR
+France,Nozay,FR-J,FR
+France,Octeville sur Mer,FR-Q,FR
+France,Orleans,FR-F,FR
+France,Orly,FR-J,FR
+France,Orsay,FR-J,FR
+France,Orthez,FR-B,FR
+France,Orvault,FR-R,FR
+France,Oyonnax,FR-V,FR
+France,Palaiseau,FR-J,FR
+France,Pantin,FR-J,FR
+France,Paray-Vieille-Poste,FR-J,FR
+France,Paris,FR-J,FR
+France,Parthenay,FR-T,FR
+France,Pau,FR-B,FR
+France,Pauillac,FR-B,FR
+France,Perigueux,FR-B,FR
+France,Peronne,FR-S,FR
+France,Perpignan,FR-K,FR
+France,Petit-Fort-Philippe,FR-O,FR
+France,Phalsbourg,FR-M,FR
+France,Pierrefitte-sur-Seine,FR-J,FR
+France,Plaisir,FR-J,FR
+France,Ploemel,FR-E,FR
+France,Ploemeur,FR-E,FR
+France,Poissy,FR-J,FR
+France,Poitiers,FR-T,FR
+France,Poligny,FR-I,FR
+France,Pont-Audemer,FR-Q,FR
+France,Pont-de-Beauvoisin,FR-V,FR
+France,Pont-l'Eveque,FR-P,FR
+France,Pontivy,FR-E,FR
+France,Port-de-Bouc,FR-U,FR
+France,Portet-sur-Garonne,FR-N,FR
+France,Prades,FR-K,FR
+France,Premery,FR-D,FR
+France,Provins,FR-J,FR
+France,Puget-sur Argens,FR-U,FR
+France,Puteaux,FR-J,FR
+France,Puyricard,FR-U,FR
+France,Quimper,FR-E,FR
+France,Rambouillet,FR-J,FR
+France,Ramonville-Saint-Agne,FR-N,FR
+France,Ranes,FR-P,FR
+France,Reaumont,FR-V,FR
+France,Reaumur,FR-R,FR
+France,Reims,FR-G,FR
+France,Rennes,FR-E,FR
+France,Reze,FR-R,FR
+France,Rillieux-la-Pape,FR-V,FR
+France,Riom,FR-C,FR
+France,Ris-Orangis,FR-J,FR
+France,Roanne,FR-V,FR
+France,Rochecorbon,FR-F,FR
+France,Rochefort,FR-T,FR
+France,Rocquencourt,FR-J,FR
+France,Rodez,FR-N,FR
+France,Roissy-en-Brie,FR-J,FR
+France,Roissy-en-France,FR-J,FR
+France,Romainville,FR-J,FR
+France,Romans-sur-Isere,FR-V,FR
+France,Roquebrune-sur Argens,FR-U,FR
+France,Roscoff,FR-G,FR
+France,Rosny-sous-Bois,FR-J,FR
+France,Roubaix,FR-O,FR
+France,Rouen,FR-Q,FR
+France,Rouffach,FR-A,FR
+France,Rueil-Malmaison,FR-J,FR
+France,Rumilly,FR-V,FR
+France,Rungis,FR-J,FR
+France,Saclay,FR-J,FR
+France,Sailly-Flibeaucourt,FR-S,FR
+France,Saint-Amand-les-Eaux,FR-O,FR
+France,Saint-Aubin,FR-J,FR
+France,Saint-Barthelemy-d'Anjou,FR-R,FR
+France,Saint-Capraise-de-Lalinde,FR-B,FR
+France,Saint-Clement-de-Riviere,FR-K,FR
+France,Saint-Germain-en-Laye,FR-J,FR
+France,Saint-Mande,FR-J,FR
+France,Saint-Marcel-du-Perigord,FR-B,FR
+France,Saint-Ouen-l'Aumone,FR-J,FR
+France,Saint-Pierre-du-Mont,FR-B,FR
+France,Saint-Sernin-sur-Rance,FR-N,FR
+France,Saintes,FR-T,FR
+France,Sallanches,FR-V,FR
+France,Santeny,FR-J,FR
+France,Sarcelles,FR-J,FR
+France,Sarralbe,FR-M,FR
+France,Sars-et-Rosieres,FR-O,FR
+France,Saulny,FR-M,FR
+France,Saulx-les-Chartreux,FR-J,FR
+France,Sausheim,FR-A,FR
+France,Savennieres,FR-R,FR
+France,Saverne,FR-A,FR
+France,Savigny-sur-Orge,FR-J,FR
+France,Schiltigheim,FR-A,FR
+France,Schweighouse-sur-Moder,FR-A,FR
+France,Seclin,FR-O,FR
+France,Selestat,FR-A,FR
+France,Senlis,FR-S,FR
+France,Sens,FR-D,FR
+France,Serris,FR-J,FR
+France,Sevran,FR-J,FR
+France,Sevres,FR-J,FR
+France,Sevrier,FR-V,FR
+France,Sille-le-Guillame,FR-R,FR
+France,Soissons,FR-S,FR
+France,Sophia Antipolis,FR-U,FR
+France,Sotteville-sous-le-Val,FR-Q,FR
+France,St Agreve,FR-V,FR
+France,St Aignan,FR-F,FR
+France,St Avertin,FR-F,FR
+France,St Cloud,FR-J,FR
+France,St Cyr-l'Ecole,FR-J,FR
+France,St Genis-Pouilly,FR-V,FR
+France,St Laurent Blangy,FR-O,FR
+France,St Marcel,FR-D,FR
+France,St Peray,FR-V,FR
+France,St Quentin,FR-S,FR
+France,St Raphael,FR-U,FR
+France,St Romian de Colbosc,FR-Q,FR
+France,St Sauveur,FR-I,FR
+France,St Vallier,FR-D,FR
+France,St-Andre-les-Vergers,FR-G,FR
+France,St-Brieuc,FR-E,FR
+France,St-Chamond,FR-V,FR
+France,St-Christol-les-Ales,FR-K,FR
+France,St-Cyr-sur-Loire,FR-F,FR
+France,St-Die,FR-M,FR
+France,St-Etienne,FR-V,FR
+France,St-Flour,FR-C,FR
+France,St-Genis-Laval,FR-V,FR
+France,St-Herblain,FR-R,FR
+France,St-Jean-de-la-Ruelle,FR-F,FR
+France,St-Just-la-Pendue,FR-V,FR
+France,St-Lambert,FR-J,FR
+France,St-Laurent-du-Var,FR-U,FR
+France,St-Lo,FR-P,FR
+France,St-Malo,FR-E,FR
+France,St-Martin-d'Heres,FR-V,FR
+France,St-Maur-des-Fosses,FR-J,FR
+France,St-Nazaire,FR-R,FR
+France,St-Ouen,FR-J,FR
+France,St-Priest-en-Jarez,FR-V,FR
+France,St-Quentin-en-Yvelines,FR-J,FR
+France,Ste-Flaive-des-Loups,FR-R,FR
+France,Ste-Genevieve-des-Bois,FR-J,FR
+France,Strasbourg,FR-A,FR
+France,Surbourg,FR-A,FR
+France,Suresnes,FR-J,FR
+France,Surgeres,FR-T,FR
+France,Tain-l'Hermitage,FR-V,FR
+France,Taissy,FR-G,FR
+France,Talence,FR-B,FR
+France,Tarascon,FR-N,FR
+France,Tarbes,FR-N,FR
+France,Taverny,FR-J,FR
+France,Thiverval-Grignon,FR-J,FR
+France,Thones,FR-V,FR
+France,Thonon-les-Bains,FR-V,FR
+France,Thorigny sur Marne,FR-J,FR
+France,Toulon,FR-U,FR
+France,Toulouse,FR-N,FR
+France,Tourcoing,FR-O,FR
+France,Tours,FR-F,FR
+France,Trappes,FR-J,FR
+France,Trebeurden,FR-E,FR
+France,Trevoux,FR-V,FR
+France,Trizay,FR-T,FR
+France,Troyes,FR-G,FR
+France,Tulle,FR-L,FR
+France,Ussel,FR-L,FR
+France,Vaires-sur-Marne,FR-J,FR
+France,Valbonne,FR-U,FR
+France,Valence,FR-V,FR
+France,Valenciennes,FR-O,FR
+France,Valentigney,FR-I,FR
+France,Vallauris,FR-U,FR
+France,Vandoeuvre-les-Nancy,FR-M,FR
+France,Vannes,FR-E,FR
+France,Vanves,FR-J,FR
+France,Vasselay,FR-F,FR
+France,Vaugrigneuse,FR-J,FR
+France,Vedene,FR-U,FR
+France,Velizy-Villacoublay,FR-J,FR
+France,Vendome,FR-F,FR
+France,Venissieux,FR-V,FR
+France,Vernouillet,FR-J,FR
+France,Versailles,FR-J,FR
+France,Vert,FR-J,FR
+France,Vichy,FR-C,FR
+France,Vienne,FR-V,FR
+France,Vigny,FR-J,FR
+France,Villard-Bonnot,FR-V,FR
+France,Villard-de-Lans,FR-V,FR
+France,Ville-d'Avray,FR-J,FR
+France,Villefontaine,FR-V,FR
+France,Villefranche-sur-Mer,FR-U,FR
+France,Villefranche-sur-Saone,FR-V,FR
+France,Villejuif,FR-J,FR
+France,Villeneuve Dascq,FR-O,FR
+France,Villeneuve-les-Avignon,FR-K,FR
+France,Villeneuve-Loubet,FR-U,FR
+France,Villepinte,FR-J,FR
+France,Villeurbanne,FR-V,FR
+France,Villiers-Saint-Denis,FR-S,FR
+France,Villiers-Saint-Frederic,FR-J,FR
+France,Vineuil,FR-F,FR
+France,Viroflay,FR-J,FR
+France,Vitre,FR-E,FR
+France,Vitrolles,FR-U,FR
+France,Vitry sur Seine,FR-J,FR
+France,Voiron,FR-V,FR
+France,Voisins-le-Bretonneux,FR-J,FR
+France,Vouille,FR-T,FR
+France,Wissous,FR-J,FR
+Germany,Aachen,DE-NW,DE
+Germany,Aalen,DE-BW,DE
+Germany,Abensberg,DE-BY,DE
+Germany,Achern,DE-BW,DE
+Germany,Achim,DE-NI,DE
+Germany,Adlershof,DE-BE,DE
+Germany,Aerzen,DE-NI,DE
+Germany,Affing,DE-BY,DE
+Germany,Ahaus,DE-NW,DE
+Germany,Ahlen,DE-NW,DE
+Germany,Ahrensburg,DE-SH,DE
+Germany,Aichach,DE-BY,DE
+Germany,Aichtal,DE-BW,DE
+Germany,Aitrach,DE-BW,DE
+Germany,Albstadt,DE-BW,DE
+Germany,Alfeld,DE-NI,DE
+Germany,Alfter,DE-NW,DE
+Germany,Allendorf,DE-HE,DE
+Germany,Allershausen,DE-BY,DE
+Germany,Alsdorf,DE-NW,DE
+Germany,Altenberge,DE-NW,DE
+Germany,Altenburg,DE-TH,DE
+Germany,Altenkirchen,DE-RP,DE
+Germany,Altenmarkt,DE-BY,DE
+Germany,Altensteig,DE-BW,DE
+Germany,Altentreptow,DE-MV,DE
+Germany,Althegnenberg,DE-BY,DE
+Germany,Altleiningen,DE-RP,DE
+Germany,Altotting,DE-BY,DE
+Germany,Alzenau,DE-BY,DE
+Germany,Alzey,DE-RP,DE
+Germany,Amberg,DE-BY,DE
+Germany,Ampfing,DE-BY,DE
+Germany,Andernach,DE-RP,DE
+Germany,Andershof,DE-MV,DE
+Germany,Anklam,DE-MV,DE
+Germany,Annaberg-Buchholz,DE-SN,DE
+Germany,Annweiler,DE-RP,DE
+Germany,Ansbach,DE-BY,DE
+Germany,Apfelstadt,DE-TH,DE
+Germany,Apolda,DE-TH,DE
+Germany,Arnsberg,DE-NW,DE
+Germany,Arnstadt,DE-TH,DE
+Germany,Arnstorf,DE-BY,DE
+Germany,Arolsen,DE-HE,DE
+Germany,Aschaffenburg,DE-BY,DE
+Germany,Aschersleben,DE-ST,DE
+Germany,Asperg,DE-BW,DE
+Germany,Attendorn,DE-NW,DE
+Germany,Aue,DE-SN,DE
+Germany,Auerbach,DE-SN,DE
+Germany,Augsburg,DE-BY,DE
+Germany,Aurich,DE-NI,DE
+Germany,Babenhausen,DE-BY,DE
+Germany,Backnang,DE-BW,DE
+Germany,Bad Aibling,DE-BY,DE
+Germany,Bad Bentheim,DE-NI,DE
+Germany,Bad Berleburg,DE-NW,DE
+Germany,Bad Berneck,DE-BY,DE
+Germany,Bad Bramstedt,DE-SH,DE
+Germany,Bad Doberan,DE-MV,DE
+Germany,Bad Durkheim,DE-RP,DE
+Germany,Bad Feilnbach,DE-BY,DE
+Germany,Bad Gandersheim,DE-NI,DE
+Germany,Bad Hersfeld,DE-HE,DE
+Germany,Bad Homburg,DE-HE,DE
+Germany,Bad Kissingen,DE-BY,DE
+Germany,Bad Kreuznach,DE-RP,DE
+Germany,Bad Laer,DE-NI,DE
+Germany,Bad Liebenzell,DE-BW,DE
+Germany,Bad Mergentheim,DE-BW,DE
+Germany,Bad Neuenahr-Ahrweiler,DE-RP,DE
+Germany,Bad Neustadt an der Saale,DE-BY,DE
+Germany,Bad Oeynhausen,DE-NW,DE
+Germany,Bad Oldesloe,DE-SH,DE
+Germany,Bad Reichenhall,DE-BY,DE
+Germany,Bad Rothenfelde,DE-NI,DE
+Germany,Bad Sassendorf,DE-NW,DE
+Germany,Bad Schwalbach,DE-HE,DE
+Germany,Bad Schwartau,DE-SH,DE
+Germany,Bad Segeberg,DE-SH,DE
+Germany,Bad Soden,DE-HE,DE
+Germany,Bad Tolz,DE-BY,DE
+Germany,Bad Vilbel,DE-HE,DE
+Germany,Bad Waldsee,DE-BW,DE
+Germany,Bad Wildungen,DE-HE,DE
+Germany,Baden-Baden,DE-BW,DE
+Germany,Baesweiler,DE-NW,DE
+Germany,Baierbrunn,DE-BY,DE
+Germany,Balingen,DE-BW,DE
+Germany,Bamberg,DE-BY,DE
+Germany,Barleben,DE-SN,DE
+Germany,Barmstedt,DE-SH,DE
+Germany,Barnstorf,DE-NI,DE
+Germany,Barsinghausen,DE-NI,DE
+Germany,Baumholder,DE-RP,DE
+Germany,Baunatal,DE-HE,DE
+Germany,Bautzen,DE-SN,DE
+Germany,Bayreuth,DE-BY,DE
+Germany,Beckum,DE-NW,DE
+Germany,Bedburg,DE-NW,DE
+Germany,Beierfeld,DE-SN,DE
+Germany,Belzig,DE-BR,DE
+Germany,Bendorf,DE-RP,DE
+Germany,Bensheim,DE-HE,DE
+Germany,Berching,DE-BY,DE
+Germany,Berchtesgaden,DE-BY,DE
+Germany,Berg,DE-BY,DE
+Germany,Bergheim,DE-NW,DE
+Germany,Bergisch Gladbach,DE-NW,DE
+Germany,Bergkamen,DE-NW,DE
+Germany,Berka,DE-TH,DE
+Germany,Berlin,DE-BE,DE
+Germany,Bernburg,DE-ST,DE
+Germany,Bernstadt,DE-SN,DE
+Germany,Besigheim,DE-BW,DE
+Germany,Bessenbach,DE-BY,DE
+Germany,Betzdorf,DE-RP,DE
+Germany,Betzigau,DE-BY,DE
+Germany,Biberach,DE-BW,DE
+Germany,Biblis,DE-HE,DE
+Germany,Biedenkopf,DE-HE,DE
+Germany,Bielefeld,DE-NW,DE
+Germany,Bietigheim,DE-BW,DE
+Germany,Billerbeck,DE-NW,DE
+Germany,Bingen,DE-RP,DE
+Germany,Birkenau,DE-HE,DE
+Germany,Birkenfeld,DE-RP,DE
+Germany,Birkenwerder,DE-BR,DE
+Germany,Bischofswerda,DE-SN,DE
+Germany,Bissendorf,DE-NI,DE
+Germany,Bissingen,DE-BY,DE
+Germany,Bitburg,DE-RP,DE
+Germany,Bitterfeld,DE-ST,DE
+Germany,Blaubeuren,DE-BW,DE
+Germany,Blumberg,DE-BW,DE
+Germany,Boblingen,DE-BW,DE
+Germany,Bocholt,DE-NW,DE
+Germany,Bochum,DE-NW,DE
+Germany,Bodenheim,DE-RP,DE
+Germany,Bodenwohr,DE-BY,DE
+Germany,Boizenburg,DE-MV,DE
+Germany,Boll,DE-BW,DE
+Germany,Bollendorf,DE-RP,DE
+Germany,Bonn,DE-NW,DE
+Germany,Bonndorf,DE-BW,DE
+Germany,Boppard,DE-RP,DE
+Germany,Borchen,DE-NW,DE
+Germany,Borken,DE-NW,DE
+Germany,Borna,DE-SN,DE
+Germany,Bornheim,DE-NW,DE
+Germany,Bottendorf,DE-HE,DE
+Germany,Bottrop,DE-NW,DE
+Germany,Bovenden,DE-NI,DE
+Germany,Brake,DE-NI,DE
+Germany,Bramsche,DE-NI,DE
+Germany,Brandenburg,DE-BR,DE
+Germany,Braunlingen,DE-BW,DE
+Germany,Breisach am Rhein,DE-BW,DE
+Germany,Bremen,DE-HB,DE
+Germany,Bremerhaven,DE-BR,DE
+Germany,Bremervorde,DE-NI,DE
+Germany,Bretten,DE-BW,DE
+Germany,Bruchsal,DE-BW,DE
+Germany,Bruckmuhl,DE-BY,DE
+Germany,Brunswick,DE-NI,DE
+Germany,Buchen,DE-BW,DE
+Germany,Buchholz in der Nordheide,DE-NI,DE
+Germany,Buchloe,DE-BY,DE
+Germany,Buckeburg,DE-NI,DE
+Germany,Budelsdorf,DE-SH,DE
+Germany,Budingen,DE-HE,DE
+Germany,Buhl,DE-BW,DE
+Germany,Bunde,DE-NW,DE
+Germany,Burbach,DE-NW,DE
+Germany,Burg,DE-ST,DE
+Germany,Burgau,DE-BY,DE
+Germany,Burgdorf,DE-NI,DE
+Germany,Burgebrach,DE-BY,DE
+Germany,Burghaslach,DE-BY,DE
+Germany,Burghausen,DE-BY,DE
+Germany,Burgkunstadt,DE-BY,DE
+Germany,Burglengenfeld,DE-BY,DE
+Germany,Burgsalack,DE-BY,DE
+Germany,Burgstadt,DE-SN,DE
+Germany,Burladingen,DE-BW,DE
+Germany,Burscheid,DE-NW,DE
+Germany,Burstadt,DE-HE,DE
+Germany,Buseck,DE-HE,DE
+Germany,Butzbach,DE-HE,DE
+Germany,Buxtehude,DE-NI,DE
+Germany,Cadolzburg,DE-BY,DE
+Germany,Calw,DE-BW,DE
+Germany,Castrop-Rauxel,DE-NW,DE
+Germany,Celle,DE-NI,DE
+Germany,Cham,DE-BY,DE
+Germany,Chemnitz,DE-SN,DE
+Germany,Clausthal-Zellerfeld,DE-NI,DE
+Germany,Cloppenburg,DE-NI,DE
+Germany,Coburg,DE-BY,DE
+Germany,Cochem,DE-RP,DE
+Germany,Coesfeld,DE-NW,DE
+Germany,Cologne,DE-NW,DE
+Germany,Coswig,DE-SN,DE
+Germany,Cottbus,DE-BR,DE
+Germany,Crailsheim,DE-BW,DE
+Germany,Crimmitschau,DE-SN,DE
+Germany,Cuxhaven,DE-NI,DE
+Germany,Dachau,DE-BY,DE
+Germany,Dahlewitz,DE-BR,DE
+Germany,Damme,DE-NI,DE
+Germany,Darmstadt,DE-HE,DE
+Germany,Dassel,DE-NI,DE
+Germany,Daun,DE-RP,DE
+Germany,Deggendorf,DE-BY,DE
+Germany,Deidesheim,DE-RP,DE
+Germany,Delmenhorst,DE-NI,DE
+Germany,Denkendorf,DE-BY,DE
+Germany,Dessau,DE-ST,DE
+Germany,Detmold,DE-NW,DE
+Germany,Dettelbach,DE-BY,DE
+Germany,Dettingen,DE-BY,DE
+Germany,Dieburg,DE-HE,DE
+Germany,Diepholz,DE-NI,DE
+Germany,Diessen,DE-BW,DE
+Germany,Dietersdorf,DE-BY,DE
+Germany,Dietfurt,DE-BY,DE
+Germany,Dietzenbach,DE-HE,DE
+Germany,Diez,DE-RP,DE
+Germany,Dillingen,DE-SL,DE
+Germany,Dinklage,DE-NI,DE
+Germany,Ditzingen,DE-BW,DE
+Germany,Dobeln,DE-SN,DE
+Germany,Dohna,DE-SN,DE
+Germany,Dombuhl,DE-BY,DE
+Germany,Donauworth,DE-BY,DE
+Germany,Donzdorf,DE-BW,DE
+Germany,Dorfen,DE-BY,DE
+Germany,Dormagen,DE-NW,DE
+Germany,Dornach,DE-BY,DE
+Germany,Dornburg,DE-HE,DE
+Germany,Dorsten,DE-NW,DE
+Germany,Dortmund,DE-NW,DE
+Germany,Dransfeld,DE-NI,DE
+Germany,Dreieich,DE-HE,DE
+Germany,Dresden,DE-SN,DE
+Germany,Duisburg,DE-NW,DE
+Germany,Dulmen,DE-NW,DE
+Germany,Duren,DE-NW,DE
+Germany,Dusseldorf,DE-NW,DE
+Germany,Eberbach,DE-BW,DE
+Germany,Ebersberg,DE-BY,DE
+Germany,Ebersdorf,DE-TH,DE
+Germany,Eberswalde,DE-BR,DE
+Germany,Eching,DE-BY,DE
+Germany,Eckernforde,DE-SH,DE
+Germany,Edelsfeld,DE-BY,DE
+Germany,Ederheim,DE-BY,DE
+Germany,Edewecht,DE-NI,DE
+Germany,Ehingen,DE-BW,DE
+Germany,Ehningen,DE-BW,DE
+Germany,Eibelstadt,DE-BY,DE
+Germany,Eichstatt,DE-BY,DE
+Germany,Einbeck,DE-NI,DE
+Germany,Einsiedlerhof,DE-RP,DE
+Germany,Eisenach,DE-TH,DE
+Germany,Eisenberg,DE-RP,DE
+Germany,Eisenberg,DE-TH,DE
+Germany,Eisenhuttenstadt,DE-BR,DE
+Germany,Ellwangen,DE-BW,DE
+Germany,Elm,DE-NI,DE
+Germany,Elmshorn,DE-SH,DE
+Germany,Eltville,DE-HE,DE
+Germany,Elz,DE-HE,DE
+Germany,Emden,DE-NI,DE
+Germany,Emmerich,DE-NW,DE
+Germany,Emsdetten,DE-NW,DE
+Germany,Emsland,DE-NI,DE
+Germany,Eningen Unter Achalm,DE-BW,DE
+Germany,Ennepetal,DE-NW,DE
+Germany,Erbach,DE-HE,DE
+Germany,Erding,DE-BY,DE
+Germany,Erftstadt,DE-NW,DE
+Germany,Erfurt,DE-TH,DE
+Germany,Erkelenz,DE-NW,DE
+Germany,Erkrath,DE-NW,DE
+Germany,Erlangen,DE-BY,DE
+Germany,Erwitte,DE-NW,DE
+Germany,Eschborn,DE-HE,DE
+Germany,Eschenau,DE-BY,DE
+Germany,Eschenbach,DE-BY,DE
+Germany,Eschenburg,DE-HE,DE
+Germany,Eschwege,DE-HE,DE
+Germany,Eschweiler,DE-NW,DE
+Germany,Espelkamp,DE-NW,DE
+Germany,Espenhain,DE-SN,DE
+Germany,Essen,DE-NW,DE
+Germany,Esslingen,DE-BW,DE
+Germany,Ettlingen,DE-BW,DE
+Germany,Euskirchen,DE-NW,DE
+Germany,Eutin,DE-SH,DE
+Germany,Everswinkel,DE-NW,DE
+Germany,Fahrdorf,DE-MV,DE
+Germany,Fahrhof,DE-MV,DE
+Germany,Falkenhagen,DE-BR,DE
+Germany,Farchant,DE-BY,DE
+Germany,Fassberg,DE-NI,DE
+Germany,Fellbach,DE-BW,DE
+Germany,Feuchtwangen,DE-BY,DE
+Germany,Filderstadt,DE-BW,DE
+Germany,Finowfurt,DE-BR,DE
+Germany,Finsterwalde,DE-BR,DE
+Germany,Fintel,DE-NI,DE
+Germany,Flensburg,DE-SH,DE
+Germany,Floss,DE-BY,DE
+Germany,Forchheim,DE-BY,DE
+Germany,Franken,DE-BY,DE
+Germany,Frankenberg,DE-HE,DE
+Germany,Frankenthal,DE-RP,DE
+Germany,Frankfurt am Main,DE-HE,DE
+Germany,Frankfurt an der Oder,DE-BR,DE
+Germany,Franzburg,DE-MV,DE
+Germany,Frechen,DE-NW,DE
+Germany,Freiberg,DE-SN,DE
+Germany,Freiburg,DE-BW,DE
+Germany,Freiburg Im Breisgau,DE-BW,DE
+Germany,Freilassing,DE-BY,DE
+Germany,Freising,DE-BY,DE
+Germany,Freudenberg,DE-NW,DE
+Germany,Freudenstadt,DE-BW,DE
+Germany,Freyung,DE-BY,DE
+Germany,Frickenhausen,DE-BY,DE
+Germany,Friedberg,DE-HE,DE
+Germany,Friedberg,DE-BY,DE
+Germany,Friedrichsdorf,DE-HE,DE
+Germany,Friedrichshafen,DE-BW,DE
+Germany,Frielendorf,DE-HE,DE
+Germany,Frondenburg,DE-NW,DE
+Germany,Fulda,DE-HE,DE
+Germany,Furstenau,DE-NI,DE
+Germany,Furstenfeldbruck,DE-BY,DE
+Germany,Furstenwalde,DE-BR,DE
+Germany,Furth,DE-BY,DE
+Germany,Furtwangen,DE-BW,DE
+Germany,Garbsen,DE-NI,DE
+Germany,Garching,DE-BY,DE
+Germany,Garmisch-Partenkirchen,DE-BY,DE
+Germany,Gauting,DE-BY,DE
+Germany,Geesthacht,DE-SH,DE
+Germany,Gefrees,DE-BY,DE
+Germany,Geislingen,DE-BW,DE
+Germany,Gelnhausen,DE-HE,DE
+Germany,Gelsenkirchen,DE-NW,DE
+Germany,Gengenbach,DE-BW,DE
+Germany,Genthin,DE-ST,DE
+Germany,Gera,DE-TH,DE
+Germany,Geretsried,DE-BY,DE
+Germany,Gerlingen,DE-BW,DE
+Germany,Germering,DE-BY,DE
+Germany,Germersheim,DE-RP,DE
+Germany,Gerolstein,DE-RP,DE
+Germany,Gersthofen,DE-BY,DE
+Germany,Gevelsberg,DE-NW,DE
+Germany,Giessen,DE-HE,DE
+Germany,Gifhorn,DE-NI,DE
+Germany,Gilching,DE-BY,DE
+Germany,Glinde,DE-SH,DE
+Germany,Gluckstadt,DE-SH,DE
+Germany,Goch,DE-NW,DE
+Germany,Golssen,DE-BR,DE
+Germany,Goppingen,DE-BW,DE
+Germany,Gorlitz,DE-SN,DE
+Germany,Goslar,DE-NI,DE
+Germany,Gotha,DE-TH,DE
+Germany,Gottenheim,DE-BW,DE
+Germany,Gottingen,DE-HE,DE
+Germany,Gottingen,DE-NI,DE
+Germany,Gottmadingen,DE-BW,DE
+Germany,Grafelfing,DE-BY,DE
+Germany,Grafenau,DE-BY,DE
+Germany,Grafenwohr,DE-BY,DE
+Germany,Grasbrunn,DE-BY,DE
+Germany,Grassau,DE-BY,DE
+Germany,Grefrath,DE-NW,DE
+Germany,Greifswald,DE-MV,DE
+Germany,Greiz,DE-TH,DE
+Germany,Grenzach-Wyhlen,DE-BW,DE
+Germany,Greven,DE-NW,DE
+Germany,Grevenbroich,DE-NW,DE
+Germany,Griesheim,DE-HE,DE
+Germany,Grobenzell,DE-BY,DE
+Germany,Gronau,DE-NW,DE
+Germany,Gross Ebersdorf,DE-TH,DE
+Germany,Gross Gerau,DE-HE,DE
+Germany,Gross Glienicke,DE-BR,DE
+Germany,Gross Hansdorf,DE-SH,DE
+Germany,Gross Kienitz,DE-BR,DE
+Germany,Gross-Umstadt,DE-HE,DE
+Germany,Gross-Zimmern,DE-HE,DE
+Germany,Grossbeeren,DE-BR,DE
+Germany,Grossenhain,DE-SN,DE
+Germany,Grossostheim,DE-BY,DE
+Germany,Grunberg,DE-HE,DE
+Germany,Grunstadt,DE-RP,DE
+Germany,Grunwald,DE-BY,DE
+Germany,Gudensberg,DE-HE,DE
+Germany,Gummersbach,DE-NW,DE
+Germany,Gunzburg,DE-BY,DE
+Germany,Gunzenhausen,DE-BY,DE
+Germany,Gustrow,DE-MV,DE
+Germany,Gutersloh,DE-NW,DE
+Germany,Haan,DE-NW,DE
+Germany,Haar,DE-BY,DE
+Germany,Hachenburg,DE-RP,DE
+Germany,Hagen,DE-NI,DE
+Germany,Hagen,DE-NW,DE
+Germany,Hahn am See,DE-RP,DE
+Germany,Haiger,DE-HE,DE
+Germany,Hainichen,DE-SN,DE
+Germany,Halberstadt,DE-ST,DE
+Germany,Halblech,DE-BY,DE
+Germany,Hallbergmoos,DE-BY,DE
+Germany,Halle,DE-ST,DE
+Germany,Hallerndorf,DE-BY,DE
+Germany,Hallstadt,DE-BY,DE
+Germany,Haltern,DE-NW,DE
+Germany,Hamburg,DE-HH,DE
+Germany,Hameln,DE-NI,DE
+Germany,Hamm,DE-NW,DE
+Germany,Hammersbach,DE-HE,DE
+Germany,Hanau am Main,DE-HE,DE
+Germany,Hannover,DE-NI,DE
+Germany,Hardegsen,DE-NI,DE
+Germany,Hardheim,DE-BW,DE
+Germany,Haren,DE-NI,DE
+Germany,Harrislee,DE-SH,DE
+Germany,Hasbergen,DE-NI,DE
+Germany,Hassloch,DE-RP,DE
+Germany,Hattingen,DE-NW,DE
+Germany,Hatzfeld,DE-NW,DE
+Germany,Heddesheim,DE-BW,DE
+Germany,Heeslingen,DE-NI,DE
+Germany,Heide,DE-SH,DE
+Germany,Heidelberg,DE-BW,DE
+Germany,Heidenheim,DE-BW,DE
+Germany,Heilbronn,DE-BW,DE
+Germany,Heilgenstadt,DE-BY,DE
+Germany,Heiligenhaus,DE-NW,DE
+Germany,Heinersreuth,DE-BY,DE
+Germany,Heinsberg,DE-NW,DE
+Germany,Helmstedt,DE-NI,DE
+Germany,Hemer,DE-NW,DE
+Germany,Hemmingen,DE-NI,DE
+Germany,Hennef,DE-NW,DE
+Germany,Heppenheim an der Bergstrasse,DE-HE,DE
+Germany,Herborn,DE-HE,DE
+Germany,Herdecke,DE-NW,DE
+Germany,Herford,DE-NW,DE
+Germany,Hergatz,DE-BY,DE
+Germany,Hermsdorf,DE-TH,DE
+Germany,Herne,DE-NW,DE
+Germany,Herrenberg,DE-BW,DE
+Germany,Hersbruck,DE-BY,DE
+Germany,Herten,DE-NW,DE
+Germany,Herzberg,DE-BR,DE
+Germany,Herzogenaurach,DE-BY,DE
+Germany,Herzogenrath,DE-NW,DE
+Germany,Hettstedt,DE-ST,DE
+Germany,Heustreu,DE-BY,DE
+Germany,Hiddenhausen,DE-NW,DE
+Germany,Hilden,DE-NW,DE
+Germany,Hildesheim,DE-NI,DE
+Germany,Hirschberg,DE-TH,DE
+Germany,Hochberg,DE-BY,DE
+Germany,Hochheim,DE-HE,DE
+Germany,Hockenheim,DE-BW,DE
+Germany,Hof,DE-BY,DE
+Germany,Hofheim am Taunus,DE-HE,DE
+Germany,Hohenstein-Ernstthal,DE-SN,DE
+Germany,Hohr-Grenzhausen,DE-RP,DE
+Germany,Hoisdorf,DE-SH,DE
+Germany,Holzkirchen,DE-BY,DE
+Germany,Holzminden,DE-NI,DE
+Germany,Holzwickede,DE-NW,DE
+Germany,Homburg,DE-SL,DE
+Germany,Horb am Neckar,DE-BW,DE
+Germany,Hornberg,DE-BW,DE
+Germany,Horstel,DE-NW,DE
+Germany,Horstmar,DE-NW,DE
+Germany,Hoxter,DE-NW,DE
+Germany,Hoyerswerda,DE-SN,DE
+Germany,Huckelhoven-Ratheim,DE-NW,DE
+Germany,Huckeswagen,DE-NW,DE
+Germany,Hude,DE-NI,DE
+Germany,Hungen,DE-HE,DE
+Germany,Hurth,DE-NW,DE
+Germany,Husum,DE-SH,DE
+Germany,Ibbenburen,DE-NW,DE
+Germany,Idar-Oberstein,DE-RP,DE
+Germany,Idstein,DE-HE,DE
+Germany,Illertissen,DE-BY,DE
+Germany,Ilmenau,DE-TH,DE
+Germany,Ilshofen,DE-BW,DE
+Germany,Immelborn,DE-TH,DE
+Germany,Immenstadt,DE-BY,DE
+Germany,Ingelheim,DE-RP,DE
+Germany,Ingolstadt,DE-BY,DE
+Germany,Iserlohn,DE-NW,DE
+Germany,Isernhagen,DE-NI,DE
+Germany,Ismaning,DE-BY,DE
+Germany,Isny Im Allgau,DE-BW,DE
+Germany,Ispringen,DE-BW,DE
+Germany,Itzehoe,DE-SH,DE
+Germany,Jena,DE-TH,DE
+Germany,Jettingen,DE-BY,DE
+Germany,Jork,DE-NI,DE
+Germany,Julich,DE-NW,DE
+Germany,Kaarst,DE-NW,DE
+Germany,Kahl am Main,DE-BY,DE
+Germany,Kaiserslautern,DE-RP,DE
+Germany,Kall,DE-NW,DE
+Germany,Kaltenkirchen,DE-SH,DE
+Germany,Kamenz,DE-SN,DE
+Germany,Karben,DE-HE,DE
+Germany,Karlsbad,DE-BW,DE
+Germany,Karlsfeld,DE-BY,DE
+Germany,Karlsruhe,DE-BW,DE
+Germany,Karlstadt,DE-BY,DE
+Germany,Karwe,DE-BR,DE
+Germany,Kassel,DE-HE,DE
+Germany,Kaufbeuren,DE-BY,DE
+Germany,Kehl,DE-BW,DE
+Germany,Kelsterbach,DE-HE,DE
+Germany,Kempen,DE-NW,DE
+Germany,Kempten,DE-BY,DE
+Germany,Kenzingen,DE-BW,DE
+Germany,Kerpen,DE-NW,DE
+Germany,Kesselsdorf,DE-SN,DE
+Germany,Kevelaer,DE-NW,DE
+Germany,Kiel,DE-SH,DE
+Germany,Kierspe,DE-NW,DE
+Germany,Kirchheim Unter Teck,DE-BW,DE
+Germany,Kirchlengern,DE-NW,DE
+Germany,Kirchzarten,DE-BW,DE
+Germany,Kirkel,DE-SL,DE
+Germany,Kissing,DE-BY,DE
+Germany,Klein-Machnow,DE-BR,DE
+Germany,Kleve,DE-NW,DE
+Germany,Koblenz,DE-RP,DE
+Germany,Kolleda,DE-TH,DE
+Germany,Konigsbach,DE-BW,DE
+Germany,Konigsberg,DE-BY,DE
+Germany,Konigsbruck,DE-SN,DE
+Germany,Konstanz,DE-BW,DE
+Germany,Kordel,DE-RP,DE
+Germany,Kornwestheim,DE-BW,DE
+Germany,Korschenbroich,DE-NW,DE
+Germany,Kothen,DE-ST,DE
+Germany,Krefeld,DE-NW,DE
+Germany,Kremmen,DE-BR,DE
+Germany,Kriftel,DE-HE,DE
+Germany,Krolpa,DE-TH,DE
+Germany,Kronach,DE-BY,DE
+Germany,Kronberg,DE-HE,DE
+Germany,Kronshagen,DE-SH,DE
+Germany,Kropp,DE-SH,DE
+Germany,Krumbach,DE-BY,DE
+Germany,Kuhlungsborn,DE-MV,DE
+Germany,Kulmbach,DE-BY,DE
+Germany,Kummersbruck,DE-BY,DE
+Germany,Kunzelsau,DE-BW,DE
+Germany,Kurten,DE-NW,DE
+Germany,Laatzen,DE-NI,DE
+Germany,Lachendorf,DE-NI,DE
+Germany,Ladenburg,DE-BW,DE
+Germany,Lage,DE-NW,DE
+Germany,Lahr,DE-BW,DE
+Germany,Lam,DE-BY,DE
+Germany,Lampertheim,DE-HE,DE
+Germany,Landau,DE-BY,DE
+Germany,Landau in der Pfalz,DE-RP,DE
+Germany,Landsberg,DE-ST,DE
+Germany,Landsberg am Lech,DE-BY,DE
+Germany,Landshut,DE-BY,DE
+Germany,Landstuhl,DE-RP,DE
+Germany,Langen,DE-HE,DE
+Germany,Langenau,DE-BW,DE
+Germany,Langenfeld,DE-NW,DE
+Germany,Langewiesen,DE-TH,DE
+Germany,Langgons,DE-HE,DE
+Germany,Laubach,DE-HE,DE
+Germany,Lauchhammer,DE-BR,DE
+Germany,Lauchheim,DE-BW,DE
+Germany,Lauenburg an der Elbe,DE-SH,DE
+Germany,Lauf,DE-BY,DE
+Germany,Lauffen am Neckar,DE-BW,DE
+Germany,Laupheim,DE-BW,DE
+Germany,Lausitz,DE-BR,DE
+Germany,Lauterbach,DE-HE,DE
+Germany,Lebach,DE-SL,DE
+Germany,Leer,DE-NI,DE
+Germany,Leeste,DE-NI,DE
+Germany,Lehrte,DE-NI,DE
+Germany,Leimen,DE-BW,DE
+Germany,Leinburg,DE-BY,DE
+Germany,Leinfelden-Echterdingen,DE-BW,DE
+Germany,Leipzig,DE-SN,DE
+Germany,Lemgo,DE-NW,DE
+Germany,Lengerich,DE-NW,DE
+Germany,Lenggries,DE-BY,DE
+Germany,Lensahn,DE-SH,DE
+Germany,Leonberg,DE-BW,DE
+Germany,Leopoldshohe,DE-NW,DE
+Germany,Leverkusen,DE-NW,DE
+Germany,Lichtenau,DE-BW,DE
+Germany,Lichtenfels,DE-HE,DE
+Germany,Lichtenfels,DE-BY,DE
+Germany,Lilienthal,DE-NI,DE
+Germany,Limburg,DE-HE,DE
+Germany,Lindau,DE-BY,DE
+Germany,Lindenberg,DE-BR,DE
+Germany,Lingen,DE-NI,DE
+Germany,Linnich,DE-NW,DE
+Germany,Lippoldsberg,DE-HE,DE
+Germany,Lippstadt,DE-NW,DE
+Germany,Lohfelden,DE-HE,DE
+Germany,Lohmar,DE-NW,DE
+Germany,Lohne,DE-NW,DE
+Germany,Lommatzsch,DE-SN,DE
+Germany,Lorch,DE-BW,DE
+Germany,Lorrach,DE-BW,DE
+Germany,Lubbecke,DE-NW,DE
+Germany,Lubeck,DE-SH,DE
+Germany,Luckenwalde,DE-BR,DE
+Germany,Ludenscheid,DE-NW,DE
+Germany,Ludinghausen,DE-NW,DE
+Germany,Ludwigsburg,DE-BW,DE
+Germany,Ludwigshafen,DE-RP,DE
+Germany,Ludwigshafen am Bodensee,DE-BW,DE
+Germany,Luneburg,DE-NI,DE
+Germany,Lunen,DE-NW,DE
+Germany,Lutzerath,DE-RP,DE
+Germany,Magdeburg,DE-ST,DE
+Germany,Mainburg,DE-BY,DE
+Germany,Maintal,DE-HE,DE
+Germany,Mainz,DE-RP,DE
+Germany,Malsch,DE-BW,DE
+Germany,Mammendorf,DE-BY,DE
+Germany,Manheim,DE-NW,DE
+Germany,Mannheim,DE-BW,DE
+Germany,Marbach am Neckar,DE-BW,DE
+Germany,Marburg,DE-HE,DE
+Germany,Markdorf,DE-BW,DE
+Germany,Marktheidenfeld,DE-BY,DE
+Germany,Marl,DE-NW,DE
+Germany,Maroldsweisach,DE-BY,DE
+Germany,Marsberg,DE-NW,DE
+Germany,Martinsried,DE-BY,DE
+Germany,Marwitz,DE-BR,DE
+Germany,Mayen,DE-RP,DE
+Germany,Mechernich,DE-NW,DE
+Germany,Meckenbeuren,DE-BW,DE
+Germany,Meckenheim,DE-NW,DE
+Germany,Meerbusch,DE-NW,DE
+Germany,Meinerzhagen,DE-NW,DE
+Germany,Meisenheim,DE-RP,DE
+Germany,Meissen,DE-SN,DE
+Germany,Melsungen,DE-HE,DE
+Germany,Memmingen,DE-BY,DE
+Germany,Menden,DE-NW,DE
+Germany,Meppen,DE-NI,DE
+Germany,Merseburg,DE-ST,DE
+Germany,Mertingen,DE-BY,DE
+Germany,Merzig,DE-SL,DE
+Germany,Meschede,DE-NW,DE
+Germany,Messkirch,DE-BW,DE
+Germany,Mettmann,DE-NW,DE
+Germany,Metzingen,DE-BW,DE
+Germany,Michelstadt,DE-HE,DE
+Germany,Miesbach,DE-BY,DE
+Germany,Minden,DE-NW,DE
+Germany,Mittenwald,DE-BY,DE
+Germany,Mittweida,DE-SN,DE
+Germany,Moers,DE-NW,DE
+Germany,Molbergen,DE-NI,DE
+Germany,Monchengladbach,DE-NW,DE
+Germany,Monheim,DE-NW,DE
+Germany,Monsheim,DE-RP,DE
+Germany,Montabaur,DE-RP,DE
+Germany,Moosburg,DE-BY,DE
+Germany,Morbach,DE-RP,DE
+Germany,Morfelden,DE-HE,DE
+Germany,Morsbach,DE-NW,DE
+Germany,Mosbach,DE-BW,DE
+Germany,Mucke,DE-HE,DE
+Germany,Muhlacker,DE-BW,DE
+Germany,Muhldorf am Inn,DE-BY,DE
+Germany,Muhlenbeck,DE-BR,DE
+Germany,Muhlhausen,DE-TH,DE
+Germany,Mulheim,DE-RP,DE
+Germany,Mulheim an der Ruhr,DE-NW,DE
+Germany,Mullheim,DE-BW,DE
+Germany,Munden,DE-NI,DE
+Germany,Munich,DE-BY,DE
+Germany,Munschwitz,DE-TH,DE
+Germany,Munster,DE-NW,DE
+Germany,Murnau,DE-BY,DE
+Germany,Mutterstadt,DE-RP,DE
+Germany,Nabburg,DE-BY,DE
+Germany,Nagold,DE-BW,DE
+Germany,Naila,DE-BY,DE
+Germany,Naumberg,DE-SN,DE
+Germany,Naumburg,DE-HE,DE
+Germany,Neckarsulm,DE-BW,DE
+Germany,Neckartailfingen,DE-BW,DE
+Germany,Neckartenzlingen,DE-BW,DE
+Germany,Neidenbach,DE-RP,DE
+Germany,Nersingen,DE-BY,DE
+Germany,Neu Fahrland,DE-BR,DE
+Germany,Neu-Anspach,DE-HE,DE
+Germany,Neu-Isenburg,DE-HE,DE
+Germany,Neu-Ulm,DE-BY,DE
+Germany,Neu-Wulmstorf,DE-NI,DE
+Germany,Neubrandenburg,DE-MV,DE
+Germany,Neuburg,DE-BY,DE
+Germany,Neuenhagen,DE-BR,DE
+Germany,Neuenhaus,DE-NI,DE
+Germany,Neufahrn bei Freising,DE-BY,DE
+Germany,Neumarkt in der Oberpfalz,DE-BY,DE
+Germany,Neumunster,DE-SH,DE
+Germany,Neunburg Vorm Wald,DE-BY,DE
+Germany,Neunkirchen,DE-SL,DE
+Germany,Neuruppin,DE-BR,DE
+Germany,Neuss,DE-NW,DE
+Germany,Neustadt,DE-TH,DE
+Germany,Neustadt an der Weinstrasse,DE-RP,DE
+Germany,Neustrelitz,DE-MV,DE
+Germany,Neuwied,DE-RP,DE
+Germany,Niebull,DE-SH,DE
+Germany,Nieder-Olm,DE-RP,DE
+Germany,Niederkassel,DE-NW,DE
+Germany,Niedernberg,DE-BY,DE
+Germany,Niedernhausen,DE-HE,DE
+Germany,Niederviehbach,DE-BY,DE
+Germany,Nienburg,DE-NI,DE
+Germany,Nordenham,DE-NI,DE
+Germany,Norderstedt,DE-SH,DE
+Germany,Nordhausen,DE-TH,DE
+Germany,Northeim,DE-NI,DE
+Germany,Nortrup,DE-NI,DE
+Germany,Nuremberg,DE-BY,DE
+Germany,Nurtingen,DE-BW,DE
+Germany,Oberammergau,DE-BY,DE
+Germany,Oberessendorf,DE-BW,DE
+Germany,Oberhaching,DE-BY,DE
+Germany,Oberhausen,DE-NW,DE
+Germany,Oberkirch,DE-BW,DE
+Germany,Oberkochen,DE-BW,DE
+Germany,Oberndorf,DE-BW,DE
+Germany,Oberrot,DE-BW,DE
+Germany,Oberstdorf,DE-BY,DE
+Germany,Obertshausen,DE-HE,DE
+Germany,Oberursel,DE-HE,DE
+Germany,Odelzhausen,DE-BY,DE
+Germany,Oelde,DE-NW,DE
+Germany,Offenbach am Main,DE-HE,DE
+Germany,Offenburg,DE-BW,DE
+Germany,Ohringen,DE-BW,DE
+Germany,Olbernhau,DE-SN,DE
+Germany,Olching,DE-BY,DE
+Germany,Oldenburg,DE-NI,DE
+Germany,Olfen,DE-NW,DE
+Germany,Olpe,DE-NW,DE
+Germany,Oppenweiler,DE-BW,DE
+Germany,Oranienburg,DE-BR,DE
+Germany,Ortenberg,DE-HE,DE
+Germany,Oschatz,DE-SN,DE
+Germany,Osnabruck,DE-NI,DE
+Germany,Osterode am Harz,DE-NI,DE
+Germany,Ostfildern,DE-BW,DE
+Germany,Ottendorf-Okrilla,DE-SN,DE
+Germany,Ottersberg,DE-NI,DE
+Germany,Ottobeuren,DE-BY,DE
+Germany,Ottobrunn,DE-BY,DE
+Germany,Ottweiler,DE-SL,DE
+Germany,Overath,DE-NW,DE
+Germany,Owen,DE-BW,DE
+Germany,Oyten,DE-NI,DE
+Germany,Paderborn,DE-NW,DE
+Germany,Papenburg,DE-NI,DE
+Germany,Parchim,DE-MV,DE
+Germany,Parkstein,DE-BY,DE
+Germany,Pasewalk,DE-MV,DE
+Germany,Passau,DE-BY,DE
+Germany,Peine,DE-NI,DE
+Germany,Perl,DE-SL,DE
+Germany,Pfaffenhofen an der Ilm,DE-BY,DE
+Germany,Pforzheim,DE-BW,DE
+Germany,Pfronten,DE-BY,DE
+Germany,Pfullendorf,DE-BW,DE
+Germany,Pfullingen,DE-BW,DE
+Germany,Pfungstadt,DE-HE,DE
+Germany,Pinneberg,DE-SH,DE
+Germany,Pirmasens,DE-RP,DE
+Germany,Planegg,DE-BY,DE
+Germany,Plattling,DE-NI,DE
+Germany,Plauen,DE-SN,DE
+Germany,Plettenberg,DE-NW,DE
+Germany,Plochingen,DE-BW,DE
+Germany,Pohlheim,DE-HE,DE
+Germany,Porta Westfalica,DE-NW,DE
+Germany,Potsdam,DE-BR,DE
+Germany,Preetz,DE-SH,DE
+Germany,Prenzlau,DE-BR,DE
+Germany,Prichsenstadt,DE-BY,DE
+Germany,Prien am Chiemsee,DE-BY,DE
+Germany,Prum,DE-RP,DE
+Germany,Puchheim,DE-BY,DE
+Germany,Pulheim,DE-NW,DE
+Germany,Putbus,DE-MV,DE
+Germany,Quedlinburg,DE-ST,DE
+Germany,Querfurt,DE-ST,DE
+Germany,Quickborn,DE-SH,DE
+Germany,Radeberg,DE-SN,DE
+Germany,Radebeul,DE-SN,DE
+Germany,Radolfzell,DE-BW,DE
+Germany,Raisdorf,DE-SH,DE
+Germany,Ramstein-Miesenbach,DE-RP,DE
+Germany,Rangendingen,DE-BW,DE
+Germany,Rantum,DE-SH,DE
+Germany,Rastatt,DE-BW,DE
+Germany,Ratingen,DE-NW,DE
+Germany,Raubling,DE-BY,DE
+Germany,Raunheim,DE-HE,DE
+Germany,Ravensburg,DE-BW,DE
+Germany,Recke,DE-NW,DE
+Germany,Recklinghausen,DE-NW,DE
+Germany,Regen,DE-BY,DE
+Germany,Regensburg,DE-BY,DE
+Germany,Regenstauf,DE-BY,DE
+Germany,Rehau,DE-BY,DE
+Germany,Reichelsheim,DE-HE,DE
+Germany,Reichenbach,DE-SN,DE
+Germany,Reichertshofen,DE-BY,DE
+Germany,Reinbek,DE-SH,DE
+Germany,Rellingen,DE-SH,DE
+Germany,Remagen,DE-RP,DE
+Germany,Remscheid,DE-NW,DE
+Germany,Renchen,DE-BW,DE
+Germany,Rendsburg,DE-SH,DE
+Germany,Renningen,DE-BW,DE
+Germany,Reutlingen,DE-BW,DE
+Germany,Rheda-Wiedenbruck,DE-NW,DE
+Germany,Rheine,DE-NW,DE
+Germany,Rheinfelden,DE-BW,DE
+Germany,Rheinstetten,DE-BW,DE
+Germany,Ribnitz-Damgarten,DE-MV,DE
+Germany,Riesa,DE-SN,DE
+Germany,Rietberg,DE-NW,DE
+Germany,Rinteln,DE-NI,DE
+Germany,Rodenbach,DE-HE,DE
+Germany,Rodental,DE-BY,DE
+Germany,Rodermark,DE-HE,DE
+Germany,Rodgau,DE-HE,DE
+Germany,Roetgen,DE-NW,DE
+Germany,Rohrsdorf,DE-SN,DE
+Germany,Ronnenberg,DE-NI,DE
+Germany,Rosengarten,DE-NI,DE
+Germany,Rosenheim,DE-BY,DE
+Germany,Rosrath,DE-NW,DE
+Germany,Rossdorf,DE-HE,DE
+Germany,Rostock,DE-MV,DE
+Germany,Rotenburg,DE-NI,DE
+Germany,Roth,DE-BY,DE
+Germany,Rothenburg,DE-SN,DE
+Germany,Rothenburg ob der Tauber,DE-BY,DE
+Germany,Rottenbach,DE-BY,DE
+Germany,Rottenburg,DE-BW,DE
+Germany,Rottweil,DE-BW,DE
+Germany,Rudolstadt,DE-TH,DE
+Germany,Ruhstorf an der Rott,DE-BY,DE
+Germany,Russelsheim,DE-HE,DE
+Germany,Rutesheim,DE-BW,DE
+Germany,Saarbrucken,DE-SL,DE
+Germany,Saarlouis,DE-SL,DE
+Germany,Sachsenheim,DE-BW,DE
+Germany,Salzburg,DE-RP,DE
+Germany,Salzgitter,DE-NI,DE
+Germany,Salzkotten,DE-NW,DE
+Germany,Sande,DE-NI,DE
+Germany,Sangerhausen,DE-ST,DE
+Germany,Sankt Andreasberg,DE-NI,DE
+Germany,Sankt Blasien,DE-BW,DE
+Germany,Sankt Wolfgang,DE-BY,DE
+Germany,Saulgau,DE-BW,DE
+Germany,Schalksmuhle,DE-NW,DE
+Germany,Schiltach,DE-BW,DE
+Germany,Schkeuditz,DE-SN,DE
+Germany,Schleswig,DE-SH,DE
+Germany,Schmalkalden,DE-TH,DE
+Germany,Schmelz,DE-SL,DE
+Germany,Schnaittenbach,DE-BY,DE
+Germany,Schneverdingen,DE-NI,DE
+Germany,Schoenaich,DE-BY,DE
+Germany,Schonefeld,DE-BR,DE
+Germany,Schongau,DE-BY,DE
+Germany,Schopfheim,DE-BW,DE
+Germany,Schorndorf,DE-BW,DE
+Germany,Schortens,DE-NI,DE
+Germany,Schulpersiel,DE-SH,DE
+Germany,Schwabach,DE-BY,DE
+Germany,Schwabisch Gmund,DE-BW,DE
+Germany,Schwabisch Hall,DE-BW,DE
+Germany,Schwabmuenchen,DE-BY,DE
+Germany,Schwandorf in Bayern,DE-BY,DE
+Germany,Schwarzenbruck,DE-BY,DE
+Germany,Schwedt,DE-BR,DE
+Germany,Schweinfurt,DE-BY,DE
+Germany,Schwelm,DE-NW,DE
+Germany,Schwenningen,DE-BW,DE
+Germany,Schwerin,DE-MV,DE
+Germany,Schwerte,DE-NW,DE
+Germany,Schwetzingen,DE-BW,DE
+Germany,Schwieberdingen,DE-BW,DE
+Germany,Seebruck,DE-BY,DE
+Germany,Seehausen am Staffelsee,DE-BY,DE
+Germany,Seesen,DE-NI,DE
+Germany,Seevetal,DE-NI,DE
+Germany,Selb,DE-BY,DE
+Germany,Sembach,DE-RP,DE
+Germany,Senden,DE-NW,DE
+Germany,Senftenberg,DE-BR,DE
+Germany,Siegburg,DE-NW,DE
+Germany,Siegen,DE-NW,DE
+Germany,Siegsdorf,DE-BY,DE
+Germany,Sigmaringen,DE-BW,DE
+Germany,Simbach,DE-BY,DE
+Germany,Simmern,DE-RP,DE
+Germany,Sindelfingen,DE-BW,DE
+Germany,Singen,DE-BW,DE
+Germany,Sinsheim,DE-BW,DE
+Germany,Sittensen,DE-NI,DE
+Germany,Sobernheim,DE-RP,DE
+Germany,Soest,DE-NW,DE
+Germany,Solingen,DE-NW,DE
+Germany,Soltau,DE-NI,DE
+Germany,Sonthofen,DE-BY,DE
+Germany,Spangdahelm,DE-RP,DE
+Germany,Speyer,DE-RP,DE
+Germany,Springe,DE-NI,DE
+Germany,Sprockhovel,DE-NW,DE
+Germany,St Augustin,DE-NW,DE
+Germany,Stade,DE-NI,DE
+Germany,Stadtallendorf,DE-HE,DE
+Germany,Stadthagen,DE-NI,DE
+Germany,Stadtlohn,DE-NW,DE
+Germany,Staffelstein,DE-BY,DE
+Germany,Stahnsdorf,DE-BR,DE
+Germany,Stamsried,DE-BY,DE
+Germany,Starnberg,DE-BY,DE
+Germany,Staufen,DE-BW,DE
+Germany,Stein,DE-BY,DE
+Germany,Steinen,DE-BW,DE
+Germany,Steinfurt,DE-NW,DE
+Germany,Steinhagen,DE-NW,DE
+Germany,Steinheim am der Murr,DE-BW,DE
+Germany,Stendal,DE-ST,DE
+Germany,Stephanskirchen,DE-BY,DE
+Germany,Stetten am Kalten Markt,DE-BW,DE
+Germany,Stockach,DE-BW,DE
+Germany,Stockheim,DE-HE,DE
+Germany,Stocklesdorf,DE-SH,DE
+Germany,Stockstadt,DE-BY,DE
+Germany,Stolberg,DE-NW,DE
+Germany,Stotternheim,DE-TH,DE
+Germany,Straelen,DE-NW,DE
+Germany,Stralsund,DE-MV,DE
+Germany,Straubenhardt,DE-BW,DE
+Germany,Straubing,DE-BY,DE
+Germany,Strausberg,DE-BR,DE
+Germany,Stromberg,DE-RP,DE
+Germany,Stuhr,DE-NI,DE
+Germany,Stutensee,DE-BW,DE
+Germany,Stuttgart,DE-BW,DE
+Germany,Suhl,DE-TH,DE
+Germany,Sulingen,DE-NI,DE
+Germany,Sulz,DE-BW,DE
+Germany,Sulzbach,DE-SL,DE
+Germany,Sussen,DE-BW,DE
+Germany,Syke,DE-NI,DE
+Germany,Tann,DE-HE,DE
+Germany,Tauberbischofsheim,DE-BW,DE
+Germany,Taufkirchen,DE-BY,DE
+Germany,Taunusstein,DE-HE,DE
+Germany,Teltow,DE-BR,DE
+Germany,Teningen,DE-BW,DE
+Germany,Tettau,DE-BY,DE
+Germany,Teunz,DE-BY,DE
+Germany,Thalmassing,DE-BY,DE
+Germany,Tiefenbach,DE-BY,DE
+Germany,Tirschenreuth,DE-BY,DE
+Germany,Tittling,DE-BY,DE
+Germany,Tittmoning,DE-BY,DE
+Germany,Tonisvorst,DE-NW,DE
+Germany,Traunreut,DE-BY,DE
+Germany,Traunstein,DE-BY,DE
+Germany,Triberg,DE-BW,DE
+Germany,Trier,DE-RP,DE
+Germany,Triesdorf,DE-BY,DE
+Germany,Troisdorf,DE-NW,DE
+Germany,Trossingen,DE-BW,DE
+Germany,Tubingen,DE-BW,DE
+Germany,Turkheim,DE-BY,DE
+Germany,Tuttlingen,DE-BW,DE
+Germany,Tutzing,DE-BY,DE
+Germany,Twist,DE-NI,DE
+Germany,Uberlingen,DE-BW,DE
+Germany,Ueckermunde,DE-MV,DE
+Germany,Uelzen,DE-NI,DE
+Germany,Ulm,DE-BW,DE
+Germany,Unna,DE-NW,DE
+Germany,Unterfohring,DE-BY,DE
+Germany,Unterhaching,DE-BY,DE
+Germany,Unterschleissheim,DE-BY,DE
+Germany,Usingen,DE-HE,DE
+Germany,Vaihingen an der Enz,DE-BW,DE
+Germany,Vallendar,DE-RP,DE
+Germany,Valley,DE-BY,DE
+Germany,Varel,DE-NI,DE
+Germany,Vechta,DE-NI,DE
+Germany,Velbert,DE-NW,DE
+Germany,Vellmar,DE-HE,DE
+Germany,Verden,DE-NI,DE
+Germany,Verl,DE-NW,DE
+Germany,Versmold,DE-NW,DE
+Germany,Viernheim,DE-HE,DE
+Germany,Viersen,DE-NW,DE
+Germany,Villingen-Schwenningen,DE-BW,DE
+Germany,Vilsbiburg,DE-BY,DE
+Germany,Vilshofen,DE-BY,DE
+Germany,Vlotho,DE-NW,DE
+Germany,Vogelsdorf,DE-ST,DE
+Germany,Vohringen,DE-BW,DE
+Germany,Vreden,DE-NW,DE
+Germany,Waakirchen,DE-BY,DE
+Germany,Wachtberg,DE-NW,DE
+Germany,Wachtendonk,DE-NW,DE
+Germany,Wadgassen,DE-SL,DE
+Germany,Waiblingen,DE-BW,DE
+Germany,Waldaschaff,DE-BY,DE
+Germany,Waldbronn,DE-BW,DE
+Germany,Waldeck,DE-HE,DE
+Germany,Waldenburg,DE-BW,DE
+Germany,Waldkirch,DE-BW,DE
+Germany,Waldkraiburg,DE-BY,DE
+Germany,Waldmunchen,DE-BY,DE
+Germany,Waldshut,DE-BW,DE
+Germany,Walheim,DE-NW,DE
+Germany,Walldorf,DE-BW,DE
+Germany,Walluf,DE-HE,DE
+Germany,Waltenhofen,DE-BY,DE
+Germany,Waltersdorf,DE-BR,DE
+Germany,Wandlitz,DE-BR,DE
+Germany,Wangen Im Allgau,DE-BW,DE
+Germany,Warburg,DE-NW,DE
+Germany,Waren,DE-MV,DE
+Germany,Warendorf,DE-NW,DE
+Germany,Wasserburg am Inn,DE-BY,DE
+Germany,Wedel,DE-SH,DE
+Germany,Wedemark,DE-NI,DE
+Germany,Weeze,DE-NW,DE
+Germany,Weferlingen,DE-ST,DE
+Germany,Wehr,DE-BW,DE
+Germany,Weiden,DE-BY,DE
+Germany,Weil am Rhein,DE-BW,DE
+Germany,Weilburg,DE-HE,DE
+Germany,Weilerbach,DE-RP,DE
+Germany,Weilheim,DE-BY,DE
+Germany,Weimar,DE-TH,DE
+Germany,Weingarten,DE-BW,DE
+Germany,Weinheim,DE-BW,DE
+Germany,Weinsberg,DE-BW,DE
+Germany,Weinstadt,DE-BW,DE
+Germany,Weissach,DE-BW,DE
+Germany,Weissenbrunn,DE-BY,DE
+Germany,Weissenburg in Bayern,DE-BY,DE
+Germany,Weissenhorn,DE-BY,DE
+Germany,Weissensee,DE-TH,DE
+Germany,Weisswasser,DE-SN,DE
+Germany,Weiterstadt,DE-HE,DE
+Germany,Welzheim,DE-BW,DE
+Germany,Wendelstein,DE-BY,DE
+Germany,Wendlingen am Neckar,DE-BW,DE
+Germany,Werdau,DE-SN,DE
+Germany,Werdohl,DE-NW,DE
+Germany,Werl,DE-NW,DE
+Germany,Wermelskirchen,DE-NW,DE
+Germany,Wernigerode,DE-ST,DE
+Germany,Wertheim,DE-BW,DE
+Germany,Wesel,DE-NW,DE
+Germany,Westerland,DE-SH,DE
+Germany,Wetter,DE-NW,DE
+Germany,Wetzlar,DE-HE,DE
+Germany,Weyhe,DE-NI,DE
+Germany,Wiehl,DE-NW,DE
+Germany,Wiesbaden,DE-HE,DE
+Germany,Wiesloch,DE-BW,DE
+Germany,Wietmarschen,DE-NI,DE
+Germany,Wietze,DE-NI,DE
+Germany,Wiggensbach,DE-BY,DE
+Germany,Wilhelmshaven,DE-NI,DE
+Germany,Wilhelmsthal,DE-BY,DE
+Germany,Willich,DE-NW,DE
+Germany,Willingen,DE-HE,DE
+Germany,Winnenden,DE-BW,DE
+Germany,Winterberg,DE-NW,DE
+Germany,Wipperfurth,DE-NW,DE
+Germany,Wismar,DE-MV,DE
+Germany,Wissen,DE-RP,DE
+Germany,Witten,DE-NW,DE
+Germany,Wittenberg,DE-ST,DE
+Germany,Wittmund,DE-NI,DE
+Germany,Wittstock,DE-BR,DE
+Germany,Wolfenbuttel,DE-NI,DE
+Germany,Wolfsburg,DE-NI,DE
+Germany,Wolfstein,DE-RP,DE
+Germany,Wolnzach,DE-BY,DE
+Germany,Worms,DE-RP,DE
+Germany,Worrstadt,DE-RP,DE
+Germany,Wunsdorf,DE-BR,DE
+Germany,Wuppertal,DE-NW,DE
+Germany,Wurselen,DE-NW,DE
+Germany,Wurzburg,DE-BY,DE
+Germany,Wurzen,DE-SN,DE
+Germany,Wusterhausen,DE-BR,DE
+Germany,Xanten,DE-NW,DE
+Germany,Zaberfeld,DE-BW,DE
+Germany,Zehnhausen,DE-RP,DE
+Germany,Zeitz,DE-ST,DE
+Germany,Zell,DE-RP,DE
+Germany,Zell,DE-BW,DE
+Germany,Zeulenroda,DE-TH,DE
+Germany,Zeuthen,DE-BR,DE
+Germany,Zinnowitz,DE-MV,DE
+Germany,Zirndorf,DE-BY,DE
+Germany,Zittau,DE-SN,DE
+Germany,Zweibrucken,DE-RP,DE
+Germany,Zwickau,DE-SN,DE
+Germany,Zwonitz,DE-SN,DE
+Italy,Abano Terme,IT-PD,IT
+Italy,Abbiategrasso,IT-MI,IT
+Italy,Aci Catena,IT-CT,IT
+Italy,Acireale,IT-CT,IT
+Italy,Acqui,IT-AL,IT
+Italy,Adro,IT-BS,IT
+Italy,Affi,IT-VR,IT
+Italy,Afragola,IT-NA,IT
+Italy,Agrate Brianza,IT-MI,IT
+Italy,Agrigento,IT-AG,IT
+Italy,Agropoli,IT-SA,IT
+Italy,Airasca,IT-TO,IT
+Italy,Ala,IT-TN,IT
+Italy,Alba,IT-CN,IT
+Italy,Albavilla,IT-CO,IT
+Italy,Albenga,IT-SV,IT
+Italy,Albignasego,IT-PD,IT
+Italy,Albino,IT-BG,IT
+Italy,Albisola Marina,IT-SV,IT
+Italy,Albizzate,IT-VA,IT
+Italy,Alcamo,IT-TP,IT
+Italy,Alessandria,IT-AL,IT
+Italy,Alfonsine,IT-RA,IT
+Italy,Alghero,IT-SS,IT
+Italy,Alonte,IT-VI,IT
+Italy,Altamura,IT-BA,IT
+Italy,Altavilla Vicentina,IT-VI,IT
+Italy,Altidona,IT-AP,IT
+Italy,Altofonte,IT-PA,IT
+Italy,Alzano Lombardo,IT-BG,IT
+Italy,Alzate Brianza,IT-CO,IT
+Italy,Amelia,IT-TR,IT
+Italy,Anagni,IT-FR,IT
+Italy,Ancarano,IT-TE,IT
+Italy,Ancona,IT-AN,IT
+Italy,Andora,IT-SV,IT
+Italy,Andria,IT-BA,IT
+Italy,Angri,IT-SA,IT
+Italy,Anzola Dell'Emilia,IT-BO,IT
+Italy,Aosta,IT-AO,IT
+Italy,Aprilia,IT-LT,IT
+Italy,Arco,IT-TN,IT
+Italy,Arcore,IT-MI,IT
+Italy,Ardea,IT-RM,IT
+Italy,Arenzano,IT-GE,IT
+Italy,Arese,IT-MI,IT
+Italy,Arezzo,IT-AR,IT
+Italy,Argelato,IT-BO,IT
+Italy,Argenta,IT-FE,IT
+Italy,Ariccia,IT-RM,IT
+Italy,Arluno,IT-MI,IT
+Italy,Arona,IT-NO,IT
+Italy,Arzano,IT-NA,IT
+Italy,Arzignano,IT-VI,IT
+Italy,Ascoli Piceno,IT-AP,IT
+Italy,Asola,IT-MN,IT
+Italy,Asolo,IT-TV,IT
+Italy,Assago,IT-MI,IT
+Italy,Assisi,IT-PG,IT
+Italy,Asti,IT-AT,IT
+Italy,Atripalda,IT-AV,IT
+Italy,Augusta,IT-SR,IT
+Italy,Augusta,IT-RM,IT
+Italy,Aulla,IT-MS,IT
+Italy,Avellino,IT-AV,IT
+Italy,Aversa,IT-CE,IT
+Italy,Avezzano,IT-AQ,IT
+Italy,Aviano,IT-PN,IT
+Italy,Avigliana,IT-TO,IT
+Italy,Azzano Decimo,IT-PN,IT
+Italy,Bacoli,IT-NA,IT
+Italy,Badia a Settimo,IT-FI,IT
+Italy,Badia Al Pino,IT-AR,IT
+Italy,Bagheria,IT-PA,IT
+Italy,Barcellona Pozzo Di Gotto,IT-ME,IT
+Italy,Bardolino,IT-VE,IT
+Italy,Bareggio,IT-MI,IT
+Italy,Bari,IT-BA,IT
+Italy,Barletta,IT-BA,IT
+Italy,Baronissi,IT-SA,IT
+Italy,Barzano,IT-CO,IT
+Italy,Basiliano,IT-UD,IT
+Italy,Bassano Del Grappa,IT-VI,IT
+Italy,Bastia,IT-PG,IT
+Italy,Battipaglia,IT-SA,IT
+Italy,Baveno,IT-VB,IT
+Italy,Beinasco,IT-TO,IT
+Italy,Bellaria,IT-RN,IT
+Italy,Belluno,IT-BL,IT
+Italy,Bellusco,IT-MI,IT
+Italy,Belpasso,IT-CT,IT
+Italy,Bene Vagienna,IT-CN,IT
+Italy,Benevento,IT-BN,IT
+Italy,Bergamo,IT-BG,IT
+Italy,Bernareggio,IT-MI,IT
+Italy,Bertinoro,IT-FO,IT
+Italy,Biassono,IT-MI,IT
+Italy,Bibbiena,IT-AR,IT
+Italy,Biella,IT-BI,IT
+Italy,Binasco,IT-MI,IT
+Italy,Bisceglie,IT-BA,IT
+Italy,Bitonto,IT-BA,IT
+Italy,Bolgare,IT-BG,IT
+Italy,Bollate,IT-MI,IT
+Italy,Bologna,IT-BO,IT
+Italy,Bolzano,IT-BZ,IT
+Italy,Bomba,IT-CH,IT
+Italy,Bomporto,IT-MO,IT
+Italy,Bordighera,IT-IM,IT
+Italy,Borgaro Torinese,IT-TO,IT
+Italy,Borgo Ticino,IT-NO,IT
+Italy,Borgomanero,IT-NO,IT
+Italy,Borgonovo Val Tidone,IT-PC,IT
+Italy,Borgosesia,IT-VC,IT
+Italy,Boves,IT-CN,IT
+Italy,Bovisio Masciago,IT-MI,IT
+Italy,Bra,IT-CN,IT
+Italy,Bracciano,IT-RM,IT
+Italy,Brembate Di Sopra,IT-BG,IT
+Italy,Brendola,IT-VI,IT
+Italy,Breno,IT-BS,IT
+Italy,Brescia,IT-BS,IT
+Italy,Bressanone,IT-BZ,IT
+Italy,Bresso,IT-MI,IT
+Italy,Briga Novarese,IT-NO,IT
+Italy,Brindisi,IT-BR,IT
+Italy,Brogliano,IT-VI,IT
+Italy,Brugherio,IT-MI,IT
+Italy,Brugnera,IT-PN,IT
+Italy,Bruneck,IT-BZ,IT
+Italy,Buccinasco,IT-MI,IT
+Italy,Buccino,IT-SA,IT
+Italy,Budrio,IT-BO,IT
+Italy,Busnago,IT-MI,IT
+Italy,Bussero,IT-MI,IT
+Italy,Bussolengo,IT-VR,IT
+Italy,Busto Arsizio,IT-VA,IT
+Italy,Cabiate,IT-CO,IT
+Italy,Cagliari,IT-CA,IT
+Italy,Caivano,IT-NA,IT
+Italy,Calangianus,IT-SS,IT
+Italy,Caldaro Sulla Strada Del Vino,IT-BZ,IT
+Italy,Calderara Di Reno,IT-BO,IT
+Italy,Caldiero,IT-VR,IT
+Italy,Calenzano,IT-FI,IT
+Italy,Calo,IT-LC,IT
+Italy,Caltagirone,IT-CT,IT
+Italy,Caltanissetta,IT-CL,IT
+Italy,Calusco d'Adda,IT-BG,IT
+Italy,Cambiago,IT-MI,IT
+Italy,Cambiano,IT-TO,IT
+Italy,Camerano,IT-AN,IT
+Italy,Campi Bisenzio,IT-FI,IT
+Italy,Campobasso,IT-CB,IT
+Italy,Campodarsego,IT-PD,IT
+Italy,Campoformido,IT-UD,IT
+Italy,Campogalliano,IT-MO,IT
+Italy,Camposampiero,IT-PD,IT
+Italy,Candelu,IT-TV,IT
+Italy,Canicatti,IT-AG,IT
+Italy,Canossa,IT-RE,IT
+Italy,Cantu,IT-CO,IT
+Italy,Canzo,IT-CO,IT
+Italy,Capannori,IT-LU,IT
+Italy,Capo d'Orlando,IT-ME,IT
+Italy,Capri,IT-NA,IT
+Italy,Capriate San Gervasio,IT-BG,IT
+Italy,Capua,IT-CE,IT
+Italy,Carate Brianza,IT-MI,IT
+Italy,Caravaggio,IT-BG,IT
+Italy,Carbonara Di Bari,IT-BA,IT
+Italy,Carbonate,IT-CO,IT
+Italy,Carbonera,IT-TV,IT
+Italy,Carbonia,IT-CA,IT
+Italy,Cardano Al Campo,IT-VA,IT
+Italy,Carmagnola,IT-TO,IT
+Italy,Caronno Pertusella,IT-VA,IT
+Italy,Carpi,IT-MO,IT
+Italy,Carrara,IT-MS,IT
+Italy,Carsoli,IT-AQ,IT
+Italy,Cartigliano,IT-VI,IT
+Italy,Carugate,IT-MI,IT
+Italy,Carvico,IT-BG,IT
+Italy,Casagiove,IT-CE,IT
+Italy,Casale Monferrato,IT-AL,IT
+Italy,Casalecchio Di Reno,IT-BO,IT
+Italy,Casalgrande,IT-RE,IT
+Italy,Casalmaggiore,IT-CR,IT
+Italy,Casalpusterlengo,IT-LO,IT
+Italy,Casamassima,IT-BA,IT
+Italy,Casarano,IT-LE,IT
+Italy,Casatenovo,IT-LC,IT
+Italy,Casavatore,IT-NA,IT
+Italy,Cascina,IT-PI,IT
+Italy,Caserta,IT-CE,IT
+Italy,Casier,IT-TV,IT
+Italy,Casoria,IT-NA,IT
+Italy,Cassacco,IT-UD,IT
+Italy,Cassano d Adda,IT-MI,IT
+Italy,Cassano Magnago,IT-VA,IT
+Italy,Cassina de Pecchi,IT-MI,IT
+Italy,Cassino,IT-FR,IT
+Italy,Cassola,IT-VI,IT
+Italy,Castagnaro,IT-VR,IT
+Italy,Castano Primo,IT-MI,IT
+Italy,Casteggio,IT-PV,IT
+Italy,Castel Bolognese,IT-RA,IT
+Italy,Castel Goffredo,IT-MN,IT
+Italy,Castel Maggiore,IT-BO,IT
+Italy,Castel San Giovanni,IT-PC,IT
+Italy,Castelfidardo,IT-AN,IT
+Italy,Castelfiorentino,IT-FI,IT
+Italy,Castelfranco Emilia,IT-MO,IT
+Italy,Castelfranco Veneto,IT-TV,IT
+Italy,Castellabate,IT-SA,IT
+Italy,Castellana Grotte,IT-BA,IT
+Italy,Castellanza,IT-VA,IT
+Italy,Castello d'Argile,IT-BO,IT
+Italy,Castello Di Godego,IT-TV,IT
+Italy,Castellucchio,IT-MN,IT
+Italy,Castelnuovo Di Magra,IT-SP,IT
+Italy,Castelnuovo Rangone,IT-MO,IT
+Italy,Castelplanio,IT-AN,IT
+Italy,Castelvetro Piacentino,IT-PC,IT
+Italy,Castenaso,IT-BO,IT
+Italy,Castiglione Delle Stiviere,IT-MN,IT
+Italy,Castrovillari,IT-CS,IT
+Italy,Catania,IT-CT,IT
+Italy,Catanzaro,IT-CZ,IT
+Italy,Cava de Tirreni,IT-SA,IT
+Italy,Cava Manara,IT-PV,IT
+Italy,Cavaion Veronese,IT-VR,IT
+Italy,Cavallino,IT-LE,IT
+Italy,Cavaria,IT-VA,IT
+Italy,Cavriago,IT-RE,IT
+Italy,Cavriglia,IT-AR,IT
+Italy,Cecina,IT-LI,IT
+Italy,Cellatica,IT-BS,IT
+Italy,Cento,IT-FE,IT
+Italy,Cernusco,IT-MI,IT
+Italy,Cerro Maggiore,IT-MI,IT
+Italy,Cerveteri,IT-RM,IT
+Italy,Cervia,IT-RA,IT
+Italy,Cervignano Del Friuli,IT-UD,IT
+Italy,Cesana Brianza,IT-LC,IT
+Italy,Cesano Boscone,IT-MI,IT
+Italy,Cesano Maderno,IT-MI,IT
+Italy,Cesate,IT-MI,IT
+Italy,Cesena,IT-FO,IT
+Italy,Cesenatico,IT-RN,IT
+Italy,Chiaravalle,IT-AN,IT
+Italy,Chiari,IT-BS,IT
+Italy,Chiavari,IT-GE,IT
+Italy,Chiavenna,IT-SO,IT
+Italy,Chieri,IT-TO,IT
+Italy,Chieti,IT-CH,IT
+Italy,Chioggia,IT-VE,IT
+Italy,Chiuro,IT-SO,IT
+Italy,Chiusi,IT-SI,IT
+Italy,Chivasso,IT-TO,IT
+Italy,Ciminna,IT-PA,IT
+Italy,Cinisello Balsamo,IT-MI,IT
+Italy,Cinto Caomaggiore,IT-VE,IT
+Italy,Ciserano,IT-BG,IT
+Italy,Citta Di Castello,IT-PG,IT
+Italy,Cittadella,IT-PD,IT
+Italy,Cividale Del Friuli,IT-UD,IT
+Italy,Civita Castellana,IT-VT,IT
+Italy,Civitanova Marche,IT-MC,IT
+Italy,Civitavecchia,IT-RM,IT
+Italy,Civitella in Val Di Chiana,IT-AR,IT
+Italy,Codogno,IT-LO,IT
+Italy,Codroipo,IT-UD,IT
+Italy,Collecchio,IT-PR,IT
+Italy,Colleferro,IT-RM,IT
+Italy,Collegno,IT-TO,IT
+Italy,Collesalvetti,IT-LI,IT
+Italy,Cologno Monzese,IT-MI,IT
+Italy,Colonnella,IT-TE,IT
+Italy,Como,IT-CO,IT
+Italy,Concesio,IT-BS,IT
+Italy,Concorezzo,IT-MI,IT
+Italy,Conegliano,IT-TV,IT
+Italy,Conselve,IT-PD,IT
+Italy,Corato,IT-BA,IT
+Italy,Corciano,IT-PG,IT
+Italy,Cordenons,IT-PN,IT
+Italy,Cormano,IT-MI,IT
+Italy,Cormons,IT-GO,IT
+Italy,Cornaredo,IT-MI,IT
+Italy,Cornate d'Adda,IT-MI,IT
+Italy,Cornuda,IT-TV,IT
+Italy,Correggio,IT-RE,IT
+Italy,Corropoli,IT-TE,IT
+Italy,Corsico,IT-MI,IT
+Italy,Cortina d'Ampezzo,IT-BL,IT
+Italy,Cosenza,IT-CS,IT
+Italy,Cosio Valtellino,IT-SO,IT
+Italy,Cossato,IT-BI,IT
+Italy,Cotignola,IT-RA,IT
+Italy,Crema,IT-CR,IT
+Italy,Cremona,IT-CR,IT
+Italy,Crevalcore,IT-BO,IT
+Italy,Crocetta Del Montello,IT-TV,IT
+Italy,Crotone,IT-KR,IT
+Italy,Cuneo,IT-CN,IT
+Italy,Cura Carpignano,IT-PV,IT
+Italy,Curno,IT-BG,IT
+Italy,Cusago,IT-MI,IT
+Italy,Cusano Milanino,IT-MI,IT
+Italy,Cuveglio,IT-VA,IT
+Italy,Dalmine,IT-BG,IT
+Italy,Darfo-Boario Terme,IT-BS,IT
+Italy,Desenzano Del Garda,IT-BS,IT
+Italy,Desio,IT-MI,IT
+Italy,Dogliani,IT-CN,IT
+Italy,Dolce,IT-VR,IT
+Italy,Dolo,IT-VE,IT
+Italy,Domegliara,IT-VR,IT
+Italy,Domodossola,IT-VB,IT
+Italy,Dueville,IT-VI,IT
+Italy,Eboli,IT-SA,IT
+Italy,Empoli,IT-FI,IT
+Italy,Enna,IT-EN,IT
+Italy,Erba,IT-CO,IT
+Italy,Ercolano,IT-NA,IT
+Italy,Fabriano,IT-AN,IT
+Italy,Faenza,IT-RA,IT
+Italy,Fagnano Olona,IT-VA,IT
+Italy,Falconara Marittima,IT-AN,IT
+Italy,Fano,IT-PS,IT
+Italy,Fara Gera d'Adda,IT-BG,IT
+Italy,Fara in Sabina,IT-RI,IT
+Italy,Farigliano,IT-CN,IT
+Italy,Feltre,IT-BL,IT
+Italy,Fermo,IT-AP,IT
+Italy,Ferrara,IT-FE,IT
+Italy,Fidenza,IT-PR,IT
+Italy,Figline Valdarno,IT-FI,IT
+Italy,Finale Emilia,IT-MO,IT
+Italy,Fiorano Modenese,IT-MO,IT
+Italy,Fiorenzuola d Arda,IT-PC,IT
+Italy,Fiuggi,IT-FR,IT
+Italy,Fiumicino,IT-RM,IT
+Italy,Florence,IT-FI,IT
+Italy,Floridia,IT-SR,IT
+Italy,Foggia,IT-FG,IT
+Italy,Foligno,IT-PG,IT
+Italy,Follonica,IT-GR,IT
+Italy,Fondi,IT-LT,IT
+Italy,Fontanafredda,IT-PN,IT
+Italy,Fontanelle,IT-TV,IT
+Italy,Forli,IT-FO,IT
+Italy,Formello,IT-RM,IT
+Italy,Formia,IT-LT,IT
+Italy,Formigine,IT-MO,IT
+Italy,Fornace,IT-TN,IT
+Italy,Fornacette,IT-PI,IT
+Italy,Fornovo Di Taro,IT-PR,IT
+Italy,Fosdinovo,IT-MS,IT
+Italy,Fossano,IT-CN,IT
+Italy,Francavilla Al Mare,IT-CH,IT
+Italy,Francavilla Fontana,IT-BR,IT
+Italy,Frascati,IT-RM,IT
+Italy,Frosinone,IT-FR,IT
+Italy,Fucecchio,IT-FI,IT
+Italy,Gaglianico,IT-BI,IT
+Italy,Gallarate,IT-VA,IT
+Italy,Galliate,IT-NO,IT
+Italy,Gallipoli,IT-LE,IT
+Italy,Gambassi Terme,IT-FI,IT
+Italy,Garbagnate Milanese,IT-MI,IT
+Italy,Garda,IT-VR,IT
+Italy,Gardone Val Trompia,IT-BS,IT
+Italy,Gavardo,IT-BS,IT
+Italy,Gavirate,IT-VA,IT
+Italy,Gazzada,IT-VA,IT
+Italy,Gela,IT-CL,IT
+Italy,Genova,IT-GE,IT
+Italy,Germignaga,IT-VA,IT
+Italy,Gessate,IT-MI,IT
+Italy,Ghedi,IT-BS,IT
+Italy,Giarre,IT-CT,IT
+Italy,Gioia Tauro,IT-RC,IT
+Italy,Giugliano in Campania,IT-NA,IT
+Italy,Giussano,IT-MI,IT
+Italy,Gorgonzola,IT-MI,IT
+Italy,Gorizia,IT-GO,IT
+Italy,Gorle,IT-BG,IT
+Italy,Gozzano,IT-NO,IT
+Italy,Grado,IT-GO,IT
+Italy,Gragnano,IT-NA,IT
+Italy,Gragnano Trebbiense,IT-PC,IT
+Italy,Granarolo Dell'Emilia,IT-BO,IT
+Italy,Grandate,IT-CO,IT
+Italy,Grassobbio,IT-BG,IT
+Italy,Gravina Di Catania,IT-CT,IT
+Italy,Gressan,IT-AO,IT
+Italy,Greve,IT-FI,IT
+Italy,Grimaldi,IT-CS,IT
+Italy,Grosseto,IT-GR,IT
+Italy,Grottammare,IT-AP,IT
+Italy,Grugliasco,IT-TO,IT
+Italy,Grumello Del Monte,IT-BG,IT
+Italy,Gualdo Tadino,IT-PG,IT
+Italy,Guanzate,IT-CO,IT
+Italy,Guardialfiera,IT-CB,IT
+Italy,Guastalla,IT-RE,IT
+Italy,Gubbio,IT-PG,IT
+Italy,Guidonia,IT-RM,IT
+Italy,Iesolo,IT-VE,IT
+Italy,Iglesias,IT-CA,IT
+Italy,Imola,IT-BO,IT
+Italy,Imperia,IT-IM,IT
+Italy,Impruneta,IT-FI,IT
+Italy,Induno Olona,IT-VA,IT
+Italy,Inverigo,IT-CO,IT
+Italy,Inveruno,IT-MI,IT
+Italy,Ischia,IT-NA,IT
+Italy,Isernia,IT-IS,IT
+Italy,Isola Di Capo Rizzuto,IT-KR,IT
+Italy,Ispra,IT-VA,IT
+Italy,Ittiri,IT-SS,IT
+Italy,Ivrea,IT-TO,IT
+Italy,Jesi,IT-AN,IT
+Italy,l'Aquila,IT-AQ,IT
+Italy,La Cassa,IT-TO,IT
+Italy,La Loggia,IT-TO,IT
+Italy,La Spezia,IT-SP,IT
+Italy,Lacchiarella,IT-MI,IT
+Italy,Lainate,IT-MI,IT
+Italy,Laives,IT-BZ,IT
+Italy,Lallio,IT-BG,IT
+Italy,Lancenigo,IT-TV,IT
+Italy,Lanciano,IT-CH,IT
+Italy,Lanzo Torinese,IT-TO,IT
+Italy,Latina,IT-LT,IT
+Italy,Lauria,IT-PZ,IT
+Italy,Laveno-Mombello,IT-VA,IT
+Italy,Lecce,IT-LE,IT
+Italy,Lecco,IT-LC,IT
+Italy,Legnago,IT-VR,IT
+Italy,Legnano,IT-MI,IT
+Italy,Legnaro,IT-PD,IT
+Italy,Leini,IT-TO,IT
+Italy,Leno,IT-BS,IT
+Italy,Lentigione,IT-RE,IT
+Italy,Lignano Sabbiadoro,IT-UD,IT
+Italy,Limbiate,IT-MI,IT
+Italy,Limena,IT-PD,IT
+Italy,Lipari,IT-ME,IT
+Italy,Lissone,IT-MI,IT
+Italy,Livigno,IT-SO,IT
+Italy,Livorno,IT-LI,IT
+Italy,Lizzano,IT-TA,IT
+Italy,Loano,IT-SV,IT
+Italy,Locate Varesino,IT-CO,IT
+Italy,Locri,IT-RC,IT
+Italy,Lodi,IT-LO,IT
+Italy,Lonate Pozzolo,IT-VA,IT
+Italy,Longiano,IT-FO,IT
+Italy,Lonigo,IT-VI,IT
+Italy,Lucca,IT-LU,IT
+Italy,Lucera,IT-FG,IT
+Italy,Lugo,IT-RA,IT
+Italy,Luino,IT-VA,IT
+Italy,Luisago,IT-CO,IT
+Italy,Luserna San Giovanni,IT-TO,IT
+Italy,Macerata,IT-MC,IT
+Italy,Macherio,IT-MI,IT
+Italy,Maddaloni,IT-CE,IT
+Italy,Magenta,IT-MI,IT
+Italy,Magli,IT-CS,IT
+Italy,Maglie,IT-LE,IT
+Italy,Magnago,IT-MI,IT
+Italy,Maiolati Spontini,IT-AN,IT
+Italy,Malcontenta,IT-VE,IT
+Italy,Malnate,IT-VA,IT
+Italy,Malo,IT-VI,IT
+Italy,Manduria,IT-TA,IT
+Italy,Manerbio,IT-BS,IT
+Italy,Maniago,IT-PN,IT
+Italy,Mantova,IT-MN,IT
+Italy,Maranello,IT-MO,IT
+Italy,Marano Di Napoli,IT-NA,IT
+Italy,Marcallo Con Casone,IT-MI,IT
+Italy,Marcianise,IT-CE,IT
+Italy,Marco,IT-TN,IT
+Italy,Marcon,IT-VE,IT
+Italy,Mariano Comense,IT-CO,IT
+Italy,Marigliano,IT-NA,IT
+Italy,Marina Di Carrara,IT-MS,IT
+Italy,Marlengo,IT-BZ,IT
+Italy,Marsala,IT-TP,IT
+Italy,Marsciano,IT-PG,IT
+Italy,Martellago,IT-VE,IT
+Italy,Martina Franca,IT-TA,IT
+Italy,Martinsicuro,IT-TE,IT
+Italy,Massa,IT-MS,IT
+Italy,Massa Martana,IT-PG,IT
+Italy,Masseria Fattizze,IT-LE,IT
+Italy,Matera,IT-MT,IT
+Italy,Mattarello,IT-TN,IT
+Italy,Mazara Del Vallo,IT-TP,IT
+Italy,Meda,IT-MI,IT
+Italy,Melegnano,IT-MI,IT
+Italy,Melfi,IT-PZ,IT
+Italy,Melzo,IT-MI,IT
+Italy,Menaggio,IT-CO,IT
+Italy,Merano,IT-BZ,IT
+Italy,Merate,IT-LC,IT
+Italy,Mercato Saraceno,IT-FO,IT
+Italy,Merone,IT-CO,IT
+Italy,Messina,IT-ME,IT
+Italy,Mestre,IT-VE,IT
+Italy,Mestrino,IT-PD,IT
+Italy,Mezzago,IT-MI,IT
+Italy,Mezzolombardo,IT-TN,IT
+Italy,Mignagola,IT-TV,IT
+Italy,Milan,IT-MI,IT
+Italy,Milazzo,IT-ME,IT
+Italy,Minerbio,IT-BO,IT
+Italy,Minturno,IT-LT,IT
+Italy,Mirandola,IT-MO,IT
+Italy,Mirano,IT-VE,IT
+Italy,Misano Adriatico,IT-RN,IT
+Italy,Misterbianco,IT-CT,IT
+Italy,Modena,IT-MO,IT
+Italy,Modica,IT-RG,IT
+Italy,Modigliana,IT-FO,IT
+Italy,Mogliano Veneto,IT-TV,IT
+Italy,Molfetta,IT-BA,IT
+Italy,Moncalieri,IT-TO,IT
+Italy,Monchiero,IT-CN,IT
+Italy,Mondovi,IT-CN,IT
+Italy,Monfalcone,IT-GO,IT
+Italy,Monopoli,IT-BA,IT
+Italy,Monreale,IT-PA,IT
+Italy,Monsagrati,IT-LU,IT
+Italy,Monselice,IT-PD,IT
+Italy,Montagnana,IT-PD,IT
+Italy,Montaione,IT-FI,IT
+Italy,Monte Giberto,IT-AP,IT
+Italy,Monte San Pietrangeli,IT-AP,IT
+Italy,Monte San Vito,IT-AN,IT
+Italy,Montebello Vicentino,IT-VI,IT
+Italy,Montebelluna,IT-TV,IT
+Italy,Montecatini Terme,IT-PT,IT
+Italy,Montecchio Emilia,IT-RE,IT
+Italy,Montecchio Maggiore,IT-VI,IT
+Italy,Montegranaro,IT-AP,IT
+Italy,Montelupo Fiorentino,IT-FI,IT
+Italy,Montemurlo,IT-PO,IT
+Italy,Monteprandone,IT-AP,IT
+Italy,Montereale,IT-AQ,IT
+Italy,Monteriggioni,IT-SI,IT
+Italy,Monterotondo,IT-RM,IT
+Italy,Montesilvano Marina,IT-PE,IT
+Italy,Montevarchi,IT-AR,IT
+Italy,Monteveglio,IT-BO,IT
+Italy,Monteviale,IT-VI,IT
+Italy,Monticello Conte Otto,IT-VI,IT
+Italy,Montichiari,IT-BS,IT
+Italy,Monza,IT-MI,IT
+Italy,Mordano,IT-BO,IT
+Italy,Mortara,IT-PV,IT
+Italy,Motta Sant'Anastasia,IT-CT,IT
+Italy,Mottalciata,IT-BI,IT
+Italy,Mozzate,IT-CO,IT
+Italy,Mozzecane,IT-VR,IT
+Italy,Muggio,IT-MI,IT
+Italy,Naples,IT-NA,IT
+Italy,Naturno,IT-BZ,IT
+Italy,Nembro,IT-BG,IT
+Italy,Nerviano,IT-MI,IT
+Italy,Nichelino,IT-TO,IT
+Italy,Noale,IT-VE,IT
+Italy,Nocera Inferiore,IT-SA,IT
+Italy,Noci,IT-BA,IT
+Italy,Nola,IT-NA,IT
+Italy,Nonantola,IT-MO,IT
+Italy,None,IT-TO,IT
+Italy,Nosate,IT-MI,IT
+Italy,Nova Milanese,IT-MI,IT
+Italy,Novara,IT-NO,IT
+Italy,Novate Milanese,IT-MI,IT
+Italy,Novedrate,IT-CO,IT
+Italy,Noventa Padovana,IT-PD,IT
+Italy,Novi Ligure,IT-AL,IT
+Italy,Numana,IT-AN,IT
+Italy,Nuoro,IT-NU,IT
+Italy,Nuvolento,IT-BS,IT
+Italy,Oderzo,IT-TV,IT
+Italy,Oggiono,IT-LC,IT
+Italy,Olbia,IT-SS,IT
+Italy,Oleggio,IT-NO,IT
+Italy,Olgiate Olona,IT-VA,IT
+Italy,Olginate,IT-LC,IT
+Italy,Oltrona Di San Mamette,IT-CO,IT
+Italy,Omegna,IT-VB,IT
+Italy,Onara,IT-PD,IT
+Italy,Opera,IT-MI,IT
+Italy,Orbassano,IT-TO,IT
+Italy,Oristano,IT-OR,IT
+Italy,Ornago,IT-MI,IT
+Italy,Ortona,IT-CH,IT
+Italy,Orvieto,IT-TR,IT
+Italy,Orzinuovi,IT-BS,IT
+Italy,Osimo,IT-AN,IT
+Italy,Osio Sotto,IT-BG,IT
+Italy,Osmannoro,IT-FI,IT
+Italy,Ostiglia,IT-MN,IT
+Italy,Ostuni,IT-BR,IT
+Italy,Ovada,IT-AL,IT
+Italy,Paderno Dugnano,IT-MI,IT
+Italy,Padova,IT-PD,IT
+Italy,Paese,IT-TV,IT
+Italy,Pagani,IT-SA,IT
+Italy,Palazzolo Sull Oglio,IT-BS,IT
+Italy,Palermo,IT-PA,IT
+Italy,Pantelleria,IT-TP,IT
+Italy,Parabiago,IT-MI,IT
+Italy,Parma,IT-PR,IT
+Italy,Partinico,IT-PA,IT
+Italy,Passirano,IT-BS,IT
+Italy,Pastorano,IT-CE,IT
+Italy,Pastrengo,IT-MI,IT
+Italy,Paterno,IT-CT,IT
+Italy,Pavia,IT-PV,IT
+Italy,Pavullo Nel Frignano,IT-MO,IT
+Italy,Pedavena,IT-BL,IT
+Italy,Pentone,IT-CZ,IT
+Italy,Pergine Valsugana,IT-TN,IT
+Italy,Pero,IT-MI,IT
+Italy,Perugia,IT-PG,IT
+Italy,Pesaro,IT-PS,IT
+Italy,Pescara,IT-PE,IT
+Italy,Peschiera Borromeo,IT-MI,IT
+Italy,Pescia,IT-PT,IT
+Italy,Pessano,IT-MI,IT
+Italy,Pezze Di Greco,IT-BR,IT
+Italy,Piacenza,IT-PC,IT
+Italy,Pianella,IT-PE,IT
+Italy,Pianezza,IT-TO,IT
+Italy,Piano Di Sorrento,IT-NA,IT
+Italy,Pianoro,IT-BO,IT
+Italy,Pietrasanta,IT-LU,IT
+Italy,Pieve a Nievole,IT-PT,IT
+Italy,Pieve Di Cadore,IT-BL,IT
+Italy,Pieve Di Soligo,IT-TV,IT
+Italy,Pinerolo,IT-TO,IT
+Italy,Pineto,IT-TE,IT
+Italy,Pioltello,IT-MI,IT
+Italy,Piombino,IT-LI,IT
+Italy,Piraino,IT-ME,IT
+Italy,Pisa,IT-PI,IT
+Italy,Pistoia,IT-PT,IT
+Italy,Pocenia,IT-UD,IT
+Italy,Podenzano,IT-PC,IT
+Italy,Poggibonsi,IT-SI,IT
+Italy,Poggiridenti,IT-SO,IT
+Italy,Pogliano Milanese,IT-MI,IT
+Italy,Policoro,IT-MT,IT
+Italy,Polinago,IT-MO,IT
+Italy,Polverigi,IT-AN,IT
+Italy,Pomezia,IT-RM,IT
+Italy,Pomigliano d'Arco,IT-NA,IT
+Italy,Pompei,IT-NA,IT
+Italy,Ponsacco,IT-PI,IT
+Italy,Pont-Saint-Martin,IT-AO,IT
+Italy,Pontassieve,IT-FI,IT
+Italy,Ponte Felcino,IT-PG,IT
+Italy,Ponte Galeria,IT-RM,IT
+Italy,Pontecchio Marconi,IT-BO,IT
+Italy,Pontedera,IT-PI,IT
+Italy,Ponteranica,IT-BG,IT
+Italy,Ponzone,IT-VC,IT
+Italy,Pordenone,IT-PN,IT
+Italy,Portici,IT-NA,IT
+Italy,Porto Cervo,IT-SS,IT
+Italy,Porto Empedocle,IT-AG,IT
+Italy,Porto Mantovano,IT-MN,IT
+Italy,Porto Recanati,IT-MC,IT
+Italy,Porto San Giorgio,IT-AP,IT
+Italy,Porto Torres,IT-SS,IT
+Italy,Portoferraio,IT-LI,IT
+Italy,Portogruaro,IT-VE,IT
+Italy,Positano,IT-SA,IT
+Italy,Postal,IT-BZ,IT
+Italy,Potenza,IT-PZ,IT
+Italy,Povo,IT-TN,IT
+Italy,Pozzuoli,IT-NA,IT
+Italy,Pradamano,IT-UD,IT
+Italy,Praia a Mare,IT-CS,IT
+Italy,Pratella,IT-CE,IT
+Italy,Prato,IT-PO,IT
+Italy,Pratrivero,IT-BI,IT
+Italy,Preganziol,IT-TV,IT
+Italy,Pregnana Milanese,IT-MI,IT
+Italy,Presezzo,IT-BG,IT
+Italy,Priolo Gargallo,IT-SR,IT
+Italy,Priverno,IT-LT,IT
+Italy,Putignano,IT-BA,IT
+Italy,Quaregna,IT-BI,IT
+Italy,Quartu Sant Elena,IT-CA,IT
+Italy,Querceta,IT-LU,IT
+Italy,Quinto Di Treviso,IT-TV,IT
+Italy,Quistello,IT-MN,IT
+Italy,Racconigi,IT-CN,IT
+Italy,Racines,IT-BZ,IT
+Italy,Radicondoli,IT-SI,IT
+Italy,Ragusa,IT-RG,IT
+Italy,Ramacca,IT-CT,IT
+Italy,Ranica,IT-BG,IT
+Italy,Rapallo,IT-GE,IT
+Italy,Ravarino,IT-MO,IT
+Italy,Ravello,IT-SA,IT
+Italy,Ravenna,IT-RA,IT
+Italy,Recanati,IT-MC,IT
+Italy,Recco,IT-GE,IT
+Italy,Reggio Di Calabria,IT-RC,IT
+Italy,Reggio Emilia,IT-RE,IT
+Italy,Reggiolo,IT-RE,IT
+Italy,Rende,IT-CS,IT
+Italy,Rescaldina,IT-MI,IT
+Italy,Rho,IT-MI,IT
+Italy,Riccione,IT-RN,IT
+Italy,Rieti,IT-RI,IT
+Italy,Rimini,IT-RN,IT
+Italy,Riva Del Garda,IT-TN,IT
+Italy,Rivalta Di Torino,IT-TO,IT
+Italy,Rivarolo Canavese,IT-TO,IT
+Italy,Riviera,IT-BO,IT
+Italy,Rivoli,IT-TO,IT
+Italy,Rocca San Giovanni,IT-CH,IT
+Italy,Roccapiemonte,IT-SA,IT
+Italy,Rodano,IT-MI,IT
+Italy,Rome,IT-RM,IT
+Italy,Roncadelle,IT-BS,IT
+Italy,Ronciglione,IT-VT,IT
+Italy,Rosa,IT-VI,IT
+Italy,Roseto Degli Abruzzi,IT-TE,IT
+Italy,Rosignana Solvay,IT-LI,IT
+Italy,Rosignano Marittimo,IT-LI,IT
+Italy,Rosolina,IT-RO,IT
+Italy,Rossano Veneto,IT-VI,IT
+Italy,Rotondella,IT-MT,IT
+Italy,Rovato,IT-BS,IT
+Italy,Rovellasca,IT-CO,IT
+Italy,Roveredo in Piano,IT-PN,IT
+Italy,Rovereto,IT-TN,IT
+Italy,Rovigo,IT-RO,IT
+Italy,Rozzano,IT-MI,IT
+Italy,Rubano,IT-PD,IT
+Italy,Rubbiano,IT-PR,IT
+Italy,Rubiera,IT-RE,IT
+Italy,Rutigliano,IT-BA,IT
+Italy,Sacile,IT-PN,IT
+Italy,Sala Consilina,IT-SA,IT
+Italy,Salerno,IT-SA,IT
+Italy,Salo,IT-BS,IT
+Italy,Salsomaggiore Terme,IT-PR,IT
+Italy,Saluzzo,IT-CN,IT
+Italy,San Benedetto Del Tronto,IT-AP,IT
+Italy,San Bonifacio,IT-VR,IT
+Italy,San Candido,IT-BO,IT
+Italy,San Cesario Di Lecce,IT-LE,IT
+Italy,San Dona Di Piave,IT-VE,IT
+Italy,San Donato Milanese,IT-MI,IT
+Italy,San Donato Milanese,IT-VE,IT
+Italy,San Ferdinando Di Puglia,IT-FG,IT
+Italy,San Giorgio Di Piano,IT-BO,IT
+Italy,San Giorgio in Bosco,IT-PD,IT
+Italy,San Giorgio Ionico,IT-TA,IT
+Italy,San Giovanni Al Natisone,IT-UD,IT
+Italy,San Giovanni in Persiceto,IT-BO,IT
+Italy,San Giovanni la Punta,IT-CT,IT
+Italy,San Giovanni Lupatoto,IT-VR,IT
+Italy,San Giovanni Rotondo,IT-FG,IT
+Italy,San Giuliano Milanese,IT-MI,IT
+Italy,San Giuliano Terme,IT-PI,IT
+Italy,San Giustino,IT-PG,IT
+Italy,San Giusto Canavese,IT-TO,IT
+Italy,San Lazzaro Di Savena,IT-BO,IT
+Italy,San Marcello Pistoiese,IT-PT,IT
+Italy,San Mariano,IT-PG,IT
+Italy,San Martino Buon Albergo,IT-VR,IT
+Italy,San Martino in Campo,IT-PG,IT
+Italy,San Mauro Forte,IT-MT,IT
+Italy,San Mauro Torinese,IT-TO,IT
+Italy,San Miniato,IT-PI,IT
+Italy,San Nicola la Strada,IT-CE,IT
+Italy,San Nicolo a Trebbia,IT-PC,IT
+Italy,San Pietro in Cariano,IT-VR,IT
+Italy,San Severo,IT-FG,IT
+Italy,San Valentino Torio,IT-SA,IT
+Italy,San Vendemiano,IT-TV,IT
+Italy,San Vito Al Tagliamento,IT-PN,IT
+Italy,San Vito Di Leguzzano,IT-VI,IT
+Italy,San Vittore Olona,IT-MI,IT
+Italy,Sannicandro Di Bari,IT-BA,IT
+Italy,Sanremo,IT-IM,IT
+Italy,Sansepolcro,IT-AR,IT
+Italy,Sant Agata Li Battiati,IT-CT,IT
+Italy,Sant Elpidio a Mare,IT-AP,IT
+Italy,Sant Olcese,IT-GE,IT
+Italy,Sant'Eufemia Lamezia,IT-CZ,IT
+Italy,Santa Croce Sull'Arno,IT-PI,IT
+Italy,Santa Giusta,IT-OR,IT
+Italy,Santa Giustina in Colle,IT-PD,IT
+Italy,Santa Lucia,IT-SO,IT
+Italy,Santa Maria Di Sala,IT-VE,IT
+Italy,Santeramo in Colle,IT-BA,IT
+Italy,Santhia,IT-VC,IT
+Italy,Santo Stefano Di Cadore,IT-BL,IT
+Italy,Santu Lussurgiu,IT-OR,IT
+Italy,Saonara,IT-PD,IT
+Italy,Sarmeola,IT-PD,IT
+Italy,Sarnico,IT-BG,IT
+Italy,Saronno,IT-VA,IT
+Italy,Sarroch,IT-CA,IT
+Italy,Sarzana,IT-SP,IT
+Italy,Sassari,IT-SS,IT
+Italy,Sassuolo,IT-MO,IT
+Italy,Savigliano,IT-CN,IT
+Italy,Savignano Sul Rubicone,IT-RN,IT
+Italy,Savona,IT-SV,IT
+Italy,Scandiano,IT-RE,IT
+Italy,Scandicci,IT-FI,IT
+Italy,Schio,IT-VI,IT
+Italy,Sciacca,IT-AG,IT
+Italy,Scicli,IT-RG,IT
+Italy,Scorze,IT-VE,IT
+Italy,Segrate,IT-MI,IT
+Italy,Selargius,IT-CA,IT
+Italy,Selvazzano Dentro,IT-PD,IT
+Italy,Senago,IT-MI,IT
+Italy,Senigallia,IT-AN,IT
+Italy,Seregno,IT-MI,IT
+Italy,Seriate,IT-BG,IT
+Italy,Sesto,IT-BZ,IT
+Italy,Sesto Calende,IT-VA,IT
+Italy,Sesto Fiorentino,IT-FI,IT
+Italy,Sesto San Giovanni,IT-MI,IT
+Italy,Settala,IT-MI,IT
+Italy,Settimello,IT-FI,IT
+Italy,Settimo Milanese,IT-MI,IT
+Italy,Settimo Torinese,IT-TO,IT
+Italy,Seveso,IT-MI,IT
+Italy,Siena,IT-SI,IT
+Italy,Silea,IT-TV,IT
+Italy,Silvi Marina,IT-TE,IT
+Italy,Sinalunga,IT-SI,IT
+Italy,Siracusa,IT-SR,IT
+Italy,Sogliano Al Rubicone,IT-FO,IT
+Italy,Solaro,IT-MI,IT
+Italy,Solbiate Arno,IT-VA,IT
+Italy,Soliera,IT-MO,IT
+Italy,Somma Lombardo,IT-VA,IT
+Italy,Sondrio,IT-SO,IT
+Italy,Sonnino,IT-LT,IT
+Italy,Sorrento,IT-NA,IT
+Italy,Sorso,IT-SS,IT
+Italy,Soverato,IT-CZ,IT
+Italy,Spezzano,IT-MO,IT
+Italy,Spilimbergo,IT-PN,IT
+Italy,Spinetta Marengo,IT-AL,IT
+Italy,Spoleto,IT-PG,IT
+Italy,Spotorno,IT-SV,IT
+Italy,Spresiano,IT-TV,IT
+Italy,St-Vincent,IT-AO,IT
+Italy,Stra,IT-VE,IT
+Italy,Susegana,IT-TV,IT
+Italy,Suzzara,IT-MN,IT
+Italy,Talamello,IT-PS,IT
+Italy,Taormina,IT-ME,IT
+Italy,Taranto,IT-TA,IT
+Italy,Tarquinia,IT-VT,IT
+Italy,Tarvisio,IT-UD,IT
+Italy,Tassullo,IT-TN,IT
+Italy,Tavagnacco,IT-UD,IT
+Italy,Teggiano,IT-SA,IT
+Italy,Teramo,IT-TE,IT
+Italy,Terlano,IT-BZ,IT
+Italy,Terlizzi,IT-BA,IT
+Italy,Termoli,IT-CB,IT
+Italy,Terni,IT-TR,IT
+Italy,Terracina,IT-LT,IT
+Italy,Thiene,IT-VI,IT
+Italy,Tito,IT-PZ,IT
+Italy,Tivoli,IT-RM,IT
+Italy,Todi,IT-PG,IT
+Italy,Tolentino,IT-MC,IT
+Italy,Tolmezzo,IT-UD,IT
+Italy,Tombolo,IT-PD,IT
+Italy,Tor Vaianica,IT-RM,IT
+Italy,Torgiano,IT-PG,IT
+Italy,Torino,IT-TO,IT
+Italy,Torre Annunziata,IT-NA,IT
+Italy,Torre Boldone,IT-BG,IT
+Italy,Torre de Picenardi,IT-CR,IT
+Italy,Torre Del Greco,IT-NA,IT
+Italy,Torre Gaia,IT-RM,IT
+Italy,Torre San Giorgio,IT-CN,IT
+Italy,Torrebelvicino,IT-VI,IT
+Italy,Torreglia,IT-PD,IT
+Italy,Torri Di Quartesolo,IT-VI,IT
+Italy,Torrile,IT-PR,IT
+Italy,Torrita Di Siena,IT-SI,IT
+Italy,Tortona,IT-AL,IT
+Italy,Trani,IT-BA,IT
+Italy,Trapani,IT-TP,IT
+Italy,Trebaseleghe,IT-PD,IT
+Italy,Trecate,IT-NO,IT
+Italy,Tremestieri Etneo,IT-CT,IT
+Italy,Trento,IT-TN,IT
+Italy,Treviglio,IT-BG,IT
+Italy,Trevignano Romano,IT-RM,IT
+Italy,Treviolo,IT-BG,IT
+Italy,Treviso,IT-TV,IT
+Italy,Trezzano Rosa,IT-MI,IT
+Italy,Trezzano Sul Naviglio,IT-MI,IT
+Italy,Trezzo Sull Adda,IT-MI,IT
+Italy,Tribiano,IT-MI,IT
+Italy,Tricerro,IT-VC,IT
+Italy,Trieste,IT-TS,IT
+Italy,Trino,IT-VC,IT
+Italy,Trissino,IT-VI,IT
+Italy,Triuggio,IT-MI,IT
+Italy,Troina,IT-EN,IT
+Italy,Turate,IT-CO,IT
+Italy,Turbigo,IT-MI,IT
+Italy,Udine,IT-UD,IT
+Italy,Umbertide,IT-PG,IT
+Italy,Urbino,IT-PS,IT
+Italy,Uzzano,IT-PT,IT
+Italy,Vado Ligure,IT-SV,IT
+Italy,Valdagno,IT-VI,IT
+Italy,Valdobbiadene,IT-TV,IT
+Italy,Valenza,IT-AL,IT
+Italy,Valle Mosso,IT-BI,IT
+Italy,Valmadrera,IT-LC,IT
+Italy,Valmontone,IT-RM,IT
+Italy,Valperga,IT-TO,IT
+Italy,Vaprio d Adda,IT-MI,IT
+Italy,Varese,IT-VA,IT
+Italy,Vasto,IT-CH,IT
+Italy,Venaria,IT-TO,IT
+Italy,Venegono Superiore,IT-VA,IT
+Italy,Venice,IT-VE,IT
+Italy,Ventimiglia,IT-IM,IT
+Italy,Verbania,IT-VB,IT
+Italy,Vercelli,IT-VC,IT
+Italy,Vergato,IT-BO,IT
+Italy,Verona,IT-VR,IT
+Italy,Verzegnis,IT-UD,IT
+Italy,Vestone,IT-BS,IT
+Italy,Vezzano,IT-TN,IT
+Italy,Viadana,IT-MN,IT
+Italy,Viano,IT-RE,IT
+Italy,Viareggio,IT-LU,IT
+Italy,Vibo Valentia,IT-VV,IT
+Italy,Vicenza,IT-VI,IT
+Italy,Vico Del Gargano,IT-FG,IT
+Italy,Vigarano Mainarda,IT-FE,IT
+Italy,Vigevano,IT-PV,IT
+Italy,Vignate,IT-MI,IT
+Italy,Vignola,IT-MO,IT
+Italy,Vigonza,IT-PD,IT
+Italy,Villa Cortese,IT-MI,IT
+Italy,Villa San Giovanni,IT-RC,IT
+Italy,Villa-Carcina,IT-BS,IT
+Italy,Villafranca d Asti,IT-AT,IT
+Italy,Villafranca Di Verona,IT-VR,IT
+Italy,Villanova d'Asti,IT-AT,IT
+Italy,Villaricca,IT-NA,IT
+Italy,Villasanta,IT-MI,IT
+Italy,Villaverla,IT-VI,IT
+Italy,Villorba,IT-TV,IT
+Italy,Vimercate,IT-MI,IT
+Italy,Vimodrone,IT-MI,IT
+Italy,Vinci,IT-FI,IT
+Italy,Vinovo,IT-TO,IT
+Italy,Viterbo,IT-VT,IT
+Italy,Vittoria,IT-RG,IT
+Italy,Vittorio Veneto,IT-TV,IT
+Italy,Vittuone,IT-MI,IT
+Italy,Voghera,IT-PV,IT
+Italy,Volpago Del Montello,IT-TV,IT
+Italy,Volpiano,IT-TO,IT
+Italy,Volterra,IT-PI,IT
+Italy,Voltri,IT-GE,IT
+Italy,Zane,IT-VI,IT
+Italy,Zimella,IT-VR,IT
+Italy,Zogno,IT-BG,IT
+Italy,Zola Predosa,IT-BO,IT
+Japan,Abashiri,JP-01,JP
+Japan,Abiko,JP-12,JP
+Japan,Adachi,JP-13,JP
+Japan,Ageo,JP-11,JP
+Japan,Ago,JP-24,JP
+Japan,Aikawa,JP-14,JP
+Japan,Aizuwakamatsu,JP-07,JP
+Japan,Ajigasawa,JP-02,JP
+Japan,Akasaka,JP-33,JP
+Japan,Akasaki,JP-31,JP
+Japan,Akashi,JP-28,JP
+Japan,Aki,JP-39,JP
+Japan,Akiruno,JP-13,JP
+Japan,Akishima,JP-13,JP
+Japan,Akita,JP-05,JP
+Japan,Akitakata,JP-34,JP
+Japan,Akkeshi,JP-01,JP
+Japan,Ako,JP-28,JP
+Japan,Amagasaki,JP-28,JP
+Japan,Amagi,JP-40,JP
+Japan,Amakusa,JP-43,JP
+Japan,Amami,JP-46,JP
+Japan,Anan,JP-36,JP
+Japan,Anan,JP-20,JP
+Japan,Anjo,JP-23,JP
+Japan,Aomori,JP-02,JP
+Japan,Aoyamacho,JP-24,JP
+Japan,Arakawa,JP-13,JP
+Japan,Arakawa,JP-47,JP
+Japan,Arikawa,JP-42,JP
+Japan,Asago,JP-28,JP
+Japan,Asahi,JP-33,JP
+Japan,Asahikawa,JP-01,JP
+Japan,Asaka,JP-11,JP
+Japan,Asakuchi,JP-33,JP
+Japan,Asakura,JP-40,JP
+Japan,Ashibe,JP-42,JP
+Japan,Ashikagga,JP-09,JP
+Japan,Ashoro,JP-01,JP
+Japan,Asibetsu,JP-01,JP
+Japan,Aso,JP-43,JP
+Japan,Asuka,JP-29,JP
+Japan,Atsugi,JP-14,JP
+Japan,Atsumi,JP-23,JP
+Japan,Awa,JP-36,JP
+Japan,Awara,JP-18,JP
+Japan,Ayase,JP-14,JP
+Japan,Beppu,JP-44,JP
+Japan,Bibai,JP-01,JP
+Japan,Bifuka,JP-01,JP
+Japan,Bihoro,JP-01,JP
+Japan,Bizen,JP-33,JP
+Japan,Bungo-Takada,JP-44,JP
+Japan,Bungoono,JP-44,JP
+Japan,Bunkyo,JP-13,JP
+Japan,Chiba,JP-12,JP
+Japan,Chichibu,JP-11,JP
+Japan,Chigasaki,JP-14,JP
+Japan,Chihayaakasakamura,JP-27,JP
+Japan,Chikura,JP-12,JP
+Japan,Chino,JP-20,JP
+Japan,Chitose,JP-01,JP
+Japan,Chiyoda,JP-34,JP
+Japan,Chiyoda,JP-13,JP
+Japan,Chofu,JP-13,JP
+Japan,Choshi,JP-12,JP
+Japan,Chuo,JP-13,JP
+Japan,Chuo,JP-33,JP
+Japan,Daigo,JP-08,JP
+Japan,Daisen,JP-05,JP
+Japan,Daito,JP-32,JP
+Japan,Date,JP-01,JP
+Japan,Dejima,JP-08,JP
+Japan,Ebetsu,JP-01,JP
+Japan,Ebina,JP-14,JP
+Japan,Echizen,JP-25,JP
+Japan,Edogawa,JP-13,JP
+Japan,Eiheiji,JP-18,JP
+Japan,Ena,JP-21,JP
+Japan,Engaru,JP-01,JP
+Japan,Erimo,JP-01,JP
+Japan,Esasi,JP-01,JP
+Japan,Fuchu,JP-34,JP
+Japan,Fuchu,JP-13,JP
+Japan,Fuchu,JP-16,JP
+Japan,Fuji,JP-22,JP
+Japan,Fujieda,JP-22,JP
+Japan,Fujimino,JP-11,JP
+Japan,Fujinami,JP-23,JP
+Japan,Fujinomiya,JP-22,JP
+Japan,Fujioka,JP-10,JP
+Japan,Fujisawa,JP-14,JP
+Japan,Fujiyoshida,JP-19,JP
+Japan,Fukagawa,JP-01,JP
+Japan,Fukuchiyama,JP-26,JP
+Japan,Fukue,JP-42,JP
+Japan,Fukui,JP-18,JP
+Japan,Fukuoka,JP-40,JP
+Japan,Fukushima,JP-07,JP
+Japan,Fukuura,JP-14,JP
+Japan,Fukuyama,JP-34,JP
+Japan,Fukuzaki,JP-28,JP
+Japan,Funabashi,JP-12,JP
+Japan,Furano,JP-01,JP
+Japan,Furukawa,JP-04,JP
+Japan,Fussa,JP-13,JP
+Japan,Fuuren,JP-01,JP
+Japan,Gero,JP-21,JP
+Japan,Gifu,JP-21,JP
+Japan,Gobo,JP-30,JP
+Japan,Gojo,JP-29,JP
+Japan,Gosen,JP-15,JP
+Japan,Goshiki,JP-28,JP
+Japan,Goshogawara,JP-02,JP
+Japan,Gotemba,JP-22,JP
+Japan,Goto,JP-42,JP
+Japan,Gotsu,JP-32,JP
+Japan,Gunma,JP-10,JP
+Japan,Habikino,JP-27,JP
+Japan,Haboro,JP-01,JP
+Japan,Habu,JP-27,JP
+Japan,Hachiman,JP-21,JP
+Japan,Hachinohe,JP-02,JP
+Japan,Hachioji,JP-13,JP
+Japan,Hadano,JP-14,JP
+Japan,Hagi,JP-35,JP
+Japan,Haibara,JP-22,JP
+Japan,Hakodate,JP-01,JP
+Japan,Hakui,JP-17,JP
+Japan,Hamada,JP-32,JP
+Japan,Hamamatsu,JP-22,JP
+Japan,Hamasaka,JP-28,JP
+Japan,Hanamaki,JP-03,JP
+Japan,Handa,JP-23,JP
+Japan,Hanno,JP-11,JP
+Japan,Haramachi,JP-07,JP
+Japan,Harima,JP-28,JP
+Japan,Hashimoto,JP-30,JP
+Japan,Hatsukaichi,JP-34,JP
+Japan,Hayakita,JP-01,JP
+Japan,Hayama,JP-14,JP
+Japan,Higashihiroshima,JP-34,JP
+Japan,Higashikurume,JP-13,JP
+Japan,Higashimatsuyama,JP-11,JP
+Japan,Higashimurayama,JP-13,JP
+Japan,Higashiosaka,JP-27,JP
+Japan,Hikigun,JP-11,JP
+Japan,Hikone,JP-25,JP
+Japan,Himeji,JP-28,JP
+Japan,Hino,JP-13,JP
+Japan,Hirado,JP-42,JP
+Japan,Hiraizumi,JP-03,JP
+Japan,Hirakata,JP-27,JP
+Japan,Hirano,JP-47,JP
+Japan,Hirao,JP-35,JP
+Japan,Hiratsuka,JP-14,JP
+Japan,Hiroo,JP-01,JP
+Japan,Hirosaki,JP-02,JP
+Japan,Hiroshima,JP-34,JP
+Japan,Hirota,JP-28,JP
+Japan,Hita,JP-44,JP
+Japan,Hitachi,JP-08,JP
+Japan,Hitachiota,JP-08,JP
+Japan,Hitoyoshi,JP-43,JP
+Japan,Hodogaya,JP-14,JP
+Japan,Hofu,JP-35,JP
+Japan,Hokota,JP-08,JP
+Japan,Hondo,JP-43,JP
+Japan,Honjo,JP-05,JP
+Japan,Honjo,JP-11,JP
+Japan,Hyogo,JP-28,JP
+Japan,Hyuga,JP-45,JP
+Japan,Ibara,JP-33,JP
+Japan,Ibaraki,JP-08,JP
+Japan,Ibaraki,JP-27,JP
+Japan,Ibigawa,JP-21,JP
+Japan,Ibusuki,JP-46,JP
+Japan,Ichihara,JP-12,JP
+Japan,Ichikai,JP-09,JP
+Japan,Ichikawa,JP-12,JP
+Japan,Ichinomiya,JP-23,JP
+Japan,Ichinoseki,JP-03,JP
+Japan,Iga,JP-24,JP
+Japan,Iida,JP-20,JP
+Japan,Iiyama,JP-20,JP
+Japan,Iizuka,JP-40,JP
+Japan,Ikeda,JP-27,JP
+Japan,Ikoma,JP-29,JP
+Japan,Ikuno,JP-28,JP
+Japan,Ikusaka,JP-20,JP
+Japan,Imabari,JP-38,JP
+Japan,Imaichi,JP-09,JP
+Japan,Imari,JP-41,JP
+Japan,Imazu,JP-25,JP
+Japan,Ina,JP-20,JP
+Japan,Inage,JP-12,JP
+Japan,Inagi,JP-13,JP
+Japan,Inazawa,JP-23,JP
+Japan,Iruma,JP-11,JP
+Japan,Isahaya,JP-42,JP
+Japan,Ise,JP-24,JP
+Japan,Isehara,JP-14,JP
+Japan,Isesaki,JP-10,JP
+Japan,Ishibashi,JP-09,JP
+Japan,Ishikawa,JP-47,JP
+Japan,Ishikawa,JP-07,JP
+Japan,Ishiki,JP-23,JP
+Japan,Ishinomaki,JP-04,JP
+Japan,Ishioka,JP-08,JP
+Japan,Isikari,JP-01,JP
+Japan,Itabashi,JP-13,JP
+Japan,Itako,JP-08,JP
+Japan,Itami,JP-28,JP
+Japan,Ito,JP-22,JP
+Japan,Itoigawa,JP-15,JP
+Japan,Iwade,JP-30,JP
+Japan,Iwaizumi,JP-03,JP
+Japan,Iwaki,JP-07,JP
+Japan,Iwakuni,JP-35,JP
+Japan,Iwami,JP-32,JP
+Japan,Iwamizawa,JP-01,JP
+Japan,Iwanai,JP-01,JP
+Japan,Iwanuma,JP-04,JP
+Japan,Iwata,JP-22,JP
+Japan,Iwatsuki,JP-11,JP
+Japan,Iyo,JP-38,JP
+Japan,Iyomishima,JP-38,JP
+Japan,Izu,JP-22,JP
+Japan,Izumi,JP-46,JP
+Japan,Izumi,JP-27,JP
+Japan,Izumiotsu,JP-27,JP
+Japan,Izumisano,JP-27,JP
+Japan,Izumo,JP-32,JP
+Japan,Joetsu,JP-15,JP
+Japan,Joso,JP-08,JP
+Japan,Kadena,JP-47,JP
+Japan,Kadoma,JP-27,JP
+Japan,Kaga,JP-17,JP
+Japan,Kagawa,JP-37,JP
+Japan,Kagoshima,JP-46,JP
+Japan,Kaizuka,JP-27,JP
+Japan,Kajikazawa,JP-19,JP
+Japan,Kajiki,JP-46,JP
+Japan,Kakamigahara,JP-21,JP
+Japan,Kakegawa,JP-22,JP
+Japan,Kakeyamachi,JP-32,JP
+Japan,Kakogawa,JP-28,JP
+Japan,Kamakura,JP-14,JP
+Japan,Kameoka,JP-26,JP
+Japan,Kameyama,JP-24,JP
+Japan,Kami,JP-39,JP
+Japan,Kamifukuoka,JP-11,JP
+Japan,Kamimaki,JP-29,JP
+Japan,Kamiosaki,JP-13,JP
+Japan,Kamoenai,JP-01,JP
+Japan,Kamogata,JP-33,JP
+Japan,Kamogawa,JP-12,JP
+Japan,Kamojima,JP-36,JP
+Japan,Kanagawa,JP-14,JP
+Japan,Kanazawa,JP-17,JP
+Japan,Kanda,JP-40,JP
+Japan,Kani,JP-21,JP
+Japan,Kanonji,JP-37,JP
+Japan,Kanoya,JP-46,JP
+Japan,Kanuma,JP-09,JP
+Japan,Karasuyama,JP-09,JP
+Japan,Karatsu,JP-41,JP
+Japan,Kariya,JP-23,JP
+Japan,Kasai,JP-28,JP
+Japan,Kasama,JP-08,JP
+Japan,Kasaoka,JP-33,JP
+Japan,Kaseda,JP-46,JP
+Japan,Kashihara,JP-29,JP
+Japan,Kashima,JP-41,JP
+Japan,Kashima,JP-08,JP
+Japan,Kashiwa,JP-12,JP
+Japan,Kashiwazaki,JP-15,JP
+Japan,Kasugabaru,JP-40,JP
+Japan,Kasugai,JP-23,JP
+Japan,Kasukabe,JP-11,JP
+Japan,Kasumigaseki,JP-13,JP
+Japan,Kataoka,JP-25,JP
+Japan,Kato,JP-28,JP
+Japan,Katori,JP-12,JP
+Japan,Katsushika,JP-13,JP
+Japan,Kawabe,JP-30,JP
+Japan,Kawachi,JP-09,JP
+Japan,Kawachinagano,JP-27,JP
+Japan,Kawagoe,JP-11,JP
+Japan,Kawaguchi,JP-11,JP
+Japan,Kawajiri,JP-34,JP
+Japan,Kawamoto,JP-32,JP
+Japan,Kawanishi,JP-28,JP
+Japan,Kawasaki,JP-14,JP
+Japan,Kazo,JP-11,JP
+Japan,Kazuno,JP-05,JP
+Japan,Kesennuma,JP-04,JP
+Japan,Kibe,JP-44,JP
+Japan,Kikonai,JP-01,JP
+Japan,Kikugawa,JP-35,JP
+Japan,Kimitsu,JP-12,JP
+Japan,Kinoe,JP-34,JP
+Japan,Kira,JP-23,JP
+Japan,Kiryu,JP-10,JP
+Japan,Kisarazu,JP-12,JP
+Japan,Kishiwada,JP-27,JP
+Japan,Kiso,JP-20,JP
+Japan,Kisuki,JP-32,JP
+Japan,Kita,JP-13,JP
+Japan,Kitakami,JP-03,JP
+Japan,Kitakata,JP-07,JP
+Japan,Kitakyushu,JP-40,JP
+Japan,Kitami,JP-01,JP
+Japan,Kitaura,JP-08,JP
+Japan,Kitsuki,JP-44,JP
+Japan,Kiyota,JP-01,JP
+Japan,Kizuki,JP-14,JP
+Japan,Kobayashi,JP-45,JP
+Japan,Kobe,JP-28,JP
+Japan,Kochi,JP-39,JP
+Japan,Kodaira,JP-13,JP
+Japan,Kofu,JP-19,JP
+Japan,Koga,JP-08,JP
+Japan,Koga,JP-40,JP
+Japan,Kogane,JP-12,JP
+Japan,Koganei,JP-13,JP
+Japan,Koge,JP-31,JP
+Japan,Koide,JP-15,JP
+Japan,Kokubunji,JP-13,JP
+Japan,Komae,JP-13,JP
+Japan,Komaki,JP-23,JP
+Japan,Komatsu,JP-17,JP
+Japan,Komatsushima,JP-36,JP
+Japan,Komoro,JP-20,JP
+Japan,Konan,JP-23,JP
+Japan,Konohana,JP-27,JP
+Japan,Koriyama,JP-07,JP
+Japan,Koshigaya,JP-11,JP
+Japan,Koto,JP-13,JP
+Japan,Kozan,JP-34,JP
+Japan,Kubokawa,JP-39,JP
+Japan,Kudamatsu,JP-35,JP
+Japan,Kuga,JP-35,JP
+Japan,Kuji,JP-03,JP
+Japan,Kuki,JP-11,JP
+Japan,Kuma,JP-38,JP
+Japan,Kumagaya,JP-11,JP
+Japan,Kumaishi,JP-01,JP
+Japan,Kumamoto,JP-43,JP
+Japan,Kumanogawa,JP-30,JP
+Japan,Kunisaki,JP-44,JP
+Japan,Kurashiki,JP-33,JP
+Japan,Kurayoshi,JP-31,JP
+Japan,Kure,JP-34,JP
+Japan,Kurihama,JP-14,JP
+Japan,Kuriyama,JP-01,JP
+Japan,Kuroiso,JP-09,JP
+Japan,Kuromatsunai,JP-01,JP
+Japan,Kurosaki,JP-40,JP
+Japan,Kurume,JP-40,JP
+Japan,Kusatsu,JP-25,JP
+Japan,Kuse,JP-33,JP
+Japan,Kushimoto,JP-30,JP
+Japan,Kushiro,JP-01,JP
+Japan,Kusu,JP-44,JP
+Japan,Kutchan,JP-01,JP
+Japan,Kuwana,JP-24,JP
+Japan,Kyotango,JP-26,JP
+Japan,Kyoto,JP-26,JP
+Japan,Machida,JP-13,JP
+Japan,Maebaru,JP-40,JP
+Japan,Maebashi,JP-10,JP
+Japan,Maizuru,JP-26,JP
+Japan,Maki,JP-15,JP
+Japan,Makuhari,JP-12,JP
+Japan,Makurazaki,JP-46,JP
+Japan,Marugame,JP-37,JP
+Japan,Masuda,JP-32,JP
+Japan,Matsubara,JP-27,JP
+Japan,Matsubase,JP-43,JP
+Japan,Matsuda,JP-14,JP
+Japan,Matsudo,JP-12,JP
+Japan,Matsue,JP-32,JP
+Japan,Matsumae,JP-01,JP
+Japan,Matsumoto,JP-20,JP
+Japan,Matsusaka,JP-24,JP
+Japan,Matsushima,JP-04,JP
+Japan,Matsuura,JP-42,JP
+Japan,Matsuyama,JP-38,JP
+Japan,Meguro,JP-13,JP
+Japan,Miasa,JP-20,JP
+Japan,Mie,JP-44,JP
+Japan,Mihama,JP-30,JP
+Japan,Mihara,JP-34,JP
+Japan,Miharu,JP-07,JP
+Japan,Miki,JP-28,JP
+Japan,Mimasaka,JP-33,JP
+Japan,Minakuchi,JP-25,JP
+Japan,Minamata,JP-43,JP
+Japan,Minami,JP-21,JP
+Japan,Minamiashigara,JP-14,JP
+Japan,Minamiboso,JP-12,JP
+Japan,Minamisoma,JP-07,JP
+Japan,Minamiuonuma,JP-15,JP
+Japan,Minato,JP-13,JP
+Japan,Minato,JP-12,JP
+Japan,Mine,JP-35,JP
+Japan,Mineyama,JP-26,JP
+Japan,Minobu,JP-19,JP
+Japan,Minokamo,JP-21,JP
+Japan,Minoo,JP-27,JP
+Japan,Minowa,JP-20,JP
+Japan,Misato,JP-11,JP
+Japan,Misato,JP-30,JP
+Japan,Misawa,JP-02,JP
+Japan,Mishima,JP-22,JP
+Japan,Misho,JP-38,JP
+Japan,Mitaka,JP-13,JP
+Japan,Mito,JP-08,JP
+Japan,Mitsu,JP-33,JP
+Japan,Mitsukaido,JP-08,JP
+Japan,Miyagi,JP-10,JP
+Japan,Miyako,JP-03,JP
+Japan,Miyakonojo,JP-45,JP
+Japan,Miyazaki,JP-45,JP
+Japan,Miyazu,JP-26,JP
+Japan,Miyoshi,JP-34,JP
+Japan,Miyoshi,JP-11,JP
+Japan,Mizuho,JP-26,JP
+Japan,Mizusawa,JP-03,JP
+Japan,Mobara,JP-12,JP
+Japan,Moka,JP-09,JP
+Japan,Monbetsu,JP-01,JP
+Japan,Mori,JP-01,JP
+Japan,Moriguchi,JP-27,JP
+Japan,Morioka,JP-03,JP
+Japan,Moseushi,JP-01,JP
+Japan,Mugi,JP-36,JP
+Japan,Muikamachi,JP-15,JP
+Japan,Muko,JP-26,JP
+Japan,Munakata,JP-40,JP
+Japan,Murakami,JP-15,JP
+Japan,Murayama,JP-06,JP
+Japan,Muroran,JP-01,JP
+Japan,Muroto,JP-39,JP
+Japan,Musashino,JP-13,JP
+Japan,Mutsu,JP-02,JP
+Japan,Nabari,JP-24,JP
+Japan,Nagahama,JP-25,JP
+Japan,Nagano,JP-20,JP
+Japan,Naganohara,JP-10,JP
+Japan,Naganuma,JP-01,JP
+Japan,Nagaoka,JP-15,JP
+Japan,Nagareyama,JP-12,JP
+Japan,Nagasaki,JP-42,JP
+Japan,Nagasawa,JP-14,JP
+Japan,Nagasu,JP-43,JP
+Japan,Nagato,JP-35,JP
+Japan,Nago,JP-47,JP
+Japan,Nagoya,JP-23,JP
+Japan,Naha,JP-47,JP
+Japan,Naka,JP-29,JP
+Japan,Naka-Shibetsu,JP-01,JP
+Japan,Nakano,JP-13,JP
+Japan,Nakano,JP-20,JP
+Japan,Nakatsu,JP-44,JP
+Japan,Nakatsugawa,JP-21,JP
+Japan,Nakazato,JP-47,JP
+Japan,Nanae,JP-01,JP
+Japan,Nanao,JP-17,JP
+Japan,Naniwa,JP-27,JP
+Japan,Nanporo,JP-01,JP
+Japan,Nantan,JP-26,JP
+Japan,Nara,JP-29,JP
+Japan,Narashino,JP-12,JP
+Japan,Narita,JP-12,JP
+Japan,Nasu,JP-09,JP
+Japan,Nayoro,JP-01,JP
+Japan,Naze,JP-46,JP
+Japan,Negishi,JP-11,JP
+Japan,Nemuro,JP-01,JP
+Japan,Nerima,JP-13,JP
+Japan,Neyagawa,JP-27,JP
+Japan,Nichinan,JP-45,JP
+Japan,Nihommatsu,JP-07,JP
+Japan,Niigata,JP-15,JP
+Japan,Niihama,JP-38,JP
+Japan,Niikappu,JP-01,JP
+Japan,Niimi,JP-33,JP
+Japan,Niitsu,JP-15,JP
+Japan,Niiza,JP-11,JP
+Japan,Nikko,JP-09,JP
+Japan,Ninohe,JP-03,JP
+Japan,Nirasaki,JP-19,JP
+Japan,Nishinara,JP-27,JP
+Japan,Nishinasuno,JP-09,JP
+Japan,Nishinomiya,JP-28,JP
+Japan,Nishio,JP-23,JP
+Japan,Nishitokyo,JP-13,JP
+Japan,Nishiwaki,JP-28,JP
+Japan,Nisshin,JP-23,JP
+Japan,Nobeoka,JP-45,JP
+Japan,Noboribetsu,JP-01,JP
+Japan,Noda,JP-12,JP
+Japan,Nogata,JP-40,JP
+Japan,Noheji,JP-02,JP
+Japan,Nosaka,JP-12,JP
+Japan,Noshiro,JP-05,JP
+Japan,Noto,JP-17,JP
+Japan,Numata,JP-01,JP
+Japan,Numata,JP-10,JP
+Japan,Numazu,JP-22,JP
+Japan,Obama,JP-18,JP
+Japan,Obihiro,JP-01,JP
+Japan,Obu,JP-23,JP
+Japan,Obuse,JP-20,JP
+Japan,Ochiai,JP-33,JP
+Japan,Odai,JP-24,JP
+Japan,Odate,JP-05,JP
+Japan,Odawara,JP-14,JP
+Japan,Ofunato,JP-03,JP
+Japan,Oga,JP-05,JP
+Japan,Ogaki,JP-21,JP
+Japan,Ogori,JP-35,JP
+Japan,Oguchi,JP-23,JP
+Japan,Ohara,JP-33,JP
+Japan,Oi,JP-11,JP
+Japan,Oita,JP-44,JP
+Japan,Okaya,JP-20,JP
+Japan,Okayama,JP-33,JP
+Japan,Okazaki,JP-23,JP
+Japan,Okinawa,JP-47,JP
+Japan,Oku,JP-33,JP
+Japan,Okushiri,JP-01,JP
+Japan,Omachi,JP-20,JP
+Japan,Omagari,JP-05,JP
+Japan,Ome,JP-13,JP
+Japan,Omihachiman,JP-25,JP
+Japan,Omiya,JP-11,JP
+Japan,Omuta,JP-40,JP
+Japan,Onomichi,JP-34,JP
+Japan,Osaka,JP-27,JP
+Japan,Osaki,JP-04,JP
+Japan,Oshu,JP-03,JP
+Japan,Ota,JP-10,JP
+Japan,Ota,JP-13,JP
+Japan,Otaki,JP-01,JP
+Japan,Otari,JP-20,JP
+Japan,Otaru,JP-01,JP
+Japan,Otawara,JP-09,JP
+Japan,Otsu,JP-25,JP
+Japan,Otsuki,JP-19,JP
+Japan,Owada,JP-11,JP
+Japan,Owase,JP-24,JP
+Japan,Oyama,JP-09,JP
+Japan,Oyodo,JP-29,JP
+Japan,Ozu,JP-38,JP
+Japan,Rikubetsu,JP-01,JP
+Japan,Rumoi,JP-01,JP
+Japan,Ryugasaki,JP-08,JP
+Japan,Saeki,JP-44,JP
+Japan,Saga,JP-41,JP
+Japan,Sagae,JP-06,JP
+Japan,Sagamihara,JP-14,JP
+Japan,Saigo,JP-32,JP
+Japan,Saitama,JP-11,JP
+Japan,Saito,JP-45,JP
+Japan,Saiwai,JP-14,JP
+Japan,Sakado,JP-11,JP
+Japan,Sakai,JP-27,JP
+Japan,Sakaide,JP-37,JP
+Japan,Sakaki,JP-20,JP
+Japan,Sakata,JP-06,JP
+Japan,Sakawa,JP-39,JP
+Japan,Saku,JP-20,JP
+Japan,Sakura,JP-12,JP
+Japan,Sambommatsu,JP-37,JP
+Japan,Sanda,JP-28,JP
+Japan,Sanjo,JP-15,JP
+Japan,Sannohe,JP-02,JP
+Japan,Sano,JP-09,JP
+Japan,Sapporo,JP-01,JP
+Japan,Sarufutsu,JP-01,JP
+Japan,Sasayama,JP-28,JP
+Japan,Sasebo,JP-42,JP
+Japan,Sawara,JP-12,JP
+Japan,Sayama,JP-27,JP
+Japan,Sayama,JP-11,JP
+Japan,Seika,JP-26,JP
+Japan,Seki,JP-21,JP
+Japan,Sendai,JP-04,JP
+Japan,Sendai,JP-46,JP
+Japan,Setagaya,JP-13,JP
+Japan,Setaka,JP-40,JP
+Japan,Setana,JP-01,JP
+Japan,Seto,JP-23,JP
+Japan,Shari,JP-01,JP
+Japan,Shibata,JP-15,JP
+Japan,Shibayama,JP-12,JP
+Japan,Shibecha,JP-01,JP
+Japan,Shibecho,JP-01,JP
+Japan,Shibetsu,JP-01,JP
+Japan,Shibukawa,JP-10,JP
+Japan,Shibushi,JP-46,JP
+Japan,Shibuya,JP-13,JP
+Japan,Shiga,JP-25,JP
+Japan,Shikaoi,JP-01,JP
+Japan,Shiki,JP-11,JP
+Japan,Shikokuchuo,JP-38,JP
+Japan,Shima,JP-24,JP
+Japan,Shimabara,JP-42,JP
+Japan,Shimada,JP-22,JP
+Japan,Shimane,JP-32,JP
+Japan,Shimizu,JP-01,JP
+Japan,Shimizu,JP-22,JP
+Japan,Shimoda,JP-22,JP
+Japan,Shimodate,JP-08,JP
+Japan,Shimoichi,JP-29,JP
+Japan,Shimono,JP-09,JP
+Japan,Shimonoseki,JP-35,JP
+Japan,Shinagawa,JP-13,JP
+Japan,Shingu,JP-30,JP
+Japan,Shinjo,JP-06,JP
+Japan,Shinjuku,JP-13,JP
+Japan,Shinkawa,JP-23,JP
+Japan,Shinmachi,JP-10,JP
+Japan,Shinshiro,JP-23,JP
+Japan,Shiojiri,JP-20,JP
+Japan,Shirahama,JP-30,JP
+Japan,Shirakawa,JP-07,JP
+Japan,Shiranuka,JP-01,JP
+Japan,Shiraoi,JP-01,JP
+Japan,Shiroishi,JP-04,JP
+Japan,Shitara,JP-23,JP
+Japan,Shizunai,JP-01,JP
+Japan,Shizuoka,JP-22,JP
+Japan,Shobara,JP-34,JP
+Japan,Shokawa,JP-21,JP
+Japan,Shonan,JP-12,JP
+Japan,Shunan,JP-35,JP
+Japan,Shuzenji,JP-22,JP
+Japan,Soja,JP-33,JP
+Japan,Soka,JP-11,JP
+Japan,Sonobe,JP-26,JP
+Japan,Suginami,JP-13,JP
+Japan,Suita,JP-27,JP
+Japan,Sukagawa,JP-07,JP
+Japan,Sukumo,JP-39,JP
+Japan,Sumida,JP-13,JP
+Japan,Sumoto,JP-28,JP
+Japan,Sunagawa,JP-01,JP
+Japan,Susaki,JP-39,JP
+Japan,Suttsu,JP-01,JP
+Japan,Suwa,JP-20,JP
+Japan,Suzu,JP-17,JP
+Japan,Suzuka,JP-24,JP
+Japan,Tachikawa,JP-13,JP
+Japan,Tagajo,JP-04,JP
+Japan,Tagawa,JP-40,JP
+Japan,Tahara,JP-23,JP
+Japan,Taito,JP-13,JP
+Japan,Tajima,JP-07,JP
+Japan,Tajimi,JP-21,JP
+Japan,Tajiri,JP-27,JP
+Japan,Takachiho,JP-45,JP
+Japan,Takahagi,JP-08,JP
+Japan,Takahara,JP-47,JP
+Japan,Takahashi,JP-33,JP
+Japan,Takamatsu,JP-37,JP
+Japan,Takamori,JP-20,JP
+Japan,Takanezawa,JP-09,JP
+Japan,Takanosu,JP-05,JP
+Japan,Takaoka,JP-16,JP
+Japan,Takarazuka,JP-28,JP
+Japan,Takasaki,JP-10,JP
+Japan,Takasu,JP-21,JP
+Japan,Takatomi,JP-21,JP
+Japan,Takatsuki,JP-27,JP
+Japan,Takayama,JP-21,JP
+Japan,Takefu,JP-18,JP
+Japan,Takehara,JP-34,JP
+Japan,Takeo,JP-41,JP
+Japan,Taketa,JP-44,JP
+Japan,Takikawa,JP-01,JP
+Japan,Tama,JP-13,JP
+Japan,Tamana,JP-43,JP
+Japan,Tamano,JP-33,JP
+Japan,Tanabe,JP-30,JP
+Japan,Tanashi,JP-13,JP
+Japan,Tanushimaru,JP-40,JP
+Japan,Tatebayashi,JP-10,JP
+Japan,Tateyama,JP-12,JP
+Japan,Tatsuno,JP-28,JP
+Japan,Tenryu,JP-22,JP
+Japan,Teshio,JP-01,JP
+Japan,Tesikaga,JP-01,JP
+Japan,Toba,JP-24,JP
+Japan,Tobetsu,JP-01,JP
+Japan,Tochigi,JP-09,JP
+Japan,Togane,JP-12,JP
+Japan,Togauchi,JP-34,JP
+Japan,Tojo,JP-34,JP
+Japan,Tokai,JP-23,JP
+Japan,Tokamachi,JP-15,JP
+Japan,Tokorozawa,JP-11,JP
+Japan,Tokunoshima,JP-46,JP
+Japan,Tokushima,JP-36,JP
+Japan,Tokuyama,JP-35,JP
+Japan,Tokyo,JP-13,JP
+Japan,Tomakomai,JP-01,JP
+Japan,Tomioka,JP-10,JP
+Japan,Tonami,JP-16,JP
+Japan,Tondabayashi,JP-27,JP
+Japan,Tono,JP-03,JP
+Japan,Toride,JP-08,JP
+Japan,Tosa,JP-39,JP
+Japan,Tosashimizu,JP-39,JP
+Japan,Tosayamada,JP-39,JP
+Japan,Toshima,JP-13,JP
+Japan,Tottori,JP-31,JP
+Japan,Towada,JP-02,JP
+Japan,Toya,JP-01,JP
+Japan,Toyama,JP-16,JP
+Japan,Toyohama,JP-37,JP
+Japan,Toyohashi,JP-23,JP
+Japan,Toyohira,JP-34,JP
+Japan,Toyokawa,JP-23,JP
+Japan,Toyonaka,JP-27,JP
+Japan,Toyooka,JP-28,JP
+Japan,Toyosaka,JP-15,JP
+Japan,Toyota,JP-23,JP
+Japan,Toyota,JP-35,JP
+Japan,Toyotama,JP-42,JP
+Japan,Toyoura,JP-35,JP
+Japan,Tsu,JP-24,JP
+Japan,Tsuchiura,JP-08,JP
+Japan,Tsukigata,JP-01,JP
+Japan,Tsukuba,JP-08,JP
+Japan,Tsuna,JP-28,JP
+Japan,Tsuruga,JP-18,JP
+Japan,Tsurugi,JP-17,JP
+Japan,Tsuruoka,JP-06,JP
+Japan,Tsushima,JP-23,JP
+Japan,Tsuwano,JP-32,JP
+Japan,Tsuyama,JP-33,JP
+Japan,Ube,JP-35,JP
+Japan,Udono,JP-24,JP
+Japan,Ueda,JP-20,JP
+Japan,Ueno,JP-24,JP
+Japan,Uji,JP-26,JP
+Japan,Ukyo,JP-26,JP
+Japan,Unnan,JP-32,JP
+Japan,Uozu,JP-16,JP
+Japan,Urakawa,JP-01,JP
+Japan,Urasoe,JP-47,JP
+Japan,Urawa,JP-11,JP
+Japan,Urayasu,JP-12,JP
+Japan,Uruma,JP-47,JP
+Japan,Ushibuka,JP-43,JP
+Japan,Usuki,JP-44,JP
+Japan,Utsumi,JP-34,JP
+Japan,Utsunomiya,JP-09,JP
+Japan,Uwa,JP-38,JP
+Japan,Uwajima,JP-38,JP
+Japan,Wajima,JP-17,JP
+Japan,Wakayama,JP-30,JP
+Japan,Waki,JP-36,JP
+Japan,Wakkanai,JP-01,JP
+Japan,Wako,JP-11,JP
+Japan,Warabi,JP-11,JP
+Japan,Yagi,JP-26,JP
+Japan,Yaizu,JP-22,JP
+Japan,Yakumo,JP-01,JP
+Japan,Yamaga,JP-43,JP
+Japan,Yamagata,JP-06,JP
+Japan,Yamagata,JP-21,JP
+Japan,Yamaguchi,JP-35,JP
+Japan,Yamanashi,JP-19,JP
+Japan,Yamato,JP-14,JP
+Japan,Yamatokoriyama,JP-29,JP
+Japan,Yamatotakada,JP-29,JP
+Japan,Yame,JP-40,JP
+Japan,Yanai,JP-35,JP
+Japan,Yao,JP-27,JP
+Japan,Yashiro,JP-28,JP
+Japan,Yasu,JP-25,JP
+Japan,Yasuda,JP-39,JP
+Japan,Yasugi,JP-32,JP
+Japan,Yasuzuka,JP-15,JP
+Japan,Yatsuo,JP-16,JP
+Japan,Yatsushiro,JP-43,JP
+Japan,Yawata,JP-26,JP
+Japan,Yawatahama,JP-38,JP
+Japan,Yodogawa,JP-27,JP
+Japan,Yoichi,JP-01,JP
+Japan,Yoka,JP-28,JP
+Japan,Yokaichi,JP-25,JP
+Japan,Yokaichiba,JP-12,JP
+Japan,Yokkaichi,JP-24,JP
+Japan,Yokohama,JP-14,JP
+Japan,Yokosuka,JP-14,JP
+Japan,Yokote,JP-05,JP
+Japan,Yonago,JP-31,JP
+Japan,Yonezawa,JP-06,JP
+Japan,Yono,JP-11,JP
+Japan,Yoshida,JP-34,JP
+Japan,Yoshino,JP-29,JP
+Japan,Yoshinogawa,JP-36,JP
+Japan,Yuasa,JP-30,JP
+Japan,Yubari,JP-01,JP
+Japan,Yudomari,JP-46,JP
+Japan,Yuge,JP-22,JP
+Japan,Yukuhashi,JP-40,JP
+Japan,Yura,JP-30,JP
+Japan,Yurihonjo,JP-05,JP
+Japan,Yuzawa,JP-05,JP
+Japan,Zama,JP-14,JP
+Netherlands,Aalburg,NL-GE,NL
+Netherlands,Aalsmeer,NL-NH,NL
+Netherlands,Aalten,NL-GE,NL
+Netherlands,Akersloot,NL-NH,NL
+Netherlands,Akkrum,NL-FR,NL
+Netherlands,Alblasserdam,NL-ZH,NL
+Netherlands,Alkmaar,NL-NH,NL
+Netherlands,Almelo,NL-OV,NL
+Netherlands,Almere,NL-FL,NL
+Netherlands,Alphen Aan Den Rijn,NL-ZH,NL
+Netherlands,Amerongen,NL-UT,NL
+Netherlands,Amersfoort,NL-UT,NL
+Netherlands,Ammerzoden,NL-GE,NL
+Netherlands,Amstelveen,NL-NH,NL
+Netherlands,Amsterdam,NL-NH,NL
+Netherlands,Angerlo,NL-GE,NL
+Netherlands,Apeldoorn,NL-GE,NL
+Netherlands,Appingedam,NL-GR,NL
+Netherlands,Arkel,NL-ZH,NL
+Netherlands,Arnemuiden,NL-ZE,NL
+Netherlands,Arnhem,NL-GE,NL
+Netherlands,Asperen,NL-GE,NL
+Netherlands,Assen,NL-DR,NL
+Netherlands,Baambrugge,NL-UT,NL
+Netherlands,Baarle-Nassau,NL-NB,NL
+Netherlands,Baarn,NL-UT,NL
+Netherlands,Babberich,NL-GE,NL
+Netherlands,Badhoevedorp,NL-NH,NL
+Netherlands,Badhoevendorp,NL-NH,NL
+Netherlands,Balk,NL-FR,NL
+Netherlands,Barendrecht,NL-ZH,NL
+Netherlands,Barneveld,NL-GE,NL
+Netherlands,Bedum,NL-GR,NL
+Netherlands,Beek,NL-GE,NL
+Netherlands,Beekbergen,NL-GE,NL
+Netherlands,Beilen,NL-DR,NL
+Netherlands,Benschop,NL-UT,NL
+Netherlands,Bergambacht,NL-ZH,NL
+Netherlands,Bergen,NL-NH,NL
+Netherlands,Bergum,NL-FR,NL
+Netherlands,Best,NL-NB,NL
+Netherlands,Beuningen,NL-GE,NL
+Netherlands,Beverwijk,NL-NH,NL
+Netherlands,Biddinghuizen,NL-FL,NL
+Netherlands,Bilthoven,NL-UT,NL
+Netherlands,Bladel,NL-NB,NL
+Netherlands,Blaricum,NL-NH,NL
+Netherlands,Bleiswijk,NL-ZH,NL
+Netherlands,Bloemendaal,NL-NH,NL
+Netherlands,Blokker,NL-NH,NL
+Netherlands,Bodegraven,NL-ZH,NL
+Netherlands,Bollendorp,NL-NH,NL
+Netherlands,Bolsward,NL-FR,NL
+Netherlands,Borculo,NL-GE,NL
+Netherlands,Borne,NL-OV,NL
+Netherlands,Bosch en Duin,NL-UT,NL
+Netherlands,Boskoop,NL-ZH,NL
+Netherlands,Botlek,NL-ZH,NL
+Netherlands,Bovensmilde,NL-DR,NL
+Netherlands,Boxmeer,NL-NB,NL
+Netherlands,Boxtel,NL-NB,NL
+Netherlands,Brakel,NL-GE,NL
+Netherlands,Breda,NL-NB,NL
+Netherlands,Breukelen,NL-UT,NL
+Netherlands,Brielle,NL-ZH,NL
+Netherlands,Brummen,NL-GE,NL
+Netherlands,Brunssum,NL-LI,NL
+Netherlands,Budel,NL-NB,NL
+Netherlands,Bunnik,NL-UT,NL
+Netherlands,Bunschoten,NL-UT,NL
+Netherlands,Buren,NL-GE,NL
+Netherlands,Bussum,NL-NH,NL
+Netherlands,Capelle Aan Den Ijssel,NL-ZH,NL
+Netherlands,Castricum,NL-NH,NL
+Netherlands,Coevorden,NL-DR,NL
+Netherlands,Cruquius,NL-NH,NL
+Netherlands,Cuijk,NL-GE,NL
+Netherlands,Culemborg,NL-GE,NL
+Netherlands,Dalfsen,NL-OV,NL
+Netherlands,De Bilt,NL-UT,NL
+Netherlands,De Kwakel,NL-NH,NL
+Netherlands,De Lier,NL-ZH,NL
+Netherlands,De Meern,NL-UT,NL
+Netherlands,Dedemsvaart,NL-OV,NL
+Netherlands,Delft,NL-ZH,NL
+Netherlands,Delfzijl,NL-GR,NL
+Netherlands,Den Dolder,NL-UT,NL
+Netherlands,Den Helder,NL-NH,NL
+Netherlands,Den Hoorn,NL-ZH,NL
+Netherlands,Deurne,NL-NB,NL
+Netherlands,Deventer,NL-OV,NL
+Netherlands,Didam,NL-GE,NL
+Netherlands,Diemen,NL-NH,NL
+Netherlands,Dieren,NL-GE,NL
+Netherlands,Diever,NL-DR,NL
+Netherlands,Dinteloord,NL-NB,NL
+Netherlands,Dodewaard,NL-GE,NL
+Netherlands,Doesburg,NL-GE,NL
+Netherlands,Doetinchem,NL-GE,NL
+Netherlands,Dokkum,NL-FR,NL
+Netherlands,Dongen,NL-NB,NL
+Netherlands,Doorn,NL-UT,NL
+Netherlands,Doorwerth,NL-GE,NL
+Netherlands,Dordrecht,NL-ZH,NL
+Netherlands,Drachten,NL-FR,NL
+Netherlands,Driebergen,NL-UT,NL
+Netherlands,Dronten,NL-FL,NL
+Netherlands,Drunen,NL-NB,NL
+Netherlands,Druten,NL-GE,NL
+Netherlands,Duiven,NL-GE,NL
+Netherlands,Dwingelo,NL-DR,NL
+Netherlands,Echt,NL-LI,NL
+Netherlands,Echteld,NL-GE,NL
+Netherlands,Edam,NL-NH,NL
+Netherlands,Ede,NL-GE,NL
+Netherlands,Eelde,NL-DR,NL
+Netherlands,Eerbeek,NL-GE,NL
+Netherlands,Eersel,NL-NB,NL
+Netherlands,Eibergen,NL-GE,NL
+Netherlands,Eijsden,NL-LI,NL
+Netherlands,Eindhoven,NL-NB,NL
+Netherlands,Elburg,NL-GE,NL
+Netherlands,Emmeloord,NL-FL,NL
+Netherlands,Emmen,NL-DR,NL
+Netherlands,Enkhuizen,NL-NH,NL
+Netherlands,Enschede,NL-OV,NL
+Netherlands,Enspijk,NL-GE,NL
+Netherlands,Epe,NL-GE,NL
+Netherlands,Ermelo,NL-GE,NL
+Netherlands,Erp,NL-NB,NL
+Netherlands,Etten-Leur,NL-NB,NL
+Netherlands,Europoort,NL-ZH,NL
+Netherlands,Foxhol,NL-GR,NL
+Netherlands,Franeker,NL-FR,NL
+Netherlands,Geldermalsen,NL-GE,NL
+Netherlands,Geldrop,NL-NB,NL
+Netherlands,Geleen,NL-LI,NL
+Netherlands,Gemert,NL-NB,NL
+Netherlands,Giesbeek,NL-GE,NL
+Netherlands,Giessendam,NL-ZH,NL
+Netherlands,Gilze,NL-NB,NL
+Netherlands,Goes,NL-ZE,NL
+Netherlands,Goirle,NL-NB,NL
+Netherlands,Gorinchem,NL-ZH,NL
+Netherlands,Gorredijk,NL-FR,NL
+Netherlands,Gouda,NL-ZH,NL
+Netherlands,Grave,NL-NB,NL
+Netherlands,Grijpskerke,NL-ZE,NL
+Netherlands,Groenlo,NL-GE,NL
+Netherlands,Groessen,NL-GE,NL
+Netherlands,Groningen,NL-GR,NL
+Netherlands,Grootebroek,NL-NH,NL
+Netherlands,Grouw,NL-FR,NL
+Netherlands,Grubbenvorst,NL-LI,NL
+Netherlands,Haaksbergen,NL-OV,NL
+Netherlands,Haarlem,NL-NH,NL
+Netherlands,Halsteren,NL-NB,NL
+Netherlands,Hapert,NL-NB,NL
+Netherlands,Hardenberg,NL-OV,NL
+Netherlands,Harderwijk,NL-GE,NL
+Netherlands,Haren,NL-GR,NL
+Netherlands,Harlingen,NL-FR,NL
+Netherlands,Harmelen,NL-UT,NL
+Netherlands,Hattem,NL-GE,NL
+Netherlands,Hazerswoude-Rijndijk,NL-ZH,NL
+Netherlands,Heel,NL-LI,NL
+Netherlands,Heemskerk,NL-NH,NL
+Netherlands,Heemstede,NL-NH,NL
+Netherlands,Heerenveen,NL-FR,NL
+Netherlands,Heerhugowaard,NL-NH,NL
+Netherlands,Heerlen,NL-LI,NL
+Netherlands,Heesch,NL-NB,NL
+Netherlands,Heiloo,NL-NH,NL
+Netherlands,Heinenoord,NL-ZH,NL
+Netherlands,Heinkeszand,NL-ZH,NL
+Netherlands,Hekendorp,NL-UT,NL
+Netherlands,Hellevoetsluis,NL-ZH,NL
+Netherlands,Helmond,NL-NB,NL
+Netherlands,Helvoirt,NL-NB,NL
+Netherlands,Hendrik Ido Ambacht,NL-ZH,NL
+Netherlands,Hengelo,NL-OV,NL
+Netherlands,Herkenbosch,NL-LI,NL
+Netherlands,Heteren,NL-GE,NL
+Netherlands,Heythuysen,NL-LI,NL
+Netherlands,Hillegom,NL-ZH,NL
+Netherlands,Hilversum,NL-NH,NL
+Netherlands,Hoek Van Holland,NL-ZH,NL
+Netherlands,Hoensbroek,NL-LI,NL
+Netherlands,Hoevelaken,NL-GE,NL
+Netherlands,Hoeven,NL-NB,NL
+Netherlands,Holten,NL-OV,NL
+Netherlands,Honselersdijk,NL-ZH,NL
+Netherlands,Hoofddorp,NL-NH,NL
+Netherlands,Hoogerheide,NL-NB,NL
+Netherlands,Hoogeveen,NL-DR,NL
+Netherlands,Hoogezand,NL-GR,NL
+Netherlands,Hoogkarspel,NL-NH,NL
+Netherlands,Hoogland,NL-UT,NL
+Netherlands,Hoogvliet,NL-ZH,NL
+Netherlands,Hoorn,NL-NH,NL
+Netherlands,Horst,NL-LI,NL
+Netherlands,Houten,NL-UT,NL
+Netherlands,Huis Ter Heide,NL-UT,NL
+Netherlands,Huissen,NL-GE,NL
+Netherlands,Huizen,NL-NH,NL
+Netherlands,Ijmuiden,NL-NH,NL
+Netherlands,Ijsselstein,NL-UT,NL
+Netherlands,Joure,NL-FR,NL
+Netherlands,Kaatsheuvel,NL-NB,NL
+Netherlands,Kampen,NL-OV,NL
+Netherlands,Kamperland,NL-ZE,NL
+Netherlands,Kapelle,NL-ZE,NL
+Netherlands,Katwijk Aan Zee,NL-ZH,NL
+Netherlands,Kerkrade,NL-LI,NL
+Netherlands,Kinderdijk,NL-ZH,NL
+Netherlands,Klundert,NL-NB,NL
+Netherlands,Koog Aan de Zaan,NL-NH,NL
+Netherlands,Koudekerke,NL-ZE,NL
+Netherlands,Krimpen Aan de Ijssel,NL-ZH,NL
+Netherlands,Krommenie,NL-NH,NL
+Netherlands,Kruiningen,NL-ZE,NL
+Netherlands,Kruisland,NL-NB,NL
+Netherlands,Landgraaf,NL-LI,NL
+Netherlands,Landsmeer,NL-NH,NL
+Netherlands,Laren,NL-NH,NL
+Netherlands,Leek,NL-GR,NL
+Netherlands,Leersum,NL-UT,NL
+Netherlands,Leeuwarden,NL-FR,NL
+Netherlands,Leiden,NL-ZH,NL
+Netherlands,Leiderdorp,NL-ZH,NL
+Netherlands,Leidschendam,NL-ZH,NL
+Netherlands,Lekkerkerk,NL-ZH,NL
+Netherlands,Lelystad,NL-FL,NL
+Netherlands,Lemmer,NL-FR,NL
+Netherlands,Leusden-Centrum,NL-UT,NL
+Netherlands,Lewedorp,NL-ZE,NL
+Netherlands,Lichtenvoorde,NL-GE,NL
+Netherlands,Limmen,NL-NH,NL
+Netherlands,Lisse,NL-ZH,NL
+Netherlands,Lochem,NL-GE,NL
+Netherlands,Loenen,NL-GE,NL
+Netherlands,Lomm,NL-LI,NL
+Netherlands,Lopik,NL-UT,NL
+Netherlands,Losser,NL-OV,NL
+Netherlands,Lunteren,NL-GE,NL
+Netherlands,Lutten,NL-OV,NL
+Netherlands,Maarssen,NL-UT,NL
+Netherlands,Maasdijk,NL-ZH,NL
+Netherlands,Maasland,NL-ZH,NL
+Netherlands,Maassluis,NL-ZH,NL
+Netherlands,Maastricht,NL-LI,NL
+Netherlands,Maasvlakte,NL-ZH,NL
+Netherlands,Malden,NL-GE,NL
+Netherlands,Marknesse,NL-FL,NL
+Netherlands,Medemblik,NL-NH,NL
+Netherlands,Meer,NL-OV,NL
+Netherlands,Meppel,NL-DR,NL
+Netherlands,Meteren,NL-GE,NL
+Netherlands,Middelbeers,NL-NB,NL
+Netherlands,Middelburg,NL-ZE,NL
+Netherlands,Middelharnis,NL-ZH,NL
+Netherlands,Mierlo,NL-NB,NL
+Netherlands,Mijdrecht,NL-UT,NL
+Netherlands,Mill,NL-NB,NL
+Netherlands,Moerdijk,NL-NB,NL
+Netherlands,Moerkapelle,NL-ZH,NL
+Netherlands,Monnickendam,NL-NH,NL
+Netherlands,Monster,NL-ZH,NL
+Netherlands,Montfoort,NL-UT,NL
+Netherlands,Moordrecht,NL-ZH,NL
+Netherlands,Naaldwijk,NL-ZH,NL
+Netherlands,Naarden,NL-NH,NL
+Netherlands,Nederweert,NL-LI,NL
+Netherlands,Nieuw Lekkerland,NL-ZH,NL
+Netherlands,Nieuw Vennep,NL-NH,NL
+Netherlands,Nieuw-Vossemeer,NL-NB,NL
+Netherlands,Nieuwegein,NL-UT,NL
+Netherlands,Nieuwerkerk Aan Den Ijssel,NL-ZH,NL
+Netherlands,Nieuwkuijk,NL-NB,NL
+Netherlands,Nijehaske,NL-FR,NL
+Netherlands,Nijkerk,NL-GE,NL
+Netherlands,Nijmegen,NL-GE,NL
+Netherlands,Nijverdal,NL-OV,NL
+Netherlands,Noordwijk Aan Zee,NL-ZH,NL
+Netherlands,Noordwijkerhout,NL-ZH,NL
+Netherlands,Nuenen,NL-NB,NL
+Netherlands,Nunspeet,NL-GE,NL
+Netherlands,Odijk,NL-UT,NL
+Netherlands,Oegstgeest,NL-ZH,NL
+Netherlands,Ohe,NL-LI,NL
+Netherlands,Oirschot,NL-NB,NL
+Netherlands,Oisterwijk,NL-NB,NL
+Netherlands,Oldenzaal,NL-OV,NL
+Netherlands,Ommen,NL-OV,NL
+Netherlands,Oost-Souburg,NL-ZE,NL
+Netherlands,Oosterbeek,NL-GE,NL
+Netherlands,Oosterhout,NL-NB,NL
+Netherlands,Oosternijkerk,NL-FR,NL
+Netherlands,Oostkapelle,NL-ZE,NL
+Netherlands,Oostzaan,NL-NH,NL
+Netherlands,Oss,NL-NB,NL
+Netherlands,Oud-Beijerland,NL-ZH,NL
+Netherlands,Oude Meer,NL-NH,NL
+Netherlands,Oude Pekela,NL-GR,NL
+Netherlands,Oudenbosch,NL-NB,NL
+Netherlands,Oudewater,NL-UT,NL
+Netherlands,Panningen,NL-LI,NL
+Netherlands,Papendrecht,NL-ZH,NL
+Netherlands,Pernis,NL-ZH,NL
+Netherlands,Petten,NL-NH,NL
+Netherlands,Pijnacker,NL-ZH,NL
+Netherlands,Poeldijk,NL-ZH,NL
+Netherlands,Prinsenbeek,NL-NB,NL
+Netherlands,Purmerend,NL-NH,NL
+Netherlands,Putte,NL-NB,NL
+Netherlands,Putten,NL-GE,NL
+Netherlands,Raalte,NL-OV,NL
+Netherlands,Raamsdonksveer,NL-NB,NL
+Netherlands,Reeuwijk,NL-ZH,NL
+Netherlands,Renkum,NL-GE,NL
+Netherlands,Reuver,NL-LI,NL
+Netherlands,Rheden,NL-GE,NL
+Netherlands,Rhenen,NL-UT,NL
+Netherlands,Ridderkerk,NL-ZH,NL
+Netherlands,Rijen,NL-NB,NL
+Netherlands,Rijnsburg,NL-ZH,NL
+Netherlands,Rijssen,NL-OV,NL
+Netherlands,Rijswijk,NL-ZH,NL
+Netherlands,Roden,NL-DR,NL
+Netherlands,Roelofarendsveen,NL-ZH,NL
+Netherlands,Roermond,NL-LI,NL
+Netherlands,Rogat,NL-DR,NL
+Netherlands,Roggel en Neer,NL-LI,NL
+Netherlands,Roosendaal,NL-NB,NL
+Netherlands,Rosmalen,NL-NB,NL
+Netherlands,Rotterdam,NL-ZH,NL
+Netherlands,s Gravenhage,NL-ZH,NL
+Netherlands,s Hertogenbosch,NL-NB,NL
+Netherlands,s-Heer-Hendrikskinderen,NL-ZE,NL
+Netherlands,Sambeek,NL-NB,NL
+Netherlands,Sas-Van-Gent,NL-ZE,NL
+Netherlands,Sassenheim,NL-ZH,NL
+Netherlands,Scheemda,NL-GR,NL
+Netherlands,Scherpenzeel,NL-GE,NL
+Netherlands,Scheveningen,NL-ZH,NL
+Netherlands,Schiedam,NL-ZH,NL
+Netherlands,Schijndel,NL-NB,NL
+Netherlands,Schiphol,NL-NH,NL
+Netherlands,Schoonbron,NL-LI,NL
+Netherlands,Schoonhoven,NL-ZH,NL
+Netherlands,Simpelveld,NL-LI,NL
+Netherlands,Sint Annaland,NL-ZE,NL
+Netherlands,Sint Jansteen,NL-ZE,NL
+Netherlands,Sittard,NL-LI,NL
+Netherlands,Sliedrecht,NL-ZH,NL
+Netherlands,Sluis,NL-ZE,NL
+Netherlands,Sneek,NL-FR,NL
+Netherlands,Soest,NL-UT,NL
+Netherlands,Soesterberg,NL-UT,NL
+Netherlands,Someren,NL-NB,NL
+Netherlands,Son,NL-NB,NL
+Netherlands,Son en Breugel,NL-NB,NL
+Netherlands,Spakenburg,NL-UT,NL
+Netherlands,Spijkenisse,NL-ZH,NL
+Netherlands,Sprange-Capelle,NL-NB,NL
+Netherlands,St-Oedenrode,NL-NB,NL
+Netherlands,Stadskanaal,NL-GR,NL
+Netherlands,Staphorst,NL-OV,NL
+Netherlands,Steenbergen,NL-NB,NL
+Netherlands,Steenderen,NL-GE,NL
+Netherlands,Steenwijk,NL-OV,NL
+Netherlands,Stein,NL-LI,NL
+Netherlands,Stellendam,NL-ZH,NL
+Netherlands,Tegelen,NL-LI,NL
+Netherlands,Ter Aar,NL-ZH,NL
+Netherlands,Terborg,NL-GE,NL
+Netherlands,Terneuzen,NL-ZE,NL
+Netherlands,The Hague,NL-ZH,NL
+Netherlands,Tiel,NL-GE,NL
+Netherlands,Tilburg,NL-NB,NL
+Netherlands,Tubbergen,NL-OV,NL
+Netherlands,Twello,NL-GE,NL
+Netherlands,Uddel,NL-GE,NL
+Netherlands,Uden,NL-NB,NL
+Netherlands,Uitgeest,NL-NH,NL
+Netherlands,Uithoorn,NL-UT,NL
+Netherlands,Ulestraten,NL-LI,NL
+Netherlands,Ulft,NL-GE,NL
+Netherlands,Ulvenhout,NL-NB,NL
+Netherlands,Urk,NL-FL,NL
+Netherlands,Utrecht,NL-UT,NL
+Netherlands,Valkenburg,NL-LI,NL
+Netherlands,Valkenswaard,NL-NB,NL
+Netherlands,Varsseveld,NL-GE,NL
+Netherlands,Veendam,NL-GR,NL
+Netherlands,Veenendaal,NL-UT,NL
+Netherlands,Veghel,NL-NB,NL
+Netherlands,Veldhoven,NL-NB,NL
+Netherlands,Velp,NL-GE,NL
+Netherlands,Velsen,NL-NH,NL
+Netherlands,Venlo,NL-LI,NL
+Netherlands,Venray,NL-LI,NL
+Netherlands,Vianen,NL-ZH,NL
+Netherlands,Vinkeveen,NL-UT,NL
+Netherlands,Vlaardingen,NL-ZH,NL
+Netherlands,Vleuten,NL-UT,NL
+Netherlands,Vlissingen,NL-ZE,NL
+Netherlands,Volendam,NL-NH,NL
+Netherlands,Voorburg,NL-ZH,NL
+Netherlands,Voorschoten,NL-ZH,NL
+Netherlands,Voorthuizen,NL-GE,NL
+Netherlands,Vorden,NL-GE,NL
+Netherlands,Vreeland,NL-UT,NL
+Netherlands,Vught,NL-NB,NL
+Netherlands,Vuren,NL-GE,NL
+Netherlands,Waalre,NL-NB,NL
+Netherlands,Waalwijk,NL-NB,NL
+Netherlands,Waardenburg,NL-GE,NL
+Netherlands,Waddinxveen,NL-ZH,NL
+Netherlands,Wageningen,NL-GE,NL
+Netherlands,Wapenveld,NL-GE,NL
+Netherlands,Warmond,NL-ZH,NL
+Netherlands,Wassenaar,NL-ZH,NL
+Netherlands,Weert,NL-LI,NL
+Netherlands,Weesp,NL-NH,NL
+Netherlands,Wervershoof,NL-NH,NL
+Netherlands,Wessem,NL-LI,NL
+Netherlands,West Terschelling,NL-FR,NL
+Netherlands,Westdorpe,NL-ZE,NL
+Netherlands,Westkapelle,NL-ZE,NL
+Netherlands,Westzaan,NL-NH,NL
+Netherlands,Wieringerwerf,NL-NH,NL
+Netherlands,Wijchen,NL-GE,NL
+Netherlands,Wijk Aan Zee,NL-NH,NL
+Netherlands,Wijk-Bij-Duurstede,NL-UT,NL
+Netherlands,Wildervank,NL-GR,NL
+Netherlands,Wilhelminaoord,NL-DR,NL
+Netherlands,Willemstad,NL-NB,NL
+Netherlands,Winschoten,NL-GR,NL
+Netherlands,Winterswijk,NL-GE,NL
+Netherlands,Wirdum,NL-FR,NL
+Netherlands,Woerden,NL-UT,NL
+Netherlands,Wolphaartsdijk,NL-ZE,NL
+Netherlands,Wolvega,NL-FR,NL
+Netherlands,Wormer,NL-NH,NL
+Netherlands,Wormerveer,NL-NH,NL
+Netherlands,Woudenberg,NL-UT,NL
+Netherlands,Wouw,NL-NB,NL
+Netherlands,Zaamslag,NL-ZE,NL
+Netherlands,Zaanstad,NL-NH,NL
+Netherlands,Zalk,NL-OV,NL
+Netherlands,Zaltbommel,NL-GE,NL
+Netherlands,Zandvoort,NL-NH,NL
+Netherlands,Zeewolde,NL-FL,NL
+Netherlands,Zeist,NL-UT,NL
+Netherlands,Zevenaar,NL-GE,NL
+Netherlands,Zevenbergen,NL-NB,NL
+Netherlands,Zierikzee,NL-ZE,NL
+Netherlands,Zoetermeer,NL-ZH,NL
+Netherlands,Zoeterwoude-Rijndijk,NL-ZH,NL
+Netherlands,Zuidland,NL-ZH,NL
+Netherlands,Zuidlaren,NL-DR,NL
+Netherlands,Zundert,NL-NB,NL
+Netherlands,Zutphen,NL-GE,NL
+Netherlands,Zwaag,NL-NH,NL
+Netherlands,Zwaagdijk-Oost,NL-UT,NL
+Netherlands,Zwaagdijk-Oost,NL-NH,NL
+Netherlands,Zwammerdam,NL-ZH,NL
+Netherlands,Zwijndrecht,NL-ZH,NL
+Netherlands,Zwolle,NL-OV,NL
+Portugal,Abrunheira,PT-11,PT
+Portugal,Agueda,PT-01,PT
+Portugal,Albufeira,PT-08,PT
+Portugal,Alges,PT-11,PT
+Portugal,Aljustrel,PT-02,PT
+Portugal,Almada,PT-15,PT
+Portugal,Alverca,PT-11,PT
+Portugal,Amadora,PT-11,PT
+Portugal,Aveiro,PT-01,PT
+Portugal,Azoia,PT-11,PT
+Portugal,Barreiro,PT-15,PT
+Portugal,Beja,PT-02,PT
+Portugal,Boliqueime,PT-08,PT
+Portugal,Braga,PT-03,PT
+Portugal,Carregado,PT-11,PT
+Portugal,Carvalhos,PT-13,PT
+Portugal,Cascais,PT-11,PT
+Portugal,Castelo Branco,PT-05,PT
+Portugal,Coimbra,PT-06,PT
+Portugal,Covilha,PT-05,PT
+Portugal,Entroncamento,PT-14,PT
+Portugal,Espinho,PT-01,PT
+Portugal,Estoril,PT-11,PT
+Portugal,Evora,PT-07,PT
+Portugal,Faro,PT-08,PT
+Portugal,Fatima,PT-14,PT
+Portugal,Felgueiras,PT-13,PT
+Portugal,Figueira Da Foz,PT-06,PT
+Portugal,Funchal,PT-30,PT
+Portugal,Gondomar,PT-13,PT
+Portugal,Guarda,PT-09,PT
+Portugal,Guimaraes,PT-03,PT
+Portugal,Horta,PT-20,PT
+Portugal,Ilhavo,PT-01,PT
+Portugal,Lagos,PT-08,PT
+Portugal,Leiria,PT-10,PT
+Portugal,Linda-a-Velha,PT-11,PT
+Portugal,Lisbon,PT-11,PT
+Portugal,Loulé,PT-08,PT
+Portugal,Maia,PT-13,PT
+Portugal,Marinha Grande,PT-10,PT
+Portugal,Matosinhos,PT-13,PT
+Portugal,Mértola,PT-02,PT
+Portugal,Mem Martins,PT-11,PT
+Portugal,Montijo,PT-15,PT
+Portugal,Oeiras,PT-11,PT
+Portugal,Oliveira Do Bairro,PT-01,PT
+Portugal,Paco de Arcos,PT-11,PT
+Portugal,Palmela,PT-15,PT
+Portugal,Perafita,PT-13,PT
+Portugal,Pombal,PT-04,PT
+Portugal,Ponta Delgada,PT-20,PT
+Portugal,Portalegre,PT-12,PT
+Portugal,Portimao,PT-08,PT
+Portugal,Porto,PT-13,PT
+Portugal,Porto Salvo,PT-11,PT
+Portugal,Povoa de Varzim,PT-13,PT
+Portugal,Queluz,PT-11,PT
+Portugal,Redondo,PT-07,PT
+Portugal,Ribeirao,PT-03,PT
+Portugal,Rio Maior,PT-14,PT
+Portugal,Sacavem,PT-11,PT
+Portugal,Sangalhos,PT-01,PT
+Portugal,Santarem,PT-14,PT
+Portugal,Santo Tirso,PT-13,PT
+Portugal,Sao Domingos de Rana,PT-11,PT
+Portugal,Sao Joao Da Madeira,PT-01,PT
+Portugal,Seixal,PT-15,PT
+Portugal,Setubal,PT-15,PT
+Portugal,Sines,PT-15,PT
+Portugal,Sintra,PT-11,PT
+Portugal,Tavira,PT-08,PT
+Portugal,Tomar,PT-14,PT
+Portugal,Torres Vedras,PT-11,PT
+Portugal,Valongo Do Vouga,PT-01,PT
+Portugal,Viana Do Castelo,PT-16,PT
+Portugal,Vila Do Conde,PT-13,PT
+Portugal,Vila Do Porto,PT-20,PT
+Portugal,Vila Nova da Telha,PT-13,PT
+Portugal,Vila Nova de Famalicao,PT-03,PT
+Portugal,Vila Nova de Gaia,PT-13,PT
+Portugal,Viseu,PT-18,PT
+Saudi Arabia,Abha,SA-14,SA
+Saudi Arabia,Ad Dammam,SA-04,SA
+Saudi Arabia,Al Bahah city,SA-11,SA
+Saudi Arabia,Al Jawf city,SA-12,SA
+Saudi Arabia,Al-Jubayl,SA-04,SA
+Saudi Arabia,Al-Qatif,SA-04,SA
+Saudi Arabia,Arar,SA-08,SA
+Saudi Arabia,Buraidah,SA-05,SA
+Saudi Arabia,Dhahran,SA-04,SA
+Saudi Arabia,Hail city,SA-06,SA
+Saudi Arabia,Jiddah,SA-02,SA
+Saudi Arabia,Jizan city,SA-09,SA
+Saudi Arabia,Mecca,SA-02,SA
+Saudi Arabia,Medina,SA-03,SA
+Saudi Arabia,Najran city,SA-10,SA
+Saudi Arabia,Riyadh,SA-01,SA
+Saudi Arabia,Tabuk city,SA-07,SA
+Saudi Arabia,Taif,SA-02,SA
+South Africa,Addo,ZA-EC,ZA
+South Africa,Adelaide,ZA-EC,ZA
+South Africa,Agulhas,ZA-WC,ZA
+South Africa,Alberton,ZA-GT,ZA
+South Africa,Alice,ZA-EC,ZA
+South Africa,Aliwal North,ZA-EC,ZA
+South Africa,Amanzimtoti,ZA-NL,ZA
+South Africa,Arcadia,ZA-GT,ZA
+South Africa,Arniston,ZA-WC,ZA
+South Africa,Atlantis,ZA-WC,ZA
+South Africa,Atteridgeville,ZA-GT,ZA
+South Africa,Auckland Park,ZA-GT,ZA
+South Africa,Babanango,ZA-NL,ZA
+South Africa,Balfour,ZA-MP,ZA
+South Africa,Ballito,ZA-NL,ZA
+South Africa,Barberton,ZA-MP,ZA
+South Africa,Barkly East,ZA-EC,ZA
+South Africa,Beacon Bay,ZA-EC,ZA
+South Africa,Beaufort West,ZA-WC,ZA
+South Africa,Bedford Gardens,ZA-GT,ZA
+South Africa,Bedfordview,ZA-GT,ZA
+South Africa,Belfast,ZA-MP,ZA
+South Africa,Bellville,ZA-WC,ZA
+South Africa,Benmore Gardens,ZA-NL,ZA
+South Africa,Benoni,ZA-GT,ZA
+South Africa,Benrose,ZA-GT,ZA
+South Africa,Berea,ZA-NL,ZA
+South Africa,Bergville,ZA-NL,ZA
+South Africa,Bethlehem,ZA-FS,ZA
+South Africa,Betrams,ZA-GT,ZA
+South Africa,Bisho,ZA-EC,ZA
+South Africa,Blaauwberg,ZA-WC,ZA
+South Africa,Bloemfontein,ZA-FS,ZA
+South Africa,Boksburg,ZA-GT,ZA
+South Africa,Braamfontein,ZA-GT,ZA
+South Africa,Brakpan,ZA-GT,ZA
+South Africa,Bramley,ZA-GT,ZA
+South Africa,Brandfort,ZA-FS,ZA
+South Africa,Brits,ZA-NW,ZA
+South Africa,Brixton,ZA-GT,ZA
+South Africa,Bromhof,ZA-GT,ZA
+South Africa,Bronkhorstspruit,ZA-GT,ZA
+South Africa,Bryanston,ZA-GT,ZA
+South Africa,Bulwer,ZA-NL,ZA
+South Africa,Butterworth,ZA-EC,ZA
+South Africa,Caledon,ZA-WC,ZA
+South Africa,Calitzdorp,ZA-WC,ZA
+South Africa,Calvinia,ZA-NC,ZA
+South Africa,Cape Town,ZA-WC,ZA
+South Africa,Carletonville,ZA-GT,ZA
+South Africa,Centurion,ZA-GT,ZA
+South Africa,Chatsworth,ZA-NL,ZA
+South Africa,Claredon,ZA-NL,ZA
+South Africa,Claremont,ZA-WC,ZA
+South Africa,Clarens,ZA-FS,ZA
+South Africa,Coffee Bay,ZA-EC,ZA
+South Africa,Colenso,ZA-NL,ZA
+South Africa,Constantia,ZA-WC,ZA
+South Africa,Constantia Park,ZA-GT,ZA
+South Africa,Craighall,ZA-GT,ZA
+South Africa,Cramerview,ZA-GT,ZA
+South Africa,Curry's Post,ZA-NL,ZA
+South Africa,Cyrildene,ZA-GT,ZA
+South Africa,De Aar,ZA-NC,ZA
+South Africa,Die Hoewes,ZA-GT,ZA
+South Africa,Donnybrook,ZA-NL,ZA
+South Africa,Doonside,ZA-NL,ZA
+South Africa,Doornfontein,ZA-GT,ZA
+South Africa,Dundee,ZA-NL,ZA
+South Africa,Durban,ZA-NL,ZA
+South Africa,Durban North,ZA-NL,ZA
+South Africa,East London,ZA-EC,ZA
+South Africa,Edendale,ZA-NL,ZA
+South Africa,Edenvale,ZA-GT,ZA
+South Africa,Edgemead,ZA-WC,ZA
+South Africa,Elandsfontein,ZA-GT,ZA
+South Africa,Eldoradopark,ZA-GT,ZA
+South Africa,Emmarentia,ZA-GT,ZA
+South Africa,Empangeni,ZA-NL,ZA
+South Africa,Epping,ZA-WC,ZA
+South Africa,Ermelo,ZA-MP,ZA
+South Africa,Eshowe,ZA-NL,ZA
+South Africa,Essenwood,ZA-NL,ZA
+South Africa,Estcourt,ZA-NL,ZA
+South Africa,Excom,ZA-GT,ZA
+South Africa,Fairland,ZA-GT,ZA
+South Africa,Ferndale,ZA-GT,ZA
+South Africa,Ficksburg,ZA-FS,ZA
+South Africa,Fish Hoek,ZA-WC,ZA
+South Africa,Florida,ZA-GT,ZA
+South Africa,Fordsburg,ZA-GT,ZA
+South Africa,Fouriesburg,ZA-FS,ZA
+South Africa,Fourways,ZA-GT,ZA
+South Africa,Franschhoek,ZA-WC,ZA
+South Africa,Frere,ZA-NL,ZA
+South Africa,Gallo Manor,ZA-GT,ZA
+South Africa,Gansbaai,ZA-WC,ZA
+South Africa,Gardens,ZA-WC,ZA
+South Africa,Garsfontein,ZA-GT,ZA
+South Africa,George,ZA-WC,ZA
+South Africa,Germiston,ZA-GT,ZA
+South Africa,Gingindlovu,ZA-NL,ZA
+South Africa,Glencoe,ZA-NL,ZA
+South Africa,Glenwood,ZA-NL,ZA
+South Africa,Grahamstown,ZA-EC,ZA
+South Africa,Greytown,ZA-NL,ZA
+South Africa,Greyville,ZA-NL,ZA
+South Africa,Hadison Park,ZA-NC,ZA
+South Africa,Halfway Gardens,ZA-GT,ZA
+South Africa,Halfway House,ZA-GT,ZA
+South Africa,Hanover,ZA-NC,ZA
+South Africa,Harding,ZA-NL,ZA
+South Africa,Harrismith,ZA-FS,ZA
+South Africa,Hartbeespoort,ZA-GT,ZA
+South Africa,Hatfield,ZA-GT,ZA
+South Africa,Hazyview,ZA-MP,ZA
+South Africa,Heidelberg,ZA-FS,ZA
+South Africa,Hermanus,ZA-WC,ZA
+South Africa,Hibberdene,ZA-NL,ZA
+South Africa,Hillcrest,ZA-NL,ZA
+South Africa,Hilton,ZA-NL,ZA
+South Africa,Himeville,ZA-NL,ZA
+South Africa,Hluhluwe,ZA-NL,ZA
+South Africa,Hoedspruit,ZA-MP,ZA
+South Africa,Honeydew,ZA-GT,ZA
+South Africa,Houghton,ZA-GT,ZA
+South Africa,Hout Bay,ZA-WC,ZA
+South Africa,Howick,ZA-NL,ZA
+South Africa,Humewood,ZA-EC,ZA
+South Africa,Hyde Park,ZA-GT,ZA
+South Africa,Irene,ZA-GT,ZA
+South Africa,Isandlwana,ZA-NL,ZA
+South Africa,Isando,ZA-GT,ZA
+South Africa,Isipingo,ZA-NL,ZA
+South Africa,Ixopo,ZA-NL,ZA
+South Africa,Jeffrey's Bay,ZA-EC,ZA
+South Africa,Jeppestown,ZA-GT,ZA
+South Africa,Johannesburg,ZA-GT,ZA
+South Africa,Kalk Bay,ZA-WC,ZA
+South Africa,Katlehong,ZA-GT,ZA
+South Africa,Kei Mouth,ZA-EC,ZA
+South Africa,Kempton Park,ZA-GT,ZA
+South Africa,Kenilworth,ZA-GT,ZA
+South Africa,Kenton on Sea,ZA-EC,ZA
+South Africa,Kimberley,ZA-NC,ZA
+South Africa,King William's Town,ZA-EC,ZA
+South Africa,Klerksdorp,ZA-NW,ZA
+South Africa,Kloof,ZA-NL,ZA
+South Africa,Knysna,ZA-WC,ZA
+South Africa,Kokstad,ZA-NL,ZA
+South Africa,Komatipoort,ZA-MP,ZA
+South Africa,Kosi,ZA-NL,ZA
+South Africa,Kroonstad,ZA-FS,ZA
+South Africa,Krugersdorp,ZA-GT,ZA
+South Africa,Kyalami,ZA-GT,ZA
+South Africa,La Lucia,ZA-NL,ZA
+South Africa,Ladysmith,ZA-NL,ZA
+South Africa,Langebaan,ZA-WC,ZA
+South Africa,Lanseria,ZA-GT,ZA
+South Africa,Laudium,ZA-GT,ZA
+South Africa,Lenasia,ZA-GT,ZA
+South Africa,Lichtenburg,ZA-NW,ZA
+South Africa,Llandudno,ZA-WC,ZA
+South Africa,Lonehill,ZA-GT,ZA
+South Africa,Loskop,ZA-NL,ZA
+South Africa,Louis Trichardt,ZA-NP,ZA
+South Africa,Lydenburg,ZA-MP,ZA
+South Africa,Lynnwood,ZA-GT,ZA
+South Africa,Mafikeng,ZA-NW,ZA
+South Africa,Malmesbury,ZA-WC,ZA
+South Africa,Mamelodi,ZA-GT,ZA
+South Africa,Margate,ZA-NL,ZA
+South Africa,Mariannhill,ZA-NL,ZA
+South Africa,Maropeng,ZA-NW,ZA
+South Africa,Mayville,ZA-NL,ZA
+South Africa,Medunsa,ZA-GT,ZA
+South Africa,Messina,ZA-NP,ZA
+South Africa,Meyerton,ZA-GT,ZA
+South Africa,Middelburg,ZA-EC,ZA
+South Africa,Midrand,ZA-GT,ZA
+South Africa,Milnerton,ZA-WC,ZA
+South Africa,Mitchells Plain,ZA-WC,ZA
+South Africa,Mkuze,ZA-NL,ZA
+South Africa,Mmabatho,ZA-NW,ZA
+South Africa,Modderfontein,ZA-GT,ZA
+South Africa,Mondeor,ZA-GT,ZA
+South Africa,Monument,ZA-GT,ZA
+South Africa,Mooi River,ZA-NL,ZA
+South Africa,Mosselbaai,ZA-WC,ZA
+South Africa,Mtubatuba,ZA-NL,ZA
+South Africa,Ndabeni,ZA-NL,ZA
+South Africa,Nelspruit,ZA-MP,ZA
+South Africa,Newcastle,ZA-NL,ZA
+South Africa,Newlands,ZA-WC,ZA
+South Africa,Northcliff,ZA-GT,ZA
+South Africa,Northway,ZA-NL,ZA
+South Africa,Nottingham Road,ZA-NL,ZA
+South Africa,Oakdale,ZA-WC,ZA
+South Africa,Olifantsfontein,ZA-GT,ZA
+South Africa,Onderstepoort,ZA-GT,ZA
+South Africa,Ongoye,ZA-NL,ZA
+South Africa,Oudtshoorn,ZA-WC,ZA
+South Africa,Overport,ZA-NL,ZA
+South Africa,Paarden Eiland,ZA-WC,ZA
+South Africa,Paarl,ZA-WC,ZA
+South Africa,Parkdene,ZA-GT,ZA
+South Africa,Parktown,ZA-GT,ZA
+South Africa,Parow,ZA-WC,ZA
+South Africa,Parys,ZA-FS,ZA
+South Africa,Paulshof,ZA-GT,ZA
+South Africa,Phalaborwa,ZA-NP,ZA
+South Africa,Phoenix,ZA-NL,ZA
+South Africa,Pietermaritzburg,ZA-NL,ZA
+South Africa,Pilanesberg,ZA-NW,ZA
+South Africa,Pinetown,ZA-NL,ZA
+South Africa,Plettenberg Bay,ZA-WC,ZA
+South Africa,Polokwane,ZA-NP,ZA
+South Africa,Port Edward,ZA-NL,ZA
+South Africa,Port Elizabeth,ZA-EC,ZA
+South Africa,Port Shepstone,ZA-NL,ZA
+South Africa,Potchefstroom,ZA-NW,ZA
+South Africa,Pretoria,ZA-GT,ZA
+South Africa,Primrose,ZA-GT,ZA
+South Africa,Queensburgh,ZA-NL,ZA
+South Africa,Ramsgate,ZA-NL,ZA
+South Africa,Randburg,ZA-GT,ZA
+South Africa,Randfontein,ZA-GT,ZA
+South Africa,Retreat,ZA-WC,ZA
+South Africa,Richards Bay,ZA-NL,ZA
+South Africa,Riversdale,ZA-WC,ZA
+South Africa,Rivonia,ZA-GT,ZA
+South Africa,Robertson,ZA-WC,ZA
+South Africa,Roggebaai,ZA-WC,ZA
+South Africa,Roodepoort,ZA-GT,ZA
+South Africa,Rorke's Drift,ZA-NL,ZA
+South Africa,Rosebank,ZA-GT,ZA
+South Africa,Rustenburg,ZA-NW,ZA
+South Africa,Sabie,ZA-NP,ZA
+South Africa,Saint Lucia,ZA-NL,ZA
+South Africa,Saldanha,ZA-WC,ZA
+South Africa,Salt Rock,ZA-NL,ZA
+South Africa,Sandton,ZA-GT,ZA
+South Africa,Sanlamhof,ZA-WC,ZA
+South Africa,Saxonwold,ZA-GT,ZA
+South Africa,Schweizer-Reneke,ZA-NW,ZA
+South Africa,Scottburgh,ZA-NL,ZA
+South Africa,Sea Point,ZA-WC,ZA
+South Africa,Secunda,ZA-MP,ZA
+South Africa,Senderwood,ZA-GT,ZA
+South Africa,Silverton,ZA-GT,ZA
+South Africa,Simon's Town,ZA-WC,ZA
+South Africa,Somerset West,ZA-WC,ZA
+South Africa,Southbroom,ZA-NL,ZA
+South Africa,Soweto,ZA-GT,ZA
+South Africa,Springs,ZA-GT,ZA
+South Africa,Stanger,ZA-NL,ZA
+South Africa,Steenberg,ZA-WC,ZA
+South Africa,Stellenbosch,ZA-WC,ZA
+South Africa,Stilbaai,ZA-WC,ZA
+South Africa,Strand,ZA-WC,ZA
+South Africa,Sun City,ZA-NW,ZA
+South Africa,Sunninghill,ZA-GT,ZA
+South Africa,Sunnyside,ZA-GT,ZA
+South Africa,Swellendam,ZA-WC,ZA
+South Africa,Thohoyandou,ZA-NP,ZA
+South Africa,Tongaat,ZA-NL,ZA
+South Africa,Touws River,ZA-WC,ZA
+South Africa,Turffontein,ZA-GT,ZA
+South Africa,Tzaneen,ZA-NP,ZA
+South Africa,Uitenhage,ZA-EC,ZA
+South Africa,Ulundi,ZA-NL,ZA
+South Africa,Umfolozi,ZA-NL,ZA
+South Africa,Umhlanga Rocks,ZA-NL,ZA
+South Africa,Umkomaas,ZA-NL,ZA
+South Africa,Umlazi,ZA-NL,ZA
+South Africa,Umtata,ZA-EC,ZA
+South Africa,Underberg,ZA-NL,ZA
+South Africa,Uniondale,ZA-EC,ZA
+South Africa,Upington,ZA-NC,ZA
+South Africa,Uvongo,ZA-NL,ZA
+South Africa,Vaalwater,ZA-NP,ZA
+South Africa,Vanderbijlpark,ZA-GT,ZA
+South Africa,Vereeniging,ZA-GT,ZA
+South Africa,Verulam,ZA-NL,ZA
+South Africa,Viljoenskroon,ZA-FS,ZA
+South Africa,Virginia,ZA-FS,ZA
+South Africa,Vorna Valley,ZA-GT,ZA
+South Africa,Vredefort,ZA-FS,ZA
+South Africa,Vryheid,ZA-NL,ZA
+South Africa,Wadeville,ZA-GT,ZA
+South Africa,Walmer,ZA-EC,ZA
+South Africa,Warden,ZA-FS,ZA
+South Africa,Wartburg,ZA-NL,ZA
+South Africa,Welkom,ZA-FS,ZA
+South Africa,Wellington,ZA-WC,ZA
+South Africa,Weltevreden,ZA-WC,ZA
+South Africa,Westdene,ZA-GT,ZA
+South Africa,Westgate,ZA-GT,ZA
+South Africa,Westville,ZA-NL,ZA
+South Africa,White River,ZA-MP,ZA
+South Africa,Wierda Park,ZA-GT,ZA
+South Africa,Witbank,ZA-MP,ZA
+South Africa,Witkoppen,ZA-GT,ZA
+South Africa,Witwatersrand,ZA-GT,ZA
+South Africa,Woodmead,ZA-GT,ZA
+South Africa,Worcester,ZA-WC,ZA
+South Africa,Wynberg,ZA-WC,ZA
+South Africa,Zastron,ZA-FS,ZA
+Spain,Agullent,ES-V,ES
+Spain,Ajalvir,ES-M,ES
+Spain,Albacete,ES-CM,ES
+Spain,Alcala de Henares,ES-M,ES
+Spain,Alcala la Real,ES-AN,ES
+Spain,Alcobendas,ES-M,ES
+Spain,Alcorcon,ES-M,ES
+Spain,Algeciras,ES-CA,ES
+Spain,Algorta,ES-BI,ES
+Spain,Alicante,ES-A,ES
+Spain,Almeria,ES-AN,ES
+Spain,Andratx,ES-PM,ES
+Spain,Aranda de Duero,ES-CL,ES
+Spain,Arnedo,ES-LO,ES
+Spain,Arona,ES-CN,ES
+Spain,Arta,ES-PM,ES
+Spain,Avila,ES-CL,ES
+Spain,Aviles,ES-O,ES
+Spain,Azcoitia,ES-PV,ES
+Spain,Badajoz,ES-EX,ES
+Spain,Badalona,ES-B,ES
+Spain,Barcelona,ES-B,ES
+Spain,Benidorm,ES-A,ES
+Spain,Beniparrell,ES-V,ES
+Spain,Berga,ES-B,ES
+Spain,Bermeo,ES-BI,ES
+Spain,Bilbao,ES-BI,ES
+Spain,Brenes,ES-AN,ES
+Spain,Bunol,ES-V,ES
+Spain,Burgos,ES-CL,ES
+Spain,Burriana,ES-V,ES
+Spain,Caceres,ES-EX,ES
+Spain,Cadiz,ES-CA,ES
+Spain,Camargo,ES-S,ES
+Spain,Cartagena,ES-MU,ES
+Spain,Cartaya,ES-AN,ES
+Spain,Castellbisbal,ES-B,ES
+Spain,Castellon,ES-V,ES
+Spain,Catarroja,ES-V,ES
+Spain,Ceuta,ES-CE,ES
+Spain,Ciudad Real,ES-CM,ES
+Spain,Constantina,ES-AN,ES
+Spain,Cordoba,ES-AN,ES
+Spain,Corrales,ES-CL,ES
+Spain,Coslada,ES-M,ES
+Spain,Cuenca,ES-CM,ES
+Spain,Cuidad Real,ES-CM,ES
+Spain,Cullera,ES-V,ES
+Spain,Don Benito,ES-EX,ES
+Spain,Eibar,ES-PV,ES
+Spain,El Chorrillo,ES-AN,ES
+Spain,El Prat de Llobregat,ES-B,ES
+Spain,El Puerto de Santa Maria,ES-CA,ES
+Spain,Elcano,ES-NA,ES
+Spain,Elche,ES-AN,ES
+Spain,Elda,ES-A,ES
+Spain,Escoriatza,ES-SS,ES
+Spain,Gandia,ES-V,ES
+Spain,Gerona,ES-CT,ES
+Spain,Getafe,ES-M,ES
+Spain,Gijon,ES-O,ES
+Spain,Girona,ES-CT,ES
+Spain,Granada,ES-AN,ES
+Spain,Granollers,ES-CT,ES
+Spain,Guadalajara,ES-CM,ES
+Spain,Hospitalet de Llobregat,ES-B,ES
+Spain,Huelva,ES-AN,ES
+Spain,Ibiza,ES-PM,ES
+Spain,Igualada,ES-B,ES
+Spain,Jaen,ES-AN,ES
+Spain,La Coruna,ES-GA,ES
+Spain,La Palma,ES-CT,ES
+Spain,Las Arenas,ES-BI,ES
+Spain,Las Palmas de Gran,ES-CN,ES
+Spain,Las Palmas de Gran Canaria,ES-CN,ES
+Spain,Las Rozas,ES-AN,ES
+Spain,Leganes,ES-M,ES
+Spain,Leon,ES-CL,ES
+Spain,Lerida,ES-CT,ES
+Spain,Linares,ES-AN,ES
+Spain,Llodio,ES-BI,ES
+Spain,Logrono,ES-LO,ES
+Spain,Lorca,ES-MU,ES
+Spain,Lugo,ES-GA,ES
+Spain,Madrid,ES-M,ES
+Spain,Mahon,ES-PM,ES
+Spain,Malaga,ES-AN,ES
+Spain,Manacor,ES-PM,ES
+Spain,Marbella,ES-AN,ES
+Spain,Mataro,ES-B,ES
+Spain,Melilla,ES-ML,ES
+Spain,Merida,ES-EX,ES
+Spain,Mollet,ES-B,ES
+Spain,Morro Del Jable,ES-CN,ES
+Spain,Mostoles,ES-M,ES
+Spain,Murcia,ES-MU,ES
+Spain,Onate,ES-PV,ES
+Spain,Onda,ES-V,ES
+Spain,Ourense,ES-GA,ES
+Spain,Oviedo,ES-O,ES
+Spain,Palma de Mallorca,ES-PM,ES
+Spain,Pamplona,ES-NA,ES
+Spain,Paterna,ES-V,ES
+Spain,Peralta,ES-NA,ES
+Spain,Polinya,ES-B,ES
+Spain,Ponferrada,ES-CL,ES
+Spain,Pontevedra,ES-GA,ES
+Spain,Pozuelo de Alarcon,ES-M,ES
+Spain,Pravia,ES-O,ES
+Spain,Rioja,ES-AL,ES
+Spain,Ripollet,ES-CT,ES
+Spain,Rota,ES-CA,ES
+Spain,Rubi,ES-B,ES
+Spain,Sabadell,ES-B,ES
+Spain,Salamanca,ES-SA,ES
+Spain,Sama de Langreo,ES-O,ES
+Spain,San Cristobal de la Laguna,ES-TF,ES
+Spain,San Sebastian,ES-SS,ES
+Spain,Sant Cugat Del Valles,ES-B,ES
+Spain,Santa Barbara,ES-CT,ES
+Spain,Santa Cruz de Tenerife,ES-CN,ES
+Spain,Santa Cruz de Tenerife,ES-TF,ES
+Spain,Santader,ES-S,ES
+Spain,Santander,ES-S,ES
+Spain,Santiago de Compostela,ES-GA,ES
+Spain,Segovia,ES-SG,ES
+Spain,Sevilla,ES-AN,ES
+Spain,Soria,ES-CL,ES
+Spain,Tarragona,ES-T,ES
+Spain,Tarrasa,ES-B,ES
+Spain,Teguise,ES-CN,ES
+Spain,Tembleque,ES-TO,ES
+Spain,Toledo,ES-CM,ES
+Spain,Tomares,ES-AN,ES
+Spain,Torrejon de Ardoz,ES-M,ES
+Spain,Torrelaguna,ES-M,ES
+Spain,Tudela,ES-NA,ES
+Spain,Urdiain,ES-NA,ES
+Spain,Urnieta,ES-PV,ES
+Spain,Valencia,ES-V,ES
+Spain,Valladolid,ES-VA,ES
+Spain,Vigo,ES-PO,ES
+Spain,Vilafranca Del Penedes,ES-CT,ES
+Spain,Villanueva i la Geltru,ES-B,ES
+Spain,Vitoria,ES-VI,ES
+Spain,Zamudio,ES-PV,ES
+Spain,Zaragoza,ES-Z,ES
+Thailand,Bangkok,TH-10,TH
+Thailand,Chachoengsao,TH-24,TH
+Thailand,Chiang Mai,TH-50,TH
+Thailand,Chiang Rai,TH-57,TH
+Thailand,Chonburi,TH-20,TH
+Thailand,Hua Hin,TH-77,TH
+Thailand,Khon Kaen,TH-40,TH
+Thailand,Lampang,TH-52,TH
+Thailand,Nakhon Pathom,TH-73,TH
+Thailand,Nakhon Ratchasima,TH-30,TH
+Thailand,Nakhon Si Thammarat,TH-80,TH
+Thailand,Nonthaburi,TH-12,TH
+Thailand,Pathum Tani,TH-13,TH
+Thailand,Pattani,TH-94,TH
+Thailand,Phitsanulok,TH-65,TH
+Thailand,Phra Nakhon Si Ayutthaya,TH-14,TH
+Thailand,Phrae,TH-54,TH
+Thailand,Phuket,TH-83,TH
+Thailand,Ranong,TH-85,TH
+Thailand,Samut Sakhon,TH-74,TH
+Thailand,Sara Buri,TH-19,TH
+Thailand,Songkhla,TH-90,TH
+Thailand,Trang,TH-92,TH
+Thailand,Ubon Ratchathani,TH-34,TH
+Thailand,Yala,TH-95,TH
+Thailand,Yasothon,TH-35,TH
+United Kingdom,Aberdeen,GB-SCT,GB
+United Kingdom,Abergavenny,GB-WLS,GB
+United Kingdom,Aberystwyth,GB-WLS,GB
+United Kingdom,Abingdon,GB-ENG,GB
+United Kingdom,Accrington,GB-ENG,GB
+United Kingdom,Acle,GB-ENG,GB
+United Kingdom,Addlestone,GB-ENG,GB
+United Kingdom,Alcester,GB-ENG,GB
+United Kingdom,Alconbury,GB-ENG,GB
+United Kingdom,Aldbourne,GB-ENG,GB
+United Kingdom,Alderley Edge,GB-ENG,GB
+United Kingdom,Aldermaston,GB-ENG,GB
+United Kingdom,Aldershot,GB-ENG,GB
+United Kingdom,Alexandria,GB-SCT,GB
+United Kingdom,Alfreton,GB-ENG,GB
+United Kingdom,Alloa,GB-SCT,GB
+United Kingdom,Almondsbury,GB-ENG,GB
+United Kingdom,Alness,GB-SCT,GB
+United Kingdom,Alnwick,GB-ENG,GB
+United Kingdom,Alresford,GB-ENG,GB
+United Kingdom,Alrewas,GB-ENG,GB
+United Kingdom,Alton,GB-ENG,GB
+United Kingdom,Altrincham,GB-ENG,GB
+United Kingdom,Amersham,GB-ENG,GB
+United Kingdom,Ampthill,GB-ENG,GB
+United Kingdom,Andover,GB-ENG,GB
+United Kingdom,Annan,GB-SCT,GB
+United Kingdom,Antrim,GB-NIR,GB
+United Kingdom,Appley Bridge,GB-ENG,GB
+United Kingdom,Arbroath,GB-SCT,GB
+United Kingdom,Ardglass,GB-NIR,GB
+United Kingdom,Arundel,GB-ENG,GB
+United Kingdom,Ascot,GB-ENG,GB
+United Kingdom,Ash Vale,GB-ENG,GB
+United Kingdom,Ashbourne,GB-ENG,GB
+United Kingdom,Ashby-de-la-Zouch,GB-ENG,GB
+United Kingdom,Ashford,GB-ENG,GB
+United Kingdom,Ashington,GB-ENG,GB
+United Kingdom,Aston,GB-ENG,GB
+United Kingdom,Atherton,GB-ENG,GB
+United Kingdom,Attleborough,GB-ENG,GB
+United Kingdom,Aveley,GB-ENG,GB
+United Kingdom,Avoch,GB-SCT,GB
+United Kingdom,Avon,GB-ENG,GB
+United Kingdom,Aylesbury,GB-ENG,GB
+United Kingdom,Ayr,GB-SCT,GB
+United Kingdom,Bagshot,GB-ENG,GB
+United Kingdom,Bakewell,GB-ENG,GB
+United Kingdom,Baldock,GB-ENG,GB
+United Kingdom,Banbridge,GB-NIR,GB
+United Kingdom,Banbury,GB-ENG,GB
+United Kingdom,Bangor,GB-NIR,GB
+United Kingdom,Bangor,GB-WLS,GB
+United Kingdom,Banstead,GB-ENG,GB
+United Kingdom,Barnsley,GB-ENG,GB
+United Kingdom,Barnstaple,GB-ENG,GB
+United Kingdom,Barrhead,GB-SCT,GB
+United Kingdom,Barrow-in-Furness,GB-ENG,GB
+United Kingdom,Barry,GB-WLS,GB
+United Kingdom,Barton-upon-Humber,GB-ENG,GB
+United Kingdom,Basildon,GB-ENG,GB
+United Kingdom,Basingstoke,GB-ENG,GB
+United Kingdom,Bath,GB-ENG,GB
+United Kingdom,Batley,GB-ENG,GB
+United Kingdom,Beaconsfield,GB-ENG,GB
+United Kingdom,Beaminster,GB-ENG,GB
+United Kingdom,Bedford,GB-ENG,GB
+United Kingdom,Beeston,GB-ENG,GB
+United Kingdom,Belfast,GB-NIR,GB
+United Kingdom,Bellingdon,GB-ENG,GB
+United Kingdom,Bellshill,GB-SCT,GB
+United Kingdom,Belmont,GB-ENG,GB
+United Kingdom,Belper,GB-ENG,GB
+United Kingdom,Berkeley,GB-ENG,GB
+United Kingdom,Berkhamsted,GB-ENG,GB
+United Kingdom,Berwick-upon-Tweed,GB-ENG,GB
+United Kingdom,Beverley,GB-ENG,GB
+United Kingdom,Bicester,GB-ENG,GB
+United Kingdom,Bideford,GB-ENG,GB
+United Kingdom,Biggar,GB-SCT,GB
+United Kingdom,Biggleswade,GB-ENG,GB
+United Kingdom,Billericay,GB-ENG,GB
+United Kingdom,Billingham,GB-ENG,GB
+United Kingdom,Billingshurst,GB-ENG,GB
+United Kingdom,Binfield,GB-ENG,GB
+United Kingdom,Birchwood,GB-ENG,GB
+United Kingdom,Birkenhead,GB-ENG,GB
+United Kingdom,Birmingham,GB-ENG,GB
+United Kingdom,Birstall,GB-ENG,GB
+United Kingdom,Bishop Auckland,GB-ENG,GB
+United Kingdom,Bishop's Cleeve,GB-ENG,GB
+United Kingdom,Bishop's Stortford,GB-ENG,GB
+United Kingdom,Blaby,GB-ENG,GB
+United Kingdom,Blackburn,GB-ENG,GB
+United Kingdom,Blackheath,GB-ENG,GB
+United Kingdom,Blackpool,GB-ENG,GB
+United Kingdom,Blandford Forum,GB-ENG,GB
+United Kingdom,Blantyre,GB-SCT,GB
+United Kingdom,Bletchley,GB-ENG,GB
+United Kingdom,Bloxham,GB-ENG,GB
+United Kingdom,Blunham,GB-ENG,GB
+United Kingdom,Bodelwyddan,GB-WLS,GB
+United Kingdom,Bodmin,GB-ENG,GB
+United Kingdom,Bognor Regis,GB-ENG,GB
+United Kingdom,Bolton,GB-ENG,GB
+United Kingdom,Boness,GB-SCT,GB
+United Kingdom,Boothstown,GB-ENG,GB
+United Kingdom,Bootle,GB-ENG,GB
+United Kingdom,Borehamwood,GB-ENG,GB
+United Kingdom,Boston,GB-ENG,GB
+United Kingdom,Bottisham,GB-ENG,GB
+United Kingdom,Boughton,GB-ENG,GB
+United Kingdom,Bourne,GB-ENG,GB
+United Kingdom,Bourne End,GB-ENG,GB
+United Kingdom,Bournemouth,GB-ENG,GB
+United Kingdom,Bourton,GB-ENG,GB
+United Kingdom,Bowthorpe,GB-ENG,GB
+United Kingdom,Brackley,GB-ENG,GB
+United Kingdom,Bracknell,GB-ENG,GB
+United Kingdom,Bradford,GB-ENG,GB
+United Kingdom,Bradford-on-Avon,GB-ENG,GB
+United Kingdom,Braintree,GB-ENG,GB
+United Kingdom,Bramham,GB-ENG,GB
+United Kingdom,Brampton,GB-ENG,GB
+United Kingdom,Brasted,GB-ENG,GB
+United Kingdom,Brecon,GB-WLS,GB
+United Kingdom,Bredbury,GB-ENG,GB
+United Kingdom,Brentford,GB-ENG,GB
+United Kingdom,Brentwood,GB-ENG,GB
+United Kingdom,Bridge of Weir,GB-SCT,GB
+United Kingdom,Bridgend,GB-WLS,GB
+United Kingdom,Bridgnorth,GB-ENG,GB
+United Kingdom,Bridgwater,GB-ENG,GB
+United Kingdom,Brierley Hill,GB-ENG,GB
+United Kingdom,Brighton,GB-ENG,GB
+United Kingdom,Brill,GB-ENG,GB
+United Kingdom,Bristol,GB-ENG,GB
+United Kingdom,Broadbridge Heath,GB-ENG,GB
+United Kingdom,Broadstairs,GB-ENG,GB
+United Kingdom,Broadway,GB-ENG,GB
+United Kingdom,Brockenhurst,GB-ENG,GB
+United Kingdom,Brodick,GB-SCT,GB
+United Kingdom,Bromborough,GB-ENG,GB
+United Kingdom,Bromsgrove,GB-ENG,GB
+United Kingdom,Brookmans Park,GB-ENG,GB
+United Kingdom,Broseley,GB-ENG,GB
+United Kingdom,Brough,GB-ENG,GB
+United Kingdom,Broxbourne,GB-ENG,GB
+United Kingdom,Bruton,GB-ENG,GB
+United Kingdom,Buckingham,GB-ENG,GB
+United Kingdom,Bucksburn,GB-SCT,GB
+United Kingdom,Bude,GB-ENG,GB
+United Kingdom,Buntingford,GB-ENG,GB
+United Kingdom,Burford,GB-ENG,GB
+United Kingdom,Burgess Hill,GB-ENG,GB
+United Kingdom,Burnham,GB-ENG,GB
+United Kingdom,Burnley,GB-ENG,GB
+United Kingdom,Burton on Trent,GB-ENG,GB
+United Kingdom,Burtonwood,GB-ENG,GB
+United Kingdom,Bury,GB-ENG,GB
+United Kingdom,Bury Saint Edmunds,GB-ENG,GB
+United Kingdom,Bushey,GB-ENG,GB
+United Kingdom,Buxton,GB-ENG,GB
+United Kingdom,Byfleet,GB-ENG,GB
+United Kingdom,Caddington,GB-ENG,GB
+United Kingdom,Caernarfon,GB-WLS,GB
+United Kingdom,Caerphilly,GB-WLS,GB
+United Kingdom,Callington,GB-ENG,GB
+United Kingdom,Calne,GB-ENG,GB
+United Kingdom,Camberley,GB-ENG,GB
+United Kingdom,Camborne,GB-ENG,GB
+United Kingdom,Cambridge,GB-ENG,GB
+United Kingdom,Camelford,GB-ENG,GB
+United Kingdom,Camerton,GB-ENG,GB
+United Kingdom,Campbeltown,GB-SCT,GB
+United Kingdom,Cannock,GB-ENG,GB
+United Kingdom,Canterbury,GB-ENG,GB
+United Kingdom,Canvey Island,GB-ENG,GB
+United Kingdom,Capenhurst,GB-ENG,GB
+United Kingdom,Cardiff,GB-WLS,GB
+United Kingdom,Cardigan,GB-WLS,GB
+United Kingdom,Carlisle,GB-ENG,GB
+United Kingdom,Carmarthen,GB-WLS,GB
+United Kingdom,Carno,GB-WLS,GB
+United Kingdom,Carrickfergus,GB-NIR,GB
+United Kingdom,Castle Donnington,GB-ENG,GB
+United Kingdom,Castle Douglas,GB-SCT,GB
+United Kingdom,Castleford,GB-ENG,GB
+United Kingdom,Castleton,GB-ENG,GB
+United Kingdom,Castletown,GB-IOM,GB
+United Kingdom,Caterham,GB-ENG,GB
+United Kingdom,Cawthorne,GB-ENG,GB
+United Kingdom,Chalfont,GB-ENG,GB
+United Kingdom,Chalgrove,GB-ENG,GB
+United Kingdom,Chandlers Ford,GB-ENG,GB
+United Kingdom,Chapeltown,GB-ENG,GB
+United Kingdom,Chard,GB-ENG,GB
+United Kingdom,Charing,GB-ENG,GB
+United Kingdom,Charlwood,GB-ENG,GB
+United Kingdom,Chatham,GB-ENG,GB
+United Kingdom,Chatteris,GB-ENG,GB
+United Kingdom,Cheadle Hulme,GB-ENG,GB
+United Kingdom,Chelmsford,GB-ENG,GB
+United Kingdom,Cheltenham,GB-ENG,GB
+United Kingdom,Chepstow,GB-WLS,GB
+United Kingdom,Chertsey,GB-ENG,GB
+United Kingdom,Chesham,GB-ENG,GB
+United Kingdom,Cheshunt,GB-ENG,GB
+United Kingdom,Chester,GB-ENG,GB
+United Kingdom,Chesterfield,GB-ENG,GB
+United Kingdom,Chichester,GB-ENG,GB
+United Kingdom,Chineham,GB-ENG,GB
+United Kingdom,Chinnor,GB-ENG,GB
+United Kingdom,Chipping Norton,GB-ENG,GB
+United Kingdom,Chipping Sodbury,GB-ENG,GB
+United Kingdom,Chorley,GB-ENG,GB
+United Kingdom,Christchurch,GB-ENG,GB
+United Kingdom,Church Stretton,GB-ENG,GB
+United Kingdom,Cirencester,GB-ENG,GB
+United Kingdom,Clacton-on-Sea,GB-ENG,GB
+United Kingdom,Clapham,GB-ENG,GB
+United Kingdom,Cleckheaton,GB-ENG,GB
+United Kingdom,Cleethorpes,GB-ENG,GB
+United Kingdom,Clevedon,GB-ENG,GB
+United Kingdom,Clifton,GB-ENG,GB
+United Kingdom,Clydebank,GB-SCT,GB
+United Kingdom,Coalville,GB-ENG,GB
+United Kingdom,Coatbridge,GB-SCT,GB
+United Kingdom,Colchester,GB-ENG,GB
+United Kingdom,Coleford,GB-ENG,GB
+United Kingdom,Coleraine,GB-NIR,GB
+United Kingdom,Colnbrook,GB-ENG,GB
+United Kingdom,Colwyn Bay,GB-WLS,GB
+United Kingdom,Compton,GB-ENG,GB
+United Kingdom,Congleton,GB-ENG,GB
+United Kingdom,Connahs Quay,GB-WLS,GB
+United Kingdom,Consett,GB-ENG,GB
+United Kingdom,Conwy,GB-WLS,GB
+United Kingdom,Cookham Dean,GB-ENG,GB
+United Kingdom,Cookstown,GB-NIR,GB
+United Kingdom,Coppingford,GB-ENG,GB
+United Kingdom,Coppull,GB-ENG,GB
+United Kingdom,Corby,GB-ENG,GB
+United Kingdom,Cosham,GB-ENG,GB
+United Kingdom,Cottenham,GB-ENG,GB
+United Kingdom,Coventry,GB-ENG,GB
+United Kingdom,Cowes,GB-ENG,GB
+United Kingdom,Cowley,GB-ENG,GB
+United Kingdom,Craignure,GB-SCT,GB
+United Kingdom,Cramlington,GB-ENG,GB
+United Kingdom,Cranfield,GB-ENG,GB
+United Kingdom,Crawley,GB-ENG,GB
+United Kingdom,Crediton,GB-ENG,GB
+United Kingdom,Crewe,GB-ENG,GB
+United Kingdom,Crewkerne,GB-ENG,GB
+United Kingdom,Cromarty,GB-SCT,GB
+United Kingdom,Cromer,GB-ENG,GB
+United Kingdom,Crowborough,GB-ENG,GB
+United Kingdom,Crowthorne,GB-ENG,GB
+United Kingdom,Croydon,GB-ENG,GB
+United Kingdom,Crumlin,GB-WLS,GB
+United Kingdom,Crymmych Arms,GB-WLS,GB
+United Kingdom,Cumbernauld,GB-SCT,GB
+United Kingdom,Cwmbran,GB-WLS,GB
+United Kingdom,Dale,GB-WLS,GB
+United Kingdom,Darlington,GB-ENG,GB
+United Kingdom,Dartford,GB-ENG,GB
+United Kingdom,Darwen,GB-ENG,GB
+United Kingdom,Daventry,GB-ENG,GB
+United Kingdom,Denbigh,GB-WLS,GB
+United Kingdom,Denmead,GB-ENG,GB
+United Kingdom,Derby,GB-ENG,GB
+United Kingdom,Dersingham,GB-ENG,GB
+United Kingdom,Devizes,GB-ENG,GB
+United Kingdom,Devon,GB-ENG,GB
+United Kingdom,Didcot,GB-ENG,GB
+United Kingdom,Dingwall,GB-SCT,GB
+United Kingdom,Dodleston,GB-ENG,GB
+United Kingdom,Doncaster,GB-ENG,GB
+United Kingdom,Dorchester,GB-ENG,GB
+United Kingdom,Dorking,GB-ENG,GB
+United Kingdom,Dornoch,GB-SCT,GB
+United Kingdom,Douglas,GB-SCT,GB
+United Kingdom,Douglas,GB-IOM,GB
+United Kingdom,Dover,GB-ENG,GB
+United Kingdom,Dowlais,GB-WLS,GB
+United Kingdom,Downham,GB-ENG,GB
+United Kingdom,Downpatrick,GB-NIR,GB
+United Kingdom,Drayton,GB-ENG,GB
+United Kingdom,Droitwich,GB-ENG,GB
+United Kingdom,Dudley,GB-ENG,GB
+United Kingdom,Dumbarton,GB-SCT,GB
+United Kingdom,Dumfries,GB-SCT,GB
+United Kingdom,Dundee,GB-SCT,GB
+United Kingdom,Dunfermline,GB-SCT,GB
+United Kingdom,Dungannon,GB-NIR,GB
+United Kingdom,Dunmurry,GB-NIR,GB
+United Kingdom,Duns,GB-SCT,GB
+United Kingdom,Dunstable,GB-ENG,GB
+United Kingdom,Durham,GB-ENG,GB
+United Kingdom,Eaglesham,GB-SCT,GB
+United Kingdom,East Grinstead,GB-ENG,GB
+United Kingdom,East Kilbride,GB-SCT,GB
+United Kingdom,East Markham,GB-ENG,GB
+United Kingdom,East Retford,GB-ENG,GB
+United Kingdom,Eastbourne,GB-ENG,GB
+United Kingdom,Eastleigh,GB-ENG,GB
+United Kingdom,Edgbaston,GB-ENG,GB
+United Kingdom,Edinburgh,GB-SCT,GB
+United Kingdom,Edwalton,GB-ENG,GB
+United Kingdom,Egham,GB-ENG,GB
+United Kingdom,Elgin,GB-SCT,GB
+United Kingdom,Ellesmere Port,GB-ENG,GB
+United Kingdom,Elstree,GB-ENG,GB
+United Kingdom,Ely,GB-ENG,GB
+United Kingdom,Enderby,GB-ENG,GB
+United Kingdom,Enniskillen,GB-NIR,GB
+United Kingdom,Epping,GB-ENG,GB
+United Kingdom,Epsom,GB-ENG,GB
+United Kingdom,Esher,GB-ENG,GB
+United Kingdom,Eskdalemuir,GB-SCT,GB
+United Kingdom,Etchingham,GB-ENG,GB
+United Kingdom,Evesham,GB-ENG,GB
+United Kingdom,Ewell,GB-ENG,GB
+United Kingdom,Exeter,GB-ENG,GB
+United Kingdom,Exminster,GB-ENG,GB
+United Kingdom,Exmouth,GB-ENG,GB
+United Kingdom,Eyam,GB-ENG,GB
+United Kingdom,Eyemouth,GB-SCT,GB
+United Kingdom,Eynsham,GB-ENG,GB
+United Kingdom,Fairford,GB-ENG,GB
+United Kingdom,Falkirk,GB-SCT,GB
+United Kingdom,Falmer,GB-ENG,GB
+United Kingdom,Falmouth,GB-ENG,GB
+United Kingdom,Fareham,GB-ENG,GB
+United Kingdom,Farnborough,GB-ENG,GB
+United Kingdom,Farnham,GB-ENG,GB
+United Kingdom,Farringdon,GB-ENG,GB
+United Kingdom,Felixstowe,GB-ENG,GB
+United Kingdom,Felpham,GB-ENG,GB
+United Kingdom,Fenton,GB-ENG,GB
+United Kingdom,Ferndown,GB-ENG,GB
+United Kingdom,Ferryhill,GB-ENG,GB
+United Kingdom,Fife,GB-SCT,GB
+United Kingdom,Filleigh,GB-ENG,GB
+United Kingdom,Findhorn,GB-SCT,GB
+United Kingdom,Findon,GB-ENG,GB
+United Kingdom,Fleet,GB-ENG,GB
+United Kingdom,Fleetwood,GB-ENG,GB
+United Kingdom,Flint,GB-WLS,GB
+United Kingdom,Flitwick,GB-ENG,GB
+United Kingdom,Folkestone,GB-ENG,GB
+United Kingdom,Fordingbridge,GB-ENG,GB
+United Kingdom,Forest Row,GB-ENG,GB
+United Kingdom,Forfar,GB-SCT,GB
+United Kingdom,Forres,GB-SCT,GB
+United Kingdom,Foulridge,GB-ENG,GB
+United Kingdom,Frimley,GB-ENG,GB
+United Kingdom,Frome,GB-ENG,GB
+United Kingdom,Ft William,GB-SCT,GB
+United Kingdom,Gainsborough,GB-ENG,GB
+United Kingdom,Garreg,GB-WLS,GB
+United Kingdom,Gateshead,GB-ENG,GB
+United Kingdom,Geddington,GB-ENG,GB
+United Kingdom,Gerrards Cross,GB-ENG,GB
+United Kingdom,Glasgow,GB-SCT,GB
+United Kingdom,Glastonbury,GB-ENG,GB
+United Kingdom,Glengormley,GB-NIR,GB
+United Kingdom,Glenrothes,GB-SCT,GB
+United Kingdom,Glossop,GB-ENG,GB
+United Kingdom,Gloucester,GB-ENG,GB
+United Kingdom,Godalming,GB-ENG,GB
+United Kingdom,Goole,GB-ENG,GB
+United Kingdom,Gorebridge,GB-SCT,GB
+United Kingdom,Gorleston on Sea,GB-ENG,GB
+United Kingdom,Gourock,GB-SCT,GB
+United Kingdom,Grantham,GB-ENG,GB
+United Kingdom,Gravesend,GB-ENG,GB
+United Kingdom,Grays,GB-ENG,GB
+United Kingdom,Great Baddow,GB-ENG,GB
+United Kingdom,Great Malvern,GB-ENG,GB
+United Kingdom,Great Missenden,GB-ENG,GB
+United Kingdom,Great Yarmouth,GB-ENG,GB
+United Kingdom,Greenock,GB-SCT,GB
+United Kingdom,Grimsby,GB-ENG,GB
+United Kingdom,Guildford,GB-ENG,GB
+United Kingdom,Gwent,GB-WLS,GB
+United Kingdom,Haddenham,GB-ENG,GB
+United Kingdom,Hailsham,GB-ENG,GB
+United Kingdom,Halesowen,GB-ENG,GB
+United Kingdom,Halifax,GB-ENG,GB
+United Kingdom,Halton,GB-ENG,GB
+United Kingdom,Hamble,GB-ENG,GB
+United Kingdom,Hamilton,GB-SCT,GB
+United Kingdom,Hamilton,GB-ENG,GB
+United Kingdom,Handforth,GB-ENG,GB
+United Kingdom,Hanslope,GB-ENG,GB
+United Kingdom,Harlech,GB-WLS,GB
+United Kingdom,Harleston,GB-ENG,GB
+United Kingdom,Harlow,GB-ENG,GB
+United Kingdom,Harpenden,GB-ENG,GB
+United Kingdom,Harris,GB-SCT,GB
+United Kingdom,Harrogate,GB-ENG,GB
+United Kingdom,Hartlepool,GB-ENG,GB
+United Kingdom,Harwell,GB-ENG,GB
+United Kingdom,Haslingden,GB-ENG,GB
+United Kingdom,Hastings,GB-ENG,GB
+United Kingdom,Hastingwood,GB-ENG,GB
+United Kingdom,Hatfield,GB-ENG,GB
+United Kingdom,Havant,GB-ENG,GB
+United Kingdom,Haverfordwest,GB-WLS,GB
+United Kingdom,Haverhill,GB-ENG,GB
+United Kingdom,Hawarden,GB-WLS,GB
+United Kingdom,Hawes,GB-ENG,GB
+United Kingdom,Haydock,GB-ENG,GB
+United Kingdom,Hayle,GB-ENG,GB
+United Kingdom,Hayling Island,GB-ENG,GB
+United Kingdom,Haywards Heath,GB-ENG,GB
+United Kingdom,Headley Down,GB-ENG,GB
+United Kingdom,Heathfield,GB-ENG,GB
+United Kingdom,Heckfield,GB-ENG,GB
+United Kingdom,Hedge End,GB-ENG,GB
+United Kingdom,Helsby,GB-ENG,GB
+United Kingdom,Helston,GB-ENG,GB
+United Kingdom,Hemel Hempstead,GB-ENG,GB
+United Kingdom,Henfield,GB-ENG,GB
+United Kingdom,Hengoed,GB-WLS,GB
+United Kingdom,Henley-in-Arden,GB-ENG,GB
+United Kingdom,Henley-on-Thames,GB-ENG,GB
+United Kingdom,Hereford,GB-ENG,GB
+United Kingdom,Herne Bay,GB-ENG,GB
+United Kingdom,Hersham,GB-ENG,GB
+United Kingdom,Hertford,GB-ENG,GB
+United Kingdom,Hexham,GB-ENG,GB
+United Kingdom,Heybridge,GB-ENG,GB
+United Kingdom,Heywood,GB-ENG,GB
+United Kingdom,High Bentham,GB-ENG,GB
+United Kingdom,High Wycombe,GB-ENG,GB
+United Kingdom,Hildenborough,GB-ENG,GB
+United Kingdom,Hinckley,GB-ENG,GB
+United Kingdom,Hindhead,GB-ENG,GB
+United Kingdom,Histon,GB-ENG,GB
+United Kingdom,Hitchin,GB-ENG,GB
+United Kingdom,Hoddesdon,GB-ENG,GB
+United Kingdom,Holmes Chapel,GB-ENG,GB
+United Kingdom,Holmfirth,GB-ENG,GB
+United Kingdom,Hook,GB-ENG,GB
+United Kingdom,Horley,GB-ENG,GB
+United Kingdom,Horncastle,GB-ENG,GB
+United Kingdom,Horsham,GB-ENG,GB
+United Kingdom,Horton Kirby,GB-ENG,GB
+United Kingdom,Hove,GB-ENG,GB
+United Kingdom,Howden,GB-ENG,GB
+United Kingdom,Hucknall,GB-ENG,GB
+United Kingdom,Huddersfield,GB-ENG,GB
+United Kingdom,Hull,GB-ENG,GB
+United Kingdom,Hungerford,GB-ENG,GB
+United Kingdom,Huntingdon,GB-ENG,GB
+United Kingdom,Huyton-with-Roby,GB-ENG,GB
+United Kingdom,Ibstock,GB-ENG,GB
+United Kingdom,Ilkeston,GB-ENG,GB
+United Kingdom,Ilkley,GB-ENG,GB
+United Kingdom,Immingham,GB-ENG,GB
+United Kingdom,Ingham,GB-ENG,GB
+United Kingdom,Ingram,GB-ENG,GB
+United Kingdom,Inveraray,GB-SCT,GB
+United Kingdom,Inverbervie,GB-SCT,GB
+United Kingdom,Inverness,GB-SCT,GB
+United Kingdom,Inverurie,GB-SCT,GB
+United Kingdom,Ipswich,GB-ENG,GB
+United Kingdom,Irlam,GB-ENG,GB
+United Kingdom,Irvine,GB-SCT,GB
+United Kingdom,Iver,GB-ENG,GB
+United Kingdom,Jedburgh,GB-SCT,GB
+United Kingdom,Johnstone,GB-SCT,GB
+United Kingdom,Kearsley,GB-ENG,GB
+United Kingdom,Keele,GB-ENG,GB
+United Kingdom,Kegworth,GB-ENG,GB
+United Kingdom,Keighley,GB-ENG,GB
+United Kingdom,Kelso,GB-SCT,GB
+United Kingdom,Kempston,GB-ENG,GB
+United Kingdom,Kendal,GB-ENG,GB
+United Kingdom,Kenilworth,GB-ENG,GB
+United Kingdom,Kennacraig,GB-SCT,GB
+United Kingdom,Kensington,GB-ENG,GB
+United Kingdom,Kettering,GB-ENG,GB
+United Kingdom,Kidderminster,GB-ENG,GB
+United Kingdom,Kidlington,GB-ENG,GB
+United Kingdom,Kidsgrove,GB-ENG,GB
+United Kingdom,Kilbarchan,GB-SCT,GB
+United Kingdom,Kilbride,GB-SCT,GB
+United Kingdom,Kilmacolm,GB-SCT,GB
+United Kingdom,Kilmarnock,GB-SCT,GB
+United Kingdom,Kilwinning,GB-SCT,GB
+United Kingdom,Kingarth,GB-SCT,GB
+United Kingdom,Kings Langley,GB-ENG,GB
+United Kingdom,Kings Lynn,GB-ENG,GB
+United Kingdom,Kingsbridge,GB-ENG,GB
+United Kingdom,Kingston,GB-ENG,GB
+United Kingdom,Kingston Bagpuize,GB-ENG,GB
+United Kingdom,Kingswinford,GB-ENG,GB
+United Kingdom,Kinross,GB-SCT,GB
+United Kingdom,Kirkby,GB-ENG,GB
+United Kingdom,Kirkby in Ashfield,GB-ENG,GB
+United Kingdom,Kirkcaldy,GB-SCT,GB
+United Kingdom,Kirkintillock,GB-SCT,GB
+United Kingdom,Kirklees,GB-ENG,GB
+United Kingdom,Kirkwall,GB-SCT,GB
+United Kingdom,Kirmington,GB-ENG,GB
+United Kingdom,Kirriemuir,GB-SCT,GB
+United Kingdom,Knowsley,GB-ENG,GB
+United Kingdom,Knutsford,GB-ENG,GB
+United Kingdom,Lakenheath,GB-ENG,GB
+United Kingdom,Lambeth,GB-ENG,GB
+United Kingdom,Lampeter,GB-WLS,GB
+United Kingdom,Lancaster,GB-ENG,GB
+United Kingdom,Lancing,GB-ENG,GB
+United Kingdom,Langford,GB-ENG,GB
+United Kingdom,Langley,GB-ENG,GB
+United Kingdom,Larkhall,GB-SCT,GB
+United Kingdom,Lasswade,GB-SCT,GB
+United Kingdom,Launceston,GB-ENG,GB
+United Kingdom,Lawhitton,GB-ENG,GB
+United Kingdom,Leafield,GB-ENG,GB
+United Kingdom,Leatherhead,GB-ENG,GB
+United Kingdom,Lechlade,GB-ENG,GB
+United Kingdom,Lee-on-the-Solent,GB-ENG,GB
+United Kingdom,Leeds,GB-ENG,GB
+United Kingdom,Leek,GB-ENG,GB
+United Kingdom,Leeming,GB-ENG,GB
+United Kingdom,Leicester,GB-ENG,GB
+United Kingdom,Leighton Buzzard,GB-ENG,GB
+United Kingdom,Lenham,GB-ENG,GB
+United Kingdom,Lerwick,GB-SCT,GB
+United Kingdom,Letchworth,GB-ENG,GB
+United Kingdom,Lewes,GB-ENG,GB
+United Kingdom,Lewknor,GB-ENG,GB
+United Kingdom,Leyland,GB-ENG,GB
+United Kingdom,Lichfield,GB-ENG,GB
+United Kingdom,Lighthorne,GB-ENG,GB
+United Kingdom,Lincoln,GB-ENG,GB
+United Kingdom,Lindsey,GB-ENG,GB
+United Kingdom,Liphook,GB-ENG,GB
+United Kingdom,Lisburn,GB-NIR,GB
+United Kingdom,Liskeard,GB-ENG,GB
+United Kingdom,Little Chalfont,GB-ENG,GB
+United Kingdom,Little Chesterford,GB-ENG,GB
+United Kingdom,Littlebourne,GB-ENG,GB
+United Kingdom,Littlehampton,GB-ENG,GB
+United Kingdom,Liverpool,GB-ENG,GB
+United Kingdom,Livingston,GB-SCT,GB
+United Kingdom,Llanberis,GB-WLS,GB
+United Kingdom,Llandrindod Wells,GB-WLS,GB
+United Kingdom,Llanelli,GB-WLS,GB
+United Kingdom,Llangefni,GB-WLS,GB
+United Kingdom,Lochinver,GB-SCT,GB
+United Kingdom,Lochmaddy,GB-SCT,GB
+United Kingdom,Lochwinnoch,GB-SCT,GB
+United Kingdom,Lockerbie,GB-SCT,GB
+United Kingdom,Locks Heath,GB-ENG,GB
+United Kingdom,London,GB-ENG,GB
+United Kingdom,London Colney,GB-ENG,GB
+United Kingdom,Londonderry,GB-NIR,GB
+United Kingdom,Long Eaton,GB-ENG,GB
+United Kingdom,Long Stanton,GB-ENG,GB
+United Kingdom,Long Stratton,GB-ENG,GB
+United Kingdom,Loughborough,GB-ENG,GB
+United Kingdom,Louth,GB-ENG,GB
+United Kingdom,Lowestoft,GB-ENG,GB
+United Kingdom,Lowick,GB-ENG,GB
+United Kingdom,Lowther,GB-ENG,GB
+United Kingdom,Ludlow,GB-ENG,GB
+United Kingdom,Lurgan,GB-NIR,GB
+United Kingdom,Luss,GB-SCT,GB
+United Kingdom,Luton,GB-ENG,GB
+United Kingdom,Lutterworth,GB-ENG,GB
+United Kingdom,Lyme Regis,GB-ENG,GB
+United Kingdom,Lymington,GB-ENG,GB
+United Kingdom,Lymm,GB-ENG,GB
+United Kingdom,Lyndhurst,GB-ENG,GB
+United Kingdom,Lyneham,GB-ENG,GB
+United Kingdom,Macclesfield,GB-ENG,GB
+United Kingdom,Machynlleth,GB-WLS,GB
+United Kingdom,Maghull,GB-ENG,GB
+United Kingdom,Maidenhead,GB-ENG,GB
+United Kingdom,Maidstone,GB-ENG,GB
+United Kingdom,Maldon,GB-ENG,GB
+United Kingdom,Mallaigmore,GB-SCT,GB
+United Kingdom,Malmesbury,GB-ENG,GB
+United Kingdom,Malton,GB-ENG,GB
+United Kingdom,Malvern Link,GB-ENG,GB
+United Kingdom,Manchester,GB-ENG,GB
+United Kingdom,Manningtree,GB-ENG,GB
+United Kingdom,Mansfield,GB-ENG,GB
+United Kingdom,March,GB-ENG,GB
+United Kingdom,Margate,GB-ENG,GB
+United Kingdom,Market Harborough,GB-ENG,GB
+United Kingdom,Market Rasen,GB-ENG,GB
+United Kingdom,Marlborough,GB-ENG,GB
+United Kingdom,Marlow,GB-ENG,GB
+United Kingdom,Marske-by-the-Sea,GB-ENG,GB
+United Kingdom,Matlock,GB-ENG,GB
+United Kingdom,Melbourn,GB-ENG,GB
+United Kingdom,Melbourne,GB-ENG,GB
+United Kingdom,Melksham,GB-ENG,GB
+United Kingdom,Melrose,GB-SCT,GB
+United Kingdom,Melton Mowbray,GB-ENG,GB
+United Kingdom,Meriden,GB-ENG,GB
+United Kingdom,Merthyr Tydfil,GB-WLS,GB
+United Kingdom,Middlesbrough,GB-ENG,GB
+United Kingdom,Midhurst,GB-ENG,GB
+United Kingdom,Mildenhall,GB-ENG,GB
+United Kingdom,Milford,GB-ENG,GB
+United Kingdom,Milnthorpe,GB-ENG,GB
+United Kingdom,Milton Keynes,GB-ENG,GB
+United Kingdom,Mirfield,GB-ENG,GB
+United Kingdom,Mitcheldean,GB-ENG,GB
+United Kingdom,Monmouth,GB-WLS,GB
+United Kingdom,Montrose,GB-SCT,GB
+United Kingdom,Moorside,GB-ENG,GB
+United Kingdom,Morecambe,GB-ENG,GB
+United Kingdom,Morpeth,GB-ENG,GB
+United Kingdom,Mossley,GB-ENG,GB
+United Kingdom,Motherwell,GB-SCT,GB
+United Kingdom,Mountain Ash,GB-WLS,GB
+United Kingdom,Muir,GB-SCT,GB
+United Kingdom,Musselburgh,GB-SCT,GB
+United Kingdom,Nantwich,GB-ENG,GB
+United Kingdom,Neath,GB-WLS,GB
+United Kingdom,Neilston,GB-SCT,GB
+United Kingdom,Nelson,GB-ENG,GB
+United Kingdom,Nettlebed,GB-ENG,GB
+United Kingdom,New Milton,GB-ENG,GB
+United Kingdom,Newark-on-Trent,GB-ENG,GB
+United Kingdom,Newburn,GB-ENG,GB
+United Kingdom,Newbury,GB-ENG,GB
+United Kingdom,Newcastle,GB-NIR,GB
+United Kingdom,Newcastle Emlyn,GB-WLS,GB
+United Kingdom,Newcastle under Lyme,GB-ENG,GB
+United Kingdom,Newcastle upon Tyne,GB-ENG,GB
+United Kingdom,Newmarket,GB-ENG,GB
+United Kingdom,Newport,GB-ENG,GB
+United Kingdom,Newport,GB-WLS,GB
+United Kingdom,Newport Pagnell,GB-ENG,GB
+United Kingdom,Newquay,GB-ENG,GB
+United Kingdom,Newry,GB-NIR,GB
+United Kingdom,Newton Abbot,GB-ENG,GB
+United Kingdom,Newton Aycliffe,GB-ENG,GB
+United Kingdom,Newtown,GB-WLS,GB
+United Kingdom,Newtown St Boswells,GB-SCT,GB
+United Kingdom,Newtownabbey,GB-NIR,GB
+United Kingdom,Newtownards,GB-NIR,GB
+United Kingdom,North Berwick,GB-SCT,GB
+United Kingdom,North Shields,GB-ENG,GB
+United Kingdom,North Tyneside,GB-ENG,GB
+United Kingdom,North Walsham,GB-ENG,GB
+United Kingdom,Northallerton,GB-ENG,GB
+United Kingdom,Northampton,GB-ENG,GB
+United Kingdom,Northfleet,GB-ENG,GB
+United Kingdom,Northhampton,GB-ENG,GB
+United Kingdom,Northowram,GB-ENG,GB
+United Kingdom,Northwich,GB-ENG,GB
+United Kingdom,Norwich,GB-ENG,GB
+United Kingdom,Nottingham,GB-ENG,GB
+United Kingdom,Nuneaton,GB-ENG,GB
+United Kingdom,Oakham,GB-ENG,GB
+United Kingdom,Odiham,GB-ENG,GB
+United Kingdom,Oldbury,GB-ENG,GB
+United Kingdom,Oldham,GB-ENG,GB
+United Kingdom,Olney,GB-ENG,GB
+United Kingdom,Omagh,GB-NIR,GB
+United Kingdom,Ormskirk,GB-ENG,GB
+United Kingdom,Oswestry,GB-ENG,GB
+United Kingdom,Oundle,GB-ENG,GB
+United Kingdom,Overseal,GB-ENG,GB
+United Kingdom,Oxford,GB-ENG,GB
+United Kingdom,Oxted,GB-ENG,GB
+United Kingdom,Paignton,GB-ENG,GB
+United Kingdom,Paisley,GB-SCT,GB
+United Kingdom,Pangbourne,GB-ENG,GB
+United Kingdom,Peckleton,GB-ENG,GB
+United Kingdom,Peebles,GB-SCT,GB
+United Kingdom,Penarth,GB-WLS,GB
+United Kingdom,Penrith,GB-ENG,GB
+United Kingdom,Penshaw,GB-ENG,GB
+United Kingdom,Penzance,GB-ENG,GB
+United Kingdom,Perth,GB-SCT,GB
+United Kingdom,Peterborough,GB-ENG,GB
+United Kingdom,Peterlee,GB-ENG,GB
+United Kingdom,Petersfield,GB-ENG,GB
+United Kingdom,Petworth,GB-ENG,GB
+United Kingdom,Plymouth,GB-ENG,GB
+United Kingdom,Plympton,GB-ENG,GB
+United Kingdom,Pocklington,GB-ENG,GB
+United Kingdom,Pontefract,GB-ENG,GB
+United Kingdom,Pontyclun,GB-WLS,GB
+United Kingdom,Pontypool,GB-WLS,GB
+United Kingdom,Pontypridd,GB-WLS,GB
+United Kingdom,Poole,GB-ENG,GB
+United Kingdom,Poplar,GB-ENG,GB
+United Kingdom,Port Ellen,GB-SCT,GB
+United Kingdom,Port Talbot,GB-WLS,GB
+United Kingdom,Portadown,GB-NIR,GB
+United Kingdom,Porthcawl,GB-WLS,GB
+United Kingdom,Porthleven,GB-ENG,GB
+United Kingdom,Portland,GB-ENG,GB
+United Kingdom,Portlethen,GB-SCT,GB
+United Kingdom,Portree,GB-SCT,GB
+United Kingdom,Portsmouth,GB-ENG,GB
+United Kingdom,Potters Bar,GB-ENG,GB
+United Kingdom,Prenton,GB-ENG,GB
+United Kingdom,Prescot,GB-ENG,GB
+United Kingdom,Preston,GB-ENG,GB
+United Kingdom,Prestwick,GB-SCT,GB
+United Kingdom,Princes Risborough,GB-ENG,GB
+United Kingdom,Pudsey,GB-ENG,GB
+United Kingdom,Purfleet,GB-ENG,GB
+United Kingdom,Pwllheli,GB-WLS,GB
+United Kingdom,Radlett,GB-ENG,GB
+United Kingdom,Rainhill,GB-ENG,GB
+United Kingdom,Ramsey,GB-IOM,GB
+United Kingdom,Ramsgate,GB-ENG,GB
+United Kingdom,Ranfurly,GB-SCT,GB
+United Kingdom,Rassau,GB-WLS,GB
+United Kingdom,Rawtenstall,GB-ENG,GB
+United Kingdom,Rayleigh,GB-ENG,GB
+United Kingdom,Reading,GB-ENG,GB
+United Kingdom,Redcar,GB-ENG,GB
+United Kingdom,Redditch,GB-ENG,GB
+United Kingdom,Redhill,GB-ENG,GB
+United Kingdom,Redruth,GB-ENG,GB
+United Kingdom,Reigate,GB-ENG,GB
+United Kingdom,Renfrew,GB-SCT,GB
+United Kingdom,Rhondda,GB-WLS,GB
+United Kingdom,Richmond,GB-ENG,GB
+United Kingdom,Rickmansworth,GB-ENG,GB
+United Kingdom,Ripon,GB-ENG,GB
+United Kingdom,Risley,GB-ENG,GB
+United Kingdom,Riverhead,GB-ENG,GB
+United Kingdom,Rochdale,GB-ENG,GB
+United Kingdom,Rochester,GB-ENG,GB
+United Kingdom,Rochford,GB-ENG,GB
+United Kingdom,Rock Ferry,GB-ENG,GB
+United Kingdom,Romsey,GB-ENG,GB
+United Kingdom,Roslin,GB-SCT,GB
+United Kingdom,Ross-on-Wye,GB-ENG,GB
+United Kingdom,Rosyth,GB-SCT,GB
+United Kingdom,Rothbury,GB-ENG,GB
+United Kingdom,Rotherham,GB-ENG,GB
+United Kingdom,Rowlands Gill,GB-ENG,GB
+United Kingdom,Rowley Regis,GB-ENG,GB
+United Kingdom,Royal Leamington Spa,GB-ENG,GB
+United Kingdom,Royal Tunbridge Wells,GB-ENG,GB
+United Kingdom,Royston,GB-ENG,GB
+United Kingdom,Rugby,GB-ENG,GB
+United Kingdom,Rugeley,GB-ENG,GB
+United Kingdom,Runcorn,GB-ENG,GB
+United Kingdom,Ruscombe,GB-ENG,GB
+United Kingdom,Rushden,GB-ENG,GB
+United Kingdom,Rusper,GB-ENG,GB
+United Kingdom,Rustington,GB-ENG,GB
+United Kingdom,Rutherglen,GB-SCT,GB
+United Kingdom,Ruthin,GB-WLS,GB
+United Kingdom,Ryde,GB-ENG,GB
+United Kingdom,Saffron Walden,GB-ENG,GB
+United Kingdom,Sale,GB-ENG,GB
+United Kingdom,Salford,GB-ENG,GB
+United Kingdom,Salisbury,GB-ENG,GB
+United Kingdom,Saltaire,GB-ENG,GB
+United Kingdom,Saltburn-by-the-Sea,GB-ENG,GB
+United Kingdom,Sandbach,GB-ENG,GB
+United Kingdom,Sandbank,GB-SCT,GB
+United Kingdom,Sandwell,GB-ENG,GB
+United Kingdom,Sandwich,GB-ENG,GB
+United Kingdom,Sandwick,GB-SCT,GB
+United Kingdom,Sawbridgeworth,GB-ENG,GB
+United Kingdom,Sawtry,GB-ENG,GB
+United Kingdom,Saxmundham,GB-ENG,GB
+United Kingdom,Scarborough,GB-ENG,GB
+United Kingdom,Scole,GB-ENG,GB
+United Kingdom,Scunthorpe,GB-ENG,GB
+United Kingdom,Seaford,GB-ENG,GB
+United Kingdom,Seal,GB-ENG,GB
+United Kingdom,Sedlescombe,GB-ENG,GB
+United Kingdom,Sefton,GB-ENG,GB
+United Kingdom,Sevenoaks,GB-ENG,GB
+United Kingdom,Shaftesbury,GB-ENG,GB
+United Kingdom,Shawbury,GB-ENG,GB
+United Kingdom,Sheerness,GB-ENG,GB
+United Kingdom,Sheffield,GB-ENG,GB
+United Kingdom,Shepperton,GB-ENG,GB
+United Kingdom,Shepreth,GB-ENG,GB
+United Kingdom,Shepshed,GB-ENG,GB
+United Kingdom,Shepton Mallet,GB-ENG,GB
+United Kingdom,Sherburn,GB-ENG,GB
+United Kingdom,Shipley,GB-ENG,GB
+United Kingdom,Shipston-on-Stour,GB-ENG,GB
+United Kingdom,Shrewsbury,GB-ENG,GB
+United Kingdom,Sidmouth,GB-ENG,GB
+United Kingdom,Silchester,GB-ENG,GB
+United Kingdom,Silverstone,GB-ENG,GB
+United Kingdom,Sittingbourne,GB-ENG,GB
+United Kingdom,Skelmersdale,GB-ENG,GB
+United Kingdom,Skipton,GB-ENG,GB
+United Kingdom,Sleaford,GB-ENG,GB
+United Kingdom,Slough,GB-ENG,GB
+United Kingdom,Smethwick,GB-ENG,GB
+United Kingdom,Solihull,GB-ENG,GB
+United Kingdom,Somercotes,GB-ENG,GB
+United Kingdom,Soulbury,GB-ENG,GB
+United Kingdom,South Bank,GB-ENG,GB
+United Kingdom,South Cernery,GB-ENG,GB
+United Kingdom,South Mimms,GB-ENG,GB
+United Kingdom,South Tyneside,GB-ENG,GB
+United Kingdom,Southampton,GB-ENG,GB
+United Kingdom,Southend,GB-ENG,GB
+United Kingdom,Southend-on-Sea,GB-ENG,GB
+United Kingdom,Southport,GB-ENG,GB
+United Kingdom,Southsea,GB-ENG,GB
+United Kingdom,Spalding,GB-ENG,GB
+United Kingdom,Spennymoor,GB-ENG,GB
+United Kingdom,Spilsby,GB-ENG,GB
+United Kingdom,St Albans,GB-ENG,GB
+United Kingdom,St Andrews,GB-SCT,GB
+United Kingdom,St Annes,GB-ENG,GB
+United Kingdom,St Annes,GB-CHA,GB
+United Kingdom,St Austell,GB-ENG,GB
+United Kingdom,St Boswells,GB-SCT,GB
+United Kingdom,St Helens,GB-ENG,GB
+United Kingdom,St Helier,GB-CHA,GB
+United Kingdom,St Ives,GB-ENG,GB
+United Kingdom,St Neots,GB-ENG,GB
+United Kingdom,St Peter Port,GB-CHA,GB
+United Kingdom,St Saviour,GB-CHA,GB
+United Kingdom,Stafford,GB-ENG,GB
+United Kingdom,Staines,GB-ENG,GB
+United Kingdom,Stalybridge,GB-ENG,GB
+United Kingdom,Stamford,GB-ENG,GB
+United Kingdom,Stanstead Abbots,GB-ENG,GB
+United Kingdom,Stansted,GB-ENG,GB
+United Kingdom,Stanwell,GB-ENG,GB
+United Kingdom,Stapleford,GB-ENG,GB
+United Kingdom,Staplehurst,GB-ENG,GB
+United Kingdom,Staverton,GB-ENG,GB
+United Kingdom,Stevenage,GB-ENG,GB
+United Kingdom,Steyning,GB-ENG,GB
+United Kingdom,Stirling,GB-SCT,GB
+United Kingdom,Stock,GB-ENG,GB
+United Kingdom,Stockbridge,GB-ENG,GB
+United Kingdom,Stockley,GB-ENG,GB
+United Kingdom,Stockport,GB-ENG,GB
+United Kingdom,Stockton-on-Tees,GB-ENG,GB
+United Kingdom,Stoke Gifford,GB-ENG,GB
+United Kingdom,Stoke on Trent,GB-ENG,GB
+United Kingdom,Stoke Poges,GB-ENG,GB
+United Kingdom,Stokesley,GB-ENG,GB
+United Kingdom,Stonehouse,GB-SCT,GB
+United Kingdom,Stony Stratford,GB-ENG,GB
+United Kingdom,Stornoway,GB-SCT,GB
+United Kingdom,Stourbridge,GB-ENG,GB
+United Kingdom,Stourport-on-Severn,GB-ENG,GB
+United Kingdom,Stowmarket,GB-ENG,GB
+United Kingdom,Strabane,GB-NIR,GB
+United Kingdom,Stratford-on-Avon,GB-ENG,GB
+United Kingdom,Stroud,GB-ENG,GB
+United Kingdom,Studley,GB-ENG,GB
+United Kingdom,Suffolk,GB-ENG,GB
+United Kingdom,Sunbury,GB-ENG,GB
+United Kingdom,Sunderland,GB-ENG,GB
+United Kingdom,Sunninghill,GB-ENG,GB
+United Kingdom,Sutton,GB-ENG,GB
+United Kingdom,Sutton Coldfield,GB-ENG,GB
+United Kingdom,Sutton Courtenay,GB-ENG,GB
+United Kingdom,Sutton in Ashfield,GB-ENG,GB
+United Kingdom,Swadlincote,GB-ENG,GB
+United Kingdom,Swallowfield,GB-ENG,GB
+United Kingdom,Swanley,GB-ENG,GB
+United Kingdom,Swanmore,GB-ENG,GB
+United Kingdom,Swansea,GB-WLS,GB
+United Kingdom,Swavesey,GB-ENG,GB
+United Kingdom,Swindon,GB-ENG,GB
+United Kingdom,Tadcaster,GB-ENG,GB
+United Kingdom,Tadworth,GB-ENG,GB
+United Kingdom,Talbot Green,GB-WLS,GB
+United Kingdom,Tamworth,GB-ENG,GB
+United Kingdom,Tarbert,GB-SCT,GB
+United Kingdom,Tarfside,GB-SCT,GB
+United Kingdom,Tattenhall,GB-ENG,GB
+United Kingdom,Taunton,GB-ENG,GB
+United Kingdom,Teddington,GB-ENG,GB
+United Kingdom,Telford,GB-ENG,GB
+United Kingdom,Templecombe,GB-ENG,GB
+United Kingdom,Tenby,GB-WLS,GB
+United Kingdom,Tetbury,GB-ENG,GB
+United Kingdom,Tewkesbury,GB-ENG,GB
+United Kingdom,Thame,GB-ENG,GB
+United Kingdom,Thames Ditton,GB-ENG,GB
+United Kingdom,Thanet,GB-ENG,GB
+United Kingdom,Thatcham,GB-ENG,GB
+United Kingdom,Theale,GB-ENG,GB
+United Kingdom,Thetford,GB-ENG,GB
+United Kingdom,Thirsk,GB-ENG,GB
+United Kingdom,Thornbury,GB-ENG,GB
+United Kingdom,Thorpe-le-Soken,GB-ENG,GB
+United Kingdom,Thrapston,GB-ENG,GB
+United Kingdom,Thurrock,GB-ENG,GB
+United Kingdom,Tilbury,GB-ENG,GB
+United Kingdom,Tipton,GB-ENG,GB
+United Kingdom,Tiptree,GB-ENG,GB
+United Kingdom,Titchfield,GB-ENG,GB
+United Kingdom,Tiverton,GB-ENG,GB
+United Kingdom,Tonbridge,GB-ENG,GB
+United Kingdom,Torbay,GB-ENG,GB
+United Kingdom,Torquay,GB-ENG,GB
+United Kingdom,Totton,GB-ENG,GB
+United Kingdom,Towcester,GB-ENG,GB
+United Kingdom,Tranmere,GB-ENG,GB
+United Kingdom,Tring,GB-ENG,GB
+United Kingdom,Trinity,GB-SCT,GB
+United Kingdom,Trowbridge,GB-ENG,GB
+United Kingdom,Truro,GB-ENG,GB
+United Kingdom,Tuxford,GB-ENG,GB
+United Kingdom,Tywyn,GB-WLS,GB
+United Kingdom,Uckfield,GB-ENG,GB
+United Kingdom,Uddingston,GB-SCT,GB
+United Kingdom,Uig,GB-SCT,GB
+United Kingdom,Ullapool,GB-SCT,GB
+United Kingdom,Upper Heyford,GB-ENG,GB
+United Kingdom,Uppingham,GB-ENG,GB
+United Kingdom,Uttoxeter,GB-ENG,GB
+United Kingdom,Virginia Water,GB-ENG,GB
+United Kingdom,Wadhurst,GB-ENG,GB
+United Kingdom,Wainfleet,GB-ENG,GB
+United Kingdom,Wakefield,GB-ENG,GB
+United Kingdom,Wallasey,GB-ENG,GB
+United Kingdom,Wallingford,GB-ENG,GB
+United Kingdom,Wallington,GB-ENG,GB
+United Kingdom,Walsall,GB-ENG,GB
+United Kingdom,Waltham Cross,GB-ENG,GB
+United Kingdom,Walton-le-Dale,GB-ENG,GB
+United Kingdom,Walton-on-Thames,GB-ENG,GB
+United Kingdom,Wantage,GB-ENG,GB
+United Kingdom,Wardley,GB-ENG,GB
+United Kingdom,Ware,GB-ENG,GB
+United Kingdom,Warminster,GB-ENG,GB
+United Kingdom,Warrington,GB-ENG,GB
+United Kingdom,Warwick,GB-ENG,GB
+United Kingdom,Washington,GB-ENG,GB
+United Kingdom,Waterlooville,GB-ENG,GB
+United Kingdom,Watford,GB-ENG,GB
+United Kingdom,Watton,GB-ENG,GB
+United Kingdom,Weaverham,GB-ENG,GB
+United Kingdom,Wednesbury,GB-ENG,GB
+United Kingdom,Wellingborough,GB-ENG,GB
+United Kingdom,Welwyn Garden City,GB-ENG,GB
+United Kingdom,Wembley,GB-ENG,GB
+United Kingdom,Wendover,GB-ENG,GB
+United Kingdom,West Bromwich,GB-ENG,GB
+United Kingdom,West Kirby,GB-ENG,GB
+United Kingdom,West Lothian,GB-SCT,GB
+United Kingdom,West Malling,GB-ENG,GB
+United Kingdom,West Moors,GB-ENG,GB
+United Kingdom,Westcliff-on-Sea,GB-ENG,GB
+United Kingdom,Westerham,GB-ENG,GB
+United Kingdom,Westhoughton,GB-ENG,GB
+United Kingdom,Weston-Super-Mare,GB-ENG,GB
+United Kingdom,Wetherby,GB-ENG,GB
+United Kingdom,Weybridge,GB-ENG,GB
+United Kingdom,Weymouth,GB-ENG,GB
+United Kingdom,Wheathampstead,GB-ENG,GB
+United Kingdom,Whitchurch,GB-ENG,GB
+United Kingdom,Whitehaven,GB-ENG,GB
+United Kingdom,Whitstable,GB-ENG,GB
+United Kingdom,Wicken,GB-ENG,GB
+United Kingdom,Wickford,GB-ENG,GB
+United Kingdom,Widnes,GB-ENG,GB
+United Kingdom,Wigan,GB-ENG,GB
+United Kingdom,Willenhall,GB-ENG,GB
+United Kingdom,Willersey,GB-ENG,GB
+United Kingdom,Willingham,GB-ENG,GB
+United Kingdom,Wilmslow,GB-ENG,GB
+United Kingdom,Wimborne Minster,GB-ENG,GB
+United Kingdom,Winchcombe,GB-ENG,GB
+United Kingdom,Winchester,GB-ENG,GB
+United Kingdom,Windermere,GB-ENG,GB
+United Kingdom,Windsor,GB-ENG,GB
+United Kingdom,Wingerworth,GB-ENG,GB
+United Kingdom,Winnersh,GB-ENG,GB
+United Kingdom,Winsford,GB-ENG,GB
+United Kingdom,Witham,GB-ENG,GB
+United Kingdom,Withington,GB-ENG,GB
+United Kingdom,Witney,GB-ENG,GB
+United Kingdom,Woking,GB-ENG,GB
+United Kingdom,Wokingham,GB-ENG,GB
+United Kingdom,Wollaston,GB-ENG,GB
+United Kingdom,Wolverhampton,GB-ENG,GB
+United Kingdom,Wombourne,GB-ENG,GB
+United Kingdom,Wombwell,GB-ENG,GB
+United Kingdom,Woodbridge,GB-ENG,GB
+United Kingdom,Woodley,GB-ENG,GB
+United Kingdom,Woodside,GB-ENG,GB
+United Kingdom,Wootton Bassett,GB-ENG,GB
+United Kingdom,Worcester,GB-ENG,GB
+United Kingdom,Workington,GB-ENG,GB
+United Kingdom,Worksop,GB-ENG,GB
+United Kingdom,Worthing,GB-ENG,GB
+United Kingdom,Wotton-under-Edge,GB-ENG,GB
+United Kingdom,Wrexham,GB-WLS,GB
+United Kingdom,Wymondham,GB-ENG,GB
+United Kingdom,Yalding,GB-ENG,GB
+United Kingdom,Yarm,GB-ENG,GB
+United Kingdom,Yateley,GB-ENG,GB
+United Kingdom,Yeovil,GB-ENG,GB
+United Kingdom,York,GB-ENG,GB
+United Kingdom,Ystrad Mynach,GB-WLS,GB
