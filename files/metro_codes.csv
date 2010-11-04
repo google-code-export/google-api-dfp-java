@@ -1,0 +1,352 @@
+State,Metro,MetroCode,CountryCode
+Alabama,Atlanta GA,524,US
+Alabama,Birmingham AL,630,US
+Alabama,Columbus GA,522,US
+Alabama,Columbus-Tupelo-West Point MS,673,US
+Alabama,Dothan AL,606,US
+Alabama,Huntsville-Decatur (Florence) AL,691,US
+Alabama,Meridian MS,711,US
+Alabama,Mobile AL-Pensacola (Ft. Walton Beach) FL,686,US
+Alabama,Montgomery (Selma) AL,698,US
+Alaska,Anchorage AK,743,US
+Alaska,Fairbanks AK,745,US
+Alaska,Juneau AK,747,US
+Arizona,Albuquerque-Santa Fe NM,790,US
+Arizona,Phoenix AZ,753,US
+Arizona,Tucson (Sierra Vista) AZ,789,US
+Arizona,Yuma AZ-El Centro CA,771,US
+Arkansas,Ft. Smith-Fayetteville-Springdale-Rogers AR,670,US
+Arkansas,Greenwood-Greenville MS,647,US
+Arkansas,Jonesboro AR,734,US
+Arkansas,Little Rock-Pine Bluff AR,693,US
+Arkansas,Memphis TN,640,US
+Arkansas,Monroe LA-El Dorado AR,628,US
+Arkansas,Shreveport LA,612,US
+Arkansas,Springfield MO,619,US
+California,Bakersfield CA,800,US
+California,Chico-Redding CA,868,US
+California,Eureka CA,802,US
+California,Fresno-Visalia CA,866,US
+California,Los Angeles CA,803,US
+California,Medford-Klamath Falls OR,813,US
+California,Monterey-Salinas CA,828,US
+California,Palm Springs CA,804,US
+California,Phoenix AZ,753,US
+California,Reno NV,811,US
+California,Sacramento-Stockton-Modesto CA,862,US
+California,San Diego CA,825,US
+California,San Francisco-Oakland-San Jose CA,807,US
+California,Santa Barbara-Santa Maria-San Luis Obispo CA,855,US
+California,Yuma AZ-El Centro CA,771,US
+Colorado,Albuquerque-Santa Fe NM,790,US
+Colorado,Colorado Springs-Pueblo CO,752,US
+Colorado,Denver CO,751,US
+Colorado,Grand Junction-Montrose CO,773,US
+Connecticut,Hartford & New Haven CT,533,US
+Connecticut,New York NY,501,US
+Delaware,Philadelphia PA,504,US
+Delaware,Salisbury MD,576,US
+District of Columbia,Washington DC (Hagerstown MD),511,US
+Florida,Ft. Myers-Naples FL,571,US
+Florida,Gainesville FL,592,US
+Florida,Jacksonville FL,561,US
+Florida,Miami-Ft. Lauderdale FL,528,US
+Florida,Mobile AL-Pensacola (Ft. Walton Beach) FL,686,US
+Florida,Orlando-Daytona Beach-Melbourne FL,534,US
+Florida,Panama City FL,656,US
+Florida,Tallahassee FL-Thomasville GA,530,US
+Florida,Tampa-St. Petersburg (Sarasota) FL,539,US
+Florida,West Palm Beach-Ft. Pierce FL,548,US
+Georgia,Albany GA,525,US
+Georgia,Atlanta GA,524,US
+Georgia,Augusta GA,520,US
+Georgia,Chattanooga TN,575,US
+Georgia,Columbus GA,522,US
+Georgia,Dothan AL,606,US
+Georgia,Greenville-Spartanburg SC-Asheville NC-Anderson SC,567,US
+Georgia,Jacksonville FL,561,US
+Georgia,Macon GA,503,US
+Georgia,Savannah GA,507,US
+Georgia,Tallahassee FL-Thomasville GA,530,US
+Hawaii,Honolulu HI,744,US
+Idaho,Boise ID,757,US
+Idaho,Idaho Falls-Pocatello ID,758,US
+Idaho,Salt Lake City UT,770,US
+Idaho,Spokane WA,881,US
+Idaho,Twin Falls ID,760,US
+Illinois,"Champaign & Springfield-Decatur,IL",648,US
+Illinois,Chicago IL,602,US
+Illinois,Davenport IA-Rock Island-Moline IL,682,US
+Illinois,Evansville IN,649,US
+Illinois,Paducah KY-Cape Girardeau MO-Harrisburg-Mount Vernon IL,632,US
+Illinois,Peoria-Bloomington IL,675,US
+Illinois,Quincy IL-Hannibal MO-Keokuk IA,717,US
+Illinois,Rockford IL,610,US
+Illinois,St. Louis MO,609,US
+Illinois,Terre Haute IN,581,US
+Indiana,Chicago IL,602,US
+Indiana,Cincinnati OH,515,US
+Indiana,Dayton OH,542,US
+Indiana,Evansville IN,649,US
+Indiana,Ft. Wayne IN,509,US
+Indiana,Indianapolis IN,527,US
+Indiana,Lafayette IN,582,US
+Indiana,Louisville KY,529,US
+Indiana,South Bend-Elkhart IN,588,US
+Indiana,Terre Haute IN,581,US
+Iowa,Cedar Rapids-Waterloo-Iowa City & Dubuque IA,637,US
+Iowa,Davenport IA-Rock Island-Moline IL,682,US
+Iowa,Des Moines-Ames IA,679,US
+Iowa,Mankato MN,737,US
+Iowa,Omaha NE,652,US
+Iowa,Ottumwa IA-Kirksville MO,631,US
+Iowa,Quincy IL-Hannibal MO-Keokuk IA,717,US
+Iowa,Rochester MN-Mason City IA-Austin MN,611,US
+Iowa,Sioux City IA,624,US
+Iowa,Sioux Falls(Mitchell) SD,725,US
+Kansas,Amarillo TX,634,US
+Kansas,Joplin MO-Pittsburg KS,603,US
+Kansas,Kansas City MO,616,US
+Kansas,Lincoln & Hastings-Kearney NE,722,US
+Kansas,St. Joseph MO,638,US
+Kansas,Topeka KS,605,US
+Kansas,Tulsa OK,671,US
+Kansas,Wichita-Hutchinson KS,678,US
+Kentucky,Bowling Green KY,736,US
+Kentucky,Charleston-Huntington WV,564,US
+Kentucky,Cincinnati OH,515,US
+Kentucky,Evansville IN,649,US
+Kentucky,Knoxville TN,557,US
+Kentucky,Lexington KY,541,US
+Kentucky,Louisville KY,529,US
+Kentucky,Nashville TN,659,US
+Kentucky,Paducah KY-Cape Girardeau MO-Harrisburg-Mount Vernon IL,632,US
+Kentucky,Tri-Cities TN-VA,531,US
+Louisiana,Alexandria LA,644,US
+Louisiana,Baton Rouge LA,716,US
+Louisiana,Lafayette LA,642,US
+Louisiana,Lake Charles LA,643,US
+Louisiana,Monroe LA-El Dorado AR,628,US
+Louisiana,New Orleans LA,622,US
+Louisiana,Shreveport LA,612,US
+Maine,Bangor ME,537,US
+Maine,Portland-Auburn ME,500,US
+Maine,Presque Isle ME,552,US
+Maryland,Baltimore MD,512,US
+Maryland,Pittsburgh PA,508,US
+Maryland,Salisbury MD,576,US
+Maryland,Washington DC (Hagerstown MD),511,US
+Massachusetts,Albany-Schenectady-Troy NY,532,US
+Massachusetts,Boston MA-Manchester NH,506,US
+Massachusetts,Providence RI-New Bedford MA,521,US
+Massachusetts,Springfield-Holyoke MA,543,US
+Michigan,Alpena MI,583,US
+Michigan,Detroit MI,505,US
+Michigan,Duluth MN-Superior WI,676,US
+Michigan,Flint-Saginaw-Bay City MI,513,US
+Michigan,Grand Rapids-Kalamazoo-Battle Creek MI,563,US
+Michigan,Green Bay-Appleton WI,658,US
+Michigan,Lansing MI,551,US
+Michigan,Marquette MI,553,US
+Michigan,South Bend-Elkhart IN,588,US
+Michigan,Toledo OH,547,US
+Michigan,Traverse City-Cadillac MI,540,US
+Minnesota,Duluth MN-Superior WI,676,US
+Minnesota,Fargo-Valley City ND,724,US
+Minnesota,La Crosse-Eau Claire WI,702,US
+Minnesota,Mankato MN,737,US
+Minnesota,Minneapolis-St. Paul MN,613,US
+Minnesota,Rochester MN-Mason City IA-Austin MN,611,US
+Minnesota,Sioux Falls(Mitchell) SD,725,US
+Mississippi,Baton Rouge LA,716,US
+Mississippi,Biloxi-Gulfport MS,746,US
+Mississippi,Columbus-Tupelo-West Point MS,673,US
+Mississippi,Greenwood-Greenville MS,647,US
+Mississippi,Hattiesburg-Laurel MS,710,US
+Mississippi,Jackson MS,718,US
+Mississippi,Memphis TN,640,US
+Mississippi,Meridian MS,711,US
+Mississippi,Mobile AL-Pensacola (Ft. Walton Beach) FL,686,US
+Mississippi,New Orleans LA,622,US
+Missouri,Columbia-Jefferson City MO,604,US
+Missouri,Des Moines-Ames IA,679,US
+Missouri,Joplin MO-Pittsburg KS,603,US
+Missouri,Kansas City MO,616,US
+Missouri,Memphis TN,640,US
+Missouri,Omaha NE,652,US
+Missouri,Ottumwa IA-Kirksville MO,631,US
+Missouri,Paducah KY-Cape Girardeau MO-Harrisburg-Mount Vernon IL,632,US
+Missouri,Quincy IL-Hannibal MO-Keokuk IA,717,US
+Missouri,Springfield MO,619,US
+Missouri,St. Joseph MO,638,US
+Missouri,St. Louis MO,609,US
+Montana,Billings MT,756,US
+Montana,Butte-Bozeman MT,754,US
+Montana,Glendive MT,798,US
+Montana,Great Falls MT,755,US
+Montana,Helena MT,766,US
+Montana,Minot-Bismarck-Dickinson(Williston) ND,687,US
+Montana,Missoula MT,762,US
+Montana,Rapid City SD,764,US
+Montana,Spokane WA,881,US
+Nebraska,Cheyenne WY-Scottsbluff NE,759,US
+Nebraska,Lincoln & Hastings-Kearney NE,722,US
+Nebraska,North Platte NE,740,US
+Nebraska,Omaha NE,652,US
+Nebraska,Rapid City SD,764,US
+Nebraska,Sioux City IA,624,US
+Nebraska,Wichita-Hutchinson KS,678,US
+Nevada,Las Vegas NV,839,US
+Nevada,Reno NV,811,US
+Nevada,Salt Lake City UT,770,US
+New Hampshire,Boston MA-Manchester NH,506,US
+New Hampshire,Burlington VT-Plattsburgh NY,523,US
+New Hampshire,Portland-Auburn ME,500,US
+New Jersey,New York NY,501,US
+New Jersey,Philadelphia PA,504,US
+New Mexico,Albuquerque-Santa Fe NM,790,US
+New Mexico,Amarillo TX,634,US
+New Mexico,El Paso TX,765,US
+New Mexico,Odessa-Midland TX,633,US
+New York,Albany-Schenectady-Troy NY,532,US
+New York,Binghamton NY,502,US
+New York,Buffalo NY,514,US
+New York,Burlington VT-Plattsburgh NY,523,US
+New York,Elmira NY,565,US
+New York,New York NY,501,US
+New York,Rochester NY,538,US
+New York,Syracuse NY,555,US
+New York,Utica NY,526,US
+New York,Watertown NY,549,US
+North Carolina,Atlanta GA,524,US
+North Carolina,Charlotte NC,517,US
+North Carolina,Chattanooga TN,575,US
+North Carolina,Florence-Myrtle Beach SC,570,US
+North Carolina,Greensboro-High Point-Winston Salem NC,518,US
+North Carolina,Greenville-New Bern-Washington NC,545,US
+North Carolina,Greenville-Spartanburg SC-Asheville NC-Anderson SC,567,US
+North Carolina,Norfolk-Portsmouth-Newport News VA,544,US
+North Carolina,Raleigh-Durham (Fayetteville) NC,560,US
+North Carolina,Wilmington NC,550,US
+North Dakota,Fargo-Valley City ND,724,US
+North Dakota,Minot-Bismarck-Dickinson(Williston) ND,687,US
+Ohio,Charleston-Huntington WV,564,US
+Ohio,Cincinnati OH,515,US
+Ohio,Cleveland-Akron (Canton) OH,510,US
+Ohio,Columbus OH,535,US
+Ohio,Dayton OH,542,US
+Ohio,Ft. Wayne IN,509,US
+Ohio,Lima OH,558,US
+Ohio,Parkersburg WV,597,US
+Ohio,Toledo OH,547,US
+Ohio,Wheeling WV-Steubenville OH,554,US
+Ohio,Youngstown OH,536,US
+Ohio,Zanesville OH,596,US
+Oklahoma,Amarillo TX,634,US
+Oklahoma,Ft. Smith-Fayetteville-Springdale-Rogers AR,670,US
+Oklahoma,Joplin MO-Pittsburg KS,603,US
+Oklahoma,Oklahoma City OK,650,US
+Oklahoma,Sherman TX-Ada OK,657,US
+Oklahoma,Shreveport LA,612,US
+Oklahoma,Tulsa OK,671,US
+Oklahoma,Wichita Falls TX & Lawton OK,627,US
+Oregon,Bend OR,821,US
+Oregon,Boise ID,757,US
+Oregon,Eugene OR,801,US
+Oregon,Medford-Klamath Falls OR,813,US
+Oregon,Portland OR,820,US
+Oregon,Spokane WA,881,US
+Oregon,Yakima-Pasco-Richland-Kennewick WA,810,US
+Pennsylvania,Buffalo NY,514,US
+Pennsylvania,Elmira NY,565,US
+Pennsylvania,Erie PA,516,US
+Pennsylvania,Harrisburg-Lancaster-Lebanon-York PA,566,US
+Pennsylvania,Johnstown-Altoona PA,574,US
+Pennsylvania,New York NY,501,US
+Pennsylvania,Philadelphia PA,504,US
+Pennsylvania,Pittsburgh PA,508,US
+Pennsylvania,Washington DC (Hagerstown MD),511,US
+Pennsylvania,Wilkes Barre-Scranton PA,577,US
+Pennsylvania,Youngstown OH,536,US
+Rhode Island,Providence RI-New Bedford MA,521,US
+South Carolina,Augusta GA,520,US
+South Carolina,Charleston SC,519,US
+South Carolina,Charlotte NC,517,US
+South Carolina,Columbia SC,546,US
+South Carolina,Florence-Myrtle Beach SC,570,US
+South Carolina,Greenville-Spartanburg SC-Asheville NC-Anderson SC,567,US
+South Carolina,Savannah GA,507,US
+South Dakota,Minot-Bismarck-Dickinson(Williston) ND,687,US
+South Dakota,Rapid City SD,764,US
+South Dakota,Sioux City IA,624,US
+South Dakota,Sioux Falls(Mitchell) SD,725,US
+Tennessee,Chattanooga TN,575,US
+Tennessee,Huntsville-Decatur (Florence) AL,691,US
+Tennessee,Jackson TN,639,US
+Tennessee,Knoxville TN,557,US
+Tennessee,Memphis TN,640,US
+Tennessee,Nashville TN,659,US
+Tennessee,Paducah KY-Cape Girardeau MO-Harrisburg-Mount Vernon IL,632,US
+Tennessee,Tri-Cities TN-VA,531,US
+Texas,Abilene-Sweetwater TX,662,US
+Texas,Amarillo TX,634,US
+Texas,Austin TX,635,US
+Texas,Beaumont-Port Arthur TX,692,US
+Texas,Corpus Christi TX,600,US
+Texas,Dallas-Ft. Worth TX,623,US
+Texas,El Paso TX,765,US
+Texas,Harlingen-Weslaco-Brownsville-McAllen TX,636,US
+Texas,Houston TX,618,US
+Texas,Laredo TX,749,US
+Texas,Lubbock TX,651,US
+Texas,Odessa-Midland TX,633,US
+Texas,San Angelo TX,661,US
+Texas,San Antonio TX,641,US
+Texas,Sherman TX-Ada OK,657,US
+Texas,Shreveport LA,612,US
+Texas,Tyler-Longview(Lufkin & Nacogdoches) TX,709,US
+Texas,Victoria TX,626,US
+Texas,Waco-Temple-Bryan TX,625,US
+Texas,Wichita Falls TX & Lawton OK,627,US
+Utah,Salt Lake City UT,770,US
+Vermont,Albany-Schenectady-Troy NY,532,US
+Vermont,Boston MA-Manchester NH,506,US
+Vermont,Burlington VT-Plattsburgh NY,523,US
+Virginia,Bluefield-Beckley-Oak Hill WV,559,US
+Virginia,Charlottesville VA,584,US
+Virginia,Greensboro-High Point-Winston Salem NC,518,US
+Virginia,Harrisonburg VA,569,US
+Virginia,Norfolk-Portsmouth-Newport News VA,544,US
+Virginia,Raleigh-Durham (Fayetteville) NC,560,US
+Virginia,Richmond-Petersburg VA,556,US
+Virginia,Roanoke-Lynchburg VA,573,US
+Virginia,Tri-Cities TN-VA,531,US
+Virginia,Washington DC (Hagerstown MD),511,US
+Washington,Portland OR,820,US
+Washington,Seattle-Tacoma WA,819,US
+Washington,Spokane WA,881,US
+Washington,Yakima-Pasco-Richland-Kennewick WA,810,US
+West Virginia,Bluefield-Beckley-Oak Hill WV,559,US
+West Virginia,Charleston-Huntington WV,564,US
+West Virginia,Clarksburg-Weston WV,598,US
+West Virginia,Harrisonburg VA,569,US
+West Virginia,Parkersburg WV,597,US
+West Virginia,Pittsburgh PA,508,US
+West Virginia,Roanoke-Lynchburg VA,573,US
+West Virginia,Washington DC (Hagerstown MD),511,US
+West Virginia,Wheeling WV-Steubenville OH,554,US
+Wisconsin,Cedar Rapids-Waterloo-Iowa City & Dubuque IA,637,US
+Wisconsin,Duluth MN-Superior WI,676,US
+Wisconsin,Green Bay-Appleton WI,658,US
+Wisconsin,La Crosse-Eau Claire WI,702,US
+Wisconsin,Madison WI,669,US
+Wisconsin,Marquette MI,553,US
+Wisconsin,Milwaukee WI,617,US
+Wisconsin,Minneapolis-St. Paul MN,613,US
+Wisconsin,Wausau-Rhinelander WI,705,US
+Wyoming,Billings MT,756,US
+Wyoming,Casper-Riverton WY,767,US
+Wyoming,Cheyenne WY-Scottsbluff NE,759,US
+Wyoming,Idaho Falls-Pocatello ID,758,US
+Wyoming,Rapid City SD,764,US
+Wyoming,Salt Lake City UT,770,US
