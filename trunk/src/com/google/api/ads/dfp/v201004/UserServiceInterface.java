@@ -78,6 +78,14 @@ public interface UserServiceInterface extends java.rmi.Remote {
      *         <td>{@link User#name}</td>
      *         </tr>
      *         <tr>
+     *         <td>{@code roleId}</td>
+     *         <td>{@link User#roleId}
+     *         </tr>
+     *         <tr>
+     *         <td>{@code rolename}</td>
+     *         <td>{@link User#roleName}
+     *         </tr>
+     *         <tr>
      *         <td>{@code status}</td>
      *         <td>{@code ACTIVE} if {@link User#isActive} is true; {@code
      * INACTIVE}

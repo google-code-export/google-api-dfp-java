@@ -69,6 +69,10 @@ public interface CreativeServiceInterface extends java.rmi.Remote {
      *         <td>{@link Creative#name}</td>
      *         </tr>
      *         <tr>
+     *         <td>{@code advertiserId}</td>
+     *         <td>{@link Creative#advertiserId}</td>
+     *         </tr>
+     *         <tr>
      *         <td>{@code width}</td>
      *         <td>{@link Creative#size}</td>
      *         </tr>

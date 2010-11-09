@@ -33,7 +33,8 @@ public class AdUnit  implements java.io.Serializable {
 
     /* The name of the ad unit. This attribute is required and its
      * maximum length
-     *                 is 255 characters. */
+     *                 is 255 characters. This attribute must also be case-insensitive
+     * unique. */
     private java.lang.String name;
 
     /* A description of the ad unit. This value is optional and its
@@ -154,7 +155,8 @@ public class AdUnit  implements java.io.Serializable {
      * 
      * @return name   * The name of the ad unit. This attribute is required and its
      * maximum length
-     *                 is 255 characters.
+     *                 is 255 characters. This attribute must also be case-insensitive
+     * unique.
      */
     public java.lang.String getName() {
         return name;
@@ -166,7 +168,8 @@ public class AdUnit  implements java.io.Serializable {
      * 
      * @param name   * The name of the ad unit. This attribute is required and its
      * maximum length
-     *                 is 255 characters.
+     *                 is 255 characters. This attribute must also be case-insensitive
+     * unique.
      */
     public void setName(java.lang.String name) {
         this.name = name;

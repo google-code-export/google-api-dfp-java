@@ -93,6 +93,10 @@ public interface LineItemServiceInterface extends java.rmi.Remote {
      *         <td>{@code unitsBought}</td>
      *         <td>{@link LineItem#unitsBought}</td>
      *         </tr>
+     *         <tr>
+     *         <td>{@code deliveryRateType}</td>
+     *         <td>{@link LineItem#deliveryRateType}</td>
+     *         </tr>
      *         </table>
      *         
      *         

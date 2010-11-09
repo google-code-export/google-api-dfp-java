@@ -11,7 +11,7 @@ package com.google.api.ads.dfp.v201004;
 /**
  * Lists all inventory errors caused by associating a line item with
  * a targeting
- *             expression
+ *             expression.
  */
 public class InventoryTargetingError  extends com.google.api.ads.dfp.v201004.ApiError  implements java.io.Serializable {
     /* The error reason represented by an enum. */
