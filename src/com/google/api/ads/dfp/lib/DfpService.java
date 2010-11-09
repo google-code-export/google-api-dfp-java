@@ -126,7 +126,6 @@ public class DfpService {
     return ((useSandbox) ? version.getSandboxUrl() : version.getProductionUrl());
   }
 
-
   /**
    * The service class for v201004. Each {@code DfpService}
    * variable indicates which interface should be used.
@@ -209,5 +208,89 @@ public class DfpService {
      */
     public static final DfpService NETWORK_SERVICE =
         new DfpService("NetworkService", DfpVersion.V201004);
+  }
+
+  /**
+   * The service class for v201010. Each {@code DfpService}
+   * variable indicates which interface should be used.
+   */
+  public abstract static class V201010 {
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201010.InventoryServiceInterface}.
+     */
+    public static final DfpService INVENTORY_SERVICE =
+        new DfpService("InventoryService", DfpVersion.V201010);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201010.CompanyServiceInterface}.
+     */
+    public static final DfpService COMPANY_SERVICE =
+        new DfpService("CompanyService", DfpVersion.V201010);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201010.UserServiceInterface}.
+     */
+    public static final DfpService USER_SERVICE =
+        new DfpService("UserService", DfpVersion.V201010);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201010.OrderServiceInterface}.
+     */
+    public static final DfpService ORDER_SERVICE =
+        new DfpService("OrderService", DfpVersion.V201010);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201010.LineItemServiceInterface}.
+     */
+    public static final DfpService LINEITEM_SERVICE =
+        new DfpService("LineItemService", DfpVersion.V201010);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201010.LineItemCreativeAssociationServiceInterface}.
+     */
+    public static final DfpService LINEITEMCREATIVEASSOCIATION_SERVICE =
+        new DfpService("LineItemCreativeAssociationService",
+            DfpVersion.V201010);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201010.CreativeServiceInterface}.
+     */
+    public static final DfpService CREATIVE_SERVICE =
+        new DfpService("CreativeService", DfpVersion.V201010);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201010.PlacementServiceInterface}.
+     */
+    public static final DfpService PLACEMENT_SERVICE =
+        new DfpService("PlacementService", DfpVersion.V201010);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201010.ReportServiceInterface}.
+     */
+    public static final DfpService REPORT_SERVICE =
+        new DfpService("ReportService", DfpVersion.V201010);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201010.ForecastServiceInterface}.
+     */
+    public static final DfpService FORECAST_SERVICE =
+        new DfpService("ForecastService", DfpVersion.V201010);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201010.NetworkServiceInterface}.
+     */
+    public static final DfpService NETWORK_SERVICE =
+        new DfpService("NetworkService", DfpVersion.V201010);
   }
 }

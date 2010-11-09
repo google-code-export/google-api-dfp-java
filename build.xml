@@ -21,8 +21,18 @@
   <property name="jar.name" value="${ant.project.name}-${version}" />
 
   <!-- Service definitions -->
+  <property name="api.versions" value="v201004,v201010"/>
+  <property name="api.package.prefix" value="com.google.api.ads.dfp"/>
+  <property name="api.namespace.prefix" value="https://www.google.com/apis/ads/publisher" />
+  <property name="api.server" value="https://www.google.com" />
+  <property name="wsdl.postfix" value="?wsdl"/>
+
   <property name="api.version.v201004" value="v201004" />
   <property name="api.version.v201004.services"
+      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService" />
+
+  <property name="api.version.v201010" value="v201010" />
+  <property name="api.version.v201010.services"
       value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService" />
 
   <!-- Classpath -->
@@ -53,44 +63,40 @@
     <delete dir="${build.dir}/classes" />
   </target>
 
-  <!-- =================================================================== -->
-  <!-- Target: generate all services                                       -->
-  <!-- =================================================================== -->
-  <target name="generate_java" depends="init, clean">
-    <property name="server" value="https://www.google.com" />
-    <sequential>
-      <antcall target="generate_java_version" inheritAll="false">
-        <param name="services.version" value="${api.version.v201004}" />
-        <param name="services.package.prefix" value="com.google.api.ads.dfp" />
-        <param name="services.url.postfix" value="?wsdl" />
-        <param name="services.namespace.prefix"
-            value="https://www.google.com/apis/ads/publisher" />
-        <param name="services.server" value="${server}" />
-      </antcall>
-    </sequential>
-  </target>
 
   <!-- =================================================================== -->
-  <!-- Target: generate all services for a version                         -->
+  <!-- Target: generate java for all versions                              -->
   <!-- =================================================================== -->
-   <target name="generate_java_version">
-     <propertycopy property="group_services"
-         from="api.version.${services.version}.services" />
-    <foreach delimiter="," list="${group_services}"
-        target="generate_java_service" param="service.name"
+  <target name="generate_java_for_all_versions">
+    <foreach delimiter="," list="${api.versions}"
+        target="generate_java_for_all_services_of_version" param="services.version"
         inheritall="true" />
   </target>
 
   <!-- =================================================================== -->
-  <!-- Target: generate service                                      -->
+  <!-- Target: generate java for all services of a version                 -->
   <!-- =================================================================== -->
-  <target name="generate_java_service">
+  <target name="generate_java_for_all_services_of_version">
+    <propertycopy property="services"
+        from="api.version.${services.version}.services" />
+    <foreach delimiter="," list="${services}"
+        target="generate_java_for_service" param="service.name"
+        inheritall="true">
+    </foreach>
+  </target>
+
+
+  <!-- =================================================================== -->
+  <!-- Target: generate java for service                                   -->
+  <!-- =================================================================== -->
+  <target name="generate_java_for_service">
     <axis-wsdl2java all="true"
-        url="${services.server}/apis/ads/publisher/${services.version}/${service.name}${services.url.postfix}"
+        url="${api.server}/apis/ads/publisher/${services.version}/${service.name}${wsdl.postfix}"
         verbose="true" output="${src}" typemappingversion="1.2" debug="false"
         wrapArrays="true">
-      <mapping namespace="${services.namespace.prefix}/${services.version}"
-          package="${services.package.prefix}.${services.version}" />
+      <mapping
+          namespace="${api.namespace.prefix}/${services.version}"
+          package="${api.package.prefix}.${services.version}" />
     </axis-wsdl2java>
   </target>
 

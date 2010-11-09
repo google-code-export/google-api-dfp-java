@@ -1,3 +1,7 @@
+2.3.0:
+- Added support for v201010.
+- Modified example for creating line items with geographical targeting.
+
 2.2.1:
 - Fixed root logger issue.
 

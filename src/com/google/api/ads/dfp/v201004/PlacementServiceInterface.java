@@ -58,8 +58,16 @@ public interface PlacementServiceInterface extends java.rmi.Remote {
      *         <th scope="col">PQL Property</th> <th scope="col">Object Property</th>
      * </tr>
      *         <tr>
+     *         <td>{@code description}</td>
+     *         <td>{@link Placement#description}</td>
+     *         </tr>
+     *         <tr>
      *         <td>{@code id}</td>
      *         <td>{@link Placement#id}</td>
+     *         </tr>
+     *         <tr>
+     *         <td>{@code isAdSenseTargetingEnabled}</td>
+     *         <td>{@link Placement#isAdSenseTargetingEnabled}</td>
      *         </tr>
      *         <tr>
      *         <td>{@code name}</td>
@@ -70,16 +78,8 @@ public interface PlacementServiceInterface extends java.rmi.Remote {
      *         <td>{@link Placement#placementCode}</td>
      *         </tr>
      *         <tr>
-     *         <td>{@code description}</td>
-     *         <td>{@link Placement#description}</td>
-     *         </tr>
-     *         <tr>
      *         <td>{@code status}</td>
      *         <td>{@link Placement#status}</td>
-     *         </tr>
-     *         <tr>
-     *         <td>{@code isAdSenseTargetingEnabled}</td>
-     *         <td>{@link Placement#isAdSenseTargetingEnabled}</td>
      *         </tr>
      *         </table>
      *         
