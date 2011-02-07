@@ -74,7 +74,7 @@ public class ReportUtils {
    * @throws ServiceException if ReportService could not be instantiated
    */
   public ReportUtils(DfpUser user, long reportJobId) throws ServiceException {
-    this((ReportServiceInterface) user.getService(DfpService.V201004.REPORT_SERVICE), reportJobId);
+    this((ReportServiceInterface) user.getService(DfpService.V201010.REPORT_SERVICE), reportJobId);
   }
 
   /**

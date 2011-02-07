@@ -49,7 +49,7 @@ public class ApproveOrdersExample {
 
       // Create statement text to select all draft orders.
       String statementText = "WHERE status IN ('" + OrderStatus.DRAFT + "','"
-          + OrderStatus.PENDING_APPROVAL + "')";
+          + OrderStatus.PENDING_APPROVAL + "') LIMIT 500";
       Statement filterStatement = new Statement();
 
       // Set defaults for page and offset.

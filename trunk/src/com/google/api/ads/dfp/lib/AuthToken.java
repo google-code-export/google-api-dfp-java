@@ -42,6 +42,7 @@ public class AuthToken {
   private static final int HTTP_CLIENT_SOCKET_TIMEOUT_IN_MS = (int) TimeUnit.SECONDS.toMillis(20);
   private static final String AUTH_TOKEN_KEY = "Auth";
   private static final String ERROR_KEY = "Error";
+  private static final String INFO_KEY = "Info";
   private static final String URL_KEY = "Url";
   private static final String CAPTCHA_TOKEN_KEY = "CaptchaToken";
   private static final String CAPTCHA_URL_KEY = "CaptchaUrl";
@@ -122,6 +123,10 @@ public class AuthToken {
           errorCode = responseProperties.getProperty(ERROR_KEY);
           if (errorCode != null && errorCode.equals(CAPTCHA_REQUIRED_ERROR)) {
             captchaInfo = extractCaptchaInfoFromProperties(responseProperties);
+          }
+
+          if (responseProperties.containsKey(INFO_KEY)) {
+            errorCode += ": " + responseProperties.getProperty(INFO_KEY);
           }
         }
 
