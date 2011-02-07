@@ -121,6 +121,7 @@ public final class DateTimeUtils {
     calendar.set(Calendar.HOUR_OF_DAY, dateTime.getHour());
     calendar.set(Calendar.MINUTE, dateTime.getMinute());
     calendar.set(Calendar.SECOND, dateTime.getSecond());
+    calendar.set(Calendar.MILLISECOND, 0);
     return calendar.getTime();
   }
 

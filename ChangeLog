@@ -1,3 +1,9 @@
+2.4.0:
+- Added support for v201101.
+- Added PqlUtils.
+- Fixed bug in DateTimeUtils where random milliseconds were being added to
+  Dates.
+
 2.3.0:
 - Added support for v201010.
 - Modified example for creating line items with geographical targeting.

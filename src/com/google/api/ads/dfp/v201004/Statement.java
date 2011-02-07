@@ -15,8 +15,9 @@ package com.google.api.ads.dfp.v201004;
  * of a predefined
  *             domain type, which makes SELECT clause unnecessary.
  *             <p>
- *             An example query text might be {@code
- *             "WHERE status = 'ACTIVE' ORDER BY id LIMIT 30"}.
+ *             An example query text might be {@code "WHERE status =
+ * 'ACTIVE' ORDER BY id
+ *             LIMIT 30"}.
  *             </p>
  *             <p>
  *             Statements also support bind variables. These are substitutes
@@ -25,12 +26,20 @@ package com.google.api.ads.dfp.v201004;
  * </p>
  *             <p>
  *             An example of such a query might be {@code "WHERE id =
- * :idValue"}. The value
- *             for the variable idValue must then be set with an object
- * of type
- *             {@link Param} and is one of {@link StringParam}, {@link
- * LongParam} or
- *             {@link DoubleParam}.
+ * :idValue"}.
+ *             </p>
+ *             If using an API version newer than V201010, the value
+ * for the variable
+ *             idValue must then be set with an object of type {@link
+ * Value} and is one of
+ *             {@link NumberValue}, {@link TextValue} or {@link BooleanValue}.
+ * <p>
+ *             If using an API version older than or equal to V201010,
+ * the value for the
+ *             variable idValue must then be set with an object of type
+ * {@link Param} and is
+ *             one of {@link DoubleParam}, {@link LongParam} or {@link
+ * StringParam}.
  *             </p>
  */
 public class Statement  implements java.io.Serializable {
