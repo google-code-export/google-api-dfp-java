@@ -17,9 +17,7 @@ public class AdUnitCodeErrorReason implements java.io.Serializable {
         _table_.put(_value_,this);
     }
 
-    public static final java.lang.String _INVALID_CHARACTERS_GAM = "INVALID_CHARACTERS_GAM";
     public static final java.lang.String _INVALID_CHARACTERS = "INVALID_CHARACTERS";
-    public static final AdUnitCodeErrorReason INVALID_CHARACTERS_GAM = new AdUnitCodeErrorReason(_INVALID_CHARACTERS_GAM);
     public static final AdUnitCodeErrorReason INVALID_CHARACTERS = new AdUnitCodeErrorReason(_INVALID_CHARACTERS);
     public java.lang.String getValue() { return _value_;}
     public static AdUnitCodeErrorReason fromValue(java.lang.String value)

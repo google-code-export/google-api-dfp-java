@@ -194,7 +194,8 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 are supported. */
     private java.lang.Double discount;
 
-    /* The set of sizes this creative uses. */
+    /* The set of sizes the {@code LineItem} contains or might contain
+     * in the future. This attribute is required. */
     private com.google.api.ads.dfp.v201004.Size[] creativeSizes;
 
     /* The flag indicates whether overbooking should be allowed when
@@ -999,7 +1000,8 @@ public class LineItemSummary  implements java.io.Serializable {
     /**
      * Gets the creativeSizes value for this LineItemSummary.
      * 
-     * @return creativeSizes   * The set of sizes this creative uses.
+     * @return creativeSizes   * The set of sizes the {@code LineItem} contains or might contain
+     * in the future. This attribute is required.
      */
     public com.google.api.ads.dfp.v201004.Size[] getCreativeSizes() {
         return creativeSizes;
@@ -1009,7 +1011,8 @@ public class LineItemSummary  implements java.io.Serializable {
     /**
      * Sets the creativeSizes value for this LineItemSummary.
      * 
-     * @param creativeSizes   * The set of sizes this creative uses.
+     * @param creativeSizes   * The set of sizes the {@code LineItem} contains or might contain
+     * in the future. This attribute is required.
      */
     public void setCreativeSizes(com.google.api.ads.dfp.v201004.Size[] creativeSizes) {
         this.creativeSizes = creativeSizes;

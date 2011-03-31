@@ -9,7 +9,7 @@ package com.google.api.ads.dfp.v201004;
 
 
 /**
- * An error that describes a URL format error.
+ * Lists all errors associated with URLs.
  */
 public class InvalidUrlError  extends com.google.api.ads.dfp.v201004.ApiError  implements java.io.Serializable {
     private com.google.api.ads.dfp.v201004.InvalidUrlErrorReason reason;

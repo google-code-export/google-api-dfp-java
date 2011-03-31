@@ -9,9 +9,7 @@ package com.google.api.ads.dfp.v201010;
 
 
 /**
- * A generic error that may occur during translation from the transfer
- * object 
- *             to domain object.
+ * Lists errors related to parsing.
  */
 public class ParseError  extends com.google.api.ads.dfp.v201010.ApiError  implements java.io.Serializable {
     /* The error reason represented by an enum. */

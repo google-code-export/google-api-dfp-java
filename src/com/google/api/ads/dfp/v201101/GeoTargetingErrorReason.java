@@ -19,9 +19,11 @@ public class GeoTargetingErrorReason implements java.io.Serializable {
 
     public static final java.lang.String _TARGETED_LOCATIONS_NOT_EXCLUDABLE = "TARGETED_LOCATIONS_NOT_EXCLUDABLE";
     public static final java.lang.String _EXCLUDED_LOCATIONS_CANNOT_HAVE_CHILDREN_TARGETED = "EXCLUDED_LOCATIONS_CANNOT_HAVE_CHILDREN_TARGETED";
+    public static final java.lang.String _POSTAL_CODES_CANNOT_BE_EXCLUDED = "POSTAL_CODES_CANNOT_BE_EXCLUDED";
     public static final java.lang.String _UNTARGETABLE_LOCATION = "UNTARGETABLE_LOCATION";
     public static final GeoTargetingErrorReason TARGETED_LOCATIONS_NOT_EXCLUDABLE = new GeoTargetingErrorReason(_TARGETED_LOCATIONS_NOT_EXCLUDABLE);
     public static final GeoTargetingErrorReason EXCLUDED_LOCATIONS_CANNOT_HAVE_CHILDREN_TARGETED = new GeoTargetingErrorReason(_EXCLUDED_LOCATIONS_CANNOT_HAVE_CHILDREN_TARGETED);
+    public static final GeoTargetingErrorReason POSTAL_CODES_CANNOT_BE_EXCLUDED = new GeoTargetingErrorReason(_POSTAL_CODES_CANNOT_BE_EXCLUDED);
     public static final GeoTargetingErrorReason UNTARGETABLE_LOCATION = new GeoTargetingErrorReason(_UNTARGETABLE_LOCATION);
     public java.lang.String getValue() { return _value_;}
     public static GeoTargetingErrorReason fromValue(java.lang.String value)

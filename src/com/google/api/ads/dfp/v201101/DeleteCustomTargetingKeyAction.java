@@ -20,7 +20,7 @@ package com.google.api.ads.dfp.v201101;
  * will continue to
  *             exist.
  */
-public class DeleteCustomTargetingKeyAction  extends com.google.api.ads.dfp.v201101.CustomTargetingKeyAction  implements java.io.Serializable {
+public class DeleteCustomTargetingKeyAction  extends com.google.api.ads.dfp.v201101.DeleteCustomTargetingKeys  implements java.io.Serializable {
     public DeleteCustomTargetingKeyAction() {
     }
 

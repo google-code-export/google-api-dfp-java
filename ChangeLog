@@ -1,3 +1,8 @@
+2.5.0:
+- Added support for v201103.
+- Added DateUtils.
+- Fixed build instructions in README.
+
 2.4.0:
 - Added support for v201101.
 - Added PqlUtils.

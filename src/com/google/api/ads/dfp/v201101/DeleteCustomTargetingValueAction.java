@@ -9,10 +9,10 @@ package com.google.api.ads.dfp.v201101;
 
 
 /**
- * Represents the delete action that can be performed on 
+ * Represents the delete action that can be performed on
  *             {@link CustomTargetingValue} objects.
  */
-public class DeleteCustomTargetingValueAction  extends com.google.api.ads.dfp.v201101.CustomTargetingValueAction  implements java.io.Serializable {
+public class DeleteCustomTargetingValueAction  extends com.google.api.ads.dfp.v201101.DeleteCustomTargetingValues  implements java.io.Serializable {
     public DeleteCustomTargetingValueAction() {
     }
 
