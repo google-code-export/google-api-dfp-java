@@ -61,7 +61,7 @@ public class AdUnit  implements java.io.Serializable {
      *                 the ad. This attribute is read-only and is assigned
      * by Google when an ad
      *                 unit is created. Once an ad unit is created, its {@code
-     * adUnitCode} cannot 
+     * adUnitCode} cannot
      *                 be changed. */
     private java.lang.String adUnitCode;
 
@@ -279,7 +279,7 @@ public class AdUnit  implements java.io.Serializable {
      *                 the ad. This attribute is read-only and is assigned
      * by Google when an ad
      *                 unit is created. Once an ad unit is created, its {@code
-     * adUnitCode} cannot 
+     * adUnitCode} cannot
      *                 be changed.
      */
     public java.lang.String getAdUnitCode() {
@@ -295,7 +295,7 @@ public class AdUnit  implements java.io.Serializable {
      *                 the ad. This attribute is read-only and is assigned
      * by Google when an ad
      *                 unit is created. Once an ad unit is created, its {@code
-     * adUnitCode} cannot 
+     * adUnitCode} cannot
      *                 be changed.
      */
     public void setAdUnitCode(java.lang.String adUnitCode) {

@@ -116,7 +116,7 @@ library, do the following:
   1) Import the following packages or classes:
 
      // Contains the data classes and service classes.
-     import com.google.api.ads.dfp.v201002.*;
+     import com.google.api.ads.dfp.v201103.*;
 
      import com.google.api.ads.dfp.lib.DfpUser;
 
@@ -173,15 +173,26 @@ library, do the following:
     adUnit = inventoryService.createAdUnit(adUnit);
 
 
-Running demo programs
+Running examples
 ---------------------
 
-Demo programs can be compiled and run by executing the following on command line
-from a sub-directory of the "examples/" directory,
+Before running examples, please ensure that your dfp.properties is filled
+in and placed in your home directory.
 
-    $ javac -classpath ../lib/dfp-api-{version}.jar *.java
-    $ java -classpath .:../lib/dfp-api-{version}.jar\
+Examples can be compiled and run by executing the following on command line
+from the "examples/" directory i.e.
+
+    $ cd examples
+    $ javac -classpath ../lib/dfp-api-{lib_version}.jar {api_version}/*/*.java
+    $ java -classpath .:{api_version}:../lib/dfp-api-{lib_version}.jar\
       classname [parameters]
+
+As an example for v201103:
+
+    $ cd examples
+    $ javac -classpath ../lib/dfp-api-2.5.0.jar v201103/*/*.java
+    $ java -classpath .:v201103:../lib/dfp-api-2.5.0.jar\
+      v201103/inventoryService/GetAllAdUnitsExample
 
 
 How do I enable logging?

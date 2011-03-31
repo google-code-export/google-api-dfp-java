@@ -9,7 +9,7 @@ package com.google.api.ads.dfp.v201010;
 
 
 /**
- * A list of all errors to be used for validating Size.
+ * A list of all errors to be used for validating {@link Size}.
  */
 public class RequiredSizeError  extends com.google.api.ads.dfp.v201010.ApiError  implements java.io.Serializable {
     private com.google.api.ads.dfp.v201010.RequiredSizeErrorReason reason;

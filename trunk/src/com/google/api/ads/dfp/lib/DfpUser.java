@@ -43,7 +43,7 @@ import javax.xml.rpc.ServiceException;
 public class DfpUser {
   // Defaults for lib name and version, both of which will be loaded from
   // the build.properties file.
-  private final static String DEFAULT_LIB_PREFIX_NAME = "DfpAPi";
+  private final static String DEFAULT_LIB_PREFIX_NAME = "DfpApi";
   private final static String DEFAULT_LIB_POSTFIX_NAME = "Java";
   private final static String DEFAULT_LIB_VERSION = "";
 

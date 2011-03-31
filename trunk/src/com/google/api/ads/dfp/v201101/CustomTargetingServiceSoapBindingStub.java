@@ -337,9 +337,23 @@ public class CustomTargetingServiceSoapBindingStub extends org.apache.axis.clien
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "DeleteCustomTargetingKeys");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201101.DeleteCustomTargetingKeys.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "DeleteCustomTargetingValueAction");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201101.DeleteCustomTargetingValueAction.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "DeleteCustomTargetingValues");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201101.DeleteCustomTargetingValues.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);

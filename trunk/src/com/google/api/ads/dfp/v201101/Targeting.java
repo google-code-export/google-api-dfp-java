@@ -48,14 +48,14 @@ public class Targeting  implements java.io.Serializable {
      *                 The second level of {@code CustomCriteriaSet} objects
      * can only contain
      *                 {@link CustomCriteriaSet.LogicalOperator#AND} of all
-     * their children. If 
+     * their children. If
      *                 a {@link CustomCriteria} is placed on this level,
-     * the server will wrap it 
+     * the server will wrap it
      *                 in a {@link CustomCriteriaSet}.
      *                 </p>
      *                 <p>
      *                 The third level can only comprise of {@link CustomCriteria}
-     * objects, 
+     * objects,
      *                 namely {@link PredefinedCustomCriteria} and {@link
      * FreeFormCustomCriteria}.
      *                 </p>
@@ -156,14 +156,14 @@ public class Targeting  implements java.io.Serializable {
      *                 The second level of {@code CustomCriteriaSet} objects
      * can only contain
      *                 {@link CustomCriteriaSet.LogicalOperator#AND} of all
-     * their children. If 
+     * their children. If
      *                 a {@link CustomCriteria} is placed on this level,
-     * the server will wrap it 
+     * the server will wrap it
      *                 in a {@link CustomCriteriaSet}.
      *                 </p>
      *                 <p>
      *                 The third level can only comprise of {@link CustomCriteria}
-     * objects, 
+     * objects,
      *                 namely {@link PredefinedCustomCriteria} and {@link
      * FreeFormCustomCriteria}.
      *                 </p>
@@ -207,14 +207,14 @@ public class Targeting  implements java.io.Serializable {
      *                 The second level of {@code CustomCriteriaSet} objects
      * can only contain
      *                 {@link CustomCriteriaSet.LogicalOperator#AND} of all
-     * their children. If 
+     * their children. If
      *                 a {@link CustomCriteria} is placed on this level,
-     * the server will wrap it 
+     * the server will wrap it
      *                 in a {@link CustomCriteriaSet}.
      *                 </p>
      *                 <p>
      *                 The third level can only comprise of {@link CustomCriteria}
-     * objects, 
+     * objects,
      *                 namely {@link PredefinedCustomCriteria} and {@link
      * FreeFormCustomCriteria}.
      *                 </p>

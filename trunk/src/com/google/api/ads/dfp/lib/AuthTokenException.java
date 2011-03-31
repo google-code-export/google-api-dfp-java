@@ -17,7 +17,7 @@ package com.google.api.ads.dfp.lib;
 import java.io.IOException;
 
 /**
- * An exception thrown when the ClientLogin API was unable to succesfully
+ * An exception thrown when the ClientLogin API was unable to successfully
  * generate a token.
  *
  * @author api.arogal@gmail.com (Adam Rogal)
@@ -31,10 +31,10 @@ public class AuthTokenException extends Exception {
 
   /**
    * @param httpStatusCode the HTTP status code
-   * @param httpResponseBody the HTTP respone body
+   * @param httpResponseBody the HTTP response body
    * @param errorCode the client login error code if present
    * @param captchaInfo the captcha information if present
-   * @param ioException the {@code IOException} that caused the authencation
+   * @param ioException the {@code IOException} that caused the authentication
    *     failure
    */
   public AuthTokenException(Integer httpStatusCode, String httpResponseBody, String errorCode,

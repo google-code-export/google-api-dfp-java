@@ -28,7 +28,7 @@ package com.google.api.ads.dfp.v201101;
  *             <li>You must not target a location if you are also targeting
  * its parent.
  *             So if you are targeting New York City, you must not have
- * the state of New 
+ * the state of New
  *             York as one of the targeted locations</li>
  *             </ul>
  */

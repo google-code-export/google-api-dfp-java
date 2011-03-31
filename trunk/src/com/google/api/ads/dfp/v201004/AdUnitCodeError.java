@@ -9,8 +9,7 @@ package com.google.api.ads.dfp.v201004;
 
 
 /**
- * Caused by passing invalid date into the inventoryUnitCode of Inventory
- * Unit.
+ * Lists the generic errors associated with {@link AdUnit#adUnitCode}.
  */
 public class AdUnitCodeError  extends com.google.api.ads.dfp.v201004.ApiError  implements java.io.Serializable {
     private com.google.api.ads.dfp.v201004.AdUnitCodeErrorReason reason;

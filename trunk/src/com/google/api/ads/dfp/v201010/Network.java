@@ -23,9 +23,9 @@ public class Network  implements java.io.Serializable {
     /* The network code. If the current login has access to multiple
      * networks,
      *                 then the network code must be provided in the SOAP
-     * request headers for all 
+     * request headers for all
      *                 requests. Otherwise, it is optional to provide the
-     * network code in the SOAP 
+     * network code in the SOAP
      *                 headers. This field is read-only. */
     private java.lang.String networkCode;
 
@@ -43,7 +43,7 @@ public class Network  implements java.io.Serializable {
     /* The {@link AdUnit#id} of the top most ad unit to which descendant
      * ad units
      *                 can be added. Should be used for the {@link AdUnit#parentId}
-     * when first 
+     * when first
      *                 building inventory hierarchy. This field is read-only. */
     private java.lang.String effectiveRootAdUnitId;
 
@@ -118,9 +118,9 @@ public class Network  implements java.io.Serializable {
      * @return networkCode   * The network code. If the current login has access to multiple
      * networks,
      *                 then the network code must be provided in the SOAP
-     * request headers for all 
+     * request headers for all
      *                 requests. Otherwise, it is optional to provide the
-     * network code in the SOAP 
+     * network code in the SOAP
      *                 headers. This field is read-only.
      */
     public java.lang.String getNetworkCode() {
@@ -134,9 +134,9 @@ public class Network  implements java.io.Serializable {
      * @param networkCode   * The network code. If the current login has access to multiple
      * networks,
      *                 then the network code must be provided in the SOAP
-     * request headers for all 
+     * request headers for all
      *                 requests. Otherwise, it is optional to provide the
-     * network code in the SOAP 
+     * network code in the SOAP
      *                 headers. This field is read-only.
      */
     public void setNetworkCode(java.lang.String networkCode) {
@@ -214,7 +214,7 @@ public class Network  implements java.io.Serializable {
      * @return effectiveRootAdUnitId   * The {@link AdUnit#id} of the top most ad unit to which descendant
      * ad units
      *                 can be added. Should be used for the {@link AdUnit#parentId}
-     * when first 
+     * when first
      *                 building inventory hierarchy. This field is read-only.
      */
     public java.lang.String getEffectiveRootAdUnitId() {
@@ -228,7 +228,7 @@ public class Network  implements java.io.Serializable {
      * @param effectiveRootAdUnitId   * The {@link AdUnit#id} of the top most ad unit to which descendant
      * ad units
      *                 can be added. Should be used for the {@link AdUnit#parentId}
-     * when first 
+     * when first
      *                 building inventory hierarchy. This field is read-only.
      */
     public void setEffectiveRootAdUnitId(java.lang.String effectiveRootAdUnitId) {

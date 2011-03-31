@@ -10,7 +10,7 @@ package com.google.api.ads.dfp.v201010;
 
 /**
  * Represents a principal subdivision (eg. province or state) of a
- * country for 
+ * country for
  *             geographical targeting.
  */
 public class RegionLocation  extends com.google.api.ads.dfp.v201010.Location  implements java.io.Serializable {

@@ -16,7 +16,7 @@ public class SiteTargetingInfo  implements java.io.Serializable {
     /* Description of the {@code Placement} visible to AdWords advertisers.
      * This
      *                 field is required if {@link Placement#isAdSenseTargetingEnabled}
-     * is true 
+     * is true
      *                 and has a maximum length of 65535 characters. */
     private java.lang.String targetingDescription;
 
@@ -60,7 +60,7 @@ public class SiteTargetingInfo  implements java.io.Serializable {
      * @return targetingDescription   * Description of the {@code Placement} visible to AdWords advertisers.
      * This
      *                 field is required if {@link Placement#isAdSenseTargetingEnabled}
-     * is true 
+     * is true
      *                 and has a maximum length of 65535 characters.
      */
     public java.lang.String getTargetingDescription() {
@@ -74,7 +74,7 @@ public class SiteTargetingInfo  implements java.io.Serializable {
      * @param targetingDescription   * Description of the {@code Placement} visible to AdWords advertisers.
      * This
      *                 field is required if {@link Placement#isAdSenseTargetingEnabled}
-     * is true 
+     * is true
      *                 and has a maximum length of 65535 characters.
      */
     public void setTargetingDescription(java.lang.String targetingDescription) {
