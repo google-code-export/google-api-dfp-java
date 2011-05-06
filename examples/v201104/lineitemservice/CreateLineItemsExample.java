@@ -1,4 +1,4 @@
-// Copyright 2010 Google Inc. All Rights Reserved.
+// Copyright 2011 Google Inc. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,35 +12,41 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package v201010.lineitemservice;
+package v201104.lineitemservice;
 
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
-import com.google.api.ads.dfp.lib.utils.v201010.DateTimeUtils;
-import com.google.api.ads.dfp.v201010.CityLocation;
-import com.google.api.ads.dfp.v201010.CostType;
-import com.google.api.ads.dfp.v201010.CountryLocation;
-import com.google.api.ads.dfp.v201010.CreativeRotationType;
-import com.google.api.ads.dfp.v201010.GeoTargeting;
-import com.google.api.ads.dfp.v201010.InventoryTargeting;
-import com.google.api.ads.dfp.v201010.LineItem;
-import com.google.api.ads.dfp.v201010.LineItemServiceInterface;
-import com.google.api.ads.dfp.v201010.LineItemSummaryStartType;
-import com.google.api.ads.dfp.v201010.LineItemType;
-import com.google.api.ads.dfp.v201010.Location;
-import com.google.api.ads.dfp.v201010.MetroLocation;
-import com.google.api.ads.dfp.v201010.Money;
-import com.google.api.ads.dfp.v201010.RegionLocation;
-import com.google.api.ads.dfp.v201010.Size;
-import com.google.api.ads.dfp.v201010.Targeting;
-import com.google.api.ads.dfp.v201010.UnitType;
+import com.google.api.ads.dfp.lib.utils.v201104.DateTimeUtils;
+import com.google.api.ads.dfp.v201104.CostType;
+import com.google.api.ads.dfp.v201104.CreativeRotationType;
+import com.google.api.ads.dfp.v201104.DayOfWeek;
+import com.google.api.ads.dfp.v201104.DayPart;
+import com.google.api.ads.dfp.v201104.DayPartTargeting;
+import com.google.api.ads.dfp.v201104.DeliveryTimeZone;
+import com.google.api.ads.dfp.v201104.GeoTargeting;
+import com.google.api.ads.dfp.v201104.InventoryTargeting;
+import com.google.api.ads.dfp.v201104.LineItem;
+import com.google.api.ads.dfp.v201104.LineItemServiceInterface;
+import com.google.api.ads.dfp.v201104.LineItemType;
+import com.google.api.ads.dfp.v201104.Location;
+import com.google.api.ads.dfp.v201104.MinuteOfHour;
+import com.google.api.ads.dfp.v201104.Money;
+import com.google.api.ads.dfp.v201104.Size;
+import com.google.api.ads.dfp.v201104.StartDateTimeType;
+import com.google.api.ads.dfp.v201104.Targeting;
+import com.google.api.ads.dfp.v201104.TimeOfDay;
+import com.google.api.ads.dfp.v201104.UnitType;
+import com.google.api.ads.dfp.v201104.UserDomainTargeting;
 
 /**
  * This example creates new line items. To determine which line items exist, run
  * GetAllLineItemsExample.java. To determine which orders exist, run
  * GetAllOrdersExample.java. To determine which placements exist, run
- * GetAllPlacementsExample.java.
+ * GetAllPlacementsExample.java. To determine the IDs for locations, run
+ * GetAllCitiesExample.java, GetAllCountriesExample.java,
+ * GetAllMetrosExample.java, and GetAllRegionsExample.java.
+ *
  */
 public class CreateLineItemsExample {
   public static void main(String[] args) {
@@ -53,7 +59,7 @@ public class CreateLineItemsExample {
 
       // Get the LineItemService.
       LineItemServiceInterface lineItemService =
-          user.getService(DfpService.V201010.LINEITEM_SERVICE);
+          user.getService(DfpService.V201104.LINEITEM_SERVICE);
 
       // Set the order that all created line items will belong to and the
       // placement ID to target.
@@ -68,19 +74,48 @@ public class CreateLineItemsExample {
       GeoTargeting geoTargeting = new GeoTargeting();
 
       // Include the US and Quebec, Canada.
-      CountryLocation countryLocation = new CountryLocation();
-      countryLocation.setCountryCode("US");
-      RegionLocation regionLocation = new RegionLocation();
-      regionLocation.setRegionCode("CA-QC");
+      Location countryLocation = new Location();
+      countryLocation.setId(2840L);
+
+      Location regionLocation = new Location();
+      regionLocation.setId(20123L);
       geoTargeting.setTargetedLocations(new Location[] {countryLocation, regionLocation});
 
       // Exclude Chicago and the New York metro area.
-      CityLocation cityLocation = new CityLocation();
-      cityLocation.setCityName("Chicago");
-      cityLocation.setCountryCode("US");
-      MetroLocation metroLocation = new MetroLocation();
-      metroLocation.setMetroCode("501");
+      Location cityLocation = new Location();
+      cityLocation.setId(1016367L);
+
+      Location metroLocation = new Location();
+      metroLocation.setId(200501L);
       geoTargeting.setExcludedLocations(new Location[] {cityLocation, metroLocation});
+
+      // Exclude domains that are not under the network's control.
+      UserDomainTargeting userDomainTargeting = new UserDomainTargeting();
+      userDomainTargeting.setDomains(new String[] {"usa.gov"});
+      userDomainTargeting.setTargeted(false);
+
+      // Create day-part targeting.
+      DayPartTargeting dayPartTargeting = new DayPartTargeting();
+      dayPartTargeting.setTimeZone(DeliveryTimeZone.BROWSER);
+
+      // Target only the weekend in the browser's timezone.
+      DayPart saturdayDayPart = new DayPart();
+      saturdayDayPart.setDayOfWeek(DayOfWeek.SATURDAY);
+      saturdayDayPart.setStartTime(new TimeOfDay(0, MinuteOfHour.ZERO));
+      saturdayDayPart.setEndTime(new TimeOfDay(24, MinuteOfHour.ZERO));
+
+      DayPart sundayDayPart = new DayPart();
+      sundayDayPart.setDayOfWeek(DayOfWeek.SUNDAY);
+      sundayDayPart.setStartTime(new TimeOfDay(0, MinuteOfHour.ZERO));
+      sundayDayPart.setEndTime(new TimeOfDay(24, MinuteOfHour.ZERO));
+      dayPartTargeting.setDayParts(new DayPart[] {saturdayDayPart, sundayDayPart});
+
+      // Create targeting.
+      Targeting targeting = new Targeting();
+      targeting.setGeoTargeting(geoTargeting);
+      targeting.setInventoryTargeting(inventoryTargeting);
+      targeting.setUserDomainTargeting(userDomainTargeting);
+      targeting.setDayPartTargeting(dayPartTargeting);
 
       // Create an array to store local line item objects.
       LineItem[] lineItems = new LineItem[5];
@@ -89,7 +124,7 @@ public class CreateLineItemsExample {
         LineItem lineItem = new LineItem();
         lineItem.setName("Line item #" + i);
         lineItem.setOrderId(orderId);
-        lineItem.setTargeting(new Targeting(geoTargeting, inventoryTargeting));
+        lineItem.setTargeting(targeting);
         lineItem.setLineItemType(LineItemType.STANDARD);
         lineItem.setAllowOverbook(true);
 
@@ -100,7 +135,7 @@ public class CreateLineItemsExample {
         lineItem.setCreativeSizes(new Size[] {new Size(300, 250, false)});
 
         // Set the length of the line item to run.
-        lineItem.setStartType(LineItemSummaryStartType.IMMEDIATELY);
+        lineItem.setStartDateTimeType(StartDateTimeType.IMMEDIATELY);
         lineItem.setEndDateTime(DateTimeUtils.fromString("2011-09-01T00:00:00"));
 
         // Set the cost per unit to $2.
