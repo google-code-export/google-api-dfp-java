@@ -39,7 +39,7 @@ import com.google.api.ads.dfp.v201101.UnitType;
 /**
  * This example creates new line items. To determine which line items exist, run
  * GetAllLineItemsExample.java. To determine which orders exist, run
- * GetAllOrdersExamle.java. To determine which placements exist, run
+ * GetAllOrdersExample.java. To determine which placements exist, run
  * GetAllPlacementsExample.java.
  */
 public class CreateLineItemsExample {
