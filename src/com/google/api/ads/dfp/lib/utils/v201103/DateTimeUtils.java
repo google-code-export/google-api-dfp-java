@@ -14,7 +14,6 @@
 
 package com.google.api.ads.dfp.lib.utils.v201103;
 
-import com.google.api.ads.dfp.v201103.Date;
 import com.google.api.ads.dfp.v201103.DateTime;
 
 import java.text.ParseException;

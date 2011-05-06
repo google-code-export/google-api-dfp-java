@@ -36,7 +36,7 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiExceptionFault"),
                       "com.google.api.ads.dfp.v201101.ApiException",
-                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"),
+                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"), 
                       true
                      ));
         _operations[0] = oper;
@@ -54,7 +54,7 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiExceptionFault"),
                       "com.google.api.ads.dfp.v201101.ApiException",
-                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"),
+                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"), 
                       true
                      ));
         _operations[1] = oper;
@@ -72,7 +72,7 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiExceptionFault"),
                       "com.google.api.ads.dfp.v201101.ApiException",
-                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"),
+                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"), 
                       true
                      ));
         _operations[2] = oper;
@@ -90,7 +90,7 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiExceptionFault"),
                       "com.google.api.ads.dfp.v201101.ApiException",
-                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"),
+                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"), 
                       true
                      ));
         _operations[3] = oper;
@@ -111,7 +111,7 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiExceptionFault"),
                       "com.google.api.ads.dfp.v201101.ApiException",
-                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"),
+                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"), 
                       true
                      ));
         _operations[4] = oper;
@@ -129,7 +129,7 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiExceptionFault"),
                       "com.google.api.ads.dfp.v201101.ApiException",
-                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"),
+                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"), 
                       true
                      ));
         _operations[5] = oper;
@@ -147,7 +147,7 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiExceptionFault"),
                       "com.google.api.ads.dfp.v201101.ApiException",
-                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"),
+                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"), 
                       true
                      ));
         _operations[6] = oper;
@@ -445,6 +445,20 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "FrequencyCapError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201101.FrequencyCapError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "FrequencyCapError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201101.FrequencyCapErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "GeoTargeting");
             cachedSerQNames.add(qName);
@@ -887,13 +901,6 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "String_ValueMapEntry");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201101.String_ValueMapEntry.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
     }
     private void addBindings1() {
             java.lang.Class cls;
@@ -909,6 +916,13 @@ public class LineItemServiceSoapBindingStub extends org.apache.axis.client.Stub 
             java.lang.Class simpledf = org.apache.axis.encoding.ser.SimpleDeserializerFactory.class;
             java.lang.Class simplelistsf = org.apache.axis.encoding.ser.SimpleListSerializerFactory.class;
             java.lang.Class simplelistdf = org.apache.axis.encoding.ser.SimpleListDeserializerFactory.class;
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "String_ValueMapEntry");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201101.String_ValueMapEntry.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "StringLengthError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201101.StringLengthError.class;

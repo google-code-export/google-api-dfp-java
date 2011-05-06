@@ -10,6 +10,13 @@ package com.google.api.ads.dfp.v201101;
 
 /**
  * Represents a city for geographical targeting.
+ *             <p>
+ *             Since {@code v201104}, fields of this class are ignored
+ * on input. Instead
+ *             {@link Location} should be used and the {@link Location#id}
+ * field should be
+ *             set.
+ *             </p>
  */
 public class CityLocation  extends com.google.api.ads.dfp.v201101.Location  implements java.io.Serializable {
     /* Case insensitive name of the city. This field is required. */

@@ -36,7 +36,7 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiExceptionFault"),
                       "com.google.api.ads.dfp.v201101.ApiException",
-                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"),
+                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"), 
                       true
                      ));
         _operations[0] = oper;
@@ -54,7 +54,7 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiExceptionFault"),
                       "com.google.api.ads.dfp.v201101.ApiException",
-                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"),
+                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ApiException"), 
                       true
                      ));
         _operations[1] = oper;

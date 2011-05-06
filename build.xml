@@ -21,7 +21,7 @@
   <property name="jar.name" value="${ant.project.name}-${version}" />
 
   <!-- Service definitions -->
-  <property name="api.versions" value="v201004,v201010,v201101,v201103"/>
+  <property name="api.versions" value="v201004,v201010,v201101,v201103,v201104"/>
   <property name="api.package.prefix" value="com.google.api.ads.dfp"/>
   <property name="api.namespace.prefix" value="https://www.google.com/apis/ads/publisher" />
   <property name="api.server" value="https://www.google.com" />
@@ -41,6 +41,10 @@
 
   <property name="api.version.v201103" value="v201103" />
   <property name="api.version.v201103.services"
+      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService" />
+
+  <property name="api.version.v201104" value="v201104" />
+  <property name="api.version.v201104.services"
       value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService" />
 
   <!-- Classpath -->

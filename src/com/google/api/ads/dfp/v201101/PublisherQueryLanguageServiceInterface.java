@@ -16,7 +16,7 @@ public interface PublisherQueryLanguageServiceInterface extends java.rmi.Remote 
      *         
      *         
      * @param selectStatement a Publisher Query Language statement used to
-     * specify what data needs to returned 
+     * specify what data needs to returned
      *         
      *         
      * @return a result set of data that matches the given filter
