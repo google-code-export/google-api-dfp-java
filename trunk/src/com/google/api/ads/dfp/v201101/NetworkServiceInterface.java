@@ -15,7 +15,7 @@ public interface NetworkServiceInterface extends java.rmi.Remote {
      *         access.
      *         <p>
      *         Intended to be used without a network code in the SOAP header
-     * when the 
+     * when the
      *         login may have more than one network associated with it.
      *         </p>
      *         
@@ -34,7 +34,7 @@ public interface NetworkServiceInterface extends java.rmi.Remote {
 
     /**
      * Updates the specified network. Currently, only the network
-     * display name can 
+     * display name can
      *         be updated.
      *         
      *         

@@ -36,7 +36,7 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201103", "ApiExceptionFault"),
                       "com.google.api.ads.dfp.v201103.ApiException",
-                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201103", "ApiException"),
+                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201103", "ApiException"), 
                       true
                      ));
         _operations[0] = oper;
@@ -54,7 +54,7 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201103", "ApiExceptionFault"),
                       "com.google.api.ads.dfp.v201103.ApiException",
-                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201103", "ApiException"),
+                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201103", "ApiException"), 
                       true
                      ));
         _operations[1] = oper;
@@ -394,7 +394,6 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
-
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201103", "GeoTargeting");
             cachedSerQNames.add(qName);
@@ -795,6 +794,20 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201103", "Targeting");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201103.Targeting.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201103", "TimeOfDay");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201103.TimeOfDay.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
     }
     private void addBindings1() {
             java.lang.Class cls;
@@ -810,20 +823,6 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             java.lang.Class simpledf = org.apache.axis.encoding.ser.SimpleDeserializerFactory.class;
             java.lang.Class simplelistsf = org.apache.axis.encoding.ser.SimpleListSerializerFactory.class;
             java.lang.Class simplelistdf = org.apache.axis.encoding.ser.SimpleListDeserializerFactory.class;
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201103", "Targeting");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201103.Targeting.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201103", "TimeOfDay");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201103.TimeOfDay.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201103", "TimeUnit");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201103.TimeUnit.class;

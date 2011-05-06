@@ -107,7 +107,7 @@ public interface CustomTargetingServiceInterface extends java.rmi.Remote {
      *         </ol>
      *         </p>
      *         <p>
-     *         The following fields are supported for filtering: 
+     *         The following fields are supported for filtering:
      *         </p>
      *         <table>
      *         <tr>

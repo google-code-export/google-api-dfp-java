@@ -51,7 +51,10 @@ public final class XmlUtils {
   /** The charset for the report XML. */
   private static final Charset REPORT_XML_CHARSET = Charset.forName("UTF-8");
 
-  private static final String[] SENSITIVE_HEADER_TAGS = {"authToken"};
+  private static final String[] SENSITIVE_HEADER_TAGS = {"authToken", "authentication"};
+
+  private static final String SENSITIVE_REGEX =
+      "(^.*<(?:[^:]+:)?%s(?:\\s[^>]*)?>).*(<\\/(?:[^:]+:)?%s\\s*>.*$)";
 
   /**
    * {@code XmlUtils} is meant to be used statically.
@@ -165,11 +168,11 @@ public final class XmlUtils {
     Map<String, String> cleanXmlMap = new HashMap<String, String>();
     for (Entry<String, String> sensitiveXml : dirtyXmlMap.entrySet()) {
       Pattern p = Pattern.compile(
-          "(^<.*" + sensitiveXml.getKey() + ".*>)(.*)(</.*" + sensitiveXml.getKey() + ">$)",
+          String.format(SENSITIVE_REGEX, sensitiveXml.getKey(), sensitiveXml.getKey()),
           Pattern.CASE_INSENSITIVE | Pattern.DOTALL);
       Matcher m = p.matcher(sensitiveXml.getValue());
       if (m.matches()) {
-        cleanXmlMap.put(sensitiveXml.getKey(), m.replaceFirst("$1******$3"));
+        cleanXmlMap.put(sensitiveXml.getKey(), m.replaceFirst("$1******$2"));
       }
     }
     return cleanXmlMap;

@@ -10,6 +10,13 @@ package com.google.api.ads.dfp.v201010;
 
 /**
  * Represents a country for geographical targeting.
+ *             <p>
+ *             Since {@code v201104}, fields of this class are ignored
+ * on input. Instead
+ *             {@link Location} should be used and the {@link Location#id}
+ * field should be
+ *             set.
+ *             </p>
  */
 public class CountryLocation  extends com.google.api.ads.dfp.v201010.Location  implements java.io.Serializable {
     /* Country code as defined by ISO 3166-1 alpha-2. */

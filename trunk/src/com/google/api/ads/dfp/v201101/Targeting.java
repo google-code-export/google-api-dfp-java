@@ -55,9 +55,7 @@ public class Targeting  implements java.io.Serializable {
      *                 </p>
      *                 <p>
      *                 The third level can only comprise of {@link CustomCriteria}
-     * objects,
-     *                 namely {@link PredefinedCustomCriteria} and {@link
-     * FreeFormCustomCriteria}.
+     * objects.
      *                 </p>
      *                 <p>
      *                 The resulting custom targeting tree would be of the
@@ -163,9 +161,7 @@ public class Targeting  implements java.io.Serializable {
      *                 </p>
      *                 <p>
      *                 The third level can only comprise of {@link CustomCriteria}
-     * objects,
-     *                 namely {@link PredefinedCustomCriteria} and {@link
-     * FreeFormCustomCriteria}.
+     * objects.
      *                 </p>
      *                 <p>
      *                 The resulting custom targeting tree would be of the
@@ -214,9 +210,7 @@ public class Targeting  implements java.io.Serializable {
      *                 </p>
      *                 <p>
      *                 The third level can only comprise of {@link CustomCriteria}
-     * objects,
-     *                 namely {@link PredefinedCustomCriteria} and {@link
-     * FreeFormCustomCriteria}.
+     * objects.
      *                 </p>
      *                 <p>
      *                 The resulting custom targeting tree would be of the

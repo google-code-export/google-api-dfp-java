@@ -12,7 +12,7 @@ package com.google.api.ads.dfp.v201010;
  * A {@link Location} represents a geographical entity that can be
  * targeted.
  */
-public abstract class Location  implements java.io.Serializable {
+public class Location  implements java.io.Serializable {
     /* This field indicates the subtype of Location of this instance.
      * It is ignored
      *                 on input, and instead xsi:type should be specified. */

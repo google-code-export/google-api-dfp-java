@@ -302,7 +302,6 @@ public class CreativeServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201103", "HasDestinationUrlCreative");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201103.HasDestinationUrlCreative.class;

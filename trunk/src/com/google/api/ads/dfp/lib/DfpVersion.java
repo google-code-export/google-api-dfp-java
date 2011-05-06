@@ -47,6 +47,11 @@ public abstract class DfpVersion {
    */
   public static final DfpVersion V201103 = new DfpVersionV201103();
 
+  /**
+   * The {@code DfpVersion} for v201104.
+   */
+  public static final DfpVersion V201104 = new DfpVersionV201104();
+
   protected final String version;
   protected final String namespace;
   protected final String packagePrefix;
@@ -261,13 +266,69 @@ public abstract class DfpVersion {
     }
   }
 
-
   /**
    * The v201103 version class.
    */
   private static class DfpVersionV201103 extends DfpVersion {
     protected DfpVersionV201103() {
       super("v201103", "https://www.google.com/apis/ads/publisher/v201103",
+          "com.google.api.ads.dfp.", "https://sandbox.google.com", "https://www.google.com");
+    }
+
+    /**
+     * See {@link DfpVersion#setHeaders(Stub, DfpUser)}.
+     */
+    @Override
+    public void setHeaders(Stub stub, DfpUser user) throws ServiceException {
+      try {
+        if (user.getRegisteredAuthToken() == null) {
+          user.setAuthToken(new AuthToken(user.getEmail(), user.getPassword()).getAuthToken());
+        }
+
+        Class<?> clientLoginClass =
+            Class.forName(packagePrefix + this.toString() + "." + "ClientLogin");
+        Class<?> authenticationClass =
+            Class.forName(packagePrefix + this.toString() + "." + "Authentication");
+
+        Object clientLogin =
+            clientLoginClass.getConstructor(String.class, String.class).newInstance(null,
+                user.getRegisteredAuthToken());
+
+        stub.setHeader(namespace, "RequestHeader",
+            Class.forName(packagePrefix + this.toString() + "." + "SoapRequestHeader")
+                .getConstructor(String.class, String.class, authenticationClass)
+                .newInstance(user.getNetworkCode(), user.getClientLibraryIdentifier(),
+                    clientLogin));
+
+      } catch (IllegalStateException e) {
+        throw new ServiceException("Could not get ClientLogin token for user.", e);
+      } catch (AuthTokenException e) {
+        throw new ServiceException("Could not get ClientLogin token for user.", e);
+      } catch (InstantiationException e) {
+        throw new ServiceException("Could not create service class. Check classpath.", e);
+      } catch (IllegalAccessException e) {
+        throw new ServiceException(e.getMessage(), e);
+      } catch (ClassNotFoundException e) {
+        throw new ServiceException("Could not create service class. Check classpath.", e);
+      } catch (IllegalArgumentException e) {
+        throw new ServiceException(e.getMessage(), e);
+      } catch (SecurityException e) {
+        throw new ServiceException(e.getMessage(), e);
+      } catch (InvocationTargetException e) {
+        throw new ServiceException(e.getMessage(), e);
+      } catch (NoSuchMethodException e) {
+        throw new ServiceException("Could not create service class. "
+            + "Check that the correct version of AXIS is being used.", e);
+      }
+    }
+  }
+
+  /**
+   * The v201104 version class.
+   */
+  private static class DfpVersionV201104 extends DfpVersion {
+    protected DfpVersionV201104() {
+      super("v201104", "https://www.google.com/apis/ads/publisher/v201104",
           "com.google.api.ads.dfp.", "https://sandbox.google.com", "https://www.google.com");
     }
 

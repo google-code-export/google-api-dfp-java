@@ -60,9 +60,7 @@ public class Targeting  implements java.io.Serializable {
      *                 </p>
      *                 <p>
      *                 The third level can only comprise of {@link CustomCriteria}
-     * objects,
-     *                 namely {@link PredefinedCustomCriteria} and {@link
-     * FreeFormCustomCriteria}.
+     * objects.
      *                 </p>
      *                 <p>
      *                 The resulting custom targeting tree would be of the
@@ -72,6 +70,12 @@ public class Targeting  implements java.io.Serializable {
      *                 <img src="http://chart.apis.google.com/chart?cht=gv&chl=digraph{customTargeting_LogicalOperator_OR-%3ECustomCriteriaSet_LogicalOperator_AND_1-%3ECustomCriteria_1;CustomCriteriaSet_LogicalOperator_AND_1-%3Eellipsis1;customTargeting_LogicalOperator_OR-%3Eellipsis2;ellipsis1[label=%22...%22,shape=none,fontsize=32];ellipsis2[label=%22...%22,shape=none,fontsize=32]}&chs=450x200"/> */
     private com.google.api.ads.dfp.v201103.CustomCriteriaSet customTargeting;
 
+    /* Specifies the domains or subdomains that are targeted or excluded
+     * by the
+     *                 {@link LineItem}. Users visiting from an IP address
+     * associated with
+     *                 those domains will be targeted or excluded. This attribute
+     * is optional. */
     private com.google.api.ads.dfp.v201103.UserDomainTargeting userDomainTargeting;
 
     public Targeting() {
@@ -198,9 +202,7 @@ public class Targeting  implements java.io.Serializable {
      *                 </p>
      *                 <p>
      *                 The third level can only comprise of {@link CustomCriteria}
-     * objects,
-     *                 namely {@link PredefinedCustomCriteria} and {@link
-     * FreeFormCustomCriteria}.
+     * objects.
      *                 </p>
      *                 <p>
      *                 The resulting custom targeting tree would be of the
@@ -249,9 +251,7 @@ public class Targeting  implements java.io.Serializable {
      *                 </p>
      *                 <p>
      *                 The third level can only comprise of {@link CustomCriteria}
-     * objects,
-     *                 namely {@link PredefinedCustomCriteria} and {@link
-     * FreeFormCustomCriteria}.
+     * objects.
      *                 </p>
      *                 <p>
      *                 The resulting custom targeting tree would be of the
@@ -268,7 +268,12 @@ public class Targeting  implements java.io.Serializable {
     /**
      * Gets the userDomainTargeting value for this Targeting.
      * 
-     * @return userDomainTargeting
+     * @return userDomainTargeting   * Specifies the domains or subdomains that are targeted or excluded
+     * by the
+     *                 {@link LineItem}. Users visiting from an IP address
+     * associated with
+     *                 those domains will be targeted or excluded. This attribute
+     * is optional.
      */
     public com.google.api.ads.dfp.v201103.UserDomainTargeting getUserDomainTargeting() {
         return userDomainTargeting;
@@ -278,7 +283,12 @@ public class Targeting  implements java.io.Serializable {
     /**
      * Sets the userDomainTargeting value for this Targeting.
      * 
-     * @param userDomainTargeting
+     * @param userDomainTargeting   * Specifies the domains or subdomains that are targeted or excluded
+     * by the
+     *                 {@link LineItem}. Users visiting from an IP address
+     * associated with
+     *                 those domains will be targeted or excluded. This attribute
+     * is optional.
      */
     public void setUserDomainTargeting(com.google.api.ads.dfp.v201103.UserDomainTargeting userDomainTargeting) {
         this.userDomainTargeting = userDomainTargeting;

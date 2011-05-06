@@ -11,6 +11,13 @@ package com.google.api.ads.dfp.v201010;
 /**
  * Represents a metropolitan area for geographical targeting. Currently,
  * metropolitan areas only within the United States can be targeted.
+ *             <p>
+ *             Since {@code v201104}, fields of this class are ignored
+ * on input. Instead
+ *             {@link Location} should be used and the {@link Location#id}
+ * field should be
+ *             set.
+ *             </p>
  */
 public class MetroLocation  extends com.google.api.ads.dfp.v201010.Location  implements java.io.Serializable {
     /* The 3 digit metro code, not to be confused with the metro name.

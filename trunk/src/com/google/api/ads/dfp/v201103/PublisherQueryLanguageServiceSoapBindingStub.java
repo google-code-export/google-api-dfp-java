@@ -219,7 +219,6 @@ public class PublisherQueryLanguageServiceSoapBindingStub extends org.apache.axi
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201103", "InternalApiError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201103.InternalApiError.class;

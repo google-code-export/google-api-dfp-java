@@ -9,11 +9,12 @@ package com.google.api.ads.dfp.v201103;
 
 
 /**
- * {@link CustomCriteria} represents the available types for criteria
+ * A {@link CustomCriteria} object is used to perform custom criteria
  * targeting
- *             i.e. {@link PredefinedCustomCriteria} and {@link FreeFormCustomCriteria}.
+ *             on custom targeting keys of type {@link CustomTargetingKey.Type#PREDEFINED}
+ * or {@link CustomTargetingKey.Type#FREEFORM}.
  */
-public abstract class CustomCriteria  extends com.google.api.ads.dfp.v201103.CustomCriteriaNode  implements java.io.Serializable {
+public class CustomCriteria  extends com.google.api.ads.dfp.v201103.CustomCriteriaNode  implements java.io.Serializable {
     /* The {@link CustomTargetingKey#id} of the {@link CustomTargetingKey}
      * object
      *                     that was created using {@link CustomTargetingService}.

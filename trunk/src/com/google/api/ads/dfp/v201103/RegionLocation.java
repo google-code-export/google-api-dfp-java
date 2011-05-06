@@ -12,6 +12,13 @@ package com.google.api.ads.dfp.v201103;
  * Represents a principal subdivision (eg. province or state) of a
  * country for
  *             geographical targeting.
+ *             <p>
+ *             Since {@code v201104}, fields of this class are ignored
+ * on input. Instead
+ *             {@link Location} should be used and the {@link Location#id}
+ * field should be
+ *             set.
+ *             </p>
  */
 public class RegionLocation  extends com.google.api.ads.dfp.v201103.Location  implements java.io.Serializable {
     /* An ISO 3166-2 region code. */
