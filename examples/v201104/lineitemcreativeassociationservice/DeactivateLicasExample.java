@@ -34,7 +34,7 @@ import java.util.List;
 /**
  * This example deactivates all LICAs for the line item. To determine which
  * LICAs exist, run GetAllLicasExample.java. To determine which line items
- * exist, run GetAllLineItems.java
+ * exist, run GetAllLineItemsExample.java
  */
 public class DeactivateLicasExample {
   public static void main(String[] args) {

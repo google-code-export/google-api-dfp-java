@@ -27,7 +27,8 @@ import com.google.api.ads.dfp.v201103.Statement;
 
 /**
  * This example gets all custom targeting keys and the values. To create custom
- * targeting keys and values, run CreateCustomTargetingKeysAndValues.java.
+ * targeting keys and values, run
+ * CreateCustomTargetingKeysAndValuesExample.java.
  */
 public class GetAllCustomTargetingKeysAndValuesExample {
   public static void main(String[] args) {
