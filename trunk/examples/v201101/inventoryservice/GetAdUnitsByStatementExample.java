@@ -25,8 +25,8 @@ import com.google.api.ads.dfp.v201101.NetworkServiceInterface;
 import com.google.api.ads.dfp.v201101.Statement;
 
 /**
- * This example gets all children below the effective root ad unit. To create ad
- * units, run CreateAdUnitsExample.java.
+ * This example gets first 500 children below the effective root ad unit. To
+ * create ad units, run CreateAdUnitsExample.java.
  */
 public class GetAdUnitsByStatementExample {
   public static void main(String[] args) {
@@ -50,7 +50,7 @@ public class GetAdUnitsByStatementExample {
 
       // Create a statement to select the children of the effective root ad
       // unit.
-      Statement filterStatement = new StatementBuilder("WHERE parentId = :id LIMIT 1")
+      Statement filterStatement = new StatementBuilder("WHERE parentId = :id LIMIT 500")
           .putValue("id", effectiveRootAdUnitId).toStatement();
 
       // Get ad units by statement.

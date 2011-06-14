@@ -27,7 +27,7 @@ import com.google.api.ads.dfp.v201101.LineItemCreativeAssociationServiceInterfac
  * the creative ids must represent new or copied creatives as creatives cannot
  * be used for more than one line item. For premium solution networks, the
  * creative ids can represent any creatvie. To copy creatives, run
- * CopyImageCreatives.java. To determine which LICAs exist, run
+ * CopyImageCreativesExample.java. To determine which LICAs exist, run
  * GetAllLicasExample.java.
  */
 public class CreateLicasExample {

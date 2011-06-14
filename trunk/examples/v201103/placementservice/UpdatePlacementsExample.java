@@ -17,7 +17,6 @@ package v201103.placementservice;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
-import com.google.api.ads.dfp.v201103.InventoryServiceInterface;
 import com.google.api.ads.dfp.v201103.Placement;
 import com.google.api.ads.dfp.v201103.PlacementPage;
 import com.google.api.ads.dfp.v201103.PlacementServiceInterface;
@@ -40,10 +39,6 @@ public class UpdatePlacementsExample {
       // Get the PlacementService.
       PlacementServiceInterface placementService =
           user.getService(DfpService.V201103.PLACEMENT_SERVICE);
-
-      // Get the InventoryService.
-      InventoryServiceInterface inventoryService =
-          user.getService(DfpService.V201103.INVENTORY_SERVICE);
 
       // Create a statement to select first 500 placements.
       Statement filterStatement = new Statement("LIMIT 500", null);

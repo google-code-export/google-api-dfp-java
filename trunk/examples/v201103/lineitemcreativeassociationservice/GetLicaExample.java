@@ -39,7 +39,7 @@ public class GetLicaExample {
       LineItemCreativeAssociationServiceInterface licaService =
           user.getService(DfpService.V201103.LINEITEMCREATIVEASSOCIATION_SERVICE);
 
-      // Set the line item and creative ID to use to retrieve the LICA.
+      // Set the line item and creative IDs to use to retrieve the LICA.
       Long lineItemId = Long.parseLong("INSERT_LINE_ITEM_ID_HERE");
       Long creativeId = Long.parseLong("INSERT_CREATIVE_ID_HERE");
 
