@@ -39,6 +39,11 @@ import java.util.List;
  * LICAs, run CreateLicasExample.java. To determine which line items exist, run
  * GetAllLineItemsExample.java. To determine which orders exist, run
  * GetAllOrdersExample.java.
+ *
+ * Tags: LineItemService.getLineItemsByStatement
+ * Tags: LineItemService.performLineItemAction
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class ActivateLineItemsExample {
   public static void main(String[] args) {

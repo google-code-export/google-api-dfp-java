@@ -34,6 +34,10 @@ import java.util.List;
  * This example deactivates a user. Deactivated users can no longer make
  * requests to the API. The user making the request cannot deactivate itself.
  * To determine which users exist, run GetAllUsersExample.java.
+ *
+ * Tags: UserService.getUsersByStatement, UserService.performUserAction
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class DeactivateUsersExample {
   public static void main(String[] args) {

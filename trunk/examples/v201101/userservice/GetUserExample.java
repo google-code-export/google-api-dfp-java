@@ -23,6 +23,10 @@ import com.google.api.ads.dfp.v201101.UserServiceInterface;
 /**
  * This example gets a user by its ID. To create users, run
  * CreateUsersExample.java.
+ *
+ * Tags: UserService.getUser
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetUserExample {
   public static void main(String[] args) {

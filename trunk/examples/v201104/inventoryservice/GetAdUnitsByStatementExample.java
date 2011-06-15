@@ -27,6 +27,11 @@ import com.google.api.ads.dfp.v201104.Statement;
 /**
  * This example gets first 500 children below the effective root ad unit. To
  * create ad units, run CreateAdUnitsExample.java.
+ *
+ * Tags: InventoryService.getAdUnitsByStatement
+ * Tags: NetworkService.getCurrentNetwork
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetAdUnitsByStatementExample {
   public static void main(String[] args) {

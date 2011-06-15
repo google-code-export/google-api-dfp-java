@@ -25,6 +25,10 @@ import com.google.api.ads.dfp.v201104.OrderServiceInterface;
 /**
  * This example gets all orders. To create orders, run
  * CreateOrdersExample.java.
+ *
+ * Tags: OrderService.getOrdersByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetAllOrdersExample {
   public static void main(String[] args) {

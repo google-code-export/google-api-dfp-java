@@ -32,6 +32,11 @@ import java.util.Set;
 /**
  * This example creates new placements for various ad unit sizes. To determine
  * which placements exist, run GetAllPlacementsExample.java.
+ *
+ * Tags: InventoryService.getAdUnitsByStatement
+ * Tags: PlacementService.createPlacements
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class CreatePlacementsExample {
   public static void main(String[] args) {

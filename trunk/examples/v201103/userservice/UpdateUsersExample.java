@@ -26,6 +26,10 @@ import com.google.api.ads.dfp.v201103.UserServiceInterface;
  * This example updates all users by adding "Sr." to the end of each
  * name (after a very large baby boom and lack of creativity). To
  * determine which users exist, run GetAllUsersExample.java.
+ *
+ * Tags: UserService.getUsersByStatement, UserService.updateUsers
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class UpdateUsersExample {
   public static void main(String[] args) {

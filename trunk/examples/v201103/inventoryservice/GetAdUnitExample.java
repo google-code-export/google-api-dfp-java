@@ -23,6 +23,10 @@ import com.google.api.ads.dfp.v201103.InventoryServiceInterface;
 /**
  * This example gets an ad unit by its ID. To determine which ad units
  * exist, run GetInventoryTreeExample.java or GetAllAdUnitsExample.java.
+ *
+ * Tags: InventoryService.getAdUnit
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetAdUnitExample {
   public static void main(String[] args) {

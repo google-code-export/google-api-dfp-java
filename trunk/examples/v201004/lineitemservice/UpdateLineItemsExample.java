@@ -28,6 +28,11 @@ import com.google.api.ads.dfp.v201004.Statement;
  * This example updates the delivery rate of all line items up to the first 500.
  * To determine which line items exist, run GetAllLineItemsExample.java. To
  * determine which order exist, run GetAllOrdersExample.java.
+ *
+ * Tags: LineItemService.getLineItemsByStatement
+ * Tags: LineItemService.updateLineItems
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class UpdateLineItemsExample {
   public static void main(String[] args) {

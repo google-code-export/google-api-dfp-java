@@ -23,6 +23,10 @@ import com.google.api.ads.dfp.v201101.OrderServiceInterface;
 /**
  * This example gets an order by its ID. To determine which orders
  * exist, run GetAllOrdersExample.java.
+ *
+ * Tags: OrderService.getOrder
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetOrderExample {
   public static void main(final String[] args) {

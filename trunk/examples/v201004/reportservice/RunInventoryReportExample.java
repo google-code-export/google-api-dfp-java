@@ -31,6 +31,10 @@ import com.google.api.ads.dfp.v201004.ReportServiceInterface;
  * website. To download the report see DownloadReportExample.java. To use the
  * {@link ReportUtils} class, see RunAndDownloadReport.java under
  * /examples/utils.
+ *
+ * Tags: ReportService.runReportJob, ReportService.getReportJob
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class RunInventoryReportExample {
   public static void main(String[] args) {

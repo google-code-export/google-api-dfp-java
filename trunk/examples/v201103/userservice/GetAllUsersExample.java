@@ -24,6 +24,10 @@ import com.google.api.ads.dfp.v201103.UserServiceInterface;
 
 /**
  * This example gets all users. To create users, run CreateUsersExample.java.
+ *
+ * Tags: UserService.getUsersByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetAllUsersExample {
   public static void main(String[] args) {

@@ -28,6 +28,11 @@ import com.google.api.ads.dfp.v201103.Statement;
  * This example updates the destination URL of all image creatives up to
  * the first 500. To determine which image creatives exist, run
  * GetAllCreativesExample.java.
+ *
+ * Tags: CreativeService.getCreativesByStatement
+ * Tags: CreativeService.updateCreatives
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class UpdateCreativesExample {
   public static void main(String[] args) {

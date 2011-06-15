@@ -27,6 +27,10 @@ import java.util.List;
  * This example creates new users. To determine which users exist, run
  * GetAllUsersExample.java. To determine which roles exist, run
  * GetAllRolesExample.java.
+ *
+ * Tags: UserService.createUsers
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class CreateUsersExample {
   public static void main(String[] args) {

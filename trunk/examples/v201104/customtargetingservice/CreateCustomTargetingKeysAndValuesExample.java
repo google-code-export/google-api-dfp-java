@@ -28,6 +28,11 @@ import com.google.api.ads.dfp.v201104.CustomTargetingValueMatchType;
  * custom targeting keys and values exist, run
  * GetAllCustomTargetingKeysAndValuesExample.java. To target these custom
  * targeting keys and values, run TargetCustomCriteriaExample.java.
+ *
+ * Tags: CustomTargetingService.createCustomTargetingKeys
+ * Tags: CustomTargetingService.createCustomTargetingValues
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class CreateCustomTargetingKeysAndValuesExample {
   public static void main(String[] args) {

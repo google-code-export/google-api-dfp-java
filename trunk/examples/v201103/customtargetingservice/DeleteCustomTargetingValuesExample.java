@@ -33,6 +33,11 @@ import java.util.List;
  * This example deletes custom targeting values for a given custom targeting
  * key. To determine which custom targeting keys and values exist, run
  * GetAllCustomTargetingKeysAndValuesExample.java.
+ *
+ * Tags: CustomTargetingService.getCustomTargetingValuesByStatement
+ * Tags: CustomTargetingService.performCustomTargetingValueAction
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class DeleteCustomTargetingValuesExample {
   public static void main(String[] args) {

@@ -35,6 +35,11 @@ import java.util.List;
  * This example deactivates all LICAs for the line item. To determine which
  * LICAs exist, run GetAllLicasExample.java. To determine which line items
  * exist, run GetAllLineItemsExample.java
+ *
+ * Tags: LineItemCreativeAssociationService.getLineItemCreativeAssociationsByStatement
+ * Tags: LineItemCreativeAssociationService.performLineItemCreativeAssociationAction
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class DeactivateLicasExample {
   public static void main(String[] args) {

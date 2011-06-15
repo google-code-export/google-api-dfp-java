@@ -25,6 +25,10 @@ import com.google.api.ads.dfp.v201104.InventoryServiceInterface;
 /**
  * This example gets all ad units. To create ad units, run
  * CreateAdUnitsExample.java.
+ *
+ * Tags: InventoryService.getAdUnitsByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetAllAdUnitsExample {
   public static void main(String[] args) {

@@ -32,6 +32,13 @@ import java.rmi.RemoteException;
 /**
  * This demo shows how to use the features of the
  * {@link ServiceAccountantManager} and the {@link ServiceAccountant} class.
+ *
+ * Tags: CreativeService.getCreativesByStatement
+ * Tags: InventoryService.getAdUnitsByStatement
+ * Tags: UserService.getUsersByStatement
+ * Tags: CompanyService.getCompaniesByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class ServiceAccountantExample {
   public static void main(String args[]) throws Exception {

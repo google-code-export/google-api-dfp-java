@@ -28,6 +28,10 @@ import com.google.api.ads.dfp.v201101.Statement;
  * up to the maximum page size limit of 500. To create orders, run
  * CreateOrdersExample.java. To determine which companies are advertisers,
  * run GetCompaniesByStatementExample.java
+ *
+ * Tags: OrderService.getOrdersByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetOrdersByStatementExample {
   public static void main(String[] args) {

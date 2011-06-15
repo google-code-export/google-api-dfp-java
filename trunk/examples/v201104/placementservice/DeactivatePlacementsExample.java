@@ -34,6 +34,11 @@ import java.util.List;
 /**
  * This example deactivates all active placements. To determine which placements
  * exist, run GetAllPlacementsExample.java.
+ *
+ * Tags: PlacementService.getPlacementsByStatement
+ * Tags: PlacementService.performPlacementAction
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class DeactivatePlacementsExample {
   public static void main(String[] args) {

@@ -28,6 +28,10 @@ import com.google.api.ads.dfp.v201103.Statement;
  * This example gets all companies that are advertisers. The statement
  * retrieves up to the maximum page size limit of 500. To create companies, run
  * CreateCompaniesExample.java.
+ *
+ * Tags: CompanyService.getCompaniesByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetCompaniesByStatementExample {
   public static void main(String[] args) {

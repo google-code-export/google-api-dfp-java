@@ -25,6 +25,10 @@ import com.google.api.ads.dfp.v201004.PlacementServiceInterface;
 /**
  * This example gets all placements. To create placements, run
  * CreatePlacementsExample.java.
+ *
+ * Tags: PlacementService.getPlacementsByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetAllPlacementsExample {
   public static void main(String[] args) {

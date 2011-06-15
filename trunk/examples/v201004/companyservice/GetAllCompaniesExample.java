@@ -25,6 +25,10 @@ import com.google.api.ads.dfp.v201004.Statement;
 /**
  * This example gets all companies. To create companies, run
  * CreateCompaniesExample.java.
+ *
+ * Tags: CompanyService.getCompaniesByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetAllCompaniesExample {
   public static void main(String[] args) {

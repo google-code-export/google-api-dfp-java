@@ -26,6 +26,10 @@ import com.google.api.ads.dfp.v201010.UserServiceInterface;
  * This example gets all users sorted by name. The statement retrieves
  * up to the maximum page size limit of 500. To create new users,
  * run CreateUsersExample.java.
+ *
+ * Tags: UserService.getUsersByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetUsersByStatementExample {
   public static void main(String[] args) {

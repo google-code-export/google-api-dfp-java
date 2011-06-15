@@ -47,6 +47,10 @@ import com.google.api.ads.dfp.v201104.UserDomainTargeting;
  * GetAllCitiesExample.java, GetAllCountriesExample.java,
  * GetAllMetrosExample.java, and GetAllRegionsExample.java.
  *
+ *
+ * Tags: LineItemService.createLineItems
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class CreateLineItemsExample {
   public static void main(String[] args) {

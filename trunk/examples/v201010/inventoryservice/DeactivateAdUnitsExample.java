@@ -34,6 +34,11 @@ import java.util.List;
 /**
  * This example deactivates all active ad units. To determine which ad units
  * exist, run GetAllAdUnitsExample.java or GetInventoryTreeExample.java.
+ *
+ * Tags: InventoryService.getAdUnitsByStatement
+ * Tags: InventoryService.performAdUnitAction
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class DeactivateAdUnitsExample {
   public static void main(String[] args) {

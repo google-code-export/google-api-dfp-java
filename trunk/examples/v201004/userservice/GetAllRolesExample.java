@@ -23,6 +23,10 @@ import com.google.api.ads.dfp.v201004.UserServiceInterface;
 /**
  * This example gets all roles. This example can be used to determine which
  * role ID is needed when getting and creating users.
+ *
+ * Tags: UserService.getAllRoles
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetAllRolesExample {
   public static void main(String[] args) {

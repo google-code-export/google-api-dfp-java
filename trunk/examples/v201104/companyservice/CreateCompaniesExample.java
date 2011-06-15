@@ -24,6 +24,10 @@ import com.google.api.ads.dfp.v201104.CompanyType;
 /**
  * This example creates new companies. To determine which companies
  * exist, run GetAllCompaniesExample.java.
+ *
+ * Tags: CompanyService.createCompanies
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class CreateCompaniesExample {
   public static void main(String[] args) {

@@ -23,6 +23,10 @@ import com.google.api.ads.dfp.v201104.NetworkServiceInterface;
 /**
  * This example gets all networks that you have access to with the current login
  * credentials. A networkCode should be left out for this request.
+ *
+ * Tags: NetworkService.getAllNetworks
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetAllNetworksExample {
   public static void main(String[] args) {

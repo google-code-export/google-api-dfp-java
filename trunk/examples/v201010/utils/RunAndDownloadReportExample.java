@@ -33,6 +33,10 @@ import java.io.IOException;
 /**
  * This example runs and downloads a report synchronously or asynchronously
  * using the {@link ReportUtils} class.
+ *
+ * Tags: ReportService.runReportJob
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class RunAndDownloadReportExample {
   public static void main(String[] args) throws Exception{

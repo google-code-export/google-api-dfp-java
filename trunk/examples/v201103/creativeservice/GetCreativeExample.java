@@ -23,6 +23,10 @@ import com.google.api.ads.dfp.v201103.CreativeServiceInterface;
 /**
  * This example gets a creative by its ID. To determine which creatives
  * exist, run GetAllCreativesExample.java.
+ *
+ * Tags: CreativeService.getCreative
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetCreativeExample {
   public static void main(final String[] args) {

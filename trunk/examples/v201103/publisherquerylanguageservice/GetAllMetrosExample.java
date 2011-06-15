@@ -25,6 +25,10 @@ import com.google.api.ads.dfp.v201103.ResultSet;
 
 /**
  * This example gets all metros available to target.
+ *
+ * Tags: PublisherQueryLanguageService.select
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetAllMetrosExample {
   public static void main(String[] args) {

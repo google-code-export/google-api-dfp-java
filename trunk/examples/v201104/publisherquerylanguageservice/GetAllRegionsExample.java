@@ -25,6 +25,10 @@ import com.google.api.ads.dfp.v201104.ResultSet;
 
 /**
  * This example gets all regions available to target.
+ *
+ * Tags: PublisherQueryLanguageService.select
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetAllRegionsExample {
   public static void main(String[] args) {
