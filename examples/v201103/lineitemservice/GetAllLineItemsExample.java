@@ -25,6 +25,10 @@ import com.google.api.ads.dfp.v201103.LineItemSummary;
 /**
  * This example gets all line items. To create line items, run
  * CreateLineItemsExample.java.
+ *
+ * Tags: LineItemService.getLineItemsByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetAllLineItemsExample {
   public static void main(String[] args) {

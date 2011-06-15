@@ -32,6 +32,10 @@ import java.net.URL;
  * This example downloads a completed report. To run a report, run
  * RunDeliveryReportExample.java. To use the {@link ReportUtils} class, see
  * RunAndDownloadReport.java under /examples/utils.
+ *
+ * Tags: ReportService.getReportDownloadURL
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class DownloadReportExample {
   public static void main(String[] args) throws Exception{

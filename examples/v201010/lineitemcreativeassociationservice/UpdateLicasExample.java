@@ -25,6 +25,11 @@ import com.google.api.ads.dfp.v201010.LineItemCreativeAssociationServiceInterfac
 /**
  * This example updates the destination URL of all LICAs up to the first
  * 500. To determine which LICAs exist, run GetAllLicasExample.java.
+ *
+ * Tags: LineItemCreativeAssociationService.getLineItemCreativeAssociationsByStatement
+ * Tags: LineItemCreativeAssociationService.updateLineItemCreativeAssociations
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class UpdateLicasExample {
   public static void main(String[] args) {

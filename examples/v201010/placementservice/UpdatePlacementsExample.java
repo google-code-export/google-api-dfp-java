@@ -26,6 +26,11 @@ import com.google.api.ads.dfp.v201010.Statement;
  * This example updates all placements to allow for AdSense targeting up to the
  * first 500. To determine which placements exist, run
  * GetAllPlacementsExample.java.
+ *
+ * Tags: PlacementService.getPlacementsByStatement
+ * Tags: PlacementService.updatePlacements
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class UpdatePlacementsExample {
   public static void main(String[] args) {

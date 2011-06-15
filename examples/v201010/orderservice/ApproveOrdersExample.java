@@ -33,6 +33,10 @@ import java.util.List;
 /**
  * This example approves and overbooks all draft orders. To determine which
  * orders exist, run GetAllOrdersExample.java.
+ *
+ * Tags: OrderService.getOrdersByStatement, OrderService.performOrderAction
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class ApproveOrdersExample {
   public static void main(String[] args) {

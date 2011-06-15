@@ -34,6 +34,10 @@ import javax.xml.rpc.ServiceException;
 /**
  * This example retrieves a previously created ad units and creates
  * a tree.
+ *
+ * Tags: InventoryService.getAdUnit, InventoryService.getAdUnitsByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetInventoryTreeExample {
   public static void main(String[] args) {

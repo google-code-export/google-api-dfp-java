@@ -23,6 +23,10 @@ import com.google.api.ads.dfp.v201101.PlacementServiceInterface;
 /**
  * This example gets a placement by its ID. To determine which placements
  * exist, run GetAllPlacementsExample.java.
+ *
+ * Tags: PlacementService.getPlacement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetPlacementExample {
   public static void main(String[] args) {

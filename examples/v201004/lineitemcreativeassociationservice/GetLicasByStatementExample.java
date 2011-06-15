@@ -28,6 +28,10 @@ import com.google.api.ads.dfp.v201004.Statement;
  * ID. The statement retrieves up to the maximum page size limit of 500. To
  * create LICAs, run CreateLicasExample.java. To determine which line items
  * exist, run GetAllLineItemsExample.java.
+ *
+ * Tags: LineItemCreativeAssociationService.getLineItemCreativeAssociationsByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetLicasByStatementExample {
   public static void main(String[] args) {

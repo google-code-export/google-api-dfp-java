@@ -23,6 +23,10 @@ import com.google.api.ads.dfp.v201103.LineItemServiceInterface;
 /**
  * This example gets a line item by its ID. To determine which line items
  * exist, run GetAllLineItemsExample.java.
+ *
+ * Tags: LineItemService.getLineItem
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetLineItemExample {
   public static void main(String[] args) {

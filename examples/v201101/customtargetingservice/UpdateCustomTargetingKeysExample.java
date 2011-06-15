@@ -26,6 +26,11 @@ import com.google.api.ads.dfp.v201101.Statement;
  * This example updates the display name of each custom targeting key up to the
  * first 500. To determine which custom targeting keys exist, run
  * GetAllCustomTargetingKeysAndValuesExample.java.
+ *
+ * Tags: CustomTargetingService.getCustomTargetingKeysByStatement
+ * Tags: CustomTargetingService.updateCustomTargetingKeys
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class UpdateCustomTargetingKeysExample {
   public static void main(String[] args) {

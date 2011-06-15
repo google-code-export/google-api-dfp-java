@@ -37,6 +37,10 @@ import org.apache.commons.lang.StringUtils;
  * determine which line items exist, run GetAllLineItemsExample.java. To
  * determine which custom targeting keys and values exist, run
  * GetAllCustomTargetingKeysAndValuesExample.java.
+ *
+ * Tags: LineItemService.getLineItem, LineItemService.updateLineItem
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class TargetCustomCriteriaExample {
   public static void main(String[] args) {

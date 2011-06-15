@@ -28,6 +28,10 @@ import com.google.api.ads.dfp.v201103.Statement;
  * retrieves up to the maximum page size limit of 500. To create line items,
  * run CreateLineItemsExample.java. To determine which orders exist, run
  * GetAllOrdersExample.java.
+ *
+ * Tags: LineItemService.getLineItemsByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetLineItemsByStatementExample {
   public static void main(String[] args) {

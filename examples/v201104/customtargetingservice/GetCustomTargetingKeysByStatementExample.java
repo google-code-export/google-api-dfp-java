@@ -28,6 +28,10 @@ import com.google.api.ads.dfp.v201104.Statement;
  * This example gets all predefined custom targeting keys. The statement
  * retrieves up to the maximum page size limit of 500. To create custom
  * targeting keys, run CreateCustomTargetingKeysAndValuesExample.java.
+ *
+ * Tags: CustomTargetingService.getCustomTargetingKeysByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetCustomTargetingKeysByStatementExample {
   public static void main(String[] args) {

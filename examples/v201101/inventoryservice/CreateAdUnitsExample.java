@@ -27,6 +27,10 @@ import com.google.api.ads.dfp.v201101.Size;
  * This example creates new ad units under a the effective root ad unit. To
  * determine which ad units exist, run GetInventoryTreeExample.java or
  * GetAllAdUnitsExample.java.
+ *
+ * Tags: InventoryService.createAdUnits, NetworkService.getCurrentNetwork
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class CreateAdUnitsExample {
   public static void main(String[] args) {

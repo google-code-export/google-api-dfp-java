@@ -28,6 +28,10 @@ import org.apache.log4j.Level;
 /**
  * This demo shows how to use the {@link DfpServiceLogger} class to do
  * runtime logging configuration.
+ *
+ * Tags: CompanyService.getCompaniesByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class LoggingExample {
   public static void main(String[] args) throws Exception {

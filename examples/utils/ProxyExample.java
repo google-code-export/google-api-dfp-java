@@ -24,6 +24,10 @@ import com.google.api.ads.dfp.v201004.Statement;
 /**
  * This demo shows how to use a proxy without using JVM parameters. The proxy
  * will be used by Axis and the HTTP client to fetch authentication tokens.
+ *
+ * Tags: CompanyService.getCompaniesByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class ProxyExample {
   public static void main(String[] args) throws Exception {

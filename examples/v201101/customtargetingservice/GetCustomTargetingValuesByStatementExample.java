@@ -29,6 +29,10 @@ import com.google.api.ads.dfp.v201101.Statement;
  * 500. To create custom targeting values, run
  * CreateCustomTargetingKeysAndValuesExample.java, To determine which custom
  * targeting keys exist, run GetAllCustomTargetingKeysAndValuesExample.java.
+ *
+ * Tags: CustomTargetingService.getCustomTargetingValuesByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetCustomTargetingValuesByStatementExample {
   public static void main(String[] args) {

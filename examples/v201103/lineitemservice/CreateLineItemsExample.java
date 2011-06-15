@@ -48,6 +48,10 @@ import com.google.api.ads.dfp.v201103.UserDomainTargeting;
  * GetAllLineItemsExample.java. To determine which orders exist, run
  * GetAllOrdersExample.java. To determine which placements exist, run
  * GetAllPlacementsExample.java.
+ *
+ * Tags: LineItemService.createLineItems
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class CreateLineItemsExample {
   public static void main(String[] args) {

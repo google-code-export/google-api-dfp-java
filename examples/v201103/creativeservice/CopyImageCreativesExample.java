@@ -30,6 +30,11 @@ import org.apache.commons.lang.StringUtils;
  * This example copies a given set of image creatives. This would typically be
  * done to reuse creatives in a small business network. To determine which
  * creatives exist, run GetAllCreativesExample.java.
+ *
+ * Tags: CreativeService.getCreativesByStatement
+ * Tags: CreativeService.createCreatives
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class CopyImageCreativesExample {
   public static void main(String[] args) {

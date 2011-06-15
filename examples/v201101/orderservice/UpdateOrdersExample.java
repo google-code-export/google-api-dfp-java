@@ -25,6 +25,10 @@ import com.google.api.ads.dfp.v201101.OrderServiceInterface;
 /**
  * This example updates the notes of each order up to the first 500.
  * To determine which orders exist, run GetAllOrdersExample.java.
+ *
+ * Tags: OrderService.getOrdersByStatement, OrderService.updateOrders
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class UpdateOrdersExample {
   public static void main(String[] args) {

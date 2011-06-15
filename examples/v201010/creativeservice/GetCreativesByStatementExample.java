@@ -28,6 +28,10 @@ import com.google.api.ads.dfp.v201010.Statement;
  * This example gets all image creatives. The statement retrieves up to the
  * maximum page size limit of 500. To create an image creative, run
  * CreateCreativesExample.java.
+ *
+ * Tags: CreativeService.getCreativesByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetCreativesByStatementExample {
   public static void main(String[] args) {

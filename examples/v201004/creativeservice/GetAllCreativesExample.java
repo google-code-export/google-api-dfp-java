@@ -25,6 +25,10 @@ import com.google.api.ads.dfp.v201004.Statement;
 /**
  * This example gets all creatives. To create creatives, run
  * CreateCreativesExample.java.
+ *
+ * Tags: CreativeService.getCreativesByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetAllCreativesExample {
   public static void main(String[] args) {

@@ -25,6 +25,10 @@ import com.google.api.ads.dfp.v201104.LineItemCreativeAssociationServiceInterfac
 /**
  * This example gets all line item creative associations (LICA). To create
  * LICAs, run CreateLicasExample.java.
+ *
+ * Tags: LineItemCreativeAssociationService.getLineItemCreativeAssociationsByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetAllLicasExample {
   public static void main(String[] args) {

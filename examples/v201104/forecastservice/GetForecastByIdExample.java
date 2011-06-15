@@ -23,6 +23,10 @@ import com.google.api.ads.dfp.v201104.ForecastServiceInterface;
 /**
  * This example gets a forecast for an existing line item. To determine which
  * line items exist, run GetAllLineItemsExample.java.
+ *
+ * Tags: ForecastService.getForecastById
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetForecastByIdExample {
   public static void main(String[] args) throws Exception{

@@ -23,6 +23,10 @@ import com.google.api.ads.dfp.v201104.CompanyServiceInterface;
 /**
  * This example gets a company by its ID. To determine which companies
  * exist, run GetAllCompaniesExample.java.
+ *
+ * Tags: CompanyService.getCompany
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetCompanyExample {
   public static void main(String[] args) {

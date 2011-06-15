@@ -22,6 +22,10 @@ import com.google.api.ads.dfp.v201103.NetworkServiceInterface;
 
 /**
  * This example gets the current network that you can make requests against.
+ *
+ * Tags: NetworkService.getCurrentNetwork
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetCurrentNetworkExample {
   public static void main(String[] args) {

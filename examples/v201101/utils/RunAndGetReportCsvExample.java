@@ -36,6 +36,10 @@ import java.util.List;
 /**
  * This example runs and gets a report's CSV data synchronously or
  * asynchronously using the {@link ReportUtils} class.
+ *
+ * Tags: ReportService.runReportJob
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class RunAndGetReportCsvExample {
   public static void main(String[] args) throws Exception {

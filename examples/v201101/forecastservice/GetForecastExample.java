@@ -32,6 +32,10 @@ import com.google.api.ads.dfp.v201101.UnitType;
 /**
  * This example gets a forecast for a prospective line item. To determine which
  * placements exist, run GetAllPlacementsExample.java.
+ *
+ * Tags: ForecastService.getForecast
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetForecastExample {
   public static void main(String[] args) throws Exception{

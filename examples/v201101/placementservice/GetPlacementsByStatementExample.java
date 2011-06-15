@@ -28,6 +28,10 @@ import com.google.api.ads.dfp.v201101.Statement;
  * This example gets all active placements. The statement retrieves up to the
  * maximum page size limit of 500. To create a placement, run
  * CreatePlacementsExample.java.
+ *
+ * Tags: PlacementService.getPlacementsByStatement
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetPlacementsByStatementExample {
   public static void main(String[] args) {

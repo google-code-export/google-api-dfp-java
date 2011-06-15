@@ -28,6 +28,10 @@ import com.google.api.ads.dfp.v201101.Statement;
  * This example updates the names of all companies that are advertisers by
  * appending "LLC." up to the first 500. To determine which companies exist, run
  * GetAllCompaniesExample.java.
+ *
+ * Tags: CompanyService.getCompaniesByStatement, CompanyService.updateCompanies
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class UpdateCompaniesExample {
   public static void main(String[] args) {

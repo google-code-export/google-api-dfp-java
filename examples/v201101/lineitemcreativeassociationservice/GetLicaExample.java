@@ -25,6 +25,10 @@ import com.google.api.ads.dfp.v201101.LineItemCreativeAssociationServiceInterfac
  * item and creative ID. To determine which line items exist, run
  * GetAllLineItemsExample.java. To determine which creatives exit, run
  * GetAllCreativesExample.java.
+ *
+ * Tags: LineItemCreativeAssociationService.getLineItemCreativeAssociation
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class GetLicaExample {
   public static void main(final String[] args) {

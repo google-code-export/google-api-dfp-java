@@ -29,6 +29,10 @@ import com.google.api.ads.dfp.v201101.LineItemCreativeAssociationServiceInterfac
  * creative ids can represent any creatvie. To copy creatives, run
  * CopyImageCreativesExample.java. To determine which LICAs exist, run
  * GetAllLicasExample.java.
+ *
+ * Tags: LineItemCreativeAssociationService.createLineItemCreativeAssociations
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class CreateLicasExample {
   public static void main(String[] args) {

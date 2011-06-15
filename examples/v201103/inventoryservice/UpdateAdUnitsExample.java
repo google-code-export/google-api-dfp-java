@@ -26,6 +26,10 @@ import com.google.api.ads.dfp.v201103.Statement;
  * This example updates an ad unit by enabling AdSense to the first 500. To
  * determine which ad units exist, run GetAllAdUnitsExample.java or
  * GetInventoryTreeExample.java.
+ *
+ * Tags: InventoryService.getAdUnitsByStatement, InventoryService.updateAdUnits
+ *
+ * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class UpdateAdUnitsExample {
   public static void main(String[] args) {

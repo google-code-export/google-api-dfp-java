@@ -39,6 +39,8 @@ import javax.xml.rpc.ServiceException;
  * See <a href="http://code.google.com/apis/dfp/docs/developers_guide.html#serviceauth">
  * http://code.google.com/apis/dfp/docs/developers_guide.html#serviceauth</a>
  *
+ * Tags: CompanyService.getCompaniesByStatement
+ *
  * @author api.arogal@gmail.com (Adam Rogal)
  */
 public class AuthTokenExample {
