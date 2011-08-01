@@ -9,14 +9,13 @@ package com.google.api.ads.dfp.v201104;
 
 
 /**
- * {@code Authentication} represents the authentication protocols
- * that can be
- *             used.
+ * A representation of the authentication protocols that can be used.
  */
 public abstract class Authentication  implements java.io.Serializable {
-    /* This field indicates the subtype of Authentication of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of Authentication.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String authenticationType;
 
     public Authentication() {
@@ -31,9 +30,10 @@ public abstract class Authentication  implements java.io.Serializable {
     /**
      * Gets the authenticationType value for this Authentication.
      * 
-     * @return authenticationType   * This field indicates the subtype of Authentication of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return authenticationType   * Indicates that this instance is a subtype of Authentication.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getAuthenticationType() {
         return authenticationType;
@@ -43,9 +43,10 @@ public abstract class Authentication  implements java.io.Serializable {
     /**
      * Sets the authenticationType value for this Authentication.
      * 
-     * @param authenticationType   * This field indicates the subtype of Authentication of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param authenticationType   * Indicates that this instance is a subtype of Authentication.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setAuthenticationType(java.lang.String authenticationType) {
         this.authenticationType = authenticationType;

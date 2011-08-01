@@ -211,6 +211,34 @@ public class CreativeServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201010", "BaseFlashCreative");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201010.BaseFlashCreative.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201010", "BaseFlashRedirectCreative");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201010.BaseFlashRedirectCreative.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201010", "BaseImageCreative");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201010.BaseImageCreative.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201010", "BaseImageRedirectCreative");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201010.BaseImageRedirectCreative.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201010", "CommonError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201010.CommonError.class;
@@ -232,6 +260,20 @@ public class CreativeServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201010", "CreativeAssetMacroError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201010.CreativeAssetMacroError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201010", "CreativeAssetMacroError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201010.CreativeAssetMacroErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201010", "CreativeError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201010.CreativeError.class;
@@ -252,6 +294,20 @@ public class CreativeServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201010", "CustomCreativeError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201010.CustomCreativeError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201010", "CustomCreativeError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201010.CustomCreativeErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201010", "DoubleParam");
             cachedSerQNames.add(qName);
@@ -536,6 +592,13 @@ public class CreativeServiceSoapBindingStub extends org.apache.axis.client.Stub 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201010", "TypeError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201010.TypeError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201010", "UniqueError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201010.UniqueError.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);

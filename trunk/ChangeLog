@@ -1,3 +1,6 @@
+2.7.0:
+- Added support for v201107.
+
 2.6.0:
 - Added support for v201104.
 - Fixed issue where authentication tokens weren't being properly stripped in

@@ -15,13 +15,11 @@ package com.google.api.ads.dfp.v201010;
  */
 public class FrequencyCap  implements java.io.Serializable {
     /* The maximum number of impressions than can be served to a user
-     * within the
+     * within a
      *                 specified time period. */
     private java.lang.Integer maxImpressions;
 
-    /* The time period in which at most {@link FrequencyCap#maxImpressions}
-     * can be
-     *                 served to the same user. */
+    /* The unit of time for specifying the time period. */
     private com.google.api.ads.dfp.v201010.TimeUnit timeUnit;
 
     public FrequencyCap() {
@@ -39,7 +37,7 @@ public class FrequencyCap  implements java.io.Serializable {
      * Gets the maxImpressions value for this FrequencyCap.
      * 
      * @return maxImpressions   * The maximum number of impressions than can be served to a user
-     * within the
+     * within a
      *                 specified time period.
      */
     public java.lang.Integer getMaxImpressions() {
@@ -51,7 +49,7 @@ public class FrequencyCap  implements java.io.Serializable {
      * Sets the maxImpressions value for this FrequencyCap.
      * 
      * @param maxImpressions   * The maximum number of impressions than can be served to a user
-     * within the
+     * within a
      *                 specified time period.
      */
     public void setMaxImpressions(java.lang.Integer maxImpressions) {
@@ -62,9 +60,7 @@ public class FrequencyCap  implements java.io.Serializable {
     /**
      * Gets the timeUnit value for this FrequencyCap.
      * 
-     * @return timeUnit   * The time period in which at most {@link FrequencyCap#maxImpressions}
-     * can be
-     *                 served to the same user.
+     * @return timeUnit   * The unit of time for specifying the time period.
      */
     public com.google.api.ads.dfp.v201010.TimeUnit getTimeUnit() {
         return timeUnit;
@@ -74,9 +70,7 @@ public class FrequencyCap  implements java.io.Serializable {
     /**
      * Sets the timeUnit value for this FrequencyCap.
      * 
-     * @param timeUnit   * The time period in which at most {@link FrequencyCap#maxImpressions}
-     * can be
-     *                 served to the same user.
+     * @param timeUnit   * The unit of time for specifying the time period.
      */
     public void setTimeUnit(com.google.api.ads.dfp.v201010.TimeUnit timeUnit) {
         this.timeUnit = timeUnit;

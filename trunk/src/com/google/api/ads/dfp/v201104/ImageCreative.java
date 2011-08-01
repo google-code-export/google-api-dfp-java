@@ -11,37 +11,7 @@ package com.google.api.ads.dfp.v201104;
 /**
  * A {@code Creative} that displays an image.
  */
-public class ImageCreative  extends com.google.api.ads.dfp.v201104.HasDestinationUrlCreative  implements java.io.Serializable {
-    /* The name of the image asset. This attribute is required and
-     * has a maximum
-     *                     length of 248 characters. */
-    private java.lang.String imageName;
-
-    /* The content of the image asset as a byte array. This attribute
-     * is required.
-     *                     The {@code imageByteArray} will be {@code null}
-     * when the {@code
-     *                     ImageCreative} is retrieved. To view the image,
-     * use the {@code previewUrl}. */
-    private byte[] imageByteArray;
-
-    /* Allows the creative size to differ from the actual image asset
-     * size. This
-     *                     attribute is optional. */
-    private java.lang.Boolean overrideSize;
-
-    /* The image asset size. Note that this may differ from {@code
-     * size} if users
-     *                     set {@code overrideSize} to true. This attribute
-     * read-only and is populated
-     *                     by Google. */
-    private com.google.api.ads.dfp.v201104.Size assetSize;
-
-    /* The URL where the actual asset resides. This attribute is read-only
-     * and
-     *                     has a maximum length of 1024 characters. */
-    private java.lang.String imageUrl;
-
+public class ImageCreative  extends com.google.api.ads.dfp.v201104.BaseImageCreative  implements java.io.Serializable {
     public ImageCreative() {
     }
 
@@ -65,142 +35,12 @@ public class ImageCreative  extends com.google.api.ads.dfp.v201104.HasDestinatio
             size,
             previewUrl,
             creativeType,
-            destinationUrl);
-        this.imageName = imageName;
-        this.imageByteArray = imageByteArray;
-        this.overrideSize = overrideSize;
-        this.assetSize = assetSize;
-        this.imageUrl = imageUrl;
-    }
-
-
-    /**
-     * Gets the imageName value for this ImageCreative.
-     * 
-     * @return imageName   * The name of the image asset. This attribute is required and
-     * has a maximum
-     *                     length of 248 characters.
-     */
-    public java.lang.String getImageName() {
-        return imageName;
-    }
-
-
-    /**
-     * Sets the imageName value for this ImageCreative.
-     * 
-     * @param imageName   * The name of the image asset. This attribute is required and
-     * has a maximum
-     *                     length of 248 characters.
-     */
-    public void setImageName(java.lang.String imageName) {
-        this.imageName = imageName;
-    }
-
-
-    /**
-     * Gets the imageByteArray value for this ImageCreative.
-     * 
-     * @return imageByteArray   * The content of the image asset as a byte array. This attribute
-     * is required.
-     *                     The {@code imageByteArray} will be {@code null}
-     * when the {@code
-     *                     ImageCreative} is retrieved. To view the image,
-     * use the {@code previewUrl}.
-     */
-    public byte[] getImageByteArray() {
-        return imageByteArray;
-    }
-
-
-    /**
-     * Sets the imageByteArray value for this ImageCreative.
-     * 
-     * @param imageByteArray   * The content of the image asset as a byte array. This attribute
-     * is required.
-     *                     The {@code imageByteArray} will be {@code null}
-     * when the {@code
-     *                     ImageCreative} is retrieved. To view the image,
-     * use the {@code previewUrl}.
-     */
-    public void setImageByteArray(byte[] imageByteArray) {
-        this.imageByteArray = imageByteArray;
-    }
-
-
-    /**
-     * Gets the overrideSize value for this ImageCreative.
-     * 
-     * @return overrideSize   * Allows the creative size to differ from the actual image asset
-     * size. This
-     *                     attribute is optional.
-     */
-    public java.lang.Boolean getOverrideSize() {
-        return overrideSize;
-    }
-
-
-    /**
-     * Sets the overrideSize value for this ImageCreative.
-     * 
-     * @param overrideSize   * Allows the creative size to differ from the actual image asset
-     * size. This
-     *                     attribute is optional.
-     */
-    public void setOverrideSize(java.lang.Boolean overrideSize) {
-        this.overrideSize = overrideSize;
-    }
-
-
-    /**
-     * Gets the assetSize value for this ImageCreative.
-     * 
-     * @return assetSize   * The image asset size. Note that this may differ from {@code
-     * size} if users
-     *                     set {@code overrideSize} to true. This attribute
-     * read-only and is populated
-     *                     by Google.
-     */
-    public com.google.api.ads.dfp.v201104.Size getAssetSize() {
-        return assetSize;
-    }
-
-
-    /**
-     * Sets the assetSize value for this ImageCreative.
-     * 
-     * @param assetSize   * The image asset size. Note that this may differ from {@code
-     * size} if users
-     *                     set {@code overrideSize} to true. This attribute
-     * read-only and is populated
-     *                     by Google.
-     */
-    public void setAssetSize(com.google.api.ads.dfp.v201104.Size assetSize) {
-        this.assetSize = assetSize;
-    }
-
-
-    /**
-     * Gets the imageUrl value for this ImageCreative.
-     * 
-     * @return imageUrl   * The URL where the actual asset resides. This attribute is read-only
-     * and
-     *                     has a maximum length of 1024 characters.
-     */
-    public java.lang.String getImageUrl() {
-        return imageUrl;
-    }
-
-
-    /**
-     * Sets the imageUrl value for this ImageCreative.
-     * 
-     * @param imageUrl   * The URL where the actual asset resides. This attribute is read-only
-     * and
-     *                     has a maximum length of 1024 characters.
-     */
-    public void setImageUrl(java.lang.String imageUrl) {
-        this.imageUrl = imageUrl;
+            destinationUrl,
+            imageName,
+            imageByteArray,
+            overrideSize,
+            assetSize,
+            imageUrl);
     }
 
     private java.lang.Object __equalsCalc = null;
@@ -214,22 +54,7 @@ public class ImageCreative  extends com.google.api.ads.dfp.v201104.HasDestinatio
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = super.equals(obj) && 
-            ((this.imageName==null && other.getImageName()==null) || 
-             (this.imageName!=null &&
-              this.imageName.equals(other.getImageName()))) &&
-            ((this.imageByteArray==null && other.getImageByteArray()==null) || 
-             (this.imageByteArray!=null &&
-              java.util.Arrays.equals(this.imageByteArray, other.getImageByteArray()))) &&
-            ((this.overrideSize==null && other.getOverrideSize()==null) || 
-             (this.overrideSize!=null &&
-              this.overrideSize.equals(other.getOverrideSize()))) &&
-            ((this.assetSize==null && other.getAssetSize()==null) || 
-             (this.assetSize!=null &&
-              this.assetSize.equals(other.getAssetSize()))) &&
-            ((this.imageUrl==null && other.getImageUrl()==null) || 
-             (this.imageUrl!=null &&
-              this.imageUrl.equals(other.getImageUrl())));
+        _equals = super.equals(obj);
         __equalsCalc = null;
         return _equals;
     }
@@ -241,29 +66,6 @@ public class ImageCreative  extends com.google.api.ads.dfp.v201104.HasDestinatio
         }
         __hashCodeCalc = true;
         int _hashCode = super.hashCode();
-        if (getImageName() != null) {
-            _hashCode += getImageName().hashCode();
-        }
-        if (getImageByteArray() != null) {
-            for (int i=0;
-                 i<java.lang.reflect.Array.getLength(getImageByteArray());
-                 i++) {
-                java.lang.Object obj = java.lang.reflect.Array.get(getImageByteArray(), i);
-                if (obj != null &&
-                    !obj.getClass().isArray()) {
-                    _hashCode += obj.hashCode();
-                }
-            }
-        }
-        if (getOverrideSize() != null) {
-            _hashCode += getOverrideSize().hashCode();
-        }
-        if (getAssetSize() != null) {
-            _hashCode += getAssetSize().hashCode();
-        }
-        if (getImageUrl() != null) {
-            _hashCode += getImageUrl().hashCode();
-        }
         __hashCodeCalc = false;
         return _hashCode;
     }
@@ -274,41 +76,6 @@ public class ImageCreative  extends com.google.api.ads.dfp.v201104.HasDestinatio
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201104", "ImageCreative"));
-        org.apache.axis.description.ElementDesc elemField = new org.apache.axis.description.ElementDesc();
-        elemField.setFieldName("imageName");
-        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201104", "imageName"));
-        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
-        elemField.setMinOccurs(0);
-        elemField.setNillable(false);
-        typeDesc.addFieldDesc(elemField);
-        elemField = new org.apache.axis.description.ElementDesc();
-        elemField.setFieldName("imageByteArray");
-        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201104", "imageByteArray"));
-        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "base64Binary"));
-        elemField.setMinOccurs(0);
-        elemField.setNillable(false);
-        typeDesc.addFieldDesc(elemField);
-        elemField = new org.apache.axis.description.ElementDesc();
-        elemField.setFieldName("overrideSize");
-        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201104", "overrideSize"));
-        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
-        elemField.setMinOccurs(0);
-        elemField.setNillable(false);
-        typeDesc.addFieldDesc(elemField);
-        elemField = new org.apache.axis.description.ElementDesc();
-        elemField.setFieldName("assetSize");
-        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201104", "assetSize"));
-        elemField.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201104", "Size"));
-        elemField.setMinOccurs(0);
-        elemField.setNillable(false);
-        typeDesc.addFieldDesc(elemField);
-        elemField = new org.apache.axis.description.ElementDesc();
-        elemField.setFieldName("imageUrl");
-        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201104", "imageUrl"));
-        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
-        elemField.setMinOccurs(0);
-        elemField.setNillable(false);
-        typeDesc.addFieldDesc(elemField);
     }
 
     /**

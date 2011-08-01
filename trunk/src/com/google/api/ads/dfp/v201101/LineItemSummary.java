@@ -261,9 +261,10 @@ public class LineItemSummary  implements java.io.Serializable {
      * readonly. */
     private java.lang.Boolean isArchived;
 
-    /* This field indicates the subtype of LineItemSummary of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of LineItemSummary.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String lineItemSummaryType;
 
     public LineItemSummary() {
@@ -1268,9 +1269,10 @@ public class LineItemSummary  implements java.io.Serializable {
     /**
      * Gets the lineItemSummaryType value for this LineItemSummary.
      * 
-     * @return lineItemSummaryType   * This field indicates the subtype of LineItemSummary of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return lineItemSummaryType   * Indicates that this instance is a subtype of LineItemSummary.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getLineItemSummaryType() {
         return lineItemSummaryType;
@@ -1280,9 +1282,10 @@ public class LineItemSummary  implements java.io.Serializable {
     /**
      * Sets the lineItemSummaryType value for this LineItemSummary.
      * 
-     * @param lineItemSummaryType   * This field indicates the subtype of LineItemSummary of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param lineItemSummaryType   * Indicates that this instance is a subtype of LineItemSummary.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setLineItemSummaryType(java.lang.String lineItemSummaryType) {
         this.lineItemSummaryType = lineItemSummaryType;

@@ -510,6 +510,20 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "OrderError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201101.OrderError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "OrderError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201101.OrderErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201101", "ParseError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201101.ParseError.class;

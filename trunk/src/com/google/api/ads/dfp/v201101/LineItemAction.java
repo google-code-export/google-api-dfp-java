@@ -13,9 +13,10 @@ package com.google.api.ads.dfp.v201101;
  * objects.
  */
 public abstract class LineItemAction  implements java.io.Serializable {
-    /* This field indicates the subtype of LineItemAction of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of LineItemAction.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String lineItemActionType;
 
     public LineItemAction() {
@@ -30,9 +31,10 @@ public abstract class LineItemAction  implements java.io.Serializable {
     /**
      * Gets the lineItemActionType value for this LineItemAction.
      * 
-     * @return lineItemActionType   * This field indicates the subtype of LineItemAction of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return lineItemActionType   * Indicates that this instance is a subtype of LineItemAction.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getLineItemActionType() {
         return lineItemActionType;
@@ -42,9 +44,10 @@ public abstract class LineItemAction  implements java.io.Serializable {
     /**
      * Sets the lineItemActionType value for this LineItemAction.
      * 
-     * @param lineItemActionType   * This field indicates the subtype of LineItemAction of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param lineItemActionType   * Indicates that this instance is a subtype of LineItemAction.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setLineItemActionType(java.lang.String lineItemActionType) {
         this.lineItemActionType = lineItemActionType;

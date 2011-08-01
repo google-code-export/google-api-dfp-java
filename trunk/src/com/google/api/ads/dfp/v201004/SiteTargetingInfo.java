@@ -34,9 +34,10 @@ public class SiteTargetingInfo  implements java.io.Serializable {
      *                 of 50 characters. */
     private java.lang.String targetingAdLocation;
 
-    /* This field indicates the subtype of SiteTargetingInfo of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of SiteTargetingInfo.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String siteTargetingInfoType;
 
     public SiteTargetingInfo() {
@@ -141,9 +142,10 @@ public class SiteTargetingInfo  implements java.io.Serializable {
     /**
      * Gets the siteTargetingInfoType value for this SiteTargetingInfo.
      * 
-     * @return siteTargetingInfoType   * This field indicates the subtype of SiteTargetingInfo of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return siteTargetingInfoType   * Indicates that this instance is a subtype of SiteTargetingInfo.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getSiteTargetingInfoType() {
         return siteTargetingInfoType;
@@ -153,9 +155,10 @@ public class SiteTargetingInfo  implements java.io.Serializable {
     /**
      * Sets the siteTargetingInfoType value for this SiteTargetingInfo.
      * 
-     * @param siteTargetingInfoType   * This field indicates the subtype of SiteTargetingInfo of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param siteTargetingInfoType   * Indicates that this instance is a subtype of SiteTargetingInfo.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setSiteTargetingInfoType(java.lang.String siteTargetingInfoType) {
         this.siteTargetingInfoType = siteTargetingInfoType;

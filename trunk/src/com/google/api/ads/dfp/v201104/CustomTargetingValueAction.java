@@ -13,9 +13,10 @@ package com.google.api.ads.dfp.v201104;
  * objects.
  */
 public abstract class CustomTargetingValueAction  implements java.io.Serializable {
-    /* This field indicates the subtype of CustomTargetingValueAction
-     * of this instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of CustomTargetingValueAction.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String customTargetingValueActionType;
 
     public CustomTargetingValueAction() {
@@ -30,9 +31,10 @@ public abstract class CustomTargetingValueAction  implements java.io.Serializabl
     /**
      * Gets the customTargetingValueActionType value for this CustomTargetingValueAction.
      * 
-     * @return customTargetingValueActionType   * This field indicates the subtype of CustomTargetingValueAction
-     * of this instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return customTargetingValueActionType   * Indicates that this instance is a subtype of CustomTargetingValueAction.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getCustomTargetingValueActionType() {
         return customTargetingValueActionType;
@@ -42,9 +44,10 @@ public abstract class CustomTargetingValueAction  implements java.io.Serializabl
     /**
      * Sets the customTargetingValueActionType value for this CustomTargetingValueAction.
      * 
-     * @param customTargetingValueActionType   * This field indicates the subtype of CustomTargetingValueAction
-     * of this instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param customTargetingValueActionType   * Indicates that this instance is a subtype of CustomTargetingValueAction.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setCustomTargetingValueActionType(java.lang.String customTargetingValueActionType) {
         this.customTargetingValueActionType = customTargetingValueActionType;

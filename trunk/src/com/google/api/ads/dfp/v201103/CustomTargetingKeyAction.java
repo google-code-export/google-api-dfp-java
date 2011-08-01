@@ -13,9 +13,10 @@ package com.google.api.ads.dfp.v201103;
  * objects.
  */
 public abstract class CustomTargetingKeyAction  implements java.io.Serializable {
-    /* This field indicates the subtype of CustomTargetingKeyAction
-     * of this instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of CustomTargetingKeyAction.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String customTargetingKeyActionType;
 
     public CustomTargetingKeyAction() {
@@ -30,9 +31,10 @@ public abstract class CustomTargetingKeyAction  implements java.io.Serializable 
     /**
      * Gets the customTargetingKeyActionType value for this CustomTargetingKeyAction.
      * 
-     * @return customTargetingKeyActionType   * This field indicates the subtype of CustomTargetingKeyAction
-     * of this instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return customTargetingKeyActionType   * Indicates that this instance is a subtype of CustomTargetingKeyAction.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getCustomTargetingKeyActionType() {
         return customTargetingKeyActionType;
@@ -42,9 +44,10 @@ public abstract class CustomTargetingKeyAction  implements java.io.Serializable 
     /**
      * Sets the customTargetingKeyActionType value for this CustomTargetingKeyAction.
      * 
-     * @param customTargetingKeyActionType   * This field indicates the subtype of CustomTargetingKeyAction
-     * of this instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param customTargetingKeyActionType   * Indicates that this instance is a subtype of CustomTargetingKeyAction.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setCustomTargetingKeyActionType(java.lang.String customTargetingKeyActionType) {
         this.customTargetingKeyActionType = customTargetingKeyActionType;

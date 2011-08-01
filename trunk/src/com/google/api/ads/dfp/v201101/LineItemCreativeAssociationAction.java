@@ -13,9 +13,10 @@ package com.google.api.ads.dfp.v201101;
  *             {@link LineItemCreativeAssociation} objects.
  */
 public abstract class LineItemCreativeAssociationAction  implements java.io.Serializable {
-    /* This field indicates the subtype of LineItemCreativeAssociationAction
-     * of this instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of LineItemCreativeAssociationAction.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String lineItemCreativeAssociationActionType;
 
     public LineItemCreativeAssociationAction() {
@@ -30,9 +31,10 @@ public abstract class LineItemCreativeAssociationAction  implements java.io.Seri
     /**
      * Gets the lineItemCreativeAssociationActionType value for this LineItemCreativeAssociationAction.
      * 
-     * @return lineItemCreativeAssociationActionType   * This field indicates the subtype of LineItemCreativeAssociationAction
-     * of this instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return lineItemCreativeAssociationActionType   * Indicates that this instance is a subtype of LineItemCreativeAssociationAction.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getLineItemCreativeAssociationActionType() {
         return lineItemCreativeAssociationActionType;
@@ -42,9 +44,10 @@ public abstract class LineItemCreativeAssociationAction  implements java.io.Seri
     /**
      * Sets the lineItemCreativeAssociationActionType value for this LineItemCreativeAssociationAction.
      * 
-     * @param lineItemCreativeAssociationActionType   * This field indicates the subtype of LineItemCreativeAssociationAction
-     * of this instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param lineItemCreativeAssociationActionType   * Indicates that this instance is a subtype of LineItemCreativeAssociationAction.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setLineItemCreativeAssociationActionType(java.lang.String lineItemCreativeAssociationActionType) {
         this.lineItemCreativeAssociationActionType = lineItemCreativeAssociationActionType;

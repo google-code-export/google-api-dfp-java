@@ -12,9 +12,10 @@ package com.google.api.ads.dfp.v201010;
  * Represents the actions that can be performed on {@link User} objects.
  */
 public abstract class UserAction  implements java.io.Serializable {
-    /* This field indicates the subtype of UserAction of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of UserAction.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String userActionType;
 
     public UserAction() {
@@ -29,9 +30,10 @@ public abstract class UserAction  implements java.io.Serializable {
     /**
      * Gets the userActionType value for this UserAction.
      * 
-     * @return userActionType   * This field indicates the subtype of UserAction of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return userActionType   * Indicates that this instance is a subtype of UserAction.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getUserActionType() {
         return userActionType;
@@ -41,9 +43,10 @@ public abstract class UserAction  implements java.io.Serializable {
     /**
      * Sets the userActionType value for this UserAction.
      * 
-     * @param userActionType   * This field indicates the subtype of UserAction of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param userActionType   * Indicates that this instance is a subtype of UserAction.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setUserActionType(java.lang.String userActionType) {
         this.userActionType = userActionType;

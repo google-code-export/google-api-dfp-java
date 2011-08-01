@@ -18,7 +18,9 @@ public class AdUnitCodeErrorReason implements java.io.Serializable {
     }
 
     public static final java.lang.String _INVALID_CHARACTERS = "INVALID_CHARACTERS";
+    public static final java.lang.String _INVALID_CHARACTERS_WHEN_UTF_CHARACTERS_ARE_ALLOWED = "INVALID_CHARACTERS_WHEN_UTF_CHARACTERS_ARE_ALLOWED";
     public static final AdUnitCodeErrorReason INVALID_CHARACTERS = new AdUnitCodeErrorReason(_INVALID_CHARACTERS);
+    public static final AdUnitCodeErrorReason INVALID_CHARACTERS_WHEN_UTF_CHARACTERS_ARE_ALLOWED = new AdUnitCodeErrorReason(_INVALID_CHARACTERS_WHEN_UTF_CHARACTERS_ARE_ALLOWED);
     public java.lang.String getValue() { return _value_;}
     public static AdUnitCodeErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

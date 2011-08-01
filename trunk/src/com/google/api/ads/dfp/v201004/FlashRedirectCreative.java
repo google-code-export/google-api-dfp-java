@@ -12,25 +12,10 @@ package com.google.api.ads.dfp.v201004;
  * A {@code Creative} that loads a Flash asset from a specified URL.
  * If the
  *             remote flash asset cannot be served, a fallback image
- * is used at an alternate
- *             URL.
+ * is used at an
+ *             alternate URL.
  */
-public class FlashRedirectCreative  extends com.google.api.ads.dfp.v201004.HasDestinationUrlCreative  implements java.io.Serializable {
-    /* The URL where the Flash asset resides. This attribute is required
-     * and has a
-     *                     maximum length of 1024 characters. */
-    private java.lang.String flashUrl;
-
-    /* The fallback URL to use if the Flash URL cannot be used. This
-     * attribute is
-     *                     required and has a maximum length of 1024 characters. */
-    private java.lang.String fallbackUrl;
-
-    /* The URL of the fallback image for preview. This attribute is
-     * read-only and
-     *                     is populated by Google. */
-    private java.lang.String fallbackPreviewUrl;
-
+public class FlashRedirectCreative  extends com.google.api.ads.dfp.v201004.BaseFlashRedirectCreative  implements java.io.Serializable {
     public FlashRedirectCreative() {
     }
 
@@ -52,82 +37,10 @@ public class FlashRedirectCreative  extends com.google.api.ads.dfp.v201004.HasDe
             size,
             previewUrl,
             creativeType,
-            destinationUrl);
-        this.flashUrl = flashUrl;
-        this.fallbackUrl = fallbackUrl;
-        this.fallbackPreviewUrl = fallbackPreviewUrl;
-    }
-
-
-    /**
-     * Gets the flashUrl value for this FlashRedirectCreative.
-     * 
-     * @return flashUrl   * The URL where the Flash asset resides. This attribute is required
-     * and has a
-     *                     maximum length of 1024 characters.
-     */
-    public java.lang.String getFlashUrl() {
-        return flashUrl;
-    }
-
-
-    /**
-     * Sets the flashUrl value for this FlashRedirectCreative.
-     * 
-     * @param flashUrl   * The URL where the Flash asset resides. This attribute is required
-     * and has a
-     *                     maximum length of 1024 characters.
-     */
-    public void setFlashUrl(java.lang.String flashUrl) {
-        this.flashUrl = flashUrl;
-    }
-
-
-    /**
-     * Gets the fallbackUrl value for this FlashRedirectCreative.
-     * 
-     * @return fallbackUrl   * The fallback URL to use if the Flash URL cannot be used. This
-     * attribute is
-     *                     required and has a maximum length of 1024 characters.
-     */
-    public java.lang.String getFallbackUrl() {
-        return fallbackUrl;
-    }
-
-
-    /**
-     * Sets the fallbackUrl value for this FlashRedirectCreative.
-     * 
-     * @param fallbackUrl   * The fallback URL to use if the Flash URL cannot be used. This
-     * attribute is
-     *                     required and has a maximum length of 1024 characters.
-     */
-    public void setFallbackUrl(java.lang.String fallbackUrl) {
-        this.fallbackUrl = fallbackUrl;
-    }
-
-
-    /**
-     * Gets the fallbackPreviewUrl value for this FlashRedirectCreative.
-     * 
-     * @return fallbackPreviewUrl   * The URL of the fallback image for preview. This attribute is
-     * read-only and
-     *                     is populated by Google.
-     */
-    public java.lang.String getFallbackPreviewUrl() {
-        return fallbackPreviewUrl;
-    }
-
-
-    /**
-     * Sets the fallbackPreviewUrl value for this FlashRedirectCreative.
-     * 
-     * @param fallbackPreviewUrl   * The URL of the fallback image for preview. This attribute is
-     * read-only and
-     *                     is populated by Google.
-     */
-    public void setFallbackPreviewUrl(java.lang.String fallbackPreviewUrl) {
-        this.fallbackPreviewUrl = fallbackPreviewUrl;
+            destinationUrl,
+            flashUrl,
+            fallbackUrl,
+            fallbackPreviewUrl);
     }
 
     private java.lang.Object __equalsCalc = null;
@@ -141,16 +54,7 @@ public class FlashRedirectCreative  extends com.google.api.ads.dfp.v201004.HasDe
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = super.equals(obj) && 
-            ((this.flashUrl==null && other.getFlashUrl()==null) || 
-             (this.flashUrl!=null &&
-              this.flashUrl.equals(other.getFlashUrl()))) &&
-            ((this.fallbackUrl==null && other.getFallbackUrl()==null) || 
-             (this.fallbackUrl!=null &&
-              this.fallbackUrl.equals(other.getFallbackUrl()))) &&
-            ((this.fallbackPreviewUrl==null && other.getFallbackPreviewUrl()==null) || 
-             (this.fallbackPreviewUrl!=null &&
-              this.fallbackPreviewUrl.equals(other.getFallbackPreviewUrl())));
+        _equals = super.equals(obj);
         __equalsCalc = null;
         return _equals;
     }
@@ -162,15 +66,6 @@ public class FlashRedirectCreative  extends com.google.api.ads.dfp.v201004.HasDe
         }
         __hashCodeCalc = true;
         int _hashCode = super.hashCode();
-        if (getFlashUrl() != null) {
-            _hashCode += getFlashUrl().hashCode();
-        }
-        if (getFallbackUrl() != null) {
-            _hashCode += getFallbackUrl().hashCode();
-        }
-        if (getFallbackPreviewUrl() != null) {
-            _hashCode += getFallbackPreviewUrl().hashCode();
-        }
         __hashCodeCalc = false;
         return _hashCode;
     }
@@ -181,27 +76,6 @@ public class FlashRedirectCreative  extends com.google.api.ads.dfp.v201004.HasDe
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "FlashRedirectCreative"));
-        org.apache.axis.description.ElementDesc elemField = new org.apache.axis.description.ElementDesc();
-        elemField.setFieldName("flashUrl");
-        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "flashUrl"));
-        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
-        elemField.setMinOccurs(0);
-        elemField.setNillable(false);
-        typeDesc.addFieldDesc(elemField);
-        elemField = new org.apache.axis.description.ElementDesc();
-        elemField.setFieldName("fallbackUrl");
-        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "fallbackUrl"));
-        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
-        elemField.setMinOccurs(0);
-        elemField.setNillable(false);
-        typeDesc.addFieldDesc(elemField);
-        elemField = new org.apache.axis.description.ElementDesc();
-        elemField.setFieldName("fallbackPreviewUrl");
-        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "fallbackPreviewUrl"));
-        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
-        elemField.setMinOccurs(0);
-        elemField.setNillable(false);
-        typeDesc.addFieldDesc(elemField);
     }
 
     /**
