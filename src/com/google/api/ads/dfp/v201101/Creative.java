@@ -38,9 +38,10 @@ public abstract class Creative  implements java.io.Serializable {
      * is created. */
     private java.lang.String previewUrl;
 
-    /* This field indicates the subtype of Creative of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of Creative.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String creativeType;
 
     public Creative() {
@@ -187,9 +188,10 @@ public abstract class Creative  implements java.io.Serializable {
     /**
      * Gets the creativeType value for this Creative.
      * 
-     * @return creativeType   * This field indicates the subtype of Creative of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return creativeType   * Indicates that this instance is a subtype of Creative.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getCreativeType() {
         return creativeType;
@@ -199,9 +201,10 @@ public abstract class Creative  implements java.io.Serializable {
     /**
      * Sets the creativeType value for this Creative.
      * 
-     * @param creativeType   * This field indicates the subtype of Creative of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param creativeType   * Indicates that this instance is a subtype of Creative.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setCreativeType(java.lang.String creativeType) {
         this.creativeType = creativeType;

@@ -45,9 +45,10 @@ public class UserRecord  implements java.io.Serializable {
      *                 code]_[ISO_country code]. This field is required. */
     private java.lang.String preferredLocale;
 
-    /* This field indicates the subtype of UserRecord of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of UserRecord.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String userRecordType;
 
     public UserRecord() {
@@ -220,9 +221,10 @@ public class UserRecord  implements java.io.Serializable {
     /**
      * Gets the userRecordType value for this UserRecord.
      * 
-     * @return userRecordType   * This field indicates the subtype of UserRecord of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return userRecordType   * Indicates that this instance is a subtype of UserRecord.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getUserRecordType() {
         return userRecordType;
@@ -232,9 +234,10 @@ public class UserRecord  implements java.io.Serializable {
     /**
      * Sets the userRecordType value for this UserRecord.
      * 
-     * @param userRecordType   * This field indicates the subtype of UserRecord of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param userRecordType   * Indicates that this instance is a subtype of UserRecord.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setUserRecordType(java.lang.String userRecordType) {
         this.userRecordType = userRecordType;

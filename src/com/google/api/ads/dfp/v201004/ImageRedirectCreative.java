@@ -11,12 +11,7 @@ package com.google.api.ads.dfp.v201004;
 /**
  * A {@code Creative} that loads an image asset from a specified URL.
  */
-public class ImageRedirectCreative  extends com.google.api.ads.dfp.v201004.HasDestinationUrlCreative  implements java.io.Serializable {
-    /* The URL where the actual asset resides. This attribute is required
-     * and
-     *                     has a maximum length of 1024 characters. */
-    private java.lang.String imageUrl;
-
+public class ImageRedirectCreative  extends com.google.api.ads.dfp.v201004.BaseImageRedirectCreative  implements java.io.Serializable {
     public ImageRedirectCreative() {
     }
 
@@ -36,32 +31,8 @@ public class ImageRedirectCreative  extends com.google.api.ads.dfp.v201004.HasDe
             size,
             previewUrl,
             creativeType,
-            destinationUrl);
-        this.imageUrl = imageUrl;
-    }
-
-
-    /**
-     * Gets the imageUrl value for this ImageRedirectCreative.
-     * 
-     * @return imageUrl   * The URL where the actual asset resides. This attribute is required
-     * and
-     *                     has a maximum length of 1024 characters.
-     */
-    public java.lang.String getImageUrl() {
-        return imageUrl;
-    }
-
-
-    /**
-     * Sets the imageUrl value for this ImageRedirectCreative.
-     * 
-     * @param imageUrl   * The URL where the actual asset resides. This attribute is required
-     * and
-     *                     has a maximum length of 1024 characters.
-     */
-    public void setImageUrl(java.lang.String imageUrl) {
-        this.imageUrl = imageUrl;
+            destinationUrl,
+            imageUrl);
     }
 
     private java.lang.Object __equalsCalc = null;
@@ -75,10 +46,7 @@ public class ImageRedirectCreative  extends com.google.api.ads.dfp.v201004.HasDe
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = super.equals(obj) && 
-            ((this.imageUrl==null && other.getImageUrl()==null) || 
-             (this.imageUrl!=null &&
-              this.imageUrl.equals(other.getImageUrl())));
+        _equals = super.equals(obj);
         __equalsCalc = null;
         return _equals;
     }
@@ -90,9 +58,6 @@ public class ImageRedirectCreative  extends com.google.api.ads.dfp.v201004.HasDe
         }
         __hashCodeCalc = true;
         int _hashCode = super.hashCode();
-        if (getImageUrl() != null) {
-            _hashCode += getImageUrl().hashCode();
-        }
         __hashCodeCalc = false;
         return _hashCode;
     }
@@ -103,13 +68,6 @@ public class ImageRedirectCreative  extends com.google.api.ads.dfp.v201004.HasDe
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "ImageRedirectCreative"));
-        org.apache.axis.description.ElementDesc elemField = new org.apache.axis.description.ElementDesc();
-        elemField.setFieldName("imageUrl");
-        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201004", "imageUrl"));
-        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
-        elemField.setMinOccurs(0);
-        elemField.setNillable(false);
-        typeDesc.addFieldDesc(elemField);
     }
 
     /**

@@ -27,9 +27,10 @@ public abstract class ApiError  implements java.io.Serializable {
     /* A simple string representation of the error and reason. */
     private java.lang.String errorString;
 
-    /* This field indicates the subtype of ApiError of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of ApiError.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String apiErrorType;
 
     public ApiError() {
@@ -110,9 +111,10 @@ public abstract class ApiError  implements java.io.Serializable {
     /**
      * Gets the apiErrorType value for this ApiError.
      * 
-     * @return apiErrorType   * This field indicates the subtype of ApiError of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return apiErrorType   * Indicates that this instance is a subtype of ApiError.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getApiErrorType() {
         return apiErrorType;
@@ -122,9 +124,10 @@ public abstract class ApiError  implements java.io.Serializable {
     /**
      * Sets the apiErrorType value for this ApiError.
      * 
-     * @param apiErrorType   * This field indicates the subtype of ApiError of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param apiErrorType   * Indicates that this instance is a subtype of ApiError.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setApiErrorType(java.lang.String apiErrorType) {
         this.apiErrorType = apiErrorType;

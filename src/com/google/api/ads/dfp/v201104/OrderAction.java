@@ -12,9 +12,10 @@ package com.google.api.ads.dfp.v201104;
  * Represents the actions that can be performed on {@link Order} objects.
  */
 public abstract class OrderAction  implements java.io.Serializable {
-    /* This field indicates the subtype of OrderAction of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of OrderAction.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String orderActionType;
 
     public OrderAction() {
@@ -29,9 +30,10 @@ public abstract class OrderAction  implements java.io.Serializable {
     /**
      * Gets the orderActionType value for this OrderAction.
      * 
-     * @return orderActionType   * This field indicates the subtype of OrderAction of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return orderActionType   * Indicates that this instance is a subtype of OrderAction.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getOrderActionType() {
         return orderActionType;
@@ -41,9 +43,10 @@ public abstract class OrderAction  implements java.io.Serializable {
     /**
      * Sets the orderActionType value for this OrderAction.
      * 
-     * @param orderActionType   * This field indicates the subtype of OrderAction of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param orderActionType   * Indicates that this instance is a subtype of OrderAction.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setOrderActionType(java.lang.String orderActionType) {
         this.orderActionType = orderActionType;

@@ -12,9 +12,10 @@ package com.google.api.ads.dfp.v201004;
  * Represents a bind variable's value for a PQL {@link Statement}.
  */
 public abstract class Param  implements java.io.Serializable {
-    /* This field indicates the subtype of Param of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of Param.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String paramType;
 
     public Param() {
@@ -29,9 +30,10 @@ public abstract class Param  implements java.io.Serializable {
     /**
      * Gets the paramType value for this Param.
      * 
-     * @return paramType   * This field indicates the subtype of Param of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return paramType   * Indicates that this instance is a subtype of Param.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getParamType() {
         return paramType;
@@ -41,9 +43,10 @@ public abstract class Param  implements java.io.Serializable {
     /**
      * Sets the paramType value for this Param.
      * 
-     * @param paramType   * This field indicates the subtype of Param of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param paramType   * Indicates that this instance is a subtype of Param.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setParamType(java.lang.String paramType) {
         this.paramType = paramType;

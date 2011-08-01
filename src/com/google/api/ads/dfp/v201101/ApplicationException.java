@@ -15,9 +15,10 @@ public class ApplicationException  extends org.apache.axis.AxisFault  implements
     /* Error message. */
     private java.lang.String message1;
 
-    /* This field indicates the subtype of ApplicationException of
-     * this instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of ApplicationException.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String applicationExceptionType;
 
     public ApplicationException() {
@@ -54,9 +55,10 @@ public class ApplicationException  extends org.apache.axis.AxisFault  implements
     /**
      * Gets the applicationExceptionType value for this ApplicationException.
      * 
-     * @return applicationExceptionType   * This field indicates the subtype of ApplicationException of
-     * this instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return applicationExceptionType   * Indicates that this instance is a subtype of ApplicationException.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getApplicationExceptionType() {
         return applicationExceptionType;
@@ -66,9 +68,10 @@ public class ApplicationException  extends org.apache.axis.AxisFault  implements
     /**
      * Sets the applicationExceptionType value for this ApplicationException.
      * 
-     * @param applicationExceptionType   * This field indicates the subtype of ApplicationException of
-     * this instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param applicationExceptionType   * Indicates that this instance is a subtype of ApplicationException.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setApplicationExceptionType(java.lang.String applicationExceptionType) {
         this.applicationExceptionType = applicationExceptionType;

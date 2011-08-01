@@ -18,9 +18,10 @@ package com.google.api.ads.dfp.v201101;
  *             subject to the rules defined on {@link Targeting#customTargeting}.
  */
 public abstract class CustomCriteriaNode  implements java.io.Serializable {
-    /* This field indicates the subtype of CustomCriteriaNode of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of CustomCriteriaNode.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String customCriteriaNodeType;
 
     public CustomCriteriaNode() {
@@ -35,9 +36,10 @@ public abstract class CustomCriteriaNode  implements java.io.Serializable {
     /**
      * Gets the customCriteriaNodeType value for this CustomCriteriaNode.
      * 
-     * @return customCriteriaNodeType   * This field indicates the subtype of CustomCriteriaNode of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return customCriteriaNodeType   * Indicates that this instance is a subtype of CustomCriteriaNode.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getCustomCriteriaNodeType() {
         return customCriteriaNodeType;
@@ -47,9 +49,10 @@ public abstract class CustomCriteriaNode  implements java.io.Serializable {
     /**
      * Sets the customCriteriaNodeType value for this CustomCriteriaNode.
      * 
-     * @param customCriteriaNodeType   * This field indicates the subtype of CustomCriteriaNode of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param customCriteriaNodeType   * Indicates that this instance is a subtype of CustomCriteriaNode.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setCustomCriteriaNodeType(java.lang.String customCriteriaNodeType) {
         this.customCriteriaNodeType = customCriteriaNodeType;

@@ -23,6 +23,7 @@ public class CustomTargetingErrorReason implements java.io.Serializable {
     public static final java.lang.String _KEY_NAME_EMPTY = "KEY_NAME_EMPTY";
     public static final java.lang.String _KEY_NAME_INVALID_LENGTH = "KEY_NAME_INVALID_LENGTH";
     public static final java.lang.String _KEY_NAME_INVALID_CHARS = "KEY_NAME_INVALID_CHARS";
+    public static final java.lang.String _KEY_NAME_RESERVED = "KEY_NAME_RESERVED";
     public static final java.lang.String _KEY_DISPLAY_NAME_INVALID_LENGTH = "KEY_DISPLAY_NAME_INVALID_LENGTH";
     public static final java.lang.String _VALUE_NOT_FOUND = "VALUE_NOT_FOUND";
     public static final java.lang.String _GET_VALUES_BY_STATEMENT_MUST_CONTAIN_KEY_ID = "GET_VALUES_BY_STATEMENT_MUST_CONTAIN_KEY_ID";
@@ -36,7 +37,6 @@ public class CustomTargetingErrorReason implements java.io.Serializable {
     public static final java.lang.String _VALUE_MATCH_TYPE_NOT_EXACT_FOR_PREDEFINED_KEY = "VALUE_MATCH_TYPE_NOT_EXACT_FOR_PREDEFINED_KEY";
     public static final java.lang.String _KEY_WITH_MISSING_VALUES = "KEY_WITH_MISSING_VALUES";
     public static final java.lang.String _CANNOT_OR_DIFFERENT_KEYS = "CANNOT_OR_DIFFERENT_KEYS";
-    public static final java.lang.String _CANNOT_AND_SAME_KEYS = "CANNOT_AND_SAME_KEYS";
     public static final java.lang.String _INVALID_TARGETING_EXPRESSION = "INVALID_TARGETING_EXPRESSION";
     public static final java.lang.String _DELETED_KEY_CANNOT_BE_USED_FOR_TARGETING = "DELETED_KEY_CANNOT_BE_USED_FOR_TARGETING";
     public static final java.lang.String _DELETED_VALUE_CANNOT_BE_USED_FOR_TARGETING = "DELETED_VALUE_CANNOT_BE_USED_FOR_TARGETING";
@@ -46,6 +46,7 @@ public class CustomTargetingErrorReason implements java.io.Serializable {
     public static final CustomTargetingErrorReason KEY_NAME_EMPTY = new CustomTargetingErrorReason(_KEY_NAME_EMPTY);
     public static final CustomTargetingErrorReason KEY_NAME_INVALID_LENGTH = new CustomTargetingErrorReason(_KEY_NAME_INVALID_LENGTH);
     public static final CustomTargetingErrorReason KEY_NAME_INVALID_CHARS = new CustomTargetingErrorReason(_KEY_NAME_INVALID_CHARS);
+    public static final CustomTargetingErrorReason KEY_NAME_RESERVED = new CustomTargetingErrorReason(_KEY_NAME_RESERVED);
     public static final CustomTargetingErrorReason KEY_DISPLAY_NAME_INVALID_LENGTH = new CustomTargetingErrorReason(_KEY_DISPLAY_NAME_INVALID_LENGTH);
     public static final CustomTargetingErrorReason VALUE_NOT_FOUND = new CustomTargetingErrorReason(_VALUE_NOT_FOUND);
     public static final CustomTargetingErrorReason GET_VALUES_BY_STATEMENT_MUST_CONTAIN_KEY_ID = new CustomTargetingErrorReason(_GET_VALUES_BY_STATEMENT_MUST_CONTAIN_KEY_ID);
@@ -59,7 +60,6 @@ public class CustomTargetingErrorReason implements java.io.Serializable {
     public static final CustomTargetingErrorReason VALUE_MATCH_TYPE_NOT_EXACT_FOR_PREDEFINED_KEY = new CustomTargetingErrorReason(_VALUE_MATCH_TYPE_NOT_EXACT_FOR_PREDEFINED_KEY);
     public static final CustomTargetingErrorReason KEY_WITH_MISSING_VALUES = new CustomTargetingErrorReason(_KEY_WITH_MISSING_VALUES);
     public static final CustomTargetingErrorReason CANNOT_OR_DIFFERENT_KEYS = new CustomTargetingErrorReason(_CANNOT_OR_DIFFERENT_KEYS);
-    public static final CustomTargetingErrorReason CANNOT_AND_SAME_KEYS = new CustomTargetingErrorReason(_CANNOT_AND_SAME_KEYS);
     public static final CustomTargetingErrorReason INVALID_TARGETING_EXPRESSION = new CustomTargetingErrorReason(_INVALID_TARGETING_EXPRESSION);
     public static final CustomTargetingErrorReason DELETED_KEY_CANNOT_BE_USED_FOR_TARGETING = new CustomTargetingErrorReason(_DELETED_KEY_CANNOT_BE_USED_FOR_TARGETING);
     public static final CustomTargetingErrorReason DELETED_VALUE_CANNOT_BE_USED_FOR_TARGETING = new CustomTargetingErrorReason(_DELETED_VALUE_CANNOT_BE_USED_FOR_TARGETING);

@@ -12,9 +12,10 @@ package com.google.api.ads.dfp.v201103;
  * {@code Value} represents a value.
  */
 public abstract class Value  implements java.io.Serializable {
-    /* This field indicates the subtype of Value of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of Value.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String valueType;
 
     public Value() {
@@ -29,9 +30,10 @@ public abstract class Value  implements java.io.Serializable {
     /**
      * Gets the valueType value for this Value.
      * 
-     * @return valueType   * This field indicates the subtype of Value of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return valueType   * Indicates that this instance is a subtype of Value.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getValueType() {
         return valueType;
@@ -41,9 +43,10 @@ public abstract class Value  implements java.io.Serializable {
     /**
      * Sets the valueType value for this Value.
      * 
-     * @param valueType   * This field indicates the subtype of Value of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param valueType   * Indicates that this instance is a subtype of Value.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setValueType(java.lang.String valueType) {
         this.valueType = valueType;

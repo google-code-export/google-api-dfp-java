@@ -13,9 +13,10 @@ package com.google.api.ads.dfp.v201010;
  * objects.
  */
 public abstract class PlacementAction  implements java.io.Serializable {
-    /* This field indicates the subtype of PlacementAction of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of PlacementAction.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String placementActionType;
 
     public PlacementAction() {
@@ -30,9 +31,10 @@ public abstract class PlacementAction  implements java.io.Serializable {
     /**
      * Gets the placementActionType value for this PlacementAction.
      * 
-     * @return placementActionType   * This field indicates the subtype of PlacementAction of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return placementActionType   * Indicates that this instance is a subtype of PlacementAction.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getPlacementActionType() {
         return placementActionType;
@@ -42,9 +44,10 @@ public abstract class PlacementAction  implements java.io.Serializable {
     /**
      * Sets the placementActionType value for this PlacementAction.
      * 
-     * @param placementActionType   * This field indicates the subtype of PlacementAction of this
-     * instance.  It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param placementActionType   * Indicates that this instance is a subtype of PlacementAction.
+     * Although this field is returned in the response, it is ignored on
+     * input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setPlacementActionType(java.lang.String placementActionType) {
         this.placementActionType = placementActionType;

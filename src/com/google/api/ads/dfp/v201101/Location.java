@@ -13,9 +13,10 @@ package com.google.api.ads.dfp.v201101;
  * targeted.
  */
 public class Location  implements java.io.Serializable {
-    /* This field indicates the subtype of Location of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of Location.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String locationType;
 
     public Location() {
@@ -30,9 +31,10 @@ public class Location  implements java.io.Serializable {
     /**
      * Gets the locationType value for this Location.
      * 
-     * @return locationType   * This field indicates the subtype of Location of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return locationType   * Indicates that this instance is a subtype of Location.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getLocationType() {
         return locationType;
@@ -42,9 +44,10 @@ public class Location  implements java.io.Serializable {
     /**
      * Sets the locationType value for this Location.
      * 
-     * @param locationType   * This field indicates the subtype of Location of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param locationType   * Indicates that this instance is a subtype of Location.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setLocationType(java.lang.String locationType) {
         this.locationType = locationType;

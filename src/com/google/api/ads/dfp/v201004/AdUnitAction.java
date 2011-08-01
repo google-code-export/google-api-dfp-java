@@ -13,9 +13,10 @@ package com.google.api.ads.dfp.v201004;
  * objects.
  */
 public abstract class AdUnitAction  implements java.io.Serializable {
-    /* This field indicates the subtype of AdUnitAction of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified. */
+    /* Indicates that this instance is a subtype of AdUnitAction.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead. */
     private java.lang.String adUnitActionType;
 
     public AdUnitAction() {
@@ -30,9 +31,10 @@ public abstract class AdUnitAction  implements java.io.Serializable {
     /**
      * Gets the adUnitActionType value for this AdUnitAction.
      * 
-     * @return adUnitActionType   * This field indicates the subtype of AdUnitAction of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @return adUnitActionType   * Indicates that this instance is a subtype of AdUnitAction.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public java.lang.String getAdUnitActionType() {
         return adUnitActionType;
@@ -42,9 +44,10 @@ public abstract class AdUnitAction  implements java.io.Serializable {
     /**
      * Sets the adUnitActionType value for this AdUnitAction.
      * 
-     * @param adUnitActionType   * This field indicates the subtype of AdUnitAction of this instance.
-     * It is ignored
-     *                 on input, and instead xsi:type should be specified.
+     * @param adUnitActionType   * Indicates that this instance is a subtype of AdUnitAction.
+     *                 Although this field is returned in the response, it
+     * is ignored on input
+     *                 and cannot be selected. Specify xsi:type instead.
      */
     public void setAdUnitActionType(java.lang.String adUnitActionType) {
         this.adUnitActionType = adUnitActionType;
