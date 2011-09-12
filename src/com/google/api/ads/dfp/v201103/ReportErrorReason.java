@@ -26,6 +26,7 @@ public class ReportErrorReason implements java.io.Serializable {
     public static final java.lang.String _INVALID_DIMENSIONS = "INVALID_DIMENSIONS";
     public static final java.lang.String _INVALID_COLUMNS = "INVALID_COLUMNS";
     public static final java.lang.String _INVALID_DIMENSION_FILTERS = "INVALID_DIMENSION_FILTERS";
+    public static final java.lang.String _INVALID_DATE = "INVALID_DATE";
     public static final java.lang.String _END_DATE_TIME_NOT_AFTER_START_TIME = "END_DATE_TIME_NOT_AFTER_START_TIME";
     public static final java.lang.String _NOT_NULL = "NOT_NULL";
     public static final java.lang.String _COLUMNS_NOT_SUPPORTED_FOR_REQUESTED_DIMENSIONS = "COLUMNS_NOT_SUPPORTED_FOR_REQUESTED_DIMENSIONS";
@@ -41,6 +42,7 @@ public class ReportErrorReason implements java.io.Serializable {
     public static final ReportErrorReason INVALID_DIMENSIONS = new ReportErrorReason(_INVALID_DIMENSIONS);
     public static final ReportErrorReason INVALID_COLUMNS = new ReportErrorReason(_INVALID_COLUMNS);
     public static final ReportErrorReason INVALID_DIMENSION_FILTERS = new ReportErrorReason(_INVALID_DIMENSION_FILTERS);
+    public static final ReportErrorReason INVALID_DATE = new ReportErrorReason(_INVALID_DATE);
     public static final ReportErrorReason END_DATE_TIME_NOT_AFTER_START_TIME = new ReportErrorReason(_END_DATE_TIME_NOT_AFTER_START_TIME);
     public static final ReportErrorReason NOT_NULL = new ReportErrorReason(_NOT_NULL);
     public static final ReportErrorReason COLUMNS_NOT_SUPPORTED_FOR_REQUESTED_DIMENSIONS = new ReportErrorReason(_COLUMNS_NOT_SUPPORTED_FOR_REQUESTED_DIMENSIONS);

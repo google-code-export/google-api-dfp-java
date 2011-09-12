@@ -157,7 +157,7 @@ public class CreateLineItemsExample {
 
         // Set the length of the line item to run.
         lineItem.setStartDateTimeType(StartDateTimeType.IMMEDIATELY);
-        lineItem.setEndDateTime(DateTimeUtils.fromString("2011-09-01T00:00:00"));
+        lineItem.setEndDateTime(DateTimeUtils.fromString("2012-09-01T00:00:00"));
 
         // Set the cost per unit to $2.
         lineItem.setCostType(CostType.CPM);

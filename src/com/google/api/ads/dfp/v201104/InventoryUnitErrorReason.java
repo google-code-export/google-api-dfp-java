@@ -18,9 +18,7 @@ public class InventoryUnitErrorReason implements java.io.Serializable {
     }
 
     public static final java.lang.String _EXPLICIT_TARGETING_NOT_ALLOWED = "EXPLICIT_TARGETING_NOT_ALLOWED";
-    public static final java.lang.String _EXPLICITLY_TARGETED_AD_UNIT_CANNOT_BE_PART_OF_ANY_PLACEMENT = "EXPLICITLY_TARGETED_AD_UNIT_CANNOT_BE_PART_OF_ANY_PLACEMENT";
     public static final InventoryUnitErrorReason EXPLICIT_TARGETING_NOT_ALLOWED = new InventoryUnitErrorReason(_EXPLICIT_TARGETING_NOT_ALLOWED);
-    public static final InventoryUnitErrorReason EXPLICITLY_TARGETED_AD_UNIT_CANNOT_BE_PART_OF_ANY_PLACEMENT = new InventoryUnitErrorReason(_EXPLICITLY_TARGETED_AD_UNIT_CANNOT_BE_PART_OF_ANY_PLACEMENT);
     public java.lang.String getValue() { return _value_;}
     public static InventoryUnitErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

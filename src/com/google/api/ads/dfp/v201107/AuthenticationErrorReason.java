@@ -19,7 +19,9 @@ public class AuthenticationErrorReason implements java.io.Serializable {
 
     public static final java.lang.String _AMBIGUOUS_SOAP_REQUEST_HEADER = "AMBIGUOUS_SOAP_REQUEST_HEADER";
     public static final java.lang.String _INVALID_EMAIL = "INVALID_EMAIL";
+    public static final java.lang.String _AUTHENTICATION_FAILED = "AUTHENTICATION_FAILED";
     public static final java.lang.String _INVALID_OAUTH_SIGNATURE = "INVALID_OAUTH_SIGNATURE";
+    public static final java.lang.String _INVALID_SERVICE = "INVALID_SERVICE";
     public static final java.lang.String _MISSING_SOAP_REQUEST_HEADER = "MISSING_SOAP_REQUEST_HEADER";
     public static final java.lang.String _NOT_WHITELISTED_FOR_API_ACCESS = "NOT_WHITELISTED_FOR_API_ACCESS";
     public static final java.lang.String _NO_NETWORKS_TO_ACCESS = "NO_NETWORKS_TO_ACCESS";
@@ -28,7 +30,9 @@ public class AuthenticationErrorReason implements java.io.Serializable {
     public static final java.lang.String _CONNECTION_ERROR = "CONNECTION_ERROR";
     public static final AuthenticationErrorReason AMBIGUOUS_SOAP_REQUEST_HEADER = new AuthenticationErrorReason(_AMBIGUOUS_SOAP_REQUEST_HEADER);
     public static final AuthenticationErrorReason INVALID_EMAIL = new AuthenticationErrorReason(_INVALID_EMAIL);
+    public static final AuthenticationErrorReason AUTHENTICATION_FAILED = new AuthenticationErrorReason(_AUTHENTICATION_FAILED);
     public static final AuthenticationErrorReason INVALID_OAUTH_SIGNATURE = new AuthenticationErrorReason(_INVALID_OAUTH_SIGNATURE);
+    public static final AuthenticationErrorReason INVALID_SERVICE = new AuthenticationErrorReason(_INVALID_SERVICE);
     public static final AuthenticationErrorReason MISSING_SOAP_REQUEST_HEADER = new AuthenticationErrorReason(_MISSING_SOAP_REQUEST_HEADER);
     public static final AuthenticationErrorReason NOT_WHITELISTED_FOR_API_ACCESS = new AuthenticationErrorReason(_NOT_WHITELISTED_FOR_API_ACCESS);
     public static final AuthenticationErrorReason NO_NETWORKS_TO_ACCESS = new AuthenticationErrorReason(_NO_NETWORKS_TO_ACCESS);

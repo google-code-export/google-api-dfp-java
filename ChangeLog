@@ -1,3 +1,7 @@
+2.8.0:
+- Removed support for v201004, v201010, and v201101.
+- Added support for v201108.
+
 2.7.0:
 - Added support for v201107.
 

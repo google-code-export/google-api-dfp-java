@@ -32,10 +32,18 @@ public class LineItemErrorReason implements java.io.Serializable {
     public static final java.lang.String _INVALID_LINE_ITEM_TYPE_FOR_PLATFORM = "INVALID_LINE_ITEM_TYPE_FOR_PLATFORM";
     public static final java.lang.String _INVALID_WEB_PROPERTY_FOR_PLATFORM = "INVALID_WEB_PROPERTY_FOR_PLATFORM";
     public static final java.lang.String _AFMA_BACKFILL_NOT_ALLOWED = "AFMA_BACKFILL_NOT_ALLOWED";
+    public static final java.lang.String _UPDATE_ENVIRONMENT_TYPE_NOT_ALLOWED = "UPDATE_ENVIRONMENT_TYPE_NOT_ALLOWED";
+    public static final java.lang.String _COMPANIONS_NOT_ALLOWED = "COMPANIONS_NOT_ALLOWED";
     public static final java.lang.String _UPDATE_FROM_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED = "UPDATE_FROM_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED";
     public static final java.lang.String _UPDATE_TO_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED = "UPDATE_TO_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED";
     public static final java.lang.String _UPDATE_BACKFILL_WEB_PROPERTY_NOT_ALLOWED = "UPDATE_BACKFILL_WEB_PROPERTY_NOT_ALLOWED";
+    public static final java.lang.String _INVALID_COMPANION_DELIVERY_OPTION_FOR_ENVIRONMENT_TYPE = "INVALID_COMPANION_DELIVERY_OPTION_FOR_ENVIRONMENT_TYPE";
+    public static final java.lang.String _COMPANION_DELIVERY_OPTION_REQUIRE_PREMIUM = "COMPANION_DELIVERY_OPTION_REQUIRE_PREMIUM";
+    public static final java.lang.String _DUPLICATE_MASTER_SIZES = "DUPLICATE_MASTER_SIZES";
+    public static final java.lang.String _INVALID_ENVIRONMENT_TYPE = "INVALID_ENVIRONMENT_TYPE";
+    public static final java.lang.String _INVALID_ENVIRONMENT_TYPE_FOR_PLATFORM = "INVALID_ENVIRONMENT_TYPE_FOR_PLATFORM";
     public static final java.lang.String _INVALID_TYPE_FOR_CONTRACTED_UNITS_BOUGHT = "INVALID_TYPE_FOR_CONTRACTED_UNITS_BOUGHT";
+    public static final java.lang.String _VIDEO_INVALID_ROADBLOCKING = "VIDEO_INVALID_ROADBLOCKING";
     public static final java.lang.String _BACKFILL_TYPE_NOT_ALLOWED = "BACKFILL_TYPE_NOT_ALLOWED";
     public static final LineItemErrorReason ALREADY_STARTED = new LineItemErrorReason(_ALREADY_STARTED);
     public static final LineItemErrorReason UPDATE_RESERVATION_NOT_ALLOWED = new LineItemErrorReason(_UPDATE_RESERVATION_NOT_ALLOWED);
@@ -52,10 +60,18 @@ public class LineItemErrorReason implements java.io.Serializable {
     public static final LineItemErrorReason INVALID_LINE_ITEM_TYPE_FOR_PLATFORM = new LineItemErrorReason(_INVALID_LINE_ITEM_TYPE_FOR_PLATFORM);
     public static final LineItemErrorReason INVALID_WEB_PROPERTY_FOR_PLATFORM = new LineItemErrorReason(_INVALID_WEB_PROPERTY_FOR_PLATFORM);
     public static final LineItemErrorReason AFMA_BACKFILL_NOT_ALLOWED = new LineItemErrorReason(_AFMA_BACKFILL_NOT_ALLOWED);
+    public static final LineItemErrorReason UPDATE_ENVIRONMENT_TYPE_NOT_ALLOWED = new LineItemErrorReason(_UPDATE_ENVIRONMENT_TYPE_NOT_ALLOWED);
+    public static final LineItemErrorReason COMPANIONS_NOT_ALLOWED = new LineItemErrorReason(_COMPANIONS_NOT_ALLOWED);
     public static final LineItemErrorReason UPDATE_FROM_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED = new LineItemErrorReason(_UPDATE_FROM_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED);
     public static final LineItemErrorReason UPDATE_TO_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED = new LineItemErrorReason(_UPDATE_TO_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED);
     public static final LineItemErrorReason UPDATE_BACKFILL_WEB_PROPERTY_NOT_ALLOWED = new LineItemErrorReason(_UPDATE_BACKFILL_WEB_PROPERTY_NOT_ALLOWED);
+    public static final LineItemErrorReason INVALID_COMPANION_DELIVERY_OPTION_FOR_ENVIRONMENT_TYPE = new LineItemErrorReason(_INVALID_COMPANION_DELIVERY_OPTION_FOR_ENVIRONMENT_TYPE);
+    public static final LineItemErrorReason COMPANION_DELIVERY_OPTION_REQUIRE_PREMIUM = new LineItemErrorReason(_COMPANION_DELIVERY_OPTION_REQUIRE_PREMIUM);
+    public static final LineItemErrorReason DUPLICATE_MASTER_SIZES = new LineItemErrorReason(_DUPLICATE_MASTER_SIZES);
+    public static final LineItemErrorReason INVALID_ENVIRONMENT_TYPE = new LineItemErrorReason(_INVALID_ENVIRONMENT_TYPE);
+    public static final LineItemErrorReason INVALID_ENVIRONMENT_TYPE_FOR_PLATFORM = new LineItemErrorReason(_INVALID_ENVIRONMENT_TYPE_FOR_PLATFORM);
     public static final LineItemErrorReason INVALID_TYPE_FOR_CONTRACTED_UNITS_BOUGHT = new LineItemErrorReason(_INVALID_TYPE_FOR_CONTRACTED_UNITS_BOUGHT);
+    public static final LineItemErrorReason VIDEO_INVALID_ROADBLOCKING = new LineItemErrorReason(_VIDEO_INVALID_ROADBLOCKING);
     public static final LineItemErrorReason BACKFILL_TYPE_NOT_ALLOWED = new LineItemErrorReason(_BACKFILL_TYPE_NOT_ALLOWED);
     public java.lang.String getValue() { return _value_;}
     public static LineItemErrorReason fromValue(java.lang.String value)

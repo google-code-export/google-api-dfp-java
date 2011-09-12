@@ -241,7 +241,7 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 <li>
      *                 The line item has an absolute-based goal.
      *                 {@link LineItemSummary#deliveryIndicator} should be
-     * used to its track
+     * used to track its
      *                 progress in this case.</li> */
     private com.google.api.ads.dfp.v201103.DeliveryData deliveryData;
 
@@ -1143,7 +1143,7 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 <li>
      *                 The line item has an absolute-based goal.
      *                 {@link LineItemSummary#deliveryIndicator} should be
-     * used to its track
+     * used to track its
      *                 progress in this case.</li>
      */
     public com.google.api.ads.dfp.v201103.DeliveryData getDeliveryData() {
@@ -1170,7 +1170,7 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 <li>
      *                 The line item has an absolute-based goal.
      *                 {@link LineItemSummary#deliveryIndicator} should be
-     * used to its track
+     * used to track its
      *                 progress in this case.</li>
      */
     public void setDeliveryData(com.google.api.ads.dfp.v201103.DeliveryData deliveryData) {
