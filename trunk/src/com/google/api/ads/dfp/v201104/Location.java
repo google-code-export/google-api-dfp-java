@@ -10,7 +10,12 @@ package com.google.api.ads.dfp.v201104;
 
 /**
  * A {@link Location} represents a geographical entity that can be
- * targeted.
+ * targeted. If
+ *             a location type is not available because of the API version
+ * you are using,
+ *             the location will be represented as just the base class,
+ * otherwise it will be
+ *             sub-classed correctly.
  */
 public class Location  implements java.io.Serializable {
     /* Uniquely identifies each {@code Location}. */

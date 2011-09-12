@@ -19,11 +19,11 @@ import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
 import com.google.api.ads.dfp.lib.ServiceAccountant;
 import com.google.api.ads.dfp.lib.ServiceAccountantManager;
-import com.google.api.ads.dfp.v201004.CompanyServiceInterface;
-import com.google.api.ads.dfp.v201004.CreativeServiceInterface;
-import com.google.api.ads.dfp.v201004.InventoryServiceInterface;
-import com.google.api.ads.dfp.v201004.Statement;
-import com.google.api.ads.dfp.v201004.UserServiceInterface;
+import com.google.api.ads.dfp.v201108.CompanyServiceInterface;
+import com.google.api.ads.dfp.v201108.CreativeServiceInterface;
+import com.google.api.ads.dfp.v201108.InventoryServiceInterface;
+import com.google.api.ads.dfp.v201108.Statement;
+import com.google.api.ads.dfp.v201108.UserServiceInterface;
 
 import org.apache.axis.client.Stub;
 
@@ -53,19 +53,20 @@ public class ServiceAccountantExample {
     ServiceAccountantManager serviceAccountantManager = ServiceAccountantManager.getInstance();
 
     // Get the CompanyService.
-    CompanyServiceInterface companyService = user.getService(DfpService.V201004.COMPANY_SERVICE);
+    CompanyServiceInterface companyService = user.getService(DfpService.V201108.COMPANY_SERVICE);
 
     // Get the UserService.
-    UserServiceInterface userService = user.getService(DfpService.V201004.USER_SERVICE);
+    UserServiceInterface userService = user.getService(DfpService.V201108.USER_SERVICE);
 
     // Get the InventoryService.
-    InventoryServiceInterface inventoryService = user.getService(DfpService.V201004.INVENTORY_SERVICE);
+    InventoryServiceInterface inventoryService =
+        user.getService(DfpService.V201108.INVENTORY_SERVICE);
 
     // Turn on retain service here to just retain the creative service.
     serviceAccountantManager.setRetainServices(true);
 
     // Get the CreativeService.
-    CreativeServiceInterface creativeService = user.getService(DfpService.V201004.CREATIVE_SERVICE);
+    CreativeServiceInterface creativeService = user.getService(DfpService.V201108.CREATIVE_SERVICE);
 
     // Since autoCreateAccountant is set to true in the service accountant
     // manager, all service accountants will be created during this method call.

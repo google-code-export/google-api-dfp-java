@@ -20,24 +20,12 @@
   <property name="version" value="${lib_version}" />
   <property name="jar.name" value="${ant.project.name}-${version}" />
 
-  <!-- Service definitions -->
-  <property name="api.versions" value="v201004,v201010,v201101,v201103,v201104,v201107"/>
+  <property name="api.versions" value="v201103,v201104,v201107,v201108"/>
+
   <property name="api.package.prefix" value="com.google.api.ads.dfp"/>
   <property name="api.namespace.prefix" value="https://www.google.com/apis/ads/publisher" />
-  <property name="api.server" value="https://www.google.com" />
+  <property name="api.server" value="https://www.google.com/" />
   <property name="wsdl.postfix" value="?wsdl"/>
-
-  <property name="api.version.v201004" value="v201004" />
-  <property name="api.version.v201004.services"
-      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService" />
-
-  <property name="api.version.v201010" value="v201010" />
-  <property name="api.version.v201010.services"
-      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService" />
-
-  <property name="api.version.v201101" value="v201101" />
-  <property name="api.version.v201101.services"
-      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService" />
 
   <property name="api.version.v201103" value="v201103" />
   <property name="api.version.v201103.services"
@@ -50,6 +38,10 @@
   <property name="api.version.v201107" value="v201107" />
   <property name="api.version.v201107.services"
       value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService" />
+
+  <property name="api.version.v201108" value="v201108" />
+  <property name="api.version.v201108.services"
+      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService,ThirdPartySlotService" />
 
   <!-- Classpath -->
   <path id="project.class.path">

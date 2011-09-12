@@ -312,7 +312,7 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 <li>
      *                 The line item has an absolute-based goal.
      *                 {@link LineItemSummary#deliveryIndicator} should be
-     * used to its track
+     * used to track its
      *                 progress in this case.</li> */
     private com.google.api.ads.dfp.v201107.DeliveryData deliveryData;
 
@@ -356,7 +356,7 @@ public class LineItemSummary  implements java.io.Serializable {
      * being applied. */
     private java.lang.Boolean disableSameAdvertiserCompetitiveExclusion;
 
-    /* The application which modified this line item. This attribute
+    /* The application that last modified this line item. This attribute
      * is read only
      *                 and is assigned by Google. */
     private java.lang.String lastModifiedByApp;
@@ -1465,7 +1465,7 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 <li>
      *                 The line item has an absolute-based goal.
      *                 {@link LineItemSummary#deliveryIndicator} should be
-     * used to its track
+     * used to track its
      *                 progress in this case.</li>
      */
     public com.google.api.ads.dfp.v201107.DeliveryData getDeliveryData() {
@@ -1492,7 +1492,7 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 <li>
      *                 The line item has an absolute-based goal.
      *                 {@link LineItemSummary#deliveryIndicator} should be
-     * used to its track
+     * used to track its
      *                 progress in this case.</li>
      */
     public void setDeliveryData(com.google.api.ads.dfp.v201107.DeliveryData deliveryData) {
@@ -1697,7 +1697,7 @@ public class LineItemSummary  implements java.io.Serializable {
     /**
      * Gets the lastModifiedByApp value for this LineItemSummary.
      * 
-     * @return lastModifiedByApp   * The application which modified this line item. This attribute
+     * @return lastModifiedByApp   * The application that last modified this line item. This attribute
      * is read only
      *                 and is assigned by Google.
      */
@@ -1709,7 +1709,7 @@ public class LineItemSummary  implements java.io.Serializable {
     /**
      * Sets the lastModifiedByApp value for this LineItemSummary.
      * 
-     * @param lastModifiedByApp   * The application which modified this line item. This attribute
+     * @param lastModifiedByApp   * The application that last modified this line item. This attribute
      * is read only
      *                 and is assigned by Google.
      */

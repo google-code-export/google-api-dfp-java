@@ -51,9 +51,10 @@ public class AdUnit  implements java.io.Serializable {
      *                 blank. */
     private com.google.api.ads.dfp.v201107.AdUnitTargetWindow targetWindow;
 
-    /* The status of this ad unit. This value is optional and defaults
-     * to
-     *                 {@link InventoryStatus#ACTIVE}. */
+    /* The status of this ad unit.  It defaults to {@link InventoryStatus#ACTIVE}.
+     * This value cannot be updated directly using {@link InventoryService#updateAdUnit}.
+     * It can only be modified by performing actions via
+     *                 {@link InventoryService#performAdUnitAction}. */
     private com.google.api.ads.dfp.v201107.InventoryStatus status;
 
     /* A string used to uniquely identify the ad unit for the purposes
@@ -250,9 +251,10 @@ public class AdUnit  implements java.io.Serializable {
     /**
      * Gets the status value for this AdUnit.
      * 
-     * @return status   * The status of this ad unit. This value is optional and defaults
-     * to
-     *                 {@link InventoryStatus#ACTIVE}.
+     * @return status   * The status of this ad unit.  It defaults to {@link InventoryStatus#ACTIVE}.
+     * This value cannot be updated directly using {@link InventoryService#updateAdUnit}.
+     * It can only be modified by performing actions via
+     *                 {@link InventoryService#performAdUnitAction}.
      */
     public com.google.api.ads.dfp.v201107.InventoryStatus getStatus() {
         return status;
@@ -262,9 +264,10 @@ public class AdUnit  implements java.io.Serializable {
     /**
      * Sets the status value for this AdUnit.
      * 
-     * @param status   * The status of this ad unit. This value is optional and defaults
-     * to
-     *                 {@link InventoryStatus#ACTIVE}.
+     * @param status   * The status of this ad unit.  It defaults to {@link InventoryStatus#ACTIVE}.
+     * This value cannot be updated directly using {@link InventoryService#updateAdUnit}.
+     * It can only be modified by performing actions via
+     *                 {@link InventoryService#performAdUnitAction}.
      */
     public void setStatus(com.google.api.ads.dfp.v201107.InventoryStatus status) {
         this.status = status;
