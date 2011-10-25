@@ -51,7 +51,6 @@ import com.google.api.ads.dfp.v201108.UserDomainTargeting;
  * GetAllCitiesExample.java, GetAllCountriesExample.java,
  * GetAllMetrosExample.java, and GetAllRegionsExample.java.
  *
- *
  * Tags: LineItemService.createLineItems
  *
  * @author api.arogal@gmail.com (Adam Rogal)
@@ -81,13 +80,18 @@ public class CreateLineItemsExample {
       // Create geographical targeting.
       GeoTargeting geoTargeting = new GeoTargeting();
 
-      // Include the US and Quebec, Canada.
+      // Include the US, Quebec, Canada, and the B3P Canada postal code.
       Location countryLocation = new Location();
       countryLocation.setId(2840L);
 
       Location regionLocation = new Location();
       regionLocation.setId(20123L);
-      geoTargeting.setTargetedLocations(new Location[] {countryLocation, regionLocation});
+
+      Location postalCodeLocation = new Location();
+      postalCodeLocation.setId(9000093L);
+
+      geoTargeting.setTargetedLocations(new Location[] {countryLocation, regionLocation,
+          postalCodeLocation});
 
       // Exclude Chicago and the New York metro area.
       Location cityLocation = new Location();
