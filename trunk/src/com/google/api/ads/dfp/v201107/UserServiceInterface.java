@@ -57,7 +57,8 @@ public interface UserServiceInterface extends java.rmi.Remote {
      * Returns the {@link User} uniquely identified by the given ID.
      * 
      *         
-     * @param userId the ID of the user, which must already exist
+     * @param userId The optional ID of the user. For current user set to
+     * {@code null}.
      *         
      * @return the {@code User} uniquely identified by the given ID
      */

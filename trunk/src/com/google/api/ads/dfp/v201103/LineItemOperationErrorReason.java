@@ -22,11 +22,13 @@ public class LineItemOperationErrorReason implements java.io.Serializable {
     public static final java.lang.String _HAS_COMPLETED = "HAS_COMPLETED";
     public static final java.lang.String _HAS_NO_ACTIVE_CREATIVES = "HAS_NO_ACTIVE_CREATIVES";
     public static final java.lang.String _CANNOT_ACTIVATE_LEGACY_DFP_LINE_ITEM = "CANNOT_ACTIVATE_LEGACY_DFP_LINE_ITEM";
+    public static final java.lang.String _CANNOT_RESERVE_COMPANY_CREDIT_STATUS_NOT_ACTIVE = "CANNOT_RESERVE_COMPANY_CREDIT_STATUS_NOT_ACTIVE";
     public static final LineItemOperationErrorReason NOT_ALLOWED = new LineItemOperationErrorReason(_NOT_ALLOWED);
     public static final LineItemOperationErrorReason NOT_APPLICABLE = new LineItemOperationErrorReason(_NOT_APPLICABLE);
     public static final LineItemOperationErrorReason HAS_COMPLETED = new LineItemOperationErrorReason(_HAS_COMPLETED);
     public static final LineItemOperationErrorReason HAS_NO_ACTIVE_CREATIVES = new LineItemOperationErrorReason(_HAS_NO_ACTIVE_CREATIVES);
     public static final LineItemOperationErrorReason CANNOT_ACTIVATE_LEGACY_DFP_LINE_ITEM = new LineItemOperationErrorReason(_CANNOT_ACTIVATE_LEGACY_DFP_LINE_ITEM);
+    public static final LineItemOperationErrorReason CANNOT_RESERVE_COMPANY_CREDIT_STATUS_NOT_ACTIVE = new LineItemOperationErrorReason(_CANNOT_RESERVE_COMPANY_CREDIT_STATUS_NOT_ACTIVE);
     public java.lang.String getValue() { return _value_;}
     public static LineItemOperationErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

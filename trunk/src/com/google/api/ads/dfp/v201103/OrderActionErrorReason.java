@@ -21,10 +21,12 @@ public class OrderActionErrorReason implements java.io.Serializable {
     public static final java.lang.String _NOT_APPLICABLE = "NOT_APPLICABLE";
     public static final java.lang.String _IS_ARCHIVED = "IS_ARCHIVED";
     public static final java.lang.String _HAS_ENDED = "HAS_ENDED";
+    public static final java.lang.String _CANNOT_APPROVE_COMPANY_CREDIT_STATUS_NOT_ACTIVE = "CANNOT_APPROVE_COMPANY_CREDIT_STATUS_NOT_ACTIVE";
     public static final OrderActionErrorReason PERMISSION_DENIED = new OrderActionErrorReason(_PERMISSION_DENIED);
     public static final OrderActionErrorReason NOT_APPLICABLE = new OrderActionErrorReason(_NOT_APPLICABLE);
     public static final OrderActionErrorReason IS_ARCHIVED = new OrderActionErrorReason(_IS_ARCHIVED);
     public static final OrderActionErrorReason HAS_ENDED = new OrderActionErrorReason(_HAS_ENDED);
+    public static final OrderActionErrorReason CANNOT_APPROVE_COMPANY_CREDIT_STATUS_NOT_ACTIVE = new OrderActionErrorReason(_CANNOT_APPROVE_COMPANY_CREDIT_STATUS_NOT_ACTIVE);
     public java.lang.String getValue() { return _value_;}
     public static OrderActionErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

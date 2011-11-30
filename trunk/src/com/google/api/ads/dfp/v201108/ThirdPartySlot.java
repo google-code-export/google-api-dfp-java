@@ -23,7 +23,9 @@ public class ThirdPartySlot  implements java.io.Serializable {
      * slot. */
     private long[] creativeIds;
 
-    /* ID of the {@link Company} to which this slot belongs. */
+    /* ID of the {@link Company} to which this slot belongs. This
+     * value is
+     *                 required. */
     private java.lang.Long companyId;
 
     /* The unique identification for this creative in the third party
@@ -40,7 +42,7 @@ public class ThirdPartySlot  implements java.io.Serializable {
     private java.lang.String externalUniqueName;
 
     /* A description of the unique identification.  This value is
-     * optional and
+     * required and
      *                 has a maximum length of 511 characters. */
     private java.lang.String description;
 
@@ -126,7 +128,9 @@ public class ThirdPartySlot  implements java.io.Serializable {
     /**
      * Gets the companyId value for this ThirdPartySlot.
      * 
-     * @return companyId   * ID of the {@link Company} to which this slot belongs.
+     * @return companyId   * ID of the {@link Company} to which this slot belongs. This
+     * value is
+     *                 required.
      */
     public java.lang.Long getCompanyId() {
         return companyId;
@@ -136,7 +140,9 @@ public class ThirdPartySlot  implements java.io.Serializable {
     /**
      * Sets the companyId value for this ThirdPartySlot.
      * 
-     * @param companyId   * ID of the {@link Company} to which this slot belongs.
+     * @param companyId   * ID of the {@link Company} to which this slot belongs. This
+     * value is
+     *                 required.
      */
     public void setCompanyId(java.lang.Long companyId) {
         this.companyId = companyId;
@@ -201,7 +207,7 @@ public class ThirdPartySlot  implements java.io.Serializable {
      * Gets the description value for this ThirdPartySlot.
      * 
      * @return description   * A description of the unique identification.  This value is
-     * optional and
+     * required and
      *                 has a maximum length of 511 characters.
      */
     public java.lang.String getDescription() {
@@ -213,7 +219,7 @@ public class ThirdPartySlot  implements java.io.Serializable {
      * Sets the description value for this ThirdPartySlot.
      * 
      * @param description   * A description of the unique identification.  This value is
-     * optional and
+     * required and
      *                 has a maximum length of 511 characters.
      */
     public void setDescription(java.lang.String description) {

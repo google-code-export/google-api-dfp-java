@@ -20,7 +20,7 @@
   <property name="version" value="${lib_version}" />
   <property name="jar.name" value="${ant.project.name}-${version}" />
 
-  <property name="api.versions" value="v201103,v201104,v201107,v201108"/>
+  <property name="api.versions" value="v201103,v201104,v201107,v201108,v201111"/>
 
   <property name="api.package.prefix" value="com.google.api.ads.dfp"/>
   <property name="api.namespace.prefix" value="https://www.google.com/apis/ads/publisher" />
@@ -42,6 +42,10 @@
   <property name="api.version.v201108" value="v201108" />
   <property name="api.version.v201108.services"
       value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService,ThirdPartySlotService" />
+
+  <property name="api.version.v201111" value="v201111" />
+  <property name="api.version.v201111.services"
+      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService,ThirdPartySlotService,ContentService,SuggestedAdUnitService,CreativeTemplateService" />
 
   <!-- Classpath -->
   <path id="project.class.path">
