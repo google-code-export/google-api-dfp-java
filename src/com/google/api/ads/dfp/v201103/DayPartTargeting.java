@@ -16,13 +16,19 @@ package com.google.api.ads.dfp.v201103;
 public class DayPartTargeting  implements java.io.Serializable {
     /* Specifies days of the week and times at which a {@code LineItem}
      * will be
-     *                 delivered. */
+     *                 delivered.
+     *                 <p>
+     *                 If targeting all days and times, this value will be
+     * ignored. */
     private com.google.api.ads.dfp.v201103.DayPart[] dayParts;
 
     /* Specifies the time zone to be used for delivering {@link LineItem}
      * objects.
      *                 This attribute is optional and defaults to
-     *                 {@link DeliveryTimeZone#BROWSER}. */
+     *                 {@link DeliveryTimeZone#BROWSER}.
+     *                 <p>
+     *                 Setting this has no effect if targeting all days and
+     * times. */
     private com.google.api.ads.dfp.v201103.DeliveryTimeZone timeZone;
 
     public DayPartTargeting() {
@@ -42,6 +48,9 @@ public class DayPartTargeting  implements java.io.Serializable {
      * @return dayParts   * Specifies days of the week and times at which a {@code LineItem}
      * will be
      *                 delivered.
+     *                 <p>
+     *                 If targeting all days and times, this value will be
+     * ignored.
      */
     public com.google.api.ads.dfp.v201103.DayPart[] getDayParts() {
         return dayParts;
@@ -54,6 +63,9 @@ public class DayPartTargeting  implements java.io.Serializable {
      * @param dayParts   * Specifies days of the week and times at which a {@code LineItem}
      * will be
      *                 delivered.
+     *                 <p>
+     *                 If targeting all days and times, this value will be
+     * ignored.
      */
     public void setDayParts(com.google.api.ads.dfp.v201103.DayPart[] dayParts) {
         this.dayParts = dayParts;
@@ -75,6 +87,9 @@ public class DayPartTargeting  implements java.io.Serializable {
      * objects.
      *                 This attribute is optional and defaults to
      *                 {@link DeliveryTimeZone#BROWSER}.
+     *                 <p>
+     *                 Setting this has no effect if targeting all days and
+     * times.
      */
     public com.google.api.ads.dfp.v201103.DeliveryTimeZone getTimeZone() {
         return timeZone;
@@ -88,6 +103,9 @@ public class DayPartTargeting  implements java.io.Serializable {
      * objects.
      *                 This attribute is optional and defaults to
      *                 {@link DeliveryTimeZone#BROWSER}.
+     *                 <p>
+     *                 Setting this has no effect if targeting all days and
+     * times.
      */
     public void setTimeZone(com.google.api.ads.dfp.v201103.DeliveryTimeZone timeZone) {
         this.timeZone = timeZone;

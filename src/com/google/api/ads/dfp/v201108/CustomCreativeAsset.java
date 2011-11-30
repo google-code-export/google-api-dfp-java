@@ -22,15 +22,15 @@ public class CustomCreativeAsset  implements java.io.Serializable {
      *                 using the macro: "%%FILE:foo%%". */
     private java.lang.String macroName;
 
-    /* The ID of the associated asset. */
+    /* The ID of the associated asset. This attribute is read-only
+     * and is populated by Google. */
     private java.lang.Long assetId;
 
-    /* The filename of the associated asset. This attribute is read-only. */
+    /* The file name of the asset. This attribute is required when
+     * creating a new asset (e.g. when assetByteArray is not null). */
     private java.lang.String fileName;
 
-    /* The filesize of the associated asset, in bytes. This attribute
-     * is
-     *                 read-only. */
+    /* The file size of the asset, in bytes. This attribute is read-only. */
     private java.lang.Long fileSize;
 
     public CustomCreativeAsset() {
@@ -79,7 +79,8 @@ public class CustomCreativeAsset  implements java.io.Serializable {
     /**
      * Gets the assetId value for this CustomCreativeAsset.
      * 
-     * @return assetId   * The ID of the associated asset.
+     * @return assetId   * The ID of the associated asset. This attribute is read-only
+     * and is populated by Google.
      */
     public java.lang.Long getAssetId() {
         return assetId;
@@ -89,7 +90,8 @@ public class CustomCreativeAsset  implements java.io.Serializable {
     /**
      * Sets the assetId value for this CustomCreativeAsset.
      * 
-     * @param assetId   * The ID of the associated asset.
+     * @param assetId   * The ID of the associated asset. This attribute is read-only
+     * and is populated by Google.
      */
     public void setAssetId(java.lang.Long assetId) {
         this.assetId = assetId;
@@ -99,7 +101,8 @@ public class CustomCreativeAsset  implements java.io.Serializable {
     /**
      * Gets the fileName value for this CustomCreativeAsset.
      * 
-     * @return fileName   * The filename of the associated asset. This attribute is read-only.
+     * @return fileName   * The file name of the asset. This attribute is required when
+     * creating a new asset (e.g. when assetByteArray is not null).
      */
     public java.lang.String getFileName() {
         return fileName;
@@ -109,7 +112,8 @@ public class CustomCreativeAsset  implements java.io.Serializable {
     /**
      * Sets the fileName value for this CustomCreativeAsset.
      * 
-     * @param fileName   * The filename of the associated asset. This attribute is read-only.
+     * @param fileName   * The file name of the asset. This attribute is required when
+     * creating a new asset (e.g. when assetByteArray is not null).
      */
     public void setFileName(java.lang.String fileName) {
         this.fileName = fileName;
@@ -119,9 +123,7 @@ public class CustomCreativeAsset  implements java.io.Serializable {
     /**
      * Gets the fileSize value for this CustomCreativeAsset.
      * 
-     * @return fileSize   * The filesize of the associated asset, in bytes. This attribute
-     * is
-     *                 read-only.
+     * @return fileSize   * The file size of the asset, in bytes. This attribute is read-only.
      */
     public java.lang.Long getFileSize() {
         return fileSize;
@@ -131,9 +133,7 @@ public class CustomCreativeAsset  implements java.io.Serializable {
     /**
      * Sets the fileSize value for this CustomCreativeAsset.
      * 
-     * @param fileSize   * The filesize of the associated asset, in bytes. This attribute
-     * is
-     *                 read-only.
+     * @param fileSize   * The file size of the asset, in bytes. This attribute is read-only.
      */
     public void setFileSize(java.lang.Long fileSize) {
         this.fileSize = fileSize;

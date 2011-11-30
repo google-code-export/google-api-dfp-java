@@ -204,6 +204,20 @@ public class CreativeServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201107", "AssetError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201107.AssetError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201107", "AssetError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201107.AssetErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201107", "Authentication");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201107.Authentication.class;
@@ -501,6 +515,48 @@ public class CreativeServiceSoapBindingStub extends org.apache.axis.client.Stub 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201107", "ParseError.Reason");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201107.ParseErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201107", "PermissionError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201107.PermissionError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201107", "PermissionError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201107.PermissionErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201107", "PublisherQueryLanguageContextError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201107.PublisherQueryLanguageContextError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201107", "PublisherQueryLanguageContextError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201107.PublisherQueryLanguageContextErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201107", "PublisherQueryLanguageSyntaxError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201107.PublisherQueryLanguageSyntaxError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201107", "PublisherQueryLanguageSyntaxError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201107.PublisherQueryLanguageSyntaxErrorReason.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);

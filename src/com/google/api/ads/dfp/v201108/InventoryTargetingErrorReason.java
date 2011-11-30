@@ -24,6 +24,8 @@ public class InventoryTargetingErrorReason implements java.io.Serializable {
     public static final java.lang.String _INVENTORY_UNIT_CANNOT_BE_TARGETED_IF_ANCESTOR_IS_TARGETED = "INVENTORY_UNIT_CANNOT_BE_TARGETED_IF_ANCESTOR_IS_TARGETED";
     public static final java.lang.String _INVENTORY_UNIT_CANNOT_BE_TARGETED_IF_ANCESTOR_IS_EXCLUDED = "INVENTORY_UNIT_CANNOT_BE_TARGETED_IF_ANCESTOR_IS_EXCLUDED";
     public static final java.lang.String _INVENTORY_UNIT_CANNOT_BE_EXCLUDED_IF_ANCESTOR_IS_EXCLUDED = "INVENTORY_UNIT_CANNOT_BE_EXCLUDED_IF_ANCESTOR_IS_EXCLUDED";
+    public static final java.lang.String _EXPLICITLY_TARGETED_INVENTORY_UNIT_CANNOT_BE_TARGETED = "EXPLICITLY_TARGETED_INVENTORY_UNIT_CANNOT_BE_TARGETED";
+    public static final java.lang.String _EXPLICITLY_TARGETED_INVENTORY_UNIT_CANNOT_BE_EXCLUDED = "EXPLICITLY_TARGETED_INVENTORY_UNIT_CANNOT_BE_EXCLUDED";
     public static final InventoryTargetingErrorReason AT_LEAST_ONE_PLACEMENT_OR_INVENTORY_UNIT_REQUIRED = new InventoryTargetingErrorReason(_AT_LEAST_ONE_PLACEMENT_OR_INVENTORY_UNIT_REQUIRED);
     public static final InventoryTargetingErrorReason INVENTORY_CANNOT_BE_TARGETED_AND_EXCLUDED = new InventoryTargetingErrorReason(_INVENTORY_CANNOT_BE_TARGETED_AND_EXCLUDED);
     public static final InventoryTargetingErrorReason PARENT_CONTAINS_INVALID_MIX_OF_TARGETED_AND_EXCLUDED_AD_UNITS = new InventoryTargetingErrorReason(_PARENT_CONTAINS_INVALID_MIX_OF_TARGETED_AND_EXCLUDED_AD_UNITS);
@@ -31,6 +33,8 @@ public class InventoryTargetingErrorReason implements java.io.Serializable {
     public static final InventoryTargetingErrorReason INVENTORY_UNIT_CANNOT_BE_TARGETED_IF_ANCESTOR_IS_TARGETED = new InventoryTargetingErrorReason(_INVENTORY_UNIT_CANNOT_BE_TARGETED_IF_ANCESTOR_IS_TARGETED);
     public static final InventoryTargetingErrorReason INVENTORY_UNIT_CANNOT_BE_TARGETED_IF_ANCESTOR_IS_EXCLUDED = new InventoryTargetingErrorReason(_INVENTORY_UNIT_CANNOT_BE_TARGETED_IF_ANCESTOR_IS_EXCLUDED);
     public static final InventoryTargetingErrorReason INVENTORY_UNIT_CANNOT_BE_EXCLUDED_IF_ANCESTOR_IS_EXCLUDED = new InventoryTargetingErrorReason(_INVENTORY_UNIT_CANNOT_BE_EXCLUDED_IF_ANCESTOR_IS_EXCLUDED);
+    public static final InventoryTargetingErrorReason EXPLICITLY_TARGETED_INVENTORY_UNIT_CANNOT_BE_TARGETED = new InventoryTargetingErrorReason(_EXPLICITLY_TARGETED_INVENTORY_UNIT_CANNOT_BE_TARGETED);
+    public static final InventoryTargetingErrorReason EXPLICITLY_TARGETED_INVENTORY_UNIT_CANNOT_BE_EXCLUDED = new InventoryTargetingErrorReason(_EXPLICITLY_TARGETED_INVENTORY_UNIT_CANNOT_BE_EXCLUDED);
     public java.lang.String getValue() { return _value_;}
     public static InventoryTargetingErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

@@ -45,6 +45,7 @@ public class LineItemErrorReason implements java.io.Serializable {
     public static final java.lang.String _INVALID_TYPE_FOR_CONTRACTED_UNITS_BOUGHT = "INVALID_TYPE_FOR_CONTRACTED_UNITS_BOUGHT";
     public static final java.lang.String _VIDEO_INVALID_ROADBLOCKING = "VIDEO_INVALID_ROADBLOCKING";
     public static final java.lang.String _BACKFILL_TYPE_NOT_ALLOWED = "BACKFILL_TYPE_NOT_ALLOWED";
+    public static final java.lang.String _INVALID_SIZE_FOR_ENVIRONMENT = "INVALID_SIZE_FOR_ENVIRONMENT";
     public static final LineItemErrorReason ALREADY_STARTED = new LineItemErrorReason(_ALREADY_STARTED);
     public static final LineItemErrorReason UPDATE_RESERVATION_NOT_ALLOWED = new LineItemErrorReason(_UPDATE_RESERVATION_NOT_ALLOWED);
     public static final LineItemErrorReason ALL_ROADBLOCK_NOT_ALLOWED = new LineItemErrorReason(_ALL_ROADBLOCK_NOT_ALLOWED);
@@ -73,6 +74,7 @@ public class LineItemErrorReason implements java.io.Serializable {
     public static final LineItemErrorReason INVALID_TYPE_FOR_CONTRACTED_UNITS_BOUGHT = new LineItemErrorReason(_INVALID_TYPE_FOR_CONTRACTED_UNITS_BOUGHT);
     public static final LineItemErrorReason VIDEO_INVALID_ROADBLOCKING = new LineItemErrorReason(_VIDEO_INVALID_ROADBLOCKING);
     public static final LineItemErrorReason BACKFILL_TYPE_NOT_ALLOWED = new LineItemErrorReason(_BACKFILL_TYPE_NOT_ALLOWED);
+    public static final LineItemErrorReason INVALID_SIZE_FOR_ENVIRONMENT = new LineItemErrorReason(_INVALID_SIZE_FOR_ENVIRONMENT);
     public java.lang.String getValue() { return _value_;}
     public static LineItemErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

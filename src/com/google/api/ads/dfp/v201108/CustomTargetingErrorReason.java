@@ -40,6 +40,7 @@ public class CustomTargetingErrorReason implements java.io.Serializable {
     public static final java.lang.String _INVALID_TARGETING_EXPRESSION = "INVALID_TARGETING_EXPRESSION";
     public static final java.lang.String _DELETED_KEY_CANNOT_BE_USED_FOR_TARGETING = "DELETED_KEY_CANNOT_BE_USED_FOR_TARGETING";
     public static final java.lang.String _DELETED_VALUE_CANNOT_BE_USED_FOR_TARGETING = "DELETED_VALUE_CANNOT_BE_USED_FOR_TARGETING";
+    public static final java.lang.String _VIDEO_BROWSE_BY_KEY_CANNOT_BE_USED_FOR_CUSTOM_TARGETING = "VIDEO_BROWSE_BY_KEY_CANNOT_BE_USED_FOR_CUSTOM_TARGETING";
     public static final CustomTargetingErrorReason KEY_NOT_FOUND = new CustomTargetingErrorReason(_KEY_NOT_FOUND);
     public static final CustomTargetingErrorReason KEY_COUNT_TOO_LARGE = new CustomTargetingErrorReason(_KEY_COUNT_TOO_LARGE);
     public static final CustomTargetingErrorReason KEY_NAME_DUPLICATE = new CustomTargetingErrorReason(_KEY_NAME_DUPLICATE);
@@ -63,6 +64,7 @@ public class CustomTargetingErrorReason implements java.io.Serializable {
     public static final CustomTargetingErrorReason INVALID_TARGETING_EXPRESSION = new CustomTargetingErrorReason(_INVALID_TARGETING_EXPRESSION);
     public static final CustomTargetingErrorReason DELETED_KEY_CANNOT_BE_USED_FOR_TARGETING = new CustomTargetingErrorReason(_DELETED_KEY_CANNOT_BE_USED_FOR_TARGETING);
     public static final CustomTargetingErrorReason DELETED_VALUE_CANNOT_BE_USED_FOR_TARGETING = new CustomTargetingErrorReason(_DELETED_VALUE_CANNOT_BE_USED_FOR_TARGETING);
+    public static final CustomTargetingErrorReason VIDEO_BROWSE_BY_KEY_CANNOT_BE_USED_FOR_CUSTOM_TARGETING = new CustomTargetingErrorReason(_VIDEO_BROWSE_BY_KEY_CANNOT_BE_USED_FOR_CUSTOM_TARGETING);
     public java.lang.String getValue() { return _value_;}
     public static CustomTargetingErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {
