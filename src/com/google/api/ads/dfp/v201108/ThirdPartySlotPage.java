@@ -11,20 +11,97 @@ package com.google.api.ads.dfp.v201108;
 /**
  * Captures a page of {@link ThirdPartySlot} objects.
  */
-public class ThirdPartySlotPage  extends com.google.api.ads.dfp.v201108.Page  implements java.io.Serializable {
+public class ThirdPartySlotPage  implements java.io.Serializable {
+    /* The size of the total result set to which this page belongs. */
+    private java.lang.Integer totalResultSetSize;
+
+    /* The absolute index in the total result set on which this page
+     * begins. */
+    private java.lang.Integer startIndex;
+
+    /* The collection of third party slots contained within this page. */
+    private com.google.api.ads.dfp.v201108.ThirdPartySlot[] results;
+
     public ThirdPartySlotPage() {
     }
 
     public ThirdPartySlotPage(
            java.lang.Integer totalResultSetSize,
            java.lang.Integer startIndex,
-           com.google.api.ads.dfp.v201108.Entity[] results,
-           java.lang.String pageType) {
-        super(
-            totalResultSetSize,
-            startIndex,
-            results,
-            pageType);
+           com.google.api.ads.dfp.v201108.ThirdPartySlot[] results) {
+           this.totalResultSetSize = totalResultSetSize;
+           this.startIndex = startIndex;
+           this.results = results;
+    }
+
+
+    /**
+     * Gets the totalResultSetSize value for this ThirdPartySlotPage.
+     * 
+     * @return totalResultSetSize   * The size of the total result set to which this page belongs.
+     */
+    public java.lang.Integer getTotalResultSetSize() {
+        return totalResultSetSize;
+    }
+
+
+    /**
+     * Sets the totalResultSetSize value for this ThirdPartySlotPage.
+     * 
+     * @param totalResultSetSize   * The size of the total result set to which this page belongs.
+     */
+    public void setTotalResultSetSize(java.lang.Integer totalResultSetSize) {
+        this.totalResultSetSize = totalResultSetSize;
+    }
+
+
+    /**
+     * Gets the startIndex value for this ThirdPartySlotPage.
+     * 
+     * @return startIndex   * The absolute index in the total result set on which this page
+     * begins.
+     */
+    public java.lang.Integer getStartIndex() {
+        return startIndex;
+    }
+
+
+    /**
+     * Sets the startIndex value for this ThirdPartySlotPage.
+     * 
+     * @param startIndex   * The absolute index in the total result set on which this page
+     * begins.
+     */
+    public void setStartIndex(java.lang.Integer startIndex) {
+        this.startIndex = startIndex;
+    }
+
+
+    /**
+     * Gets the results value for this ThirdPartySlotPage.
+     * 
+     * @return results   * The collection of third party slots contained within this page.
+     */
+    public com.google.api.ads.dfp.v201108.ThirdPartySlot[] getResults() {
+        return results;
+    }
+
+
+    /**
+     * Sets the results value for this ThirdPartySlotPage.
+     * 
+     * @param results   * The collection of third party slots contained within this page.
+     */
+    public void setResults(com.google.api.ads.dfp.v201108.ThirdPartySlot[] results) {
+        this.results = results;
+    }
+
+    public com.google.api.ads.dfp.v201108.ThirdPartySlot getResults(int i) {
+        return this.results[i];
+    }
+
+    public void setResults(int i, com.google.api.ads.dfp.v201108.ThirdPartySlot _value) {
+        this.results[i] = _value;
     }
 
     private java.lang.Object __equalsCalc = null;
@@ -38,7 +115,16 @@ public class ThirdPartySlotPage  extends com.google.api.ads.dfp.v201108.Page  im
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = super.equals(obj);
+        _equals = true && 
+            ((this.totalResultSetSize==null && other.getTotalResultSetSize()==null) || 
+             (this.totalResultSetSize!=null &&
+              this.totalResultSetSize.equals(other.getTotalResultSetSize()))) &&
+            ((this.startIndex==null && other.getStartIndex()==null) || 
+             (this.startIndex!=null &&
+              this.startIndex.equals(other.getStartIndex()))) &&
+            ((this.results==null && other.getResults()==null) || 
+             (this.results!=null &&
+              java.util.Arrays.equals(this.results, other.getResults())));
         __equalsCalc = null;
         return _equals;
     }
@@ -49,7 +135,24 @@ public class ThirdPartySlotPage  extends com.google.api.ads.dfp.v201108.Page  im
             return 0;
         }
         __hashCodeCalc = true;
-        int _hashCode = super.hashCode();
+        int _hashCode = 1;
+        if (getTotalResultSetSize() != null) {
+            _hashCode += getTotalResultSetSize().hashCode();
+        }
+        if (getStartIndex() != null) {
+            _hashCode += getStartIndex().hashCode();
+        }
+        if (getResults() != null) {
+            for (int i=0;
+                 i<java.lang.reflect.Array.getLength(getResults());
+                 i++) {
+                java.lang.Object obj = java.lang.reflect.Array.get(getResults(), i);
+                if (obj != null &&
+                    !obj.getClass().isArray()) {
+                    _hashCode += obj.hashCode();
+                }
+            }
+        }
         __hashCodeCalc = false;
         return _hashCode;
     }
@@ -60,6 +163,28 @@ public class ThirdPartySlotPage  extends com.google.api.ads.dfp.v201108.Page  im
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201108", "ThirdPartySlotPage"));
+        org.apache.axis.description.ElementDesc elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("totalResultSetSize");
+        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201108", "totalResultSetSize"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "int"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("startIndex");
+        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201108", "startIndex"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "int"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("results");
+        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201108", "results"));
+        elemField.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201108", "ThirdPartySlot"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        elemField.setMaxOccursUnbounded(true);
+        typeDesc.addFieldDesc(elemField);
     }
 
     /**
