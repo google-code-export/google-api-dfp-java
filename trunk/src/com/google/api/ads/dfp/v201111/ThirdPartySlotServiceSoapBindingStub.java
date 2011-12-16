@@ -213,13 +213,6 @@ public class ThirdPartySlotServiceSoapBindingStub extends org.apache.axis.client
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "Entity");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201111.Entity.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "InternalApiError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201111.InternalApiError.class;
@@ -272,13 +265,6 @@ public class ThirdPartySlotServiceSoapBindingStub extends org.apache.axis.client
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "OAuth");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201111.OAuth.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "Page");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201111.Page.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
