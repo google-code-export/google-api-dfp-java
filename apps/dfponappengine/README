@@ -1,0 +1,44 @@
+
+Google App Engine for Java meet DFP API, Part 1: Hello World
+===========================================================
+
+This is a sample project that shows how to utilize the DFP API on Google App Engine for
+Java. For more information view the blog post that explains how the code was built
+from scratch at: http://googleadsdeveloper.blogspot.com/
+
+
+Are there some general troubleshooting tips I can follow if I'm having a problem?
+-----------------------------
+
+Try following the steps below:
+  - Are you using the latest version of the Google App Engine Plugin?
+
+  - Are you using the latest version of Google App Engine?
+
+  - Clean your project, exit out of Eclipse, open it back up and clean your project again.
+
+  - Can you type "java -version" at the command line without getting an error?
+
+  - When you type "java -version" on the command line does it return a JDK instead of a JRE?
+
+  - If you are receiving an AccessControlException on the CommonWsdl.wsdl file you will need to
+chmod +x to allow App Engine to serve the file.
+
+
+Where do I submit bug reports and feature requests?
+---------------------------------------------------
+
+Bug reports and feature requests can be posted on the library page:
+
+  http://code.google.com/p/google-api-dfp-java/issues
+
+Questions can be asked on forum
+
+  http://groups.google.com/group/google-doubleclick-for-publishers-api/
+
+Author:
+    api.paulrashidi@gmail.com (Paul Rashidi)
+
+Maintainer:
+    api.paulrashidi@gmail.com (Paul Rashidi)
+
