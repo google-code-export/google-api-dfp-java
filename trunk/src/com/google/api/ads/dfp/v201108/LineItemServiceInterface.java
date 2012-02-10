@@ -22,7 +22,7 @@ public interface LineItemServiceInterface extends java.rmi.Remote {
      *         <li>{@link LineItem#orderId}</li>
      *         <li>{@link LineItem#startDateTime}</li>
      *         <li>{@link LineItem#unitsBought}</li>
-     *         <li>{@link LineItem#creativeSizes}</li>
+     *         <li>{@link LineItem#creativePlaceholders}</li>
      *         <li>{@link LineItem#targeting}</li>
      *         </ul>
      *         
@@ -96,6 +96,10 @@ public interface LineItemServiceInterface extends java.rmi.Remote {
      *         <tr>
      *         <td>{@code deliveryRateType}</td>
      *         <td>{@link LineItem#deliveryRateType}</td>
+     *         </tr>
+     *         <tr>
+     *         <td>{@code lastModifiedDateTime}</td>
+     *         <td>{@link LineItem#lastModifiedDateTime}</td>
      *         </tr>
      *         </table>
      *         

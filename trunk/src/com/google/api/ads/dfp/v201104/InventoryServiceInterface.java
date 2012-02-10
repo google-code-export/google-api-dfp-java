@@ -76,6 +76,10 @@ public interface InventoryServiceInterface extends java.rmi.Remote {
      *         <td>{@code status}</td>
      *         <td>{@link AdUnit#status}</td>
      *         </tr>
+     *         <tr>
+     *         <td>{@code lastModifiedDateTime}</td>
+     *         <td>{@link AdUnit#lastModifiedDateTime}</td>
+     *         </tr>
      *         </table>
      *         
      *         

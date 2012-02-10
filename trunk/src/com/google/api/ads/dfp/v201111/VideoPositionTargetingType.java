@@ -22,12 +22,14 @@ public class VideoPositionTargetingType implements java.io.Serializable {
     public static final java.lang.String _POSTROLL = "POSTROLL";
     public static final java.lang.String _BUMPER = "BUMPER";
     public static final java.lang.String _PREROLL_BUMPER = "PREROLL_BUMPER";
+    public static final java.lang.String _MIDROLL_BUMPER = "MIDROLL_BUMPER";
     public static final java.lang.String _POSTROLL_BUMPER = "POSTROLL_BUMPER";
     public static final VideoPositionTargetingType PREROLL = new VideoPositionTargetingType(_PREROLL);
     public static final VideoPositionTargetingType MIDROLL = new VideoPositionTargetingType(_MIDROLL);
     public static final VideoPositionTargetingType POSTROLL = new VideoPositionTargetingType(_POSTROLL);
     public static final VideoPositionTargetingType BUMPER = new VideoPositionTargetingType(_BUMPER);
     public static final VideoPositionTargetingType PREROLL_BUMPER = new VideoPositionTargetingType(_PREROLL_BUMPER);
+    public static final VideoPositionTargetingType MIDROLL_BUMPER = new VideoPositionTargetingType(_MIDROLL_BUMPER);
     public static final VideoPositionTargetingType POSTROLL_BUMPER = new VideoPositionTargetingType(_POSTROLL_BUMPER);
     public java.lang.String getValue() { return _value_;}
     public static VideoPositionTargetingType fromValue(java.lang.String value)

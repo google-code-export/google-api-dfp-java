@@ -88,6 +88,10 @@ public interface LineItemCreativeAssociationServiceInterface extends java.rmi.Re
      *         <td>{@code status}</td>
      *         <td>{@link LineItemCreativeAssociation#status}</td>
      *         </tr>
+     *         <tr>
+     *         <td>{@code lastModifiedDateTime}</td>
+     *         <td>{@link LineItemCreativeAssociation#lastModifiedDateTime}</td>
+     * </tr>
      *         </table>
      *         
      *         

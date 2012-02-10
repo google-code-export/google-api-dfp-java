@@ -671,4 +671,144 @@ public class DfpService {
     public static final DfpService CREATIVE_TEMPLATE_SERVICE =
         new DfpService("CreativeTemplateService", DfpVersion.V201111);
   }
+
+  /**
+   * The service class for v201201. Each {@code DfpService}
+   * variable indicates which interface should be used.
+   */
+  public abstract static class V201201 {
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.InventoryServiceInterface}.
+     */
+    public static final DfpService INVENTORY_SERVICE =
+        new DfpService("InventoryService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.CompanyServiceInterface}.
+     */
+    public static final DfpService COMPANY_SERVICE =
+        new DfpService("CompanyService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.UserServiceInterface}.
+     */
+    public static final DfpService USER_SERVICE =
+        new DfpService("UserService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.OrderServiceInterface}.
+     */
+    public static final DfpService ORDER_SERVICE =
+        new DfpService("OrderService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.LineItemServiceInterface}.
+     */
+    public static final DfpService LINEITEM_SERVICE =
+        new DfpService("LineItemService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.LineItemCreativeAssociationServiceInterface}.
+     */
+    public static final DfpService LINEITEMCREATIVEASSOCIATION_SERVICE =
+        new DfpService("LineItemCreativeAssociationService",
+            DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.CreativeServiceInterface}.
+     */
+    public static final DfpService CREATIVE_SERVICE =
+        new DfpService("CreativeService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.PlacementServiceInterface}.
+     */
+    public static final DfpService PLACEMENT_SERVICE =
+        new DfpService("PlacementService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.ReportServiceInterface}.
+     */
+    public static final DfpService REPORT_SERVICE =
+        new DfpService("ReportService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.ForecastServiceInterface}.
+     */
+    public static final DfpService FORECAST_SERVICE =
+        new DfpService("ForecastService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.NetworkServiceInterface}.
+     */
+    public static final DfpService NETWORK_SERVICE =
+        new DfpService("NetworkService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.CustomTargetingServiceInterface}.
+     */
+    public static final DfpService CUSTOM_TARGETING_SERVICE =
+        new DfpService("CustomTargetingService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.PublisherQueryLanguageService}.
+     */
+    public static final DfpService PUBLISHER_QUERY_LANGUAGE_SERVICE =
+        new DfpService("PublisherQueryLanguageService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.LabelService}.
+     */
+    public static final DfpService LABEL_SERVICE =
+        new DfpService("LabelService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.ThirdPartySlotService}.
+     */
+    public static final DfpService THIRD_PARTY_SLOT_SERVICE =
+        new DfpService("ThirdPartySlotService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.SuggestedAdUnitService}.
+     */
+    public static final DfpService SUGGESTED_AD_UNIT_SERVICE =
+        new DfpService("SuggestedAdUnitService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.ContentService}.
+     */
+    public static final DfpService CONTENT_SERVICE =
+        new DfpService("ContentService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.CreativeTemplateService}.
+     */
+    public static final DfpService CREATIVE_TEMPLATE_SERVICE =
+        new DfpService("CreativeTemplateService", DfpVersion.V201201);
+
+    /**
+     * Uses the interface
+     * {@link com.google.api.ads.dfp.v201201.TeamService}.
+     */
+    public static final DfpService TEAM_SERVICE =
+        new DfpService("TeamService", DfpVersion.V201201);
+  }
 }
