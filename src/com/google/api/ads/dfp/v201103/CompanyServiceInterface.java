@@ -58,6 +58,10 @@ public interface CompanyServiceInterface extends java.rmi.Remote {
      *         <td>{@code type}</td>
      *         <td>{@link Company#type}</td>
      *         </tr>
+     *         <tr>
+     *         <td>{@code lastModifiedDateTime}</td>
+     *         <td>{@link Company#lastModifiedDateTime}</td>
+     *         </tr>
      *         </table>
      *         
      *         

@@ -89,6 +89,10 @@ public interface OrderServiceInterface extends java.rmi.Remote {
      *         <td>{@code traffickerId}</td>
      *         <td>{@link Order#traffickerId}</td>
      *         </tr>
+     *         <tr>
+     *         <td>{@code lastModifiedDateTime}</td>
+     *         <td>{@link Order#lastModifiedDateTime}</td>
+     *         </tr>
      *         </table>
      *         
      *         

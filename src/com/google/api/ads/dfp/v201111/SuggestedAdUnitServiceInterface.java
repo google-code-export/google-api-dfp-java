@@ -41,9 +41,9 @@ public interface SuggestedAdUnitServiceInterface extends java.rmi.Remote {
      *         
      * @param filterStatement a Publisher Query Language statement used to
      * filter
-     *         a set of third-party slots
+     *         a set of suggested ad units
      *         
-     * @return the third-party slots that match the given filter
+     * @return the suggested ad units that match the given filter
      */
     public com.google.api.ads.dfp.v201111.SuggestedAdUnitPage getSuggestedAdUnitsByStatement(com.google.api.ads.dfp.v201111.Statement filterStatement) throws java.rmi.RemoteException, com.google.api.ads.dfp.v201111.ApiException;
 
@@ -72,7 +72,7 @@ public interface SuggestedAdUnitServiceInterface extends java.rmi.Remote {
      *         
      * @param filterStatement a Publisher Query Language statement used to
      * filter
-     *         a set of third-party slots
+     *         a set of suggested ad units
      *         
      * @return the result of the action performed
      */

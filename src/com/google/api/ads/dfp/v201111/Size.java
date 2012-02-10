@@ -10,6 +10,8 @@ package com.google.api.ads.dfp.v201111;
 
 /**
  * Represents the dimensions of AdUnits, LineItems and Creatives.
+ *             <p>
+ *             For interstitial size (out-of-page), Size must be 1x1.
  */
 public class Size  implements java.io.Serializable {
     /* The width of the AdUnit, LineItem or Creative. */

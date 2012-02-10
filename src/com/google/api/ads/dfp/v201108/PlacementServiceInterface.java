@@ -81,6 +81,10 @@ public interface PlacementServiceInterface extends java.rmi.Remote {
      *         <td>{@code status}</td>
      *         <td>{@link Placement#status}</td>
      *         </tr>
+     *         <tr>
+     *         <td>{@code lastModifiedDateTime}</td>
+     *         <td>{@link Placement#lastModifiedDateTime}</td>
+     *         </tr>
      *         </table>
      *         
      *         

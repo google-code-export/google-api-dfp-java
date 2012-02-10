@@ -80,6 +80,10 @@ public interface CreativeServiceInterface extends java.rmi.Remote {
      *         <td>{@code height}</td>
      *         <td>{@link Creative#size}</td>
      *         </tr>
+     *         <tr>
+     *         <td>{@code lastModifiedDateTime}</td>
+     *         <td>{@link Creative#lastModifiedDateTime}</td>
+     *         </tr>
      *         </table>
      *         
      *         

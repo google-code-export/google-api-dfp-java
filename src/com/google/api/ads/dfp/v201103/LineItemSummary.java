@@ -159,7 +159,8 @@ public class LineItemSummary  implements java.io.Serializable {
 
     /* The amount of money to spend per impression or click. This
      * attribute is
-     *                 required for creating a {@code LineItem}. */
+     *                 required for creating a {@code LineItem}. The currency
+     * code is readonly. */
     private com.google.api.ads.dfp.v201103.Money costPerUnit;
 
     /* An amount to help the adserver rank inventory. {@link
@@ -170,7 +171,7 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 the actual {@link LineItemSummary#costPerUnit}. This
      * attribute is optional
      *                 and defaults to a {@link Money} object in the local
-     * currency with {@link Money#microAmount} 0. */
+     * currency with {@link Money#microAmount} 0. The currency code is readonly. */
     private com.google.api.ads.dfp.v201103.Money valueCostPerUnit;
 
     /* The method used for billing this {@code LineItem}. This attribute
@@ -201,7 +202,10 @@ public class LineItemSummary  implements java.io.Serializable {
     /* The flag indicates whether overbooking should be allowed when
      * creating or
      *                 updating reservations of line item types {@link LineItemType#SPONSORSHIP}
-     * and {@link LineItemType#STANDARD}. The default value is false. */
+     * and {@link LineItemType#STANDARD}. When true, operations on this line
+     * item will never trigger a {@link ForecastError}, which corresponds
+     * to an
+     *                 overbook warning in the UI. The default value is false. */
     private java.lang.Boolean allowOverbook;
 
     /* Contains trafficking statistics for the line item. This attribute
@@ -247,7 +251,8 @@ public class LineItemSummary  implements java.io.Serializable {
 
     /* The amount of money allocated to the {@code LineItem}. This
      * attribute is
-     *                 readonly and is populated by Google. */
+     *                 readonly and is populated by Google. The currency
+     * code is readonly. */
     private com.google.api.ads.dfp.v201103.Money budget;
 
     /* The status of the {@code LineItem}. This attribute is readonly. */
@@ -859,7 +864,8 @@ public class LineItemSummary  implements java.io.Serializable {
      * 
      * @return costPerUnit   * The amount of money to spend per impression or click. This
      * attribute is
-     *                 required for creating a {@code LineItem}.
+     *                 required for creating a {@code LineItem}. The currency
+     * code is readonly.
      */
     public com.google.api.ads.dfp.v201103.Money getCostPerUnit() {
         return costPerUnit;
@@ -871,7 +877,8 @@ public class LineItemSummary  implements java.io.Serializable {
      * 
      * @param costPerUnit   * The amount of money to spend per impression or click. This
      * attribute is
-     *                 required for creating a {@code LineItem}.
+     *                 required for creating a {@code LineItem}. The currency
+     * code is readonly.
      */
     public void setCostPerUnit(com.google.api.ads.dfp.v201103.Money costPerUnit) {
         this.costPerUnit = costPerUnit;
@@ -889,7 +896,7 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 the actual {@link LineItemSummary#costPerUnit}. This
      * attribute is optional
      *                 and defaults to a {@link Money} object in the local
-     * currency with {@link Money#microAmount} 0.
+     * currency with {@link Money#microAmount} 0. The currency code is readonly.
      */
     public com.google.api.ads.dfp.v201103.Money getValueCostPerUnit() {
         return valueCostPerUnit;
@@ -907,7 +914,7 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 the actual {@link LineItemSummary#costPerUnit}. This
      * attribute is optional
      *                 and defaults to a {@link Money} object in the local
-     * currency with {@link Money#microAmount} 0.
+     * currency with {@link Money#microAmount} 0. The currency code is readonly.
      */
     public void setValueCostPerUnit(com.google.api.ads.dfp.v201103.Money valueCostPerUnit) {
         this.valueCostPerUnit = valueCostPerUnit;
@@ -1034,7 +1041,10 @@ public class LineItemSummary  implements java.io.Serializable {
      * @return allowOverbook   * The flag indicates whether overbooking should be allowed when
      * creating or
      *                 updating reservations of line item types {@link LineItemType#SPONSORSHIP}
-     * and {@link LineItemType#STANDARD}. The default value is false.
+     * and {@link LineItemType#STANDARD}. When true, operations on this line
+     * item will never trigger a {@link ForecastError}, which corresponds
+     * to an
+     *                 overbook warning in the UI. The default value is false.
      */
     public java.lang.Boolean getAllowOverbook() {
         return allowOverbook;
@@ -1047,7 +1057,10 @@ public class LineItemSummary  implements java.io.Serializable {
      * @param allowOverbook   * The flag indicates whether overbooking should be allowed when
      * creating or
      *                 updating reservations of line item types {@link LineItemType#SPONSORSHIP}
-     * and {@link LineItemType#STANDARD}. The default value is false.
+     * and {@link LineItemType#STANDARD}. When true, operations on this line
+     * item will never trigger a {@link ForecastError}, which corresponds
+     * to an
+     *                 overbook warning in the UI. The default value is false.
      */
     public void setAllowOverbook(java.lang.Boolean allowOverbook) {
         this.allowOverbook = allowOverbook;
@@ -1183,7 +1196,8 @@ public class LineItemSummary  implements java.io.Serializable {
      * 
      * @return budget   * The amount of money allocated to the {@code LineItem}. This
      * attribute is
-     *                 readonly and is populated by Google.
+     *                 readonly and is populated by Google. The currency
+     * code is readonly.
      */
     public com.google.api.ads.dfp.v201103.Money getBudget() {
         return budget;
@@ -1195,7 +1209,8 @@ public class LineItemSummary  implements java.io.Serializable {
      * 
      * @param budget   * The amount of money allocated to the {@code LineItem}. This
      * attribute is
-     *                 readonly and is populated by Google.
+     *                 readonly and is populated by Google. The currency
+     * code is readonly.
      */
     public void setBudget(com.google.api.ads.dfp.v201103.Money budget) {
         this.budget = budget;

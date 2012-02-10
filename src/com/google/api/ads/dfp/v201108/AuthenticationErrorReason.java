@@ -23,6 +23,7 @@ public class AuthenticationErrorReason implements java.io.Serializable {
     public static final java.lang.String _INVALID_OAUTH_SIGNATURE = "INVALID_OAUTH_SIGNATURE";
     public static final java.lang.String _INVALID_SERVICE = "INVALID_SERVICE";
     public static final java.lang.String _MISSING_SOAP_REQUEST_HEADER = "MISSING_SOAP_REQUEST_HEADER";
+    public static final java.lang.String _MISSING_AUTHENTICATION_HTTP_HEADER = "MISSING_AUTHENTICATION_HTTP_HEADER";
     public static final java.lang.String _NOT_WHITELISTED_FOR_API_ACCESS = "NOT_WHITELISTED_FOR_API_ACCESS";
     public static final java.lang.String _NO_NETWORKS_TO_ACCESS = "NO_NETWORKS_TO_ACCESS";
     public static final java.lang.String _NETWORK_NOT_FOUND = "NETWORK_NOT_FOUND";
@@ -34,6 +35,7 @@ public class AuthenticationErrorReason implements java.io.Serializable {
     public static final AuthenticationErrorReason INVALID_OAUTH_SIGNATURE = new AuthenticationErrorReason(_INVALID_OAUTH_SIGNATURE);
     public static final AuthenticationErrorReason INVALID_SERVICE = new AuthenticationErrorReason(_INVALID_SERVICE);
     public static final AuthenticationErrorReason MISSING_SOAP_REQUEST_HEADER = new AuthenticationErrorReason(_MISSING_SOAP_REQUEST_HEADER);
+    public static final AuthenticationErrorReason MISSING_AUTHENTICATION_HTTP_HEADER = new AuthenticationErrorReason(_MISSING_AUTHENTICATION_HTTP_HEADER);
     public static final AuthenticationErrorReason NOT_WHITELISTED_FOR_API_ACCESS = new AuthenticationErrorReason(_NOT_WHITELISTED_FOR_API_ACCESS);
     public static final AuthenticationErrorReason NO_NETWORKS_TO_ACCESS = new AuthenticationErrorReason(_NO_NETWORKS_TO_ACCESS);
     public static final AuthenticationErrorReason NETWORK_NOT_FOUND = new AuthenticationErrorReason(_NETWORK_NOT_FOUND);

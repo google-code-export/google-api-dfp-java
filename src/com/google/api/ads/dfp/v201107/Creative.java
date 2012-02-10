@@ -38,6 +38,7 @@ public abstract class Creative  implements java.io.Serializable {
      * is created. */
     private java.lang.String previewUrl;
 
+    /* The set of labels applied to this creative. */
     private com.google.api.ads.dfp.v201107.AppliedLabel[] appliedLabels;
 
     /* Indicates that this instance is a subtype of Creative.
@@ -192,7 +193,7 @@ public abstract class Creative  implements java.io.Serializable {
     /**
      * Gets the appliedLabels value for this Creative.
      * 
-     * @return appliedLabels
+     * @return appliedLabels   * The set of labels applied to this creative.
      */
     public com.google.api.ads.dfp.v201107.AppliedLabel[] getAppliedLabels() {
         return appliedLabels;
@@ -202,7 +203,7 @@ public abstract class Creative  implements java.io.Serializable {
     /**
      * Sets the appliedLabels value for this Creative.
      * 
-     * @param appliedLabels
+     * @param appliedLabels   * The set of labels applied to this creative.
      */
     public void setAppliedLabels(com.google.api.ads.dfp.v201107.AppliedLabel[] appliedLabels) {
         this.appliedLabels = appliedLabels;
