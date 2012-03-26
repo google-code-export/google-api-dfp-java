@@ -2,7 +2,7 @@
 
 =Using the DFP API in Java without the Client Library=
 
-If you plan to make requests to the DFP API with Java, we recommend you use the DFP API Java client library. If you don't wish to use the client library and would rather implement your own solution, this document explains how to get started. The example below uses a Google Account, DFP API v201004, and Axis 1.x . The API requests are made to the DFP API Sandbox.
+If you plan to make requests to the DFP API with Java, we recommend you use the DFP API Java client library. If you don't wish to use the client library and would rather implement your own solution, this document explains how to get started. The example below uses a Google Account, DFP API v201203, and Axis 1.x . The API requests are made to the DFP API Sandbox.
 
 ==Authentication==
 
@@ -35,10 +35,10 @@ Creating Java POJOs and service clients from the WSDL is relatively straightforw
 
 {{{
 <axis-wsdl2java all="true"
-    url="https://sandbox.google.com/apis/ads/publisher/v201004/OrderService?wsdl"
+    url="https://www.google.com/apis/ads/publisher/v201203/OrderService?wsdl"
     verbose="true" output="src" debug="false" wrapArrays="true">
-  <mapping namespace="https://www.google.com/apis/ads/publisher/v201004"
-      package="com.your.package.v201004" />
+  <mapping namespace="https://www.google.com/apis/ads/publisher/v201203"
+      package="com.google.api.ads.dfp.v201203" />
 </axis-wsdl2java>
 }}}
 
@@ -48,11 +48,7 @@ Notice that wrapArrays is set to true for compatibility with jagged arrays. Noti
 
 For Axis1, the service locator is used to get a stub for the service. Here, serviceUrl represents the URL of the service, usually in the form of:
 
-https://www.google.com/apis/ads/publisher/v201004/OrderService
-
-or
-
-https://sandbox.google.com/apis/ads/publisher/v201004/OrderService
+https://www.google.com/apis/ads/publisher/v201203/OrderService
 
 
 Below is a snippet of how this may be done. We leave the type as the service interface so that it may be more conveniently used in the future.
@@ -109,12 +105,12 @@ System.out.println("Number of results found: " + page.getTotalResultSetSize());
 package nonlib;
 
 import com.google.api.ads.dfp.lib.AuthToken;
-import com.google.api.ads.dfp.v201004.Order;
-import com.google.api.ads.dfp.v201004.OrderPage;
-import com.google.api.ads.dfp.v201004.OrderServiceInterface;
-import com.google.api.ads.dfp.v201004.Statement;
-import com.google.api.ads.dfp.v201004.CampaignServiceLocator;
-import com.google.api.ads.dfp.v201004.SoapHeader;
+import com.google.api.ads.dfp.v201203.Order;
+import com.google.api.ads.dfp.v201203.OrderPage;
+import com.google.api.ads.dfp.v201203.OrderServiceInterface;
+import com.google.api.ads.dfp.v201203.Statement;
+import com.google.api.ads.dfp.v201203.CampaignServiceLocator;
+import com.google.api.ads.dfp.v201203.SoapHeader;
 
 import org.apache.axis.client.Stub;
 
@@ -137,12 +133,8 @@ public class GetOrdersByStatementExample {
       // Create authToken.
       String authToken = new AuthToken(email, password).getAuthToken();
 
-      // Set SOAP and XML settings. To send requests to production environment,
-      // replace "sandbox.google.com" with "www.google.com" in the wsdl
-      // URL. The namespace will always be "www.google.com", even in the
-      // sandbox.
-      String serviceUrl = "https://sandbox.google.com/apis/ads/publisher/v201004/OrderService";
-      String namespace = "https://www.google.com/apis/ads/publisher/v201004";
+      String serviceUrl = "https://www.google.com/apis/ads/publisher/v201203/OrderService";
+      String namespace = "https://www.google.com/apis/ads/publisher/v201203";
 
       // Get the OrderService.
       OrderServiceInterface orderService =
