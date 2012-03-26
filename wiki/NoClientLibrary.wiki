@@ -2,7 +2,9 @@
 
 =Using the DFP API in Java without the Client Library=
 
-If you plan to make requests to the DFP API with Java, we recommend you use the DFP API Java client library. If you don't wish to use the client library and would rather implement your own solution, this document explains how to get started. The example below uses a Google Account, DFP API v201203, and Axis 1.x . The API requests are made to the DFP API Sandbox.
+*If you plan to make requests to the DFP API with Java, we recommend you use the DFP API Java client library.*
+
+If you don't wish to use the client library and would rather implement your own solution, this document explains how to get started. The example below uses a Google Account, DFP API v201203, and Axis 1.x .
 
 ==Authentication==
 
@@ -31,7 +33,7 @@ String authToken = new AuthToken(email, password).getAuthToken();
 
 ==Wsdl2Java==
 
-Creating Java POJOs and service clients from the WSDL is relatively straightforward with Wsdl2Java (provided in the distribution of your Axis1 package). Below is snippet of an Ant build script which would create the Java files and map the output correctly for the InfoService, which belongs to the info namespace.
+Creating Java POJOs and service clients from the WSDL is relatively straightforward with Wsdl2Java (provided in the distribution of your Axis1 package). Below is snippet of an Ant build script which would create the Java files and map the output correctly for the OrderService.
 
 {{{
 <axis-wsdl2java all="true"
