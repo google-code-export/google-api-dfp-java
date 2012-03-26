@@ -14,7 +14,7 @@ package com.google.api.ads.dfp.v201111;
  *             on custom targeting keys of type {@link CustomTargetingKey.Type#PREDEFINED}
  * or {@link CustomTargetingKey.Type#FREEFORM}.
  */
-public class CustomCriteria  extends com.google.api.ads.dfp.v201111.CustomCriteriaNode  implements java.io.Serializable {
+public class CustomCriteria  extends com.google.api.ads.dfp.v201111.CustomCriteriaLeaf  implements java.io.Serializable {
     /* The {@link CustomTargetingKey#id} of the {@link CustomTargetingKey}
      * object
      *                     that was created using {@link CustomTargetingService}.

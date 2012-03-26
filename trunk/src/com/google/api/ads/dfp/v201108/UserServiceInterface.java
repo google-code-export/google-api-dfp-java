@@ -124,7 +124,7 @@ public interface UserServiceInterface extends java.rmi.Remote {
      *         
      * @return the result of the action performed
      */
-    public com.google.api.ads.dfp.v201108.UpdateResult performUserAction(com.google.api.ads.dfp.v201108.UserAction userAction, com.google.api.ads.dfp.v201108.Statement filterStatement) throws java.rmi.RemoteException;
+    public com.google.api.ads.dfp.v201108.UpdateResult performUserAction(com.google.api.ads.dfp.v201108.UserAction userAction, com.google.api.ads.dfp.v201108.Statement filterStatement) throws java.rmi.RemoteException, com.google.api.ads.dfp.v201108.ApiException;
 
     /**
      * Updates the specified {@link User}.

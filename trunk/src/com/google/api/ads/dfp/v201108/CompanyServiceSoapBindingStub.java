@@ -316,6 +316,13 @@ public class CompanyServiceSoapBindingStub extends org.apache.axis.client.Stub i
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201108", "CustomCriteriaLeaf");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201108.CustomCriteriaLeaf.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201108", "CustomCriteriaNode");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201108.CustomCriteriaNode.class;
