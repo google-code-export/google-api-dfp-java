@@ -5,13 +5,13 @@ Google's DoubleClick For Publishers API Java Client Library
 Google's DoubleClick For Publishers API service lets developers design computer
 programs that interact directly with the DFP platform. With these applications,
 advertisers and third parties can more efficiently -- and creatively -- manage
-their large or complex Publisher Display Ads accounts.
+their large or complex DFP accounts.
 
 The DFP API Java Client Library makes it easy to write Java clients to
-programmatically access Publisher Display Ads accounts. The client library is
-provided in two separate distributions, both containing classes and utilities to
-aid the developer. All client library classes and utilities are in the package
-or sub-packages of "com.google.api.ads.dfp.lib".
+programmatically access DFP accounts. The client library is provided in two
+separate distributions, both containing classes and utilities to aid the
+developer. All client library classes and utilities are in the package or
+sub-packages of "com.google.api.ads.dfp.lib".
 
 The client library is distributed in two separate jars. For developers
 who are first time users of the client library and do not have an
@@ -86,17 +86,23 @@ credentials as parameters to DfpUser constructor.
 
     or
 
-    // Used if user only has one network and does not need to supply
-    // network code.
+    // Used if making requests to NetworkService.getAllNetworks() or
+    // NetworkService.makeTestNetwork().
     DfpUser user = new DfpUser(email, password, applicationName);
 
 
 How do I start?
 ---------------
-If you haven't done so yet, you'll need to request sandbox access to the API as
-directed on this page:
+If you haven't done so yet, you'll need to a DFP account with API access to
+make requests. If you do not have a DFP account, you can follow the instructions
+here:
 
-  http://code.google.com/apis/dfp/docs/signup.html
+  https://developers.google.com/doubleclick-publishers/docs/signup.html
+
+If you do have a DFP account, you can enable API access by following the
+instructions here:
+
+  https://developers.google.com/doubleclick-publishers/docs/prod_signup
 
 Place "lib/dfp-api-{version}.jar" into your classpath (or
 "lib/dfp-api-{version}-loner.jar" if you prefer to take care of
@@ -110,13 +116,13 @@ distributions root directory. It should be copied into your home directory and
 filled with actual credentials. Again, this file will only be used the default
 constructor of the DfpUser class.
 
-To write a program that accesses Publisher Display Ads accounts using the client
+To write a program that accesses DFP accounts using the client
 library, do the following:
 
   1) Import the following packages or classes:
 
      // Contains the data classes and service classes.
-     import com.google.api.ads.dfp.v201103.*;
+     import com.google.api.ads.dfp.v201203.*;
 
      import com.google.api.ads.dfp.lib.DfpUser;
 
@@ -127,13 +133,13 @@ library, do the following:
 
      // Axis faults get thrown as ApiExceptions. Import ApiException if you want
      // to throw it or catch it.
-     import com.google.api.ads.dfp.v201002.ApiException;
+     import com.google.api.ads.dfp.v201203.ApiException;
 
   2) Create an DfpUser instance, specifying the credentials at
      creation time. Or, you can use the default constructor after completing
      the properties file and copying it to your home directory.
 
-     DfpUser user = new DfpUser(email, password, applicationName);
+     DfpUser user = new DfpUser(email, password, networkCode, applicationName);
 
   3) Optionally, enable logging to capture the content of the requests and
      responses. This example sends the information to a file:
@@ -145,7 +151,7 @@ library, do the following:
      which are defined within DfpService.
 
      InventoryServiceInterface inventoryService =
-         user.getService(DfpService.V201002.INVENTORY_SERVICE);
+         user.getService(DfpService.v201203.INVENTORY_SERVICE);
 
      Note: The interface that should be used for the type of 'service' is
      mentioned in the JavaDoc for the service constant.
@@ -190,9 +196,9 @@ from the "examples/" directory i.e.
 As an example for v201103:
 
     $ cd examples
-    $ javac -classpath ../lib/dfp-api-2.5.0.jar v201103/*/*.java
-    $ java -classpath .:v201103:../lib/dfp-api-2.5.0.jar\
-      v201103/inventoryService/GetAllAdUnitsExample
+    $ javac -classpath ../lib/dfp-api-2.11.0.jar v201203/*/*.java
+    $ java -classpath .:v201203:../lib/dfp-api-2.11.0.jar\
+      v201203/inventoryService/GetAllAdUnitsExample
 
 
 How do I enable logging?

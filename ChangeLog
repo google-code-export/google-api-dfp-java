@@ -1,3 +1,11 @@
+2.11.0:
+- Removed support for deprecated versions v201103, v201104, and v201107.
+- Added support for v201203.
+- Fixed toString() bug in Date/DateTimeUtils.
+- DfpUser will no longer default to the sandbox environment.
+- isUsingSandbox and useSandbox are now deprecated. Create a test network
+  and use the production environment instead. See MakeTestNetworkExample.
+
 2.10.0:
 - Added support for v201201.
 
