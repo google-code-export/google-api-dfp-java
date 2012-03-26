@@ -49,6 +49,9 @@ public interface InventoryServiceInterface extends java.rmi.Remote {
     /**
      * Retrieves the sorted set of sizes across all ad units.
      *         
+     *         Deprecated: use getAdUnitSizesByStatement with an empty Statement
+     * instead.
+     *         
      *         
      * @return a set of sizes
      */

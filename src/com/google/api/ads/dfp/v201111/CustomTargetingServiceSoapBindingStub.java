@@ -218,6 +218,20 @@ public class CustomTargetingServiceSoapBindingStub extends org.apache.axis.clien
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "ApiVersionError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201111.ApiVersionError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "ApiVersionError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201111.ApiVersionErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "ApplicationException");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201111.ApplicationException.class;

@@ -138,6 +138,12 @@ public class UserServiceSoapBindingStub extends org.apache.axis.client.Stub impl
         oper.setReturnQName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201108", "rval"));
         oper.setStyle(org.apache.axis.constants.Style.WRAPPED);
         oper.setUse(org.apache.axis.constants.Use.LITERAL);
+        oper.addFault(new org.apache.axis.description.FaultDesc(
+                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201108", "ApiExceptionFault"),
+                      "com.google.api.ads.dfp.v201108.ApiException",
+                      new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201108", "ApiException"), 
+                      true
+                     ));
         _operations[6] = oper;
 
         oper = new org.apache.axis.description.OperationDesc();
@@ -868,7 +874,7 @@ public class UserServiceSoapBindingStub extends org.apache.axis.client.Stub impl
 }
     }
 
-    public com.google.api.ads.dfp.v201108.UpdateResult performUserAction(com.google.api.ads.dfp.v201108.UserAction userAction, com.google.api.ads.dfp.v201108.Statement filterStatement) throws java.rmi.RemoteException {
+    public com.google.api.ads.dfp.v201108.UpdateResult performUserAction(com.google.api.ads.dfp.v201108.UserAction userAction, com.google.api.ads.dfp.v201108.Statement filterStatement) throws java.rmi.RemoteException, com.google.api.ads.dfp.v201108.ApiException {
         if (super.cachedEndpoint == null) {
             throw new org.apache.axis.NoEndPointException();
         }
@@ -898,6 +904,14 @@ public class UserServiceSoapBindingStub extends org.apache.axis.client.Stub impl
             }
         }
   } catch (org.apache.axis.AxisFault axisFaultException) {
+    if (axisFaultException.detail != null) {
+        if (axisFaultException.detail instanceof java.rmi.RemoteException) {
+              throw (java.rmi.RemoteException) axisFaultException.detail;
+         }
+        if (axisFaultException.detail instanceof com.google.api.ads.dfp.v201108.ApiException) {
+              throw (com.google.api.ads.dfp.v201108.ApiException) axisFaultException.detail;
+         }
+   }
   throw axisFaultException;
 }
     }

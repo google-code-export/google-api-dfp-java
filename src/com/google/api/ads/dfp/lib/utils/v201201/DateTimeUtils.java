@@ -16,6 +16,7 @@ package com.google.api.ads.dfp.lib.utils.v201201;
 
 import com.google.api.ads.dfp.v201201.DateTime;
 
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -27,8 +28,7 @@ import java.util.TimeZone;
  * @author api.arogal@gmail.com (Adam Rogal)
  */
 public final class DateTimeUtils {
-  private static final SimpleDateFormat DATE_TIME_FORMAT =
-      new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+  public static final String DATE_TIME_FORMAT = "yyyy-MM-dd'T'HH:mm:ss";
 
   /**
    * {@code DateTimeUtils} is meant to be used statically.
@@ -44,7 +44,7 @@ public final class DateTimeUtils {
    * @throws ParseException if the string could not be parsed
    */
   public static DateTime fromString(String dateTimeString) throws ParseException {
-    return fromDate(DATE_TIME_FORMAT.parse(dateTimeString));
+    return fromDate(new SimpleDateFormat(DATE_TIME_FORMAT).parse(dateTimeString));
   }
 
   /**
@@ -127,6 +127,8 @@ public final class DateTimeUtils {
    * @return a string representation of the {@link DateTime} object
    */
   public static String toString(DateTime dateTime) {
-    return DATE_TIME_FORMAT.format(toDate(dateTime));
+    DateFormat dateTimeFormat = new SimpleDateFormat(DATE_TIME_FORMAT);
+    dateTimeFormat.setTimeZone(TimeZone.getTimeZone(dateTime.getTimeZoneID()));
+    return dateTimeFormat.format(toDate(dateTime));
   }
 }

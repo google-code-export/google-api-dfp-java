@@ -17,9 +17,11 @@ package com.google.api.ads.dfp.lib.utils.v201111;
 import com.google.api.ads.dfp.v201111.Date;
 import com.google.api.ads.dfp.v201111.DateTime;
 
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.TimeZone;
 
 /**
  * A utility class for handling {@link Date} objects.
@@ -27,8 +29,8 @@ import java.util.Calendar;
  * @author api.arogal@gmail.com (Adam Rogal)
  */
 public final class DateUtils {
-  private static final SimpleDateFormat DATE_FORMAT =
-      new SimpleDateFormat("yyyy-MM-dd");
+  public static final String DATE_FORMAT = "yyyy-MM-dd";
+
 
   /**
    * {@code DateUtils} is meant to be used statically.
@@ -44,7 +46,7 @@ public final class DateUtils {
    * @throws ParseException if the string could not be parsed
    */
   public static Date fromString(String dateString) throws ParseException {
-    return fromDate(DATE_FORMAT.parse(dateString));
+    return fromDate(new SimpleDateFormat(DATE_FORMAT).parse(dateString));
   }
 
   /**
@@ -94,9 +96,12 @@ public final class DateUtils {
    * of {@code yyyy-mm-dd} (e.g. 2011-01-01)
    *
    * @param date the {@code DateTime} object used to create the string
+   * @param timeZoneId the timezone of the date
    * @return a string representation of the {@link Date} object
    */
-  public static String toString(Date date) {
-    return DATE_FORMAT.format(toDate(date, null));
+  public static String toString(Date date, String timeZoneId) {
+    DateFormat dateFormat = new SimpleDateFormat(DATE_FORMAT);
+    dateFormat.setTimeZone(TimeZone.getTimeZone(timeZoneId));
+    return dateFormat.format(toDate(date, timeZoneId));
   }
 }

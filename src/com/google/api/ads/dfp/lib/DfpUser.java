@@ -27,16 +27,18 @@ import javax.xml.rpc.ServiceException;
  * authenticate a user as well as generate a valid service for that user. The
  * way in which a service is generated is performed as:
  * <p>
- * <code>DfpUser user = new DfpUser(email, password, networkCode, applicationName, true);</code><br/>
+ * <code>DfpUser user =
+ *     new DfpUser(email, password, networkCode, applicationName, false);
+ * </code><br/>
  * <code>ServiceInterface service = user.getService(DfpService.version.serviceName);</code>
  * <p>
  * The interface {@code <Service>Interface} should match that described by
  * {@code DfpService.version.serviceName} or else a
  * {@code ServiceException} will be thrown. For example, if you wished to
  * get the service {@code InventoryService} and you referenced this service by
- * {@code DfpService.v201004.INVENTORY_SERVICE}, your import of
+ * {@code DfpService.v201203.INVENTORY_SERVICE}, your import of
  * {@code InventoryServiceInterface} should be from the package
- * {@code com.google.api.ads.dfp.v201004}.
+ * {@code com.google.api.ads.dfp.v201203}.
  *
  * @author api.arogal@gmail.com (Adam Rogal)
  */
@@ -72,14 +74,22 @@ public class DfpUser {
 
   private String authToken = null;
 
+  /**
+   * @deprecated useSandbox is no longer preferred. Create a test network
+   *     using NetworkService.makeTestNetwork instead.
+   */
   private Boolean useSandbox;
 
   /**
+   * Constructor.
+   *
    * @param email the email address of the user
    * @param password the password
    * @param networkCode the network code the login belongs to
    * @param applicationName the application name
    * @param useSandbox {@code true} if the Sandbox should be used
+   * @deprecated useSandbox is no longer preferred. Create a test network
+   *     using NetworkService.makeTestNetwork instead.
    */
   public DfpUser(String email, String password,
       String networkCode, String applicationName, boolean useSandbox) {
@@ -88,10 +98,14 @@ public class DfpUser {
     this.networkCode = networkCode;
     this.applicationName = applicationName;
     this.useSandbox = useSandbox;
+    if (useSandbox) {
+      System.err.println("The DFP API sandbox is now deprecated. " +
+          "Create a test network using NetworkService.makeTestNetwork instead.");
+    }
   }
 
   /**
-   * Constructor defaults to using the sandbox environment.
+   * Constructor.
    *
    * @param email the email address of the user
    * @param password the password
@@ -100,19 +114,19 @@ public class DfpUser {
    */
   public DfpUser(String email, String password,
       String networkCode, String applicationName) {
-    this(email, password, networkCode, applicationName, true);
+    this(email, password, networkCode, applicationName, false);
   }
 
   /**
-   * Constructor defaults to using the sandbox environment and does not supply
-   * a network. This constructor assumes the user only has one network.
+   * Constructor that does not supply a network code. This should only be used
+   * for NetworkService.getAllNetworks and NetworkService.makeTestNetwork.
    *
    * @param email the email address of the user
    * @param password the password
    * @param applicationName the application name
    */
   public DfpUser(String email, String password, String applicationName) {
-    this(email, password, null, applicationName, true);
+    this(email, password, null, applicationName, false);
   }
 
   /**
@@ -252,6 +266,8 @@ public class DfpUser {
    * Returns {@code true} if the user is using the sandbox.
    *
    * @return {@code true} if the user is using the sandbox
+   * @deprecated useSandbox is no longer preferred. Create a test network
+   *     using NetworkService.makeTestNetwork instead.
    */
   public boolean isUsingSandbox() {
     return useSandbox;
@@ -262,6 +278,8 @@ public class DfpUser {
    *
    * @param useSandbox {@code true} if all future services will be generated
    *     to use the sandbox
+   * @deprecated useSandbox is no longer preferred. Create a test network
+   *     using NetworkService.makeTestNetwork instead.
    */
   public void useSandbox(boolean useSandbox) {
     this.useSandbox = useSandbox;
