@@ -53,8 +53,8 @@ public class ReportQuery  implements java.io.Serializable {
     /* The period of time for which the reporting data is being generated.
      * In
      *                 order to define custom time periods, set this to
-     *                 {DateRangeType#CUSTOM_DATE}. If set to {DateRangeType#CUSTOM_DATE},
-     * then
+     *                 {@link DateRangeType#CUSTOM_DATE}. If set to {@link
+     * DateRangeType#CUSTOM_DATE}, then
      *                 {@link ReportQuery#startDate} and {@link ReportQuery#endDate}
      * will be used. */
     private com.google.api.ads.dfp.v201201.DateRangeType dateRangeType;
@@ -305,8 +305,8 @@ public class ReportQuery  implements java.io.Serializable {
      * @return dateRangeType   * The period of time for which the reporting data is being generated.
      * In
      *                 order to define custom time periods, set this to
-     *                 {DateRangeType#CUSTOM_DATE}. If set to {DateRangeType#CUSTOM_DATE},
-     * then
+     *                 {@link DateRangeType#CUSTOM_DATE}. If set to {@link
+     * DateRangeType#CUSTOM_DATE}, then
      *                 {@link ReportQuery#startDate} and {@link ReportQuery#endDate}
      * will be used.
      */
@@ -321,8 +321,8 @@ public class ReportQuery  implements java.io.Serializable {
      * @param dateRangeType   * The period of time for which the reporting data is being generated.
      * In
      *                 order to define custom time periods, set this to
-     *                 {DateRangeType#CUSTOM_DATE}. If set to {DateRangeType#CUSTOM_DATE},
-     * then
+     *                 {@link DateRangeType#CUSTOM_DATE}. If set to {@link
+     * DateRangeType#CUSTOM_DATE}, then
      *                 {@link ReportQuery#startDate} and {@link ReportQuery#endDate}
      * will be used.
      */

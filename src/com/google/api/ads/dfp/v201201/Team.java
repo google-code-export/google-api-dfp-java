@@ -11,7 +11,8 @@ package com.google.api.ads.dfp.v201201;
 /**
  * A {@code Team} defines a grouping of users and what entities they
  * have access
- *             to.
+ *             to. Users are added to teams with {@link UserTeamAssociation}
+ * objects.
  */
 public class Team  implements java.io.Serializable {
     /* The unique ID of the {@code Team}. This value is readonly and
