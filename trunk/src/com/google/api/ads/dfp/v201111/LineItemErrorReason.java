@@ -34,6 +34,7 @@ public class LineItemErrorReason implements java.io.Serializable {
     public static final java.lang.String _AFMA_BACKFILL_NOT_ALLOWED = "AFMA_BACKFILL_NOT_ALLOWED";
     public static final java.lang.String _UPDATE_ENVIRONMENT_TYPE_NOT_ALLOWED = "UPDATE_ENVIRONMENT_TYPE_NOT_ALLOWED";
     public static final java.lang.String _COMPANIONS_NOT_ALLOWED = "COMPANIONS_NOT_ALLOWED";
+    public static final java.lang.String _ROADBLOCKS_WITH_NONROADBLOCKS_NOT_ALLOWED = "ROADBLOCKS_WITH_NONROADBLOCKS_NOT_ALLOWED";
     public static final java.lang.String _UPDATE_FROM_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED = "UPDATE_FROM_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED";
     public static final java.lang.String _UPDATE_TO_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED = "UPDATE_TO_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED";
     public static final java.lang.String _UPDATE_BACKFILL_WEB_PROPERTY_NOT_ALLOWED = "UPDATE_BACKFILL_WEB_PROPERTY_NOT_ALLOWED";
@@ -63,6 +64,7 @@ public class LineItemErrorReason implements java.io.Serializable {
     public static final LineItemErrorReason AFMA_BACKFILL_NOT_ALLOWED = new LineItemErrorReason(_AFMA_BACKFILL_NOT_ALLOWED);
     public static final LineItemErrorReason UPDATE_ENVIRONMENT_TYPE_NOT_ALLOWED = new LineItemErrorReason(_UPDATE_ENVIRONMENT_TYPE_NOT_ALLOWED);
     public static final LineItemErrorReason COMPANIONS_NOT_ALLOWED = new LineItemErrorReason(_COMPANIONS_NOT_ALLOWED);
+    public static final LineItemErrorReason ROADBLOCKS_WITH_NONROADBLOCKS_NOT_ALLOWED = new LineItemErrorReason(_ROADBLOCKS_WITH_NONROADBLOCKS_NOT_ALLOWED);
     public static final LineItemErrorReason UPDATE_FROM_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED = new LineItemErrorReason(_UPDATE_FROM_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED);
     public static final LineItemErrorReason UPDATE_TO_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED = new LineItemErrorReason(_UPDATE_TO_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED);
     public static final LineItemErrorReason UPDATE_BACKFILL_WEB_PROPERTY_NOT_ALLOWED = new LineItemErrorReason(_UPDATE_BACKFILL_WEB_PROPERTY_NOT_ALLOWED);

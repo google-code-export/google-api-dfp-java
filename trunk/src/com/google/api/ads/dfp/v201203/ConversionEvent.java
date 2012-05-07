@@ -28,6 +28,8 @@ public class ConversionEvent implements java.io.Serializable {
     public static final java.lang.String _PAUSE = "PAUSE";
     public static final java.lang.String _REWIND = "REWIND";
     public static final java.lang.String _RESUME = "RESUME";
+    public static final java.lang.String _SKIPPED = "SKIPPED";
+    public static final java.lang.String _ENGAGED_VIEW = "ENGAGED_VIEW";
     public static final java.lang.String _FULLSCREEN = "FULLSCREEN";
     public static final java.lang.String _EXPAND = "EXPAND";
     public static final java.lang.String _COLLAPSE = "COLLAPSE";
@@ -47,6 +49,8 @@ public class ConversionEvent implements java.io.Serializable {
     public static final ConversionEvent PAUSE = new ConversionEvent(_PAUSE);
     public static final ConversionEvent REWIND = new ConversionEvent(_REWIND);
     public static final ConversionEvent RESUME = new ConversionEvent(_RESUME);
+    public static final ConversionEvent SKIPPED = new ConversionEvent(_SKIPPED);
+    public static final ConversionEvent ENGAGED_VIEW = new ConversionEvent(_ENGAGED_VIEW);
     public static final ConversionEvent FULLSCREEN = new ConversionEvent(_FULLSCREEN);
     public static final ConversionEvent EXPAND = new ConversionEvent(_EXPAND);
     public static final ConversionEvent COLLAPSE = new ConversionEvent(_COLLAPSE);

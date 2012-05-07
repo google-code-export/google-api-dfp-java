@@ -35,20 +35,15 @@ public interface NetworkServiceInterface extends java.rmi.Remote {
     /**
      * Creates a new blank network for testing purposes using the
      * current login.
-     *         A new Google account
-     *         (<a  href="https://accounts.google.com/SignUp">https://accounts.google.com/SignUp</a>)
-     * must be created to be used with the new network. The Google account
-     * does not
-     *         need to sign-up for DFP, and existing DFP accounts cannot
-     * be used; only a new
-     *         valid Google account is required. Data from any of your existing
-     * networks will not be
-     *         transferred to the new test network. Additionally, each login
-     * can only have one
-     *         test network. Once the test network is created, the test network
-     * can be used in
-     *         the API by supplying the {@link Network#networkCode} in the
-     * SOAP header or by
+     *         <p>
+     *         Each login(i.e. email address) can only have one test network.
+     * Data from
+     *         any of your existing networks will not be transferred to the
+     * new test network.
+     *         Once the test network is created, the test network can be
+     * used in the API
+     *         by supplying the {@link Network#networkCode} in the SOAP header
+     * or by
      *         logging into the DFP UI.
      *         <p>
      *         Test networks are limited in the following ways:

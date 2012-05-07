@@ -22,7 +22,9 @@ public interface SuggestedAdUnitServiceInterface extends java.rmi.Remote {
     /**
      * Gets a {@link SuggestedAdUnitPage} of {@link SuggestedAdUnit}
      * objects that
-     *         satisfy the filter query.
+     *         satisfy the filter query.  There is a system-enforced limit
+     * of 1000 on the number of suggested
+     *         ad units that are suggested at any one time.
      *         
      *         <table>
      *         <tr>
