@@ -31,10 +31,16 @@ public class CustomField  implements java.io.Serializable {
      * attribute is read-only. */
     private java.lang.Boolean isActive;
 
-    /* The type of entity that this custom field is associated with. */
+    /* The type of entity that this custom field is associated with.
+     * This attribute is read-only
+     *                 if there exists a {@link CustomFieldValue} for this
+     * field. */
     private com.google.api.ads.dfp.v201204.CustomFieldEntityType entityType;
 
-    /* The type of data this custom field contains. */
+    /* The type of data this custom field contains. This attribute
+     * is read-only
+     *                 if there exists a {@link CustomFieldValue} for this
+     * field. */
     private com.google.api.ads.dfp.v201204.CustomFieldDataType dataType;
 
     /* How visible/accessible this field is in the UI. */
@@ -167,6 +173,9 @@ public class CustomField  implements java.io.Serializable {
      * Gets the entityType value for this CustomField.
      * 
      * @return entityType   * The type of entity that this custom field is associated with.
+     * This attribute is read-only
+     *                 if there exists a {@link CustomFieldValue} for this
+     * field.
      */
     public com.google.api.ads.dfp.v201204.CustomFieldEntityType getEntityType() {
         return entityType;
@@ -177,6 +186,9 @@ public class CustomField  implements java.io.Serializable {
      * Sets the entityType value for this CustomField.
      * 
      * @param entityType   * The type of entity that this custom field is associated with.
+     * This attribute is read-only
+     *                 if there exists a {@link CustomFieldValue} for this
+     * field.
      */
     public void setEntityType(com.google.api.ads.dfp.v201204.CustomFieldEntityType entityType) {
         this.entityType = entityType;
@@ -186,7 +198,10 @@ public class CustomField  implements java.io.Serializable {
     /**
      * Gets the dataType value for this CustomField.
      * 
-     * @return dataType   * The type of data this custom field contains.
+     * @return dataType   * The type of data this custom field contains. This attribute
+     * is read-only
+     *                 if there exists a {@link CustomFieldValue} for this
+     * field.
      */
     public com.google.api.ads.dfp.v201204.CustomFieldDataType getDataType() {
         return dataType;
@@ -196,7 +211,10 @@ public class CustomField  implements java.io.Serializable {
     /**
      * Sets the dataType value for this CustomField.
      * 
-     * @param dataType   * The type of data this custom field contains.
+     * @param dataType   * The type of data this custom field contains. This attribute
+     * is read-only
+     *                 if there exists a {@link CustomFieldValue} for this
+     * field.
      */
     public void setDataType(com.google.api.ads.dfp.v201204.CustomFieldDataType dataType) {
         this.dataType = dataType;

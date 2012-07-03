@@ -322,6 +322,20 @@ public class LineItemCreativeAssociationServiceSoapBindingStub extends org.apach
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201201", "CreativeAssetMacroError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201201.CreativeAssetMacroError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201201", "CreativeAssetMacroError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201201.CreativeAssetMacroErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201201", "CreativeError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201201.CreativeError.class;
@@ -343,9 +357,37 @@ public class LineItemCreativeAssociationServiceSoapBindingStub extends org.apach
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201201", "CreativeSetError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201201.CreativeSetError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201201", "CreativeSetError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201201.CreativeSetErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201201", "CreativeSizeType");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201201.CreativeSizeType.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201201", "CustomCreativeError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201201.CustomCreativeError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201201", "CustomCreativeError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201201.CustomCreativeErrorReason.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
@@ -430,6 +472,20 @@ public class LineItemCreativeAssociationServiceSoapBindingStub extends org.apach
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201201", "InvalidUrlError.Reason");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201201.InvalidUrlErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201201", "LabelEntityAssociationError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201201.LabelEntityAssociationError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201201", "LabelEntityAssociationError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201201.LabelEntityAssociationErrorReason.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
@@ -735,6 +791,20 @@ public class LineItemCreativeAssociationServiceSoapBindingStub extends org.apach
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201201", "StringLengthError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201201.StringLengthError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201201", "StringLengthError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201201.StringLengthErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201201", "TemplateInstantiatedCreativeError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201201.TemplateInstantiatedCreativeError.class;
@@ -759,6 +829,13 @@ public class LineItemCreativeAssociationServiceSoapBindingStub extends org.apach
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201201", "TypeError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201201.TypeError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201201", "UniqueError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201201.UniqueError.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);

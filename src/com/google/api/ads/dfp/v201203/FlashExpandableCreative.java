@@ -12,7 +12,7 @@ package com.google.api.ads.dfp.v201203;
  * An expandable {@code Creative} where the collapsed size is a Flash
  * SWF file and
  *             the expanded size is another Flash SWF file. If Flash
- * isn?t supported in the browser,
+ * isn't supported in the browser,
  *             the fallback image will be used.
  *             <p>
  *             This creative will not work with iframe ad tags.

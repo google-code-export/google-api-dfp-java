@@ -220,7 +220,7 @@ This invokes the default behavior as described below:
 
   - REQUEST_INFO_LOG: Logs all requests from the client library along
     with information such as the timestamp, email, service, method,
-    request Id, response time and whether the sandbox was used. The default
+    request Id, response time and what environment was used. The default
     behavior is to log this information to "logs/request_info.log" relative to
     your project's home directory.
 

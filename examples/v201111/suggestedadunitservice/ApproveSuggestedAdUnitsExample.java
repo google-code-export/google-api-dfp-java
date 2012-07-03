@@ -23,7 +23,7 @@ import com.google.api.ads.dfp.v201111.Statement;
 import com.google.api.ads.dfp.v201111.SuggestedAdUnit;
 import com.google.api.ads.dfp.v201111.SuggestedAdUnitPage;
 import com.google.api.ads.dfp.v201111.SuggestedAdUnitServiceInterface;
-import com.google.api.ads.dfp.v201111.UpdateResult;
+import com.google.api.ads.dfp.v201111.SuggestedAdUnitUpdateResult;
 
 import org.apache.commons.lang.StringUtils;
 
@@ -100,7 +100,7 @@ public class ApproveSuggestedAdUnitsExample {
         ApproveSuggestedAdUnit action = new ApproveSuggestedAdUnit();
 
         // Perform action.
-        UpdateResult result =
+        SuggestedAdUnitUpdateResult result =
             suggestedAdUnitService.performSuggestedAdUnitAction(action, filterStatement);
 
         // Display results.

@@ -46,7 +46,7 @@ public class ServiceAccountant {
   /**
    * Constructor to set the {@code user} of the service accountant which will
    * be used to record properties such as the effective client and the
-   * environment (production or sandbox) that the request went against.
+   * environment that the request went against.
    *
    * @param user the {@link DfpUser} to attach to this
    *     {@code ServiceAccountant}

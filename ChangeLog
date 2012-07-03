@@ -1,3 +1,12 @@
+2.13.0:
+- Added support for v201206.
+- Updated auto-generated code for versions pre-v201206.
+- Updated ApproveSuggestedAdUnitsExamples to use new
+  SuggestedAdUnitUpdateResult.
+- Changed user-agent format.
+- Removed all references to Sandbox environment (turned off 7/2/2012). Test
+  networks should now be used instead.
+
 2.12.0:
 - Added support for v201204.
 

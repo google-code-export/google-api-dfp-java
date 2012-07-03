@@ -19,9 +19,11 @@ public class ConversionEvent implements java.io.Serializable {
 
     public static final java.lang.String _CREATIVE_VIEW = "CREATIVE_VIEW";
     public static final java.lang.String _START = "START";
+    public static final java.lang.String _SKIP_SHOWN = "SKIP_SHOWN";
     public static final java.lang.String _FIRST_QUARTILE = "FIRST_QUARTILE";
     public static final java.lang.String _MIDPOINT = "MIDPOINT";
     public static final java.lang.String _THIRD_QUARTILE = "THIRD_QUARTILE";
+    public static final java.lang.String _ENGAGED_VIEW = "ENGAGED_VIEW";
     public static final java.lang.String _COMPLETE = "COMPLETE";
     public static final java.lang.String _MUTE = "MUTE";
     public static final java.lang.String _UNMUTE = "UNMUTE";
@@ -29,7 +31,6 @@ public class ConversionEvent implements java.io.Serializable {
     public static final java.lang.String _REWIND = "REWIND";
     public static final java.lang.String _RESUME = "RESUME";
     public static final java.lang.String _SKIPPED = "SKIPPED";
-    public static final java.lang.String _ENGAGED_VIEW = "ENGAGED_VIEW";
     public static final java.lang.String _FULLSCREEN = "FULLSCREEN";
     public static final java.lang.String _EXPAND = "EXPAND";
     public static final java.lang.String _COLLAPSE = "COLLAPSE";
@@ -40,9 +41,11 @@ public class ConversionEvent implements java.io.Serializable {
     public static final java.lang.String _CUSTOM_CLICK = "CUSTOM_CLICK";
     public static final ConversionEvent CREATIVE_VIEW = new ConversionEvent(_CREATIVE_VIEW);
     public static final ConversionEvent START = new ConversionEvent(_START);
+    public static final ConversionEvent SKIP_SHOWN = new ConversionEvent(_SKIP_SHOWN);
     public static final ConversionEvent FIRST_QUARTILE = new ConversionEvent(_FIRST_QUARTILE);
     public static final ConversionEvent MIDPOINT = new ConversionEvent(_MIDPOINT);
     public static final ConversionEvent THIRD_QUARTILE = new ConversionEvent(_THIRD_QUARTILE);
+    public static final ConversionEvent ENGAGED_VIEW = new ConversionEvent(_ENGAGED_VIEW);
     public static final ConversionEvent COMPLETE = new ConversionEvent(_COMPLETE);
     public static final ConversionEvent MUTE = new ConversionEvent(_MUTE);
     public static final ConversionEvent UNMUTE = new ConversionEvent(_UNMUTE);
@@ -50,7 +53,6 @@ public class ConversionEvent implements java.io.Serializable {
     public static final ConversionEvent REWIND = new ConversionEvent(_REWIND);
     public static final ConversionEvent RESUME = new ConversionEvent(_RESUME);
     public static final ConversionEvent SKIPPED = new ConversionEvent(_SKIPPED);
-    public static final ConversionEvent ENGAGED_VIEW = new ConversionEvent(_ENGAGED_VIEW);
     public static final ConversionEvent FULLSCREEN = new ConversionEvent(_FULLSCREEN);
     public static final ConversionEvent EXPAND = new ConversionEvent(_EXPAND);
     public static final ConversionEvent COLLAPSE = new ConversionEvent(_COLLAPSE);

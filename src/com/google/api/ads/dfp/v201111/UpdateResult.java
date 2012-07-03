@@ -17,20 +17,12 @@ public class UpdateResult  implements java.io.Serializable {
      *                 action. */
     private java.lang.Integer numChanges;
 
-    /* Indicates that this instance is a subtype of UpdateResult.
-     *                 Although this field is returned in the response, it
-     * is ignored on input
-     *                 and cannot be selected. Specify xsi:type instead. */
-    private java.lang.String updateResultType;
-
     public UpdateResult() {
     }
 
     public UpdateResult(
-           java.lang.Integer numChanges,
-           java.lang.String updateResultType) {
+           java.lang.Integer numChanges) {
            this.numChanges = numChanges;
-           this.updateResultType = updateResultType;
     }
 
 
@@ -57,32 +49,6 @@ public class UpdateResult  implements java.io.Serializable {
         this.numChanges = numChanges;
     }
 
-
-    /**
-     * Gets the updateResultType value for this UpdateResult.
-     * 
-     * @return updateResultType   * Indicates that this instance is a subtype of UpdateResult.
-     *                 Although this field is returned in the response, it
-     * is ignored on input
-     *                 and cannot be selected. Specify xsi:type instead.
-     */
-    public java.lang.String getUpdateResultType() {
-        return updateResultType;
-    }
-
-
-    /**
-     * Sets the updateResultType value for this UpdateResult.
-     * 
-     * @param updateResultType   * Indicates that this instance is a subtype of UpdateResult.
-     *                 Although this field is returned in the response, it
-     * is ignored on input
-     *                 and cannot be selected. Specify xsi:type instead.
-     */
-    public void setUpdateResultType(java.lang.String updateResultType) {
-        this.updateResultType = updateResultType;
-    }
-
     private java.lang.Object __equalsCalc = null;
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof UpdateResult)) return false;
@@ -97,10 +63,7 @@ public class UpdateResult  implements java.io.Serializable {
         _equals = true && 
             ((this.numChanges==null && other.getNumChanges()==null) || 
              (this.numChanges!=null &&
-              this.numChanges.equals(other.getNumChanges()))) &&
-            ((this.updateResultType==null && other.getUpdateResultType()==null) || 
-             (this.updateResultType!=null &&
-              this.updateResultType.equals(other.getUpdateResultType())));
+              this.numChanges.equals(other.getNumChanges())));
         __equalsCalc = null;
         return _equals;
     }
@@ -114,9 +77,6 @@ public class UpdateResult  implements java.io.Serializable {
         int _hashCode = 1;
         if (getNumChanges() != null) {
             _hashCode += getNumChanges().hashCode();
-        }
-        if (getUpdateResultType() != null) {
-            _hashCode += getUpdateResultType().hashCode();
         }
         __hashCodeCalc = false;
         return _hashCode;
@@ -132,13 +92,6 @@ public class UpdateResult  implements java.io.Serializable {
         elemField.setFieldName("numChanges");
         elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "numChanges"));
         elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "int"));
-        elemField.setMinOccurs(0);
-        elemField.setNillable(false);
-        typeDesc.addFieldDesc(elemField);
-        elemField = new org.apache.axis.description.ElementDesc();
-        elemField.setFieldName("updateResultType");
-        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "UpdateResult.Type"));
-        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
         elemField.setMinOccurs(0);
         elemField.setNillable(false);
         typeDesc.addFieldDesc(elemField);

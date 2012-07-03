@@ -51,8 +51,8 @@ public class UpdateTeamsExample {
       // Set the ID of the ad unit to add to the teams.
       String adUnitId = "INSERT_AD_UNIT_ID_HERE";
 
-      // Create a statement to select first 5 teams.
-      Statement filterStatement = new StatementBuilder("LIMIT 5").toStatement();
+      // Create a statement to select first 5 teams that aren't built-in.
+      Statement filterStatement = new StatementBuilder("WHERE id > 0 LIMIT 5").toStatement();
 
       // Get the teams by statement.
       TeamPage page = teamService.getTeamsByStatement(filterStatement);

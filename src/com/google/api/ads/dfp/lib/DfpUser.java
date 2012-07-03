@@ -28,7 +28,7 @@ import javax.xml.rpc.ServiceException;
  * way in which a service is generated is performed as:
  * <p>
  * <code>DfpUser user =
- *     new DfpUser(email, password, networkCode, applicationName, false);
+ *     new DfpUser(email, password, networkCode, applicationName);
  * </code><br/>
  * <code>ServiceInterface service = user.getService(DfpService.version.serviceName);</code>
  * <p>
@@ -36,9 +36,9 @@ import javax.xml.rpc.ServiceException;
  * {@code DfpService.version.serviceName} or else a
  * {@code ServiceException} will be thrown. For example, if you wished to
  * get the service {@code InventoryService} and you referenced this service by
- * {@code DfpService.v201203.INVENTORY_SERVICE}, your import of
+ * {@code DfpService.v201206.INVENTORY_SERVICE}, your import of
  * {@code InventoryServiceInterface} should be from the package
- * {@code com.google.api.ads.dfp.v201203}.
+ * {@code com.google.api.ads.dfp.v201206}.
  *
  * @author api.arogal@gmail.com (Adam Rogal)
  */
@@ -54,6 +54,7 @@ public class DfpUser {
 
   private static String libName;
   private static String libVersion;
+  private static String soapToolkitNameAndVersion;
 
   private static final String USE_CLASSPATH_CLIENT_CONFIG_PROPERTY =
       "com.google.api.ads.dfp.lib.useclasspathclientconfig";
@@ -65,6 +66,7 @@ public class DfpUser {
   {
     loadBuildProperties();
     loadSystemProperties();
+    loadSoapToolkitProperties();
   }
 
   private final String email;
@@ -75,46 +77,18 @@ public class DfpUser {
   private String authToken = null;
 
   /**
-   * @deprecated useSandbox is no longer preferred. Create a test network
-   *     using NetworkService.makeTestNetwork instead.
-   */
-  private Boolean useSandbox;
-
-  /**
    * Constructor.
    *
    * @param email the email address of the user
    * @param password the password
    * @param networkCode the network code the login belongs to
    * @param applicationName the application name
-   * @param useSandbox {@code true} if the Sandbox should be used
-   * @deprecated useSandbox is no longer preferred. Create a test network
-   *     using NetworkService.makeTestNetwork instead.
    */
-  public DfpUser(String email, String password,
-      String networkCode, String applicationName, boolean useSandbox) {
+  public DfpUser(String email, String password, String networkCode, String applicationName) {
     this.email = email;
     this.password = password;
     this.networkCode = networkCode;
     this.applicationName = applicationName;
-    this.useSandbox = useSandbox;
-    if (useSandbox) {
-      System.err.println("The DFP API sandbox is now deprecated. " +
-          "Create a test network using NetworkService.makeTestNetwork instead.");
-    }
-  }
-
-  /**
-   * Constructor.
-   *
-   * @param email the email address of the user
-   * @param password the password
-   * @param networkCode the network code the login belongs to
-   * @param applicationName the application name
-   */
-  public DfpUser(String email, String password,
-      String networkCode, String applicationName) {
-    this(email, password, networkCode, applicationName, false);
   }
 
   /**
@@ -126,7 +100,7 @@ public class DfpUser {
    * @param applicationName the application name
    */
   public DfpUser(String email, String password, String applicationName) {
-    this(email, password, null, applicationName, false);
+    this(email, password, null, applicationName);
   }
 
   /**
@@ -155,8 +129,8 @@ public class DfpUser {
    * Creates <code>DfpUser</code> with properties from given
    * <code>Properties</code>.</p>
    * <br><br>
-   * The <code>Properties</code> may contain email, password, networkCode,
-   * applicationName, and useSandbox.
+   * The <code>Properties</code> may contain email, password, networkCode, and
+   * applicationName.
    *
    * @param properties the {@code Map} object containing the constructor
    *                   parameters
@@ -165,9 +139,7 @@ public class DfpUser {
     this((String) properties.get("email"),
          (String) properties.get("password"),
          (String) properties.get("networkCode"),
-         (String) properties.get("applicationName"),
-         (properties.get("useSandbox") == null) ? false
-             : ((String) properties.get("useSandbox")).equalsIgnoreCase("true"));
+         (String) properties.get("applicationName"));
   }
 
   /**
@@ -192,8 +164,7 @@ public class DfpUser {
   public <T extends java.rmi.Remote> T getService(DfpService service)
       throws ServiceException {
     try {
-      return (T) DfpServiceFactory.generateSerivceStub(service, this,
-          service.getEndpointServer(this.isUsingSandbox()));
+      return (T) DfpServiceFactory.generateSerivceStub(service, this, service.getEndpointServer());
     } catch (ClassCastException e) {
       throw new ServiceException("Cannot cast serivce. Check the type of return-capture variable.",
           e);
@@ -263,29 +234,6 @@ public class DfpUser {
   }
 
   /**
-   * Returns {@code true} if the user is using the sandbox.
-   *
-   * @return {@code true} if the user is using the sandbox
-   * @deprecated useSandbox is no longer preferred. Create a test network
-   *     using NetworkService.makeTestNetwork instead.
-   */
-  public boolean isUsingSandbox() {
-    return useSandbox;
-  }
-
-  /**
-   * Sets whether all future services will be generated to use the sandbox.
-   *
-   * @param useSandbox {@code true} if all future services will be generated
-   *     to use the sandbox
-   * @deprecated useSandbox is no longer preferred. Create a test network
-   *     using NetworkService.makeTestNetwork instead.
-   */
-  public void useSandbox(boolean useSandbox) {
-    this.useSandbox = useSandbox;
-  }
-
-  /**
    * Gets the registered authentication token associated with this user. This
    * method does not generate a new authentication token; use the
    * {@link AuthToken#getAuthToken()} method to do this. This can be
@@ -339,7 +287,8 @@ public class DfpUser {
    * @return the client library identifier used for user-agent fields
    */
   public String getClientLibraryIdentifier() {
-    return libName + "-" + libVersion + "-" + applicationName;
+    return applicationName + " (" + libName + "/" + libVersion + ", " + soapToolkitNameAndVersion
+        + ", " + "Java/" + System.getProperty("java.version") + ", legacy)";
   }
 
   /**
@@ -386,6 +335,21 @@ public class DfpUser {
     DfpUser.libName = libPrefix + "-" + libPostfix
         + (libExtName.equals("") ? libExtName : "-" + libExtName + "-");
     DfpUser.libVersion = libVersion + libExtVersion;
+  }
+
+  /**
+   * Loads the soap toolkit properties statically.
+   */
+  private static void loadSoapToolkitProperties() {
+    Properties properties = new Properties();
+    try {
+      properties = loadResourcePropertiesFile("org/apache/axis/i18n/resource.properties");
+    } catch (IOException e) {
+      DfpServiceLogger.DFP_API_LIB_LOG.error("Could not load axis properties file.");
+    }
+
+    soapToolkitNameAndVersion = (properties.containsKey("axisUserAgent"))
+        ? properties.getProperty("axisUserAgent") : "";
   }
 
   /**

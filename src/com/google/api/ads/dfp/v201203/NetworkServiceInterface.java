@@ -60,6 +60,8 @@ public interface NetworkServiceInterface extends java.rmi.Remote {
      *         premium features. To have additional features turned on, please
      * contact your
      *         account manager. </li>
+     *         <li>Test networks are limited to 10,000 objects per entity
+     * type.</li>
      *         </ul>
      *         </p>
      */

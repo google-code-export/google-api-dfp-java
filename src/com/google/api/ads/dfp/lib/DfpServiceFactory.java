@@ -119,7 +119,7 @@ public final class DfpServiceFactory {
    * @throws ServiceException if stub could not be generated
    */
   public static Stub generateSerivceStub(DfpService service, DfpUser user) throws ServiceException {
-    return generateSerivceStub(service, user, service.getEndpointServer(user.isUsingSandbox()));
+    return generateSerivceStub(service, user, service.getEndpointServer());
   }
 
   /**

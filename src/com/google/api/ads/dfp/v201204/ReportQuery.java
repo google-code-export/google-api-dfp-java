@@ -87,6 +87,10 @@ public class ReportQuery  implements java.io.Serializable {
      * a {@link Dimension} that
      *                 can be filtered.
      *                 <p>
+     *                 For example, the statement "WHERE LINE_ITEM_ID IN
+     * (34344, 23235)" can be used
+     *                 to generate a report for a specific set of line items
+     * <p>
      *                 Filtering on IDs is highly recommended over filtering
      * on names, especially
      *                 for geographical entities. When filtering on names,
@@ -389,6 +393,10 @@ public class ReportQuery  implements java.io.Serializable {
      * a {@link Dimension} that
      *                 can be filtered.
      *                 <p>
+     *                 For example, the statement "WHERE LINE_ITEM_ID IN
+     * (34344, 23235)" can be used
+     *                 to generate a report for a specific set of line items
+     * <p>
      *                 Filtering on IDs is highly recommended over filtering
      * on names, especially
      *                 for geographical entities. When filtering on names,
@@ -426,6 +434,10 @@ public class ReportQuery  implements java.io.Serializable {
      * a {@link Dimension} that
      *                 can be filtered.
      *                 <p>
+     *                 For example, the statement "WHERE LINE_ITEM_ID IN
+     * (34344, 23235)" can be used
+     *                 to generate a report for a specific set of line items
+     * <p>
      *                 Filtering on IDs is highly recommended over filtering
      * on names, especially
      *                 for geographical entities. When filtering on names,

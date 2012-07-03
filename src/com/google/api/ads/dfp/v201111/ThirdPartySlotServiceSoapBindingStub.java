@@ -311,6 +311,34 @@ public class ThirdPartySlotServiceSoapBindingStub extends org.apache.axis.client
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "PublisherQueryLanguageContextError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201111.PublisherQueryLanguageContextError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "PublisherQueryLanguageContextError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201111.PublisherQueryLanguageContextErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "PublisherQueryLanguageSyntaxError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201111.PublisherQueryLanguageSyntaxError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "PublisherQueryLanguageSyntaxError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201111.PublisherQueryLanguageSyntaxErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "QuotaError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201111.QuotaError.class;
@@ -373,6 +401,20 @@ public class ThirdPartySlotServiceSoapBindingStub extends org.apache.axis.client
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "StatementError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201111.StatementError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "StatementError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201111.StatementErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201111", "String_ValueMapEntry");
             cachedSerQNames.add(qName);
