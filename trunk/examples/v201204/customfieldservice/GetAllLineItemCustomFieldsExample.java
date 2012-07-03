@@ -82,6 +82,8 @@ public class GetAllLineItemCustomFieldsExample {
 
         offset += 500;
       } while (offset < page.getTotalResultSetSize());
+
+      System.out.println("Number of results found: " + page.getTotalResultSetSize());
     } catch (Exception e) {
       e.printStackTrace();
     }

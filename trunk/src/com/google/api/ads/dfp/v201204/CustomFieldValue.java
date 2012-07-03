@@ -21,8 +21,8 @@ public class CustomFieldValue  extends com.google.api.ads.dfp.v201204.BaseCustom
      *                     that this conforms to.
      *                     
      *                     <table>
-     *                     <th><td>{@link CustomFieldDataType}</td><td>{@link
-     * Value} type</td></th>
+     *                     <tr><th>{@link CustomFieldDataType}</th><th>{@link
+     * Value} type</th></tr>
      *                     <tr><td>{@link CustomFieldDataType#STRING STRING}</td><td>{@link
      * TextValue}</td></tr>
      *                     <tr><td>{@link CustomFieldDataType#NUMBER NUMBER}</td><td>{@link
@@ -56,8 +56,8 @@ public class CustomFieldValue  extends com.google.api.ads.dfp.v201204.BaseCustom
      *                     that this conforms to.
      *                     
      *                     <table>
-     *                     <th><td>{@link CustomFieldDataType}</td><td>{@link
-     * Value} type</td></th>
+     *                     <tr><th>{@link CustomFieldDataType}</th><th>{@link
+     * Value} type</th></tr>
      *                     <tr><td>{@link CustomFieldDataType#STRING STRING}</td><td>{@link
      * TextValue}</td></tr>
      *                     <tr><td>{@link CustomFieldDataType#NUMBER NUMBER}</td><td>{@link
@@ -81,8 +81,8 @@ public class CustomFieldValue  extends com.google.api.ads.dfp.v201204.BaseCustom
      *                     that this conforms to.
      *                     
      *                     <table>
-     *                     <th><td>{@link CustomFieldDataType}</td><td>{@link
-     * Value} type</td></th>
+     *                     <tr><th>{@link CustomFieldDataType}</th><th>{@link
+     * Value} type</th></tr>
      *                     <tr><td>{@link CustomFieldDataType#STRING STRING}</td><td>{@link
      * TextValue}</td></tr>
      *                     <tr><td>{@link CustomFieldDataType#NUMBER NUMBER}</td><td>{@link

@@ -17,7 +17,8 @@ package com.google.api.ads.dfp.v201203;
 public class Team  implements java.io.Serializable {
     /* The unique ID of the {@code Team}. This value is readonly and
      * is assigned
-     *                 by Google. */
+     *                 by Google. Teams that are created by Google will have
+     * negative IDs. */
     private java.lang.Long id;
 
     /* The name of the {@code Team}. This value is required to create
@@ -80,7 +81,8 @@ public class Team  implements java.io.Serializable {
      * 
      * @return id   * The unique ID of the {@code Team}. This value is readonly and
      * is assigned
-     *                 by Google.
+     *                 by Google. Teams that are created by Google will have
+     * negative IDs.
      */
     public java.lang.Long getId() {
         return id;
@@ -92,7 +94,8 @@ public class Team  implements java.io.Serializable {
      * 
      * @param id   * The unique ID of the {@code Team}. This value is readonly and
      * is assigned
-     *                 by Google.
+     *                 by Google. Teams that are created by Google will have
+     * negative IDs.
      */
     public void setId(java.lang.Long id) {
         this.id = id;

@@ -30,12 +30,14 @@ public class UserRecord  implements java.io.Serializable {
      * Account</a>. */
     private java.lang.String email;
 
-    /* The unique role ID of the {@code User}. This attribute is optional. */
+    /* The unique role ID of the {@code User}. Roles that are created
+     * by Google
+     *                 will have negative IDs. */
     private java.lang.Long roleId;
 
     /* The name of the role assigned to the {@code User}. This attribute
      * is
-     *                 readonly and is assigned by Google. */
+     *                 readonly. */
     private java.lang.String roleName;
 
     /* Determines the preferred language and format of data for the
@@ -149,7 +151,9 @@ public class UserRecord  implements java.io.Serializable {
     /**
      * Gets the roleId value for this UserRecord.
      * 
-     * @return roleId   * The unique role ID of the {@code User}. This attribute is optional.
+     * @return roleId   * The unique role ID of the {@code User}. Roles that are created
+     * by Google
+     *                 will have negative IDs.
      */
     public java.lang.Long getRoleId() {
         return roleId;
@@ -159,7 +163,9 @@ public class UserRecord  implements java.io.Serializable {
     /**
      * Sets the roleId value for this UserRecord.
      * 
-     * @param roleId   * The unique role ID of the {@code User}. This attribute is optional.
+     * @param roleId   * The unique role ID of the {@code User}. Roles that are created
+     * by Google
+     *                 will have negative IDs.
      */
     public void setRoleId(java.lang.Long roleId) {
         this.roleId = roleId;
@@ -171,7 +177,7 @@ public class UserRecord  implements java.io.Serializable {
      * 
      * @return roleName   * The name of the role assigned to the {@code User}. This attribute
      * is
-     *                 readonly and is assigned by Google.
+     *                 readonly.
      */
     public java.lang.String getRoleName() {
         return roleName;
@@ -183,7 +189,7 @@ public class UserRecord  implements java.io.Serializable {
      * 
      * @param roleName   * The name of the role assigned to the {@code User}. This attribute
      * is
-     *                 readonly and is assigned by Google.
+     *                 readonly.
      */
     public void setRoleName(java.lang.String roleName) {
         this.roleName = roleName;

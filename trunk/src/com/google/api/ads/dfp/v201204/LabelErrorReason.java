@@ -18,7 +18,9 @@ public class LabelErrorReason implements java.io.Serializable {
     }
 
     public static final java.lang.String _INVALID_PREFIX = "INVALID_PREFIX";
+    public static final java.lang.String _NAME_INVALID_CHARS = "NAME_INVALID_CHARS";
     public static final LabelErrorReason INVALID_PREFIX = new LabelErrorReason(_INVALID_PREFIX);
+    public static final LabelErrorReason NAME_INVALID_CHARS = new LabelErrorReason(_NAME_INVALID_CHARS);
     public java.lang.String getValue() { return _value_;}
     public static LabelErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

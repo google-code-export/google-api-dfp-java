@@ -40,7 +40,7 @@ public class SuggestedAdUnit  implements java.io.Serializable {
     private com.google.api.ads.dfp.v201201.AdUnitTargetWindow targetWindow;
 
     /* The target platform for the browser that clicked the underlying
-     * ad tag.  This field is
+     * ad tag. This field is
      *                 read-only. */
     private com.google.api.ads.dfp.v201201.TargetPlatform targetPlatform;
 
@@ -181,7 +181,7 @@ public class SuggestedAdUnit  implements java.io.Serializable {
      * Gets the targetPlatform value for this SuggestedAdUnit.
      * 
      * @return targetPlatform   * The target platform for the browser that clicked the underlying
-     * ad tag.  This field is
+     * ad tag. This field is
      *                 read-only.
      */
     public com.google.api.ads.dfp.v201201.TargetPlatform getTargetPlatform() {
@@ -193,7 +193,7 @@ public class SuggestedAdUnit  implements java.io.Serializable {
      * Sets the targetPlatform value for this SuggestedAdUnit.
      * 
      * @param targetPlatform   * The target platform for the browser that clicked the underlying
-     * ad tag.  This field is
+     * ad tag. This field is
      *                 read-only.
      */
     public void setTargetPlatform(com.google.api.ads.dfp.v201201.TargetPlatform targetPlatform) {

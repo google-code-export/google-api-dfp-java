@@ -23,7 +23,7 @@ import com.google.api.ads.dfp.v201201.Statement;
 import com.google.api.ads.dfp.v201201.SuggestedAdUnit;
 import com.google.api.ads.dfp.v201201.SuggestedAdUnitPage;
 import com.google.api.ads.dfp.v201201.SuggestedAdUnitServiceInterface;
-import com.google.api.ads.dfp.v201201.UpdateResult;
+import com.google.api.ads.dfp.v201201.SuggestedAdUnitUpdateResult;
 
 /**
  * This code example approves all suggested ad units with 50 or more requests.
@@ -74,7 +74,7 @@ public class ApproveSuggestedAdUnitsExample {
         ApproveSuggestedAdUnit action = new ApproveSuggestedAdUnit();
 
         // Perform action.
-        UpdateResult result =
+        SuggestedAdUnitUpdateResult result =
             suggestedAdUnitService.performSuggestedAdUnitAction(action, filterStatement);
 
         // Display results.

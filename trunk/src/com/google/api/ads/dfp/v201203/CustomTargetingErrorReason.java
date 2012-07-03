@@ -44,6 +44,7 @@ public class CustomTargetingErrorReason implements java.io.Serializable {
     public static final java.lang.String _CANNOT_TARGET_AUDIENCE_SEGMENT = "CANNOT_TARGET_AUDIENCE_SEGMENT";
     public static final java.lang.String _CANNOT_TARGET_INACTIVE_AUDIENCE_SEGMENT = "CANNOT_TARGET_INACTIVE_AUDIENCE_SEGMENT";
     public static final java.lang.String _INVALID_AUDIENCE_SEGMENTS = "INVALID_AUDIENCE_SEGMENTS";
+    public static final java.lang.String _ONLY_APPROVED_AUDIENCE_SEGMENTS_CAN_BE_TARGETED = "ONLY_APPROVED_AUDIENCE_SEGMENTS_CAN_BE_TARGETED";
     public static final CustomTargetingErrorReason KEY_NOT_FOUND = new CustomTargetingErrorReason(_KEY_NOT_FOUND);
     public static final CustomTargetingErrorReason KEY_COUNT_TOO_LARGE = new CustomTargetingErrorReason(_KEY_COUNT_TOO_LARGE);
     public static final CustomTargetingErrorReason KEY_NAME_DUPLICATE = new CustomTargetingErrorReason(_KEY_NAME_DUPLICATE);
@@ -71,6 +72,7 @@ public class CustomTargetingErrorReason implements java.io.Serializable {
     public static final CustomTargetingErrorReason CANNOT_TARGET_AUDIENCE_SEGMENT = new CustomTargetingErrorReason(_CANNOT_TARGET_AUDIENCE_SEGMENT);
     public static final CustomTargetingErrorReason CANNOT_TARGET_INACTIVE_AUDIENCE_SEGMENT = new CustomTargetingErrorReason(_CANNOT_TARGET_INACTIVE_AUDIENCE_SEGMENT);
     public static final CustomTargetingErrorReason INVALID_AUDIENCE_SEGMENTS = new CustomTargetingErrorReason(_INVALID_AUDIENCE_SEGMENTS);
+    public static final CustomTargetingErrorReason ONLY_APPROVED_AUDIENCE_SEGMENTS_CAN_BE_TARGETED = new CustomTargetingErrorReason(_ONLY_APPROVED_AUDIENCE_SEGMENTS_CAN_BE_TARGETED);
     public java.lang.String getValue() { return _value_;}
     public static CustomTargetingErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

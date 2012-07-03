@@ -164,8 +164,8 @@ public class StatementBuilder {
    *     {@code Value}
    */
   public StatementBuilder putAll(Map<String, Object> values) throws IllegalArgumentException {
-    for (Entry<String, Object> Value : values.entrySet()) {
-      putValue(Value.getKey(), createValue(Value.getValue()));
+    for (Entry<String, Object> value : values.entrySet()) {
+      putValue(value.getKey(), createValue(value.getValue()));
     }
     return this;
   }

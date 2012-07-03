@@ -12,23 +12,25 @@ package com.google.api.ads.dfp.v201204;
  * Represents the result of performing an action on {@link SuggestedAdUnit}
  * objects.
  */
-public class SuggestedAdUnitUpdateResult  extends com.google.api.ads.dfp.v201204.UpdateResult  implements java.io.Serializable {
+public class SuggestedAdUnitUpdateResult  implements java.io.Serializable {
     /* The ids of the {@link AdUnit} objects that were created in
      * response to a
-     *                     performSuggestedAdUnitAction call. */
+     *                 performSuggestedAdUnitAction call. */
     private java.lang.String[] newAdUnitIds;
+
+    /* The number of objects that were changed as a result of performing
+     * the
+     *                 action. */
+    private java.lang.Integer numChanges;
 
     public SuggestedAdUnitUpdateResult() {
     }
 
     public SuggestedAdUnitUpdateResult(
-           java.lang.Integer numChanges,
-           java.lang.String updateResultType,
-           java.lang.String[] newAdUnitIds) {
-        super(
-            numChanges,
-            updateResultType);
-        this.newAdUnitIds = newAdUnitIds;
+           java.lang.String[] newAdUnitIds,
+           java.lang.Integer numChanges) {
+           this.newAdUnitIds = newAdUnitIds;
+           this.numChanges = numChanges;
     }
 
 
@@ -37,7 +39,7 @@ public class SuggestedAdUnitUpdateResult  extends com.google.api.ads.dfp.v201204
      * 
      * @return newAdUnitIds   * The ids of the {@link AdUnit} objects that were created in
      * response to a
-     *                     performSuggestedAdUnitAction call.
+     *                 performSuggestedAdUnitAction call.
      */
     public java.lang.String[] getNewAdUnitIds() {
         return newAdUnitIds;
@@ -49,7 +51,7 @@ public class SuggestedAdUnitUpdateResult  extends com.google.api.ads.dfp.v201204
      * 
      * @param newAdUnitIds   * The ids of the {@link AdUnit} objects that were created in
      * response to a
-     *                     performSuggestedAdUnitAction call.
+     *                 performSuggestedAdUnitAction call.
      */
     public void setNewAdUnitIds(java.lang.String[] newAdUnitIds) {
         this.newAdUnitIds = newAdUnitIds;
@@ -63,6 +65,30 @@ public class SuggestedAdUnitUpdateResult  extends com.google.api.ads.dfp.v201204
         this.newAdUnitIds[i] = _value;
     }
 
+
+    /**
+     * Gets the numChanges value for this SuggestedAdUnitUpdateResult.
+     * 
+     * @return numChanges   * The number of objects that were changed as a result of performing
+     * the
+     *                 action.
+     */
+    public java.lang.Integer getNumChanges() {
+        return numChanges;
+    }
+
+
+    /**
+     * Sets the numChanges value for this SuggestedAdUnitUpdateResult.
+     * 
+     * @param numChanges   * The number of objects that were changed as a result of performing
+     * the
+     *                 action.
+     */
+    public void setNumChanges(java.lang.Integer numChanges) {
+        this.numChanges = numChanges;
+    }
+
     private java.lang.Object __equalsCalc = null;
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof SuggestedAdUnitUpdateResult)) return false;
@@ -74,10 +100,13 @@ public class SuggestedAdUnitUpdateResult  extends com.google.api.ads.dfp.v201204
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = super.equals(obj) && 
+        _equals = true && 
             ((this.newAdUnitIds==null && other.getNewAdUnitIds()==null) || 
              (this.newAdUnitIds!=null &&
-              java.util.Arrays.equals(this.newAdUnitIds, other.getNewAdUnitIds())));
+              java.util.Arrays.equals(this.newAdUnitIds, other.getNewAdUnitIds()))) &&
+            ((this.numChanges==null && other.getNumChanges()==null) || 
+             (this.numChanges!=null &&
+              this.numChanges.equals(other.getNumChanges())));
         __equalsCalc = null;
         return _equals;
     }
@@ -88,7 +117,7 @@ public class SuggestedAdUnitUpdateResult  extends com.google.api.ads.dfp.v201204
             return 0;
         }
         __hashCodeCalc = true;
-        int _hashCode = super.hashCode();
+        int _hashCode = 1;
         if (getNewAdUnitIds() != null) {
             for (int i=0;
                  i<java.lang.reflect.Array.getLength(getNewAdUnitIds());
@@ -99,6 +128,9 @@ public class SuggestedAdUnitUpdateResult  extends com.google.api.ads.dfp.v201204
                     _hashCode += obj.hashCode();
                 }
             }
+        }
+        if (getNumChanges() != null) {
+            _hashCode += getNumChanges().hashCode();
         }
         __hashCodeCalc = false;
         return _hashCode;
@@ -117,6 +149,13 @@ public class SuggestedAdUnitUpdateResult  extends com.google.api.ads.dfp.v201204
         elemField.setMinOccurs(0);
         elemField.setNillable(false);
         elemField.setMaxOccursUnbounded(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("numChanges");
+        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201204", "numChanges"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "int"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
         typeDesc.addFieldDesc(elemField);
     }
 

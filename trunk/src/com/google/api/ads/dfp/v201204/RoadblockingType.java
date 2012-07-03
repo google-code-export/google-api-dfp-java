@@ -21,10 +21,12 @@ public class RoadblockingType implements java.io.Serializable {
     public static final java.lang.String _ONE_OR_MORE = "ONE_OR_MORE";
     public static final java.lang.String _AS_MANY_AS_POSSIBLE = "AS_MANY_AS_POSSIBLE";
     public static final java.lang.String _ALL_ROADBLOCK = "ALL_ROADBLOCK";
+    public static final java.lang.String _CREATIVE_SET = "CREATIVE_SET";
     public static final RoadblockingType ONLY_ONE = new RoadblockingType(_ONLY_ONE);
     public static final RoadblockingType ONE_OR_MORE = new RoadblockingType(_ONE_OR_MORE);
     public static final RoadblockingType AS_MANY_AS_POSSIBLE = new RoadblockingType(_AS_MANY_AS_POSSIBLE);
     public static final RoadblockingType ALL_ROADBLOCK = new RoadblockingType(_ALL_ROADBLOCK);
+    public static final RoadblockingType CREATIVE_SET = new RoadblockingType(_CREATIVE_SET);
     public java.lang.String getValue() { return _value_;}
     public static RoadblockingType fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

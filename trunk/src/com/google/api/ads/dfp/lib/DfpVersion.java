@@ -52,11 +52,15 @@ public abstract class DfpVersion {
    */
   public static final DfpVersion V201204 = new DfpVersionV201204();
 
+  /**
+   * The {@code DfpVersion} for v201206.
+   */
+  public static final DfpVersion V201206 = new DfpVersionV201206();
+
   protected final String version;
   protected final String namespace;
   protected final String packagePrefix;
-  protected final String sandboxUrl;
-  protected final String prodUrl;
+  protected final String url;
 
   /**
    * @param version the version name i.e. v201004
@@ -64,16 +68,13 @@ public abstract class DfpVersion {
    * @param packagePrefix the package prefix such that the package
    *                      {@code packagPrefix + "." + version} contains all
    *                      code for that version
-   * @param sandboxUrl the sandbox URL
-   * @param prodUrl the production URL
+   * @param url the URL
    */
-  protected DfpVersion(String version, String namespace, String packagePrefix,
-      String sandboxUrl, String prodUrl) {
+  protected DfpVersion(String version, String namespace, String packagePrefix, String url) {
     this.version = version;
     this.namespace = namespace;
     this.packagePrefix = packagePrefix;
-    this.sandboxUrl = sandboxUrl;
-    this.prodUrl = prodUrl;
+    this.url = url;
   }
 
   /**
@@ -98,17 +99,10 @@ public abstract class DfpVersion {
   }
 
   /**
-   * @return the sandboxUrl
+   * @return the URL
    */
-  public String getSandboxUrl() {
-    return sandboxUrl;
-  }
-
-  /**
-   * @return the prodUrl
-   */
-  public String getProductionUrl() {
-    return prodUrl;
+  public String getUrl() {
+    return url;
   }
 
   @Override
@@ -131,7 +125,7 @@ public abstract class DfpVersion {
   private static class DfpVersionV201108 extends DfpVersion {
     protected DfpVersionV201108() {
       super("v201108", "https://www.google.com/apis/ads/publisher/v201108",
-          "com.google.api.ads.dfp.", "https://sandbox.google.com", "https://www.google.com");
+          "com.google.api.ads.dfp.", "https://www.google.com");
     }
 
     /**
@@ -188,7 +182,7 @@ public abstract class DfpVersion {
   private static class DfpVersionV201111 extends DfpVersion {
     protected DfpVersionV201111() {
       super("v201111", "https://www.google.com/apis/ads/publisher/v201111",
-          "com.google.api.ads.dfp.", "https://sandbox.google.com", "https://www.google.com");
+          "com.google.api.ads.dfp.", "https://www.google.com");
     }
 
     /**
@@ -245,7 +239,7 @@ public abstract class DfpVersion {
   private static class DfpVersionV201201 extends DfpVersion {
     protected DfpVersionV201201() {
       super("v201201", "https://www.google.com/apis/ads/publisher/v201201",
-          "com.google.api.ads.dfp.", "https://sandbox.google.com", "https://www.google.com");
+          "com.google.api.ads.dfp.", "https://www.google.com");
     }
 
     /**
@@ -302,7 +296,7 @@ public abstract class DfpVersion {
   private static class DfpVersionV201203 extends DfpVersion {
     protected DfpVersionV201203() {
       super("v201203", "https://www.google.com/apis/ads/publisher/v201203",
-          "com.google.api.ads.dfp.", "https://sandbox.google.com", "https://www.google.com");
+          "com.google.api.ads.dfp.", "https://www.google.com");
     }
 
     /**
@@ -359,7 +353,64 @@ public abstract class DfpVersion {
   private static class DfpVersionV201204 extends DfpVersion {
     protected DfpVersionV201204() {
       super("v201204", "https://www.google.com/apis/ads/publisher/v201204",
-          "com.google.api.ads.dfp.", "https://sandbox.google.com", "https://www.google.com");
+          "com.google.api.ads.dfp.", "https://www.google.com");
+    }
+
+    /**
+     * See {@link DfpVersion#setHeaders(Stub, DfpUser)}.
+     */
+    @Override
+    public void setHeaders(Stub stub, DfpUser user) throws ServiceException {
+      try {
+        if (user.getRegisteredAuthToken() == null) {
+          user.setAuthToken(new AuthToken(user.getEmail(), user.getPassword()).getAuthToken());
+        }
+
+        Class<?> clientLoginClass =
+            Class.forName(packagePrefix + this.toString() + "." + "ClientLogin");
+        Class<?> authenticationClass =
+            Class.forName(packagePrefix + this.toString() + "." + "Authentication");
+
+        Object clientLogin =
+            clientLoginClass.getConstructor(String.class, String.class).newInstance(null,
+                user.getRegisteredAuthToken());
+
+        stub.setHeader(namespace, "RequestHeader",
+            Class.forName(packagePrefix + this.toString() + "." + "SoapRequestHeader")
+                .getConstructor(String.class, String.class, authenticationClass)
+                .newInstance(user.getNetworkCode(), user.getClientLibraryIdentifier(),
+                    clientLogin));
+
+      } catch (IllegalStateException e) {
+        throw new ServiceException("Could not get ClientLogin token for user.", e);
+      } catch (AuthTokenException e) {
+        throw new ServiceException("Could not get ClientLogin token for user.", e);
+      } catch (InstantiationException e) {
+        throw new ServiceException("Could not create service class. Check classpath.", e);
+      } catch (IllegalAccessException e) {
+        throw new ServiceException(e.getMessage(), e);
+      } catch (ClassNotFoundException e) {
+        throw new ServiceException("Could not create service class. Check classpath.", e);
+      } catch (IllegalArgumentException e) {
+        throw new ServiceException(e.getMessage(), e);
+      } catch (SecurityException e) {
+        throw new ServiceException(e.getMessage(), e);
+      } catch (InvocationTargetException e) {
+        throw new ServiceException(e.getMessage(), e);
+      } catch (NoSuchMethodException e) {
+        throw new ServiceException("Could not create service class. "
+            + "Check that the correct version of AXIS is being used.", e);
+      }
+    }
+  }
+
+  /**
+   * The v201206 version class.
+   */
+  private static class DfpVersionV201206 extends DfpVersion {
+    protected DfpVersionV201206() {
+      super("v201206", "https://www.google.com/apis/ads/publisher/v201206",
+          "com.google.api.ads.dfp.", "https://www.google.com");
     }
 
     /**

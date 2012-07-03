@@ -15,7 +15,8 @@ package com.google.api.ads.dfp.v201203;
 public class Role  implements java.io.Serializable {
     /* The unique ID of the role. This value is readonly and is assigned
      * by
-     *                 Google. */
+     *                 Google. Roles that are created by Google will have
+     * negative IDs. */
     private java.lang.Long id;
 
     /* The name of the role. This value is readonly and is assigned
@@ -45,7 +46,8 @@ public class Role  implements java.io.Serializable {
      * 
      * @return id   * The unique ID of the role. This value is readonly and is assigned
      * by
-     *                 Google.
+     *                 Google. Roles that are created by Google will have
+     * negative IDs.
      */
     public java.lang.Long getId() {
         return id;
@@ -57,7 +59,8 @@ public class Role  implements java.io.Serializable {
      * 
      * @param id   * The unique ID of the role. This value is readonly and is assigned
      * by
-     *                 Google.
+     *                 Google. Roles that are created by Google will have
+     * negative IDs.
      */
     public void setId(java.lang.Long id) {
         this.id = id;
