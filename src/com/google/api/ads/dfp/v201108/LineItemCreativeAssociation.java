@@ -10,10 +10,9 @@ package com.google.api.ads.dfp.v201108;
 
 /**
  * A {@code LineItemCreativeAssociation} associates a {@link Creative}
- * with a
+ * or {@link CreativeSet} with a
  *             {@link LineItem} so that the creative can be served in
- * ad units targeted by
- *             the line item.
+ * ad units targeted by the line item.
  */
 public class LineItemCreativeAssociation  implements java.io.Serializable {
     /* The ID of the {@link LineItem} to which the {@link Creative}
@@ -23,7 +22,23 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
 
     /* The ID of the {@link Creative} being associated with a {@link
      * LineItem}.
-     *                 This attribute is required. */
+     *                 <p>
+     *                 This attribute is required if this is an association
+     * between a line item and a creative.
+     *                 <br>
+     *                 This attribute is ignored if this is an association
+     * between a line item and a creative set.
+     *                 <p>
+     *                 If this is an association between a line item and
+     * a creative, when retrieving the
+     *                 line item creative association, the {@link #creativeId]
+     * will be the creative's ID.
+     *                 <br>
+     *                 If this is an association between a line item and
+     * a creative set, when retrieving the
+     *                 line item creative association, the {@link #creativeId}
+     * will be the ID of the
+     *                 {@link CreativeSet#masterCreativeId master creative}. */
     private java.lang.Long creativeId;
 
     /* The weight of the {@link Creative}. This value is only used
@@ -130,7 +145,23 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
      * 
      * @return creativeId   * The ID of the {@link Creative} being associated with a {@link
      * LineItem}.
-     *                 This attribute is required.
+     *                 <p>
+     *                 This attribute is required if this is an association
+     * between a line item and a creative.
+     *                 <br>
+     *                 This attribute is ignored if this is an association
+     * between a line item and a creative set.
+     *                 <p>
+     *                 If this is an association between a line item and
+     * a creative, when retrieving the
+     *                 line item creative association, the {@link #creativeId]
+     * will be the creative's ID.
+     *                 <br>
+     *                 If this is an association between a line item and
+     * a creative set, when retrieving the
+     *                 line item creative association, the {@link #creativeId}
+     * will be the ID of the
+     *                 {@link CreativeSet#masterCreativeId master creative}.
      */
     public java.lang.Long getCreativeId() {
         return creativeId;
@@ -142,7 +173,23 @@ public class LineItemCreativeAssociation  implements java.io.Serializable {
      * 
      * @param creativeId   * The ID of the {@link Creative} being associated with a {@link
      * LineItem}.
-     *                 This attribute is required.
+     *                 <p>
+     *                 This attribute is required if this is an association
+     * between a line item and a creative.
+     *                 <br>
+     *                 This attribute is ignored if this is an association
+     * between a line item and a creative set.
+     *                 <p>
+     *                 If this is an association between a line item and
+     * a creative, when retrieving the
+     *                 line item creative association, the {@link #creativeId]
+     * will be the creative's ID.
+     *                 <br>
+     *                 If this is an association between a line item and
+     * a creative set, when retrieving the
+     *                 line item creative association, the {@link #creativeId}
+     * will be the ID of the
+     *                 {@link CreativeSet#masterCreativeId master creative}.
      */
     public void setCreativeId(java.lang.Long creativeId) {
         this.creativeId = creativeId;

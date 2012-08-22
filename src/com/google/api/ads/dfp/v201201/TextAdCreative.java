@@ -15,11 +15,12 @@ package com.google.api.ads.dfp.v201201;
  */
 public class TextAdCreative  extends com.google.api.ads.dfp.v201201.HasDestinationUrlCreative  implements java.io.Serializable {
     /* The hover text that appears over the {@link linkTitle}. This
-     * attribute is required and has a
+     * attribute is optional and has a
      *                     maximum length of 255 characters. */
     private java.lang.String hoverText;
 
-    /* The target window that the link take you to. */
+    /* The target window that the link takes you to. This attribute
+     * is required. */
     private com.google.api.ads.dfp.v201201.TargetWindow targetWindow;
 
     /* The color of the {@link linkTitle}, either as a hexadecimal
@@ -88,7 +89,7 @@ public class TextAdCreative  extends com.google.api.ads.dfp.v201201.HasDestinati
      * Gets the hoverText value for this TextAdCreative.
      * 
      * @return hoverText   * The hover text that appears over the {@link linkTitle}. This
-     * attribute is required and has a
+     * attribute is optional and has a
      *                     maximum length of 255 characters.
      */
     public java.lang.String getHoverText() {
@@ -100,7 +101,7 @@ public class TextAdCreative  extends com.google.api.ads.dfp.v201201.HasDestinati
      * Sets the hoverText value for this TextAdCreative.
      * 
      * @param hoverText   * The hover text that appears over the {@link linkTitle}. This
-     * attribute is required and has a
+     * attribute is optional and has a
      *                     maximum length of 255 characters.
      */
     public void setHoverText(java.lang.String hoverText) {
@@ -111,7 +112,8 @@ public class TextAdCreative  extends com.google.api.ads.dfp.v201201.HasDestinati
     /**
      * Gets the targetWindow value for this TextAdCreative.
      * 
-     * @return targetWindow   * The target window that the link take you to.
+     * @return targetWindow   * The target window that the link takes you to. This attribute
+     * is required.
      */
     public com.google.api.ads.dfp.v201201.TargetWindow getTargetWindow() {
         return targetWindow;
@@ -121,7 +123,8 @@ public class TextAdCreative  extends com.google.api.ads.dfp.v201201.HasDestinati
     /**
      * Sets the targetWindow value for this TextAdCreative.
      * 
-     * @param targetWindow   * The target window that the link take you to.
+     * @param targetWindow   * The target window that the link takes you to. This attribute
+     * is required.
      */
     public void setTargetWindow(com.google.api.ads.dfp.v201201.TargetWindow targetWindow) {
         this.targetWindow = targetWindow;
