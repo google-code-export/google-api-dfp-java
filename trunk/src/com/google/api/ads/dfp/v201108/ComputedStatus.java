@@ -17,6 +17,7 @@ public class ComputedStatus implements java.io.Serializable {
         _table_.put(_value_,this);
     }
 
+    public static final java.lang.String _DELIVERY_EXTENDED = "DELIVERY_EXTENDED";
     public static final java.lang.String _DELIVERING = "DELIVERING";
     public static final java.lang.String _READY = "READY";
     public static final java.lang.String _PAUSED = "PAUSED";
@@ -27,6 +28,7 @@ public class ComputedStatus implements java.io.Serializable {
     public static final java.lang.String _DISAPPROVED = "DISAPPROVED";
     public static final java.lang.String _DRAFT = "DRAFT";
     public static final java.lang.String _CANCELED = "CANCELED";
+    public static final ComputedStatus DELIVERY_EXTENDED = new ComputedStatus(_DELIVERY_EXTENDED);
     public static final ComputedStatus DELIVERING = new ComputedStatus(_DELIVERING);
     public static final ComputedStatus READY = new ComputedStatus(_READY);
     public static final ComputedStatus PAUSED = new ComputedStatus(_PAUSED);

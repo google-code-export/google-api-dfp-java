@@ -672,6 +672,20 @@ public class LineItemCreativeAssociationServiceSoapBindingStub extends org.apach
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201206", "RangeError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201206.RangeError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201206", "RangeError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201206.RangeErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201206", "RequiredError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201206.RequiredError.class;

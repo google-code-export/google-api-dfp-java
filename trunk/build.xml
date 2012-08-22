@@ -20,7 +20,7 @@
   <property name="version" value="${lib_version}" />
   <property name="jar.name" value="${ant.project.name}-${version}" />
 
-  <property name="api.versions" value="v201108,v201111,v201201,v201203,v201204,v201206"/>
+  <property name="api.versions" value="v201108,v201111,v201201,v201203,v201204,v201206,v201208"/>
 
   <property name="api.package.prefix" value="com.google.api.ads.dfp"/>
   <property name="api.namespace.prefix" value="https://www.google.com/apis/ads/publisher" />
@@ -49,6 +49,10 @@
 
   <property name="api.version.v201206" value="v201206" />
   <property name="api.version.v201206.services"
+      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService,ThirdPartySlotService,ContentService,CreativeTemplateService,TeamService,AudienceSegmentService,CustomFieldService,UserTeamAssociationService,SuggestedAdUnitService,CreativeSetService" />
+
+  <property name="api.version.v201208" value="v201208" />
+  <property name="api.version.v201208.services"
       value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService,ThirdPartySlotService,ContentService,CreativeTemplateService,TeamService,AudienceSegmentService,CustomFieldService,UserTeamAssociationService,SuggestedAdUnitService,CreativeSetService" />
 
   <!-- Classpath -->
