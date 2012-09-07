@@ -22,6 +22,7 @@ import com.google.api.ads.dfp.v201208.AdUnitSize;
 import com.google.api.ads.dfp.v201208.AdUnitTargetWindow;
 import com.google.api.ads.dfp.v201208.EnvironmentType;
 import com.google.api.ads.dfp.v201208.InventoryServiceInterface;
+import com.google.api.ads.dfp.v201208.MobilePlatform;
 import com.google.api.ads.dfp.v201208.NetworkServiceInterface;
 import com.google.api.ads.dfp.v201208.Size;
 import com.google.api.ads.dfp.v201208.TargetPlatform;
@@ -62,6 +63,7 @@ public class CreateMobileAdUnitExample {
       adUnit.setDescription("Ad unit description.");
       adUnit.setTargetWindow(AdUnitTargetWindow.BLANK);
       adUnit.setTargetPlatform(TargetPlatform.MOBILE);
+      adUnit.setMobilePlatform(MobilePlatform.APPLICATION);
 
       // Create ad unit size.
       AdUnitSize adUnitSize = new AdUnitSize();

@@ -54,8 +54,8 @@ public class GetAdUnitSizesExample {
       if (adUnitSizes != null) {
         for (int i = 0; i < adUnitSizes.length; i++) {
           AdUnitSize adUnitSize = adUnitSizes[i];
-          System.out.printf("%s) Web ad unit size of dimensions %s x %s was found.\n", i,
-              adUnitSize.getSize().getWidth(), adUnitSize.getSize().getHeight());
+          System.out.printf("%s) Web ad unit size of dimensions %s was found.\n", i,
+              adUnitSize.getFullDisplayString());
         }
       } else {
         System.out.println("No ad unit sizes found.");
