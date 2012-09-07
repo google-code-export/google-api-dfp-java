@@ -24,7 +24,8 @@ import com.google.api.ads.dfp.v201208.Statement;
 
 /**
  * This example gets all line item creative associations (LICA). To create
- * LICAs, run CreateLicasExample.java.
+ * LICAs, run CreateLicasExample.java or
+ * AssociateCreativeSetToLineItemExample.java.
  *
  * Tags: LineItemCreativeAssociationService.getLineItemCreativeAssociationsByStatement
  *
@@ -58,10 +59,17 @@ public class GetAllLicasExample {
         if (page.getResults() != null) {
           int i = page.getStartIndex();
           for (LineItemCreativeAssociation lica : page.getResults()) {
-            System.out.println(i + ") LICA with line item ID \"" + lica.getLineItemId()
-                + "\", creative ID \"" + lica.getCreativeId()
-                + "\", and status \"" + lica.getStatus()
-                + "\" was found.");
+            if (lica.getCreativeSetId() != null) {
+              System.out.println(i + ") LICA with line item ID \"" + lica.getLineItemId()
+                  + "\", creative set ID \"" + lica.getCreativeSetId()
+                  + "\", and status \"" + lica.getStatus()
+                  + "\" was found.");
+            } else {
+              System.out.println(i + ") LICA with line item ID \"" + lica.getLineItemId()
+                  + "\", creative ID \"" + lica.getCreativeId()
+                  + "\", and status \"" + lica.getStatus()
+                  + "\" was found.");
+            }
             i++;
           }
         }
