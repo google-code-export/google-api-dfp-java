@@ -304,6 +304,20 @@ public class UserServiceSoapBindingStub extends org.apache.axis.client.Stub impl
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "CustomFieldValueError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.CustomFieldValueError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "CustomFieldValueError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.CustomFieldValueErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "Date");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201203.Date.class;
@@ -342,6 +356,20 @@ public class UserServiceSoapBindingStub extends org.apache.axis.client.Stub impl
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "InternalApiError.Reason");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201203.InternalApiErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "InvalidEmailError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.InvalidEmailError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "InvalidEmailError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.InvalidEmailErrorReason.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);

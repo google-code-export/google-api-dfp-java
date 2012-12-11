@@ -22,11 +22,13 @@ public class RequiredNumberErrorReason implements java.io.Serializable {
     public static final java.lang.String _TOO_SMALL = "TOO_SMALL";
     public static final java.lang.String _TOO_LARGE_WITH_DETAILS = "TOO_LARGE_WITH_DETAILS";
     public static final java.lang.String _TOO_SMALL_WITH_DETAILS = "TOO_SMALL_WITH_DETAILS";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final RequiredNumberErrorReason REQUIRED = new RequiredNumberErrorReason(_REQUIRED);
     public static final RequiredNumberErrorReason TOO_LARGE = new RequiredNumberErrorReason(_TOO_LARGE);
     public static final RequiredNumberErrorReason TOO_SMALL = new RequiredNumberErrorReason(_TOO_SMALL);
     public static final RequiredNumberErrorReason TOO_LARGE_WITH_DETAILS = new RequiredNumberErrorReason(_TOO_LARGE_WITH_DETAILS);
     public static final RequiredNumberErrorReason TOO_SMALL_WITH_DETAILS = new RequiredNumberErrorReason(_TOO_SMALL_WITH_DETAILS);
+    public static final RequiredNumberErrorReason UNKNOWN = new RequiredNumberErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static RequiredNumberErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

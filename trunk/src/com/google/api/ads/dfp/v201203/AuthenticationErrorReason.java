@@ -30,6 +30,7 @@ public class AuthenticationErrorReason implements java.io.Serializable {
     public static final java.lang.String _NETWORK_CODE_REQUIRED = "NETWORK_CODE_REQUIRED";
     public static final java.lang.String _CONNECTION_ERROR = "CONNECTION_ERROR";
     public static final java.lang.String _GOOGLE_ACCOUNT_ALREADY_ASSOCIATED_WITH_NETWORK = "GOOGLE_ACCOUNT_ALREADY_ASSOCIATED_WITH_NETWORK";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final AuthenticationErrorReason AMBIGUOUS_SOAP_REQUEST_HEADER = new AuthenticationErrorReason(_AMBIGUOUS_SOAP_REQUEST_HEADER);
     public static final AuthenticationErrorReason INVALID_EMAIL = new AuthenticationErrorReason(_INVALID_EMAIL);
     public static final AuthenticationErrorReason AUTHENTICATION_FAILED = new AuthenticationErrorReason(_AUTHENTICATION_FAILED);
@@ -43,6 +44,7 @@ public class AuthenticationErrorReason implements java.io.Serializable {
     public static final AuthenticationErrorReason NETWORK_CODE_REQUIRED = new AuthenticationErrorReason(_NETWORK_CODE_REQUIRED);
     public static final AuthenticationErrorReason CONNECTION_ERROR = new AuthenticationErrorReason(_CONNECTION_ERROR);
     public static final AuthenticationErrorReason GOOGLE_ACCOUNT_ALREADY_ASSOCIATED_WITH_NETWORK = new AuthenticationErrorReason(_GOOGLE_ACCOUNT_ALREADY_ASSOCIATED_WITH_NETWORK);
+    public static final AuthenticationErrorReason UNKNOWN = new AuthenticationErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static AuthenticationErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

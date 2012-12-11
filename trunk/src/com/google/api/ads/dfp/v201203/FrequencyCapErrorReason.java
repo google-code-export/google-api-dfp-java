@@ -23,12 +23,14 @@ public class FrequencyCapErrorReason implements java.io.Serializable {
     public static final java.lang.String _RANGE_TOO_LOW = "RANGE_TOO_LOW";
     public static final java.lang.String _DUPLICATE_TIME_RANGE = "DUPLICATE_TIME_RANGE";
     public static final java.lang.String _TOO_MANY_FREQUENCY_CAPS = "TOO_MANY_FREQUENCY_CAPS";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final FrequencyCapErrorReason IMPRESSION_LIMIT_EXCEEDED = new FrequencyCapErrorReason(_IMPRESSION_LIMIT_EXCEEDED);
     public static final FrequencyCapErrorReason IMPRESSIONS_TOO_LOW = new FrequencyCapErrorReason(_IMPRESSIONS_TOO_LOW);
     public static final FrequencyCapErrorReason RANGE_LIMIT_EXCEEDED = new FrequencyCapErrorReason(_RANGE_LIMIT_EXCEEDED);
     public static final FrequencyCapErrorReason RANGE_TOO_LOW = new FrequencyCapErrorReason(_RANGE_TOO_LOW);
     public static final FrequencyCapErrorReason DUPLICATE_TIME_RANGE = new FrequencyCapErrorReason(_DUPLICATE_TIME_RANGE);
     public static final FrequencyCapErrorReason TOO_MANY_FREQUENCY_CAPS = new FrequencyCapErrorReason(_TOO_MANY_FREQUENCY_CAPS);
+    public static final FrequencyCapErrorReason UNKNOWN = new FrequencyCapErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static FrequencyCapErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

@@ -28,6 +28,7 @@ public class CreativeTemplateErrorReason implements java.io.Serializable {
     public static final java.lang.String _UNRECOGNIZED_PLACEHOLDER = "UNRECOGNIZED_PLACEHOLDER";
     public static final java.lang.String _PLACEHOLDERS_NOT_IN_FORMATTER = "PLACEHOLDERS_NOT_IN_FORMATTER";
     public static final java.lang.String _MISSING_INTERSTITIAL_MACRO = "MISSING_INTERSTITIAL_MACRO";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final CreativeTemplateErrorReason CANNOT_PARSE_CREATIVE_TEMPLATE = new CreativeTemplateErrorReason(_CANNOT_PARSE_CREATIVE_TEMPLATE);
     public static final CreativeTemplateErrorReason VARIABLE_DUPLICATE_UNIQUE_NAME = new CreativeTemplateErrorReason(_VARIABLE_DUPLICATE_UNIQUE_NAME);
     public static final CreativeTemplateErrorReason VARIABLE_INVALID_UNIQUE_NAME = new CreativeTemplateErrorReason(_VARIABLE_INVALID_UNIQUE_NAME);
@@ -39,6 +40,7 @@ public class CreativeTemplateErrorReason implements java.io.Serializable {
     public static final CreativeTemplateErrorReason UNRECOGNIZED_PLACEHOLDER = new CreativeTemplateErrorReason(_UNRECOGNIZED_PLACEHOLDER);
     public static final CreativeTemplateErrorReason PLACEHOLDERS_NOT_IN_FORMATTER = new CreativeTemplateErrorReason(_PLACEHOLDERS_NOT_IN_FORMATTER);
     public static final CreativeTemplateErrorReason MISSING_INTERSTITIAL_MACRO = new CreativeTemplateErrorReason(_MISSING_INTERSTITIAL_MACRO);
+    public static final CreativeTemplateErrorReason UNKNOWN = new CreativeTemplateErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static CreativeTemplateErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

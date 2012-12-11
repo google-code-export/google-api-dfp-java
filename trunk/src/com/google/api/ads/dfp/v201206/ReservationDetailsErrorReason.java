@@ -27,6 +27,7 @@ public class ReservationDetailsErrorReason implements java.io.Serializable {
     public static final java.lang.String _LINE_ITEM_TYPE_NOT_ALLOWED = "LINE_ITEM_TYPE_NOT_ALLOWED";
     public static final java.lang.String _NETWORK_REMNANT_ORDER_CANNOT_UPDATE_LINEITEM_TYPE = "NETWORK_REMNANT_ORDER_CANNOT_UPDATE_LINEITEM_TYPE";
     public static final java.lang.String _BACKFILL_WEBPROPERTY_CODE_NOT_ALLOWED = "BACKFILL_WEBPROPERTY_CODE_NOT_ALLOWED";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final ReservationDetailsErrorReason UNLIMITED_UNITS_BOUGHT_NOT_ALLOWED = new ReservationDetailsErrorReason(_UNLIMITED_UNITS_BOUGHT_NOT_ALLOWED);
     public static final ReservationDetailsErrorReason UNLIMITED_END_DATE_TIME_NOT_ALLOWED = new ReservationDetailsErrorReason(_UNLIMITED_END_DATE_TIME_NOT_ALLOWED);
     public static final ReservationDetailsErrorReason PERCENTAGE_UNITS_BOUGHT_TOO_HIGH = new ReservationDetailsErrorReason(_PERCENTAGE_UNITS_BOUGHT_TOO_HIGH);
@@ -37,6 +38,7 @@ public class ReservationDetailsErrorReason implements java.io.Serializable {
     public static final ReservationDetailsErrorReason LINE_ITEM_TYPE_NOT_ALLOWED = new ReservationDetailsErrorReason(_LINE_ITEM_TYPE_NOT_ALLOWED);
     public static final ReservationDetailsErrorReason NETWORK_REMNANT_ORDER_CANNOT_UPDATE_LINEITEM_TYPE = new ReservationDetailsErrorReason(_NETWORK_REMNANT_ORDER_CANNOT_UPDATE_LINEITEM_TYPE);
     public static final ReservationDetailsErrorReason BACKFILL_WEBPROPERTY_CODE_NOT_ALLOWED = new ReservationDetailsErrorReason(_BACKFILL_WEBPROPERTY_CODE_NOT_ALLOWED);
+    public static final ReservationDetailsErrorReason UNKNOWN = new ReservationDetailsErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static ReservationDetailsErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

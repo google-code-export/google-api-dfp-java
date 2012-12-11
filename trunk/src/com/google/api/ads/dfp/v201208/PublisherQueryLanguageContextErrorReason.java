@@ -18,7 +18,9 @@ public class PublisherQueryLanguageContextErrorReason implements java.io.Seriali
     }
 
     public static final java.lang.String _UNEXECUTABLE = "UNEXECUTABLE";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final PublisherQueryLanguageContextErrorReason UNEXECUTABLE = new PublisherQueryLanguageContextErrorReason(_UNEXECUTABLE);
+    public static final PublisherQueryLanguageContextErrorReason UNKNOWN = new PublisherQueryLanguageContextErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static PublisherQueryLanguageContextErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

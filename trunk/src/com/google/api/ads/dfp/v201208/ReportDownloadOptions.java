@@ -24,7 +24,7 @@ public class ReportDownloadOptions  implements java.io.Serializable {
     private java.lang.Boolean includeReportProperties;
 
     /* Whether or not to include the totals row.
-     *                 Default is true for all formats expect {@link ExportFormat#CSV_DUMP}. */
+     *                 Default is true for all formats except {@link ExportFormat#CSV_DUMP}. */
     private java.lang.Boolean includeTotalsRow;
 
     /* Whether or not to compress the report file to a gzip file.
@@ -101,7 +101,7 @@ public class ReportDownloadOptions  implements java.io.Serializable {
      * Gets the includeTotalsRow value for this ReportDownloadOptions.
      * 
      * @return includeTotalsRow   * Whether or not to include the totals row.
-     *                 Default is true for all formats expect {@link ExportFormat#CSV_DUMP}.
+     *                 Default is true for all formats except {@link ExportFormat#CSV_DUMP}.
      */
     public java.lang.Boolean getIncludeTotalsRow() {
         return includeTotalsRow;
@@ -112,7 +112,7 @@ public class ReportDownloadOptions  implements java.io.Serializable {
      * Sets the includeTotalsRow value for this ReportDownloadOptions.
      * 
      * @param includeTotalsRow   * Whether or not to include the totals row.
-     *                 Default is true for all formats expect {@link ExportFormat#CSV_DUMP}.
+     *                 Default is true for all formats except {@link ExportFormat#CSV_DUMP}.
      */
     public void setIncludeTotalsRow(java.lang.Boolean includeTotalsRow) {
         this.includeTotalsRow = includeTotalsRow;

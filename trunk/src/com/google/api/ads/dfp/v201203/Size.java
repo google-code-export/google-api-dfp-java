@@ -9,15 +9,19 @@ package com.google.api.ads.dfp.v201203;
 
 
 /**
- * Represents the dimensions of AdUnits, LineItems and Creatives.
+ * Represents the dimensions of an {@link AdUnit}, {@link LineItem}
+ * or {@link Creative}.
  *             <p>
- *             For interstitial size (out-of-page), Size must be 1x1.
+ *             For interstitial size (out-of-page), {@code Size} must
+ * be 1x1.
  */
 public class Size  implements java.io.Serializable {
-    /* The width of the AdUnit, LineItem or Creative. */
+    /* The width of the {@link AdUnit}, {@link LineItem} or {@link
+     * Creative}. */
     private java.lang.Integer width;
 
-    /* The height of the AdUnit, LineItem or Creative. */
+    /* The height of the {@link AdUnit}, {@link LineItem} or {@link
+     * Creative}. */
     private java.lang.Integer height;
 
     /* True if this size represents an aspect ratio, false otherwise. */
@@ -39,7 +43,8 @@ public class Size  implements java.io.Serializable {
     /**
      * Gets the width value for this Size.
      * 
-     * @return width   * The width of the AdUnit, LineItem or Creative.
+     * @return width   * The width of the {@link AdUnit}, {@link LineItem} or {@link
+     * Creative}.
      */
     public java.lang.Integer getWidth() {
         return width;
@@ -49,7 +54,8 @@ public class Size  implements java.io.Serializable {
     /**
      * Sets the width value for this Size.
      * 
-     * @param width   * The width of the AdUnit, LineItem or Creative.
+     * @param width   * The width of the {@link AdUnit}, {@link LineItem} or {@link
+     * Creative}.
      */
     public void setWidth(java.lang.Integer width) {
         this.width = width;
@@ -59,7 +65,8 @@ public class Size  implements java.io.Serializable {
     /**
      * Gets the height value for this Size.
      * 
-     * @return height   * The height of the AdUnit, LineItem or Creative.
+     * @return height   * The height of the {@link AdUnit}, {@link LineItem} or {@link
+     * Creative}.
      */
     public java.lang.Integer getHeight() {
         return height;
@@ -69,7 +76,8 @@ public class Size  implements java.io.Serializable {
     /**
      * Sets the height value for this Size.
      * 
-     * @param height   * The height of the AdUnit, LineItem or Creative.
+     * @param height   * The height of the {@link AdUnit}, {@link LineItem} or {@link
+     * Creative}.
      */
     public void setHeight(java.lang.Integer height) {
         this.height = height;

@@ -23,12 +23,14 @@ public class ClickTrackingLineItemErrorReason implements java.io.Serializable {
     public static final java.lang.String _INVALID_CREATIVEROTATION_TYPE = "INVALID_CREATIVEROTATION_TYPE";
     public static final java.lang.String _INVALID_DELIVERY_RATE_TYPE = "INVALID_DELIVERY_RATE_TYPE";
     public static final java.lang.String _UNSUPPORTED_FIELD = "UNSUPPORTED_FIELD";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final ClickTrackingLineItemErrorReason TYPE_IMMUTABLE = new ClickTrackingLineItemErrorReason(_TYPE_IMMUTABLE);
     public static final ClickTrackingLineItemErrorReason INVALID_TARGETING_TYPE = new ClickTrackingLineItemErrorReason(_INVALID_TARGETING_TYPE);
     public static final ClickTrackingLineItemErrorReason INVALID_ROADBLOCKING_TYPE = new ClickTrackingLineItemErrorReason(_INVALID_ROADBLOCKING_TYPE);
     public static final ClickTrackingLineItemErrorReason INVALID_CREATIVEROTATION_TYPE = new ClickTrackingLineItemErrorReason(_INVALID_CREATIVEROTATION_TYPE);
     public static final ClickTrackingLineItemErrorReason INVALID_DELIVERY_RATE_TYPE = new ClickTrackingLineItemErrorReason(_INVALID_DELIVERY_RATE_TYPE);
     public static final ClickTrackingLineItemErrorReason UNSUPPORTED_FIELD = new ClickTrackingLineItemErrorReason(_UNSUPPORTED_FIELD);
+    public static final ClickTrackingLineItemErrorReason UNKNOWN = new ClickTrackingLineItemErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static ClickTrackingLineItemErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

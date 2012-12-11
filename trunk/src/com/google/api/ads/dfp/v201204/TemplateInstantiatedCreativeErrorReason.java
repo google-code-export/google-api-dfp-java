@@ -19,8 +19,10 @@ public class TemplateInstantiatedCreativeErrorReason implements java.io.Serializ
 
     public static final java.lang.String _INACTIVE_CREATIVE_TEMPLATE = "INACTIVE_CREATIVE_TEMPLATE";
     public static final java.lang.String _FILE_TYPE_NOT_ALLOWED = "FILE_TYPE_NOT_ALLOWED";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final TemplateInstantiatedCreativeErrorReason INACTIVE_CREATIVE_TEMPLATE = new TemplateInstantiatedCreativeErrorReason(_INACTIVE_CREATIVE_TEMPLATE);
     public static final TemplateInstantiatedCreativeErrorReason FILE_TYPE_NOT_ALLOWED = new TemplateInstantiatedCreativeErrorReason(_FILE_TYPE_NOT_ALLOWED);
+    public static final TemplateInstantiatedCreativeErrorReason UNKNOWN = new TemplateInstantiatedCreativeErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static TemplateInstantiatedCreativeErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

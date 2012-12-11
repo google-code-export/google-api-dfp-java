@@ -18,7 +18,9 @@ public class CreativeAssetMacroErrorReason implements java.io.Serializable {
     }
 
     public static final java.lang.String _INVALID_MACRO_NAME = "INVALID_MACRO_NAME";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final CreativeAssetMacroErrorReason INVALID_MACRO_NAME = new CreativeAssetMacroErrorReason(_INVALID_MACRO_NAME);
+    public static final CreativeAssetMacroErrorReason UNKNOWN = new CreativeAssetMacroErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static CreativeAssetMacroErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

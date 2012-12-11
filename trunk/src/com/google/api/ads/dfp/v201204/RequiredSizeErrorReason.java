@@ -19,8 +19,10 @@ public class RequiredSizeErrorReason implements java.io.Serializable {
 
     public static final java.lang.String _REQUIRED = "REQUIRED";
     public static final java.lang.String _NOT_ALLOWED = "NOT_ALLOWED";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final RequiredSizeErrorReason REQUIRED = new RequiredSizeErrorReason(_REQUIRED);
     public static final RequiredSizeErrorReason NOT_ALLOWED = new RequiredSizeErrorReason(_NOT_ALLOWED);
+    public static final RequiredSizeErrorReason UNKNOWN = new RequiredSizeErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static RequiredSizeErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

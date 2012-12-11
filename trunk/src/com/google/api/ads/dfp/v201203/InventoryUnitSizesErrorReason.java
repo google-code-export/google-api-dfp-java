@@ -24,6 +24,7 @@ public class InventoryUnitSizesErrorReason implements java.io.Serializable {
     public static final java.lang.String _INVALID_SIZE_FOR_COMPANION = "INVALID_SIZE_FOR_COMPANION";
     public static final java.lang.String _DUPLICATE_MASTER_SIZES = "DUPLICATE_MASTER_SIZES";
     public static final java.lang.String _ASPECT_RATIO_NOT_SUPPORTED = "ASPECT_RATIO_NOT_SUPPORTED";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final InventoryUnitSizesErrorReason INVALID_SIZES = new InventoryUnitSizesErrorReason(_INVALID_SIZES);
     public static final InventoryUnitSizesErrorReason INVALID_SIZE_FOR_PLATFORM = new InventoryUnitSizesErrorReason(_INVALID_SIZE_FOR_PLATFORM);
     public static final InventoryUnitSizesErrorReason INVALID_SIZE_FOR_ENVIRONMENT = new InventoryUnitSizesErrorReason(_INVALID_SIZE_FOR_ENVIRONMENT);
@@ -31,6 +32,7 @@ public class InventoryUnitSizesErrorReason implements java.io.Serializable {
     public static final InventoryUnitSizesErrorReason INVALID_SIZE_FOR_COMPANION = new InventoryUnitSizesErrorReason(_INVALID_SIZE_FOR_COMPANION);
     public static final InventoryUnitSizesErrorReason DUPLICATE_MASTER_SIZES = new InventoryUnitSizesErrorReason(_DUPLICATE_MASTER_SIZES);
     public static final InventoryUnitSizesErrorReason ASPECT_RATIO_NOT_SUPPORTED = new InventoryUnitSizesErrorReason(_ASPECT_RATIO_NOT_SUPPORTED);
+    public static final InventoryUnitSizesErrorReason UNKNOWN = new InventoryUnitSizesErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static InventoryUnitSizesErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

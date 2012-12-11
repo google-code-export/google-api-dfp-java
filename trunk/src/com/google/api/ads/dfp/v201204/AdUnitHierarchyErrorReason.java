@@ -19,8 +19,10 @@ public class AdUnitHierarchyErrorReason implements java.io.Serializable {
 
     public static final java.lang.String _INVALID_DEPTH = "INVALID_DEPTH";
     public static final java.lang.String _INVALID_PARENT = "INVALID_PARENT";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final AdUnitHierarchyErrorReason INVALID_DEPTH = new AdUnitHierarchyErrorReason(_INVALID_DEPTH);
     public static final AdUnitHierarchyErrorReason INVALID_PARENT = new AdUnitHierarchyErrorReason(_INVALID_PARENT);
+    public static final AdUnitHierarchyErrorReason UNKNOWN = new AdUnitHierarchyErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static AdUnitHierarchyErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

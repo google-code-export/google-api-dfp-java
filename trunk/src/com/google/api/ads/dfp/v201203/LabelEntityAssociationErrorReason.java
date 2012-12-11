@@ -21,10 +21,12 @@ public class LabelEntityAssociationErrorReason implements java.io.Serializable {
     public static final java.lang.String _DUPLICATE_ASSOCIATION = "DUPLICATE_ASSOCIATION";
     public static final java.lang.String _INVALID_ASSOCIATION = "INVALID_ASSOCIATION";
     public static final java.lang.String _DUPLICATE_ASSOCIATION_WITH_NEGATION = "DUPLICATE_ASSOCIATION_WITH_NEGATION";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final LabelEntityAssociationErrorReason INVALID_COMPANY_TYPE = new LabelEntityAssociationErrorReason(_INVALID_COMPANY_TYPE);
     public static final LabelEntityAssociationErrorReason DUPLICATE_ASSOCIATION = new LabelEntityAssociationErrorReason(_DUPLICATE_ASSOCIATION);
     public static final LabelEntityAssociationErrorReason INVALID_ASSOCIATION = new LabelEntityAssociationErrorReason(_INVALID_ASSOCIATION);
     public static final LabelEntityAssociationErrorReason DUPLICATE_ASSOCIATION_WITH_NEGATION = new LabelEntityAssociationErrorReason(_DUPLICATE_ASSOCIATION_WITH_NEGATION);
+    public static final LabelEntityAssociationErrorReason UNKNOWN = new LabelEntityAssociationErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static LabelEntityAssociationErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

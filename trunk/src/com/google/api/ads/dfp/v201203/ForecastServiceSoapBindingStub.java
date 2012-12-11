@@ -192,6 +192,20 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "AudienceExtensionError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.AudienceExtensionError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "AudienceExtensionError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.AudienceExtensionErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "AudienceSegmentCriteria");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201203.AudienceSegmentCriteria.class;
@@ -318,6 +332,20 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "CompanyCreditStatusError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.CompanyCreditStatusError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "CompanyCreditStatusError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.CompanyCreditStatusErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "ComputedStatus");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201203.ComputedStatus.class;
@@ -416,6 +444,20 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "CustomFieldValueError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.CustomFieldValueError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "CustomFieldValueError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.CustomFieldValueErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "CustomTargetingError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201203.CustomTargetingError.class;
@@ -444,6 +486,20 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "DateTimeRangeTargetingError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.DateTimeRangeTargetingError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "DateTimeRangeTargetingError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.DateTimeRangeTargetingErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "DayOfWeek");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201203.DayOfWeek.class;
@@ -464,6 +520,20 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "DayPartTargetingError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.DayPartTargetingError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "DayPartTargetingError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.DayPartTargetingErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "DeliveryData");
             cachedSerQNames.add(qName);
@@ -503,6 +573,13 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "DeviceManufacturerTargeting");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201203.DeviceManufacturerTargeting.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "EntityLimitReachedError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.EntityLimitReachedError.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
@@ -556,12 +633,40 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "GenericTargetingError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.GenericTargetingError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "GenericTargetingError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.GenericTargetingErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "GeoTargeting");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201203.GeoTargeting.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "GeoTargetingError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.GeoTargetingError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "GeoTargetingError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.GeoTargetingErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "InternalApiError");
             cachedSerQNames.add(qName);
@@ -573,6 +678,20 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "InternalApiError.Reason");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201203.InternalApiErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "InvalidUrlError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.InvalidUrlError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "InvalidUrlError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.InvalidUrlErrorReason.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
@@ -612,12 +731,40 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "LabelEntityAssociationError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.LabelEntityAssociationError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "LabelEntityAssociationError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.LabelEntityAssociationErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "LineItem");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201203.LineItem.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "LineItemCreativeAssociationError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.LineItemCreativeAssociationError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "LineItemCreativeAssociationError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.LineItemCreativeAssociationErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "LineItemDiscountType");
             cachedSerQNames.add(qName);
@@ -661,6 +808,21 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
+    }
+    private void addBindings1() {
+            java.lang.Class cls;
+            javax.xml.namespace.QName qName;
+            javax.xml.namespace.QName qName2;
+            java.lang.Class beansf = org.apache.axis.encoding.ser.BeanSerializerFactory.class;
+            java.lang.Class beandf = org.apache.axis.encoding.ser.BeanDeserializerFactory.class;
+            java.lang.Class enumsf = org.apache.axis.encoding.ser.EnumSerializerFactory.class;
+            java.lang.Class enumdf = org.apache.axis.encoding.ser.EnumDeserializerFactory.class;
+            java.lang.Class arraysf = org.apache.axis.encoding.ser.ArraySerializerFactory.class;
+            java.lang.Class arraydf = org.apache.axis.encoding.ser.ArrayDeserializerFactory.class;
+            java.lang.Class simplesf = org.apache.axis.encoding.ser.SimpleSerializerFactory.class;
+            java.lang.Class simpledf = org.apache.axis.encoding.ser.SimpleDeserializerFactory.class;
+            java.lang.Class simplelistsf = org.apache.axis.encoding.ser.SimpleListSerializerFactory.class;
+            java.lang.Class simplelistdf = org.apache.axis.encoding.ser.SimpleListDeserializerFactory.class;
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "LineItemOperationError.Reason");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201203.LineItemOperationErrorReason.class;
@@ -808,21 +970,6 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
-    }
-    private void addBindings1() {
-            java.lang.Class cls;
-            javax.xml.namespace.QName qName;
-            javax.xml.namespace.QName qName2;
-            java.lang.Class beansf = org.apache.axis.encoding.ser.BeanSerializerFactory.class;
-            java.lang.Class beandf = org.apache.axis.encoding.ser.BeanDeserializerFactory.class;
-            java.lang.Class enumsf = org.apache.axis.encoding.ser.EnumSerializerFactory.class;
-            java.lang.Class enumdf = org.apache.axis.encoding.ser.EnumDeserializerFactory.class;
-            java.lang.Class arraysf = org.apache.axis.encoding.ser.ArraySerializerFactory.class;
-            java.lang.Class arraydf = org.apache.axis.encoding.ser.ArrayDeserializerFactory.class;
-            java.lang.Class simplesf = org.apache.axis.encoding.ser.SimpleSerializerFactory.class;
-            java.lang.Class simpledf = org.apache.axis.encoding.ser.SimpleDeserializerFactory.class;
-            java.lang.Class simplelistsf = org.apache.axis.encoding.ser.SimpleListSerializerFactory.class;
-            java.lang.Class simplelistdf = org.apache.axis.encoding.ser.SimpleListDeserializerFactory.class;
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "OperatingSystemTargeting");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201203.OperatingSystemTargeting.class;
@@ -1012,6 +1159,20 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "RequiredSizeError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.RequiredSizeError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "RequiredSizeError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.RequiredSizeErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "ReservationDetailsError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201203.ReservationDetailsError.class;
@@ -1096,6 +1257,20 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "StringLengthError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.StringLengthError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "StringLengthError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.StringLengthErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "Targeting");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201203.Targeting.class;
@@ -1106,6 +1281,20 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "TargetPlatform");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201203.TargetPlatform.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "TeamError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.TeamError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "TeamError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.TeamErrorReason.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
@@ -1123,6 +1312,20 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "TechnologyTargetingError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.TechnologyTargetingError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "TechnologyTargetingError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.TechnologyTargetingErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "TimeOfDay");
             cachedSerQNames.add(qName);
@@ -1165,6 +1368,20 @@ public class ForecastServiceSoapBindingStub extends org.apache.axis.client.Stub 
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "UserDomainTargetingError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.UserDomainTargetingError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "UserDomainTargetingError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201203.UserDomainTargetingErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201203", "VideoPositionTargeting");
             cachedSerQNames.add(qName);

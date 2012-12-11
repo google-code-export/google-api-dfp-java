@@ -18,7 +18,9 @@ public class CustomFieldErrorReason implements java.io.Serializable {
     }
 
     public static final java.lang.String _INVALID_CUSTOM_FIELD_FOR_OPTION = "INVALID_CUSTOM_FIELD_FOR_OPTION";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final CustomFieldErrorReason INVALID_CUSTOM_FIELD_FOR_OPTION = new CustomFieldErrorReason(_INVALID_CUSTOM_FIELD_FOR_OPTION);
+    public static final CustomFieldErrorReason UNKNOWN = new CustomFieldErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static CustomFieldErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

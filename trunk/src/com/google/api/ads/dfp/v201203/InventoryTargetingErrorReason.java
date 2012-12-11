@@ -28,6 +28,7 @@ public class InventoryTargetingErrorReason implements java.io.Serializable {
     public static final java.lang.String _EXPLICITLY_TARGETED_INVENTORY_UNIT_CANNOT_BE_EXCLUDED = "EXPLICITLY_TARGETED_INVENTORY_UNIT_CANNOT_BE_EXCLUDED";
     public static final java.lang.String _SELF_ONLY_INVENTORY_UNIT_NOT_ALLOWED = "SELF_ONLY_INVENTORY_UNIT_NOT_ALLOWED";
     public static final java.lang.String _SELF_ONLY_INVENTORY_UNIT_WITHOUT_DESCENDANTS = "SELF_ONLY_INVENTORY_UNIT_WITHOUT_DESCENDANTS";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final InventoryTargetingErrorReason AT_LEAST_ONE_PLACEMENT_OR_INVENTORY_UNIT_REQUIRED = new InventoryTargetingErrorReason(_AT_LEAST_ONE_PLACEMENT_OR_INVENTORY_UNIT_REQUIRED);
     public static final InventoryTargetingErrorReason INVENTORY_CANNOT_BE_TARGETED_AND_EXCLUDED = new InventoryTargetingErrorReason(_INVENTORY_CANNOT_BE_TARGETED_AND_EXCLUDED);
     public static final InventoryTargetingErrorReason PARENT_CONTAINS_INVALID_MIX_OF_TARGETED_AND_EXCLUDED_AD_UNITS = new InventoryTargetingErrorReason(_PARENT_CONTAINS_INVALID_MIX_OF_TARGETED_AND_EXCLUDED_AD_UNITS);
@@ -39,6 +40,7 @@ public class InventoryTargetingErrorReason implements java.io.Serializable {
     public static final InventoryTargetingErrorReason EXPLICITLY_TARGETED_INVENTORY_UNIT_CANNOT_BE_EXCLUDED = new InventoryTargetingErrorReason(_EXPLICITLY_TARGETED_INVENTORY_UNIT_CANNOT_BE_EXCLUDED);
     public static final InventoryTargetingErrorReason SELF_ONLY_INVENTORY_UNIT_NOT_ALLOWED = new InventoryTargetingErrorReason(_SELF_ONLY_INVENTORY_UNIT_NOT_ALLOWED);
     public static final InventoryTargetingErrorReason SELF_ONLY_INVENTORY_UNIT_WITHOUT_DESCENDANTS = new InventoryTargetingErrorReason(_SELF_ONLY_INVENTORY_UNIT_WITHOUT_DESCENDANTS);
+    public static final InventoryTargetingErrorReason UNKNOWN = new InventoryTargetingErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static InventoryTargetingErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

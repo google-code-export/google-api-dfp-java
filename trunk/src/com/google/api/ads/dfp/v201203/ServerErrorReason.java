@@ -19,8 +19,10 @@ public class ServerErrorReason implements java.io.Serializable {
 
     public static final java.lang.String _SERVER_ERROR = "SERVER_ERROR";
     public static final java.lang.String _SERVER_BUSY = "SERVER_BUSY";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final ServerErrorReason SERVER_ERROR = new ServerErrorReason(_SERVER_ERROR);
     public static final ServerErrorReason SERVER_BUSY = new ServerErrorReason(_SERVER_BUSY);
+    public static final ServerErrorReason UNKNOWN = new ServerErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static ServerErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

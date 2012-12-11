@@ -208,6 +208,20 @@ public class NetworkServiceSoapBindingStub extends org.apache.axis.client.Stub i
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201204", "InvalidEmailError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201204.InvalidEmailError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201204", "InvalidEmailError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201204.InvalidEmailErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201204", "Network");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201204.Network.class;
@@ -320,6 +334,20 @@ public class NetworkServiceSoapBindingStub extends org.apache.axis.client.Stub i
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201204", "RequiredNumberError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201204.RequiredNumberError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201204", "RequiredNumberError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201204.RequiredNumberErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201204", "ServerError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201204.ServerError.class;
@@ -358,6 +386,20 @@ public class NetworkServiceSoapBindingStub extends org.apache.axis.client.Stub i
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201204", "StatementError.Reason");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201204.StatementErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201204", "StringLengthError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201204.StringLengthError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201204", "StringLengthError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201204.StringLengthErrorReason.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);

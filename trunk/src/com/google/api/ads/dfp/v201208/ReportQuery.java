@@ -43,13 +43,10 @@ public class ReportQuery  implements java.io.Serializable {
      *                 as a {@link #dimensions dimension}.
      *                 
      *                 <table>
-     *                 <th>
      *                 <tr>
-     *                 <th>{@link CustomFieldEntityType#entityType}</th><th>{@link
-     * Dimension}</th>
+     *                 <th scope="col">{@link CustomFieldEntityType#entityType}</th>
+     * <th scope="col">{@link Dimension}</th>
      *                 </tr>
-     *                 </th>
-     *                 <tbody>
      *                 <tr>
      *                 <td>{@link CustomFieldEntityType#LINE_ITEM}</td><td>{@link
      * Dimension#LINE_ITEM_NAME}</td>
@@ -62,7 +59,6 @@ public class ReportQuery  implements java.io.Serializable {
      *                 <td>{@link CustomFieldEntityType#CREATIVE}</td><td>{@link
      * Dimension#CREATIVE_NAME}</td>
      *                 </tr>
-     *                 </tbody>
      *                 </table> */
     private long[] customFieldIds;
 
@@ -289,13 +285,10 @@ public class ReportQuery  implements java.io.Serializable {
      *                 as a {@link #dimensions dimension}.
      *                 
      *                 <table>
-     *                 <th>
      *                 <tr>
-     *                 <th>{@link CustomFieldEntityType#entityType}</th><th>{@link
-     * Dimension}</th>
+     *                 <th scope="col">{@link CustomFieldEntityType#entityType}</th>
+     * <th scope="col">{@link Dimension}</th>
      *                 </tr>
-     *                 </th>
-     *                 <tbody>
      *                 <tr>
      *                 <td>{@link CustomFieldEntityType#LINE_ITEM}</td><td>{@link
      * Dimension#LINE_ITEM_NAME}</td>
@@ -308,7 +301,6 @@ public class ReportQuery  implements java.io.Serializable {
      *                 <td>{@link CustomFieldEntityType#CREATIVE}</td><td>{@link
      * Dimension#CREATIVE_NAME}</td>
      *                 </tr>
-     *                 </tbody>
      *                 </table>
      */
     public long[] getCustomFieldIds() {
@@ -328,13 +320,10 @@ public class ReportQuery  implements java.io.Serializable {
      *                 as a {@link #dimensions dimension}.
      *                 
      *                 <table>
-     *                 <th>
      *                 <tr>
-     *                 <th>{@link CustomFieldEntityType#entityType}</th><th>{@link
-     * Dimension}</th>
+     *                 <th scope="col">{@link CustomFieldEntityType#entityType}</th>
+     * <th scope="col">{@link Dimension}</th>
      *                 </tr>
-     *                 </th>
-     *                 <tbody>
      *                 <tr>
      *                 <td>{@link CustomFieldEntityType#LINE_ITEM}</td><td>{@link
      * Dimension#LINE_ITEM_NAME}</td>
@@ -347,7 +336,6 @@ public class ReportQuery  implements java.io.Serializable {
      *                 <td>{@link CustomFieldEntityType#CREATIVE}</td><td>{@link
      * Dimension#CREATIVE_NAME}</td>
      *                 </tr>
-     *                 </tbody>
      *                 </table>
      */
     public void setCustomFieldIds(long[] customFieldIds) {

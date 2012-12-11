@@ -18,7 +18,9 @@ public class ParseErrorReason implements java.io.Serializable {
     }
 
     public static final java.lang.String _UNPARSABLE = "UNPARSABLE";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final ParseErrorReason UNPARSABLE = new ParseErrorReason(_UNPARSABLE);
+    public static final ParseErrorReason UNKNOWN = new ParseErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static ParseErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

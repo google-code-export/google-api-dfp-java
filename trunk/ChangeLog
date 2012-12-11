@@ -1,3 +1,9 @@
+2.15.0:
+- Added support for v201211.
+- Updated existing generated code for UnsupportedCreative and UKNOWN enum
+  choices.
+- Removed support for v201108, v201111, and v201201.
+
 2.14.1:
 - Added link to header explanations in dfp.properties file.
 - Modified some examples to better suit v201208.

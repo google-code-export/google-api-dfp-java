@@ -12,7 +12,7 @@ package com.google.api.ads.dfp.v201206;
  * A base type for video creatives.
  */
 public abstract class BaseVideoCreative  extends com.google.api.ads.dfp.v201206.HasDestinationUrlCreative  implements java.io.Serializable {
-    /* The expected duration of this creative in seconds. */
+    /* The expected duration of this creative in milliseconds. */
     private java.lang.Integer duration;
 
     /* Allows the creative duration to differ from the actual asset
@@ -78,7 +78,7 @@ public abstract class BaseVideoCreative  extends com.google.api.ads.dfp.v201206.
     /**
      * Gets the duration value for this BaseVideoCreative.
      * 
-     * @return duration   * The expected duration of this creative in seconds.
+     * @return duration   * The expected duration of this creative in milliseconds.
      */
     public java.lang.Integer getDuration() {
         return duration;
@@ -88,7 +88,7 @@ public abstract class BaseVideoCreative  extends com.google.api.ads.dfp.v201206.
     /**
      * Sets the duration value for this BaseVideoCreative.
      * 
-     * @param duration   * The expected duration of this creative in seconds.
+     * @param duration   * The expected duration of this creative in milliseconds.
      */
     public void setDuration(java.lang.Integer duration) {
         this.duration = duration;

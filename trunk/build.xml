@@ -20,24 +20,12 @@
   <property name="version" value="${lib_version}" />
   <property name="jar.name" value="${ant.project.name}-${version}" />
 
-  <property name="api.versions" value="v201108,v201111,v201201,v201203,v201204,v201206,v201208"/>
+  <property name="api.versions" value="v201203,v201204,v201206,v201208,v201211"/>
 
   <property name="api.package.prefix" value="com.google.api.ads.dfp"/>
   <property name="api.namespace.prefix" value="https://www.google.com/apis/ads/publisher" />
   <property name="api.server" value="https://www.google.com/" />
-  <property name="wsdl.postfix" value="?wsdl"/>
-
-  <property name="api.version.v201108" value="v201108" />
-  <property name="api.version.v201108.services"
-      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService,ThirdPartySlotService" />
-
-  <property name="api.version.v201111" value="v201111" />
-  <property name="api.version.v201111.services"
-      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService,ThirdPartySlotService,ContentService,SuggestedAdUnitService,CreativeTemplateService" />
-
-  <property name="api.version.v201201" value="v201201" />
-  <property name="api.version.v201201.services"
-      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService,ThirdPartySlotService,ContentService,SuggestedAdUnitService,CreativeTemplateService,TeamService" />
+  <property name="wsdl.postfix" value="?wsdl"/> 
 
   <property name="api.version.v201203" value="v201203" />
   <property name="api.version.v201203.services"
@@ -54,6 +42,10 @@
   <property name="api.version.v201208" value="v201208" />
   <property name="api.version.v201208.services"
       value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService,ThirdPartySlotService,ContentService,CreativeTemplateService,TeamService,AudienceSegmentService,CustomFieldService,UserTeamAssociationService,SuggestedAdUnitService,CreativeSetService" />
+
+  <property name="api.version.v201211" value="v201211" />
+  <property name="api.version.v201211.services"
+      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService,ThirdPartySlotService,ContentService,CreativeTemplateService,TeamService,AudienceSegmentService,CustomFieldService,UserTeamAssociationService,SuggestedAdUnitService,CreativeSetService,CreativeWrapperService" />
 
   <!-- Classpath -->
   <path id="project.class.path">
@@ -436,7 +428,7 @@
     <delete dir="${javadoc.dir}">
       <exclude name="README" />
     </delete>
-    <javadoc sourcepath="${src}" classpathref="project.class.path"
+    <javadoc maxmemory="1024m" sourcepath="${src}" classpathref="project.class.path"
         destdir="${javadoc.dir}" packagenames="com.google.api.ads.dfp.*">
       <fileset dir="${src}">
         <include name="*.java" />

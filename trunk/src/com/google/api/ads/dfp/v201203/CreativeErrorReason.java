@@ -21,12 +21,18 @@ public class CreativeErrorReason implements java.io.Serializable {
     public static final java.lang.String _INVALID_INTERNAL_REDIRECT_URL = "INVALID_INTERNAL_REDIRECT_URL";
     public static final java.lang.String _DESTINATION_URL_REQUIRED = "DESTINATION_URL_REQUIRED";
     public static final java.lang.String _CANNOT_CREATE_OR_UPDATE_LEGACY_DFP_CREATIVE = "CANNOT_CREATE_OR_UPDATE_LEGACY_DFP_CREATIVE";
+    public static final java.lang.String _MISSING_FEATURE = "MISSING_FEATURE";
     public static final java.lang.String _INVALID_COMPANY_TYPE = "INVALID_COMPANY_TYPE";
+    public static final java.lang.String _CANNOT_CREATE_OR_UPDATE_UNSUPPORTED_CREATIVE = "CANNOT_CREATE_OR_UPDATE_UNSUPPORTED_CREATIVE";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final CreativeErrorReason FLASH_AND_FALLBACK_URL_ARE_SAME = new CreativeErrorReason(_FLASH_AND_FALLBACK_URL_ARE_SAME);
     public static final CreativeErrorReason INVALID_INTERNAL_REDIRECT_URL = new CreativeErrorReason(_INVALID_INTERNAL_REDIRECT_URL);
     public static final CreativeErrorReason DESTINATION_URL_REQUIRED = new CreativeErrorReason(_DESTINATION_URL_REQUIRED);
     public static final CreativeErrorReason CANNOT_CREATE_OR_UPDATE_LEGACY_DFP_CREATIVE = new CreativeErrorReason(_CANNOT_CREATE_OR_UPDATE_LEGACY_DFP_CREATIVE);
+    public static final CreativeErrorReason MISSING_FEATURE = new CreativeErrorReason(_MISSING_FEATURE);
     public static final CreativeErrorReason INVALID_COMPANY_TYPE = new CreativeErrorReason(_INVALID_COMPANY_TYPE);
+    public static final CreativeErrorReason CANNOT_CREATE_OR_UPDATE_UNSUPPORTED_CREATIVE = new CreativeErrorReason(_CANNOT_CREATE_OR_UPDATE_UNSUPPORTED_CREATIVE);
+    public static final CreativeErrorReason UNKNOWN = new CreativeErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static CreativeErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

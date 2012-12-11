@@ -61,7 +61,7 @@ public class CreativePlaceholder  implements java.io.Serializable {
 
     /* Describes the types of sizes a creative can be. By default,
      * the creative's size
-     *                 is {@code CreativeSizeType#PIXEL}, which is a dimension
+     *                 is {@link CreativeSizeType#PIXEL}, which is a dimension
      * based size (width-height pair). */
     private com.google.api.ads.dfp.v201204.CreativeSizeType creativeSizeType;
 
@@ -273,7 +273,7 @@ public class CreativePlaceholder  implements java.io.Serializable {
      * 
      * @return creativeSizeType   * Describes the types of sizes a creative can be. By default,
      * the creative's size
-     *                 is {@code CreativeSizeType#PIXEL}, which is a dimension
+     *                 is {@link CreativeSizeType#PIXEL}, which is a dimension
      * based size (width-height pair).
      */
     public com.google.api.ads.dfp.v201204.CreativeSizeType getCreativeSizeType() {
@@ -286,7 +286,7 @@ public class CreativePlaceholder  implements java.io.Serializable {
      * 
      * @param creativeSizeType   * Describes the types of sizes a creative can be. By default,
      * the creative's size
-     *                 is {@code CreativeSizeType#PIXEL}, which is a dimension
+     *                 is {@link CreativeSizeType#PIXEL}, which is a dimension
      * based size (width-height pair).
      */
     public void setCreativeSizeType(com.google.api.ads.dfp.v201204.CreativeSizeType creativeSizeType) {

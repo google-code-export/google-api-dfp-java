@@ -21,10 +21,12 @@ public class InvalidUrlErrorReason implements java.io.Serializable {
     public static final java.lang.String _INVALID_FORMAT = "INVALID_FORMAT";
     public static final java.lang.String _INSECURE_SCHEME = "INSECURE_SCHEME";
     public static final java.lang.String _NO_SCHEME = "NO_SCHEME";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final InvalidUrlErrorReason ILLEGAL_CHARACTERS = new InvalidUrlErrorReason(_ILLEGAL_CHARACTERS);
     public static final InvalidUrlErrorReason INVALID_FORMAT = new InvalidUrlErrorReason(_INVALID_FORMAT);
     public static final InvalidUrlErrorReason INSECURE_SCHEME = new InvalidUrlErrorReason(_INSECURE_SCHEME);
     public static final InvalidUrlErrorReason NO_SCHEME = new InvalidUrlErrorReason(_NO_SCHEME);
+    public static final InvalidUrlErrorReason UNKNOWN = new InvalidUrlErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static InvalidUrlErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

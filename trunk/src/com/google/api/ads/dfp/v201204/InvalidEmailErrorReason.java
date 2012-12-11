@@ -18,7 +18,9 @@ public class InvalidEmailErrorReason implements java.io.Serializable {
     }
 
     public static final java.lang.String _INVALID_FORMAT = "INVALID_FORMAT";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final InvalidEmailErrorReason INVALID_FORMAT = new InvalidEmailErrorReason(_INVALID_FORMAT);
+    public static final InvalidEmailErrorReason UNKNOWN = new InvalidEmailErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static InvalidEmailErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

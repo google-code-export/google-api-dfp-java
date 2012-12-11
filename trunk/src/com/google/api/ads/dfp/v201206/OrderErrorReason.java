@@ -23,12 +23,14 @@ public class OrderErrorReason implements java.io.Serializable {
     public static final java.lang.String _CANNOT_MODIFY_PROPOSAL_ID = "CANNOT_MODIFY_PROPOSAL_ID";
     public static final java.lang.String _PRIMARY_USER_REQUIRED = "PRIMARY_USER_REQUIRED";
     public static final java.lang.String _PRIMARY_USER_CANNOT_BE_SECONDARY = "PRIMARY_USER_CANNOT_BE_SECONDARY";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final OrderErrorReason UPDATE_CANCELED_ORDER_NOT_ALLOWED = new OrderErrorReason(_UPDATE_CANCELED_ORDER_NOT_ALLOWED);
     public static final OrderErrorReason UPDATE_PENDING_APPROVAL_ORDER_NOT_ALLOWED = new OrderErrorReason(_UPDATE_PENDING_APPROVAL_ORDER_NOT_ALLOWED);
     public static final OrderErrorReason UPDATE_ARCHIVED_ORDER_NOT_ALLOWED = new OrderErrorReason(_UPDATE_ARCHIVED_ORDER_NOT_ALLOWED);
     public static final OrderErrorReason CANNOT_MODIFY_PROPOSAL_ID = new OrderErrorReason(_CANNOT_MODIFY_PROPOSAL_ID);
     public static final OrderErrorReason PRIMARY_USER_REQUIRED = new OrderErrorReason(_PRIMARY_USER_REQUIRED);
     public static final OrderErrorReason PRIMARY_USER_CANNOT_BE_SECONDARY = new OrderErrorReason(_PRIMARY_USER_CANNOT_BE_SECONDARY);
+    public static final OrderErrorReason UNKNOWN = new OrderErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static OrderErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

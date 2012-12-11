@@ -18,7 +18,9 @@ public class PublisherQueryLanguageSyntaxErrorReason implements java.io.Serializ
     }
 
     public static final java.lang.String _UNPARSABLE = "UNPARSABLE";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final PublisherQueryLanguageSyntaxErrorReason UNPARSABLE = new PublisherQueryLanguageSyntaxErrorReason(_UNPARSABLE);
+    public static final PublisherQueryLanguageSyntaxErrorReason UNKNOWN = new PublisherQueryLanguageSyntaxErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static PublisherQueryLanguageSyntaxErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

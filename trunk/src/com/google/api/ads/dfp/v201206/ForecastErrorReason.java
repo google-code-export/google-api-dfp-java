@@ -24,6 +24,7 @@ public class ForecastErrorReason implements java.io.Serializable {
     public static final java.lang.String _SUCCESS = "SUCCESS";
     public static final java.lang.String _ZERO_LENGTH_RESERVATION = "ZERO_LENGTH_RESERVATION";
     public static final java.lang.String _EXCEEDED_QUOTA = "EXCEEDED_QUOTA";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final ForecastErrorReason SERVER_NOT_AVAILABLE = new ForecastErrorReason(_SERVER_NOT_AVAILABLE);
     public static final ForecastErrorReason INTERNAL_ERROR = new ForecastErrorReason(_INTERNAL_ERROR);
     public static final ForecastErrorReason NO_FORECAST_YET = new ForecastErrorReason(_NO_FORECAST_YET);
@@ -31,6 +32,7 @@ public class ForecastErrorReason implements java.io.Serializable {
     public static final ForecastErrorReason SUCCESS = new ForecastErrorReason(_SUCCESS);
     public static final ForecastErrorReason ZERO_LENGTH_RESERVATION = new ForecastErrorReason(_ZERO_LENGTH_RESERVATION);
     public static final ForecastErrorReason EXCEEDED_QUOTA = new ForecastErrorReason(_EXCEEDED_QUOTA);
+    public static final ForecastErrorReason UNKNOWN = new ForecastErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static ForecastErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

@@ -22,11 +22,13 @@ public class CompanyCreditStatusErrorReason implements java.io.Serializable {
     public static final java.lang.String _CANNOT_USE_ADVANCED_CREDIT_STATUS_SETTING = "CANNOT_USE_ADVANCED_CREDIT_STATUS_SETTING";
     public static final java.lang.String _UNACCEPTABLE_COMPANY_CREDIT_STATUS_FOR_ORDER = "UNACCEPTABLE_COMPANY_CREDIT_STATUS_FOR_ORDER";
     public static final java.lang.String _UNACCEPTABLE_COMPANY_CREDIT_STATUS_FOR_LINE_ITEM = "UNACCEPTABLE_COMPANY_CREDIT_STATUS_FOR_LINE_ITEM";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final CompanyCreditStatusErrorReason COMPANY_CREDIT_STATUS_CHANGE_NOT_ALLOWED = new CompanyCreditStatusErrorReason(_COMPANY_CREDIT_STATUS_CHANGE_NOT_ALLOWED);
     public static final CompanyCreditStatusErrorReason CANNOT_USE_CREDIT_STATUS_SETTING = new CompanyCreditStatusErrorReason(_CANNOT_USE_CREDIT_STATUS_SETTING);
     public static final CompanyCreditStatusErrorReason CANNOT_USE_ADVANCED_CREDIT_STATUS_SETTING = new CompanyCreditStatusErrorReason(_CANNOT_USE_ADVANCED_CREDIT_STATUS_SETTING);
     public static final CompanyCreditStatusErrorReason UNACCEPTABLE_COMPANY_CREDIT_STATUS_FOR_ORDER = new CompanyCreditStatusErrorReason(_UNACCEPTABLE_COMPANY_CREDIT_STATUS_FOR_ORDER);
     public static final CompanyCreditStatusErrorReason UNACCEPTABLE_COMPANY_CREDIT_STATUS_FOR_LINE_ITEM = new CompanyCreditStatusErrorReason(_UNACCEPTABLE_COMPANY_CREDIT_STATUS_FOR_LINE_ITEM);
+    public static final CompanyCreditStatusErrorReason UNKNOWN = new CompanyCreditStatusErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static CompanyCreditStatusErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

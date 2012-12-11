@@ -20,9 +20,11 @@ public class LineItemCreativeAssociationOperationErrorReason implements java.io.
     public static final java.lang.String _NOT_ALLOWED = "NOT_ALLOWED";
     public static final java.lang.String _NOT_APPLICABLE = "NOT_APPLICABLE";
     public static final java.lang.String _CANNOT_ACTIVATE_INVALID_CREATIVE = "CANNOT_ACTIVATE_INVALID_CREATIVE";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final LineItemCreativeAssociationOperationErrorReason NOT_ALLOWED = new LineItemCreativeAssociationOperationErrorReason(_NOT_ALLOWED);
     public static final LineItemCreativeAssociationOperationErrorReason NOT_APPLICABLE = new LineItemCreativeAssociationOperationErrorReason(_NOT_APPLICABLE);
     public static final LineItemCreativeAssociationOperationErrorReason CANNOT_ACTIVATE_INVALID_CREATIVE = new LineItemCreativeAssociationOperationErrorReason(_CANNOT_ACTIVATE_INVALID_CREATIVE);
+    public static final LineItemCreativeAssociationOperationErrorReason UNKNOWN = new LineItemCreativeAssociationOperationErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static LineItemCreativeAssociationOperationErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

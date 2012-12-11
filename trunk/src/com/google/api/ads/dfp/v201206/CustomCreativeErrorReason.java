@@ -23,12 +23,14 @@ public class CustomCreativeErrorReason implements java.io.Serializable {
     public static final java.lang.String _CUSTOM_CREATIVE_NOT_ALLOWED = "CUSTOM_CREATIVE_NOT_ALLOWED";
     public static final java.lang.String _MISSING_INTERSTITIAL_MACRO = "MISSING_INTERSTITIAL_MACRO";
     public static final java.lang.String _DUPLICATE_ASSET_IN_MACROS = "DUPLICATE_ASSET_IN_MACROS";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final CustomCreativeErrorReason DUPLICATE_MACRO_NAME_FOR_CREATIVE = new CustomCreativeErrorReason(_DUPLICATE_MACRO_NAME_FOR_CREATIVE);
     public static final CustomCreativeErrorReason SNIPPET_REFERENCES_MISSING_MACRO = new CustomCreativeErrorReason(_SNIPPET_REFERENCES_MISSING_MACRO);
     public static final CustomCreativeErrorReason UNRECOGNIZED_MACRO = new CustomCreativeErrorReason(_UNRECOGNIZED_MACRO);
     public static final CustomCreativeErrorReason CUSTOM_CREATIVE_NOT_ALLOWED = new CustomCreativeErrorReason(_CUSTOM_CREATIVE_NOT_ALLOWED);
     public static final CustomCreativeErrorReason MISSING_INTERSTITIAL_MACRO = new CustomCreativeErrorReason(_MISSING_INTERSTITIAL_MACRO);
     public static final CustomCreativeErrorReason DUPLICATE_ASSET_IN_MACROS = new CustomCreativeErrorReason(_DUPLICATE_ASSET_IN_MACROS);
+    public static final CustomCreativeErrorReason UNKNOWN = new CustomCreativeErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static CustomCreativeErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

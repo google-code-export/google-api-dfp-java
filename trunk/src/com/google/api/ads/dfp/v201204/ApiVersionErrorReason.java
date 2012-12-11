@@ -18,7 +18,9 @@ public class ApiVersionErrorReason implements java.io.Serializable {
     }
 
     public static final java.lang.String _UPDATE_TO_NEWER_VERSION = "UPDATE_TO_NEWER_VERSION";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final ApiVersionErrorReason UPDATE_TO_NEWER_VERSION = new ApiVersionErrorReason(_UPDATE_TO_NEWER_VERSION);
+    public static final ApiVersionErrorReason UNKNOWN = new ApiVersionErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static ApiVersionErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

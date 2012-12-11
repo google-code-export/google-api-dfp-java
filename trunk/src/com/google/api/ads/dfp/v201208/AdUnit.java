@@ -96,8 +96,8 @@ public class AdUnit  implements java.io.Serializable {
      * whether this ad unit
      *                 appears in a mobile application or in a mobile web
      * site. This attribute can
-     *                 only be used with {@TargetPlatform#MOBILE} ad units.
-     * This attribute is
+     *                 only be used with {@link TargetPlatform#MOBILE} ad
+     * units. This attribute is
      *                 optional and defaults to {@link MobilePlatform#SITE}. */
     private com.google.api.ads.dfp.v201208.MobilePlatform mobilePlatform;
 
@@ -509,8 +509,8 @@ public class AdUnit  implements java.io.Serializable {
      * whether this ad unit
      *                 appears in a mobile application or in a mobile web
      * site. This attribute can
-     *                 only be used with {@TargetPlatform#MOBILE} ad units.
-     * This attribute is
+     *                 only be used with {@link TargetPlatform#MOBILE} ad
+     * units. This attribute is
      *                 optional and defaults to {@link MobilePlatform#SITE}.
      */
     public com.google.api.ads.dfp.v201208.MobilePlatform getMobilePlatform() {
@@ -525,8 +525,8 @@ public class AdUnit  implements java.io.Serializable {
      * whether this ad unit
      *                 appears in a mobile application or in a mobile web
      * site. This attribute can
-     *                 only be used with {@TargetPlatform#MOBILE} ad units.
-     * This attribute is
+     *                 only be used with {@link TargetPlatform#MOBILE} ad
+     * units. This attribute is
      *                 optional and defaults to {@link MobilePlatform#SITE}.
      */
     public void setMobilePlatform(com.google.api.ads.dfp.v201208.MobilePlatform mobilePlatform) {

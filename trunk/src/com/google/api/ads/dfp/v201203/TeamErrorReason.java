@@ -20,9 +20,11 @@ public class TeamErrorReason implements java.io.Serializable {
     public static final java.lang.String _ENTITY_NOT_ON_USERS_TEAMS = "ENTITY_NOT_ON_USERS_TEAMS";
     public static final java.lang.String _MISSING_USERS_TEAM = "MISSING_USERS_TEAM";
     public static final java.lang.String _ALL_TEAM_ASSOCIATION_NOT_ALLOWED = "ALL_TEAM_ASSOCIATION_NOT_ALLOWED";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final TeamErrorReason ENTITY_NOT_ON_USERS_TEAMS = new TeamErrorReason(_ENTITY_NOT_ON_USERS_TEAMS);
     public static final TeamErrorReason MISSING_USERS_TEAM = new TeamErrorReason(_MISSING_USERS_TEAM);
     public static final TeamErrorReason ALL_TEAM_ASSOCIATION_NOT_ALLOWED = new TeamErrorReason(_ALL_TEAM_ASSOCIATION_NOT_ALLOWED);
+    public static final TeamErrorReason UNKNOWN = new TeamErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static TeamErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

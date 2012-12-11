@@ -26,6 +26,7 @@ public class AssetErrorReason implements java.io.Serializable {
     public static final java.lang.String _MISSING_REQUIRED_DYNAMIC_ALLOCATION_FORMAT = "MISSING_REQUIRED_DYNAMIC_ALLOCATION_FORMAT";
     public static final java.lang.String _INVALID_CODE_SNIPPET_PARAMETER_VALUE = "INVALID_CODE_SNIPPET_PARAMETER_VALUE";
     public static final java.lang.String _INVALID_ASSET_ID = "INVALID_ASSET_ID";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final AssetErrorReason NON_UNIQUE_NAME = new AssetErrorReason(_NON_UNIQUE_NAME);
     public static final AssetErrorReason FILE_NAME_TOO_LONG = new AssetErrorReason(_FILE_NAME_TOO_LONG);
     public static final AssetErrorReason FILE_SIZE_TOO_LARGE = new AssetErrorReason(_FILE_SIZE_TOO_LARGE);
@@ -35,6 +36,7 @@ public class AssetErrorReason implements java.io.Serializable {
     public static final AssetErrorReason MISSING_REQUIRED_DYNAMIC_ALLOCATION_FORMAT = new AssetErrorReason(_MISSING_REQUIRED_DYNAMIC_ALLOCATION_FORMAT);
     public static final AssetErrorReason INVALID_CODE_SNIPPET_PARAMETER_VALUE = new AssetErrorReason(_INVALID_CODE_SNIPPET_PARAMETER_VALUE);
     public static final AssetErrorReason INVALID_ASSET_ID = new AssetErrorReason(_INVALID_ASSET_ID);
+    public static final AssetErrorReason UNKNOWN = new AssetErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static AssetErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

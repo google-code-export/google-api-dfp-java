@@ -37,6 +37,7 @@ public class ReportErrorReason implements java.io.Serializable {
     public static final java.lang.String _FAILED_TO_STORE_REPORT = "FAILED_TO_STORE_REPORT";
     public static final java.lang.String _REPORT_NOT_FOUND = "REPORT_NOT_FOUND";
     public static final java.lang.String _SR_CANNOT_RUN_REPORT_IN_ANOTHER_NETWORK = "SR_CANNOT_RUN_REPORT_IN_ANOTHER_NETWORK";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final ReportErrorReason DEFAULT = new ReportErrorReason(_DEFAULT);
     public static final ReportErrorReason REPORT_ACCESS_NOT_ALLOWED = new ReportErrorReason(_REPORT_ACCESS_NOT_ALLOWED);
     public static final ReportErrorReason DIMENSION_VIEW_NOT_ALLOWED = new ReportErrorReason(_DIMENSION_VIEW_NOT_ALLOWED);
@@ -57,6 +58,7 @@ public class ReportErrorReason implements java.io.Serializable {
     public static final ReportErrorReason FAILED_TO_STORE_REPORT = new ReportErrorReason(_FAILED_TO_STORE_REPORT);
     public static final ReportErrorReason REPORT_NOT_FOUND = new ReportErrorReason(_REPORT_NOT_FOUND);
     public static final ReportErrorReason SR_CANNOT_RUN_REPORT_IN_ANOTHER_NETWORK = new ReportErrorReason(_SR_CANNOT_RUN_REPORT_IN_ANOTHER_NETWORK);
+    public static final ReportErrorReason UNKNOWN = new ReportErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static ReportErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {
