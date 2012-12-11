@@ -21,10 +21,12 @@ public class LineItemFlightDateErrorReason implements java.io.Serializable {
     public static final java.lang.String _END_DATE_TIME_IS_IN_PAST = "END_DATE_TIME_IS_IN_PAST";
     public static final java.lang.String _END_DATE_TIME_NOT_AFTER_START_TIME = "END_DATE_TIME_NOT_AFTER_START_TIME";
     public static final java.lang.String _END_DATE_TIME_TOO_LATE = "END_DATE_TIME_TOO_LATE";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final LineItemFlightDateErrorReason START_DATE_TIME_IS_IN_PAST = new LineItemFlightDateErrorReason(_START_DATE_TIME_IS_IN_PAST);
     public static final LineItemFlightDateErrorReason END_DATE_TIME_IS_IN_PAST = new LineItemFlightDateErrorReason(_END_DATE_TIME_IS_IN_PAST);
     public static final LineItemFlightDateErrorReason END_DATE_TIME_NOT_AFTER_START_TIME = new LineItemFlightDateErrorReason(_END_DATE_TIME_NOT_AFTER_START_TIME);
     public static final LineItemFlightDateErrorReason END_DATE_TIME_TOO_LATE = new LineItemFlightDateErrorReason(_END_DATE_TIME_TOO_LATE);
+    public static final LineItemFlightDateErrorReason UNKNOWN = new LineItemFlightDateErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static LineItemFlightDateErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

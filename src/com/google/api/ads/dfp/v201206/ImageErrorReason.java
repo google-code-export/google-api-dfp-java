@@ -38,6 +38,7 @@ public class ImageErrorReason implements java.io.Serializable {
     public static final java.lang.String _FLASH_VERSION_NOT_SUPPORTED = "FLASH_VERSION_NOT_SUPPORTED";
     public static final java.lang.String _FILE_TOO_LARGE = "FILE_TOO_LARGE";
     public static final java.lang.String _SYSTEM_ERROR = "SYSTEM_ERROR";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final ImageErrorReason INVALID_IMAGE = new ImageErrorReason(_INVALID_IMAGE);
     public static final ImageErrorReason INVALID_SIZE = new ImageErrorReason(_INVALID_SIZE);
     public static final ImageErrorReason UNEXPECTED_SIZE = new ImageErrorReason(_UNEXPECTED_SIZE);
@@ -59,6 +60,7 @@ public class ImageErrorReason implements java.io.Serializable {
     public static final ImageErrorReason FLASH_VERSION_NOT_SUPPORTED = new ImageErrorReason(_FLASH_VERSION_NOT_SUPPORTED);
     public static final ImageErrorReason FILE_TOO_LARGE = new ImageErrorReason(_FILE_TOO_LARGE);
     public static final ImageErrorReason SYSTEM_ERROR = new ImageErrorReason(_SYSTEM_ERROR);
+    public static final ImageErrorReason UNKNOWN = new ImageErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static ImageErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

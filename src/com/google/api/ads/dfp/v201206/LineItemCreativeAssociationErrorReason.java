@@ -26,6 +26,7 @@ public class LineItemCreativeAssociationErrorReason implements java.io.Serializa
     public static final java.lang.String _ENDDATE_NOT_AFTER_STARTDATE = "ENDDATE_NOT_AFTER_STARTDATE";
     public static final java.lang.String _ENDDATE_IN_THE_PAST = "ENDDATE_IN_THE_PAST";
     public static final java.lang.String _CANNOT_COPY_WITHIN_SAME_LINE_ITEM = "CANNOT_COPY_WITHIN_SAME_LINE_ITEM";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final LineItemCreativeAssociationErrorReason CREATIVE_IN_WRONG_ADVERTISERS_LIBRARY = new LineItemCreativeAssociationErrorReason(_CREATIVE_IN_WRONG_ADVERTISERS_LIBRARY);
     public static final LineItemCreativeAssociationErrorReason INVALID_LINEITEM_CREATIVE_PAIRING = new LineItemCreativeAssociationErrorReason(_INVALID_LINEITEM_CREATIVE_PAIRING);
     public static final LineItemCreativeAssociationErrorReason STARTDATE_BEFORE_LINEITEM_STARTDATE = new LineItemCreativeAssociationErrorReason(_STARTDATE_BEFORE_LINEITEM_STARTDATE);
@@ -35,6 +36,7 @@ public class LineItemCreativeAssociationErrorReason implements java.io.Serializa
     public static final LineItemCreativeAssociationErrorReason ENDDATE_NOT_AFTER_STARTDATE = new LineItemCreativeAssociationErrorReason(_ENDDATE_NOT_AFTER_STARTDATE);
     public static final LineItemCreativeAssociationErrorReason ENDDATE_IN_THE_PAST = new LineItemCreativeAssociationErrorReason(_ENDDATE_IN_THE_PAST);
     public static final LineItemCreativeAssociationErrorReason CANNOT_COPY_WITHIN_SAME_LINE_ITEM = new LineItemCreativeAssociationErrorReason(_CANNOT_COPY_WITHIN_SAME_LINE_ITEM);
+    public static final LineItemCreativeAssociationErrorReason UNKNOWN = new LineItemCreativeAssociationErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static LineItemCreativeAssociationErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

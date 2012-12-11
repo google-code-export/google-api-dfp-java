@@ -20,9 +20,11 @@ public class AdUnitAfcSizeErrorReason implements java.io.Serializable {
     public static final java.lang.String _INVALID = "INVALID";
     public static final java.lang.String _DOESNT_FIT = "DOESNT_FIT";
     public static final java.lang.String _NOT_APPLICABLE = "NOT_APPLICABLE";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final AdUnitAfcSizeErrorReason INVALID = new AdUnitAfcSizeErrorReason(_INVALID);
     public static final AdUnitAfcSizeErrorReason DOESNT_FIT = new AdUnitAfcSizeErrorReason(_DOESNT_FIT);
     public static final AdUnitAfcSizeErrorReason NOT_APPLICABLE = new AdUnitAfcSizeErrorReason(_NOT_APPLICABLE);
+    public static final AdUnitAfcSizeErrorReason UNKNOWN = new AdUnitAfcSizeErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static AdUnitAfcSizeErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

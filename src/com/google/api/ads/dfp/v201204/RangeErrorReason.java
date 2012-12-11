@@ -19,8 +19,10 @@ public class RangeErrorReason implements java.io.Serializable {
 
     public static final java.lang.String _TOO_HIGH = "TOO_HIGH";
     public static final java.lang.String _TOO_LOW = "TOO_LOW";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final RangeErrorReason TOO_HIGH = new RangeErrorReason(_TOO_HIGH);
     public static final RangeErrorReason TOO_LOW = new RangeErrorReason(_TOO_LOW);
+    public static final RangeErrorReason UNKNOWN = new RangeErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static RangeErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

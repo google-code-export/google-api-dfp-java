@@ -20,9 +20,11 @@ public class ContentPartnerErrorReason implements java.io.Serializable {
     public static final java.lang.String _FEATURE_NOT_ENABLED = "FEATURE_NOT_ENABLED";
     public static final java.lang.String _INVALID_PARTNER_TYPE = "INVALID_PARTNER_TYPE";
     public static final java.lang.String _NO_PARTNER_CATCH_ALL = "NO_PARTNER_CATCH_ALL";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final ContentPartnerErrorReason FEATURE_NOT_ENABLED = new ContentPartnerErrorReason(_FEATURE_NOT_ENABLED);
     public static final ContentPartnerErrorReason INVALID_PARTNER_TYPE = new ContentPartnerErrorReason(_INVALID_PARTNER_TYPE);
     public static final ContentPartnerErrorReason NO_PARTNER_CATCH_ALL = new ContentPartnerErrorReason(_NO_PARTNER_CATCH_ALL);
+    public static final ContentPartnerErrorReason UNKNOWN = new ContentPartnerErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static ContentPartnerErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

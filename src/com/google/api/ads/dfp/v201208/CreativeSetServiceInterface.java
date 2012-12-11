@@ -54,6 +54,10 @@ public interface CreativeSetServiceInterface extends java.rmi.Remote {
      *         <td>{@code masterCreativeId}</td>
      *         <td>{@link CreativeSet#masterCreativeId}</td>
      *         </tr>
+     *         <tr>
+     *         <td>{@code lastModifiedDateTime}</td>
+     *         <td>{@link CreativeSet#lastModifiedDateTime}</td>
+     *         </tr>
      *         </table>
      *         
      *         

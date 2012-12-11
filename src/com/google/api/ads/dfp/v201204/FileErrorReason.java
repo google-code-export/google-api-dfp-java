@@ -19,8 +19,10 @@ public class FileErrorReason implements java.io.Serializable {
 
     public static final java.lang.String _MISSING_CONTENTS = "MISSING_CONTENTS";
     public static final java.lang.String _SIZE_TOO_LARGE = "SIZE_TOO_LARGE";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final FileErrorReason MISSING_CONTENTS = new FileErrorReason(_MISSING_CONTENTS);
     public static final FileErrorReason SIZE_TOO_LARGE = new FileErrorReason(_SIZE_TOO_LARGE);
+    public static final FileErrorReason UNKNOWN = new FileErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static FileErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

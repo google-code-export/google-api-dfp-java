@@ -19,8 +19,10 @@ public class CreativeSetErrorReason implements java.io.Serializable {
 
     public static final java.lang.String _VIDEO_FEATURE_REQUIRED = "VIDEO_FEATURE_REQUIRED";
     public static final java.lang.String _CANNOT_CREATE_OR_UPDATE_VIDEO_CREATIVES = "CANNOT_CREATE_OR_UPDATE_VIDEO_CREATIVES";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final CreativeSetErrorReason VIDEO_FEATURE_REQUIRED = new CreativeSetErrorReason(_VIDEO_FEATURE_REQUIRED);
     public static final CreativeSetErrorReason CANNOT_CREATE_OR_UPDATE_VIDEO_CREATIVES = new CreativeSetErrorReason(_CANNOT_CREATE_OR_UPDATE_VIDEO_CREATIVES);
+    public static final CreativeSetErrorReason UNKNOWN = new CreativeSetErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static CreativeSetErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

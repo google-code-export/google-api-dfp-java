@@ -101,7 +101,7 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 attribute is optional. */
     private com.google.api.ads.dfp.v201208.FrequencyCap[] frequencyCaps;
 
-    /* Indicates the priority of a {@code LineItem}. This attribute
+    /* Indicates the line item type of a {@code LineItem}. This attribute
      * is required. */
     private com.google.api.ads.dfp.v201208.LineItemType lineItemType;
 
@@ -128,7 +128,7 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 <td>8</td><td>6</td><td>10</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#REMNANT_SPONSORSHIP}</td>
+     *                 <td>{@link LineItemType#NETWORK}</td>
      *                 <td>12</td><td>11</td><td>14</td>
      *                 </tr>
      *                 <tr>
@@ -136,11 +136,25 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 <td>12</td><td>11</td><td>14</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#REMNANT}</td>
+     *                 <td>{@link LineItemType#PRICE_PRIORITY}</td>
      *                 <td>12</td><td>11</td><td>14</td>
      *                 </tr>
      *                 <tr>
      *                 <td>{@link LineItemType#HOUSE}</td>
+     *                 <td>16</td><td>15</td><td>16</td>
+     *                 </tr>
+     *                 <tr>
+     *                 <td>{@link LineItemType#CLICK_TRACKING}</td>
+     *                 <td>16</td><td>1</td><td>16</td>
+     *                 </tr>
+     *                 <tr>
+     *                 <td>{@link LineItemType#AD_EXCHANGE}</td>
+     *                 <td>12</td><td>1</td><td>16</td>
+     *                 </tr>
+     *                 <td>{@link LineItemType#ADSENSE}</td>
+     *                 <td>12</td><td>1</td><td>16</td>
+     *                 </tr>
+     *                 <td>{@link LineItemType#BUMPER}</td>
      *                 <td>16</td><td>15</td><td>16</td>
      *                 </tr>
      *                 </table>
@@ -212,7 +226,8 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 {@link LineItemType#SPONSORSHIP}, then it represents
      * the percentage of
      *                 available impressions reserved. This attribute is
-     * required. */
+     * required and must be
+     *                 greater than 0. */
     private java.lang.Long unitsBought;
 
     /* The amount of money to spend per impression or click. This
@@ -290,16 +305,17 @@ public class LineItemSummary  implements java.io.Serializable {
     private com.google.api.ads.dfp.v201208.EnvironmentType environmentType;
 
     /* The delivery option for companions. This is only valid if the
-     * environment
-     *                 type is {@link EnvironmentType#VIDEO_PLAYER}. The
-     * default for video line
-     *                 items is {@link CompanionDeliveryOption#OPTIONAL}.
-     * The default for other
-     *                 line items is {@link CompanionDeliveryOption#UNKNOWN}.
+     * environment type is
+     *                 {@link EnvironmentType#VIDEO_PLAYER} or the roadblocking
+     * type is
+     *                 {@link RoadblockingType#CREATIVE_SET}. The default
+     * value for video environments or
+     *                 roadblocking creatives is {@link CompanionDeliveryOption#OPTIONAL}.
+     * The default
+     *                 value in other cases is {@link CompanionDeliveryOption#UNKNOWN}.
      * Providing something
      *                 other than {@link CompanionDeliveryOption#UNKNOWN}
-     * if the environmentType
-     *                 is {@link EnvironmentType#BROWSER} will cause an error. */
+     * will cause an error. */
     private com.google.api.ads.dfp.v201208.CompanionDeliveryOption companionDeliveryOption;
 
     /* Specifies options to prevent ads from replacing or appearing
@@ -919,7 +935,7 @@ public class LineItemSummary  implements java.io.Serializable {
     /**
      * Gets the lineItemType value for this LineItemSummary.
      * 
-     * @return lineItemType   * Indicates the priority of a {@code LineItem}. This attribute
+     * @return lineItemType   * Indicates the line item type of a {@code LineItem}. This attribute
      * is required.
      */
     public com.google.api.ads.dfp.v201208.LineItemType getLineItemType() {
@@ -930,7 +946,7 @@ public class LineItemSummary  implements java.io.Serializable {
     /**
      * Sets the lineItemType value for this LineItemSummary.
      * 
-     * @param lineItemType   * Indicates the priority of a {@code LineItem}. This attribute
+     * @param lineItemType   * Indicates the line item type of a {@code LineItem}. This attribute
      * is required.
      */
     public void setLineItemType(com.google.api.ads.dfp.v201208.LineItemType lineItemType) {
@@ -964,7 +980,7 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 <td>8</td><td>6</td><td>10</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#REMNANT_SPONSORSHIP}</td>
+     *                 <td>{@link LineItemType#NETWORK}</td>
      *                 <td>12</td><td>11</td><td>14</td>
      *                 </tr>
      *                 <tr>
@@ -972,11 +988,25 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 <td>12</td><td>11</td><td>14</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#REMNANT}</td>
+     *                 <td>{@link LineItemType#PRICE_PRIORITY}</td>
      *                 <td>12</td><td>11</td><td>14</td>
      *                 </tr>
      *                 <tr>
      *                 <td>{@link LineItemType#HOUSE}</td>
+     *                 <td>16</td><td>15</td><td>16</td>
+     *                 </tr>
+     *                 <tr>
+     *                 <td>{@link LineItemType#CLICK_TRACKING}</td>
+     *                 <td>16</td><td>1</td><td>16</td>
+     *                 </tr>
+     *                 <tr>
+     *                 <td>{@link LineItemType#AD_EXCHANGE}</td>
+     *                 <td>12</td><td>1</td><td>16</td>
+     *                 </tr>
+     *                 <td>{@link LineItemType#ADSENSE}</td>
+     *                 <td>12</td><td>1</td><td>16</td>
+     *                 </tr>
+     *                 <td>{@link LineItemType#BUMPER}</td>
      *                 <td>16</td><td>15</td><td>16</td>
      *                 </tr>
      *                 </table>
@@ -1016,7 +1046,7 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 <td>8</td><td>6</td><td>10</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#REMNANT_SPONSORSHIP}</td>
+     *                 <td>{@link LineItemType#NETWORK}</td>
      *                 <td>12</td><td>11</td><td>14</td>
      *                 </tr>
      *                 <tr>
@@ -1024,11 +1054,25 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 <td>12</td><td>11</td><td>14</td>
      *                 </tr>
      *                 <tr>
-     *                 <td>{@link LineItemType#REMNANT}</td>
+     *                 <td>{@link LineItemType#PRICE_PRIORITY}</td>
      *                 <td>12</td><td>11</td><td>14</td>
      *                 </tr>
      *                 <tr>
      *                 <td>{@link LineItemType#HOUSE}</td>
+     *                 <td>16</td><td>15</td><td>16</td>
+     *                 </tr>
+     *                 <tr>
+     *                 <td>{@link LineItemType#CLICK_TRACKING}</td>
+     *                 <td>16</td><td>1</td><td>16</td>
+     *                 </tr>
+     *                 <tr>
+     *                 <td>{@link LineItemType#AD_EXCHANGE}</td>
+     *                 <td>12</td><td>1</td><td>16</td>
+     *                 </tr>
+     *                 <td>{@link LineItemType#ADSENSE}</td>
+     *                 <td>12</td><td>1</td><td>16</td>
+     *                 </tr>
+     *                 <td>{@link LineItemType#BUMPER}</td>
      *                 <td>16</td><td>15</td><td>16</td>
      *                 </tr>
      *                 </table>
@@ -1191,7 +1235,8 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 {@link LineItemType#SPONSORSHIP}, then it represents
      * the percentage of
      *                 available impressions reserved. This attribute is
-     * required.
+     * required and must be
+     *                 greater than 0.
      */
     public java.lang.Long getUnitsBought() {
         return unitsBought;
@@ -1207,7 +1252,8 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 {@link LineItemType#SPONSORSHIP}, then it represents
      * the percentage of
      *                 available impressions reserved. This attribute is
-     * required.
+     * required and must be
+     *                 greater than 0.
      */
     public void setUnitsBought(java.lang.Long unitsBought) {
         this.unitsBought = unitsBought;
@@ -1500,16 +1546,17 @@ public class LineItemSummary  implements java.io.Serializable {
      * Gets the companionDeliveryOption value for this LineItemSummary.
      * 
      * @return companionDeliveryOption   * The delivery option for companions. This is only valid if the
-     * environment
-     *                 type is {@link EnvironmentType#VIDEO_PLAYER}. The
-     * default for video line
-     *                 items is {@link CompanionDeliveryOption#OPTIONAL}.
-     * The default for other
-     *                 line items is {@link CompanionDeliveryOption#UNKNOWN}.
+     * environment type is
+     *                 {@link EnvironmentType#VIDEO_PLAYER} or the roadblocking
+     * type is
+     *                 {@link RoadblockingType#CREATIVE_SET}. The default
+     * value for video environments or
+     *                 roadblocking creatives is {@link CompanionDeliveryOption#OPTIONAL}.
+     * The default
+     *                 value in other cases is {@link CompanionDeliveryOption#UNKNOWN}.
      * Providing something
      *                 other than {@link CompanionDeliveryOption#UNKNOWN}
-     * if the environmentType
-     *                 is {@link EnvironmentType#BROWSER} will cause an error.
+     * will cause an error.
      */
     public com.google.api.ads.dfp.v201208.CompanionDeliveryOption getCompanionDeliveryOption() {
         return companionDeliveryOption;
@@ -1520,16 +1567,17 @@ public class LineItemSummary  implements java.io.Serializable {
      * Sets the companionDeliveryOption value for this LineItemSummary.
      * 
      * @param companionDeliveryOption   * The delivery option for companions. This is only valid if the
-     * environment
-     *                 type is {@link EnvironmentType#VIDEO_PLAYER}. The
-     * default for video line
-     *                 items is {@link CompanionDeliveryOption#OPTIONAL}.
-     * The default for other
-     *                 line items is {@link CompanionDeliveryOption#UNKNOWN}.
+     * environment type is
+     *                 {@link EnvironmentType#VIDEO_PLAYER} or the roadblocking
+     * type is
+     *                 {@link RoadblockingType#CREATIVE_SET}. The default
+     * value for video environments or
+     *                 roadblocking creatives is {@link CompanionDeliveryOption#OPTIONAL}.
+     * The default
+     *                 value in other cases is {@link CompanionDeliveryOption#UNKNOWN}.
      * Providing something
      *                 other than {@link CompanionDeliveryOption#UNKNOWN}
-     * if the environmentType
-     *                 is {@link EnvironmentType#BROWSER} will cause an error.
+     * will cause an error.
      */
     public void setCompanionDeliveryOption(com.google.api.ads.dfp.v201208.CompanionDeliveryOption companionDeliveryOption) {
         this.companionDeliveryOption = companionDeliveryOption;

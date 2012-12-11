@@ -18,7 +18,9 @@ public class PermissionErrorReason implements java.io.Serializable {
     }
 
     public static final java.lang.String _PERMISSION_DENIED = "PERMISSION_DENIED";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final PermissionErrorReason PERMISSION_DENIED = new PermissionErrorReason(_PERMISSION_DENIED);
+    public static final PermissionErrorReason UNKNOWN = new PermissionErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static PermissionErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

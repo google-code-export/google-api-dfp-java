@@ -18,7 +18,9 @@ public class InventoryUnitErrorReason implements java.io.Serializable {
     }
 
     public static final java.lang.String _EXPLICIT_TARGETING_NOT_ALLOWED = "EXPLICIT_TARGETING_NOT_ALLOWED";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final InventoryUnitErrorReason EXPLICIT_TARGETING_NOT_ALLOWED = new InventoryUnitErrorReason(_EXPLICIT_TARGETING_NOT_ALLOWED);
+    public static final InventoryUnitErrorReason UNKNOWN = new InventoryUnitErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static InventoryUnitErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

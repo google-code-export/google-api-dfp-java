@@ -19,8 +19,10 @@ public class StringLengthErrorReason implements java.io.Serializable {
 
     public static final java.lang.String _TOO_LONG = "TOO_LONG";
     public static final java.lang.String _TOO_SHORT = "TOO_SHORT";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final StringLengthErrorReason TOO_LONG = new StringLengthErrorReason(_TOO_LONG);
     public static final StringLengthErrorReason TOO_SHORT = new StringLengthErrorReason(_TOO_SHORT);
+    public static final StringLengthErrorReason UNKNOWN = new StringLengthErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static StringLengthErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

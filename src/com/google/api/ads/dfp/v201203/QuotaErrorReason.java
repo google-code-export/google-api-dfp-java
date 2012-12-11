@@ -18,7 +18,9 @@ public class QuotaErrorReason implements java.io.Serializable {
     }
 
     public static final java.lang.String _EXCEEDED_QUOTA = "EXCEEDED_QUOTA";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final QuotaErrorReason EXCEEDED_QUOTA = new QuotaErrorReason(_EXCEEDED_QUOTA);
+    public static final QuotaErrorReason UNKNOWN = new QuotaErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static QuotaErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

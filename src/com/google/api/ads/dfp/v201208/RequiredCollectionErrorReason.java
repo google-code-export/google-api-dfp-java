@@ -20,9 +20,11 @@ public class RequiredCollectionErrorReason implements java.io.Serializable {
     public static final java.lang.String _REQUIRED = "REQUIRED";
     public static final java.lang.String _TOO_LARGE = "TOO_LARGE";
     public static final java.lang.String _TOO_SMALL = "TOO_SMALL";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final RequiredCollectionErrorReason REQUIRED = new RequiredCollectionErrorReason(_REQUIRED);
     public static final RequiredCollectionErrorReason TOO_LARGE = new RequiredCollectionErrorReason(_TOO_LARGE);
     public static final RequiredCollectionErrorReason TOO_SMALL = new RequiredCollectionErrorReason(_TOO_SMALL);
+    public static final RequiredCollectionErrorReason UNKNOWN = new RequiredCollectionErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static RequiredCollectionErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

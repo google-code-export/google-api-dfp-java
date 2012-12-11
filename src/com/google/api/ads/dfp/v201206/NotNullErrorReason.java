@@ -21,10 +21,12 @@ public class NotNullErrorReason implements java.io.Serializable {
     public static final java.lang.String _ARG2_NULL = "ARG2_NULL";
     public static final java.lang.String _ARG3_NULL = "ARG3_NULL";
     public static final java.lang.String _NULL = "NULL";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final NotNullErrorReason ARG1_NULL = new NotNullErrorReason(_ARG1_NULL);
     public static final NotNullErrorReason ARG2_NULL = new NotNullErrorReason(_ARG2_NULL);
     public static final NotNullErrorReason ARG3_NULL = new NotNullErrorReason(_ARG3_NULL);
     public static final NotNullErrorReason NULL = new NotNullErrorReason(_NULL);
+    public static final NotNullErrorReason UNKNOWN = new NotNullErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static NotNullErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

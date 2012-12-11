@@ -18,7 +18,9 @@ public class StatementErrorReason implements java.io.Serializable {
     }
 
     public static final java.lang.String _VARIABLE_NOT_BOUND_TO_VALUE = "VARIABLE_NOT_BOUND_TO_VALUE";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final StatementErrorReason VARIABLE_NOT_BOUND_TO_VALUE = new StatementErrorReason(_VARIABLE_NOT_BOUND_TO_VALUE);
+    public static final StatementErrorReason UNKNOWN = new StatementErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static StatementErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

@@ -21,10 +21,12 @@ public class DayPartTargetingErrorReason implements java.io.Serializable {
     public static final java.lang.String _INVALID_MINUTE = "INVALID_MINUTE";
     public static final java.lang.String _END_TIME_NOT_AFTER_START_TIME = "END_TIME_NOT_AFTER_START_TIME";
     public static final java.lang.String _TIME_PERIODS_OVERLAP = "TIME_PERIODS_OVERLAP";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final DayPartTargetingErrorReason INVALID_HOUR = new DayPartTargetingErrorReason(_INVALID_HOUR);
     public static final DayPartTargetingErrorReason INVALID_MINUTE = new DayPartTargetingErrorReason(_INVALID_MINUTE);
     public static final DayPartTargetingErrorReason END_TIME_NOT_AFTER_START_TIME = new DayPartTargetingErrorReason(_END_TIME_NOT_AFTER_START_TIME);
     public static final DayPartTargetingErrorReason TIME_PERIODS_OVERLAP = new DayPartTargetingErrorReason(_TIME_PERIODS_OVERLAP);
+    public static final DayPartTargetingErrorReason UNKNOWN = new DayPartTargetingErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static DayPartTargetingErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

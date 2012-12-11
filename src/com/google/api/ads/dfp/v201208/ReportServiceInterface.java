@@ -23,7 +23,7 @@ public interface ReportServiceInterface extends java.rmi.Remote {
 
     /**
      * Returns the URL at which the report file can be downloaded,
-     * and allows for customization of
+     * and allows for customization
      *         of the downloaded report.
      *         
      *         

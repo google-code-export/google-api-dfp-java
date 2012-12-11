@@ -18,7 +18,9 @@ public class InvalidColorErrorReason implements java.io.Serializable {
     }
 
     public static final java.lang.String _INVALID_FORMAT = "INVALID_FORMAT";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final InvalidColorErrorReason INVALID_FORMAT = new InvalidColorErrorReason(_INVALID_FORMAT);
+    public static final InvalidColorErrorReason UNKNOWN = new InvalidColorErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static InvalidColorErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

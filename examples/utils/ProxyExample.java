@@ -17,9 +17,9 @@ package utils;
 import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
-import com.google.api.ads.dfp.v201108.CompanyPage;
-import com.google.api.ads.dfp.v201108.CompanyServiceInterface;
-import com.google.api.ads.dfp.v201108.Statement;
+import com.google.api.ads.dfp.v201211.CompanyPage;
+import com.google.api.ads.dfp.v201211.CompanyServiceInterface;
+import com.google.api.ads.dfp.v201211.Statement;
 
 /**
  * This demo shows how to use a proxy without using JVM parameters. The proxy
@@ -46,7 +46,7 @@ public class ProxyExample {
 
     // Get the CompanyService.
     CompanyServiceInterface companyService =
-        user.getService(DfpService.V201108.COMPANY_SERVICE);
+        user.getService(DfpService.V201211.COMPANY_SERVICE);
 
     // Get companies by filter.
     CompanyPage page = companyService.getCompaniesByStatement(new Statement("LIMIT 1", null));

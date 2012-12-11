@@ -107,6 +107,8 @@ public interface LineItemCreativeAssociationServiceInterface extends java.rmi.Re
      * Returns an insite preview URL that references the specified
      * site URL with
      *         the specified creative from the association served to it.
+     * For Creative Set
+     *         previewing you may specify the master creative Id.
      *         
      *         
      * @param lineItemId the ID of the line item, which must already exist

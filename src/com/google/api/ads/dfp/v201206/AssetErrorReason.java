@@ -21,10 +21,12 @@ public class AssetErrorReason implements java.io.Serializable {
     public static final java.lang.String _FILE_NAME_TOO_LONG = "FILE_NAME_TOO_LONG";
     public static final java.lang.String _FILE_SIZE_TOO_LARGE = "FILE_SIZE_TOO_LARGE";
     public static final java.lang.String _INVALID_ASSET_ID = "INVALID_ASSET_ID";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final AssetErrorReason NON_UNIQUE_NAME = new AssetErrorReason(_NON_UNIQUE_NAME);
     public static final AssetErrorReason FILE_NAME_TOO_LONG = new AssetErrorReason(_FILE_NAME_TOO_LONG);
     public static final AssetErrorReason FILE_SIZE_TOO_LARGE = new AssetErrorReason(_FILE_SIZE_TOO_LARGE);
     public static final AssetErrorReason INVALID_ASSET_ID = new AssetErrorReason(_INVALID_ASSET_ID);
+    public static final AssetErrorReason UNKNOWN = new AssetErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static AssetErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

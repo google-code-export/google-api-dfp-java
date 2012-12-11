@@ -28,6 +28,7 @@ public class DateTimeRangeTargetingErrorReason implements java.io.Serializable {
     public static final java.lang.String _RANGE_END_TIME_BEFORE_START_TIME = "RANGE_END_TIME_BEFORE_START_TIME";
     public static final java.lang.String _END_DATE_TIME_IS_TOO_LATE = "END_DATE_TIME_IS_TOO_LATE";
     public static final java.lang.String _LIMITED_RANGES_IN_UNLIMITED_LINEITEM = "LIMITED_RANGES_IN_UNLIMITED_LINEITEM";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final DateTimeRangeTargetingErrorReason EMPTY_RANGES = new DateTimeRangeTargetingErrorReason(_EMPTY_RANGES);
     public static final DateTimeRangeTargetingErrorReason NOT_SPONSORSHIP_LINEITEM = new DateTimeRangeTargetingErrorReason(_NOT_SPONSORSHIP_LINEITEM);
     public static final DateTimeRangeTargetingErrorReason PAST_RANGES_CHANGED = new DateTimeRangeTargetingErrorReason(_PAST_RANGES_CHANGED);
@@ -39,6 +40,7 @@ public class DateTimeRangeTargetingErrorReason implements java.io.Serializable {
     public static final DateTimeRangeTargetingErrorReason RANGE_END_TIME_BEFORE_START_TIME = new DateTimeRangeTargetingErrorReason(_RANGE_END_TIME_BEFORE_START_TIME);
     public static final DateTimeRangeTargetingErrorReason END_DATE_TIME_IS_TOO_LATE = new DateTimeRangeTargetingErrorReason(_END_DATE_TIME_IS_TOO_LATE);
     public static final DateTimeRangeTargetingErrorReason LIMITED_RANGES_IN_UNLIMITED_LINEITEM = new DateTimeRangeTargetingErrorReason(_LIMITED_RANGES_IN_UNLIMITED_LINEITEM);
+    public static final DateTimeRangeTargetingErrorReason UNKNOWN = new DateTimeRangeTargetingErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static DateTimeRangeTargetingErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

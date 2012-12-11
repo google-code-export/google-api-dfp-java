@@ -25,6 +25,7 @@ public class CreativeSetErrorReason implements java.io.Serializable {
     public static final java.lang.String _INVALID_ADVERTISER = "INVALID_ADVERTISER";
     public static final java.lang.String _UPDATE_MASTER_CREATIVE_NOT_ALLOWED = "UPDATE_MASTER_CREATIVE_NOT_ALLOWED";
     public static final java.lang.String _MASTER_CREATIVE_DOES_NOT_BELONG_TO_CREATIVE_SET = "MASTER_CREATIVE_DOES_NOT_BELONG_TO_CREATIVE_SET";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final CreativeSetErrorReason VIDEO_FEATURE_REQUIRED = new CreativeSetErrorReason(_VIDEO_FEATURE_REQUIRED);
     public static final CreativeSetErrorReason CANNOT_CREATE_OR_UPDATE_VIDEO_CREATIVES = new CreativeSetErrorReason(_CANNOT_CREATE_OR_UPDATE_VIDEO_CREATIVES);
     public static final CreativeSetErrorReason ROADBLOCK_FEATURE_REQUIRED = new CreativeSetErrorReason(_ROADBLOCK_FEATURE_REQUIRED);
@@ -33,6 +34,7 @@ public class CreativeSetErrorReason implements java.io.Serializable {
     public static final CreativeSetErrorReason INVALID_ADVERTISER = new CreativeSetErrorReason(_INVALID_ADVERTISER);
     public static final CreativeSetErrorReason UPDATE_MASTER_CREATIVE_NOT_ALLOWED = new CreativeSetErrorReason(_UPDATE_MASTER_CREATIVE_NOT_ALLOWED);
     public static final CreativeSetErrorReason MASTER_CREATIVE_DOES_NOT_BELONG_TO_CREATIVE_SET = new CreativeSetErrorReason(_MASTER_CREATIVE_DOES_NOT_BELONG_TO_CREATIVE_SET);
+    public static final CreativeSetErrorReason UNKNOWN = new CreativeSetErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static CreativeSetErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

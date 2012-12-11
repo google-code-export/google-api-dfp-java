@@ -18,7 +18,9 @@ public class UserDomainTargetingErrorReason implements java.io.Serializable {
     }
 
     public static final java.lang.String _INVALID_DOMAIN_NAMES = "INVALID_DOMAIN_NAMES";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final UserDomainTargetingErrorReason INVALID_DOMAIN_NAMES = new UserDomainTargetingErrorReason(_INVALID_DOMAIN_NAMES);
+    public static final UserDomainTargetingErrorReason UNKNOWN = new UserDomainTargetingErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static UserDomainTargetingErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

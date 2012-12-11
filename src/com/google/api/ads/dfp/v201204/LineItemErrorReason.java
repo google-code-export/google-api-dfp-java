@@ -36,6 +36,7 @@ public class LineItemErrorReason implements java.io.Serializable {
     public static final java.lang.String _UPDATE_ENVIRONMENT_TYPE_NOT_ALLOWED = "UPDATE_ENVIRONMENT_TYPE_NOT_ALLOWED";
     public static final java.lang.String _COMPANIONS_NOT_ALLOWED = "COMPANIONS_NOT_ALLOWED";
     public static final java.lang.String _ROADBLOCKS_WITH_NONROADBLOCKS_NOT_ALLOWED = "ROADBLOCKS_WITH_NONROADBLOCKS_NOT_ALLOWED";
+    public static final java.lang.String _CANNOT_UPDATE_TO_OR_FROM_CREATIVE_SET_ROADBLOCK = "CANNOT_UPDATE_TO_OR_FROM_CREATIVE_SET_ROADBLOCK";
     public static final java.lang.String _UPDATE_FROM_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED = "UPDATE_FROM_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED";
     public static final java.lang.String _UPDATE_TO_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED = "UPDATE_TO_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED";
     public static final java.lang.String _UPDATE_BACKFILL_WEB_PROPERTY_NOT_ALLOWED = "UPDATE_BACKFILL_WEB_PROPERTY_NOT_ALLOWED";
@@ -53,6 +54,7 @@ public class LineItemErrorReason implements java.io.Serializable {
     public static final java.lang.String _COMPANION_DELIVERY_OPTIONS_NOT_ALLOWED_WITH_BACKFILL = "COMPANION_DELIVERY_OPTIONS_NOT_ALLOWED_WITH_BACKFILL";
     public static final java.lang.String _INVALID_WEB_PROPERTY_FOR_ADX_BACKFILL = "INVALID_WEB_PROPERTY_FOR_ADX_BACKFILL";
     public static final java.lang.String _INVALID_SIZE_FOR_ENVIRONMENT = "INVALID_SIZE_FOR_ENVIRONMENT";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final LineItemErrorReason ALREADY_STARTED = new LineItemErrorReason(_ALREADY_STARTED);
     public static final LineItemErrorReason UPDATE_RESERVATION_NOT_ALLOWED = new LineItemErrorReason(_UPDATE_RESERVATION_NOT_ALLOWED);
     public static final LineItemErrorReason ALL_ROADBLOCK_NOT_ALLOWED = new LineItemErrorReason(_ALL_ROADBLOCK_NOT_ALLOWED);
@@ -72,6 +74,7 @@ public class LineItemErrorReason implements java.io.Serializable {
     public static final LineItemErrorReason UPDATE_ENVIRONMENT_TYPE_NOT_ALLOWED = new LineItemErrorReason(_UPDATE_ENVIRONMENT_TYPE_NOT_ALLOWED);
     public static final LineItemErrorReason COMPANIONS_NOT_ALLOWED = new LineItemErrorReason(_COMPANIONS_NOT_ALLOWED);
     public static final LineItemErrorReason ROADBLOCKS_WITH_NONROADBLOCKS_NOT_ALLOWED = new LineItemErrorReason(_ROADBLOCKS_WITH_NONROADBLOCKS_NOT_ALLOWED);
+    public static final LineItemErrorReason CANNOT_UPDATE_TO_OR_FROM_CREATIVE_SET_ROADBLOCK = new LineItemErrorReason(_CANNOT_UPDATE_TO_OR_FROM_CREATIVE_SET_ROADBLOCK);
     public static final LineItemErrorReason UPDATE_FROM_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED = new LineItemErrorReason(_UPDATE_FROM_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED);
     public static final LineItemErrorReason UPDATE_TO_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED = new LineItemErrorReason(_UPDATE_TO_BACKFILL_LINE_ITEM_TYPE_NOT_ALLOWED);
     public static final LineItemErrorReason UPDATE_BACKFILL_WEB_PROPERTY_NOT_ALLOWED = new LineItemErrorReason(_UPDATE_BACKFILL_WEB_PROPERTY_NOT_ALLOWED);
@@ -89,6 +92,7 @@ public class LineItemErrorReason implements java.io.Serializable {
     public static final LineItemErrorReason COMPANION_DELIVERY_OPTIONS_NOT_ALLOWED_WITH_BACKFILL = new LineItemErrorReason(_COMPANION_DELIVERY_OPTIONS_NOT_ALLOWED_WITH_BACKFILL);
     public static final LineItemErrorReason INVALID_WEB_PROPERTY_FOR_ADX_BACKFILL = new LineItemErrorReason(_INVALID_WEB_PROPERTY_FOR_ADX_BACKFILL);
     public static final LineItemErrorReason INVALID_SIZE_FOR_ENVIRONMENT = new LineItemErrorReason(_INVALID_SIZE_FOR_ENVIRONMENT);
+    public static final LineItemErrorReason UNKNOWN = new LineItemErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static LineItemErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

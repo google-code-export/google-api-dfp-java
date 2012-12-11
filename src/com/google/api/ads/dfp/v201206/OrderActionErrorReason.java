@@ -24,6 +24,7 @@ public class OrderActionErrorReason implements java.io.Serializable {
     public static final java.lang.String _CANNOT_APPROVE_WITH_UNRESERVED_LINE_ITEMS = "CANNOT_APPROVE_WITH_UNRESERVED_LINE_ITEMS";
     public static final java.lang.String _CANNOT_DELETE_ORDER_WITH_DELIVERED_LINEITEMS = "CANNOT_DELETE_ORDER_WITH_DELIVERED_LINEITEMS";
     public static final java.lang.String _CANNOT_APPROVE_COMPANY_CREDIT_STATUS_NOT_ACTIVE = "CANNOT_APPROVE_COMPANY_CREDIT_STATUS_NOT_ACTIVE";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final OrderActionErrorReason PERMISSION_DENIED = new OrderActionErrorReason(_PERMISSION_DENIED);
     public static final OrderActionErrorReason NOT_APPLICABLE = new OrderActionErrorReason(_NOT_APPLICABLE);
     public static final OrderActionErrorReason IS_ARCHIVED = new OrderActionErrorReason(_IS_ARCHIVED);
@@ -31,6 +32,7 @@ public class OrderActionErrorReason implements java.io.Serializable {
     public static final OrderActionErrorReason CANNOT_APPROVE_WITH_UNRESERVED_LINE_ITEMS = new OrderActionErrorReason(_CANNOT_APPROVE_WITH_UNRESERVED_LINE_ITEMS);
     public static final OrderActionErrorReason CANNOT_DELETE_ORDER_WITH_DELIVERED_LINEITEMS = new OrderActionErrorReason(_CANNOT_DELETE_ORDER_WITH_DELIVERED_LINEITEMS);
     public static final OrderActionErrorReason CANNOT_APPROVE_COMPANY_CREDIT_STATUS_NOT_ACTIVE = new OrderActionErrorReason(_CANNOT_APPROVE_COMPANY_CREDIT_STATUS_NOT_ACTIVE);
+    public static final OrderActionErrorReason UNKNOWN = new OrderActionErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static OrderActionErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

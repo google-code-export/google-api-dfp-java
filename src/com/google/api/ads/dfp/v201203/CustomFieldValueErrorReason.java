@@ -20,9 +20,11 @@ public class CustomFieldValueErrorReason implements java.io.Serializable {
     public static final java.lang.String _CUSTOM_FIELD_NOT_FOUND = "CUSTOM_FIELD_NOT_FOUND";
     public static final java.lang.String _CUSTOM_FIELD_INACTIVE = "CUSTOM_FIELD_INACTIVE";
     public static final java.lang.String _CUSTOM_FIELD_OPTION_NOT_FOUND = "CUSTOM_FIELD_OPTION_NOT_FOUND";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final CustomFieldValueErrorReason CUSTOM_FIELD_NOT_FOUND = new CustomFieldValueErrorReason(_CUSTOM_FIELD_NOT_FOUND);
     public static final CustomFieldValueErrorReason CUSTOM_FIELD_INACTIVE = new CustomFieldValueErrorReason(_CUSTOM_FIELD_INACTIVE);
     public static final CustomFieldValueErrorReason CUSTOM_FIELD_OPTION_NOT_FOUND = new CustomFieldValueErrorReason(_CUSTOM_FIELD_OPTION_NOT_FOUND);
+    public static final CustomFieldValueErrorReason UNKNOWN = new CustomFieldValueErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static CustomFieldValueErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

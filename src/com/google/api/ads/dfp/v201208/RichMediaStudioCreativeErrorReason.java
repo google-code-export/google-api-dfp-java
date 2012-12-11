@@ -26,6 +26,7 @@ public class RichMediaStudioCreativeErrorReason implements java.io.Serializable 
     public static final java.lang.String _INVALID_POSITION = "INVALID_POSITION";
     public static final java.lang.String _INVALID_Z_INDEX = "INVALID_Z_INDEX";
     public static final java.lang.String _INVALID_PUSHDOWN_DURATION = "INVALID_PUSHDOWN_DURATION";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final RichMediaStudioCreativeErrorReason CREATION_NOT_ALLOWED = new RichMediaStudioCreativeErrorReason(_CREATION_NOT_ALLOWED);
     public static final RichMediaStudioCreativeErrorReason UKNOWN_ERROR = new RichMediaStudioCreativeErrorReason(_UKNOWN_ERROR);
     public static final RichMediaStudioCreativeErrorReason INVALID_CODE_GENERATION_REQUEST = new RichMediaStudioCreativeErrorReason(_INVALID_CODE_GENERATION_REQUEST);
@@ -35,6 +36,7 @@ public class RichMediaStudioCreativeErrorReason implements java.io.Serializable 
     public static final RichMediaStudioCreativeErrorReason INVALID_POSITION = new RichMediaStudioCreativeErrorReason(_INVALID_POSITION);
     public static final RichMediaStudioCreativeErrorReason INVALID_Z_INDEX = new RichMediaStudioCreativeErrorReason(_INVALID_Z_INDEX);
     public static final RichMediaStudioCreativeErrorReason INVALID_PUSHDOWN_DURATION = new RichMediaStudioCreativeErrorReason(_INVALID_PUSHDOWN_DURATION);
+    public static final RichMediaStudioCreativeErrorReason UNKNOWN = new RichMediaStudioCreativeErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static RichMediaStudioCreativeErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

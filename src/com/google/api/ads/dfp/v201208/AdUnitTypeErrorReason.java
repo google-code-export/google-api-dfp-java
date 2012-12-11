@@ -18,7 +18,9 @@ public class AdUnitTypeErrorReason implements java.io.Serializable {
     }
 
     public static final java.lang.String _MOBILE_APP_PLATFORM_NOT_VALID = "MOBILE_APP_PLATFORM_NOT_VALID";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final AdUnitTypeErrorReason MOBILE_APP_PLATFORM_NOT_VALID = new AdUnitTypeErrorReason(_MOBILE_APP_PLATFORM_NOT_VALID);
+    public static final AdUnitTypeErrorReason UNKNOWN = new AdUnitTypeErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static AdUnitTypeErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

@@ -13,39 +13,45 @@ package com.google.api.ads.dfp.v201208;
  * unit, based on an ad tag that has
  *             been served at least ten times in the past week, but which
  * does not correspond to a defined ad
- *             unit.  This class is read-only.
+ *             unit. This type is read-only.
  */
 public class SuggestedAdUnit  implements java.io.Serializable {
-    /* The unique ID of the {@code SuggestedAdUnit}. This value is
-     * the complete path to the
-     *                 SuggestedAdUnit; path elements are separated by '/'
-     * characters.  This field is read-only. */
+    /* The unique ID of the suggested ad unit. This value is the complete
+     * path to the
+     *                 suggested ad unit with path elements separated by
+     * '/' characters. This attribute is
+     *                 read-only and is populated by Google. */
     private java.lang.String id;
 
     /* Returns the number of times the ad tag corresponding to this
      * suggested ad unit has been served
-     *                 in the previous week.  (Suggested ad units are only
+     *                 in the previous week. Suggested ad units are only
      * created when they have been served at least
-     *                 ten times in that period.)  This field is read-only. */
+     *                 ten times in that period. This attribute is read-only
+     * and is populated by Google. */
     private java.lang.Long numRequests;
 
-    /* The path to the suggested ad unit.  Each path element is a
-     * separate ad unit code in the
-     *                 returned list.  This field is read-only. */
+    /* The hierarchical path from the {@link #parentPath last existing
+     * ad unit} after this and all
+     *                 suggested parent ad units have been created. Each
+     * path element is a separate ad unit code in
+     *                 the returned list. This attribute is read-only and
+     * is populated by Google. */
     private java.lang.String[] path;
 
     /* The {@code target} attribute of the underlying ad tag, as defined
-     * in {@link AdUnit}.  This
-     *                 field is read-only. */
+     * in the {@link AdUnit}. This
+     *                 attribute is read-only and is populated by Google. */
     private com.google.api.ads.dfp.v201208.AdUnitTargetWindow targetWindow;
 
     /* The target platform for the browser that clicked the underlying
-     * ad tag. This field is
-     *                 read-only. */
+     * ad tag. This attribute is
+     *                 read-only and is populated by Google. */
     private com.google.api.ads.dfp.v201208.TargetPlatform targetPlatform;
 
     /* The target sizes associated with this {@code SuggestedAdUnit}.
-     * This field is read-only. */
+     * This attribute is read-only and
+     *                 is populated by Google. */
     private com.google.api.ads.dfp.v201208.AdUnitSize[] suggestedAdUnitSizes;
 
     public SuggestedAdUnit() {
@@ -70,10 +76,11 @@ public class SuggestedAdUnit  implements java.io.Serializable {
     /**
      * Gets the id value for this SuggestedAdUnit.
      * 
-     * @return id   * The unique ID of the {@code SuggestedAdUnit}. This value is
-     * the complete path to the
-     *                 SuggestedAdUnit; path elements are separated by '/'
-     * characters.  This field is read-only.
+     * @return id   * The unique ID of the suggested ad unit. This value is the complete
+     * path to the
+     *                 suggested ad unit with path elements separated by
+     * '/' characters. This attribute is
+     *                 read-only and is populated by Google.
      */
     public java.lang.String getId() {
         return id;
@@ -83,10 +90,11 @@ public class SuggestedAdUnit  implements java.io.Serializable {
     /**
      * Sets the id value for this SuggestedAdUnit.
      * 
-     * @param id   * The unique ID of the {@code SuggestedAdUnit}. This value is
-     * the complete path to the
-     *                 SuggestedAdUnit; path elements are separated by '/'
-     * characters.  This field is read-only.
+     * @param id   * The unique ID of the suggested ad unit. This value is the complete
+     * path to the
+     *                 suggested ad unit with path elements separated by
+     * '/' characters. This attribute is
+     *                 read-only and is populated by Google.
      */
     public void setId(java.lang.String id) {
         this.id = id;
@@ -98,9 +106,10 @@ public class SuggestedAdUnit  implements java.io.Serializable {
      * 
      * @return numRequests   * Returns the number of times the ad tag corresponding to this
      * suggested ad unit has been served
-     *                 in the previous week.  (Suggested ad units are only
+     *                 in the previous week. Suggested ad units are only
      * created when they have been served at least
-     *                 ten times in that period.)  This field is read-only.
+     *                 ten times in that period. This attribute is read-only
+     * and is populated by Google.
      */
     public java.lang.Long getNumRequests() {
         return numRequests;
@@ -112,9 +121,10 @@ public class SuggestedAdUnit  implements java.io.Serializable {
      * 
      * @param numRequests   * Returns the number of times the ad tag corresponding to this
      * suggested ad unit has been served
-     *                 in the previous week.  (Suggested ad units are only
+     *                 in the previous week. Suggested ad units are only
      * created when they have been served at least
-     *                 ten times in that period.)  This field is read-only.
+     *                 ten times in that period. This attribute is read-only
+     * and is populated by Google.
      */
     public void setNumRequests(java.lang.Long numRequests) {
         this.numRequests = numRequests;
@@ -124,9 +134,12 @@ public class SuggestedAdUnit  implements java.io.Serializable {
     /**
      * Gets the path value for this SuggestedAdUnit.
      * 
-     * @return path   * The path to the suggested ad unit.  Each path element is a
-     * separate ad unit code in the
-     *                 returned list.  This field is read-only.
+     * @return path   * The hierarchical path from the {@link #parentPath last existing
+     * ad unit} after this and all
+     *                 suggested parent ad units have been created. Each
+     * path element is a separate ad unit code in
+     *                 the returned list. This attribute is read-only and
+     * is populated by Google.
      */
     public java.lang.String[] getPath() {
         return path;
@@ -136,9 +149,12 @@ public class SuggestedAdUnit  implements java.io.Serializable {
     /**
      * Sets the path value for this SuggestedAdUnit.
      * 
-     * @param path   * The path to the suggested ad unit.  Each path element is a
-     * separate ad unit code in the
-     *                 returned list.  This field is read-only.
+     * @param path   * The hierarchical path from the {@link #parentPath last existing
+     * ad unit} after this and all
+     *                 suggested parent ad units have been created. Each
+     * path element is a separate ad unit code in
+     *                 the returned list. This attribute is read-only and
+     * is populated by Google.
      */
     public void setPath(java.lang.String[] path) {
         this.path = path;
@@ -157,8 +173,8 @@ public class SuggestedAdUnit  implements java.io.Serializable {
      * Gets the targetWindow value for this SuggestedAdUnit.
      * 
      * @return targetWindow   * The {@code target} attribute of the underlying ad tag, as defined
-     * in {@link AdUnit}.  This
-     *                 field is read-only.
+     * in the {@link AdUnit}. This
+     *                 attribute is read-only and is populated by Google.
      */
     public com.google.api.ads.dfp.v201208.AdUnitTargetWindow getTargetWindow() {
         return targetWindow;
@@ -169,8 +185,8 @@ public class SuggestedAdUnit  implements java.io.Serializable {
      * Sets the targetWindow value for this SuggestedAdUnit.
      * 
      * @param targetWindow   * The {@code target} attribute of the underlying ad tag, as defined
-     * in {@link AdUnit}.  This
-     *                 field is read-only.
+     * in the {@link AdUnit}. This
+     *                 attribute is read-only and is populated by Google.
      */
     public void setTargetWindow(com.google.api.ads.dfp.v201208.AdUnitTargetWindow targetWindow) {
         this.targetWindow = targetWindow;
@@ -181,8 +197,8 @@ public class SuggestedAdUnit  implements java.io.Serializable {
      * Gets the targetPlatform value for this SuggestedAdUnit.
      * 
      * @return targetPlatform   * The target platform for the browser that clicked the underlying
-     * ad tag. This field is
-     *                 read-only.
+     * ad tag. This attribute is
+     *                 read-only and is populated by Google.
      */
     public com.google.api.ads.dfp.v201208.TargetPlatform getTargetPlatform() {
         return targetPlatform;
@@ -193,8 +209,8 @@ public class SuggestedAdUnit  implements java.io.Serializable {
      * Sets the targetPlatform value for this SuggestedAdUnit.
      * 
      * @param targetPlatform   * The target platform for the browser that clicked the underlying
-     * ad tag. This field is
-     *                 read-only.
+     * ad tag. This attribute is
+     *                 read-only and is populated by Google.
      */
     public void setTargetPlatform(com.google.api.ads.dfp.v201208.TargetPlatform targetPlatform) {
         this.targetPlatform = targetPlatform;
@@ -205,7 +221,8 @@ public class SuggestedAdUnit  implements java.io.Serializable {
      * Gets the suggestedAdUnitSizes value for this SuggestedAdUnit.
      * 
      * @return suggestedAdUnitSizes   * The target sizes associated with this {@code SuggestedAdUnit}.
-     * This field is read-only.
+     * This attribute is read-only and
+     *                 is populated by Google.
      */
     public com.google.api.ads.dfp.v201208.AdUnitSize[] getSuggestedAdUnitSizes() {
         return suggestedAdUnitSizes;
@@ -216,7 +233,8 @@ public class SuggestedAdUnit  implements java.io.Serializable {
      * Sets the suggestedAdUnitSizes value for this SuggestedAdUnit.
      * 
      * @param suggestedAdUnitSizes   * The target sizes associated with this {@code SuggestedAdUnit}.
-     * This field is read-only.
+     * This attribute is read-only and
+     *                 is populated by Google.
      */
     public void setSuggestedAdUnitSizes(com.google.api.ads.dfp.v201208.AdUnitSize[] suggestedAdUnitSizes) {
         this.suggestedAdUnitSizes = suggestedAdUnitSizes;

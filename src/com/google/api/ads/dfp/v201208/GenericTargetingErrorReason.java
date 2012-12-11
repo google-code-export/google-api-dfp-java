@@ -19,8 +19,10 @@ public class GenericTargetingErrorReason implements java.io.Serializable {
 
     public static final java.lang.String _CONFLICTING_INCLUSION_OR_EXCLUSION_OF_SIBLINGS = "CONFLICTING_INCLUSION_OR_EXCLUSION_OF_SIBLINGS";
     public static final java.lang.String _INCLUDING_DESCENDANTS_OF_EXCLUDED_CRITERIA = "INCLUDING_DESCENDANTS_OF_EXCLUDED_CRITERIA";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final GenericTargetingErrorReason CONFLICTING_INCLUSION_OR_EXCLUSION_OF_SIBLINGS = new GenericTargetingErrorReason(_CONFLICTING_INCLUSION_OR_EXCLUSION_OF_SIBLINGS);
     public static final GenericTargetingErrorReason INCLUDING_DESCENDANTS_OF_EXCLUDED_CRITERIA = new GenericTargetingErrorReason(_INCLUDING_DESCENDANTS_OF_EXCLUDED_CRITERIA);
+    public static final GenericTargetingErrorReason UNKNOWN = new GenericTargetingErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static GenericTargetingErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

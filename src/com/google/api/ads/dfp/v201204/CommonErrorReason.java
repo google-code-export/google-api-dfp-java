@@ -21,10 +21,14 @@ public class CommonErrorReason implements java.io.Serializable {
     public static final java.lang.String _ALREADY_EXISTS = "ALREADY_EXISTS";
     public static final java.lang.String _DUPLICATE_OBJECT = "DUPLICATE_OBJECT";
     public static final java.lang.String _CANNOT_UPDATE = "CANNOT_UPDATE";
+    public static final java.lang.String _CONCURRENT_MODIFICATION = "CONCURRENT_MODIFICATION";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final CommonErrorReason NOT_FOUND = new CommonErrorReason(_NOT_FOUND);
     public static final CommonErrorReason ALREADY_EXISTS = new CommonErrorReason(_ALREADY_EXISTS);
     public static final CommonErrorReason DUPLICATE_OBJECT = new CommonErrorReason(_DUPLICATE_OBJECT);
     public static final CommonErrorReason CANNOT_UPDATE = new CommonErrorReason(_CANNOT_UPDATE);
+    public static final CommonErrorReason CONCURRENT_MODIFICATION = new CommonErrorReason(_CONCURRENT_MODIFICATION);
+    public static final CommonErrorReason UNKNOWN = new CommonErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static CommonErrorReason fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {
