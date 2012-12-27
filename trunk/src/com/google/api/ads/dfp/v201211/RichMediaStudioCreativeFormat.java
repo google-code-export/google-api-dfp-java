@@ -25,6 +25,7 @@ public class RichMediaStudioCreativeFormat implements java.io.Serializable {
     public static final java.lang.String _IN_PAGE_WITH_FLOATING = "IN_PAGE_WITH_FLOATING";
     public static final java.lang.String _FLASH_IN_FLASH = "FLASH_IN_FLASH";
     public static final java.lang.String _FLASH_IN_FLASH_EXPANDING = "FLASH_IN_FLASH_EXPANDING";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final RichMediaStudioCreativeFormat IN_PAGE = new RichMediaStudioCreativeFormat(_IN_PAGE);
     public static final RichMediaStudioCreativeFormat EXPANDING = new RichMediaStudioCreativeFormat(_EXPANDING);
     public static final RichMediaStudioCreativeFormat IM_EXPANDING = new RichMediaStudioCreativeFormat(_IM_EXPANDING);
@@ -33,6 +34,7 @@ public class RichMediaStudioCreativeFormat implements java.io.Serializable {
     public static final RichMediaStudioCreativeFormat IN_PAGE_WITH_FLOATING = new RichMediaStudioCreativeFormat(_IN_PAGE_WITH_FLOATING);
     public static final RichMediaStudioCreativeFormat FLASH_IN_FLASH = new RichMediaStudioCreativeFormat(_FLASH_IN_FLASH);
     public static final RichMediaStudioCreativeFormat FLASH_IN_FLASH_EXPANDING = new RichMediaStudioCreativeFormat(_FLASH_IN_FLASH_EXPANDING);
+    public static final RichMediaStudioCreativeFormat UNKNOWN = new RichMediaStudioCreativeFormat(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static RichMediaStudioCreativeFormat fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

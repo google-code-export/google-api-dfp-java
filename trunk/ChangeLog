@@ -1,3 +1,6 @@
+2.15.1:
+- Updated generated java.
+
 2.15.0:
 - Added support for v201211.
 - Updated existing generated code for UnsupportedCreative and UKNOWN enum

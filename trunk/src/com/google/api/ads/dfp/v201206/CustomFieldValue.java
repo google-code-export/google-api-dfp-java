@@ -16,7 +16,7 @@ package com.google.api.ads.dfp.v201206;
 public class CustomFieldValue  extends com.google.api.ads.dfp.v201206.BaseCustomFieldValue  implements java.io.Serializable {
     /* The value for this field. The appropriate type of {@code Value}
      * is
-     *                     determined by the {@code CustomField#dataType}
+     *                     determined by the {@link CustomField#dataType}
      * of the {@code CustomField}
      *                     that this conforms to.
      *                     
@@ -51,7 +51,7 @@ public class CustomFieldValue  extends com.google.api.ads.dfp.v201206.BaseCustom
      * 
      * @return value   * The value for this field. The appropriate type of {@code Value}
      * is
-     *                     determined by the {@code CustomField#dataType}
+     *                     determined by the {@link CustomField#dataType}
      * of the {@code CustomField}
      *                     that this conforms to.
      *                     
@@ -76,7 +76,7 @@ public class CustomFieldValue  extends com.google.api.ads.dfp.v201206.BaseCustom
      * 
      * @param value   * The value for this field. The appropriate type of {@code Value}
      * is
-     *                     determined by the {@code CustomField#dataType}
+     *                     determined by the {@link CustomField#dataType}
      * of the {@code CustomField}
      *                     that this conforms to.
      *                     

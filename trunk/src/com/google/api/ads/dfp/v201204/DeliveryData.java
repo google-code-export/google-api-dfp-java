@@ -10,8 +10,8 @@ package com.google.api.ads.dfp.v201204;
 
 /**
  * Holds the number of clicks or impressions, determined by
- *             {@link LineItemSummary#costType}, delivered for a single
- * line item for the
+ *             {@link LineItem#costType}, delivered for a single line
+ * item for the
  *             last 7 days
  */
 public class DeliveryData  implements java.io.Serializable {

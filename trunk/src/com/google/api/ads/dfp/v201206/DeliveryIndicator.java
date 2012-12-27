@@ -14,11 +14,11 @@ package com.google.api.ads.dfp.v201206;
 public class DeliveryIndicator  implements java.io.Serializable {
     /* How much the {@code LineItem} was expected to deliver as a
      * percentage of
-     *                 {@link LineItemSummary#unitsBought}. */
+     *                 {@link LineItem#unitsBought}. */
     private java.lang.Double expectedDeliveryPercentage;
 
     /* How much the line item actually delivered as a percentage of
-     * {@link LineItemSummary#unitsBought}. */
+     * {@link LineItem#unitsBought}. */
     private java.lang.Double actualDeliveryPercentage;
 
     public DeliveryIndicator() {
@@ -37,7 +37,7 @@ public class DeliveryIndicator  implements java.io.Serializable {
      * 
      * @return expectedDeliveryPercentage   * How much the {@code LineItem} was expected to deliver as a
      * percentage of
-     *                 {@link LineItemSummary#unitsBought}.
+     *                 {@link LineItem#unitsBought}.
      */
     public java.lang.Double getExpectedDeliveryPercentage() {
         return expectedDeliveryPercentage;
@@ -49,7 +49,7 @@ public class DeliveryIndicator  implements java.io.Serializable {
      * 
      * @param expectedDeliveryPercentage   * How much the {@code LineItem} was expected to deliver as a
      * percentage of
-     *                 {@link LineItemSummary#unitsBought}.
+     *                 {@link LineItem#unitsBought}.
      */
     public void setExpectedDeliveryPercentage(java.lang.Double expectedDeliveryPercentage) {
         this.expectedDeliveryPercentage = expectedDeliveryPercentage;
@@ -60,7 +60,7 @@ public class DeliveryIndicator  implements java.io.Serializable {
      * Gets the actualDeliveryPercentage value for this DeliveryIndicator.
      * 
      * @return actualDeliveryPercentage   * How much the line item actually delivered as a percentage of
-     * {@link LineItemSummary#unitsBought}.
+     * {@link LineItem#unitsBought}.
      */
     public java.lang.Double getActualDeliveryPercentage() {
         return actualDeliveryPercentage;
@@ -71,7 +71,7 @@ public class DeliveryIndicator  implements java.io.Serializable {
      * Sets the actualDeliveryPercentage value for this DeliveryIndicator.
      * 
      * @param actualDeliveryPercentage   * How much the line item actually delivered as a percentage of
-     * {@link LineItemSummary#unitsBought}.
+     * {@link LineItem#unitsBought}.
      */
     public void setActualDeliveryPercentage(java.lang.Double actualDeliveryPercentage) {
         this.actualDeliveryPercentage = actualDeliveryPercentage;

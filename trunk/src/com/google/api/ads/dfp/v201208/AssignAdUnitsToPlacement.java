@@ -14,6 +14,7 @@ package com.google.api.ads.dfp.v201208;
  *             {@link Placement}.
  */
 public class AssignAdUnitsToPlacement  extends com.google.api.ads.dfp.v201208.AdUnitAction  implements java.io.Serializable {
+    /* The {@link Placement#id} to which ad units are to be assigned. */
     private java.lang.Long placementId;
 
     public AssignAdUnitsToPlacement() {
@@ -31,7 +32,7 @@ public class AssignAdUnitsToPlacement  extends com.google.api.ads.dfp.v201208.Ad
     /**
      * Gets the placementId value for this AssignAdUnitsToPlacement.
      * 
-     * @return placementId
+     * @return placementId   * The {@link Placement#id} to which ad units are to be assigned.
      */
     public java.lang.Long getPlacementId() {
         return placementId;
@@ -41,7 +42,7 @@ public class AssignAdUnitsToPlacement  extends com.google.api.ads.dfp.v201208.Ad
     /**
      * Sets the placementId value for this AssignAdUnitsToPlacement.
      * 
-     * @param placementId
+     * @param placementId   * The {@link Placement#id} to which ad units are to be assigned.
      */
     public void setPlacementId(java.lang.Long placementId) {
         this.placementId = placementId;
