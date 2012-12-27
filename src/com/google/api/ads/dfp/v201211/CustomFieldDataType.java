@@ -21,10 +21,12 @@ public class CustomFieldDataType implements java.io.Serializable {
     public static final java.lang.String _NUMBER = "NUMBER";
     public static final java.lang.String _TOGGLE = "TOGGLE";
     public static final java.lang.String _DROP_DOWN = "DROP_DOWN";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final CustomFieldDataType STRING = new CustomFieldDataType(_STRING);
     public static final CustomFieldDataType NUMBER = new CustomFieldDataType(_NUMBER);
     public static final CustomFieldDataType TOGGLE = new CustomFieldDataType(_TOGGLE);
     public static final CustomFieldDataType DROP_DOWN = new CustomFieldDataType(_DROP_DOWN);
+    public static final CustomFieldDataType UNKNOWN = new CustomFieldDataType(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static CustomFieldDataType fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

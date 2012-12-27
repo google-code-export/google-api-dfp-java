@@ -25,7 +25,10 @@ public class CreativeWrapper  implements java.io.Serializable {
     private java.lang.Long id;
 
     /* The ID of the {@link Label} which will be used to label ad
-     * units. */
+     * units. The
+     *                 {@code labelId} on a creative wrapper cannot be changed
+     * once it is
+     *                 created. */
     private java.lang.Long labelId;
 
     /* The header HTML snippet that this creative wrapper delivers. */
@@ -90,7 +93,10 @@ public class CreativeWrapper  implements java.io.Serializable {
      * Gets the labelId value for this CreativeWrapper.
      * 
      * @return labelId   * The ID of the {@link Label} which will be used to label ad
-     * units.
+     * units. The
+     *                 {@code labelId} on a creative wrapper cannot be changed
+     * once it is
+     *                 created.
      */
     public java.lang.Long getLabelId() {
         return labelId;
@@ -101,7 +107,10 @@ public class CreativeWrapper  implements java.io.Serializable {
      * Sets the labelId value for this CreativeWrapper.
      * 
      * @param labelId   * The ID of the {@link Label} which will be used to label ad
-     * units.
+     * units. The
+     *                 {@code labelId} on a creative wrapper cannot be changed
+     * once it is
+     *                 created.
      */
     public void setLabelId(java.lang.Long labelId) {
         this.labelId = labelId;

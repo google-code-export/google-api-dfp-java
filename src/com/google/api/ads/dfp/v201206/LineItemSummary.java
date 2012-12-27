@@ -237,12 +237,12 @@ public class LineItemSummary  implements java.io.Serializable {
     private com.google.api.ads.dfp.v201206.Money costPerUnit;
 
     /* An amount to help the adserver rank inventory. {@link
-     *                 LineItemSummary#valueCostPerUnit} artificially raises
-     * the value of
-     *                 inventory over the {@link LineItemSummary#costPerUnit}
-     * but avoids raising
-     *                 the actual {@link LineItemSummary#costPerUnit}. This
-     * attribute is optional
+     *                 LineItem#valueCostPerUnit} artificially raises the
+     * value of
+     *                 inventory over the {@link LineItem#costPerUnit} but
+     * avoids raising
+     *                 the actual {@link LineItem#costPerUnit}. This attribute
+     * is optional
      *                 and defaults to a {@link Money} object in the local
      * currency with {@link Money#microAmount} 0. The currency code is readonly. */
     private com.google.api.ads.dfp.v201206.Money valueCostPerUnit;
@@ -376,8 +376,8 @@ public class LineItemSummary  implements java.io.Serializable {
      * days ago.</li>
      *                 <li>
      *                 The line item has an absolute-based goal.
-     *                 {@link LineItemSummary#deliveryIndicator} should be
-     * used to track its
+     *                 {@link LineItem#deliveryIndicator} should be used
+     * to track its
      *                 progress in this case.</li> */
     private com.google.api.ads.dfp.v201206.DeliveryData deliveryData;
 
@@ -1290,12 +1290,12 @@ public class LineItemSummary  implements java.io.Serializable {
      * Gets the valueCostPerUnit value for this LineItemSummary.
      * 
      * @return valueCostPerUnit   * An amount to help the adserver rank inventory. {@link
-     *                 LineItemSummary#valueCostPerUnit} artificially raises
-     * the value of
-     *                 inventory over the {@link LineItemSummary#costPerUnit}
-     * but avoids raising
-     *                 the actual {@link LineItemSummary#costPerUnit}. This
-     * attribute is optional
+     *                 LineItem#valueCostPerUnit} artificially raises the
+     * value of
+     *                 inventory over the {@link LineItem#costPerUnit} but
+     * avoids raising
+     *                 the actual {@link LineItem#costPerUnit}. This attribute
+     * is optional
      *                 and defaults to a {@link Money} object in the local
      * currency with {@link Money#microAmount} 0. The currency code is readonly.
      */
@@ -1308,12 +1308,12 @@ public class LineItemSummary  implements java.io.Serializable {
      * Sets the valueCostPerUnit value for this LineItemSummary.
      * 
      * @param valueCostPerUnit   * An amount to help the adserver rank inventory. {@link
-     *                 LineItemSummary#valueCostPerUnit} artificially raises
-     * the value of
-     *                 inventory over the {@link LineItemSummary#costPerUnit}
-     * but avoids raising
-     *                 the actual {@link LineItemSummary#costPerUnit}. This
-     * attribute is optional
+     *                 LineItem#valueCostPerUnit} artificially raises the
+     * value of
+     *                 inventory over the {@link LineItem#costPerUnit} but
+     * avoids raising
+     *                 the actual {@link LineItem#costPerUnit}. This attribute
+     * is optional
      *                 and defaults to a {@link Money} object in the local
      * currency with {@link Money#microAmount} 0. The currency code is readonly.
      */
@@ -1758,8 +1758,8 @@ public class LineItemSummary  implements java.io.Serializable {
      * days ago.</li>
      *                 <li>
      *                 The line item has an absolute-based goal.
-     *                 {@link LineItemSummary#deliveryIndicator} should be
-     * used to track its
+     *                 {@link LineItem#deliveryIndicator} should be used
+     * to track its
      *                 progress in this case.</li>
      */
     public com.google.api.ads.dfp.v201206.DeliveryData getDeliveryData() {
@@ -1785,8 +1785,8 @@ public class LineItemSummary  implements java.io.Serializable {
      * days ago.</li>
      *                 <li>
      *                 The line item has an absolute-based goal.
-     *                 {@link LineItemSummary#deliveryIndicator} should be
-     * used to track its
+     *                 {@link LineItem#deliveryIndicator} should be used
+     * to track its
      *                 progress in this case.</li>
      */
     public void setDeliveryData(com.google.api.ads.dfp.v201206.DeliveryData deliveryData) {

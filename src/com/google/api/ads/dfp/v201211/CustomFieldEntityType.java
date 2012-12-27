@@ -20,9 +20,11 @@ public class CustomFieldEntityType implements java.io.Serializable {
     public static final java.lang.String _LINE_ITEM = "LINE_ITEM";
     public static final java.lang.String _ORDER = "ORDER";
     public static final java.lang.String _CREATIVE = "CREATIVE";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final CustomFieldEntityType LINE_ITEM = new CustomFieldEntityType(_LINE_ITEM);
     public static final CustomFieldEntityType ORDER = new CustomFieldEntityType(_ORDER);
     public static final CustomFieldEntityType CREATIVE = new CustomFieldEntityType(_CREATIVE);
+    public static final CustomFieldEntityType UNKNOWN = new CustomFieldEntityType(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static CustomFieldEntityType fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {
