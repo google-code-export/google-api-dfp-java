@@ -101,6 +101,10 @@ public interface LineItemServiceInterface extends java.rmi.Remote {
      *         <td>{@code lastModifiedDateTime}</td>
      *         <td>{@link LineItem#lastModifiedDateTime}</td>
      *         </tr>
+     *         <tr>
+     *         <td>{@code creationDateTime}</td>
+     *         <td>{@link LineItem#creationDateTime}</td>
+     *         </tr>
      *         </table>
      *         
      *         
