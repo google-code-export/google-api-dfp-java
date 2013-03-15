@@ -20,7 +20,12 @@ package com.google.api.ads.dfp.v201204;
  */
 public class VideoPositionTargeting  implements java.io.Serializable {
     /* The {@link VideoPositionTargetingType}s being targeted by the
-     * video {@link LineItem}. */
+     * video {@link LineItem}.
+     *                 
+     *                 {@code targetedVideoPositions} is deprecated as of
+     * V201203.  Use {@code targetedPositions}
+     *                 instead as it provides support for targeting an individual
+     * midroll. */
     private com.google.api.ads.dfp.v201204.VideoPositionTargetingType[] targetedVideoPositions;
 
     public VideoPositionTargeting() {
@@ -37,6 +42,11 @@ public class VideoPositionTargeting  implements java.io.Serializable {
      * 
      * @return targetedVideoPositions   * The {@link VideoPositionTargetingType}s being targeted by the
      * video {@link LineItem}.
+     *                 
+     *                 {@code targetedVideoPositions} is deprecated as of
+     * V201203.  Use {@code targetedPositions}
+     *                 instead as it provides support for targeting an individual
+     * midroll.
      */
     public com.google.api.ads.dfp.v201204.VideoPositionTargetingType[] getTargetedVideoPositions() {
         return targetedVideoPositions;
@@ -48,6 +58,11 @@ public class VideoPositionTargeting  implements java.io.Serializable {
      * 
      * @param targetedVideoPositions   * The {@link VideoPositionTargetingType}s being targeted by the
      * video {@link LineItem}.
+     *                 
+     *                 {@code targetedVideoPositions} is deprecated as of
+     * V201203.  Use {@code targetedPositions}
+     *                 instead as it provides support for targeting an individual
+     * midroll.
      */
     public void setTargetedVideoPositions(com.google.api.ads.dfp.v201204.VideoPositionTargetingType[] targetedVideoPositions) {
         this.targetedVideoPositions = targetedVideoPositions;

@@ -109,6 +109,7 @@ public interface ContentServiceInterface extends java.rmi.Remote {
      *         </tr>
      *         </table>
      *         
+     *         This method is no longer supported as of version 201211
      *         
      * @params filterStatement a Publisher Query Language statement used
      * to filter

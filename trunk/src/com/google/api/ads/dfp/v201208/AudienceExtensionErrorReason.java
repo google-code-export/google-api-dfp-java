@@ -28,6 +28,7 @@ public class AudienceExtensionErrorReason implements java.io.Serializable {
     public static final java.lang.String _MAX_DAILY_BUDGET_AMOUNT_EXCEEDED = "MAX_DAILY_BUDGET_AMOUNT_EXCEEDED";
     public static final java.lang.String _EXTERNAL_CAMPAIGN_ALREADY_EXISTS = "EXTERNAL_CAMPAIGN_ALREADY_EXISTS";
     public static final java.lang.String _AUDIENCE_EXTENSION_WITHOUT_FEATURE = "AUDIENCE_EXTENSION_WITHOUT_FEATURE";
+    public static final java.lang.String _AUDIENCE_EXTENSION_WITHOUT_LINKED_ACCOUNT = "AUDIENCE_EXTENSION_WITHOUT_LINKED_ACCOUNT";
     public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final AudienceExtensionErrorReason FREQUENCY_CAPS_NOT_SUPPORTED = new AudienceExtensionErrorReason(_FREQUENCY_CAPS_NOT_SUPPORTED);
     public static final AudienceExtensionErrorReason INVALID_TARGETING = new AudienceExtensionErrorReason(_INVALID_TARGETING);
@@ -40,6 +41,7 @@ public class AudienceExtensionErrorReason implements java.io.Serializable {
     public static final AudienceExtensionErrorReason MAX_DAILY_BUDGET_AMOUNT_EXCEEDED = new AudienceExtensionErrorReason(_MAX_DAILY_BUDGET_AMOUNT_EXCEEDED);
     public static final AudienceExtensionErrorReason EXTERNAL_CAMPAIGN_ALREADY_EXISTS = new AudienceExtensionErrorReason(_EXTERNAL_CAMPAIGN_ALREADY_EXISTS);
     public static final AudienceExtensionErrorReason AUDIENCE_EXTENSION_WITHOUT_FEATURE = new AudienceExtensionErrorReason(_AUDIENCE_EXTENSION_WITHOUT_FEATURE);
+    public static final AudienceExtensionErrorReason AUDIENCE_EXTENSION_WITHOUT_LINKED_ACCOUNT = new AudienceExtensionErrorReason(_AUDIENCE_EXTENSION_WITHOUT_LINKED_ACCOUNT);
     public static final AudienceExtensionErrorReason UNKNOWN = new AudienceExtensionErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static AudienceExtensionErrorReason fromValue(java.lang.String value)

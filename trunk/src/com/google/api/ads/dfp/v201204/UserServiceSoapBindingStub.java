@@ -549,6 +549,20 @@ public class UserServiceSoapBindingStub extends org.apache.axis.client.Stub impl
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201204", "TeamError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201204.TeamError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201204", "TeamError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201204.TeamErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201204", "TextValue");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201204.TextValue.class;

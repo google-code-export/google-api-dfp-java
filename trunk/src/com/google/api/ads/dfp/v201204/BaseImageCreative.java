@@ -14,7 +14,11 @@ package com.google.api.ads.dfp.v201204;
 public abstract class BaseImageCreative  extends com.google.api.ads.dfp.v201204.HasDestinationUrlCreative  implements java.io.Serializable {
     /* The name of the image asset. This attribute is required and
      * has a maximum
-     *                     length of 248 characters. */
+     *                     length of 248 characters.
+     *                     
+     *                     This attribute has been encapsulated into, and
+     * deprecated in favour of, the
+     *                     {@code primaryImageAsset} attribute. */
     private java.lang.String imageName;
 
     /* The content of the image asset as a byte array. This attribute
@@ -22,7 +26,11 @@ public abstract class BaseImageCreative  extends com.google.api.ads.dfp.v201204.
      *                     The {@code imageByteArray} will be {@code null}
      * when the {@code
      *                     ImageCreative} is retrieved. To view the image,
-     * use the {@code previewUrl}. */
+     * use the {@code previewUrl}.
+     *                     
+     *                     This attribute has been encapsulated into, and
+     * deprecated in favour of, the
+     *                     {@code primaryImageAsset} attribute. */
     private byte[] imageByteArray;
 
     /* Allows the creative size to differ from the actual image asset
@@ -34,12 +42,20 @@ public abstract class BaseImageCreative  extends com.google.api.ads.dfp.v201204.
      * size} if users
      *                     set {@code overrideSize} to true. This attribute
      * read-only and is populated
-     *                     by Google. */
+     *                     by Google.
+     *                     
+     *                     This attribute has been encapsulated into, and
+     * deprecated in favour of, the
+     *                     {@code primaryImageAsset} attribute. */
     private com.google.api.ads.dfp.v201204.Size assetSize;
 
     /* The URL where the actual asset resides. This attribute is read-only
      * and
-     *                     has a maximum length of 1024 characters. */
+     *                     has a maximum length of 1024 characters.
+     *                     
+     *                     This attribute has been encapsulated into, and
+     * deprecated in favour of, the
+     *                     {@code primaryImageAsset} attribute. */
     private java.lang.String imageUrl;
 
     public BaseImageCreative() {
@@ -86,6 +102,10 @@ public abstract class BaseImageCreative  extends com.google.api.ads.dfp.v201204.
      * @return imageName   * The name of the image asset. This attribute is required and
      * has a maximum
      *                     length of 248 characters.
+     *                     
+     *                     This attribute has been encapsulated into, and
+     * deprecated in favour of, the
+     *                     {@code primaryImageAsset} attribute.
      */
     public java.lang.String getImageName() {
         return imageName;
@@ -98,6 +118,10 @@ public abstract class BaseImageCreative  extends com.google.api.ads.dfp.v201204.
      * @param imageName   * The name of the image asset. This attribute is required and
      * has a maximum
      *                     length of 248 characters.
+     *                     
+     *                     This attribute has been encapsulated into, and
+     * deprecated in favour of, the
+     *                     {@code primaryImageAsset} attribute.
      */
     public void setImageName(java.lang.String imageName) {
         this.imageName = imageName;
@@ -113,6 +137,10 @@ public abstract class BaseImageCreative  extends com.google.api.ads.dfp.v201204.
      * when the {@code
      *                     ImageCreative} is retrieved. To view the image,
      * use the {@code previewUrl}.
+     *                     
+     *                     This attribute has been encapsulated into, and
+     * deprecated in favour of, the
+     *                     {@code primaryImageAsset} attribute.
      */
     public byte[] getImageByteArray() {
         return imageByteArray;
@@ -128,6 +156,10 @@ public abstract class BaseImageCreative  extends com.google.api.ads.dfp.v201204.
      * when the {@code
      *                     ImageCreative} is retrieved. To view the image,
      * use the {@code previewUrl}.
+     *                     
+     *                     This attribute has been encapsulated into, and
+     * deprecated in favour of, the
+     *                     {@code primaryImageAsset} attribute.
      */
     public void setImageByteArray(byte[] imageByteArray) {
         this.imageByteArray = imageByteArray;
@@ -166,6 +198,10 @@ public abstract class BaseImageCreative  extends com.google.api.ads.dfp.v201204.
      *                     set {@code overrideSize} to true. This attribute
      * read-only and is populated
      *                     by Google.
+     *                     
+     *                     This attribute has been encapsulated into, and
+     * deprecated in favour of, the
+     *                     {@code primaryImageAsset} attribute.
      */
     public com.google.api.ads.dfp.v201204.Size getAssetSize() {
         return assetSize;
@@ -180,6 +216,10 @@ public abstract class BaseImageCreative  extends com.google.api.ads.dfp.v201204.
      *                     set {@code overrideSize} to true. This attribute
      * read-only and is populated
      *                     by Google.
+     *                     
+     *                     This attribute has been encapsulated into, and
+     * deprecated in favour of, the
+     *                     {@code primaryImageAsset} attribute.
      */
     public void setAssetSize(com.google.api.ads.dfp.v201204.Size assetSize) {
         this.assetSize = assetSize;
@@ -192,6 +232,10 @@ public abstract class BaseImageCreative  extends com.google.api.ads.dfp.v201204.
      * @return imageUrl   * The URL where the actual asset resides. This attribute is read-only
      * and
      *                     has a maximum length of 1024 characters.
+     *                     
+     *                     This attribute has been encapsulated into, and
+     * deprecated in favour of, the
+     *                     {@code primaryImageAsset} attribute.
      */
     public java.lang.String getImageUrl() {
         return imageUrl;
@@ -204,6 +248,10 @@ public abstract class BaseImageCreative  extends com.google.api.ads.dfp.v201204.
      * @param imageUrl   * The URL where the actual asset resides. This attribute is read-only
      * and
      *                     has a maximum length of 1024 characters.
+     *                     
+     *                     This attribute has been encapsulated into, and
+     * deprecated in favour of, the
+     *                     {@code primaryImageAsset} attribute.
      */
     public void setImageUrl(java.lang.String imageUrl) {
         this.imageUrl = imageUrl;

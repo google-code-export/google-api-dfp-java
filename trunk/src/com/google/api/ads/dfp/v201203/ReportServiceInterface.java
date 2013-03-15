@@ -11,7 +11,10 @@ public interface ReportServiceInterface extends java.rmi.Remote {
 
     /**
      * Returns the URL at which the report file can be downloaded.
-     * 
+     * <p>
+     *         The report will be generated as a gzip archive, containing
+     * the report file itself.
+     *         
      *         
      * @param reportJobId the ID of the {@link ReportJob}
      *         
