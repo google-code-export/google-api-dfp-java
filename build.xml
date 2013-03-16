@@ -20,12 +20,12 @@
   <property name="version" value="${lib_version}" />
   <property name="jar.name" value="${ant.project.name}-${version}" />
 
-  <property name="api.versions" value="v201203,v201204,v201206,v201208,v201211"/>
+  <property name="api.versions" value="v201203,v201204,v201206,v201208,v201211,v201302"/>
 
   <property name="api.package.prefix" value="com.google.api.ads.dfp"/>
   <property name="api.namespace.prefix" value="https://www.google.com/apis/ads/publisher" />
   <property name="api.server" value="https://www.google.com/" />
-  <property name="wsdl.postfix" value="?wsdl"/> 
+  <property name="wsdl.postfix" value="?wsdl"/>
 
   <property name="api.version.v201203" value="v201203" />
   <property name="api.version.v201203.services"
@@ -46,6 +46,10 @@
   <property name="api.version.v201211" value="v201211" />
   <property name="api.version.v201211.services"
       value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService,ThirdPartySlotService,ContentService,CreativeTemplateService,TeamService,AudienceSegmentService,CustomFieldService,UserTeamAssociationService,SuggestedAdUnitService,CreativeSetService,CreativeWrapperService" />
+
+  <property name="api.version.v201302" value="v201302" />
+  <property name="api.version.v201302.services"
+      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService,ThirdPartySlotService,ContentService,CreativeTemplateService,TeamService,AudienceSegmentService,CustomFieldService,UserTeamAssociationService,SuggestedAdUnitService,CreativeSetService,CreativeWrapperService,ContactService,AdRuleService,ContentBundleService,ActivityService,ActivityGroupService" />
 
   <!-- Classpath -->
   <path id="project.class.path">
