@@ -26,6 +26,7 @@ public class VideoPositionTargetingType implements java.io.Serializable {
     public static final java.lang.String _AFTER_MIDROLL_BUMPERS = "AFTER_MIDROLL_BUMPERS";
     public static final java.lang.String _BEFORE_POSTROLL_BUMPER = "BEFORE_POSTROLL_BUMPER";
     public static final java.lang.String _AFTER_POSTROLL_BUMPER = "AFTER_POSTROLL_BUMPER";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final VideoPositionTargetingType PREROLL = new VideoPositionTargetingType(_PREROLL);
     public static final VideoPositionTargetingType MIDROLL = new VideoPositionTargetingType(_MIDROLL);
     public static final VideoPositionTargetingType POSTROLL = new VideoPositionTargetingType(_POSTROLL);
@@ -35,6 +36,7 @@ public class VideoPositionTargetingType implements java.io.Serializable {
     public static final VideoPositionTargetingType AFTER_MIDROLL_BUMPERS = new VideoPositionTargetingType(_AFTER_MIDROLL_BUMPERS);
     public static final VideoPositionTargetingType BEFORE_POSTROLL_BUMPER = new VideoPositionTargetingType(_BEFORE_POSTROLL_BUMPER);
     public static final VideoPositionTargetingType AFTER_POSTROLL_BUMPER = new VideoPositionTargetingType(_AFTER_POSTROLL_BUMPER);
+    public static final VideoPositionTargetingType UNKNOWN = new VideoPositionTargetingType(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static VideoPositionTargetingType fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

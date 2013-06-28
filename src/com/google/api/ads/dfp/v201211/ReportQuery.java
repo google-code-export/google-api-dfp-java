@@ -14,7 +14,9 @@ package com.google.api.ads.dfp.v201211;
  *             generating a report.
  */
 public class ReportQuery  implements java.io.Serializable {
-    /* The list of break-down types being requested in the report. */
+    /* The list of break-down types being requested in the report.
+     * The generated report will contain the dimensions in the same order
+     * as requested. */
     private com.google.api.ads.dfp.v201211.Dimension[] dimensions;
 
     /* The ad unit view for the report. Defaults to {@link AdUnitView#TOP_LEVEL}. */
@@ -22,7 +24,9 @@ public class ReportQuery  implements java.io.Serializable {
 
     /* The list of trafficking statistics and revenue information
      * being requested
-     *                 in the report. */
+     *                 in the report. The generated report will contain the
+     * columns in the same
+     *                 order as requested. */
     private com.google.api.ads.dfp.v201211.Column[] columns;
 
     /* The list of break-down attributes being requested in this report.
@@ -31,7 +35,9 @@ public class ReportQuery  implements java.io.Serializable {
      * with certain
      *                 {@link Dimension} values that must be included in
      * the {@link #dimensions}
-     *                 attribute. */
+     *                 attribute. The generated report will contain the attributes
+     * in the same
+     *                 order as requested. */
     private com.google.api.ads.dfp.v201211.DimensionAttribute[] dimensionAttributes;
 
     /* The list of {@link CustomField#id} being requested in this
@@ -157,6 +163,8 @@ public class ReportQuery  implements java.io.Serializable {
      * Gets the dimensions value for this ReportQuery.
      * 
      * @return dimensions   * The list of break-down types being requested in the report.
+     * The generated report will contain the dimensions in the same order
+     * as requested.
      */
     public com.google.api.ads.dfp.v201211.Dimension[] getDimensions() {
         return dimensions;
@@ -167,6 +175,8 @@ public class ReportQuery  implements java.io.Serializable {
      * Sets the dimensions value for this ReportQuery.
      * 
      * @param dimensions   * The list of break-down types being requested in the report.
+     * The generated report will contain the dimensions in the same order
+     * as requested.
      */
     public void setDimensions(com.google.api.ads.dfp.v201211.Dimension[] dimensions) {
         this.dimensions = dimensions;
@@ -206,7 +216,9 @@ public class ReportQuery  implements java.io.Serializable {
      * 
      * @return columns   * The list of trafficking statistics and revenue information
      * being requested
-     *                 in the report.
+     *                 in the report. The generated report will contain the
+     * columns in the same
+     *                 order as requested.
      */
     public com.google.api.ads.dfp.v201211.Column[] getColumns() {
         return columns;
@@ -218,7 +230,9 @@ public class ReportQuery  implements java.io.Serializable {
      * 
      * @param columns   * The list of trafficking statistics and revenue information
      * being requested
-     *                 in the report.
+     *                 in the report. The generated report will contain the
+     * columns in the same
+     *                 order as requested.
      */
     public void setColumns(com.google.api.ads.dfp.v201211.Column[] columns) {
         this.columns = columns;
@@ -242,7 +256,9 @@ public class ReportQuery  implements java.io.Serializable {
      * with certain
      *                 {@link Dimension} values that must be included in
      * the {@link #dimensions}
-     *                 attribute.
+     *                 attribute. The generated report will contain the attributes
+     * in the same
+     *                 order as requested.
      */
     public com.google.api.ads.dfp.v201211.DimensionAttribute[] getDimensionAttributes() {
         return dimensionAttributes;
@@ -258,7 +274,9 @@ public class ReportQuery  implements java.io.Serializable {
      * with certain
      *                 {@link Dimension} values that must be included in
      * the {@link #dimensions}
-     *                 attribute.
+     *                 attribute. The generated report will contain the attributes
+     * in the same
+     *                 order as requested.
      */
     public void setDimensionAttributes(com.google.api.ads.dfp.v201211.DimensionAttribute[] dimensionAttributes) {
         this.dimensionAttributes = dimensionAttributes;

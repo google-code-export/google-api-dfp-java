@@ -18,10 +18,10 @@ import com.google.api.ads.dfp.lib.DfpService;
 import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
 import com.google.api.ads.dfp.lib.ServiceAccountantManager;
-import com.google.api.ads.dfp.v201211.Company;
-import com.google.api.ads.dfp.v201211.CompanyPage;
-import com.google.api.ads.dfp.v201211.CompanyServiceInterface;
-import com.google.api.ads.dfp.v201211.Statement;
+import com.google.api.ads.dfp.v201306.Company;
+import com.google.api.ads.dfp.v201306.CompanyPage;
+import com.google.api.ads.dfp.v201306.CompanyServiceInterface;
+import com.google.api.ads.dfp.v201306.Statement;
 
 import org.apache.log4j.Level;
 
@@ -40,7 +40,7 @@ public class LoggingExample {
 
     // Get the CompanyService.
     CompanyServiceInterface companyService =
-        user.getService(DfpService.V201211.COMPANY_SERVICE);
+        user.getService(DfpService.V201306.COMPANY_SERVICE);
 
     // Initialize the root logger so that all messages do not filter up.
     DfpServiceLogger.initRootLogger();

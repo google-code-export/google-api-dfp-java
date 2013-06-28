@@ -26,7 +26,10 @@ public class VideoPositionTarget  implements java.io.Serializable {
      * or a bumper
      *                 position, this value must be null.  To target a pod
      * position this value must
-     *                 be populated. */
+     *                 be populated.
+     *                 Starting in V201306, use {@code videoPositionWithinPod}
+     * which allows targeting
+     *                 specific pod positions. */
     private com.google.api.ads.dfp.v201302.VideoPodPositionType videoPodPositionType;
 
     public VideoPositionTarget() {
@@ -98,6 +101,9 @@ public class VideoPositionTarget  implements java.io.Serializable {
      *                 position, this value must be null.  To target a pod
      * position this value must
      *                 be populated.
+     *                 Starting in V201306, use {@code videoPositionWithinPod}
+     * which allows targeting
+     *                 specific pod positions.
      */
     public com.google.api.ads.dfp.v201302.VideoPodPositionType getVideoPodPositionType() {
         return videoPodPositionType;
@@ -112,6 +118,9 @@ public class VideoPositionTarget  implements java.io.Serializable {
      *                 position, this value must be null.  To target a pod
      * position this value must
      *                 be populated.
+     *                 Starting in V201306, use {@code videoPositionWithinPod}
+     * which allows targeting
+     *                 specific pod positions.
      */
     public void setVideoPodPositionType(com.google.api.ads.dfp.v201302.VideoPodPositionType videoPodPositionType) {
         this.videoPodPositionType = videoPodPositionType;

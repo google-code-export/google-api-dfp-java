@@ -37,7 +37,7 @@ public class Network  implements java.io.Serializable {
      *                 field is read-only. */
     private java.lang.String timeZone;
 
-    /* The currency code. This field is read-only. */
+    /* The primary currency code. This field is read-only. */
     private java.lang.String currencyCode;
 
     /* The {@link AdUnit#id} of the top most ad unit to which descendant
@@ -215,7 +215,7 @@ public class Network  implements java.io.Serializable {
     /**
      * Gets the currencyCode value for this Network.
      * 
-     * @return currencyCode   * The currency code. This field is read-only.
+     * @return currencyCode   * The primary currency code. This field is read-only.
      */
     public java.lang.String getCurrencyCode() {
         return currencyCode;
@@ -225,7 +225,7 @@ public class Network  implements java.io.Serializable {
     /**
      * Sets the currencyCode value for this Network.
      * 
-     * @param currencyCode   * The currency code. This field is read-only.
+     * @param currencyCode   * The primary currency code. This field is read-only.
      */
     public void setCurrencyCode(java.lang.String currencyCode) {
         this.currencyCode = currencyCode;

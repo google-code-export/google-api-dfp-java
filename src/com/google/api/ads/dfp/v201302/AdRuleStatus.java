@@ -20,9 +20,11 @@ public class AdRuleStatus implements java.io.Serializable {
     public static final java.lang.String _ACTIVE = "ACTIVE";
     public static final java.lang.String _INACTIVE = "INACTIVE";
     public static final java.lang.String _DELETED = "DELETED";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final AdRuleStatus ACTIVE = new AdRuleStatus(_ACTIVE);
     public static final AdRuleStatus INACTIVE = new AdRuleStatus(_INACTIVE);
     public static final AdRuleStatus DELETED = new AdRuleStatus(_DELETED);
+    public static final AdRuleStatus UNKNOWN = new AdRuleStatus(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static AdRuleStatus fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

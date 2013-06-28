@@ -33,7 +33,8 @@ public class ContentBundle  implements java.io.Serializable {
     private java.lang.String description;
 
     /* The {@link ContentBundleStatus} of the {@code ContentBundle}.
-     * This attribute is read-only. */
+     * This attribute is read-only and
+     *                 defaults to {@link ContentBundleStatus#INACTIVE}. */
     private com.google.api.ads.dfp.v201302.ContentBundleStatus status;
 
     public ContentBundle() {
@@ -127,7 +128,8 @@ public class ContentBundle  implements java.io.Serializable {
      * Gets the status value for this ContentBundle.
      * 
      * @return status   * The {@link ContentBundleStatus} of the {@code ContentBundle}.
-     * This attribute is read-only.
+     * This attribute is read-only and
+     *                 defaults to {@link ContentBundleStatus#INACTIVE}.
      */
     public com.google.api.ads.dfp.v201302.ContentBundleStatus getStatus() {
         return status;
@@ -138,7 +140,8 @@ public class ContentBundle  implements java.io.Serializable {
      * Sets the status value for this ContentBundle.
      * 
      * @param status   * The {@link ContentBundleStatus} of the {@code ContentBundle}.
-     * This attribute is read-only.
+     * This attribute is read-only and
+     *                 defaults to {@link ContentBundleStatus#INACTIVE}.
      */
     public void setStatus(com.google.api.ads.dfp.v201302.ContentBundleStatus status) {
         this.status = status;

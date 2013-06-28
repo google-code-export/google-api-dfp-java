@@ -20,9 +20,11 @@ public class AdRuleSlotBehavior implements java.io.Serializable {
     public static final java.lang.String _ALWAYS_SHOW = "ALWAYS_SHOW";
     public static final java.lang.String _NEVER_SHOW = "NEVER_SHOW";
     public static final java.lang.String _DEFER = "DEFER";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final AdRuleSlotBehavior ALWAYS_SHOW = new AdRuleSlotBehavior(_ALWAYS_SHOW);
     public static final AdRuleSlotBehavior NEVER_SHOW = new AdRuleSlotBehavior(_NEVER_SHOW);
     public static final AdRuleSlotBehavior DEFER = new AdRuleSlotBehavior(_DEFER);
+    public static final AdRuleSlotBehavior UNKNOWN = new AdRuleSlotBehavior(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static AdRuleSlotBehavior fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

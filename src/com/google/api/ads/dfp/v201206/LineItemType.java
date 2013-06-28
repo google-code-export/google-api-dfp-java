@@ -28,6 +28,7 @@ public class LineItemType implements java.io.Serializable {
     public static final java.lang.String _ADSENSE = "ADSENSE";
     public static final java.lang.String _AD_EXCHANGE = "AD_EXCHANGE";
     public static final java.lang.String _BUMPER = "BUMPER";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final LineItemType SPONSORSHIP = new LineItemType(_SPONSORSHIP);
     public static final LineItemType STANDARD = new LineItemType(_STANDARD);
     public static final LineItemType NETWORK = new LineItemType(_NETWORK);
@@ -39,6 +40,7 @@ public class LineItemType implements java.io.Serializable {
     public static final LineItemType ADSENSE = new LineItemType(_ADSENSE);
     public static final LineItemType AD_EXCHANGE = new LineItemType(_AD_EXCHANGE);
     public static final LineItemType BUMPER = new LineItemType(_BUMPER);
+    public static final LineItemType UNKNOWN = new LineItemType(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static LineItemType fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

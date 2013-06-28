@@ -17,6 +17,11 @@ package com.google.api.ads.dfp.v201204;
  *             This creative will not work with iframe ad tags.
  *             <p>
  *             This creative is only available to small business networks.
+ * 
+ *             Starting in version v201306 this will be returned as a
+ * {@link TemplateCreative}
+ *             identified with a {@link TemplateCreative#creativeTemplateId}
+ * of {@code 10001400}.
  */
 public class FlashPushdownCreative  extends com.google.api.ads.dfp.v201204.HasDestinationUrlCreative  implements java.io.Serializable {
     /* The ID of the collapsed Flash asset. This attribute is read-only

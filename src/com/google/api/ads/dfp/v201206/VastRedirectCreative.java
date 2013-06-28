@@ -15,7 +15,7 @@ package com.google.api.ads.dfp.v201206;
  * is read only.
  */
 public class VastRedirectCreative  extends com.google.api.ads.dfp.v201206.Creative  implements java.io.Serializable {
-    /* The URL where the VAST 2.0 XML is hosted. */
+    /* The URL where the 3rd party VAST 2.0 XML is hosted. */
     private java.lang.String vastXmlUrl;
 
     /* The type of VAST ad that this redirects to. */
@@ -68,7 +68,7 @@ public class VastRedirectCreative  extends com.google.api.ads.dfp.v201206.Creati
     /**
      * Gets the vastXmlUrl value for this VastRedirectCreative.
      * 
-     * @return vastXmlUrl   * The URL where the VAST 2.0 XML is hosted.
+     * @return vastXmlUrl   * The URL where the 3rd party VAST 2.0 XML is hosted.
      */
     public java.lang.String getVastXmlUrl() {
         return vastXmlUrl;
@@ -78,7 +78,7 @@ public class VastRedirectCreative  extends com.google.api.ads.dfp.v201206.Creati
     /**
      * Sets the vastXmlUrl value for this VastRedirectCreative.
      * 
-     * @param vastXmlUrl   * The URL where the VAST 2.0 XML is hosted.
+     * @param vastXmlUrl   * The URL where the 3rd party VAST 2.0 XML is hosted.
      */
     public void setVastXmlUrl(java.lang.String vastXmlUrl) {
         this.vastXmlUrl = vastXmlUrl;

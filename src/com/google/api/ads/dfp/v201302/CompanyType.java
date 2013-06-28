@@ -24,6 +24,7 @@ public class CompanyType implements java.io.Serializable {
     public static final java.lang.String _AD_NETWORK = "AD_NETWORK";
     public static final java.lang.String _AFFILIATE_DISTRIBUTION_PARTNER = "AFFILIATE_DISTRIBUTION_PARTNER";
     public static final java.lang.String _CONTENT_PARTNER = "CONTENT_PARTNER";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final CompanyType HOUSE_ADVERTISER = new CompanyType(_HOUSE_ADVERTISER);
     public static final CompanyType HOUSE_AGENCY = new CompanyType(_HOUSE_AGENCY);
     public static final CompanyType ADVERTISER = new CompanyType(_ADVERTISER);
@@ -31,6 +32,7 @@ public class CompanyType implements java.io.Serializable {
     public static final CompanyType AD_NETWORK = new CompanyType(_AD_NETWORK);
     public static final CompanyType AFFILIATE_DISTRIBUTION_PARTNER = new CompanyType(_AFFILIATE_DISTRIBUTION_PARTNER);
     public static final CompanyType CONTENT_PARTNER = new CompanyType(_CONTENT_PARTNER);
+    public static final CompanyType UNKNOWN = new CompanyType(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static CompanyType fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

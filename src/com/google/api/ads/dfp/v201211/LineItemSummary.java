@@ -86,7 +86,9 @@ public class LineItemSummary  implements java.io.Serializable {
      * item's
      *                 duration. This attribute is optional and defaults
      * to
-     *                 {@link DeliveryRateType#EVENLY}. */
+     *                 {@link DeliveryRateType#EVENLY}.
+     *                 Starting in v201306, it may default to {@link DeliveryRateType#FRONTLOADED}
+     * if specifically configured to on the network. */
     private com.google.api.ads.dfp.v201211.DeliveryRateType deliveryRateType;
 
     /* The strategy for serving roadblocked creatives, i.e. instances
@@ -852,6 +854,8 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 duration. This attribute is optional and defaults
      * to
      *                 {@link DeliveryRateType#EVENLY}.
+     *                 Starting in v201306, it may default to {@link DeliveryRateType#FRONTLOADED}
+     * if specifically configured to on the network.
      */
     public com.google.api.ads.dfp.v201211.DeliveryRateType getDeliveryRateType() {
         return deliveryRateType;
@@ -866,6 +870,8 @@ public class LineItemSummary  implements java.io.Serializable {
      *                 duration. This attribute is optional and defaults
      * to
      *                 {@link DeliveryRateType#EVENLY}.
+     *                 Starting in v201306, it may default to {@link DeliveryRateType#FRONTLOADED}
+     * if specifically configured to on the network.
      */
     public void setDeliveryRateType(com.google.api.ads.dfp.v201211.DeliveryRateType deliveryRateType) {
         this.deliveryRateType = deliveryRateType;

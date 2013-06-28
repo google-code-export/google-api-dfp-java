@@ -45,11 +45,7 @@ public class CustomTargetingValue  implements java.io.Serializable {
 
     /* The way in which the {@link CustomTargetingValue#name} strings
      * will be
-     *                 matched. This feature is only available for DFP premium
-     * solution accounts.
-     *                 For Small Business accounts, only {@link MatchType#EXACT}
-     * matching is
-     *                 allowed. */
+     *                 matched. */
     private com.google.api.ads.dfp.v201204.CustomTargetingValueMatchType matchType;
 
     public CustomTargetingValue() {
@@ -190,11 +186,7 @@ public class CustomTargetingValue  implements java.io.Serializable {
      * 
      * @return matchType   * The way in which the {@link CustomTargetingValue#name} strings
      * will be
-     *                 matched. This feature is only available for DFP premium
-     * solution accounts.
-     *                 For Small Business accounts, only {@link MatchType#EXACT}
-     * matching is
-     *                 allowed.
+     *                 matched.
      */
     public com.google.api.ads.dfp.v201204.CustomTargetingValueMatchType getMatchType() {
         return matchType;
@@ -206,11 +198,7 @@ public class CustomTargetingValue  implements java.io.Serializable {
      * 
      * @param matchType   * The way in which the {@link CustomTargetingValue#name} strings
      * will be
-     *                 matched. This feature is only available for DFP premium
-     * solution accounts.
-     *                 For Small Business accounts, only {@link MatchType#EXACT}
-     * matching is
-     *                 allowed.
+     *                 matched.
      */
     public void setMatchType(com.google.api.ads.dfp.v201204.CustomTargetingValueMatchType matchType) {
         this.matchType = matchType;

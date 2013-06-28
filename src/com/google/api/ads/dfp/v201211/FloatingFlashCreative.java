@@ -15,6 +15,11 @@ package com.google.api.ads.dfp.v201211;
  *             This creative will not work with iframe ad tags.
  *             <p>
  *             This creative is only available to small business networks.
+ * 
+ *             Starting in version v201306 this will be returned as a
+ * {@link TemplateCreative}
+ *             identified with a {@link TemplateCreative#creativeTemplateId}
+ * of {@code 10000560}.
  */
 public class FloatingFlashCreative  extends com.google.api.ads.dfp.v201211.HasDestinationUrlCreative  implements java.io.Serializable {
     /* The file name of the Flash asset. This attribute is required
