@@ -20,7 +20,7 @@
   <property name="version" value="${lib_version}" />
   <property name="jar.name" value="${ant.project.name}-${version}" />
 
-  <property name="api.versions" value="v201203,v201204,v201206,v201208,v201211,v201302"/>
+  <property name="api.versions" value="v201203,v201204,v201206,v201208,v201211,v201302,v201306"/>
 
   <property name="api.package.prefix" value="com.google.api.ads.dfp"/>
   <property name="api.namespace.prefix" value="https://www.google.com/apis/ads/publisher" />
@@ -50,6 +50,10 @@
   <property name="api.version.v201302" value="v201302" />
   <property name="api.version.v201302.services"
       value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService,ThirdPartySlotService,ContentService,CreativeTemplateService,TeamService,AudienceSegmentService,CustomFieldService,UserTeamAssociationService,SuggestedAdUnitService,CreativeSetService,CreativeWrapperService,ContactService,AdRuleService,ContentBundleService,ActivityService,ActivityGroupService" />
+
+  <property name="api.version.v201306" value="v201306" />
+  <property name="api.version.v201306.services"
+      value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService,ContentService,SuggestedAdUnitService,CreativeTemplateService,TeamService,AudienceSegmentService,CustomFieldService,UserTeamAssociationService,CreativeSetService,CreativeWrapperService,ActivityService,ActivityGroupService,AdRuleService,ContentBundleService,ContactService,BaseRateService,ProductService,ProductTemplateService,ProposalService,ProposalLineItemService,RateCardService,RateCardCustomizationService,ReconciliationOrderReportService,ReconciliationReportService,ReconciliationReportRowService,WorkflowActionService,LineItemTemplateService" />
 
   <!-- Classpath -->
   <path id="project.class.path">

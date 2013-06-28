@@ -16,7 +16,7 @@ package com.google.api.ads.dfp.v201302;
  *             as additional information on how the ad server will generate
  * playlists.
  */
-public class BaseAdRuleSlot  implements java.io.Serializable {
+public abstract class BaseAdRuleSlot  implements java.io.Serializable {
     /* The unique ID for this ad rule slot. This attribute is required. */
     private java.lang.Long id;
 

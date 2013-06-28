@@ -22,11 +22,13 @@ public class MidrollFrequencyType implements java.io.Serializable {
     public static final java.lang.String _FIXED_TIME = "FIXED_TIME";
     public static final java.lang.String _EVERY_N_CUEPOINTS = "EVERY_N_CUEPOINTS";
     public static final java.lang.String _FIXED_CUE_POINTS = "FIXED_CUE_POINTS";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final MidrollFrequencyType NONE = new MidrollFrequencyType(_NONE);
     public static final MidrollFrequencyType EVERY_N_SECONDS = new MidrollFrequencyType(_EVERY_N_SECONDS);
     public static final MidrollFrequencyType FIXED_TIME = new MidrollFrequencyType(_FIXED_TIME);
     public static final MidrollFrequencyType EVERY_N_CUEPOINTS = new MidrollFrequencyType(_EVERY_N_CUEPOINTS);
     public static final MidrollFrequencyType FIXED_CUE_POINTS = new MidrollFrequencyType(_FIXED_CUE_POINTS);
+    public static final MidrollFrequencyType UNKNOWN = new MidrollFrequencyType(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static MidrollFrequencyType fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

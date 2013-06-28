@@ -122,7 +122,7 @@ library, do the following:
   1) Import the following packages or classes:
 
      // Contains the data classes and service classes.
-     import com.google.api.ads.dfp.v201211.*;
+     import com.google.api.ads.dfp.v201306.*;
 
      import com.google.api.ads.dfp.lib.DfpUser;
 
@@ -133,7 +133,7 @@ library, do the following:
 
      // Axis faults get thrown as ApiExceptions. Import ApiException if you want
      // to throw it or catch it.
-     import com.google.api.ads.dfp.v201211.ApiException;
+     import com.google.api.ads.dfp.v201306.ApiException;
 
   2) Create an DfpUser instance, specifying the credentials at
      creation time. Or, you can use the default constructor after completing
@@ -151,7 +151,7 @@ library, do the following:
      which are defined within DfpService.
 
      InventoryServiceInterface inventoryService =
-         user.getService(DfpService.v201211.INVENTORY_SERVICE);
+         user.getService(DfpService.v201306.INVENTORY_SERVICE);
 
      Note: The interface that should be used for the type of 'service' is
      mentioned in the JavaDoc for the service constant.
@@ -196,9 +196,9 @@ from the "examples/" directory i.e.
 As an example for v201103:
 
     $ cd examples
-    $ javac -classpath ../lib/dfp-api-2.11.0.jar v201211/*/*.java
-    $ java -classpath .:v201211:../lib/dfp-api-2.11.0.jar\
-      v201211/inventoryService/GetAllAdUnitsExample
+    $ javac -classpath ../lib/dfp-api-2.11.0.jar v201306/*/*.java
+    $ java -classpath .:v201306:../lib/dfp-api-2.11.0.jar\
+      v201306/inventoryService/GetAllAdUnitsExample
 
 
 How do I enable logging?

@@ -1,3 +1,6 @@
+2.17.0:
+- Added support for v201306.
+
 2.16.0:
 - Added support for v201302.
 
@@ -6,7 +9,7 @@
 
 2.15.0:
 - Added support for v201211.
-- Updated existing generated code for UnsupportedCreative and UKNOWN enum
+- Updated existing generated code for UnsupportedCreative and UNKNOWN enum
   choices.
 - Removed support for v201108, v201111, and v201201.
 

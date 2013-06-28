@@ -19,8 +19,10 @@ public class ContentStatus implements java.io.Serializable {
 
     public static final java.lang.String _ACTIVE = "ACTIVE";
     public static final java.lang.String _INACTIVE = "INACTIVE";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final ContentStatus ACTIVE = new ContentStatus(_ACTIVE);
     public static final ContentStatus INACTIVE = new ContentStatus(_INACTIVE);
+    public static final ContentStatus UNKNOWN = new ContentStatus(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static ContentStatus fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

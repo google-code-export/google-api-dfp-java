@@ -11,7 +11,7 @@ package com.google.api.ads.dfp.v201302;
 /**
  * An Ad Exchange dynamic allocation creative.
  */
-public class AdExchangeCreative  extends com.google.api.ads.dfp.v201302.BaseDynamicAllocationCreative  implements java.io.Serializable {
+public class AdExchangeCreative  extends com.google.api.ads.dfp.v201302.HasHtmlSnippetDynamicAllocationCreative  implements java.io.Serializable {
     public AdExchangeCreative() {
     }
 

@@ -105,6 +105,10 @@ public interface LineItemServiceInterface extends java.rmi.Remote {
      *         <td>{@code creationDateTime}</td>
      *         <td>{@link LineItem#creationDateTime}</td>
      *         </tr>
+     *         <tr>
+     *         <td>{@code isMissingCreatives}</td>
+     *         <td>{@link LineItem#isMissingCreatives}</td>
+     *         </tr>
      *         </table>
      *         
      *         

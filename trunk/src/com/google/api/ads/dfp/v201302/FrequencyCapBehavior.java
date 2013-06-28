@@ -20,9 +20,11 @@ public class FrequencyCapBehavior implements java.io.Serializable {
     public static final java.lang.String _TURN_ON = "TURN_ON";
     public static final java.lang.String _TURN_OFF = "TURN_OFF";
     public static final java.lang.String _DEFER = "DEFER";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final FrequencyCapBehavior TURN_ON = new FrequencyCapBehavior(_TURN_ON);
     public static final FrequencyCapBehavior TURN_OFF = new FrequencyCapBehavior(_TURN_OFF);
     public static final FrequencyCapBehavior DEFER = new FrequencyCapBehavior(_DEFER);
+    public static final FrequencyCapBehavior UNKNOWN = new FrequencyCapBehavior(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static FrequencyCapBehavior fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

@@ -21,10 +21,12 @@ public class AdRuleSlotBumper implements java.io.Serializable {
     public static final java.lang.String _BEFORE = "BEFORE";
     public static final java.lang.String _AFTER = "AFTER";
     public static final java.lang.String _BEFORE_AND_AFTER = "BEFORE_AND_AFTER";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final AdRuleSlotBumper NONE = new AdRuleSlotBumper(_NONE);
     public static final AdRuleSlotBumper BEFORE = new AdRuleSlotBumper(_BEFORE);
     public static final AdRuleSlotBumper AFTER = new AdRuleSlotBumper(_AFTER);
     public static final AdRuleSlotBumper BEFORE_AND_AFTER = new AdRuleSlotBumper(_BEFORE_AND_AFTER);
+    public static final AdRuleSlotBumper UNKNOWN = new AdRuleSlotBumper(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static AdRuleSlotBumper fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

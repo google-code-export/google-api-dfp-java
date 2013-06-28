@@ -22,11 +22,13 @@ public class ActivityType implements java.io.Serializable {
     public static final java.lang.String _CUSTOM = "CUSTOM";
     public static final java.lang.String _ITEMS_PURCHASED = "ITEMS_PURCHASED";
     public static final java.lang.String _TRANSACTIONS = "TRANSACTIONS";
+    public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final ActivityType PAGE_VIEWS = new ActivityType(_PAGE_VIEWS);
     public static final ActivityType DAILY_VISITS = new ActivityType(_DAILY_VISITS);
     public static final ActivityType CUSTOM = new ActivityType(_CUSTOM);
     public static final ActivityType ITEMS_PURCHASED = new ActivityType(_ITEMS_PURCHASED);
     public static final ActivityType TRANSACTIONS = new ActivityType(_TRANSACTIONS);
+    public static final ActivityType UNKNOWN = new ActivityType(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static ActivityType fromValue(java.lang.String value)
           throws java.lang.IllegalArgumentException {

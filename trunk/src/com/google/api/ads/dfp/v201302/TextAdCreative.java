@@ -12,6 +12,11 @@ package com.google.api.ads.dfp.v201302;
  * A simple plain text-based {@code Creative}. This creative is only
  * available to small business
  *             networks.
+ *             
+ *             Starting in version v201306 this will be returned as a
+ * {@link TemplateCreative}
+ *             identified with a {@link TemplateCreative#creativeTemplateId}
+ * of {@code 10000440}.
  */
 public class TextAdCreative  extends com.google.api.ads.dfp.v201302.HasDestinationUrlCreative  implements java.io.Serializable {
     /* The hover text that appears over the {@link linkTitle}. This

@@ -12,13 +12,6 @@ package com.google.api.ads.dfp.v201208;
  * A base class for dynamic allocation creatives.
  */
 public abstract class BaseDynamicAllocationCreative  extends com.google.api.ads.dfp.v201208.Creative  implements java.io.Serializable {
-    /* The code snippet (ad tag) from Ad Exchange or AdSense to traffic
-     * the dynamic allocation
-     *                     creative. Only valid Ad Exchange or AdSense parameters
-     * will be considered. Any extraneous HTML
-     *                     or JavaScript will be ignored. */
-    private java.lang.String codeSnippet;
-
     public BaseDynamicAllocationCreative() {
     }
 
@@ -31,8 +24,7 @@ public abstract class BaseDynamicAllocationCreative  extends com.google.api.ads.
            com.google.api.ads.dfp.v201208.AppliedLabel[] appliedLabels,
            com.google.api.ads.dfp.v201208.DateTime lastModifiedDateTime,
            com.google.api.ads.dfp.v201208.BaseCustomFieldValue[] customFieldValues,
-           java.lang.String creativeType,
-           java.lang.String codeSnippet) {
+           java.lang.String creativeType) {
         super(
             advertiserId,
             id,
@@ -43,35 +35,6 @@ public abstract class BaseDynamicAllocationCreative  extends com.google.api.ads.
             lastModifiedDateTime,
             customFieldValues,
             creativeType);
-        this.codeSnippet = codeSnippet;
-    }
-
-
-    /**
-     * Gets the codeSnippet value for this BaseDynamicAllocationCreative.
-     * 
-     * @return codeSnippet   * The code snippet (ad tag) from Ad Exchange or AdSense to traffic
-     * the dynamic allocation
-     *                     creative. Only valid Ad Exchange or AdSense parameters
-     * will be considered. Any extraneous HTML
-     *                     or JavaScript will be ignored.
-     */
-    public java.lang.String getCodeSnippet() {
-        return codeSnippet;
-    }
-
-
-    /**
-     * Sets the codeSnippet value for this BaseDynamicAllocationCreative.
-     * 
-     * @param codeSnippet   * The code snippet (ad tag) from Ad Exchange or AdSense to traffic
-     * the dynamic allocation
-     *                     creative. Only valid Ad Exchange or AdSense parameters
-     * will be considered. Any extraneous HTML
-     *                     or JavaScript will be ignored.
-     */
-    public void setCodeSnippet(java.lang.String codeSnippet) {
-        this.codeSnippet = codeSnippet;
     }
 
     private java.lang.Object __equalsCalc = null;
@@ -85,10 +48,7 @@ public abstract class BaseDynamicAllocationCreative  extends com.google.api.ads.
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = super.equals(obj) && 
-            ((this.codeSnippet==null && other.getCodeSnippet()==null) || 
-             (this.codeSnippet!=null &&
-              this.codeSnippet.equals(other.getCodeSnippet())));
+        _equals = super.equals(obj);
         __equalsCalc = null;
         return _equals;
     }
@@ -100,9 +60,6 @@ public abstract class BaseDynamicAllocationCreative  extends com.google.api.ads.
         }
         __hashCodeCalc = true;
         int _hashCode = super.hashCode();
-        if (getCodeSnippet() != null) {
-            _hashCode += getCodeSnippet().hashCode();
-        }
         __hashCodeCalc = false;
         return _hashCode;
     }
@@ -113,13 +70,6 @@ public abstract class BaseDynamicAllocationCreative  extends com.google.api.ads.
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201208", "BaseDynamicAllocationCreative"));
-        org.apache.axis.description.ElementDesc elemField = new org.apache.axis.description.ElementDesc();
-        elemField.setFieldName("codeSnippet");
-        elemField.setXmlName(new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201208", "codeSnippet"));
-        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
-        elemField.setMinOccurs(0);
-        elemField.setNillable(false);
-        typeDesc.addFieldDesc(elemField);
     }
 
     /**

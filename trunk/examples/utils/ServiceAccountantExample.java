@@ -19,11 +19,11 @@ import com.google.api.ads.dfp.lib.DfpServiceLogger;
 import com.google.api.ads.dfp.lib.DfpUser;
 import com.google.api.ads.dfp.lib.ServiceAccountant;
 import com.google.api.ads.dfp.lib.ServiceAccountantManager;
-import com.google.api.ads.dfp.v201211.CompanyServiceInterface;
-import com.google.api.ads.dfp.v201211.CreativeServiceInterface;
-import com.google.api.ads.dfp.v201211.InventoryServiceInterface;
-import com.google.api.ads.dfp.v201211.Statement;
-import com.google.api.ads.dfp.v201211.UserServiceInterface;
+import com.google.api.ads.dfp.v201306.CompanyServiceInterface;
+import com.google.api.ads.dfp.v201306.CreativeServiceInterface;
+import com.google.api.ads.dfp.v201306.InventoryServiceInterface;
+import com.google.api.ads.dfp.v201306.Statement;
+import com.google.api.ads.dfp.v201306.UserServiceInterface;
 
 import org.apache.axis.client.Stub;
 
@@ -53,20 +53,20 @@ public class ServiceAccountantExample {
     ServiceAccountantManager serviceAccountantManager = ServiceAccountantManager.getInstance();
 
     // Get the CompanyService.
-    CompanyServiceInterface companyService = user.getService(DfpService.V201211.COMPANY_SERVICE);
+    CompanyServiceInterface companyService = user.getService(DfpService.V201306.COMPANY_SERVICE);
 
     // Get the UserService.
-    UserServiceInterface userService = user.getService(DfpService.V201211.USER_SERVICE);
+    UserServiceInterface userService = user.getService(DfpService.V201306.USER_SERVICE);
 
     // Get the InventoryService.
     InventoryServiceInterface inventoryService =
-        user.getService(DfpService.V201211.INVENTORY_SERVICE);
+        user.getService(DfpService.V201306.INVENTORY_SERVICE);
 
     // Turn on retain service here to just retain the creative service.
     serviceAccountantManager.setRetainServices(true);
 
     // Get the CreativeService.
-    CreativeServiceInterface creativeService = user.getService(DfpService.V201211.CREATIVE_SERVICE);
+    CreativeServiceInterface creativeService = user.getService(DfpService.V201306.CREATIVE_SERVICE);
 
     // Since autoCreateAccountant is set to true in the service accountant
     // manager, all service accountants will be created during this method call.
