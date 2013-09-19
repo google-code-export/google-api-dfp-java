@@ -28,6 +28,38 @@ public interface AudienceSegmentServiceInterface extends java.rmi.Remote {
      *         <td>{@code name}</td>
      *         <td>{@link AudienceSegment#name}</td>
      *         </tr>
+     *         <tr>
+     *         <td>{@code status}</td>
+     *         <td>{@link AudienceSegment#status}</td>
+     *         </tr>
+     *         <tr>
+     *         <td>{@code type}</td>
+     *         <td>{@link AudienceSegment#type}</td>
+     *         </tr>
+     *         <tr>
+     *         <td>{@code size}</td>
+     *         <td>{@link AudienceSegment#size}</td>
+     *         </tr>
+     *         <tr>
+     *         <td>{@code dataProviderName}</td>
+     *         <td>{@link AudienceSegmentDataProvider#name}</td>
+     *         </tr>
+     *         <tr>
+     *         <td>{@code approvalStatus}</td>
+     *         <td>{@link ThirdPartyAudienceSegment#approvalStatus}</td>
+     *         </tr>
+     *         <tr>
+     *         <td>{@code cost}</td>
+     *         <td>{@link ThirdPartyAudienceSegment#cost}</td>
+     *         </tr>
+     *         <tr>
+     *         <td>{@code startDateTime}</td>
+     *         <td>{@link ThirdPartyAudienceSegment#startDateTime}</td>
+     *         </tr>
+     *         <tr>
+     *         <td>{@code endDateTime}</td>
+     *         <td>{@link ThirdPartyAudienceSegment#endDateTime}</td>
+     *         </tr>
      *         </table>
      *         
      *         

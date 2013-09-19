@@ -162,13 +162,6 @@ public class CompanyServiceSoapBindingStub extends org.apache.axis.client.Stub i
             java.lang.Class simpledf = org.apache.axis.encoding.ser.SimpleDeserializerFactory.class;
             java.lang.Class simplelistsf = org.apache.axis.encoding.ser.SimpleListSerializerFactory.class;
             java.lang.Class simplelistdf = org.apache.axis.encoding.ser.SimpleListDeserializerFactory.class;
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "AdUnitSize");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201302.AdUnitSize.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "ApiError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201302.ApiError.class;
@@ -210,20 +203,6 @@ public class CompanyServiceSoapBindingStub extends org.apache.axis.client.Stub i
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "AudienceSegmentCriteria");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201302.AudienceSegmentCriteria.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "AudienceSegmentCriteria.ComparisonOperator");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201302.AudienceSegmentCriteriaComparisonOperator.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(enumsf);
-            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "Authentication");
             cachedSerQNames.add(qName);
@@ -330,62 +309,6 @@ public class CompanyServiceSoapBindingStub extends org.apache.axis.client.Stub i
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "CreativePlaceholder");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201302.CreativePlaceholder.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "CreativeSizeType");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201302.CreativeSizeType.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(enumsf);
-            cachedDeserFactories.add(enumdf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "CustomCriteria");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201302.CustomCriteria.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "CustomCriteria.ComparisonOperator");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201302.CustomCriteriaComparisonOperator.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(enumsf);
-            cachedDeserFactories.add(enumdf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "CustomCriteriaLeaf");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201302.CustomCriteriaLeaf.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "CustomCriteriaNode");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201302.CustomCriteriaNode.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "CustomCriteriaSet");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201302.CustomCriteriaSet.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "CustomCriteriaSet.LogicalOperator");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201302.CustomCriteriaSetLogicalOperator.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(enumsf);
-            cachedDeserFactories.add(enumdf);
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "Date");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201302.Date.class;
@@ -406,13 +329,6 @@ public class CompanyServiceSoapBindingStub extends org.apache.axis.client.Stub i
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "EnvironmentType");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201302.EnvironmentType.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(enumsf);
-            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "InternalApiError");
             cachedSerQNames.add(qName);
@@ -582,13 +498,6 @@ public class CompanyServiceSoapBindingStub extends org.apache.axis.client.Stub i
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "Size");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201302.Size.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "SoapRequestHeader");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201302.SoapRequestHeader.class;
@@ -630,6 +539,20 @@ public class CompanyServiceSoapBindingStub extends org.apache.axis.client.Stub i
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "StringLengthError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201302.StringLengthError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "StringLengthError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201302.StringLengthErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201302", "TeamError");
             cachedSerQNames.add(qName);

@@ -47,18 +47,18 @@ public interface ProductServiceInterface extends java.rmi.Remote {
      *         </tr>
      *         <tr>
      *         <td>{@code lineItemType}</td>
-     *         <td>{@link LineItemType} within {@code Product#lineItemType}</td>
-     * <td>Yes</td>
+     *         <td>{@link Product#lineItemType}</td>
+     *         <td>Yes</td>
      *         <td>Yes</td>
      *         </tr>
      *         <td>{@code productType}</td>
-     *         <td>{@link ProductType} within {@code Product#productType}</td>
-     * <td>Yes</td>
+     *         <td>{@link Product#productType}</td>
+     *         <td>Yes</td>
      *         <td>Yes</td>
      *         </tr>
      *         <tr>
      *         <td>{@code rateType}</td>
-     *         <td>{@link RateType} within {@code Product#rateType}</td>
+     *         <td>{@link Product#rateType}</td>
      *         <td>Yes</td>
      *         <td>Yes</td>
      *         </tr>

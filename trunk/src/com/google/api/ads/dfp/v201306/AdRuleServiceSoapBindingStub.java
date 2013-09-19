@@ -306,13 +306,6 @@ public class AdRuleServiceSoapBindingStub extends org.apache.axis.client.Stub im
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "AdUnitSize");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.AdUnitSize.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "AdUnitTargeting");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201306.AdUnitTargeting.class;
@@ -656,13 +649,6 @@ public class AdRuleServiceSoapBindingStub extends org.apache.axis.client.Stub im
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "EnvironmentType");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.EnvironmentType.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(enumsf);
-            cachedDeserFactories.add(enumdf);
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "FrequencyCapBehavior");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201306.FrequencyCapBehavior.class;
@@ -901,6 +887,20 @@ public class AdRuleServiceSoapBindingStub extends org.apache.axis.client.Stub im
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "QuotaError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201306.QuotaError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "QuotaError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201306.QuotaErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
     }
     private void addBindings1() {
             java.lang.Class cls;
@@ -916,20 +916,6 @@ public class AdRuleServiceSoapBindingStub extends org.apache.axis.client.Stub im
             java.lang.Class simpledf = org.apache.axis.encoding.ser.SimpleDeserializerFactory.class;
             java.lang.Class simplelistsf = org.apache.axis.encoding.ser.SimpleListSerializerFactory.class;
             java.lang.Class simplelistdf = org.apache.axis.encoding.ser.SimpleListDeserializerFactory.class;
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "QuotaError");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.QuotaError.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "QuotaError.Reason");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.QuotaErrorReason.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(enumsf);
-            cachedDeserFactories.add(enumdf);
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "RegionLocation");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201306.RegionLocation.class;
@@ -978,13 +964,6 @@ public class AdRuleServiceSoapBindingStub extends org.apache.axis.client.Stub im
             cachedSerClasses.add(cls);
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "Size");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.Size.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "SoapRequestHeader");
             cachedSerQNames.add(qName);

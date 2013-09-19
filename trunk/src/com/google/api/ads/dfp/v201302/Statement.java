@@ -20,13 +20,22 @@ package com.google.api.ads.dfp.v201302;
  *             LIMIT 30"}.
  *             </p>
  *             <p>
- *             Statements also support bind variables. These are substitutes
+ *             Statements support bind variables. These are substitutes
  * for literals
  *             and can be thought of as input parameters to a PQL query.
  * </p>
  *             <p>
  *             An example of such a query might be {@code "WHERE id =
  * :idValue"}.
+ *             </p>
+ *             <p>
+ *             Statements also support use of the LIKE keyword. This
+ * provides partial and
+ *             wildcard string matching.
+ *             </p>
+ *             <p>
+ *             An example of such a query might be {@code "WHERE name
+ * LIKE 'startswith%'"}.
  *             </p>
  *             If using an API version newer than V201010, the value
  * for the variable
@@ -58,7 +67,8 @@ public class Statement  implements java.io.Serializable {
      * variable></code><br>
      *                 <code><condition> := <property> IN <list></code><br>
      * <code><condition> := <property> IS NULL</code><br>
-     *                 <code><bind variable> := :<name></code><br>
+     *                 <code><condition> := <property> LIKE <wildcard%match></code><br>
+     * <code><bind variable> := :<name></code><br>
      *                 </p> */
     private java.lang.String query;
 
@@ -110,7 +120,8 @@ public class Statement  implements java.io.Serializable {
      * variable></code><br>
      *                 <code><condition> := <property> IN <list></code><br>
      * <code><condition> := <property> IS NULL</code><br>
-     *                 <code><bind variable> := :<name></code><br>
+     *                 <code><condition> := <property> LIKE <wildcard%match></code><br>
+     * <code><bind variable> := :<name></code><br>
      *                 </p>
      */
     public java.lang.String getQuery() {
@@ -136,7 +147,8 @@ public class Statement  implements java.io.Serializable {
      * variable></code><br>
      *                 <code><condition> := <property> IN <list></code><br>
      * <code><condition> := <property> IS NULL</code><br>
-     *                 <code><bind variable> := :<name></code><br>
+     *                 <code><condition> := <property> LIKE <wildcard%match></code><br>
+     * <code><bind variable> := :<name></code><br>
      *                 </p>
      */
     public void setQuery(java.lang.String query) {

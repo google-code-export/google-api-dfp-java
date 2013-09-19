@@ -190,13 +190,6 @@ public class PlacementServiceSoapBindingStub extends org.apache.axis.client.Stub
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "AdUnitSize");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.AdUnitSize.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "ApiError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201306.ApiError.class;
@@ -330,13 +323,6 @@ public class PlacementServiceSoapBindingStub extends org.apache.axis.client.Stub
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "EnvironmentType");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.EnvironmentType.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(enumsf);
-            cachedDeserFactories.add(enumdf);
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "InternalApiError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201306.InternalApiError.class;
@@ -441,6 +427,20 @@ public class PlacementServiceSoapBindingStub extends org.apache.axis.client.Stub
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "PlacementError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201306.PlacementError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "PlacementError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201306.PlacementErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "PlacementPage");
             cachedSerQNames.add(qName);
@@ -564,13 +564,6 @@ public class PlacementServiceSoapBindingStub extends org.apache.axis.client.Stub
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "SiteTargetingInfo");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201306.SiteTargetingInfo.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "Size");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.Size.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);

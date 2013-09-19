@@ -16,7 +16,16 @@ public interface ProductTemplateServiceInterface extends java.rmi.Remote {
      *         <ul>
      *         <li>{@link ProductTemplate#name}</li>
      *         <li>{@link ProductTemplate#nameMacro}</li>
-     *         <li>{@link ProductTemplate#features}</li>
+     *         <li>{@link ProductTemplate#productType}</li>
+     *         <li>{@link ProductTemplate#rateType}</li>
+     *         <li>{@link ProductTemplate#creativePlaceholders}
+     *         (only when {@link ProductTemplate#productType} is {@link ProductType#DFP})</li>
+     * <li>{@link ProductTemplate#lineItemType}
+     *         (only when {@link ProductTemplate#productType} is {@link ProductType#DFP})</li>
+     * <li>{@link ProductTemplate#targeting} (only if {@link ProductTemplate#productType}
+     * is
+     *         {@link ProductType#DFP} and {@link ProductTemplate#productSegmentation}
+     * is not specified)</li>
      *         </ul>
      *         
      *         

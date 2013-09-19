@@ -208,13 +208,6 @@ public class ProductTemplateServiceSoapBindingStub extends org.apache.axis.clien
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "AdUnitSize");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.AdUnitSize.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "AdUnitTargeting");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201306.AdUnitTargeting.class;
@@ -270,20 +263,6 @@ public class ProductTemplateServiceSoapBindingStub extends org.apache.axis.clien
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "AudienceSegmentCriteria");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.AudienceSegmentCriteria.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "AudienceSegmentCriteria.ComparisonOperator");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.AudienceSegmentCriteriaComparisonOperator.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(enumsf);
-            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "Authentication");
             cachedSerQNames.add(qName);
@@ -425,48 +404,6 @@ public class ProductTemplateServiceSoapBindingStub extends org.apache.axis.clien
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "CustomCriteria");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.CustomCriteria.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "CustomCriteria.ComparisonOperator");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.CustomCriteriaComparisonOperator.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(enumsf);
-            cachedDeserFactories.add(enumdf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "CustomCriteriaLeaf");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.CustomCriteriaLeaf.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "CustomCriteriaNode");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.CustomCriteriaNode.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "CustomCriteriaSet");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.CustomCriteriaSet.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "CustomCriteriaSet.LogicalOperator");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.CustomCriteriaSetLogicalOperator.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(enumsf);
-            cachedDeserFactories.add(enumdf);
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "CustomFieldValue");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201306.CustomFieldValue.class;
@@ -564,13 +501,6 @@ public class ProductTemplateServiceSoapBindingStub extends org.apache.axis.clien
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "EnvironmentType");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201306.EnvironmentType.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(enumsf);
-            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "FeatureError");
             cachedSerQNames.add(qName);
@@ -901,21 +831,6 @@ public class ProductTemplateServiceSoapBindingStub extends org.apache.axis.clien
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
-    }
-    private void addBindings1() {
-            java.lang.Class cls;
-            javax.xml.namespace.QName qName;
-            javax.xml.namespace.QName qName2;
-            java.lang.Class beansf = org.apache.axis.encoding.ser.BeanSerializerFactory.class;
-            java.lang.Class beandf = org.apache.axis.encoding.ser.BeanDeserializerFactory.class;
-            java.lang.Class enumsf = org.apache.axis.encoding.ser.EnumSerializerFactory.class;
-            java.lang.Class enumdf = org.apache.axis.encoding.ser.EnumDeserializerFactory.class;
-            java.lang.Class arraysf = org.apache.axis.encoding.ser.ArraySerializerFactory.class;
-            java.lang.Class arraydf = org.apache.axis.encoding.ser.ArrayDeserializerFactory.class;
-            java.lang.Class simplesf = org.apache.axis.encoding.ser.SimpleSerializerFactory.class;
-            java.lang.Class simpledf = org.apache.axis.encoding.ser.SimpleDeserializerFactory.class;
-            java.lang.Class simplelistsf = org.apache.axis.encoding.ser.SimpleListSerializerFactory.class;
-            java.lang.Class simplelistdf = org.apache.axis.encoding.ser.SimpleListDeserializerFactory.class;
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "PublisherQueryLanguageSyntaxError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201306.PublisherQueryLanguageSyntaxError.class;
@@ -986,6 +901,21 @@ public class ProductTemplateServiceSoapBindingStub extends org.apache.axis.clien
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+    }
+    private void addBindings1() {
+            java.lang.Class cls;
+            javax.xml.namespace.QName qName;
+            javax.xml.namespace.QName qName2;
+            java.lang.Class beansf = org.apache.axis.encoding.ser.BeanSerializerFactory.class;
+            java.lang.Class beandf = org.apache.axis.encoding.ser.BeanDeserializerFactory.class;
+            java.lang.Class enumsf = org.apache.axis.encoding.ser.EnumSerializerFactory.class;
+            java.lang.Class enumdf = org.apache.axis.encoding.ser.EnumDeserializerFactory.class;
+            java.lang.Class arraysf = org.apache.axis.encoding.ser.ArraySerializerFactory.class;
+            java.lang.Class arraydf = org.apache.axis.encoding.ser.ArrayDeserializerFactory.class;
+            java.lang.Class simplesf = org.apache.axis.encoding.ser.SimpleSerializerFactory.class;
+            java.lang.Class simpledf = org.apache.axis.encoding.ser.SimpleDeserializerFactory.class;
+            java.lang.Class simplelistsf = org.apache.axis.encoding.ser.SimpleListSerializerFactory.class;
+            java.lang.Class simplelistdf = org.apache.axis.encoding.ser.SimpleListDeserializerFactory.class;
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201306", "RequiredError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201306.RequiredError.class;

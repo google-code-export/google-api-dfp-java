@@ -161,13 +161,6 @@ public class CreativeSetServiceSoapBindingStub extends org.apache.axis.client.St
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201211", "AppliedLabel");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201211.AppliedLabel.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201211", "AssetError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201211.AssetError.class;
@@ -259,13 +252,6 @@ public class CreativeSetServiceSoapBindingStub extends org.apache.axis.client.St
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201211", "CreativePlaceholder");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201211.CreativePlaceholder.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
-
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201211", "CreativeSet");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201211.CreativeSet.class;
@@ -293,13 +279,6 @@ public class CreativeSetServiceSoapBindingStub extends org.apache.axis.client.St
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201211", "CreativeSizeType");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201211.CreativeSizeType.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(enumsf);
-            cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201211", "CustomCreativeError");
             cachedSerQNames.add(qName);
@@ -532,6 +511,20 @@ public class CreativeSetServiceSoapBindingStub extends org.apache.axis.client.St
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201211", "RequiredNumberError");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201211.RequiredNumberError.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(beansf);
+            cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201211", "RequiredNumberError.Reason");
+            cachedSerQNames.add(qName);
+            cls = com.google.api.ads.dfp.v201211.RequiredNumberErrorReason.class;
+            cachedSerClasses.add(cls);
+            cachedSerFactories.add(enumsf);
+            cachedDeserFactories.add(enumdf);
+
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201211", "RequiredSizeError");
             cachedSerQNames.add(qName);
             cls = com.google.api.ads.dfp.v201211.RequiredSizeError.class;
@@ -559,13 +552,6 @@ public class CreativeSetServiceSoapBindingStub extends org.apache.axis.client.St
             cachedSerClasses.add(cls);
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
-
-            qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201211", "Size");
-            cachedSerQNames.add(qName);
-            cls = com.google.api.ads.dfp.v201211.Size.class;
-            cachedSerClasses.add(cls);
-            cachedSerFactories.add(beansf);
-            cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("https://www.google.com/apis/ads/publisher/v201211", "SoapRequestHeader");
             cachedSerQNames.add(qName);
