@@ -18,7 +18,29 @@ package com.google.api.ads.dfp.v201306;
 public class ProductTemplateTargeting  implements java.io.Serializable {
     /* Specifies what geographical locations are targeted by the {@link
      * ProductTemplate}.
-     *                 
+     *                 <p>
+     *                 The following rules apply for geographical targeting:
+     * </p>
+     *                 <ul>
+     *                 <li>You cannot target and exclude the same location</li>
+     * <li>You cannot target a child whose parent has been excluded. So if
+     * the state
+     *                 of Illinois has been excluded, then you cannot target
+     * Chicago</li>
+     *                 <li>You must not target a location if you are also
+     * targeting its parent.
+     *                 So if you are targeting New York City, you must not
+     * have the state of New
+     *                 York as one of the targeted locations.</li>
+     *                 <li>You must not exclude a location if you are also
+     * excluding its parent.
+     *                 So if you are excluding New York City, you must not
+     * have the state of New
+     *                 York as one of the excluded locations.</li>
+     *                 <li>You cannot exclude locations directly if you don't
+     * have their parents as one of
+     *                 the targeted locations.</li>
+     *                 </ul>
      *                 This attribute is optional. */
     private com.google.api.ads.dfp.v201306.GeoTargeting geoTargeting;
 
@@ -162,7 +184,29 @@ public class ProductTemplateTargeting  implements java.io.Serializable {
      * 
      * @return geoTargeting   * Specifies what geographical locations are targeted by the {@link
      * ProductTemplate}.
-     *                 
+     *                 <p>
+     *                 The following rules apply for geographical targeting:
+     * </p>
+     *                 <ul>
+     *                 <li>You cannot target and exclude the same location</li>
+     * <li>You cannot target a child whose parent has been excluded. So if
+     * the state
+     *                 of Illinois has been excluded, then you cannot target
+     * Chicago</li>
+     *                 <li>You must not target a location if you are also
+     * targeting its parent.
+     *                 So if you are targeting New York City, you must not
+     * have the state of New
+     *                 York as one of the targeted locations.</li>
+     *                 <li>You must not exclude a location if you are also
+     * excluding its parent.
+     *                 So if you are excluding New York City, you must not
+     * have the state of New
+     *                 York as one of the excluded locations.</li>
+     *                 <li>You cannot exclude locations directly if you don't
+     * have their parents as one of
+     *                 the targeted locations.</li>
+     *                 </ul>
      *                 This attribute is optional.
      */
     public com.google.api.ads.dfp.v201306.GeoTargeting getGeoTargeting() {
@@ -175,7 +219,29 @@ public class ProductTemplateTargeting  implements java.io.Serializable {
      * 
      * @param geoTargeting   * Specifies what geographical locations are targeted by the {@link
      * ProductTemplate}.
-     *                 
+     *                 <p>
+     *                 The following rules apply for geographical targeting:
+     * </p>
+     *                 <ul>
+     *                 <li>You cannot target and exclude the same location</li>
+     * <li>You cannot target a child whose parent has been excluded. So if
+     * the state
+     *                 of Illinois has been excluded, then you cannot target
+     * Chicago</li>
+     *                 <li>You must not target a location if you are also
+     * targeting its parent.
+     *                 So if you are targeting New York City, you must not
+     * have the state of New
+     *                 York as one of the targeted locations.</li>
+     *                 <li>You must not exclude a location if you are also
+     * excluding its parent.
+     *                 So if you are excluding New York City, you must not
+     * have the state of New
+     *                 York as one of the excluded locations.</li>
+     *                 <li>You cannot exclude locations directly if you don't
+     * have their parents as one of
+     *                 the targeted locations.</li>
+     *                 </ul>
      *                 This attribute is optional.
      */
     public void setGeoTargeting(com.google.api.ads.dfp.v201306.GeoTargeting geoTargeting) {

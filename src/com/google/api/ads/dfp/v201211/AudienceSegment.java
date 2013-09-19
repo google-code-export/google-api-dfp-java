@@ -12,8 +12,8 @@ package com.google.api.ads.dfp.v201211;
  * An {@link AudienceSegment} represents audience segment object.
  */
 public class AudienceSegment  implements java.io.Serializable {
-    /* Id of the {@link AudienceSegment}. This value is readonly and
-     * is populated by Google. */
+    /* Id of the {@link AudienceSegment}. This attribute is readonly
+     * and is populated by Google. */
     private java.lang.Long id;
 
     /* Name of the {@link AudienceSegment}. This attribute is required
@@ -22,17 +22,18 @@ public class AudienceSegment  implements java.io.Serializable {
     private java.lang.String name;
 
     /* Description of the {@link AudienceSegment}. This attribute
-     * is required and has a maximum
+     * is optional and has a maximum
      *                 length of 8192 characters. */
     private java.lang.String description;
 
     /* Status of the {@link AudienceSegment}. This controls whether
      * the given segment is available for
-     *                 targeting or not. */
+     *                 targeting or not. This attribute is optional and defaults
+     * to {@code ACTIVE}. */
     private com.google.api.ads.dfp.v201211.AudienceSegmentStatus status;
 
     /* Number of unique cookies in the {@link AudienceSegment}. This
-     * value is readonly and is
+     * attribute is readonly and is
      *                 populated by Google. */
     private java.lang.Long size;
 
@@ -64,8 +65,8 @@ public class AudienceSegment  implements java.io.Serializable {
     /**
      * Gets the id value for this AudienceSegment.
      * 
-     * @return id   * Id of the {@link AudienceSegment}. This value is readonly and
-     * is populated by Google.
+     * @return id   * Id of the {@link AudienceSegment}. This attribute is readonly
+     * and is populated by Google.
      */
     public java.lang.Long getId() {
         return id;
@@ -75,8 +76,8 @@ public class AudienceSegment  implements java.io.Serializable {
     /**
      * Sets the id value for this AudienceSegment.
      * 
-     * @param id   * Id of the {@link AudienceSegment}. This value is readonly and
-     * is populated by Google.
+     * @param id   * Id of the {@link AudienceSegment}. This attribute is readonly
+     * and is populated by Google.
      */
     public void setId(java.lang.Long id) {
         this.id = id;
@@ -111,7 +112,7 @@ public class AudienceSegment  implements java.io.Serializable {
      * Gets the description value for this AudienceSegment.
      * 
      * @return description   * Description of the {@link AudienceSegment}. This attribute
-     * is required and has a maximum
+     * is optional and has a maximum
      *                 length of 8192 characters.
      */
     public java.lang.String getDescription() {
@@ -123,7 +124,7 @@ public class AudienceSegment  implements java.io.Serializable {
      * Sets the description value for this AudienceSegment.
      * 
      * @param description   * Description of the {@link AudienceSegment}. This attribute
-     * is required and has a maximum
+     * is optional and has a maximum
      *                 length of 8192 characters.
      */
     public void setDescription(java.lang.String description) {
@@ -136,7 +137,8 @@ public class AudienceSegment  implements java.io.Serializable {
      * 
      * @return status   * Status of the {@link AudienceSegment}. This controls whether
      * the given segment is available for
-     *                 targeting or not.
+     *                 targeting or not. This attribute is optional and defaults
+     * to {@code ACTIVE}.
      */
     public com.google.api.ads.dfp.v201211.AudienceSegmentStatus getStatus() {
         return status;
@@ -148,7 +150,8 @@ public class AudienceSegment  implements java.io.Serializable {
      * 
      * @param status   * Status of the {@link AudienceSegment}. This controls whether
      * the given segment is available for
-     *                 targeting or not.
+     *                 targeting or not. This attribute is optional and defaults
+     * to {@code ACTIVE}.
      */
     public void setStatus(com.google.api.ads.dfp.v201211.AudienceSegmentStatus status) {
         this.status = status;
@@ -159,7 +162,7 @@ public class AudienceSegment  implements java.io.Serializable {
      * Gets the size value for this AudienceSegment.
      * 
      * @return size   * Number of unique cookies in the {@link AudienceSegment}. This
-     * value is readonly and is
+     * attribute is readonly and is
      *                 populated by Google.
      */
     public java.lang.Long getSize() {
@@ -171,7 +174,7 @@ public class AudienceSegment  implements java.io.Serializable {
      * Sets the size value for this AudienceSegment.
      * 
      * @param size   * Number of unique cookies in the {@link AudienceSegment}. This
-     * value is readonly and is
+     * attribute is readonly and is
      *                 populated by Google.
      */
     public void setSize(java.lang.Long size) {

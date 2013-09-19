@@ -19,8 +19,8 @@ public class Targeting  implements java.io.Serializable {
     private com.google.api.ads.dfp.v201302.GeoTargeting geoTargeting;
 
     /* Specifies what inventory is targeted by the {@link LineItem}.
-     * This
-     *                 attribute is required. */
+     * This attribute is required. The
+     *                 line item must target at least one ad unit or placement. */
     private com.google.api.ads.dfp.v201302.InventoryTargeting inventoryTargeting;
 
     /* Specifies the days of the week and times that are targeted
@@ -141,8 +141,8 @@ public class Targeting  implements java.io.Serializable {
      * Gets the inventoryTargeting value for this Targeting.
      * 
      * @return inventoryTargeting   * Specifies what inventory is targeted by the {@link LineItem}.
-     * This
-     *                 attribute is required.
+     * This attribute is required. The
+     *                 line item must target at least one ad unit or placement.
      */
     public com.google.api.ads.dfp.v201302.InventoryTargeting getInventoryTargeting() {
         return inventoryTargeting;
@@ -153,8 +153,8 @@ public class Targeting  implements java.io.Serializable {
      * Sets the inventoryTargeting value for this Targeting.
      * 
      * @param inventoryTargeting   * Specifies what inventory is targeted by the {@link LineItem}.
-     * This
-     *                 attribute is required.
+     * This attribute is required. The
+     *                 line item must target at least one ad unit or placement.
      */
     public void setInventoryTargeting(com.google.api.ads.dfp.v201302.InventoryTargeting inventoryTargeting) {
         this.inventoryTargeting = inventoryTargeting;

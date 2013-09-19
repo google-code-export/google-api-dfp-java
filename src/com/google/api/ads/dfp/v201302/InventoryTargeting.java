@@ -9,20 +9,16 @@ package com.google.api.ads.dfp.v201302;
 
 
 /**
- * Contains criteria for targeting Inventory.
+ * A collection of targeted and excluded ad units and placements.
  */
 public class InventoryTargeting  implements java.io.Serializable {
-    /* The ad units being targeted by the {@link LineItem}. The line
-     * item must
-     *                 target at least one ad unit or placement. */
+    /* A list of targeted {@link AdUnitTargeting}. */
     private com.google.api.ads.dfp.v201302.AdUnitTargeting[] targetedAdUnits;
 
-    /* The ad units being excluded by the {@link LineItem}. */
+    /* A list of excluded {@link AdUnitTargeting}. */
     private com.google.api.ads.dfp.v201302.AdUnitTargeting[] excludedAdUnits;
 
-    /* The ids of placements being targeted by the {@link LineItem}.
-     * The line item
-     *                 must target at least one ad unit or placement. */
+    /* A list of targeted {@link Placement} ids. */
     private long[] targetedPlacementIds;
 
     public InventoryTargeting() {
@@ -41,9 +37,7 @@ public class InventoryTargeting  implements java.io.Serializable {
     /**
      * Gets the targetedAdUnits value for this InventoryTargeting.
      * 
-     * @return targetedAdUnits   * The ad units being targeted by the {@link LineItem}. The line
-     * item must
-     *                 target at least one ad unit or placement.
+     * @return targetedAdUnits   * A list of targeted {@link AdUnitTargeting}.
      */
     public com.google.api.ads.dfp.v201302.AdUnitTargeting[] getTargetedAdUnits() {
         return targetedAdUnits;
@@ -53,9 +47,7 @@ public class InventoryTargeting  implements java.io.Serializable {
     /**
      * Sets the targetedAdUnits value for this InventoryTargeting.
      * 
-     * @param targetedAdUnits   * The ad units being targeted by the {@link LineItem}. The line
-     * item must
-     *                 target at least one ad unit or placement.
+     * @param targetedAdUnits   * A list of targeted {@link AdUnitTargeting}.
      */
     public void setTargetedAdUnits(com.google.api.ads.dfp.v201302.AdUnitTargeting[] targetedAdUnits) {
         this.targetedAdUnits = targetedAdUnits;
@@ -73,7 +65,7 @@ public class InventoryTargeting  implements java.io.Serializable {
     /**
      * Gets the excludedAdUnits value for this InventoryTargeting.
      * 
-     * @return excludedAdUnits   * The ad units being excluded by the {@link LineItem}.
+     * @return excludedAdUnits   * A list of excluded {@link AdUnitTargeting}.
      */
     public com.google.api.ads.dfp.v201302.AdUnitTargeting[] getExcludedAdUnits() {
         return excludedAdUnits;
@@ -83,7 +75,7 @@ public class InventoryTargeting  implements java.io.Serializable {
     /**
      * Sets the excludedAdUnits value for this InventoryTargeting.
      * 
-     * @param excludedAdUnits   * The ad units being excluded by the {@link LineItem}.
+     * @param excludedAdUnits   * A list of excluded {@link AdUnitTargeting}.
      */
     public void setExcludedAdUnits(com.google.api.ads.dfp.v201302.AdUnitTargeting[] excludedAdUnits) {
         this.excludedAdUnits = excludedAdUnits;
@@ -101,9 +93,7 @@ public class InventoryTargeting  implements java.io.Serializable {
     /**
      * Gets the targetedPlacementIds value for this InventoryTargeting.
      * 
-     * @return targetedPlacementIds   * The ids of placements being targeted by the {@link LineItem}.
-     * The line item
-     *                 must target at least one ad unit or placement.
+     * @return targetedPlacementIds   * A list of targeted {@link Placement} ids.
      */
     public long[] getTargetedPlacementIds() {
         return targetedPlacementIds;
@@ -113,9 +103,7 @@ public class InventoryTargeting  implements java.io.Serializable {
     /**
      * Sets the targetedPlacementIds value for this InventoryTargeting.
      * 
-     * @param targetedPlacementIds   * The ids of placements being targeted by the {@link LineItem}.
-     * The line item
-     *                 must target at least one ad unit or placement.
+     * @param targetedPlacementIds   * A list of targeted {@link Placement} ids.
      */
     public void setTargetedPlacementIds(long[] targetedPlacementIds) {
         this.targetedPlacementIds = targetedPlacementIds;

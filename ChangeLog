@@ -1,3 +1,7 @@
+2.18.0:
+- Added support for v201308.
+- Removed deprecated versions v201203, v201204, and v201206.
+
 2.17.0:
 - Added support for v201306.
 

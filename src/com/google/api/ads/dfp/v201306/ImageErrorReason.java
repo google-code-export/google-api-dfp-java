@@ -41,6 +41,7 @@ public class ImageErrorReason implements java.io.Serializable {
     public static final java.lang.String _SYSTEM_ERROR = "SYSTEM_ERROR";
     public static final java.lang.String _UNEXPECTED_PRIMARY_ASSET_DENSITY = "UNEXPECTED_PRIMARY_ASSET_DENSITY";
     public static final java.lang.String _DUPLICATE_ASSET_DENSITY = "DUPLICATE_ASSET_DENSITY";
+    public static final java.lang.String _MISSING_DEFAULT_ASSET = "MISSING_DEFAULT_ASSET";
     public static final java.lang.String _UNKNOWN = "UNKNOWN";
     public static final ImageErrorReason INVALID_IMAGE = new ImageErrorReason(_INVALID_IMAGE);
     public static final ImageErrorReason INVALID_SIZE = new ImageErrorReason(_INVALID_SIZE);
@@ -66,6 +67,7 @@ public class ImageErrorReason implements java.io.Serializable {
     public static final ImageErrorReason SYSTEM_ERROR = new ImageErrorReason(_SYSTEM_ERROR);
     public static final ImageErrorReason UNEXPECTED_PRIMARY_ASSET_DENSITY = new ImageErrorReason(_UNEXPECTED_PRIMARY_ASSET_DENSITY);
     public static final ImageErrorReason DUPLICATE_ASSET_DENSITY = new ImageErrorReason(_DUPLICATE_ASSET_DENSITY);
+    public static final ImageErrorReason MISSING_DEFAULT_ASSET = new ImageErrorReason(_MISSING_DEFAULT_ASSET);
     public static final ImageErrorReason UNKNOWN = new ImageErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
     public static ImageErrorReason fromValue(java.lang.String value)

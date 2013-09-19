@@ -43,10 +43,10 @@ public class ProductTemplateErrorReason implements java.io.Serializable {
     public static final java.lang.String _INVALID_FEATURE_DEFAULT_TARGET_TYPE = "INVALID_FEATURE_DEFAULT_TARGET_TYPE";
     public static final java.lang.String _INVALID_FEATURE_VALUE_TARGET_TYPE = "INVALID_FEATURE_VALUE_TARGET_TYPE";
     public static final java.lang.String _INVALID_FEATURE_AND_VALUE_LOCK_EXCLUSIVE = "INVALID_FEATURE_AND_VALUE_LOCK_EXCLUSIVE";
-    public static final java.lang.String _INVALID_CUSTOM_TARGETING_KEY_ID = "INVALID_CUSTOM_TARGETING_KEY_ID";
-    public static final java.lang.String _INVALID_CUSTOM_TARGETING_VALUE_ID = "INVALID_CUSTOM_TARGETING_VALUE_ID";
     public static final java.lang.String _DUPLICATED_FEATURE = "DUPLICATED_FEATURE";
     public static final java.lang.String _DUPLICATED_CUSTOM_TARGETING_KEY = "DUPLICATED_CUSTOM_TARGETING_KEY";
+    public static final java.lang.String _INVALID_CUSTOM_TARGETING_KEY_ID = "INVALID_CUSTOM_TARGETING_KEY_ID";
+    public static final java.lang.String _INVALID_CUSTOM_TARGETING_VALUE_ID = "INVALID_CUSTOM_TARGETING_VALUE_ID";
     public static final java.lang.String _DUPLICATED_FEATURE_VALUE = "DUPLICATED_FEATURE_VALUE";
     public static final java.lang.String _MISSING_EXPANDED_FEATURE_PLACEHOLDER_IN_NAMEMACRO = "MISSING_EXPANDED_FEATURE_PLACEHOLDER_IN_NAMEMACRO";
     public static final java.lang.String _MISSING_FEATURE_VALUE_OF_NAMEMACRO_PLACEHOLDER = "MISSING_FEATURE_VALUE_OF_NAMEMACRO_PLACEHOLDER";
@@ -89,10 +89,10 @@ public class ProductTemplateErrorReason implements java.io.Serializable {
     public static final ProductTemplateErrorReason INVALID_FEATURE_DEFAULT_TARGET_TYPE = new ProductTemplateErrorReason(_INVALID_FEATURE_DEFAULT_TARGET_TYPE);
     public static final ProductTemplateErrorReason INVALID_FEATURE_VALUE_TARGET_TYPE = new ProductTemplateErrorReason(_INVALID_FEATURE_VALUE_TARGET_TYPE);
     public static final ProductTemplateErrorReason INVALID_FEATURE_AND_VALUE_LOCK_EXCLUSIVE = new ProductTemplateErrorReason(_INVALID_FEATURE_AND_VALUE_LOCK_EXCLUSIVE);
-    public static final ProductTemplateErrorReason INVALID_CUSTOM_TARGETING_KEY_ID = new ProductTemplateErrorReason(_INVALID_CUSTOM_TARGETING_KEY_ID);
-    public static final ProductTemplateErrorReason INVALID_CUSTOM_TARGETING_VALUE_ID = new ProductTemplateErrorReason(_INVALID_CUSTOM_TARGETING_VALUE_ID);
     public static final ProductTemplateErrorReason DUPLICATED_FEATURE = new ProductTemplateErrorReason(_DUPLICATED_FEATURE);
     public static final ProductTemplateErrorReason DUPLICATED_CUSTOM_TARGETING_KEY = new ProductTemplateErrorReason(_DUPLICATED_CUSTOM_TARGETING_KEY);
+    public static final ProductTemplateErrorReason INVALID_CUSTOM_TARGETING_KEY_ID = new ProductTemplateErrorReason(_INVALID_CUSTOM_TARGETING_KEY_ID);
+    public static final ProductTemplateErrorReason INVALID_CUSTOM_TARGETING_VALUE_ID = new ProductTemplateErrorReason(_INVALID_CUSTOM_TARGETING_VALUE_ID);
     public static final ProductTemplateErrorReason DUPLICATED_FEATURE_VALUE = new ProductTemplateErrorReason(_DUPLICATED_FEATURE_VALUE);
     public static final ProductTemplateErrorReason MISSING_EXPANDED_FEATURE_PLACEHOLDER_IN_NAMEMACRO = new ProductTemplateErrorReason(_MISSING_EXPANDED_FEATURE_PLACEHOLDER_IN_NAMEMACRO);
     public static final ProductTemplateErrorReason MISSING_FEATURE_VALUE_OF_NAMEMACRO_PLACEHOLDER = new ProductTemplateErrorReason(_MISSING_FEATURE_VALUE_OF_NAMEMACRO_PLACEHOLDER);
