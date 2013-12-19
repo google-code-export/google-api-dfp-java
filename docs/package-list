@@ -5,8 +5,10 @@ com.google.api.ads.dfp.lib.utils.v201211
 com.google.api.ads.dfp.lib.utils.v201302
 com.google.api.ads.dfp.lib.utils.v201306
 com.google.api.ads.dfp.lib.utils.v201308
+com.google.api.ads.dfp.lib.utils.v201311
 com.google.api.ads.dfp.v201208
 com.google.api.ads.dfp.v201211
 com.google.api.ads.dfp.v201302
 com.google.api.ads.dfp.v201306
 com.google.api.ads.dfp.v201308
+com.google.api.ads.dfp.v201311
