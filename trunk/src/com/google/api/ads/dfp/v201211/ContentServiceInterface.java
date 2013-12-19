@@ -32,6 +32,11 @@ public interface ContentServiceInterface extends java.rmi.Remote {
      *         <td>{@code name}</td>
      *         <td>{@link Content#name}</td>
      *         </tr>
+     *         <tr>
+     *         <td>{@code lastModifiedDateTime}</td>
+     *         <td>{@link Content#lastModifiedDateTime}: Requires indexed
+     * content search to be enabled.</td>
+     *         </tr>
      *         </table>
      *         
      *         
@@ -66,6 +71,11 @@ public interface ContentServiceInterface extends java.rmi.Remote {
      *         <tr>
      *         <td>{@code name}</td>
      *         <td>{@link Content#name}</td>
+     *         </tr>
+     *         <tr>
+     *         <td>{@code lastModifiedDateTime}</td>
+     *         <td>{@link Content#lastModifiedDateTime>}: Requires indexed
+     * content search to be enabled.</td>
      *         </tr>
      *         </table>
      *         

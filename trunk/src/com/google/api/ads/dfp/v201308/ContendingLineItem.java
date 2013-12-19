@@ -16,7 +16,8 @@ public class ContendingLineItem  implements java.io.Serializable {
     private java.lang.Long lineItemId;
 
     /* Number of impressions contended for by both the forecasted
-     * line item and this line item. */
+     * line item and this line item,
+     *                 but served to this line item in the forecast simulation. */
     private java.lang.Long contendingImpressions;
 
     public ContendingLineItem() {
@@ -54,7 +55,8 @@ public class ContendingLineItem  implements java.io.Serializable {
      * Gets the contendingImpressions value for this ContendingLineItem.
      * 
      * @return contendingImpressions   * Number of impressions contended for by both the forecasted
-     * line item and this line item.
+     * line item and this line item,
+     *                 but served to this line item in the forecast simulation.
      */
     public java.lang.Long getContendingImpressions() {
         return contendingImpressions;
@@ -65,7 +67,8 @@ public class ContendingLineItem  implements java.io.Serializable {
      * Sets the contendingImpressions value for this ContendingLineItem.
      * 
      * @param contendingImpressions   * Number of impressions contended for by both the forecasted
-     * line item and this line item.
+     * line item and this line item,
+     *                 but served to this line item in the forecast simulation.
      */
     public void setContendingImpressions(java.lang.Long contendingImpressions) {
         this.contendingImpressions = contendingImpressions;

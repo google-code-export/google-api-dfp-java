@@ -88,6 +88,10 @@ public interface ProposalLineItemServiceInterface extends java.rmi.Remote {
      *         <td>{@code isArchived}</td>
      *         <td>{@link ProposalLineItem#isArchived}</td>
      *         </tr>
+     *         <tr>
+     *         <td>{@code lastModifiedDateTime}</td>
+     *         <td>{@link ProposalLineItem#lastModifiedDateTime}</td>
+     *         </tr>
      *         </table>
      *         
      *         

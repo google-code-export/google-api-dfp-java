@@ -108,7 +108,7 @@ public class ReportQuery  implements java.io.Serializable {
      * #dimensionFilters}.
      *                 
      *                 The syntax currently allowed for {@link Statement#query}
-     * is
+     * is<br>
      *                 <code> [WHERE <condition> {AND <condition> ...}]<code><br>
      * <p><condition></code><br>
      *                 &nbsp;&nbsp;&nbsp;&nbsp; <code>:= <property> = <value></code><br>
@@ -506,7 +506,7 @@ public class ReportQuery  implements java.io.Serializable {
      * #dimensionFilters}.
      *                 
      *                 The syntax currently allowed for {@link Statement#query}
-     * is
+     * is<br>
      *                 <code> [WHERE <condition> {AND <condition> ...}]<code><br>
      * <p><condition></code><br>
      *                 &nbsp;&nbsp;&nbsp;&nbsp; <code>:= <property> = <value></code><br>
@@ -547,7 +547,7 @@ public class ReportQuery  implements java.io.Serializable {
      * #dimensionFilters}.
      *                 
      *                 The syntax currently allowed for {@link Statement#query}
-     * is
+     * is<br>
      *                 <code> [WHERE <condition> {AND <condition> ...}]<code><br>
      * <p><condition></code><br>
      *                 &nbsp;&nbsp;&nbsp;&nbsp; <code>:= <property> = <value></code><br>

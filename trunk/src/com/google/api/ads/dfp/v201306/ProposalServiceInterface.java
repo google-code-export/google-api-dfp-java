@@ -81,6 +81,10 @@ public interface ProposalServiceInterface extends java.rmi.Remote {
      *         <td>{@code approvalStatus}</td>
      *         <td>{@link Proposal#approvalStatus}</td>
      *         </tr>
+     *         <tr>
+     *         <td>{@code lastModifiedDateTime}</td>
+     *         <td>{@link Proposal#lastModifiedDateTime}</td>
+     *         </tr>
      *         </table>
      *         
      *         

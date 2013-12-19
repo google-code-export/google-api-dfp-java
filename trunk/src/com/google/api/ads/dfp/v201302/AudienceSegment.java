@@ -28,8 +28,9 @@ public class AudienceSegment  implements java.io.Serializable {
 
     /* Status of the {@link AudienceSegment}. This controls whether
      * the given segment is available for
-     *                 targeting or not. This attribute is optional and defaults
-     * to {@code ACTIVE}. */
+     *                 targeting or not. During creation this attribute is
+     * optional and defaults to {@code ACTIVE}.
+     *                 This attribute is readonly for updates. */
     private com.google.api.ads.dfp.v201302.AudienceSegmentStatus status;
 
     /* Number of unique cookies in the {@link AudienceSegment}. This
@@ -137,8 +138,9 @@ public class AudienceSegment  implements java.io.Serializable {
      * 
      * @return status   * Status of the {@link AudienceSegment}. This controls whether
      * the given segment is available for
-     *                 targeting or not. This attribute is optional and defaults
-     * to {@code ACTIVE}.
+     *                 targeting or not. During creation this attribute is
+     * optional and defaults to {@code ACTIVE}.
+     *                 This attribute is readonly for updates.
      */
     public com.google.api.ads.dfp.v201302.AudienceSegmentStatus getStatus() {
         return status;
@@ -150,8 +152,9 @@ public class AudienceSegment  implements java.io.Serializable {
      * 
      * @param status   * Status of the {@link AudienceSegment}. This controls whether
      * the given segment is available for
-     *                 targeting or not. This attribute is optional and defaults
-     * to {@code ACTIVE}.
+     *                 targeting or not. During creation this attribute is
+     * optional and defaults to {@code ACTIVE}.
+     *                 This attribute is readonly for updates.
      */
     public void setStatus(com.google.api.ads.dfp.v201302.AudienceSegmentStatus status) {
         this.status = status;

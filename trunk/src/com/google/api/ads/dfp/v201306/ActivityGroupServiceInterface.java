@@ -50,6 +50,9 @@ public interface ActivityGroupServiceInterface extends java.rmi.Remote {
      *         
      *         <table>
      *         <tr>
+     *         <th scope="col">PQL Property</th> <th scope="col">Object Property</th>
+     * </tr>
+     *         <tr>
      *         <td>{@code id}</td>
      *         <td>{@link ActivityGroup#id}</td>
      *         </tr>

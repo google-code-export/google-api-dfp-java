@@ -232,24 +232,21 @@ public class Proposal  implements java.io.Serializable {
      *                 The {@link Money#currencyCode} is readonly. */
     private com.google.api.ads.dfp.v201306.Money additionalAdjustment;
 
-    /* The exchange rate from the {@link RateCard#currencyCode currency
-     * within proposal's rate card}
-     *                 to the {@link Network#currencyCode network's currency}.
-     * The value is stored as the exchange
-     *                 rate times 10,000,000,000 truncated to a long. This
-     * attribute is readonly and is assigned by
-     *                 Google when first created or updated with {@link #refreshExchangeRate}
-     * set to {@code true}.
-     *                 This attribute is ignored if the feature is not enabled
-     * on network. */
+    /* The exchange rate from the {@link #currencyCode} to the
+     *                 {@link Network#currencyCode network's currency}. The
+     * value is stored as the exchange rate times
+     *                 10,000,000,000 truncated to a long. This attribute
+     * is readonly and is assigned by Google when
+     *                 first created or updated with {@link #refreshExchangeRate}
+     * set to {@code true}. This attribute
+     *                 is ignored if the feature is not enabled. */
     private java.lang.Long exchangeRate;
 
     /* Set this field to {@code true} to update the {@link #exchangeRate}
      * to the latest exchange rate
      *                 when updating the proposal. This attribute is optional
      * and defaults to {@code false}. This
-     *                 attribute is ignored if the feature is not enabled
-     * on network. */
+     *                 attribute is ignored if the feature is not enabled. */
     private java.lang.Boolean refreshExchangeRate;
 
     /* The commission for the primary agency of the {@code Proposal}.
@@ -1233,16 +1230,14 @@ public class Proposal  implements java.io.Serializable {
     /**
      * Gets the exchangeRate value for this Proposal.
      * 
-     * @return exchangeRate   * The exchange rate from the {@link RateCard#currencyCode currency
-     * within proposal's rate card}
-     *                 to the {@link Network#currencyCode network's currency}.
-     * The value is stored as the exchange
-     *                 rate times 10,000,000,000 truncated to a long. This
-     * attribute is readonly and is assigned by
-     *                 Google when first created or updated with {@link #refreshExchangeRate}
-     * set to {@code true}.
-     *                 This attribute is ignored if the feature is not enabled
-     * on network.
+     * @return exchangeRate   * The exchange rate from the {@link #currencyCode} to the
+     *                 {@link Network#currencyCode network's currency}. The
+     * value is stored as the exchange rate times
+     *                 10,000,000,000 truncated to a long. This attribute
+     * is readonly and is assigned by Google when
+     *                 first created or updated with {@link #refreshExchangeRate}
+     * set to {@code true}. This attribute
+     *                 is ignored if the feature is not enabled.
      */
     public java.lang.Long getExchangeRate() {
         return exchangeRate;
@@ -1252,16 +1247,14 @@ public class Proposal  implements java.io.Serializable {
     /**
      * Sets the exchangeRate value for this Proposal.
      * 
-     * @param exchangeRate   * The exchange rate from the {@link RateCard#currencyCode currency
-     * within proposal's rate card}
-     *                 to the {@link Network#currencyCode network's currency}.
-     * The value is stored as the exchange
-     *                 rate times 10,000,000,000 truncated to a long. This
-     * attribute is readonly and is assigned by
-     *                 Google when first created or updated with {@link #refreshExchangeRate}
-     * set to {@code true}.
-     *                 This attribute is ignored if the feature is not enabled
-     * on network.
+     * @param exchangeRate   * The exchange rate from the {@link #currencyCode} to the
+     *                 {@link Network#currencyCode network's currency}. The
+     * value is stored as the exchange rate times
+     *                 10,000,000,000 truncated to a long. This attribute
+     * is readonly and is assigned by Google when
+     *                 first created or updated with {@link #refreshExchangeRate}
+     * set to {@code true}. This attribute
+     *                 is ignored if the feature is not enabled.
      */
     public void setExchangeRate(java.lang.Long exchangeRate) {
         this.exchangeRate = exchangeRate;
@@ -1275,8 +1268,7 @@ public class Proposal  implements java.io.Serializable {
      * to the latest exchange rate
      *                 when updating the proposal. This attribute is optional
      * and defaults to {@code false}. This
-     *                 attribute is ignored if the feature is not enabled
-     * on network.
+     *                 attribute is ignored if the feature is not enabled.
      */
     public java.lang.Boolean getRefreshExchangeRate() {
         return refreshExchangeRate;
@@ -1290,8 +1282,7 @@ public class Proposal  implements java.io.Serializable {
      * to the latest exchange rate
      *                 when updating the proposal. This attribute is optional
      * and defaults to {@code false}. This
-     *                 attribute is ignored if the feature is not enabled
-     * on network.
+     *                 attribute is ignored if the feature is not enabled.
      */
     public void setRefreshExchangeRate(java.lang.Boolean refreshExchangeRate) {
         this.refreshExchangeRate = refreshExchangeRate;

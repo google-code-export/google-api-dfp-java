@@ -12,8 +12,8 @@ package com.google.api.ads.dfp.v201306;
  * A {@code ReconciliationReportRow} represents each row in the reconciliation
  * report.
  *             Each row is identified by its {@link #reconciliationReportId},
- * {@link #lineItemId}
- *             and {@link #creativeId}.
+ * {@link #lineItemId},
+ *             {@link #creativeId}, and {@link #proposalLineItemId}.
  */
 public class ReconciliationReportRow  implements java.io.Serializable {
     /* The ID of the {@link ReconciliationReport}.
