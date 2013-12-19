@@ -20,7 +20,7 @@
   <property name="version" value="${lib_version}" />
   <property name="jar.name" value="${ant.project.name}-${version}" />
 
-  <property name="api.versions" value="v201208,v201211,v201302,v201306,v201308"/>
+  <property name="api.versions" value="v201208,v201211,v201302,v201306,v201308,v201311"/>
 
   <property name="api.package.prefix" value="com.google.api.ads.dfp"/>
   <property name="api.namespace.prefix" value="https://www.google.com/apis/ads/publisher" />
@@ -46,6 +46,10 @@
   <property name="api.version.v201308" value="v201308" />
   <property name="api.version.v201308.services"
       value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService,ContentService,SuggestedAdUnitService,CreativeTemplateService,TeamService,AudienceSegmentService,CustomFieldService,UserTeamAssociationService,CreativeSetService,CreativeWrapperService,ActivityService,ActivityGroupService,AdRuleService,ContentBundleService,ContactService,BaseRateService,ProductService,ProductTemplateService,ProposalService,ProposalLineItemService,RateCardService,RateCardCustomizationService,ReconciliationOrderReportService,ReconciliationReportService,ReconciliationReportRowService,WorkflowActionService,LineItemTemplateService" />
+	
+	<property name="api.version.v201311" value="v201311" />
+	<property name="api.version.v201311.services"
+	    value="InventoryService,CompanyService,OrderService,LineItemService,LineItemCreativeAssociationService,CreativeService,UserService,PlacementService,ReportService,ForecastService,NetworkService,PublisherQueryLanguageService,CustomTargetingService,LabelService,ContentService,SuggestedAdUnitService,CreativeTemplateService,TeamService,AudienceSegmentService,CustomFieldService,UserTeamAssociationService,CreativeSetService,CreativeWrapperService,ActivityService,ActivityGroupService,AdRuleService,ContentBundleService,ContactService,BaseRateService,ProductService,ProductTemplateService,ProposalService,ProposalLineItemService,RateCardService,RateCardCustomizationService,ReconciliationOrderReportService,ReconciliationReportService,ReconciliationReportRowService,LineItemTemplateService,ContentMetadataKeyHierarchyService,ExchangeRateService,WorkflowRequestService" />
 
   <!-- Classpath -->
   <path id="project.class.path">
