@@ -223,13 +223,19 @@ public class LineItemSummary  implements java.io.Serializable {
     private com.google.api.ads.dfp.v201306.LineItemSummaryDuration duration;
 
     /* The total number of impressions or clicks that will be reserved
-     * for the
-     *                 {@code LineItem}. If the line item is of type
-     *                 {@link LineItemType#SPONSORSHIP}, then it represents
-     * the percentage of
-     *                 available impressions reserved. This attribute is
-     * required and must be
-     *                 greater than 0. */
+     * for the {@code LineItem}. If
+     *                 the line item is of type {@link LineItemType#SPONSORSHIP},
+     * then it represents the percentage of
+     *                 available impressions reserved. If the line item is
+     * of type {@link LineItemType#BULK} or
+     *                 {@link LineItemType#PRICE_PRIORITY}, then it represents
+     * the number of remaining impressions
+     *                 reserved. If the line item is of type {@link LineItemType#NETWORK}
+     * or
+     *                 {@link LineItemType#HOUSE}, then it represents the
+     * percentage of remaining impressions
+     *                 reserved. This attribute is required and must be greater
+     * than 0. */
     private java.lang.Long unitsBought;
 
     /* The amount of money to spend per impression or click. This
@@ -1275,13 +1281,19 @@ public class LineItemSummary  implements java.io.Serializable {
      * Gets the unitsBought value for this LineItemSummary.
      * 
      * @return unitsBought   * The total number of impressions or clicks that will be reserved
-     * for the
-     *                 {@code LineItem}. If the line item is of type
-     *                 {@link LineItemType#SPONSORSHIP}, then it represents
-     * the percentage of
-     *                 available impressions reserved. This attribute is
-     * required and must be
-     *                 greater than 0.
+     * for the {@code LineItem}. If
+     *                 the line item is of type {@link LineItemType#SPONSORSHIP},
+     * then it represents the percentage of
+     *                 available impressions reserved. If the line item is
+     * of type {@link LineItemType#BULK} or
+     *                 {@link LineItemType#PRICE_PRIORITY}, then it represents
+     * the number of remaining impressions
+     *                 reserved. If the line item is of type {@link LineItemType#NETWORK}
+     * or
+     *                 {@link LineItemType#HOUSE}, then it represents the
+     * percentage of remaining impressions
+     *                 reserved. This attribute is required and must be greater
+     * than 0.
      */
     public java.lang.Long getUnitsBought() {
         return unitsBought;
@@ -1292,13 +1304,19 @@ public class LineItemSummary  implements java.io.Serializable {
      * Sets the unitsBought value for this LineItemSummary.
      * 
      * @param unitsBought   * The total number of impressions or clicks that will be reserved
-     * for the
-     *                 {@code LineItem}. If the line item is of type
-     *                 {@link LineItemType#SPONSORSHIP}, then it represents
-     * the percentage of
-     *                 available impressions reserved. This attribute is
-     * required and must be
-     *                 greater than 0.
+     * for the {@code LineItem}. If
+     *                 the line item is of type {@link LineItemType#SPONSORSHIP},
+     * then it represents the percentage of
+     *                 available impressions reserved. If the line item is
+     * of type {@link LineItemType#BULK} or
+     *                 {@link LineItemType#PRICE_PRIORITY}, then it represents
+     * the number of remaining impressions
+     *                 reserved. If the line item is of type {@link LineItemType#NETWORK}
+     * or
+     *                 {@link LineItemType#HOUSE}, then it represents the
+     * percentage of remaining impressions
+     *                 reserved. This attribute is required and must be greater
+     * than 0.
      */
     public void setUnitsBought(java.lang.Long unitsBought) {
         this.unitsBought = unitsBought;

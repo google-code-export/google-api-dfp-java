@@ -37,6 +37,9 @@ public interface ActivityServiceInterface extends java.rmi.Remote {
      *         
      *         <table>
      *         <tr>
+     *         <th scope="col">PQL Property</th> <th scope="col">Object Property</th>
+     * </tr>
+     *         <tr>
      *         <td>{@code id}</td>
      *         <td>{@link Activity#id}</td>
      *         </tr>
@@ -57,9 +60,6 @@ public interface ActivityServiceInterface extends java.rmi.Remote {
      *         <td>{@link Activity#activityGroupId}</td>
      *         </tr>
      *         </table>
-     *         
-     *         <p><strong>Note:</strong> {@code activityGroupId} is required
-     * in the statement.
      *         
      *         
      * @param filterStatement a statement used to filter a set of activities.

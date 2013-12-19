@@ -40,6 +40,10 @@ public interface SuggestedAdUnitServiceInterface extends java.rmi.Remote {
      *         </tr>
      *         </table>
      *         
+     *         <p><strong>Note:</strong> After API version 201311, the {@code
+     * id} field will only be
+     *         numerical.
+     *         
      *         
      * @param filterStatement a Publisher Query Language statement used to
      * filter

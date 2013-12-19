@@ -64,6 +64,10 @@ public interface RateCardServiceInterface extends java.rmi.Remote {
      *         <td>{@code status}</td>
      *         <td>{@link RateCard#status}</td>
      *         </tr>
+     *         <tr>
+     *         <td>{@code lastModifiedDateTime}</td>
+     *         <td>{@link RateCard#lastModifiedDateTime}</td>
+     *         </tr>
      *         </table>
      *         
      *         

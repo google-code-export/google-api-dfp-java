@@ -10,7 +10,7 @@ package com.google.api.ads.dfp.v201308;
 
 /**
  * A catch-all error that lists all generic errors associated with
- * {@link Product}.
+ * Product.
  */
 public class ProductError  extends com.google.api.ads.dfp.v201308.ApiError  implements java.io.Serializable {
     private com.google.api.ads.dfp.v201308.ProductErrorReason reason;

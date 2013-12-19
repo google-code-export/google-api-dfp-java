@@ -47,8 +47,8 @@ public class AdUnit  implements java.io.Serializable {
      * maximum length
      *                 is 255 characters. This attribute must also be case-insensitive
      * unique.
-     *                 Once an ad unit is created, its {@code name} cannot
-     * be changed. */
+     *                 Beginning in V201311, this attribute can be updated.
+     * In versions before v201311, this attribute is read-only after creation. */
     private java.lang.String name;
 
     /* A description of the ad unit. This value is optional and its
@@ -71,11 +71,13 @@ public class AdUnit  implements java.io.Serializable {
 
     /* A string used to uniquely identify the ad unit for the purposes
      * of serving
-     *                 the ad. This attribute is read-only and is assigned
-     * by Google when an ad
-     *                 unit is created. Once an ad unit is created, its {@code
-     * adUnitCode} cannot
-     *                 be changed. */
+     *                 the ad.
+     *                 Beginning in V201311, this attribute is optional and
+     * can be set during ad unit creation.
+     *                 Before V201311, this attribute is read-only and assigned
+     * by Google.
+     *                 Once an ad unit is created, its {@code adUnitCode}
+     * cannot be changed. */
     private java.lang.String adUnitCode;
 
     /* The permissible creative sizes that can be served inside this
@@ -331,8 +333,8 @@ public class AdUnit  implements java.io.Serializable {
      * maximum length
      *                 is 255 characters. This attribute must also be case-insensitive
      * unique.
-     *                 Once an ad unit is created, its {@code name} cannot
-     * be changed.
+     *                 Beginning in V201311, this attribute can be updated.
+     * In versions before v201311, this attribute is read-only after creation.
      */
     public java.lang.String getName() {
         return name;
@@ -346,8 +348,8 @@ public class AdUnit  implements java.io.Serializable {
      * maximum length
      *                 is 255 characters. This attribute must also be case-insensitive
      * unique.
-     *                 Once an ad unit is created, its {@code name} cannot
-     * be changed.
+     *                 Beginning in V201311, this attribute can be updated.
+     * In versions before v201311, this attribute is read-only after creation.
      */
     public void setName(java.lang.String name) {
         this.name = name;
@@ -437,11 +439,13 @@ public class AdUnit  implements java.io.Serializable {
      * 
      * @return adUnitCode   * A string used to uniquely identify the ad unit for the purposes
      * of serving
-     *                 the ad. This attribute is read-only and is assigned
-     * by Google when an ad
-     *                 unit is created. Once an ad unit is created, its {@code
-     * adUnitCode} cannot
-     *                 be changed.
+     *                 the ad.
+     *                 Beginning in V201311, this attribute is optional and
+     * can be set during ad unit creation.
+     *                 Before V201311, this attribute is read-only and assigned
+     * by Google.
+     *                 Once an ad unit is created, its {@code adUnitCode}
+     * cannot be changed.
      */
     public java.lang.String getAdUnitCode() {
         return adUnitCode;
@@ -453,11 +457,13 @@ public class AdUnit  implements java.io.Serializable {
      * 
      * @param adUnitCode   * A string used to uniquely identify the ad unit for the purposes
      * of serving
-     *                 the ad. This attribute is read-only and is assigned
-     * by Google when an ad
-     *                 unit is created. Once an ad unit is created, its {@code
-     * adUnitCode} cannot
-     *                 be changed.
+     *                 the ad.
+     *                 Beginning in V201311, this attribute is optional and
+     * can be set during ad unit creation.
+     *                 Before V201311, this attribute is read-only and assigned
+     * by Google.
+     *                 Once an ad unit is created, its {@code adUnitCode}
+     * cannot be changed.
      */
     public void setAdUnitCode(java.lang.String adUnitCode) {
         this.adUnitCode = adUnitCode;

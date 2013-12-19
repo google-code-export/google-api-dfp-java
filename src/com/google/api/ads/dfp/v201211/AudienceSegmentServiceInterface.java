@@ -10,7 +10,7 @@ package com.google.api.ads.dfp.v201211;
 public interface AudienceSegmentServiceInterface extends java.rmi.Remote {
 
     /**
-     * Gets a {@link AudienceSegmentPage} of {@link AudienceSegment}
+     * Gets an {@link AudienceSegmentPage} of {@link AudienceSegment}
      * objects that satisfy the given
      *         {@link Statement#query}. The following fields are supported
      * for filtering:

@@ -16,11 +16,13 @@ package com.google.api.ads.dfp.v201208;
  *             unit. This type is read-only.
  */
 public class SuggestedAdUnit  implements java.io.Serializable {
-    /* The unique ID of the suggested ad unit. This value is the complete
-     * path to the
-     *                 suggested ad unit with path elements separated by
-     * '/' characters. This attribute is
-     *                 read-only and is populated by Google. */
+    /* The unique ID of the suggested ad unit. After API version 201311
+     * this field will be a numerical
+     *                 ID. Earlier versions will return a string value which
+     * is the complete path to the suggested ad
+     *                 unit with path elements separated by '/' characters.
+     * This attribute is read-only and is
+     *                 populated by Google. */
     private java.lang.String id;
 
     /* Returns the number of times the ad tag corresponding to this
@@ -76,11 +78,13 @@ public class SuggestedAdUnit  implements java.io.Serializable {
     /**
      * Gets the id value for this SuggestedAdUnit.
      * 
-     * @return id   * The unique ID of the suggested ad unit. This value is the complete
-     * path to the
-     *                 suggested ad unit with path elements separated by
-     * '/' characters. This attribute is
-     *                 read-only and is populated by Google.
+     * @return id   * The unique ID of the suggested ad unit. After API version 201311
+     * this field will be a numerical
+     *                 ID. Earlier versions will return a string value which
+     * is the complete path to the suggested ad
+     *                 unit with path elements separated by '/' characters.
+     * This attribute is read-only and is
+     *                 populated by Google.
      */
     public java.lang.String getId() {
         return id;
@@ -90,11 +94,13 @@ public class SuggestedAdUnit  implements java.io.Serializable {
     /**
      * Sets the id value for this SuggestedAdUnit.
      * 
-     * @param id   * The unique ID of the suggested ad unit. This value is the complete
-     * path to the
-     *                 suggested ad unit with path elements separated by
-     * '/' characters. This attribute is
-     *                 read-only and is populated by Google.
+     * @param id   * The unique ID of the suggested ad unit. After API version 201311
+     * this field will be a numerical
+     *                 ID. Earlier versions will return a string value which
+     * is the complete path to the suggested ad
+     *                 unit with path elements separated by '/' characters.
+     * This attribute is read-only and is
+     *                 populated by Google.
      */
     public void setId(java.lang.String id) {
         this.id = id;

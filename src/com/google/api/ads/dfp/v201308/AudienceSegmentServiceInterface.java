@@ -20,7 +20,7 @@ public interface AudienceSegmentServiceInterface extends java.rmi.Remote {
     public com.google.api.ads.dfp.v201308.FirstPartyAudienceSegment[] createAudienceSegments(com.google.api.ads.dfp.v201308.FirstPartyAudienceSegment[] segments) throws java.rmi.RemoteException, com.google.api.ads.dfp.v201308.ApiException;
 
     /**
-     * Gets a {@link AudienceSegmentPage} of {@link AudienceSegment}
+     * Gets an {@link AudienceSegmentPage} of {@link AudienceSegment}
      * objects that satisfy the given
      *         {@link Statement#query}. The following fields are supported
      * for filtering:
@@ -98,7 +98,7 @@ public interface AudienceSegmentServiceInterface extends java.rmi.Remote {
     public com.google.api.ads.dfp.v201308.UpdateResult performAudienceSegmentAction(com.google.api.ads.dfp.v201308.AudienceSegmentAction action, com.google.api.ads.dfp.v201308.Statement filterStatement) throws java.rmi.RemoteException, com.google.api.ads.dfp.v201308.ApiException;
 
     /**
-     * Updated the given {@link RuleBasedFirstPartyAudienceSegment}
+     * Updates the given {@link RuleBasedFirstPartyAudienceSegment}
      * objects.
      *         
      *         

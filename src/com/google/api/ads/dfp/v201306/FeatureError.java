@@ -9,7 +9,10 @@ package com.google.api.ads.dfp.v201306;
 
 
 /**
- * Errors related to features.
+ * Errors related to feature management.  If you attempt using a feature
+ * that is not available to
+ *             the current network you'll receive a FeatureError with
+ * the missing feature as the trigger.
  */
 public class FeatureError  extends com.google.api.ads.dfp.v201306.ApiError  implements java.io.Serializable {
     private com.google.api.ads.dfp.v201306.FeatureErrorReason reason;

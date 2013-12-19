@@ -80,8 +80,8 @@ public class ProposalLineItem  implements java.io.Serializable {
      * impressions for
      *                 the {@code ProposalLineItem}, it depends on {@link
      * #lineItemType} and
-     *                 {@link #costType}. This attribute is required and
-     * must be greater than 0
+     *                 {@link Product#rateType}. This attribute is required
+     * and must be greater than 0
      *                 when the proposal line item turns into a line item. */
     private java.lang.Long unitsBought;
 
@@ -200,7 +200,7 @@ public class ProposalLineItem  implements java.io.Serializable {
 
     /* The method used for billing the {@code ProposalLineItem}. This
      * attribute is
-     *                 optional and default value is {@link CostType#CPM}. */
+     *                 readonly. */
     private com.google.api.ads.dfp.v201308.CostType costType;
 
     /* Details about the creatives that are expected to serve through
@@ -673,8 +673,8 @@ public class ProposalLineItem  implements java.io.Serializable {
      * impressions for
      *                 the {@code ProposalLineItem}, it depends on {@link
      * #lineItemType} and
-     *                 {@link #costType}. This attribute is required and
-     * must be greater than 0
+     *                 {@link Product#rateType}. This attribute is required
+     * and must be greater than 0
      *                 when the proposal line item turns into a line item.
      */
     public java.lang.Long getUnitsBought() {
@@ -689,8 +689,8 @@ public class ProposalLineItem  implements java.io.Serializable {
      * impressions for
      *                 the {@code ProposalLineItem}, it depends on {@link
      * #lineItemType} and
-     *                 {@link #costType}. This attribute is required and
-     * must be greater than 0
+     *                 {@link Product#rateType}. This attribute is required
+     * and must be greater than 0
      *                 when the proposal line item turns into a line item.
      */
     public void setUnitsBought(java.lang.Long unitsBought) {
@@ -1049,7 +1049,7 @@ public class ProposalLineItem  implements java.io.Serializable {
      * 
      * @return costType   * The method used for billing the {@code ProposalLineItem}. This
      * attribute is
-     *                 optional and default value is {@link CostType#CPM}.
+     *                 readonly.
      */
     public com.google.api.ads.dfp.v201308.CostType getCostType() {
         return costType;
@@ -1061,7 +1061,7 @@ public class ProposalLineItem  implements java.io.Serializable {
      * 
      * @param costType   * The method used for billing the {@code ProposalLineItem}. This
      * attribute is
-     *                 optional and default value is {@link CostType#CPM}.
+     *                 readonly.
      */
     public void setCostType(com.google.api.ads.dfp.v201308.CostType costType) {
         this.costType = costType;

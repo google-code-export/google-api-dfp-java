@@ -17,12 +17,8 @@ public class FeatureErrorReason implements java.io.Serializable {
         _table_.put(_value_,this);
     }
 
-    public static final java.lang.String _MISSING_DEPENDENCIES = "MISSING_DEPENDENCIES";
-    public static final java.lang.String _MISSING_DEPENDENCIES_WITH_DETAILS = "MISSING_DEPENDENCIES_WITH_DETAILS";
     public static final java.lang.String _MISSING_FEATURE = "MISSING_FEATURE";
     public static final java.lang.String _UNKNOWN = "UNKNOWN";
-    public static final FeatureErrorReason MISSING_DEPENDENCIES = new FeatureErrorReason(_MISSING_DEPENDENCIES);
-    public static final FeatureErrorReason MISSING_DEPENDENCIES_WITH_DETAILS = new FeatureErrorReason(_MISSING_DEPENDENCIES_WITH_DETAILS);
     public static final FeatureErrorReason MISSING_FEATURE = new FeatureErrorReason(_MISSING_FEATURE);
     public static final FeatureErrorReason UNKNOWN = new FeatureErrorReason(_UNKNOWN);
     public java.lang.String getValue() { return _value_;}
